@@ -20,17 +20,45 @@
 		<li>dord.nuditymattersmore</li>
 		<li>shark510.nuditymattersmoreopinions</li>
 	</loadAfter>
-	<description>「Nudity Matters More opinions」的完整简体中文汉化。
+	<description>给模组「Nudity Matters More opinions」的完整简体中文汉化。
 
-【修复】原现成汉化把翻译放进了 DefInjected\Def\ 目录，而该模组的看法使用自定义
-Def 类型 NudityMattersMore_opinions.OpinionDef_SexPart。RimWorld 按 Def 类型目录
-加载翻译，类型对不上就整批忽略 —— 所以游戏里看法内容一直是英文。本汉化把译文放进
-正确的类型目录，使其真正生效。
+【这是什么】
+原模组的殖民者之间有大量跟身体、穿着、裸露有关的看法，会互相影响好感度，
+但文字全是英文。本汉化把它们全部翻成中文。
+它只是语言包，本身不含任何游戏内容，必须先装原模组才有意义。
 
-【内容】
-· 身体部位看法正文（opinionTexts）  12.3 万条，覆盖 5082 个 Def
-· 看法条目名称（label）              3690 条
-· 互动日志（InteractionDef）          128 条
+【汉化了哪些地方】
+· 看法正文            123,021 条（社交界面里那一条条具体的评价文字）
+· 看法条目名称          3,690 条
+· 互动日志              128 条
+· 其余看法条目          5,615 条
+  合计 132,454 个翻译键，覆盖 5,082 个 Def
 
-不修改任何原始模组文件。</description>
+【怎么装】
+1. 先把前置模组装好：Nudity Matters More + Nudity Matters More opinions
+2. 解压本汉化，把「裸体评价更多看法-简体汉化」整个文件夹放进 RimWorld 的 Mods 目录
+3. 在游戏「模组」页面勾选启用它，排在原模组之后
+   （About.xml 已声明 loadAfter，正常情况下游戏会自动排好）
+4. 完全退出游戏再重进
+不需要新开档，旧存档读进去直接就是中文。
+
+【注意事项】
+· 必须装前置模组，单独装本汉化没有任何作用
+· 翻译改动只在游戏启动时加载一次，必须完全退出重进，回主菜单不算
+· 因译文量极大（13.2 万个键），游戏启动加载模组时会多花约 2.5 分钟。
+  这只发生在启动时一次，不影响游戏运行时的帧数、存档加载速度和日常流畅度。
+  这是游戏引擎加载翻译的固有开销，已逐一实测确认无法规避。
+· 纯文本文件，不含代码，不修改原模组任何文件，卸载不留残留
+
+【修复了什么】
+现成的翻译包把译文放进了 DefInjected\Def\ 目录，而本模组的看法用的是自定义
+Def 类型 NudityMattersMore_opinions.OpinionDef_SexPart。RimWorld 是按 Def
+类型目录名加载翻译的，类型对不上就整批静默丢弃 —— 不报错、不提示、日志里
+一个字都没有，所以游戏里一直是英文。本汉化把译文放进正确的类型目录，并把
+从来没有被翻译过的正文（字符串列表，需用带下标的键名逐条写）全部译出。
+全部 123,021 个下标已逐条核对，落在合法范围内且完全连续无缺口 ——
+下标一旦越界会抛异常，导致整个翻译包失效。
+
+项目主页与问题反馈（含自检工具）：
+https://github.com/1579486875/NudityMattersMoreOpinions-CN</description>
 </ModMetaData>
