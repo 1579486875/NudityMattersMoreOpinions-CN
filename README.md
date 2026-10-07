@@ -198,8 +198,10 @@ RimWorld 加载翻译时有一段 **O(N²)** 的重复键检查
 
 ## 目录结构
 
+发布 zip 解压后的结构（顶层文件夹名就是「裸体评价更多看法-简体汉化」）：
+
 ```
-NudityMattersMoreOpinions-CN\
+裸体评价更多看法-简体汉化\
 ├── About\
 │   └── About.xml                              模组元数据
 ├── Languages\ChineseSimplified\DefInjected\
@@ -212,16 +214,17 @@ NudityMattersMoreOpinions-CN\
 │       └── Interactions.xml                            互动日志
 ├── tools\
 │   └── verify_patch.py                        自检工具（7 项检查）
-├── 汉化说明.md                                 中文说明（同 README）
+├── 汉化说明.md                                 中文说明
 ├── README.md
 └── LICENSE
 ```
 
+git 仓库里另有两样**不随 zip 分发**的开发用文件：
+`packing\pack_release.py`（打包脚本）与 `.gitattributes`（字节保真声明）。
+
 每个 XML 分片里都写了中文注释，说明这个文件是干什么的、每一行怎么读、
 **为什么必须一条条写而不能整个列表一起写**、以及修改时不能碰哪些东西
 （键名、`{...}` 占位符、`[...]`、`& < >` 转义）。用词面向非程序员。
-
----
 
 ## 许可
 

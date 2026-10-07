@@ -13,3 +13,6 @@ tools/*.log
 *.bak
 Thumbs.db
 desktop.ini
+
+# 打包产物（zip 不入库，通过 GitHub Release 分发）
+packing/*.zip
