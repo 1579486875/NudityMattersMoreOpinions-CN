@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>裸体评价更多看法 简体汉化</name>
+	<author>大赢经直插白皮赢道</author>
+	<packageId>shark510.nuditymattersmoreopinions.zhfix</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>dord.nuditymattersmore</packageId>
+			<displayName>Nudity Matters More</displayName>
+		</li>
+		<li>
+			<packageId>shark510.nuditymattersmoreopinions</packageId>
+			<displayName>Nudity Matters More opinions</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>dord.nuditymattersmore</li>
+		<li>shark510.nuditymattersmoreopinions</li>
+	</loadAfter>
+	<description>「Nudity Matters More opinions」的完整简体中文汉化。
+
+【修复】原现成汉化把翻译放进了 DefInjected\Def\ 目录，而该模组的看法使用自定义
+Def 类型 NudityMattersMore_opinions.OpinionDef_SexPart。RimWorld 按 Def 类型目录
+加载翻译，类型对不上就整批忽略 —— 所以游戏里看法内容一直是英文。本汉化把译文放进
+正确的类型目录，使其真正生效。
+
+【内容】
+· 身体部位看法正文（opinionTexts）  12.3 万条，覆盖 5082 个 Def
+· 看法条目名称（label）              3690 条
+· 互动日志（InteractionDef）          128 条
+
+不修改任何原始模组文件。</description>
+</ModMetaData>

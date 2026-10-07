@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 自检工具运行时可能生成的输出
+tools/backup/
+tools/notes/
+tools/*.log
+
+# 临时文件与系统垃圾
+*.tmp
+*.bak
+Thumbs.db
+desktop.ini
