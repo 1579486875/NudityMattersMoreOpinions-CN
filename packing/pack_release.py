@@ -3,11 +3,11 @@
 打包脚本 —— 把本仓库做成一个可以直接扔进 RimWorld Mods 目录的 zip。
 
 怎么用（在 packing 目录里执行）：
-    python pack_release.py            # 打包 1.0.0 版
+    python pack_release.py            # 打包 1.0.1 版
     python pack_release.py 1.0.1      # 打包 1.0.1 版
 
 打完会在 packing 目录下生成一个 zip，文件名形如
-    NudityMattersMoreOpinions-CN-v1.0.0.zip
+    NudityMattersMoreOpinions-CN-v1.0.1.zip
 
 zip 里有一个名为「裸体评价更多看法-简体汉化」的顶层文件夹，
 玩家解压后把这个文件夹整个放进 RimWorld 的 Mods 目录即可。
@@ -20,7 +20,7 @@ import sys
 import zipfile
 
 # ── 可调参数 ────────────────────────────────────────────────
-VERSION = sys.argv[1] if len(sys.argv) > 1 else "1.0.0"
+VERSION = sys.argv[1] if len(sys.argv) > 1 else "1.0.1"
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)              # 仓库根 = packing 的上一级
