@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    ═══════════════════════════════════════════════════════════════
+    前置模组「Nudity Matters More（裸体评价）」简体中文
+    ═══════════════════════════════════════════════════════════════
+    本文件由「裸体评价更多看法 简体汉化」随包提供。
+    这样做是为了让本汉化包**自包含** —— 只要装了原版前置模组，
+    不管是英文原版还是别人做的汉化版，装上本包都能显示完整中文。
+    我们不修改前置模组的任何文件，所有文字都通过「翻译文件覆盖」实现。
+  -->
+  <BadBra.stages.uncomfortable_bra.label>不适的胸罩</BadBra.stages.uncomfortable_bra.label>
+  <BadBra.stages.uncomfortable_bra.description>我必须不停地调整它。</BadBra.stages.uncomfortable_bra.description>
+  <BadBraPrude.stages.useless_bra.label>无用的胸罩</BadBraPrude.stages.useless_bra.label>
+  <BadBraPrude.stages.useless_bra.description>我得不停地检查它。</BadBraPrude.stages.useless_bra.description>
+  <BadBraSevere.stages.uncomfortable_bra.label>不适的胸罩</BadBraSevere.stages.uncomfortable_bra.label>
+  <BadBraSevere.stages.uncomfortable_bra.description>我要从这愚蠢的玩意中解脱出来。</BadBraSevere.stages.uncomfortable_bra.description>
+  <BadBraSeverePrude.stages.useless_bra.label>无用的胸罩</BadBraSeverePrude.stages.useless_bra.label>
+  <BadBraSeverePrude.stages.useless_bra.description>我害怕我的乳头会冒出来。</BadBraSeverePrude.stages.useless_bra.description>
+  <Braless.stages.not_wearing_a_bra.label>没穿胸罩</Braless.stages.not_wearing_a_bra.label>
+  <Braless.stages.not_wearing_a_bra.description>这样更好。</Braless.stages.not_wearing_a_bra.description>
+  <BralessPrude.stages.not_wearing_a_bra.label>没穿胸罩</BralessPrude.stages.not_wearing_a_bra.label>
+  <BralessPrude.stages.not_wearing_a_bra.description>我这样太暴露了。</BralessPrude.stages.not_wearing_a_bra.description>
+  <BralessSevere.stages.not_wearing_a_bra.label>没穿胸罩</BralessSevere.stages.not_wearing_a_bra.label>
+  <BralessSevere.stages.not_wearing_a_bra.description>它只是对我没用</BralessSevere.stages.not_wearing_a_bra.description>
+  <BralessSeverePrude.stages.not_wearing_a_bra.label>没穿胸罩</BralessSeverePrude.stages.not_wearing_a_bra.label>
+  <BralessSeverePrude.stages.not_wearing_a_bra.description>我知道每个人都能看到。</BralessSeverePrude.stages.not_wearing_a_bra.description>
+  <GoodBra.stages.decent_bra.label>体面的胸罩</GoodBra.stages.decent_bra.label>
+  <GoodBra.stages.decent_bra.description>其实挺合身的。</GoodBra.stages.decent_bra.description>
+  <GoodBraPrude.stages.secure_bra.label>安全的胸罩</GoodBraPrude.stages.secure_bra.label>
+  <GoodBraPrude.stages.secure_bra.description>我安然无恙。</GoodBraPrude.stages.secure_bra.description>
+  <GoodBraSevere.stages.decent_bra.label>体面的胸罩</GoodBraSevere.stages.decent_bra.label>
+  <GoodBraSevere.stages.decent_bra.description>他们是怎么做出适合我的东西的。</GoodBraSevere.stages.decent_bra.description>
+  <GoodBraSeverePrude.stages.secure_bra.label>安全的胸罩</GoodBraSeverePrude.stages.secure_bra.label>
+  <GoodBraSeverePrude.stages.secure_bra.description>我把我的命都交在它手里了。</GoodBraSeverePrude.stages.secure_bra.description>
+  <WearingCorset.stages.wearing_a_corset.label>穿紧身胸衣</WearingCorset.stages.wearing_a_corset.label>
+  <WearingCorset.stages.wearing_a_corset.description>这个戴在我身上感觉很好。</WearingCorset.stages.wearing_a_corset.description>
+  <WearingCorsetPrude.stages.wearing_a_corset.label>穿紧身胸衣</WearingCorsetPrude.stages.wearing_a_corset.label>
+  <WearingCorsetPrude.stages.wearing_a_corset.description>我感到克制。</WearingCorsetPrude.stages.wearing_a_corset.description>
+  <WearingCorsetSevere.stages.wearing_a_corset.label>穿紧身胸衣</WearingCorsetSevere.stages.wearing_a_corset.label>
+  <WearingCorsetSevere.stages.wearing_a_corset.description>我的胸部看起来美极了。</WearingCorsetSevere.stages.wearing_a_corset.description>
+  <WearingCorsetSeverePrude.stages.wearing_a_corset.label>穿紧身胸衣</WearingCorsetSeverePrude.stages.wearing_a_corset.label>
+  <WearingCorsetSeverePrude.stages.wearing_a_corset.description>感觉就像要蹦出来一样。</WearingCorsetSeverePrude.stages.wearing_a_corset.description>
+</LanguageData>

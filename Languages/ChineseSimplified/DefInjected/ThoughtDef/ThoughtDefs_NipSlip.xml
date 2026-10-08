@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    ═══════════════════════════════════════════════════════════════
+    前置模组「Nudity Matters More（裸体评价）」简体中文
+    ═══════════════════════════════════════════════════════════════
+    本文件由「裸体评价更多看法 简体汉化」随包提供。
+    这样做是为了让本汉化包**自包含** —— 只要装了原版前置模组，
+    不管是英文原版还是别人做的汉化版，装上本包都能显示完整中文。
+    我们不修改前置模组的任何文件，所有文字都通过「翻译文件覆盖」实现。
+  -->
+  <NegativeHelped.stages.told_me_my_nipple_was_out.label>{0} 说我的乳头露出来了</NegativeHelped.stages.told_me_my_nipple_was_out.label>
+  <NegativeHelped.stages.told_me_my_nipple_was_out.description>太丢人了。</NegativeHelped.stages.told_me_my_nipple_was_out.description>
+  <NegativeHelpedPrude.stages.told_me_my_nipple_was_out.label>{0} 说我的乳头露出来了</NegativeHelpedPrude.stages.told_me_my_nipple_was_out.label>
+  <NegativeHelpedPrude.stages.told_me_my_nipple_was_out.description>我想找个洞钻进去。</NegativeHelpedPrude.stages.told_me_my_nipple_was_out.description>
+  <PositiveHelped.stages.told_me_my_nipple_was_out.label>{0} 说我的乳头露出来了</PositiveHelped.stages.told_me_my_nipple_was_out.label>
+  <PositiveHelped.stages.told_me_my_nipple_was_out.description>这太尴尬了。</PositiveHelped.stages.told_me_my_nipple_was_out.description>
+  <PositiveHelpedPrude.stages.told_me_my_nipple_was_out.label>{0}说我的乳头露出来了</PositiveHelpedPrude.stages.told_me_my_nipple_was_out.label>
+  <PositiveHelpedPrude.stages.told_me_my_nipple_was_out.description>我不敢看他们的眼睛了。</PositiveHelpedPrude.stages.told_me_my_nipple_was_out.description>
+  <SlipACannotFixPrude.stages.my_top_is_slipping.label>我的上衣在滑落</SlipACannotFixPrude.stages.my_top_is_slipping.label>
+  <SlipACannotFixPrude.stages.my_top_is_slipping.description>我的乳头随时都可能露出来。</SlipACannotFixPrude.stages.my_top_is_slipping.description>
+  <SlipAFixedPrude.stages.had_to_fix_my_top.label>我的上衣需要修复</SlipAFixedPrude.stages.had_to_fix_my_top.label>
+  <SlipAFixedPrude.stages.had_to_fix_my_top.description>我的乳头几乎要露出来了。</SlipAFixedPrude.stages.had_to_fix_my_top.description>
+  <SlipBAwareNoCare.stages.my_nipple_is_out.label>我的乳头露出来了</SlipBAwareNoCare.stages.my_nipple_is_out.label>
+  <SlipBAwareNoCare.stages.my_nipple_is_out.description>我一向是无所谓的。</SlipBAwareNoCare.stages.my_nipple_is_out.description>
+  <SlipBCannotFix.stages.my_nipple_is_out.label>我的乳头露出来了</SlipBCannotFix.stages.my_nipple_is_out.label>
+  <SlipBCannotFix.stages.my_nipple_is_out.description>我没办法。</SlipBCannotFix.stages.my_nipple_is_out.description>
+  <SlipBCannotFixPrude.stages.my_nipple_is_out.label>我的乳头露出来了</SlipBCannotFixPrude.stages.my_nipple_is_out.label>
+  <SlipBCannotFixPrude.stages.my_nipple_is_out.description>我毫无办法。</SlipBCannotFixPrude.stages.my_nipple_is_out.description>
+  <SlipBFixed.stages.my_nipple_was_out.label>我的乳头是暴露的</SlipBFixed.stages.my_nipple_was_out.label>
+  <SlipBFixed.stages.my_nipple_was_out.description>我需要更好的衣服。</SlipBFixed.stages.my_nipple_was_out.description>
+  <SlipBFixedPrude.stages.my_nipple_was_out.label>我的乳头是暴露的</SlipBFixedPrude.stages.my_nipple_was_out.label>
+  <SlipBFixedPrude.stages.my_nipple_was_out.description>希望不会有人看见。</SlipBFixedPrude.stages.my_nipple_was_out.description>
+  <SlipBUnaware.stages.I_feel_a_breeze.label>我能感到微风吹过</SlipBUnaware.stages.I_feel_a_breeze.label>
+  <SlipBUnaware.stages.I_feel_a_breeze.description>这不应该有</SlipBUnaware.stages.I_feel_a_breeze.description>
+  <SlipCAwareNoCare.stages.my_breast_is_out.label>我的乳房露出来了</SlipCAwareNoCare.stages.my_breast_is_out.label>
+  <SlipCAwareNoCare.stages.my_breast_is_out.description>我懒得在意。</SlipCAwareNoCare.stages.my_breast_is_out.description>
+  <SlipCCannotFix.stages.my_breast_is_out.label>我的乳房露出来了</SlipCCannotFix.stages.my_breast_is_out.label>
+  <SlipCCannotFix.stages.my_breast_is_out.description>我无能为力。</SlipCCannotFix.stages.my_breast_is_out.description>
+  <SlipCCannotFixPrude.stages.my_breast_is_out.label>我的乳房露出来了</SlipCCannotFixPrude.stages.my_breast_is_out.label>
+  <SlipCCannotFixPrude.stages.my_breast_is_out.description>我无能为力。</SlipCCannotFixPrude.stages.my_breast_is_out.description>
+  <SlipCFixed.stages.my_breast_was_out.label>我的乳房是暴露的</SlipCFixed.stages.my_breast_was_out.label>
+  <SlipCFixed.stages.my_breast_was_out.description>我需要更好的衣服。</SlipCFixed.stages.my_breast_was_out.description>
+  <SlipCFixedPrude.stages.my_breast_was_out.label>我的乳房是暴露的</SlipCFixedPrude.stages.my_breast_was_out.label>
+  <SlipCFixedPrude.stages.my_breast_was_out.description>有多久了…</SlipCFixedPrude.stages.my_breast_was_out.description>
+  <SlipCUnaware.stages.I_feel_a_breeze.label>我能感到微风吹过</SlipCUnaware.stages.I_feel_a_breeze.label>
+  <SlipCUnaware.stages.I_feel_a_breeze.description>有种如释重负的轻松。。</SlipCUnaware.stages.I_feel_a_breeze.description>
+  <SlipFixedCover.stages.cant_keep_my_breasts_covered.label>我的胸部无法遮住</SlipFixedCover.stages.cant_keep_my_breasts_covered.label>
+  <SlipFixedCover.stages.cant_keep_my_breasts_covered.description>肯定有人看见了。</SlipFixedCover.stages.cant_keep_my_breasts_covered.description>
+  <SlipFixedCoverPrude.stages.cant_keep_my_breasts_covered.label>我的胸部无法遮住</SlipFixedCoverPrude.stages.cant_keep_my_breasts_covered.label>
+  <SlipFixedCoverPrude.stages.cant_keep_my_breasts_covered.description>真希望没有人看到。</SlipFixedCoverPrude.stages.cant_keep_my_breasts_covered.description>
+</LanguageData>

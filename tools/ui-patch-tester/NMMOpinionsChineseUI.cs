@@ -20,6 +20,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
+using System.Text.RegularExpressions;
 using HarmonyLib;
 using Verse;
 
@@ -55,6 +56,30 @@ namespace NMMOpinionsChineseUI
                           transpiler: nameof(Patches.Russian_Transpiler));
             n += TryPatch(harmony, "NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches", "GetRelationsString",
                           transpiler: nameof(Patches.Russian_Transpiler));
+
+            // ⑤ 设置界面 —— 两个模组的设置窗口里的选项文字**全是硬编码英文**，
+            //    玩家打开「选项 → 模组设置」就会看到，必须翻。
+            //    这里用 Transpiler（启动时改一次常量），运行时零开销。
+            n += TryPatch(harmony, "NudityMattersMore.NMMSettings", "DoSettingsWindowContents",
+                          transpiler: nameof(Patches.Settings_Transpiler));
+            n += TryPatch(harmony, "NudityMattersMore.NMMSettings", "SettingsCategory",
+                          transpiler: nameof(Patches.Settings_Transpiler));
+            n += TryPatch(harmony, "NudityMattersMore_opinions.NudityMattersMore_opinions_ModSettings", "DrawGeneralSettings",
+                          transpiler: nameof(Patches.Settings_Transpiler));
+            n += TryPatch(harmony, "NudityMattersMore_opinions.NudityMattersMore_opinions_ModSettings", "DrawInteractionsSettings",
+                          transpiler: nameof(Patches.Settings_Transpiler));
+            n += TryPatch(harmony, "NudityMattersMore_opinions.NudityMattersMore_opinions_ModSettings", "SettingsCategory",
+                          transpiler: nameof(Patches.Settings_Transpiler));
+
+            // ⑥ 设置界面里「互动类型」复选框的名字 —— 那些名字是运行时从枚举取的，
+            //    Transpiler 抓不到，只能在 CheckboxLabeled 被调用时替换。
+            n += TryPatchAll(harmony, "Verse.Listing_Standard", "CheckboxLabeled",
+                             prefix: nameof(Patches.CheckboxLabeled_Prefix));
+
+            // ⑦ 屏幕消息（「XX 第一次看到 YY 裸体」这类，显示在左上角消息区）。
+            //    Messages.Message 有三个接收 string 的重载，必须全部挂上（用 TryPatchAll 批量找）。
+            n += TryPatchAll(harmony, "Verse.Messages", "Message",
+                             prefix: nameof(Patches.Messages_Prefix));
 
             if (n > 0)
                 Log.Message("[NMM 汉化] 界面补丁已应用，共处理 " + n + " 处。");
@@ -96,6 +121,59 @@ namespace NMMOpinionsChineseUI
                 return 0;
             }
         }
+
+        /// <summary>
+        /// 给**同名但重载多个**的方法批量装补丁。
+        ///
+        /// 为什么需要它：`AccessTools.Method(类型, 名字)` 在方法有多个重载时
+        /// 会抛 "Ambiguous match" 异常（Harmony 不知道你要哪个）。
+        /// 这里改成自己遍历，只挑**第一个参数是 string** 的那些重载 ——
+        /// 对 Messages.Message 和 Listing_Standard.CheckboxLabeled 都正好适用。
+        ///
+        /// 这样写还有个好处：以后原模组/游戏加了新的重载，也会自动被覆盖到，
+        /// 不用回来改代码。
+        /// </summary>
+        private static int TryPatchAll(Harmony harmony, string typeName, string methodName,
+                                       string prefix = null, string transpiler = null)
+        {
+            try
+            {
+                Type t = AccessTools.TypeByName(typeName);
+                if (t == null)
+                {
+                    Log.Warning("[NMM 汉化] 找不到类型：" + typeName);
+                    return 0;
+                }
+
+                int count = 0;
+                foreach (MethodInfo m in t.GetMethods(BindingFlags.Public | BindingFlags.NonPublic
+                                                      | BindingFlags.Static | BindingFlags.Instance
+                                                      | BindingFlags.DeclaredOnly))
+                {
+                    if (m.Name != methodName) continue;
+
+                    ParameterInfo[] ps = m.GetParameters();
+                    if (ps.Length == 0 || ps[0].ParameterType != typeof(string)) continue;
+
+                    Type self = typeof(Patches);
+                    if (prefix != null)
+                        harmony.Patch(m, prefix: new HarmonyMethod(self, prefix));
+                    if (transpiler != null)
+                        harmony.Patch(m, transpiler: new HarmonyMethod(self, transpiler));
+                    count++;
+                }
+
+                if (count == 0)
+                    Log.Warning("[NMM 汉化] " + typeName + "." + methodName + " 没有找到可挂的重载。");
+
+                return count;
+            }
+            catch (Exception e)
+            {
+                Log.Error("[NMM 汉化] 批量挂补丁失败 " + typeName + "." + methodName + "：" + e);
+                return 0;
+            }
+        }
     }
 
     /// <summary>实际干活的补丁方法。</summary>
@@ -134,6 +212,58 @@ namespace NMMOpinionsChineseUI
                 __result = b + " 对 " + a + " 的身体的看法：";
 
             return false;   // 跳过原方法
+        }
+
+        /// <summary>
+        /// 设置界面：把 IL 里的英文选项文字换成中文。
+        ///
+        /// 为什么用 Transpiler 而不是运行时替换：
+        ///   转译器是在**游戏启动、JIT 编译前**改掉常量，改完就固定在内存里，
+        ///   运行时一次判断都不做 —— 对性能零影响。
+        ///   设置窗口虽然调用不频繁，但这是最省的做法，也没有误伤别人的风险
+        ///   （只作用于我们明确指定的那几个方法）。
+        /// </summary>
+        public static IEnumerable<CodeInstruction> Settings_Transpiler(IEnumerable<CodeInstruction> codes)
+        {
+            if (!Zh.GameIsChinese()) return codes;
+            return Zh.RewriteSettings(codes);
+        }
+
+        /// <summary>
+        /// 屏幕消息（「XX 第一次看到 YY 裸体」之类）。
+        ///
+        /// 为什么这里改用运行时替换而不是 Transpiler：
+        ///   原模组是用内插字符串拼句子的，编译后变成
+        ///     string.Concat(名字, " saw ", 关系, " naked for the first time.")
+        ///   一堆碎片，而且**同一段碎片在两种语境里含义不同**
+        ///   （" saw " 在「第一次看到」和「隔了一阵子又看到」里都要用）。
+        ///   按碎片替换会把两种语境翻成同一句，语义就错了。
+        ///   所以在消息出口按**完整句子**用正则改写，既准确又安全。
+        ///
+        /// 性能：消息不是每帧调用的东西（一次事件才一条），正则开销可以忽略。
+        /// </summary>
+        public static void Messages_Prefix(ref string text)
+        {
+            if (!Zh.GameIsChinese()) return;
+            if (string.IsNullOrEmpty(text)) return;
+            string r = Zh.ApplyPatterns(text, Zh.MessagePatterns);
+            if (r != null) text = r;
+        }
+
+        /// <summary>
+        /// 设置界面里那些「互动类型」复选框。
+        /// 它们的文字是运行时从枚举取的名字（例如 "Shower"），Transpiler 够不着，只能在这里拦。
+        ///
+        /// 安全措施：只替换**确认是 NudityMattersMore.InteractionType 枚举成员**的名字
+        /// （用反射 Enum.IsDefined 判断），所以不可能误伤别的模组的同名文字。
+        /// </summary>
+        public static void CheckboxLabeled_Prefix(ref string label)
+        {
+            if (!Zh.GameIsChinese()) return;
+            if (string.IsNullOrEmpty(label)) return;
+            string zh;
+            if (Zh.InteractionTypeNames.TryGetValue(label, out zh))
+                label = zh;
         }
     }
 
@@ -268,6 +398,226 @@ namespace NMMOpinionsChineseUI
         };
 
         /// <summary>
+        /// 设置界面文字（两个模组的设置窗口都是**硬编码英文**，不经过游戏翻译系统）。
+        ///
+        /// 这一块玩家一定会看到 —— 打开「选项 → 模组设置 → 裸体评价」就是它。
+        /// 里面带 {0} 的条目是原模组用内插字符串拼出来的滑动条说明，
+        /// 编译器把它编译成了 string.Format 的格式串（例如 "... {0:F0}%"），
+        /// 所以这里保留 {0} 占位符原样，只翻前后文字。
+        /// </summary>
+        public static readonly Dictionary<string, string> SettingsText =
+            new Dictionary<string, string>(StringComparer.Ordinal)
+        {
+            // ══════════ 前置模组1「裸体评价」的设置窗口 ══════════
+            { "Nudity Matters More",                       "裸体评价" },          // 设置菜单里的分类名
+
+            { "Nip Slips",                                 "乳头走光" },
+            { "Melee attacks can strip",                   "近战攻击会扒掉衣服" },
+            { "Wet Shirts",                                "湿衣服" },
+            { "Drunk Stripping",                           "醉酒脱衣" },
+            { "Melee strip chance",                        "近战扒衣概率" },
+            { "Show Hands",                                "显示手部" },
+            { "Disable Nudity Notifications",              "关闭裸体通知" },
+            { "Armor doesn't strip",                       "护甲不会被扒掉" },
+            { "DBH sauna/swimming/hottub is naked",        "DBH 桑拿／游泳／热水浴缸视为赤裸" },
+            { "Extra Prude Behaviors (more covering)",     "额外拘谨行为（更多遮盖）" },
+            { "Ignore family",                             "忽略家人" },
+            { "Biosculpter requires nudity",               "生物塑型舱要求裸体" },
+            { "Flash effect for prudes",                   "拘谨者的闪白效果" },
+            { "Flash effect more often",                   "更频繁的闪白效果" },
+            { "Bra thoughts",                              "胸罩想法" },
+            { "Disable futa/trap menus",                   "关闭扶他／伪娘菜单" },
+            { "Disable Nudity Tab",                        "关闭裸体标签页" },
+            { "CoverBody Debug Messages",                  "遮体调试消息" },
+            { "Interaction Debug Messages",                "互动调试消息" },
+            { "Nip Slip Debug Messages",                   "走光调试消息" },
+            { "History Debug Messages",                    "历史调试消息" },
+            { "Melee Strip Debug Messages",                "近战扒衣调试消息" },
+            { "Wet Shirt Debug Messages",                  "湿衣调试消息" },
+            { "Slip Faster [NIP SLIP DEBUG]",              "加快走光 [走光调试]" },
+            { "Never Check [NIP SLIP DEBUG]",              "永不检查 [走光调试]" },
+            { "Prudes break faster [DEBUG]",               "拘谨者更快崩溃 [调试]" },
+            { "MessageDef test [DEBUG]",                   "消息定义测试 [调试]" },
+
+            // ══════════ 前置模组2「更多看法」的设置窗口 ══════════
+            { "Nudity Matters More: Opinions",             "裸体评价：更多看法" },  // 设置菜单分类名
+
+            { "NMM Opinions Generator Settings",           "NMM 看法生成器设置" },
+            { "Use situational opinion generator",         "启用情境看法生成器" },
+            { "If disabled, only predefined opinions will be displayed. Default true.",
+              "关闭后只显示预设看法。默认开启。" },
+            { "Chance of generated opinion: {0:F0}%",      "生成看法的概率：{0:F0}%" },
+
+            { "Fixation Log Commentary Settings",          "迷恋日志评论设置" },
+            { "Enable pawn commentary on observed actions", "启用角色对所见过行为的评论" },
+            { "Enables pawns to comment on what they see. Requires the 'SpeakUp' mod. Default: true.",
+              "让角色对看到的事情发表评论。需要 SpeakUp 模组。默认开启。" },
+            { "Commentary Cooldown: {0:F0} sec",           "评论冷却：{0:F0} 秒" },
+            { "Max Simultaneous Opinions: {0}",            "同时最多看法数：{0}" },
+            { "Allow comment on pawn in same state",       "允许评论处于相同状态的角色" },
+            { "If enabled, a naked pawn can comment on another naked pawn, etc. Default: false.",
+              "开启后，赤裸的角色也能评论另一个赤裸的角色。默认关闭。" },
+            { "Enable pawn commentary on observed actions ('SpeakUp' mod not found, feature disabled)",
+              "启用角色对所见过行为的评论（未找到 SpeakUp 模组，功能已禁用）" },
+
+            { "Debugging",                                 "调试" },
+            { "Enable debug logging",                      "启用调试日志" },
+            { "Shows detailed logs in the console for debugging purposes. It is recommended to keep this disabled during normal play. Default: false.",
+              "在控制台输出详细日志，便于排查问题。正常游玩时建议关闭。默认关闭。" },
+            { "Reset all settings to default",             "恢复所有默认设置" },
+
+            { "Problematic Interactions",                  "有问题的互动" },
+            { "If these interactions enabled, descriptions from other mods may look incorrect.",
+              "启用这些互动后，其它模组的描述可能显示不正确。" },
+            { "Other Commentaries",                        "其它评论" },
+        };
+
+        /// <summary>
+        /// 设置界面里那些**运行时才拼出来**的文字 —— Transpiler 够不着，只能用正则兜底。
+        /// 例如「Enable/disable commentary for the 'Shower' interaction.」里的 Shower 是枚举变量。
+        /// </summary>
+        private static readonly List<KeyValuePair<Regex, string>> SettingsPatterns =
+            new List<KeyValuePair<Regex, string>>
+        {
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^Enable/disable commentary for the '(.+)' interaction\.$"),
+                "是否启用「$1」互动的评论。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^Chance of generated opinion: (.+)%$"),
+                "生成看法的概率：$1%"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^Commentary Cooldown: (.+) sec$"),
+                "评论冷却：$1 秒"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^Max Simultaneous Opinions: (\d+)$"),
+                "同时最多看法数：$1"),
+        };
+
+        /// <summary>
+        /// 设置界面里「互动类型」复选框的名字。
+        /// 这些名字来自前置模组1 的枚举（运行时代码里拿到的就是这些英文名），
+        /// Transpiler 抓不到，只能在 CheckboxLabeled 被调用时替换。
+        ///
+        /// 安全说明：只会替换**下面这张表里精确匹配**的词，而且这些词本来就是它，
+        /// 不会误伤别的模组（别的模组不会用 "MedicalFullViewer" 这种词当复选框标题）。
+        /// </summary>
+        public static readonly Dictionary<string, string> InteractionTypeNames =
+            new Dictionary<string, string>(StringComparer.Ordinal)
+        {
+            { "Covering",              "遮盖" },
+            { "Naked",                 "赤裸" },
+            { "Topless",               "上身赤裸" },
+            { "Bottomless",            "下身赤裸" },
+            { "Sex",                   "性行为" },
+            { "Masturbation",          "自慰" },
+            { "Rape",                  "强奸" },
+            { "Raped",                 "被强奸" },
+            { "Shower",                "淋浴" },
+            { "Bath",                  "泡澡" },
+            { "Sauna",                 "桑拿" },
+            { "Swimming",              "游泳" },
+            { "HotTub",                "热水浴缸" },
+            { "NipSlip",               "乳头走光" },
+            { "BreastSlip",            "乳房走光" },
+            { "AreolaSlip",            "乳晕走光" },
+            { "NipSlipHelp",           "帮忙整理走光" },
+            { "Biopod",                "生物舱" },
+            { "Changing",              "换衣" },
+            { "WetShirt",              "湿衣服" },
+            { "Breastfeed",            "哺乳" },
+            { "SelfMilk",              "自挤奶" },
+            { "Milk",                  "挤奶" },
+            { "MedicalFull",           "全裸医疗" },
+            { "MedicalTop",            "上身赤裸医疗" },
+            { "MedicalBottom",         "下身赤裸医疗" },
+            { "MedicalFullViewer",     "全裸医疗（旁观）" },
+            { "MedicalTopViewer",      "上身赤裸医疗（旁观）" },
+            { "MedicalBottomViewer",   "下身赤裸医疗（旁观）" },
+            { "MedicalFullSelf",       "全裸医疗（自己）" },
+            { "MedicalTopSelf",        "上身赤裸医疗（自己）" },
+            { "MedicalBottomSelf",     "下身赤裸医疗（自己）" },
+            { "Surgery",               "手术" },
+            { "SurgeryViewer",         "手术（旁观）" },
+            { "HumanArtTop",           "人体艺术（上身）" },
+            { "HumanArtBottom",        "人体艺术（下身）" },
+            { "HumanArtFull",          "人体艺术（全裸）" },
+            { "None",                  "无" },
+        };
+
+        /// <summary>
+        /// 屏幕消息的改写规则（「XX 第一次看到 YY 裸体」这类）。
+        ///
+        /// 这些消息由前置模组1 生成，显示在屏幕左上角消息区，玩家一定会看到。
+        /// 原模组用内插字符串拼句子，编译后是一堆碎片，改 IL 会把不同语境混成同一句
+        /// （" saw " 在「第一次看到」和「隔了一阵子又看到」里都要用），所以改成
+        /// 在 Messages.Message 出口按**完整句子**重写。
+        ///
+        /// ⚠ 规则顺序有讲究：带 "in a while" 的必须排在普通规则**前面**。
+        /// </summary>
+        public static readonly List<KeyValuePair<Regex, string>> MessagePatterns =
+            new List<KeyValuePair<Regex, string>>
+        {
+            // ── 「隔了一阵子又看到」变体（先匹配，避免被下面的规则截走）──
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw (.+?) naked for the first time in a while\.$"),
+                "$1 又看到 $2 赤身裸体了。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw (.+?)'s breasts for the first time in a while\.$"),
+                "$1 又看到 $2 的乳房了。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw (.+?)'s genitals for the first time in a while\.$"),
+                "$1 又看到 $2 的生殖器了。"),
+
+            // ── 「第一次看到认识的人」──
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw (.+?) naked for the first time\.$"),
+                "$1 第一次看到 $2 赤身裸体。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw (.+?)'s breasts for the first time\.$"),
+                "$1 第一次看到 $2 的乳房。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw (.+?)'s genitals for the first time\.$"),
+                "$1 第一次看到 $2 的生殖器。"),
+
+            // ── 「第一次看到陌生人」──
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw another naked woman for the first time\.$"),
+                "$1 第一次看到另一个女人的裸体。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw another naked man for the first time\.$"),
+                "$1 第一次看到另一个男人的裸体。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw another person's breasts for the first time\.$"),
+                "$1 第一次看到别人的乳房。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw another woman's genitals for the first time\.$"),
+                "$1 第一次看到另一个女人的生殖器。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw a naked woman for the first time\.$"),
+                "$1 第一次看到女人的裸体。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw a naked man for the first time\.$"),
+                "$1 第一次看到男人的裸体。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw breasts for the first time\.$"),
+                "$1 第一次看到乳房。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) saw a woman's genitals for the first time\.$"),
+                "$1 第一次看到女人的生殖器。"),
+
+            // ── 「自己被人第一次看到」（被动语态）──
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?) was seen naked for the first time\.$"),
+                "$1 第一次被人看到赤身裸体。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?)'s breasts were seen for the first time\.$"),
+                "$1 的乳房第一次被人看到。"),
+            new KeyValuePair<Regex, string>(
+                new Regex(@"^(.+?)'s genitals were seen for the first time\.$"),
+                "$1 的生殖器第一次被人看到。"),
+        };
+
+        /// <summary>
         /// 遍历 IL：遇到 ldstr（"把字符串常量压栈"）就查表，命中就换掉操作数。
         /// 用 yield return 逐条放行，不影响其它任何指令。
         /// </summary>
@@ -284,6 +634,44 @@ namespace NMMOpinionsChineseUI
                 }
                 yield return c;
             }
+        }
+
+        /// <summary>
+        /// 设置界面专用：先查精确表，查不到再跑正则表
+        /// （滑动条那几条是原模组用内插字符串拼的，编译后形式不固定，正则兜底）。
+        /// </summary>
+        public static IEnumerable<CodeInstruction> RewriteSettings(IEnumerable<CodeInstruction> codes)
+        {
+            foreach (CodeInstruction c in codes)
+            {
+                if (c.opcode == OpCodes.Ldstr && c.operand is string)
+                {
+                    string s = (string)c.operand;
+                    string zh;
+                    if (SettingsText.TryGetValue(s, out zh))
+                        c.operand = zh;
+                    else
+                    {
+                        string r = ApplyPatterns(s, SettingsPatterns);
+                        if (r != null) c.operand = r;
+                    }
+                }
+                yield return c;
+            }
+        }
+
+        /// <summary>
+        /// 拿一条文本去逐条试正则表，命中就返回改写结果，没命中返回 null。
+        /// </summary>
+        public static string ApplyPatterns(string s, List<KeyValuePair<Regex, string>> pats)
+        {
+            if (string.IsNullOrEmpty(s)) return null;
+            for (int i = 0; i < pats.Count; i++)
+            {
+                if (pats[i].Key.IsMatch(s))
+                    return pats[i].Key.Replace(s, pats[i].Value);
+            }
+            return null;
         }
     }
 }

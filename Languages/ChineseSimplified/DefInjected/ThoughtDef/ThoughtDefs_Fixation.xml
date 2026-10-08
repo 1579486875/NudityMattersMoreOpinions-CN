@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    ═══════════════════════════════════════════════════════════════
+    前置模组「Nudity Matters More（裸体评价）」简体中文
+    ═══════════════════════════════════════════════════════════════
+    本文件由「裸体评价更多看法 简体汉化」随包提供。
+    这样做是为了让本汉化包**自包含** —— 只要装了原版前置模组，
+    不管是英文原版还是别人做的汉化版，装上本包都能显示完整中文。
+    我们不修改前置模组的任何文件，所有文字都通过「翻译文件覆盖」实现。
+  -->
+  <FixationABeauty.stages.thinking_about_naked.label>想着{0}的裸体</FixationABeauty.stages.thinking_about_naked.label>
+  <FixationABeauty.stages.thinking_about_naked.description>{OTHERPAWN_objective}把我震撼了。</FixationABeauty.stages.thinking_about_naked.description>
+  <FixationABoobs.stages.thinking_about_naked.label>想着{0}的裸体</FixationABoobs.stages.thinking_about_naked.label>
+  <FixationABoobs.stages.thinking_about_naked.description>我真想知道 {OTHERPAWN_possessive} 乳房长什么样。</FixationABoobs.stages.thinking_about_naked.description>
+  <FixationABoobsRepeat.stages.thinking_about_naked.label>想着{0}的裸体</FixationABoobsRepeat.stages.thinking_about_naked.label>
+  <FixationABoobsRepeat.stages.thinking_about_naked.description>我想我不记得 {OTHERPAWN_possessive}乳房长什么样了。</FixationABoobsRepeat.stages.thinking_about_naked.description>
+  <FixationALovers.stages.thinking_about_naked.label>想着{0}的裸体</FixationALovers.stages.thinking_about_naked.label>
+  <FixationALovers.stages.thinking_about_naked.description>既然我们是恋人，我想{OTHERPAWN_pronoun}会同意给我看看{OTHERPAWN_objective}的裸体。</FixationALovers.stages.thinking_about_naked.description>
+  <FixationARepeat.stages.thinking_about_naked.label>想着{0}的裸体</FixationARepeat.stages.thinking_about_naked.label>
+  <FixationARepeat.stages.thinking_about_naked.description>我想我不记得{OTHERPAWN_pronoun}裸体的样子了</FixationARepeat.stages.thinking_about_naked.description>
+  <FixationAVoyeur.stages.thinking_about_naked.label>想着{0}的裸体</FixationAVoyeur.stages.thinking_about_naked.label>
+  <FixationAVoyeur.stages.thinking_about_naked.description>我想知道{OTHERPAWN_pronoun}看上去是什么样的。</FixationAVoyeur.stages.thinking_about_naked.description>
+  <FixationBBeauty.stages.want_to_see_naked.label>想看{0}的裸体</FixationBBeauty.stages.want_to_see_naked.label>
+  <FixationBBeauty.stages.want_to_see_naked.description>这看{OTHERPAWN_objective}多是一件美事啊。</FixationBBeauty.stages.want_to_see_naked.description>
+  <FixationBBoobs.stages.want_to_see_naked.label>想看{0}的裸体</FixationBBoobs.stages.want_to_see_naked.label>
+  <FixationBBoobs.stages.want_to_see_naked.description>那对奶子在勾引我。</FixationBBoobs.stages.want_to_see_naked.description>
+  <FixationBLovers.stages.want_to_see_naked.label>想看{0}的裸体</FixationBLovers.stages.want_to_see_naked.label>
+  <FixationBLovers.stages.want_to_see_naked.description>我想要想到可以直接把{OTHERPAWN_possessive}衣服扯下来。</FixationBLovers.stages.want_to_see_naked.description>
+  <FixationBVoyeur.stages.want_to_see_naked.label>想看{0}的裸体</FixationBVoyeur.stages.want_to_see_naked.label>
+  <FixationBVoyeur.stages.want_to_see_naked.description>我要怎么才能让他发生呢？</FixationBVoyeur.stages.want_to_see_naked.description>
+  <FixationCBeauty.stages.dying_to_see_naked.label>渴望看到{0}的裸体</FixationCBeauty.stages.dying_to_see_naked.label>
+  <FixationCBeauty.stages.dying_to_see_naked.description>我可以为看见他衣服下面可以做任何事</FixationCBeauty.stages.dying_to_see_naked.description>
+  <FixationCBoobs.stages.dying_to_see_naked.label>渴望看到{0}的裸体</FixationCBoobs.stages.dying_to_see_naked.label>
+  <FixationCBoobs.stages.dying_to_see_naked.description>我就是想瞧瞧{OTHERPAWN_possessive}奶子。它们到底有多大？</FixationCBoobs.stages.dying_to_see_naked.description>
+  <FixationCLovers.stages.dying_to_see_naked.label>渴望看见{0}的裸体</FixationCLovers.stages.dying_to_see_naked.label>
+  <FixationCLovers.stages.dying_to_see_naked.description>{OTHERPAWN_objective}在我脑子里挥之不去。我现在急需看见{OTHERPAWN_objective}的裸体。</FixationCLovers.stages.dying_to_see_naked.description>
+  <FixationCVoyeur.stages.dying_to_see_naked.label>渴望看见{0}的裸体</FixationCVoyeur.stages.dying_to_see_naked.label>
+  <FixationCVoyeur.stages.dying_to_see_naked.description>我现在满脑子都是他。我的眼睛都无法从{OTHERPAWN_objective}上移开。</FixationCVoyeur.stages.dying_to_see_naked.description>
+  <FixationDBeauty.stages.never_going_to_see_naked.label>没有看见{0}的裸体</FixationDBeauty.stages.never_going_to_see_naked.label>
+  <FixationDBeauty.stages.never_going_to_see_naked.description>是我不配。</FixationDBeauty.stages.never_going_to_see_naked.description>
+  <FixationDBoobs.stages.never_going_to_see_naked.label>没能看见{0}的裸体</FixationDBoobs.stages.never_going_to_see_naked.label>
+  <FixationDBoobs.stages.never_going_to_see_naked.description>我没有其他人那么幸运。</FixationDBoobs.stages.never_going_to_see_naked.description>
+  <FixationDLovers.stages.never_going_to_see_naked.label>没能看见{0}的裸体</FixationDLovers.stages.never_going_to_see_naked.label>
+  <FixationDLovers.stages.never_going_to_see_naked.description>这永远也不会发生了。</FixationDLovers.stages.never_going_to_see_naked.description>
+  <FixationDVoyeur.stages.never_going_to_see_naked.label>没能看见{0}的裸体</FixationDVoyeur.stages.never_going_to_see_naked.label>
+  <FixationDVoyeur.stages.never_going_to_see_naked.description>我需要向前看。</FixationDVoyeur.stages.never_going_to_see_naked.description>
+  <SeenABeauty.stages.saw_naked.label>看见了{0}的裸体</SeenABeauty.stages.saw_naked.label>
+  <SeenABeauty.stages.saw_naked.description>多么完美的造物啊。</SeenABeauty.stages.saw_naked.description>
+  <SeenABoobs.stages.saw_naked.label>看见了{0}的裸体</SeenABoobs.stages.saw_naked.label>
+  <SeenABoobs.stages.saw_naked.description>我没想到{OTHERPAWN_possessive}乳房能有那么大…</SeenABoobs.stages.saw_naked.description>
+  <SeenABoobsRepeat.stages.saw_naked.label>看见了0}的裸体</SeenABoobsRepeat.stages.saw_naked.label>
+  <SeenABoobsRepeat.stages.saw_naked.description>我都忘了{OTHERPAWN_possessive}乳房居然有那么大…</SeenABoobsRepeat.stages.saw_naked.description>
+  <SeenABot.stages.saw_bottomless.label>看见了{0}赤裸的下体</SeenABot.stages.saw_bottomless.label>
+  <SeenABot.stages.saw_bottomless.description>真是出乎意料啊。</SeenABot.stages.saw_bottomless.description>
+  <SeenALovers.stages.saw_naked.label>看见了{0}的裸体</SeenALovers.stages.saw_naked.label>
+  <SeenALovers.stages.saw_naked.description>我想{OTHERPAWN_pronoun}他信任我</SeenALovers.stages.saw_naked.description>
+  <SeenATop.stages.saw_s_breasts.label>看见了{0}的乳房</SeenATop.stages.saw_s_breasts.label>
+  <SeenATop.stages.saw_s_breasts.description>真是出乎意料啊。</SeenATop.stages.saw_s_breasts.description>
+  <SeenATopBoobs.stages.saw_s_breasts.label>看见了{0}的乳房</SeenATopBoobs.stages.saw_s_breasts.label>
+  <SeenATopBoobs.stages.saw_s_breasts.description>我没想到它们能有那么大...</SeenATopBoobs.stages.saw_s_breasts.description>
+  <SeenATopBoobsRepeat.stages.saw_s_breasts.label>看见了{0}的乳房</SeenATopBoobsRepeat.stages.saw_s_breasts.label>
+  <SeenATopBoobsRepeat.stages.saw_s_breasts.description>我都忘了它们有那么大…</SeenATopBoobsRepeat.stages.saw_s_breasts.description>
+  <SeenAVoyeur.stages.saw_naked.label>看见了{0}的裸体</SeenAVoyeur.stages.saw_naked.label>
+  <SeenAVoyeur.stages.saw_naked.description>真是一顿美餐。</SeenAVoyeur.stages.saw_naked.description>
+  <SeenBBeauty.stages.saw_naked.label>看见了{0}的裸体</SeenBBeauty.stages.saw_naked.label>
+  <SeenBBeauty.stages.saw_naked.description>这是我见过的最美的东西之一。</SeenBBeauty.stages.saw_naked.description>
+  <SeenBBoobs.stages.saw_naked.label>看见了{0}的裸体</SeenBBoobs.stages.saw_naked.label>
+  <SeenBBoobs.stages.saw_naked.description>那对乳房简直是艺术品。</SeenBBoobs.stages.saw_naked.description>
+  <SeenBBot.stages.saw_bottomless.label>看见了{0}赤裸的下体</SeenBBot.stages.saw_bottomless.label>
+  <SeenBBot.stages.saw_bottomless.description>多可爱的屁股。</SeenBBot.stages.saw_bottomless.description>
+  <SeenBLovers.stages.saw_naked.label>看见了{0}的裸体</SeenBLovers.stages.saw_naked.label>
+  <SeenBLovers.stages.saw_naked.description>今天是个特别的日子。</SeenBLovers.stages.saw_naked.description>
+  <SeenBTop.stages.saw_s_breasts.label>看见了{0}的乳房</SeenBTop.stages.saw_s_breasts.label>
+  <SeenBTop.stages.saw_s_breasts.description>今天真是个好日子。</SeenBTop.stages.saw_s_breasts.description>
+  <SeenBTopBoobs.stages.saw_s_breasts.label>看见了{0}的乳房</SeenBTopBoobs.stages.saw_s_breasts.label>
+  <SeenBTopBoobs.stages.saw_s_breasts.description>她的乳房简直是一个艺术品。</SeenBTopBoobs.stages.saw_s_breasts.description>
+  <SeenBVoyeur.stages.saw_naked.label>看见了{0}的裸体</SeenBVoyeur.stages.saw_naked.label>
+  <SeenBVoyeur.stages.saw_naked.description>我把{OTHERPAWN_objective}看的一览无余</SeenBVoyeur.stages.saw_naked.description>
+  <SeenCBeauty.stages.saw_naked.label>看见了{0}的裸体</SeenCBeauty.stages.saw_naked.label>
+  <SeenCBeauty.stages.saw_naked.description>我真幸运！</SeenCBeauty.stages.saw_naked.description>
+  <SeenCBoobs.stages.saw_naked.label>看见了{0}的裸体</SeenCBoobs.stages.saw_naked.label>
+  <SeenCBoobs.stages.saw_naked.description>我想我这辈子都忘不掉那对奶子了。</SeenCBoobs.stages.saw_naked.description>
+  <SeenCBot.stages.saw_bottomless.label>看见了{0}赤裸的下体</SeenCBot.stages.saw_bottomless.label>
+  <SeenCBot.stages.saw_bottomless.description>真不错，我还想要多来一点。</SeenCBot.stages.saw_bottomless.description>
+  <SeenCLovers.stages.saw_naked.label>看见了{0}的裸体</SeenCLovers.stages.saw_naked.label>
+  <SeenCLovers.stages.saw_naked.description>我简直不敢相信{OTHERPAWN_pronoun}真的向我展示了{OTHERPAWN_objective}。我没在做梦吧？</SeenCLovers.stages.saw_naked.description>
+  <SeenCTop.stages.saw_s_breasts.label>看见了{0}的乳房</SeenCTop.stages.saw_s_breasts.label>
+  <SeenCTop.stages.saw_s_breasts.description>真不错，我还想要多来一点。</SeenCTop.stages.saw_s_breasts.description>
+  <SeenCTopBoobs.stages.saw_s_breasts.label>看见了{0}的乳房</SeenCTopBoobs.stages.saw_s_breasts.label>
+  <SeenCTopBoobs.stages.saw_s_breasts.description>我想我这辈子都忘不掉那对奶子了。</SeenCTopBoobs.stages.saw_s_breasts.description>
+  <SeenCVoyeur.stages.saw_naked.label>看见了{0}的裸体</SeenCVoyeur.stages.saw_naked.label>
+  <SeenCVoyeur.stages.saw_naked.description>我这辈子都忘不掉那个画面了。</SeenCVoyeur.stages.saw_naked.description>
+</LanguageData>

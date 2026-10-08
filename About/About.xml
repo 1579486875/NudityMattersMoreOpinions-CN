@@ -3,7 +3,7 @@
 	<name>裸体评价更多看法 简体汉化</name>
 	<author>大赢经直插白皮赢道</author>
 	<packageId>shark510.nuditymattersmoreopinions.zhfix</packageId>
-  <modVersion>1.1.0</modVersion>
+  <modVersion>1.2.0</modVersion>
   <url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
 	<supportedVersions>
 		<li>1.6</li>
@@ -17,10 +17,12 @@
 		<li>
 			<packageId>dord.nuditymattersmore</packageId>
 			<displayName>Nudity Matters More</displayName>
+			<downloadUrl>https://gitgud.io/dordheaven/nudity-matters-more.git</downloadUrl>
 		</li>
 		<li>
 			<packageId>shark510.nuditymattersmoreopinions</packageId>
 			<displayName>Nudity Matters More opinions</displayName>
+			<downloadUrl>https://steamcommunity.com/workshop/browse/?appid=294100&amp;searchtext=Nudity+Matters+More+opinions</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
@@ -29,63 +31,57 @@
 		<li>dord.nuditymattersmore</li>
 		<li>shark510.nuditymattersmoreopinions</li>
 	</loadAfter>
-	<description>「裸体评价更多看法」的完整简体中文 —— 12.3 万条看法正文，一条不落。
+	<description>「裸体评价更多看法」的完整简体中文 —— 两个前置模组、13.7 万个翻译键，一条不落。
 
 ─────────────── 这是什么 ───────────────
 
-原模组「Nudity Matters More opinions」会让殖民者之间产生大量跟身体、穿着、
-裸露有关的看法，并且互相影响好感度 —— 但文字全是英文。
+这个汉化包把两个前置模组的**全部玩家可见文字**翻成简体中文：
 
-本汉化把原模组写在 Def 里的玩家可见文字全部翻成中文，总共 132,454 个翻译键，
-覆盖 5,082 个 Def。全部逐条检查过，没有一条残留英文。
+· Nudity Matters More（裸体评价）
+· Nudity Matters More opinions（更多看法）
 
-它是纯汉化包（翻译文件 + 一个界面汉化补丁），不含任何游戏内容 ——
-必须先装原模组才有意义。
+它是**自包含**的：只要装了原版前置模组，不管你手上是英文原版还是别人做的汉化版，
+装上这一个包就能显示完整中文。本包不修改前置模组的任何文件 —— 所有文字都靠
+「翻译文件覆盖」实现。
 
-─────────────── 汉化了哪些地方 ───────────────
+─────────────── 汉化了什么（共 137,105 个翻译键）───────────────
 
-· 看法正文：123,021 条 —— 社交界面里那一条条具体的评价文字（最主要的部分）
-· 看法条目名称：3,690 条 —— 每条评价的标题
-· 互动日志：128 条 —— 日志里「XX 摸了 YY 的 ZZ」这类记录
-· 其余看法条目：5,615 条 —— 情境看法、结论看法等
-　（合计 132,454 个翻译键，覆盖 5,082 个 Def）
+【Nudity Matters More opinions】
+· 看法正文　　　　　123,021 条 —— 社交界面里那一条条具体的评价文字
+· 情境看法　　　　　8,246 条
+· 互动日志　　　　　5,744 条 —— 日志里「XX 摸了 YY 的 ZZ」这类记录
+· 看法条目名称　　　5,214 条 —— 每条评价的标题
+· 看法生成器模板　　2,729 条 —— 程序拼看法时用的句段
 
-以上是原模组写在 Def 里的全部玩家可见文字。
+【Nudity Matters More】
+· 健康状态 / 心情 / 特质　296 条
+· 界面文字　　　　　49 条
 
-另外，原模组的「看法」标签页把界面文字直接写死在 C# 代码里，不经过游戏的
-翻译系统 —— 光靠翻译文件改不了。本包内含一个 Harmony 补丁，在运行时把这些
-界面文字也换成中文：下拉框、「观察自己」、部位标题、各种提示信息，
-以及原模组作者留在代码里的俄语弹窗消息。
+【两个模组写在代码里、翻译文件够不着的硬编码】
+· 设置界面全部选项 —— 打开「选项 → 模组设置」看到的就是中文
+· 屏幕消息「XX 第一次看到 YY 裸体」等 17 种句式
+· 「看法」标签页的界面文字
+· 原模组作者留下的俄语弹窗消息
 
-进游戏后点开任意殖民者 → 「看法」标签页即可看到效果。
+─────────────── 顺手修掉的原模组缺陷 ───────────────
 
-另外顺手修掉了原模组的一处本地化缺陷：它的英文所有格是硬拼的，中文里会出现
-「张三's」这种夹生写法 —— 本汉化已把 61,647 处全部改成地道的中文说法。
+· 英文所有格是硬拼的，中文里会显示成「张三's」这种夹生写法 —— 已全部改成地道中文说法
+· 原模组「拘谨 / 暴露狂 / 视奸狂」三个特质的翻译文件里有一处 XML 语法错误（颜色标签没转义），
+会让整个文件加载失败、特质描述显示英文 —— 已用正确写法覆盖
+· 「视奸狂」特质描述里多了一个右大括号，会让文本格式化报错 —— 已修正
 
 ─────────────── 怎么用 ───────────────
 
-1. 把游戏语言设为「简体中文」　← 最关键的一步，设错了本汉化不会生效
-2. 先装原模组（Nudity Matters More opinions 及其前置）
+1. 把游戏语言设为「简体中文」　← 最关键，设错了本汉化不会生效
+2. 先装原模组及其前置（RimJobWorld、Harmony）
 3. 再装本汉化包
-4. 加载顺序：本汉化要排在原模组之后
-   （About.xml 里已声明 loadAfter，正常情况下游戏会自动排好，无需手动调整）
-
-如果游戏语言不是简体中文，本汉化不会生效 —— 这是 RimWorld 语言包的机制。
-
-─────────────── 支持的语言 ───────────────
-
-简体中文。
-把游戏语言设为「简体中文」时本包才生效 —— 界面汉化补丁同样只在中文环境下
-替换文字。把游戏语言切回英文，看到的就完全是原模组的英文原文
-（界面文字也会跟着变回英文）。
-
-本包不修改原模组的任何文件。
+4. 加载顺序：本汉化排在原模组之后（About.xml 已声明，游戏会自动排好）
 
 ─────────────── 模组信息 ───────────────
 
 适用版本　　RimWorld 1.6
-前置依赖　　Nudity Matters More opinions 及其前置
-　　　　　　Harmony（界面汉化补丁需要；原模组本身也依赖它）
+前置依赖　　Nudity Matters More、Nudity Matters More opinions
+（以及它们各自的前置：RimJobWorld、Harmony）
 作者　　　　大赢经直插白皮赢道
 存档影响　　不往存档里写任何数据 —— 加装或移除都不需要重开新档
 仓库与反馈　https://github.com/1579486875/NudityMattersMoreOpinions-CN</description>

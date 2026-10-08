@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    ═══════════════════════════════════════════════════════════════
+    前置模组「Nudity Matters More（裸体评价）」简体中文
+    ═══════════════════════════════════════════════════════════════
+    本文件由「裸体评价更多看法 简体汉化」随包提供。
+    这样做是为了让本汉化包**自包含** —— 只要装了原版前置模组，
+    不管是英文原版还是别人做的汉化版，装上本包都能显示完整中文。
+    我们不修改前置模组的任何文件，所有文字都通过「翻译文件覆盖」实现。
+  -->
+  <CannotCover.stages.cannot_cover_myself.label>无法掩饰自己</CannotCover.stages.cannot_cover_myself.label>
+  <CannotCover.stages.cannot_cover_myself.description>我太虚弱了，都没法掩盖住自己的裸体。</CannotCover.stages.cannot_cover_myself.description>
+  <CannotCoverPrude.stages.cannot_cover_myself.label>无法掩饰自己</CannotCoverPrude.stages.cannot_cover_myself.label>
+  <CannotCoverPrude.stages.cannot_cover_myself.description>我就是想把我赤裸的样子给全世界看个清楚。</CannotCoverPrude.stages.cannot_cover_myself.description>
+  <CoveringBody.stages.naked_around_people.label>在人旁全身赤裸</CoveringBody.stages.naked_around_people.label>
+  <CoveringBody.stages.naked_around_people.description>太丢脸了。</CoveringBody.stages.naked_around_people.description>
+  <CoveringBodyPrude.stages.naked.label>赤身裸体</CoveringBodyPrude.stages.naked.label>
+  <CoveringBodyPrude.stages.naked.description>而我的胳膊还僵在原地。</CoveringBodyPrude.stages.naked.description>
+  <CoveringBreasts.stages.topless_around_people.label>在人旁赤裸上身</CoveringBreasts.stages.topless_around_people.label>
+  <CoveringBreasts.stages.topless_around_people.description>这真的让人恼火。</CoveringBreasts.stages.topless_around_people.description>
+  <CoveringBreastsPrude.stages.topless.label>赤裸上身</CoveringBreastsPrude.stages.topless.label>
+  <CoveringBreastsPrude.stages.topless.description>而我的胳膊还僵在原地。</CoveringBreastsPrude.stages.topless.description>
+  <CoveringGenitals.stages.naked_around_people.label>在人旁赤身裸体</CoveringGenitals.stages.naked_around_people.label>
+  <CoveringGenitals.stages.naked_around_people.description>太丢脸了。</CoveringGenitals.stages.naked_around_people.description>
+  <CoveringGenitalsPrude.stages.naked.label>赤身裸体</CoveringGenitalsPrude.stages.naked.label>
+  <CoveringGenitalsPrude.stages.naked.description>没人在看我。</CoveringGenitalsPrude.stages.naked.description>
+  <DraftedPrude.stages.covering_my_body_with_my_hands.label>靠手遮住裸体</DraftedPrude.stages.covering_my_body_with_my_hands.label>
+  <DraftedPrude.stages.covering_my_body_with_my_hands.description>我是怎么陷入到这种境地的。</DraftedPrude.stages.covering_my_body_with_my_hands.description>
+  <NakedAlone.stages.naked_by_myself.label>独处时赤身裸体</NakedAlone.stages.naked_by_myself.label>
+  <NakedAlone.stages.naked_by_myself.description>这感觉真不错。</NakedAlone.stages.naked_by_myself.description>
+  <NakedAlonePrude.stages.naked_by_myself.label>独处时赤身裸体</NakedAlonePrude.stages.naked_by_myself.label>
+  <NakedAlonePrude.stages.naked_by_myself.description>我好害怕有人会看见我。</NakedAlonePrude.stages.naked_by_myself.description>
+  <NakedHostile.stages.not_covering_body.label>遮不住身体</NakedHostile.stages.not_covering_body.label>
+  <NakedHostile.stages.not_covering_body.description>局势所迫。</NakedHostile.stages.not_covering_body.description>
+  <NakedHostilePrude.stages.not_covering_body.label>遮不住身体</NakedHostilePrude.stages.not_covering_body.label>
+  <NakedHostilePrude.stages.not_covering_body.description>我是怎么陷入到这种境地的。</NakedHostilePrude.stages.not_covering_body.description>
+  <NakedWithOthers.stages.naked_around_others.label>在人旁赤身裸体</NakedWithOthers.stages.naked_around_others.label>
+  <NakedWithOthers.stages.naked_around_others.description>我可以让这些人随便看我的裸体</NakedWithOthers.stages.naked_around_others.description>
+  <ShowingBody.stages.not_allowed_to_cover_up.label>不允许遮住身体</ShowingBody.stages.not_allowed_to_cover_up.label>
+  <ShowingBody.stages.not_allowed_to_cover_up.description>我只好不去想它。</ShowingBody.stages.not_allowed_to_cover_up.description>
+  <ShowingBodyPrude.stages.not_allowed_to_cover_up.label>不允许遮住身体</ShowingBodyPrude.stages.not_allowed_to_cover_up.label>
+  <ShowingBodyPrude.stages.not_allowed_to_cover_up.description>简直是一场噩梦。</ShowingBodyPrude.stages.not_allowed_to_cover_up.description>
+  <UncaringUncovered.stages.naked_and_uncaring.label>毫不在意的裸体</UncaringUncovered.stages.naked_and_uncaring.label>
+  <UncaringUncovered.stages.naked_and_uncaring.description>随便看，我不在乎。</UncaringUncovered.stages.naked_and_uncaring.description>
+  <WokeNaked.stages.woke_up_naked.label>一丝不挂地醒来</WokeNaked.stages.woke_up_naked.label>
+  <WokeNaked.stages.woke_up_naked.description>我是这样睡着的吗？</WokeNaked.stages.woke_up_naked.description>
+  <WokeNakedExhib.stages.woke_up_naked.label>一丝不挂地醒来</WokeNakedExhib.stages.woke_up_naked.label>
+  <WokeNakedExhib.stages.woke_up_naked.description>任何人都可能看到我。</WokeNakedExhib.stages.woke_up_naked.description>
+  <WokeNakedPrude.stages.woke_up_naked.label>一丝不挂地醒来</WokeNakedPrude.stages.woke_up_naked.label>
+  <WokeNakedPrude.stages.woke_up_naked.description>任何人都可能看到我。</WokeNakedPrude.stages.woke_up_naked.description>
+</LanguageData>

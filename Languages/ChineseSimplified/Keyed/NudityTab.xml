@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    ═══════════════════════════════════════════════════════════════
+    前置模组「Nudity Matters More（裸体评价）」简体中文
+    ═══════════════════════════════════════════════════════════════
+    本文件由「裸体评价更多看法 简体汉化」随包提供。
+    这样做是为了让本汉化包**自包含** —— 只要装了原版前置模组，
+    不管是英文原版还是别人做的汉化版，装上本包都能显示完整中文。
+    我们不修改前置模组的任何文件，所有文字都通过「翻译文件覆盖」实现。
+  -->
+  <NMM_Nudity>裸体</NMM_Nudity>
+  <NMM_FemButton>女性</NMM_FemButton>
+  <NMM_MaleButton>男性</NMM_MaleButton>
+  <NMM_TrapButton>男娘</NMM_TrapButton>
+  <NMM_FutaButton>扶她</NMM_FutaButton>
+  <NMM_CoverAllowed>允许遮盖</NMM_CoverAllowed>
+  <NMM_Aware>察觉</NMM_Aware>
+  <NMM_All>所有</NMM_All>
+  <NMM_Observer>作为观察者</NMM_Observer>
+  <NMM_Observed>作为被观察者</NMM_Observed>
+  <NMM_NSWoman>从来没见过女人的裸体</NMM_NSWoman>
+  <NMM_NSBreasts>从来没见过女人的乳房</NMM_NSBreasts>
+  <NMM_NSFemGens>从来没见过女人的生殖器</NMM_NSFemGens>
+  <NMM_NSMaleGens>从来没见过男人的生殖器</NMM_NSMaleGens>
+  <NMM_NBSNaked>{0_pronoun}的裸体从来未被人看过</NMM_NBSNaked>
+  <NMM_NBSBreasts>{0_possessive}的乳房从来未被人看过</NMM_NBSBreasts>
+  <NMM_NBSGens>{0_possessive}的生殖器从来未被人看过</NMM_NBSGens>
+  <NMM_NBSNakedFP>我从来没有被人看到过裸体</NMM_NBSNakedFP>
+  <NMM_NBSBreastsFP>我从来没有被人看到过乳房</NMM_NBSBreastsFP>
+  <NMM_NBSGensFP>我从来没有被人看到过生殖器</NMM_NBSGensFP>
+  <NMM_StatusCoverNaked>裸体(遮盖)</NMM_StatusCoverNaked>
+  <NMM_StatusCoverBreasts>遮盖的乳房</NMM_StatusCoverBreasts>
+  <NMM_StatusCoverGens>遮盖的生殖器</NMM_StatusCoverGens>
+  <NMM_StatusNaked>全裸</NMM_StatusNaked>
+  <NMM_StatusBreasts>乳房无遮盖</NMM_StatusBreasts>
+  <NMM_StatusGens>生殖器无遮盖</NMM_StatusGens>
+  <NMM_StatusNoShirt>赤裸上身</NMM_StatusNoShirt>
+  <NMM_StatusClothed>全装</NMM_StatusClothed>
+  <NMM_SeenHerBreasts>看过她的乳房</NMM_SeenHerBreasts>
+  <NMM_SeenHerGens>看过她的生殖器</NMM_SeenHerGens>
+  <NMM_SeenHisChest>已看过他的胸膛</NMM_SeenHisChest>
+  <NMM_SeenHisGens>已看过他的生殖器</NMM_SeenHisGens>
+  <NMM_SeenMyBreasts>看过我的乳房</NMM_SeenMyBreasts>
+  <NMM_SeenMyGens>看过我的生殖器</NMM_SeenMyGens>
+  <NMM_Never>从来没有</NMM_Never>
+  <NMM_CanSeeNow>可见的</NMM_CanSeeNow>
+  <NMM_ICantSee>我看不见。</NMM_ICantSee>
+  <NMM_TheyCantSee>{0_pronoun}看不见。</NMM_TheyCantSee>
+  <NMM_NooneCanSee>{0_pronoun}不想让任何人看到{0_objective}的裸体。</NMM_NooneCanSee>
+  <NMM_AllCanSee>{0_pronoun}不介意是否有人看到{0_objective}的裸体。</NMM_AllCanSee>
+  <NMM_ICanSee>{0_pronoun}不介意我是否看到{0_objective}的裸体。</NMM_ICanSee>
+  <NMM_ICannotSee>{0_pronoun}不想让我看到{0_objective}的裸体。</NMM_ICannotSee>
+  <NMM_LoverCanSee>{0_pronoun}偶尔可以看我的裸体。</NMM_LoverCanSee>
+  <NMM_TheyCantSeeMe>我不想让{0_objective}看到我的裸体。</NMM_TheyCantSeeMe>
+  <NMM_TheyCanSeeMe>我不介意{0_pronoun}看到我的裸体。</NMM_TheyCanSeeMe>
+</LanguageData>

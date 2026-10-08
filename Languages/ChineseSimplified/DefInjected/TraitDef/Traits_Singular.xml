@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    ═══════════════════════════════════════════════════════════════
+    前置模组「Nudity Matters More（裸体评价）」简体中文
+    ═══════════════════════════════════════════════════════════════
+    本文件由「裸体评价更多看法 简体汉化」随包提供。
+    这样做是为了让本汉化包**自包含** —— 只要装了原版前置模组，
+    不管是英文原版还是别人做的汉化版，装上本包都能显示完整中文。
+    我们不修改前置模组的任何文件，所有文字都通过「翻译文件覆盖」实现。
+  -->
+  <!--
+    说明：这三个特质的文字，前置模组1 的 Def 文件里本来就写着中文（群友直接改了 Def）。
+    但原版（工坊下载版）里是英文，所以我们在翻译文件里再写一遍，把两种版本都盖住。
+    这里用**数字索引**写法 degreeDatas.0，它对任何版本都有效。
+    顺带修正了原文里「视奸狂」描述多出来的一个右大括号（{PAWN_pronoun}}）。
+  -->
+  <NMM_Exhibitionist.degreeDatas.0.label>暴露狂</NMM_Exhibitionist.degreeDatas.0.label>
+  <NMM_Exhibitionist.degreeDatas.0.description>{PAWN_nameDef}几乎是强迫性地想让人们看到{PAWN_objective}的裸体，经常为了刺激而不择手段。</NMM_Exhibitionist.degreeDatas.0.description>
+  <NMM_Prude.degreeDatas.0.label>拘谨</NMM_Prude.degreeDatas.0.label>
+  <NMM_Prude.degreeDatas.0.description>{PAWN_nameDef}的颜面是{PAWN_possessive}最重要的财产。{PAWN_pronoun}有时宁愿死也不愿失去它。</NMM_Prude.degreeDatas.0.description>
+  <NMM_Voyeur.degreeDatas.0.label>视奸狂</NMM_Voyeur.degreeDatas.0.label>
+  <NMM_Voyeur.degreeDatas.0.description>{PAWN_nameDef}痴迷于看别人裸体。如果{PAWN_pronoun}在看着你，{PAWN_pronoun}很可能是在想你衣服下面是什么。</NMM_Voyeur.degreeDatas.0.description>
+</LanguageData>

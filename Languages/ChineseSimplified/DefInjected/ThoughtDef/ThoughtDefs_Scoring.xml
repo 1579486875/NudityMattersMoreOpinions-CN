@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    ═══════════════════════════════════════════════════════════════
+    前置模组「Nudity Matters More（裸体评价）」简体中文
+    ═══════════════════════════════════════════════════════════════
+    本文件由「裸体评价更多看法 简体汉化」随包提供。
+    这样做是为了让本汉化包**自包含** —— 只要装了原版前置模组，
+    不管是英文原版还是别人做的汉化版，装上本包都能显示完整中文。
+    我们不修改前置模组的任何文件，所有文字都通过「翻译文件覆盖」实现。
+  -->
+  <ExhibScoreHigh.stages.exhibitionist_thrilled.label>兴奋不已的露出</ExhibScoreHigh.stages.exhibitionist_thrilled.label>
+  <ExhibScoreHigh.stages.exhibitionist_thrilled.description>现在他们比我还了解我的身体。</ExhibScoreHigh.stages.exhibitionist_thrilled.description>
+  <ExhibScoreLow.stages.exhibitionist_amused.label>有趣的露出</ExhibScoreLow.stages.exhibitionist_amused.label>
+  <ExhibScoreLow.stages.exhibitionist_amused.description>这让我稍稍感到些兴奋。</ExhibScoreLow.stages.exhibitionist_amused.description>
+  <ExhibScoreMid.stages.exhibitionist_pleased.label>愉悦的露出</ExhibScoreMid.stages.exhibitionist_pleased.label>
+  <ExhibScoreMid.stages.exhibitionist_pleased.description>我找到了一些小乐子。</ExhibScoreMid.stages.exhibitionist_pleased.description>
+  <ExhibScoreNone.stages.exhibitionist_frustrated.label>暴露狂感到失望</ExhibScoreNone.stages.exhibitionist_frustrated.label>
+  <ExhibScoreNone.stages.exhibitionist_frustrated.description>我只是渴望能被人看见裸体而已。</ExhibScoreNone.stages.exhibitionist_frustrated.description>
+  <PrudeScoreHigh.stages.modesty_stripped.label>彻彻底底的走光</PrudeScoreHigh.stages.modesty_stripped.label>
+  <PrudeScoreHigh.stages.modesty_stripped.description>我简直不敢相信。</PrudeScoreHigh.stages.modesty_stripped.description>
+  <PrudeScoreLow.stages.modesty_breached.label>严重的走光</PrudeScoreLow.stages.modesty_breached.label>
+  <PrudeScoreLow.stages.modesty_breached.description>我感到有些不舒服。</PrudeScoreLow.stages.modesty_breached.description>
+  <PrudeScoreMid.stages.modesty_compromised.label>轻微的走光</PrudeScoreMid.stages.modesty_compromised.label>
+  <PrudeScoreMid.stages.modesty_compromised.description>他们看见了我不想展示给他们的东西。</PrudeScoreMid.stages.modesty_compromised.description>
+  <PrudeScoreNone.stages.modesty_intact.label>拘谨者感到体面</PrudeScoreNone.stages.modesty_intact.label>
+  <PrudeScoreNone.stages.modesty_intact.description>我的隐私都还在我的保护之中。</PrudeScoreNone.stages.modesty_intact.description>
+  <VoyScoreHigh.stages.voyeur_thrilled.label>兴奋不已的视奸</VoyScoreHigh.stages.voyeur_thrilled.label>
+  <VoyScoreHigh.stages.voyeur_thrilled.description>这里简直就是天堂。</VoyScoreHigh.stages.voyeur_thrilled.description>
+  <VoyScoreLow.stages.voyeur_pleased.label>满意的视奸</VoyScoreLow.stages.voyeur_pleased.label>
+  <VoyScoreLow.stages.voyeur_pleased.description>真是让人意想不到。</VoyScoreLow.stages.voyeur_pleased.description>
+  <VoyScoreMid.stages.voyeur_pleased.label>愉悦的视奸</VoyScoreMid.stages.voyeur_pleased.label>
+  <VoyScoreMid.stages.voyeur_pleased.description>我真的爱上这个殖民地了。</VoyScoreMid.stages.voyeur_pleased.description>
+  <VoyScoreNone.stages.voyeur_frustrated.label>视奸狂感到沮丧</VoyScoreNone.stages.voyeur_frustrated.label>
+  <VoyScoreNone.stages.voyeur_frustrated.description>这里所有人都太保守了。</VoyScoreNone.stages.voyeur_frustrated.description>
+</LanguageData>

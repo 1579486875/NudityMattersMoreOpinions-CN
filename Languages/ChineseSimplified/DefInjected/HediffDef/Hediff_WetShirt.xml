@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    ═══════════════════════════════════════════════════════════════
+    前置模组「Nudity Matters More（裸体评价）」简体中文
+    ═══════════════════════════════════════════════════════════════
+    本文件由「裸体评价更多看法 简体汉化」随包提供。
+    这样做是为了让本汉化包**自包含** —— 只要装了原版前置模组，
+    不管是英文原版还是别人做的汉化版，装上本包都能显示完整中文。
+    我们不修改前置模组的任何文件，所有文字都通过「翻译文件覆盖」实现。
+  -->
+  <WetShirt.label>打湿的衣服</WetShirt.label>
+  <WetShirt.description>他的衣服因潮湿而变得透明，紧紧的贴在身上</WetShirt.description>
+  <WetShirt.stages.damp.label>潮湿</WetShirt.stages.damp.label>
+  <WetShirt.stages.nearly_seethrough.label>几乎透明</WetShirt.stages.nearly_seethrough.label>
+  <WetShirt.stages.seethrough.label>透明</WetShirt.stages.seethrough.label>
+</LanguageData>
