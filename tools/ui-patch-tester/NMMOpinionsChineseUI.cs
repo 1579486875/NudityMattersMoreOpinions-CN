@@ -147,20 +147,57 @@ namespace NMMOpinionsChineseUI
         /// 玩家把游戏切成英文时，Def 里的翻译会失效（显示英文原文），
         /// 但界面文字仍然是中文 —— 变成中英混杂。所以只在中文环境下动手。
         ///
-        /// 拿不到语言信息时返回 true（照常汉化）：游戏里不会走到这个分支，
-        /// 但离线验证工具里没有语言系统，这样能让验证照常进行。
+        /// ⚠️ 踩过的坑：一开始这里写的是 folderName == "ChineseSimplified"，
+        ///    结果整个补丁在中文环境下一点效果都没有 —— 日志显示补丁装上了（7 处），
+        ///    界面上却仍是英文。原因是 RimWorld 的语言文件夹名带显示名后缀，
+        ///    实际是 "ChineseSimplified (简体中文)"，严格相等自然判不出来，
+        ///    于是转译器每次都直接放行原文。
+        ///
+        /// 现在改成分段判断，并抽成不依赖游戏运行时的纯函数，
+        /// 这样离线验证工具能直接喂各种取值来测。
         /// </summary>
+        public static bool IsChineseLanguage(string folderName, string nativeName, string englishName)
+        {
+            // ① 明确是英文 → 不替换
+            if (!string.IsNullOrEmpty(folderName) &&
+                folderName.Trim().Equals("English", StringComparison.OrdinalIgnoreCase))
+                return false;
+
+            // ② 语言文件夹名含 ChineseSimplified（带不带 " (简体中文)" 后缀都行）
+            if (!string.IsNullOrEmpty(folderName) &&
+                folderName.IndexOf("ChineseSimplified", StringComparison.OrdinalIgnoreCase) >= 0)
+                return true;
+
+            // ③ 原生语言名含「简体」
+            if (!string.IsNullOrEmpty(nativeName) &&
+                (nativeName.Contains("简体") || nativeName.Contains("简中")))
+                return true;
+
+            // ④ 英文语言名含 Simplified Chinese
+            if (!string.IsNullOrEmpty(englishName) &&
+                englishName.IndexOf("Simplified Chinese", StringComparison.OrdinalIgnoreCase) >= 0)
+                return true;
+
+            // ⑤ 全都判不出来 → 兜底选择「替换」。
+            //    宁可误替换也不能漏：这本来就是中文汉化包，装它的都是中文玩家。
+            //    万一判断失败而放行原文，玩家看到的就是满屏英文（正是上面那个 bug）。
+            return true;
+        }
+
+        /// <summary>当前游戏语言是不是简体中文。</summary>
         public static bool GameIsChinese()
         {
             try
             {
                 var lang = LanguageDatabase.activeLanguage;
                 if (lang == null) return true;
-                return lang.folderName == "ChineseSimplified";
+                return IsChineseLanguage(lang.folderName,
+                                         lang.FriendlyNameNative,
+                                         lang.FriendlyNameEnglish);
             }
             catch
             {
-                return true;
+                return true;   // 拿不到语言信息（例如离线验证环境）→ 照常汉化
             }
         }
 
