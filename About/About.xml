@@ -3,12 +3,17 @@
 	<name>裸体评价更多看法 简体汉化</name>
 	<author>大赢经直插白皮赢道</author>
 	<packageId>shark510.nuditymattersmoreopinions.zhfix</packageId>
-  <modVersion>1.0.1</modVersion>
+  <modVersion>1.1.0</modVersion>
   <url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
 	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>
 	<modDependencies>
+
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+		</li>
 		<li>
 			<packageId>dord.nuditymattersmore</packageId>
 			<displayName>Nudity Matters More</displayName>
@@ -19,6 +24,8 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
+
+		<li>brrainz.harmony</li>
 		<li>dord.nuditymattersmore</li>
 		<li>shark510.nuditymattersmoreopinions</li>
 	</loadAfter>
@@ -43,7 +50,13 @@
 　（合计 132,454 个翻译键，覆盖 5,082 个 Def）
 
 以上是原模组写在 Def 里的全部玩家可见文字。
-游戏的界面按钮、菜单这类文本不在 Def 范围内，本包不涉及。
+
+另外，原模组的「看法」标签页把界面文字直接写死在 C# 代码里，不经过游戏的
+翻译系统 —— 光靠翻译文件改不了。本包内含一个 Harmony 补丁，在运行时把这些
+界面文字也换成中文：下拉框、「观察自己」、部位标题、各种提示信息，
+以及原模组作者留在代码里的俄语弹窗消息。
+
+进游戏后点开任意殖民者 → 「看法」标签页即可看到效果。
 
 另外顺手修掉了原模组的一处本地化缺陷：它的英文所有格是硬拼的，中文里会出现
 「张三's」这种夹生写法 —— 本汉化已把 61,647 处全部改成地道的中文说法。
