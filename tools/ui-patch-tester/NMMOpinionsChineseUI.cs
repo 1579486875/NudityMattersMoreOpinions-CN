@@ -104,12 +104,14 @@ namespace NMMOpinionsChineseUI
         /// <summary>把 IL 里的英文界面文字换成中文。</summary>
         public static IEnumerable<CodeInstruction> Text_Transpiler(IEnumerable<CodeInstruction> codes)
         {
+            if (!Zh.GameIsChinese()) return codes;      // 不是中文环境就原样放行
             return Zh.Rewrite(codes, Zh.UiText);
         }
 
         /// <summary>把 IL 里的俄语弹窗消息换成中文。</summary>
         public static IEnumerable<CodeInstruction> Russian_Transpiler(IEnumerable<CodeInstruction> codes)
         {
+            if (!Zh.GameIsChinese()) return codes;
             return Zh.Rewrite(codes, Zh.RussianText);
         }
 
@@ -120,6 +122,7 @@ namespace NMMOpinionsChineseUI
         public static bool GetHeaderLabel_Prefix(Pawn currentPawn, Pawn targetPawn,
                                                  bool isObserverMode, ref string __result)
         {
+            if (!Zh.GameIsChinese()) return true;       // 不是中文环境就走原方法
             string a = (currentPawn != null) ? currentPawn.LabelCap.ToString() : "选中的角色";
             string b = (targetPawn != null) ? targetPawn.LabelCap.ToString() : "列表中的角色";
 
@@ -137,6 +140,30 @@ namespace NMMOpinionsChineseUI
     /// <summary>字符串替换表 + 替换引擎。</summary>
     internal static class Zh
     {
+        /// <summary>
+        /// 当前游戏语言是不是简体中文。
+        ///
+        /// 为什么要判断：补丁是无条件替换 IL 里的字符串的。如果不看语言，
+        /// 玩家把游戏切成英文时，Def 里的翻译会失效（显示英文原文），
+        /// 但界面文字仍然是中文 —— 变成中英混杂。所以只在中文环境下动手。
+        ///
+        /// 拿不到语言信息时返回 true（照常汉化）：游戏里不会走到这个分支，
+        /// 但离线验证工具里没有语言系统，这样能让验证照常进行。
+        /// </summary>
+        public static bool GameIsChinese()
+        {
+            try
+            {
+                var lang = LanguageDatabase.activeLanguage;
+                if (lang == null) return true;
+                return lang.folderName == "ChineseSimplified";
+            }
+            catch
+            {
+                return true;
+            }
+        }
+
         /// <summary>
         /// 界面文字。
         /// 说明：这些字符串是原模组 C# 里内插字符串被编译器拆出来的**碎片**
