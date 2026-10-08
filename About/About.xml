@@ -3,7 +3,7 @@
 	<name>裸体评价更多看法 简体汉化</name>
 	<author>大赢经直插白皮赢道</author>
 	<packageId>shark510.nuditymattersmoreopinions.zhfix</packageId>
-  <modVersion>1.2.0</modVersion>
+  <modVersion>1.2.1</modVersion>
   <url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
 	<supportedVersions>
 		<li>1.6</li>
@@ -44,12 +44,12 @@
 装上这一个包就能显示完整中文。本包不修改前置模组的任何文件 —— 所有文字都靠
 「翻译文件覆盖」实现。
 
-─────────────── 汉化了什么（共 137,105 个翻译键）───────────────
+─────────────── 汉化了什么（共 137,031 个翻译键）───────────────
 
 【Nudity Matters More opinions】
 · 看法正文　　　　　123,021 条 —— 社交界面里那一条条具体的评价文字
-· 情境看法　　　　　8,246 条
-· 互动日志　　　　　5,744 条 —— 日志里「XX 摸了 YY 的 ZZ」这类记录
+· 情境看法　　　　　8,241 条
+· 互动日志　　　　　5,743 条 —— 日志里「XX 摸了 YY 的 ZZ」这类记录
 · 看法条目名称　　　5,214 条 —— 每条评价的标题
 · 看法生成器模板　　2,729 条 —— 程序拼看法时用的句段
 
