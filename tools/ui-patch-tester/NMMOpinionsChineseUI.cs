@@ -60,15 +60,15 @@ namespace NMMOpinionsChineseUI
             // ⑤ 设置界面 —— 两个模组的设置窗口里的选项文字**全是硬编码英文**，
             //    玩家打开「选项 → 模组设置」就会看到，必须翻。
             //    这里用 Transpiler（启动时改一次常量），运行时零开销。
-            n += TryPatch(harmony, "NudityMattersMore.NMMSettings", "DoSettingsWindowContents",
+            n += TryPatch(harmony, "NudityMattersMore.NudityMattersMore", "DoSettingsWindowContents",
                           transpiler: nameof(Patches.Settings_Transpiler));
-            n += TryPatch(harmony, "NudityMattersMore.NMMSettings", "SettingsCategory",
+            n += TryPatch(harmony, "NudityMattersMore.NudityMattersMore", "SettingsCategory",
                           transpiler: nameof(Patches.Settings_Transpiler));
-            n += TryPatch(harmony, "NudityMattersMore_opinions.NudityMattersMore_opinions_ModSettings", "DrawGeneralSettings",
+            n += TryPatch(harmony, "NudityMattersMore_opinions.NudityMattersMore_opinions_Mod", "DrawGeneralSettings",
                           transpiler: nameof(Patches.Settings_Transpiler));
-            n += TryPatch(harmony, "NudityMattersMore_opinions.NudityMattersMore_opinions_ModSettings", "DrawInteractionsSettings",
+            n += TryPatch(harmony, "NudityMattersMore_opinions.NudityMattersMore_opinions_Mod", "DrawInteractionsSettings",
                           transpiler: nameof(Patches.Settings_Transpiler));
-            n += TryPatch(harmony, "NudityMattersMore_opinions.NudityMattersMore_opinions_ModSettings", "SettingsCategory",
+            n += TryPatch(harmony, "NudityMattersMore_opinions.NudityMattersMore_opinions_Mod", "SettingsCategory",
                           transpiler: nameof(Patches.Settings_Transpiler));
 
             // ⑥ 设置界面里「互动类型」复选框的名字 —— 那些名字是运行时从枚举取的，
