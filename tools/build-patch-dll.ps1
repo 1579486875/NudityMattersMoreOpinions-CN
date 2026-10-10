@@ -1,4 +1,4 @@
-﻿# 裸体评价更多看法 简体汉化 —— 界面补丁 DLL 的构建脚本
+# 裸体评价更多看法 简体汉化 —— 界面补丁 DLL 的构建脚本
 #
 # 干什么：
 #   把 tools\ui-patch-tester\NMMOpinionsChineseUI.cs 编译成
@@ -133,7 +133,7 @@ if (Test-Path $outDll) {
 }
 
 Write-Host '编译中…' -ForegroundColor Cyan
-& $csc /target:library /out:"$outDll" /codepage:65001 /nologo /optimize+ `
+& $csc /target:library /out:"$outDll" /codepage:65001 /nologo /optimize+ /deterministic `
     /reference:"$managed\Assembly-CSharp.dll" `
     /reference:"$managed\UnityEngine.CoreModule.dll" `
     /reference:"$harmony" `
@@ -146,11 +146,10 @@ Write-Host ""
 Write-Host "构建完成 : $outDll" -ForegroundColor Green
 Write-Host ("大小     : {0:N0} 字节" -f (Get-Item $outDll).Length)
 Write-Host "SHA256   : $after"
-if ($before -and $before -ne $after) {
-    Write-Host ""
-    Write-Host "提示：哈希与构建前不同 —— 这是正常的。" -ForegroundColor Yellow
-    Write-Host "      csc 默认不写确定性 MVID，每次编译都会生成新的模块版本 ID。" -ForegroundColor Yellow
-    Write-Host "      要确认「源码改了没有」，请对比反编译结果（类型 / 方法 / IL）。" -ForegroundColor Yellow
-}
+Write-Host ""
+Write-Host "说明：本脚本已加 /deterministic（确定性编译）。" -ForegroundColor DarkGray
+Write-Host "      同一份源码重复编译应当得到完全相同的 SHA256 ——" -ForegroundColor DarkGray
+Write-Host "      也就是说，以后「仓库里的 DLL 是不是这份源码编出来的」可以直接用哈希核对。" -ForegroundColor DarkGray
+Write-Host "      若哈希仍与上一次不同，那通常意味着源码确实改过了（这正是我们想看到的信号）。" -ForegroundColor DarkGray
 Write-Host ""
 Write-Host '下一步：跑 tools\ui-patch-tester\run.ps1 做离线行为验证。' -ForegroundColor Cyan
