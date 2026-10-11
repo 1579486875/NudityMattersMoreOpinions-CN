@@ -1,4 +1,4 @@
-# 裸体评价更多看法 简体汉化 —— 界面补丁 DLL 的构建脚本
+﻿# 裸体评价更多看法 简体汉化 —— 界面补丁 DLL 的构建脚本
 #
 # 干什么：
 #   把 tools\ui-patch-tester\NMMOpinionsChineseUI.cs 编译成

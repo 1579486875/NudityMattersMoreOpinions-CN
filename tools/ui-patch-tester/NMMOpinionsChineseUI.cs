@@ -24,6 +24,23 @@ using System.Text.RegularExpressions;
 using HarmonyLib;
 using Verse;
 
+// ── 程序集版本信息（2026-10-11 审计补上）─────────────────────────
+//
+// 为什么需要显式写这一段：
+//   本 DLL 是用 tools\build-patch-dll.ps1 直接调 csc 编出来的（没有 csproj），
+//   而那条 csc 命令行不带任何版本参数，于是编出来的程序集版本一直是 0.0.0.0 ——
+//   「游戏里模组列表显示的版本（读 About.xml）」和「DLL 自己记录的版本」对不上，
+//   双击 dll 看属性也是空白。这里显式声明，与 About\About.xml 的
+//   <modVersion>1.2.4</modVersion> 保持一致。
+//
+// 改版本号时这三行要一起改：
+//   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
+//   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
+//   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
+[assembly: AssemblyVersion("1.2.4.0")]
+[assembly: AssemblyFileVersion("1.2.4.0")]
+[assembly: AssemblyInformationalVersion("1.2.4")]
+
 namespace NMMOpinionsChineseUI
 {
     /// <summary>加载入口。静态构造函数由 CLR 保证只执行一次。</summary>

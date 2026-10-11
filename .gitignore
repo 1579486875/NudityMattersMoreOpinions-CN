@@ -14,6 +14,16 @@ tools/*.log
 Thumbs.db
 desktop.ini
 
+# C# 编译产物
+# run.ps1（离线验证器）每次都会把 PatchTester.exe / .pdb 生成在
+# tools\ui-patch-tester\ 下；它们是可随时重建的中间产物，不进版本控制。
+# （2026-10-11 审计发现：之前没写这几条，跑一次验证器就会把 exe 变成未跟踪文件。）
+bin/
+obj/
+tools/ui-patch-tester/*.exe
+tools/ui-patch-tester/*.pdb
+tools/ui-patch-tester/*.mdb
+
 # 打包产物（zip 不入库，通过 GitHub Release 分发）
 packing/*.zip
 
