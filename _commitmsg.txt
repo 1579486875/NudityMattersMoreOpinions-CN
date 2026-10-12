@@ -1,0 +1,30 @@
+fix: v1.2.7 —— 救回 12.5 万条正文译文（整列表注入被静默拒绝）
+
+【根因】Verse.DefInjectionPackage.SetDefFieldAtPath 规定：「整列表注入」的目标字段必须带
+[TranslationCanChangeCount] 特性，否则只记 loadError 不注入。前置模组的
+OpinionDef_SexPart.opinionTexts 与 BodyPartOpinionDef.texts 都是裸 List<string>，
+全 DLL 该特性 0 处命中 —— v1.2.7 的 5208 个容器（125,744 条）被全部拒绝，
+玩家看到的是「标签中文、正文英文」的半汉化。
+
+【修法：方案 C —— 自有清单 + 运行时注入】
+- 5208 个整列表容器搬到 OwnInjections\（游戏不扫描该目录），
+  普通键（5,668）与 rulesStrings（192 容器）仍留在 Languages\；
+- 新增 tools/ui-patch-tester/OwnListInjector.cs：在 [StaticConstructorOnStartup] 读自有清单，
+  按 XML 里的字段名反射取字段并逐条写入，只对中文环境执行，全流程 try/catch + 一条汇总日志。
+
+【重要修正：继承导致的「多 1 条」】
+首次上线时 4509 个容器报「条数不符」被整条跳过。根因不是版本错配而是继承：
+原模组所有 OpinionDef_SexPart 子 Def 都写了 ParentName="BaseSexPartOpinionDef"
+（实测正好 4509 个，与跳过量完全吻合），而那个抽象基类自带一条 <opinionTexts>
+（"Its just there, what to say more?"）；RimWorld 的 XML 继承对列表是「父+子」合并，
+于是运行时每个列表都比清单多 1 条。
+现改为识别「多 1 条」，并按基类文本的位置自动决定写入偏移（在头 → 从 [1] 起写；
+在尾 → 从 [0] 起写；判不准 → 按尾部处理并留痕），汇总日志新增三项继承统计。
+（官方 DefLoadCache 的 .xml.gz 已核实：缓存保存的是未展开的原始结构，
+  基类文本在整个缓存里只出现 1 次，所以那一条只存在于运行时。）
+
+【顺带】6,167 处 \r\r\n 清零；三份文档的键数口径统一为
+「Languages\ 5,866 键 / OwnInjections\ 125,744 条 / 合计 137,033 条」，并新增
+「第三个坑：列表翻译要求字段带 [TranslationCanChangeCount]」整节。
+
+验证：搬移前后逐条比对 131,365 条零丢失零错位；编译 0 error 0 warning。

@@ -28,15 +28,22 @@ $ErrorActionPreference = 'Stop'
 
 $here     = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repoRoot = Split-Path -Parent $here
-$src      = Join-Path $here 'ui-patch-tester\NMMOpinionsChineseUI.cs'
+$srcDir   = Join-Path $here 'ui-patch-tester'
+# 本 DLL 由两个源文件组成，两个都必须出现在编译命令行里 —— 漏一个会「编译通过但功能缺失」：
+#   NMMOpinionsChineseUI.cs —— 入口 Bootstrap + 界面硬编码字符串的 Harmony 替换
+#   OwnListInjector.cs      —— 「方案 C」自有清单运行时注入（读 OwnInjections\ 下的 XML）
+$srcs     = @((Join-Path $srcDir 'NMMOpinionsChineseUI.cs'),
+              (Join-Path $srcDir 'OwnListInjector.cs'))
 $outDll   = Join-Path $repoRoot 'Assemblies\NMMOpinionsChineseUI.dll'
 
 Write-Host "仓库根目录 : $repoRoot"
-Write-Host "源码       : $src"
+Write-Host "源码       : $($srcs -join '  +  ')"
 Write-Host "输出       : $outDll"
 Write-Host ""
 
-if (-not (Test-Path $src)) { Write-Host "找不到源码：$src" -ForegroundColor Red; exit 1 }
+foreach ($s in $srcs) {
+    if (-not (Test-Path $s)) { Write-Host "找不到源码：$s" -ForegroundColor Red; exit 1 }
+}
 
 # ══════════ 探测 RimWorld 安装目录 ══════════
 # 注意：不要写成 `$x = @(...) | Where-Object {...}` —— 只剩一个元素时
@@ -136,8 +143,9 @@ Write-Host '编译中…' -ForegroundColor Cyan
 & $csc /target:library /out:"$outDll" /codepage:65001 /nologo /optimize+ /deterministic `
     /reference:"$managed\Assembly-CSharp.dll" `
     /reference:"$managed\UnityEngine.CoreModule.dll" `
+    /reference:"$managed\System.Xml.dll" `
     /reference:"$harmony" `
-    $src
+    $srcs
 if ($LASTEXITCODE -ne 0) { Write-Host '编译失败' -ForegroundColor Red; exit 1 }
 if (-not (Test-Path $outDll)) { Write-Host '编译成功但产物不存在' -ForegroundColor Red; exit 1 }
 
