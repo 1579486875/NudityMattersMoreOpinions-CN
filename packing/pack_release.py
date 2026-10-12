@@ -60,12 +60,27 @@ TOP = "裸体评价更多看法-简体汉化"          # 解压后出现的文�
 INCLUDE = [
     "About",            # 模组元数据，游戏靠它识别模组
     "Assemblies",       # 界面汉化补丁 DLL（少了它界面文字还是英文）
-    "Languages",        # 全部翻译文件
+    "Languages",        # 游戏自己扫描的翻译文件
+    "OwnInjections",    # ★ 正文注入清单 —— DLL 在启动时读它
     "tools",            # 自检工具，玩家可用来验证补丁完好
     "汉化说明.md",       # 中文说明
     "README.md",
     "LICENSE",
 ]
+
+# ⚠️ 为什么 OwnInjections 必须打进去（2026-10-12 复审补）
+#
+#   2026-10 改成「整列表注入」架构后，12.5 万条**看法正文**不再放在
+#   Languages\ 下（游戏不认没有 [TranslationCanChangeCount] 特性的整列表字段），
+#   而是放在 OwnInjections\ 里由 Assemblies\ 那个 DLL 在启动时读取、反射写回。
+#
+#   所以它和 DLL 是一对：DLL 在、清单不在 → DLL 打一条
+#   「自有清单目录不存在，注入跳过」，然后**12.5 万条正文全部退回英文**，
+#   游戏照常运行、不报错、不崩溃 —— 是最难被玩家发现的那种残缺。
+#
+#   本脚本原先的 INCLUDE 只有 Languages（那是旧架构的写法），
+#   改架构时漏了同步这里，等于「下次打包必然发一个残缺包」。
+#   现在 INCLUDE 与 must 两处都补上了，末尾还有一条回验断言。
 
 # 打包时跳过的目录名与后缀（Python 缓存之类，属于垃圾）
 SKIP_DIRS = {"__pycache__", ".vs", "obj", "bin"}
@@ -136,6 +151,9 @@ def main():
         "About/About.xml",
         "Assemblies/NMMOpinionsChineseUI.dll",
         "Languages/ChineseSimplified/DefInjected/InteractionDef/Interactions.xml",
+        # 正文清单的代表性文件：它不在就说明整个 OwnInjections 目录丢了
+        "OwnInjections/ChineseSimplified/DefInjected/"
+        "NudityMattersMore_opinions.OpinionDef_SexPart/OpinionTexts_Part001.xml",
     ]
     missing = [m for m in must if not os.path.isfile(os.path.join(REPO, m.replace("/", os.sep)))]
     if missing:
@@ -167,6 +185,15 @@ def main():
         print("  补丁 DLL ：[OK] 已打进包（" + dll[0] + "）")
     else:
         print("  补丁 DLL ：[NG] 不在包里！界面文字不会变中文")
+        bad += 1
+
+    # 正文清单必须真的进包 —— 少了它是「静默残废」而不是「报错」，
+    # 所以这里单独断言一次，别只依赖 INCLUDE 写对。
+    own = [n for n in names if "/OwnInjections/" in n]
+    if own:
+        print("  注入清单 ：[OK] 已打进包（%d 个文件）" % len(own))
+    else:
+        print("  注入清单 ：[NG] 不在包里！社交界面 12.5 万条正文会全部退回英文")
         bad += 1
 
     junk = [n for n in names if "__pycache__" in n or n.endswith(".pyc")]

@@ -13,12 +13,16 @@
     说明：这三个特质的文字，前置模组1 的 Def 文件里本来就写着中文（群友直接改了 Def）。
     但原版（工坊下载版）里是英文，所以我们在翻译文件里再写一遍，把两种版本都盖住。
     这里用**数字索引**写法 degreeDatas.0，它对任何版本都有效。
+    ⚠ 三个 label **必须带 <color=…> 标记**：前置模组自己的文件里就是带色的
+      （暴露狂 #cc0099 / 拘谨 #FFFFFF / 视奸狂 #FF9900），而本包 loadAfter 它、
+      后注入会整条覆盖掉那个值 —— 不写颜色，游戏里这三个特质名就不再着色。
+      （2026-10-12 复审发现：原先没带，实测会把前置模组的颜色弄丢。）
     顺带修正了原文里「视奸狂」描述多出来的一个右大括号（{PAWN_pronoun}}）。
   -->
-  <NMM_Exhibitionist.degreeDatas.0.label>暴露狂</NMM_Exhibitionist.degreeDatas.0.label>
+  <NMM_Exhibitionist.degreeDatas.0.label>&lt;color=#cc0099&gt;暴露狂&lt;/color&gt;</NMM_Exhibitionist.degreeDatas.0.label>
   <NMM_Exhibitionist.degreeDatas.0.description>{PAWN_nameDef}几乎是强迫性地想让人们看到{PAWN_objective}的裸体，经常为了刺激而不择手段。</NMM_Exhibitionist.degreeDatas.0.description>
-  <NMM_Prude.degreeDatas.0.label>拘谨</NMM_Prude.degreeDatas.0.label>
+  <NMM_Prude.degreeDatas.0.label>&lt;color=#FFFFFF&gt;拘谨&lt;/color&gt;</NMM_Prude.degreeDatas.0.label>
   <NMM_Prude.degreeDatas.0.description>{PAWN_nameDef}的颜面是{PAWN_possessive}最重要的财产。{PAWN_pronoun}有时宁愿死也不愿失去它。</NMM_Prude.degreeDatas.0.description>
-  <NMM_Voyeur.degreeDatas.0.label>视奸狂</NMM_Voyeur.degreeDatas.0.label>
+  <NMM_Voyeur.degreeDatas.0.label>&lt;color=#FF9900&gt;视奸狂&lt;/color&gt;</NMM_Voyeur.degreeDatas.0.label>
   <NMM_Voyeur.degreeDatas.0.description>{PAWN_nameDef}痴迷于看别人裸体。如果{PAWN_pronoun}在看着你，{PAWN_pronoun}很可能是在想你衣服下面是什么。</NMM_Voyeur.degreeDatas.0.description>
 </LanguageData>
