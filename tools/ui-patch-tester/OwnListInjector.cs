@@ -76,9 +76,20 @@ namespace NMMOpinionsChineseUI
         /// </summary>
         private const string InheritedBaseText = "Its just there, what to say more?";
 
+        /// <summary>
+        /// 上面那句继承来的英文，在中文环境下的对应译文。
+        /// 为什么要单独写它：读取端是 GenCollection.RandomElement（**无序候选池**，顺序无语义），
+        /// 所以列表里剩下的那条英文同样会被按 1/(N+1) 的概率抽中显示给玩家。
+        /// 实测 4509 个 SexPart 容器的 N 分布在 5..90 之间 → 抽中概率约 1.10% ~ 16.67%，
+        /// 平均约 4.3%（玩家平均每 ~23 次正文生成会遇到一次英文）。
+        /// 只替换这一条、**不改列表长度** —— RemoveAt 会同时改变本文件的条数判据（diff），得不偿失。
+        /// </summary>
+        private const string InheritedBaseTextZh = "就这样，还有什么好说的？";
+
         private static int inheritedHead;      // 基类那条在列表头部 → 整体后移 1 条
         private static int inheritedTail;      // 基类那条在列表尾部 → 偏移 0
         private static int inheritedUnknown;   // 判不准 → 按尾部处理
+        private static int inheritedHeadFilled; // 基类在头时，顺手把 target[0] 换成中文的次数
 
         private static string Clip(string s)
         {
@@ -168,9 +179,9 @@ namespace NMMOpinionsChineseUI
             int skipped = skipDef + skipField + skipCount;
             Log.Message(string.Format(
                 "[NMM 汉化] 自有清单注入：容器 {0}、生效 {1} 条、跳过 {2}（Def 未找到 {3} / 字段不符 {4} / 条数不符 {5} / 文件失败 {6}）"
-                + " ｜ 继承补偿：基类在头 {7} / 在尾 {8} / 判不准 {9}",
+                + " ｜ 继承补偿：基类在头 {7}（其中已补中文 {10}）/ 在尾 {8} / 判不准 {9}",
                 containers, applied, skipped, skipDef, skipField, skipCount, failedFiles,
-                inheritedHead, inheritedTail, inheritedUnknown));
+                inheritedHead, inheritedTail, inheritedUnknown, inheritedHeadFilled));
         }
 
         /// <summary>注入一个清单文件里的全部容器。</summary>
@@ -303,6 +314,16 @@ namespace NMMOpinionsChineseUI
                 for (int i = 0; i < texts.Count; i++)
                 {
                     target[offset + i] = texts[i];
+                }
+
+                // 【2026-10-12 补】offset == 1 意味着上面刚判定「基类那条在头部」，
+                // 于是 target[0] 仍是继承来的那句英文。读取端是无序的 RandomElement，
+                // 不换掉它就会按 1/(N+1) 的概率把英文混进中文正文（平均约 4.3%）。
+                // 只在确凿判定 headIsBase 时才走到这里，所以不会误伤别的条目。
+                if (offset == 1)
+                {
+                    target[0] = InheritedBaseTextZh;
+                    inheritedHeadFilled++;
                 }
                 applied += texts.Count;
             }
