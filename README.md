@@ -4,7 +4,7 @@
 
 | 项目 | 说明 |
 |---|---|
-| **适用游戏版本** | RimWorld **1.6** |
+| **适用游戏版本** | RimWorld **1.6 / 1.7** |
 | **必需前置** | **Nudity Matters More** + **Nudity Matters More opinions**（以及它们各自的前置 RimJobWorld、Harmony） |
 | **支持的语言** | **简体中文**（这是汉化包本身的语言） |
 | **作者** | 大赢经直插白皮赢道 |
@@ -284,13 +284,14 @@ Mods\
 
 | 项目 | 情况 |
 |---|---|
-| **RimWorld 版本** | 1.6 |
+| **RimWorld 版本** | **1.6**（完整支持）／ **1.7 测试版**（可运行） |
 | **必需前置** | Nudity Matters More opinions 及其前置
 | **Harmony** | 界面汉化补丁需要；原模组本身也依赖它 |
 | **支持语言** | 简体中文 |
 | **存档安全** | ✅ 只改文字，不写数据 |
 | **需重开存档** | ❌ 不需要 |
-| **缺前置时** | 汉化不会生效（游戏会提示缺依赖） |
+| **缺前置时** | 汉化不会生效（游戏会提示缺依赖）。⚠ 但**不是「安静跳过」**：游戏那条注入路径带 `errorOnDefNotFound: true`，`Languages\` 里这 **5,866** 个键会逐条记 `Found no … named …` 并聚合为**一条**含该计数的 `Log.Warning`。**不会崩**，但 `Player.log` 会多一条看着像报错的 Warning —— 别误判；也**别在缺前置的档里启用本包** |
+| **缺可选模组时** | **不会崩、不影响运行，也不影响已存在内容的翻译**；但 `Player.log` 会出现一条 `Translation data for language Simplified Chinese has N errors`。原因：前置模组里有一批 Def 带 `MayRequire` 条件（`Vegapnk.rjw.genes` / `Dubwise.DubsBadHygiene` / `rjw.milk.humanoid`，共 505 个 Def），没装对应可选模组时这些 Def 不加载，而 `Languages\` 里指向它们的键就会逐条记 `Found no … named …`。**这是平台限制、本包无法消除**：反编译 `Verse.DefInjectionPackage.AddDataFromFile` 可见它从头到尾**不读 `XElement` 的任何属性** ⇒ 翻译文件里的 `MayRequire` 根本不生效。实测（38 项隔离环境）该警告共 **1,113** 条，其中本包贡献 **508 条（45.6%）**，其余来自同环境其它模组 —— 该警告**按语言聚合**，不是本包专属 |
 
 ---
 
@@ -348,8 +349,8 @@ zip 内已经包含正确的目录结构，**不要**再额外套文件夹。
 
 | | |
 |---|---|
-| 适用游戏版本 | RimWorld **1.6** |
-| 汉化版本 | **1.2.8** |
+| 适用游戏版本 | RimWorld **1.6 / 1.7** |
+| 汉化版本 | **1.2.9** |
 | packageId | `shark510.nuditymattersmoreopinions.zhfix` |
 | 需要的前置模组 | `dord.nuditymattersmore`（Nudity Matters More）<br>`shark510.nuditymattersmoreopinions`（Nudity Matters More opinions） |
 | 会改动原模组吗 | **不会**，一个文件都不碰 |
@@ -366,7 +367,7 @@ zip 内已经包含正确的目录结构，**不要**再额外套文件夹。
 |---|---|---|
 | **看法正文** | **123,021** 条 | 社交界面里那一条条具体的评价文字 —— 最主要、最庞大的部分 |
 | **看法条目名称** | **5,214** 条 | 每条评价的标题 |
-| **互动日志** | **128** 条 | 日志里「XX 摸了 YY 的 ZZ」这类记录 |
+| **互动日志** | **128** 条（另有 192 个整列表容器、5,615 条句式，合计 **5,743** 条） | 日志里「XX 摸了 YY 的 ZZ」这类记录 |
 | 其余看法条目 | 5,615 条 | 情境看法、结论看法等 |
 | **合计** | **137,033** 条译文 | 覆盖 **5,342** 个 Def |
 
@@ -537,8 +538,13 @@ NudityMattersMore_opinions.OpinionDef_Situational
 
 **目录名对不上 → 游戏找不到对应类型的 Def → 整批翻译被丢弃。**
 
-关键在于「**静默**」：**不报错、不提示、日志里一个字都没有**。
-游戏里就是纯英文，你完全不知道问题出在哪。
+关键在于「**静默**」：**游戏里不报错、不提示**，你看到的就是纯英文，完全不知道问题出在哪。
+
+> 📌 **措辞更正（2026-10-15 复审）**：严格说并不是「日志里一个字都没有」——
+> 游戏会把这种情况记进 `Verse.LoadedLanguage.loadErrors`，并在
+> `InjectIntoData_AfterImpliedDefs` 里聚合成**一条** `Log.Warning`：
+> 「Translation data for language … has N errors. Generate translation report for more info.」。
+> 游戏界面里看不到，但 `Player.log` 与「翻译报告」里有 —— 排查同类问题时那是唯一的线索。
 
 #### 第三个坑（v1.2.7 才踩到的）：列表翻译要求字段带 [TranslationCanChangeCount]
 
@@ -551,7 +557,7 @@ NudityMattersMore_opinions.OpinionDef_Situational
 
 它**能用** —— 因为每个键对应列表里的**一个字符串元素**，游戏按 `string` 处理。
 
-v1.2.7 为了把键数从 13.7 万压到 1.1 万（缩短加载时间），改成了「整列表注入」：
+v1.2.7 为了把键数从 13.7 万压到 5,866（缩短加载时间），改成了「整列表注入」：
 一个键带一串 `<li>`：
 
 ```xml
@@ -586,7 +592,7 @@ else if (!isPlaceholder) { fieldNamed.SetValue(obj, value); result2 = true; }   
    DefInjected\NudityMattersMore_opinions.OpinionDef_Situational\
    ```
 
-2. **普通键**（label、界面文字等 `string` 字段，共 **5,668** 个）留在
+2. **普通键**（label、界面文字等 `string` 字段，共 **5,866** 个）留在
    `Languages\ChineseSimplified\` —— 游戏自己能正常处理。
 
 3. **整列表键**（12.5 万条正文）搬到 `OwnInjections\ChineseSimplified\`。
@@ -645,11 +651,10 @@ python tools\verify_patch.py
 
 本仓库发布前已跑过。
 
-> ⚠ **注意**：`verify_patch.py` 只扫描**原模组自己**的 Def 类型。
-> `HediffDef` / `ThoughtDef` / `TraitDef` 这三类 Def 属于**前置模组**「裸体评价」
-> （`dord.nuditymattersmore`），脚本没扫它，所以直接运行会在第 3、4 项上报「不通过」。
-> 那是**脚本扫描范围**的问题，不是翻译数据的问题 —— 键本身完整（已用双向比对验证：
-> 缺漏 0、孤儿 0）。要让它全绿，请在脚本的 `CAND_MOD` 里补上前置模组目录。
+> ✅ **2026-10-15 复审实测更正**：脚本**已经**同时扫描两个前置模组
+> （`CAND_MOD` = `NudityMattersMore_opinions`，`CAND_MOD2` = `RJW-功能-裸体评价`），
+> 直接运行即为 **11 项全绿、exit 0**，不会在第 3、4 项报「不通过」。
+> （本节旧文字写的是「脚本没扫前置、会报不通过」，已过时，故替换。）
 
 > 工具顶部有两行路径配置，换电脑时改那两行即可。
 
