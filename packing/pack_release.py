@@ -82,9 +82,15 @@ INCLUDE = [
 #   改架构时漏了同步这里，等于「下次打包必然发一个残缺包」。
 #   现在 INCLUDE 与 must 两处都补上了，末尾还有一条回验断言。
 
-# 打包时跳过的目录名与后缀（Python 缓存之类，属于垃圾）
+# 打包时跳过的目录名与后缀（Python 缓存 / 可重建的编译中间产物）
+#
+# ⚠️ .exe 必须排除（2026-10-18 修）：tools/ui-patch-tester/PatchTester.exe 是
+#    run.ps1 每次运行都会重新生成的可执行文件，仓库里已由 .gitignore 明确排除
+#    （见 .gitignore 第 23 行）。此前 INCLUDE 收录整个 tools/ 时把它一起打进了发布包 ——
+#    对玩家毫无用处，还会平白招来杀软误报。排除后高级玩家仍可用同目录的
+#    PatchTester.cs + run.ps1 自行重建。
 SKIP_DIRS = {"__pycache__", ".vs", "obj", "bin"}
-SKIP_EXTS = {".pyc", ".pyo", ".pdb"}
+SKIP_EXTS = {".pyc", ".pyo", ".pdb", ".exe", ".mdb"}
 
 OUT = os.path.join(HERE, "NudityMattersMoreOpinions-CN-v%s.zip" % VERSION)
 # ────────────────────────────────────────────────────────────
