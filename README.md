@@ -8,6 +8,7 @@
 | **必需前置** | **Nudity Matters More** + **Nudity Matters More opinions**（以及它们各自的前置 RimJobWorld、Harmony） |
 | **支持的语言** | **简体中文**（这是汉化包本身的语言） |
 | **作者** | 大赢经直插白皮赢道 |
+| **AI 协作** | 代码由 AI 助手「DeepSeek娘·汐蓝」辅助编写；设计、需求、审阅与实机验证由作者完成 |
 | **仓库 / 问题反馈** | <https://github.com/1579486875/NudityMattersMoreOpinions-CN> |
 | **下载** | [最新版本 Releases](https://github.com/1579486875/NudityMattersMoreOpinions-CN/releases/latest) |
 
