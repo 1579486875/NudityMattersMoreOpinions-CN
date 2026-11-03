@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    这是「用 .NET SDK 构建补丁 DLL」的替代方式。
+
+    权威构建方式仍是 tools\build-patch-dll.ps1（直接调 VS 的 Roslyn csc.exe），
+    本 csproj 只是让没装 Visual Studio 的机器也能编。
+
+    源码只有一份：tools\ui-patch-tester\NMMOpinionsChineseUI.cs + OwnListInjector.cs。
+    ⚠ 不要在本目录放副本 —— 两份源码会各自漂移。
+
+    用法：
+      dotnet build Source\NMMOpinionsChineseUI.csproj
+      dotnet build Source\NMMOpinionsChineseUI.csproj /p:RimWorldManaged1_6="其他路径\Managed"
+  -->
+
+  <PropertyGroup>
+    <!-- net472：与 1.6（Mono / .NET Framework 4.8）原生兼容，
+         1.7（Waylith CLR / .NET 10）也能加载，一份 dll 双版本可用。 -->
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <OutputType>Library</OutputType>
+    <AssemblyName>NMMOpinionsChineseUI</AssemblyName>
+    <RootNamespace>NMMOpinionsChineseUI</RootNamespace>
+
+    <!-- 版本号由源码里的 [assembly: AssemblyVersion] 提供，不要在这里重复声明。 -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <Deterministic>true</Deterministic>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>..\Assemblies\</OutputPath>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <RimWorldManaged1_6 Condition="'$(RimWorldManaged1_6)' == ''">D:\RimWorld-1.6\RimWorldWin64_Data\Managed</RimWorldManaged1_6>
+    <HarmonyDll Condition="'$(HarmonyDll)' == ''">D:\steam\steamapps\common\RimWorld\Mods\TPS优化器——性能\Assemblies\net472\0Harmony.dll</HarmonyDll>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\tools\ui-patch-tester\NMMOpinionsChineseUI.cs" Link="NMMOpinionsChineseUI.cs" />
+    <Compile Include="..\tools\ui-patch-tester\OwnListInjector.cs" Link="OwnListInjector.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(RimWorldManaged1_6)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(RimWorldManaged1_6)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>$(RimWorldManaged1_6)\System.Xml.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(HarmonyDll)</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

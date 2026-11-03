@@ -38,15 +38,15 @@ using Verse;
 //   而那条 csc 命令行不带任何版本参数，于是编出来的程序集版本一直是 0.0.0.0 ——
 //   「游戏里模组列表显示的版本（读 About.xml）」和「DLL 自己记录的版本」对不上，
 //   双击 dll 看属性也是空白。这里显式声明，与 About\About.xml 的
-//   <modVersion>1.2.10</modVersion> 保持一致。
+//   <modVersion>1.2.11</modVersion> 保持一致。
 //
 // 改版本号时这三行要一起改：
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.2.10.0")]
-[assembly: AssemblyFileVersion("1.2.10.0")]
-[assembly: AssemblyInformationalVersion("1.2.10")]
+[assembly: AssemblyVersion("1.2.11.0")]
+[assembly: AssemblyFileVersion("1.2.11.0")]
+[assembly: AssemblyInformationalVersion("1.2.11")]
 
 namespace NMMOpinionsChineseUI
 {
@@ -403,6 +403,11 @@ namespace NMMOpinionsChineseUI
             { "Genitals opinion: N/A (No genitals detected)", "生殖器看法：无（未检测到生殖器）" },
             { "Anus opinion: N/A (No anus detected)",         "肛门看法：无（未检测到肛门）" },
             { "No situational opinions recorded yet.",        "暂未记录任何情境看法。" },
+
+            // ── 整合版（NMM Combined Edition）新增的标签页标题 ──
+            // 2026-11-03 审计：1.7 的 FillTab 里多了一个大标题
+            // Widgets.Label(titleRect, "Opinion Inspector")，此前完全没被翻译。
+            { "Opinion Inspector",                            "看法检查器" },
         };
 
         /// <summary>
@@ -502,6 +507,80 @@ namespace NMMOpinionsChineseUI
             { "If these interactions enabled, descriptions from other mods may look incorrect.",
               "启用这些互动后，其它模组的描述可能显示不正确。" },
             { "Other Commentaries",                        "其它评论" },
+
+            // ══════════ 整合版（NMM Combined Edition 1.0.0 / 1.7）新增与改写 ══════════
+            //
+            // 2026-11-03 审计查出的两类新缺口：
+            //
+            //  ① 整合版把滑动条说明从 string.Format 改成了 C# 内插字符串
+            //     （$"Chance of generated opinion: {x:F0}%"）。Roslyn 编译成
+            //     DefaultInterpolatedStringHandler 之后，ldstr 里只剩**字面量碎片**，
+            //     上面那些带 {0:F0} 的整串永远命中不了。
+            //     证据（反编译 1.7 的 NudityMattersMore.dll → DrawGeneralSettings）：
+            //       IL_0086  ldstr "Chance of generated opinion: "
+            //       IL_0092  call  DefaultInterpolatedStringHandler.AppendLiteral
+            //       IL_00A8  call  DefaultInterpolatedStringHandler.AppendFormatted
+            //       IL_00B4  ldstr "%"
+            //       IL_00BB  call  DefaultInterpolatedStringHandler.ToStringAndClear
+            //     所以这里必须补「碎片版」键，与上面的「整串版」并存：
+            //     整串版管旧版（≤1.6 原 opinions 走 string.Format），碎片版管整合版。
+            //     两者键不同，不会互相覆盖。
+            //
+            //  ② 设置窗口新增了四个区块（角色标签页 / 裸体与衣物 / 观察与集成 / 社交情感），
+            //     这些英文串表里一条都没有。
+
+            // ── ① 内插碎片的字面量部分 ──
+            { "Chance of generated opinion: ",             "生成看法的概率：" },
+            { "Commentary Cooldown: ",                     "评论冷却：" },
+            { " sec",                                      " 秒" },
+            { "Max Simultaneous Opinions: ",               "同时最多看法数：" },
+            { "Enable/disable commentary for the '",       "是否启用「" },
+            { "' interaction.",                            "」互动的评论。" },
+
+            // ── 滑动条两端的端点标签 ──
+            { "0s",                                        "0 秒" },
+            { "300s (5 min)",                              "300 秒（5 分）" },
+
+            // ── 新增区块：角色标签页（Pawn tab）──
+            { "Pawn tab",                                  "角色标签页" },
+            { "Style: Vanilla (NMM + Opinions)",           "样式：原版（NMM + 看法）" },
+            { "Style: Enhanced (in development)",          "样式：增强（开发中）" },
+            { "The established NMM tab with its full Opinions panel.",
+              "现有的 NMM 标签页，带完整看法面板。" },
+            { "Reserved for the readable full redesign; it currently uses the vanilla layout.",
+              "预留给可读性重构；目前仍是原版布局。" },
+
+            // ── 新增区块：裸体与衣物 ──
+            // ⚠ "Melee strip chance" 这条**不带**冒号空格，与上面旧的
+            //   "Melee strip chance: " 是两次不同的 ldstr：
+            //   整合版写的是 "Melee strip chance" + ": " + 数值（普通拼接，不是内插）。
+            //   两条都要留 —— 旧版走前者，整合版走后者。
+            { "Nudity and clothing",                       "裸体与衣物" },
+            { "Melee strip chance",                        "近战扒衣概率" },
+
+            // ── 新增区块：观察与集成 ──
+            { "Observations and integrations",             "观察与集成" },
+            { "Outdoor observation range: ",               "户外观察范围：" },
+            { " tiles",                                    " 格" },
+            { "Show nudity observation messages",          "显示裸体观察消息" },
+            { "Off by default: individual observation messages are very noisy in larger colonies.",
+              "默认关闭：在大殖民地中，逐条观察消息会非常刷屏。" },
+
+            // ── 开发者选项（只在开发者模式下出现，但同样是硬编码英文）──
+            { "Developer options",                         "开发者选项" },
+
+            // ── 新增区块：社交情感 ──
+            { "Social Feelings",                           "社交情感" },
+            { "Enable social feelings",                    "启用社交情感" },
+            { "Adds short mood memories from actual nudity observations; it does not scan pawns.",
+              "根据实际的裸体观察添加短暂的心情记忆；不会主动扫描角色。" },
+            { "Enable envy",                               "启用羡慕" },
+            { "Comparable visible parts can cause envy when the difference is significant.",
+              "当差异显著时，可比较的可见部位会引发羡慕。" },
+            { "Enable partner jealousy",                   "启用伴侣嫉妒" },
+            { "Several different witnesses escalate one partner's jealousy memory.",
+              "多个不同的目击者会加剧同一方的伴侣嫉妒记忆。" },
+            { "Reset opinion settings to default",         "恢复看法设置的默认值" },
         };
 
         /// <summary>
