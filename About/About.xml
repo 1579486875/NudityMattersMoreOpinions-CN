@@ -20,12 +20,10 @@
 			<packageId>dord.nuditymattersmore</packageId>
 			<displayName>Nudity Matters More</displayName>
 			<downloadUrl>https://gitgud.io/dordheaven/nudity-matters-more.git</downloadUrl>
-		</li>
-		<li>
-			<packageId>shark510.nuditymattersmoreopinions</packageId>
-			<displayName>Nudity Matters More opinions</displayName>
-			<downloadUrl>https://steamcommunity.com/workshop/browse/?appid=294100&amp;searchtext=Nudity+Matters+More+opinions</downloadUrl>
-		</li>
+		</li>		<!-- 2026-11-03：原「Nudity Matters More opinions」从硬依赖降级为排序提示。
+		     原因：1.7 的整合版 dord.nuditymattersmore（NMM Combined Edition）
+		     声明 incompatibleWith 原 opinions，硬依赖它会让本包在整合版环境下无法启用。
+		     共同前置 dord.nuditymattersmore 仍保留在上面。 -->
 	</modDependencies>
 	<loadAfter>
 

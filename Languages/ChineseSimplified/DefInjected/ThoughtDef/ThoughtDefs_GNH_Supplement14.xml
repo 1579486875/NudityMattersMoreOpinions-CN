@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--
+	  ═══════════════════════════════════════════════════════════════
+	  补译：整合版（NMM Combined Edition）里 14 个原本没有任何中文的 def
+	  ═══════════════════════════════════════════════════════════════
+
+	  2026-11-03 逐 def 比对整合版后确认：本包此前覆盖了 5,475 / 5,489 个 def，
+	  剩下这 14 个（ThoughtDef 的社会感受组 + 裸露组）一个键都没有。
+	  它们在 `1.7/Defs/ThoughtDefs/` 里真实存在，玩家在心情条上会看到英文。
+
+	  键名规则与同目录既有的 Bra 译文完全一致：
+	    <defName>.stages.<stage 的 label 转小写下划线>.label / .description
+
+	  ⚠ 注意下面这几种「同 label、不同 defName」的组合是**故意的**：
+	    · CouldNotCover / CouldNotCoverPrude 的 label 都是 was unable to cover my body
+	    · ForcedToShow / ForcedToShowPrude 同理
+	  RimWorld 的 stage 键按 label 派生，所以两条 def 会生成同样的 stage 路径，
+	  但它们挂在不同的 defName 下，互不冲突。
+	-->
+
+	<!-- NMM_EnviousOfBreasts -->
+	<NMM_EnviousOfBreasts.stages.unwelcome_comparison.label>不受欢迎的比较</NMM_EnviousOfBreasts.stages.unwelcome_comparison.label>
+	<NMM_EnviousOfBreasts.stages.unwelcome_comparison.description>一场尴尬的比较伤了我的心气。</NMM_EnviousOfBreasts.stages.unwelcome_comparison.description>
+	<!-- NMM_EnviousOfPenis -->
+	<NMM_EnviousOfPenis.stages.unwelcome_comparison.label>不受欢迎的比较</NMM_EnviousOfPenis.stages.unwelcome_comparison.label>
+	<NMM_EnviousOfPenis.stages.unwelcome_comparison.description>一场尴尬的比较伤了我的心气。</NMM_EnviousOfPenis.stages.unwelcome_comparison.description>
+	<!-- NMM_ExhibitionistPleased -->
+	<NMM_ExhibitionistPleased.stages.enjoyed_the_attention.label>享受被注视</NMM_ExhibitionistPleased.stages.enjoyed_the_attention.label>
+	<NMM_ExhibitionistPleased.stages.enjoyed_the_attention.description>被人注意到，心里悄悄爽了一下。</NMM_ExhibitionistPleased.stages.enjoyed_the_attention.description>
+	<!-- NMM_Jealousy -->
+	<NMM_Jealousy.stages.jealous_feelings.label>嫉妒</NMM_Jealousy.stages.jealous_feelings.label>
+	<NMM_Jealousy.stages.jealous_feelings.description>好几个人看见我的伴侣裸露。</NMM_Jealousy.stages.jealous_feelings.description>
+	<!-- NMM_JealousyConsumed -->
+	<NMM_JealousyConsumed.stages.consumed_by_jealousy.label>被嫉妒吞噬</NMM_JealousyConsumed.stages.consumed_by_jealousy.label>
+	<NMM_JealousyConsumed.stages.consumed_by_jealousy.description>我止不住地想，别人看见了我的伴侣裸露。</NMM_JealousyConsumed.stages.consumed_by_jealousy.description>
+	<!-- NMM_JealousyMild -->
+	<NMM_JealousyMild.stages.protective_feelings.label>保护欲</NMM_JealousyMild.stages.protective_feelings.label>
+	<NMM_JealousyMild.stages.protective_feelings.description>有人看见了我的伴侣裸露。</NMM_JealousyMild.stages.protective_feelings.description>
+	<!-- NMM_JealousyVery -->
+	<NMM_JealousyVery.stages.strong_jealousy.label>强烈嫉妒</NMM_JealousyVery.stages.strong_jealousy.label>
+	<NMM_JealousyVery.stages.strong_jealousy.description>太多人看见了我的伴侣裸露。</NMM_JealousyVery.stages.strong_jealousy.description>
+	<!-- NMM_PrudeUncomfortable -->
+	<NMM_PrudeUncomfortable.stages.uncomfortable_memory.label>不适的记忆</NMM_PrudeUncomfortable.stages.uncomfortable_memory.label>
+	<NMM_PrudeUncomfortable.stages.uncomfortable_memory.description>看到不想看的东西，心里一直不安。</NMM_PrudeUncomfortable.stages.uncomfortable_memory.description>
+	<!-- NMM_VoyeurExcited -->
+	<NMM_VoyeurExcited.stages.pleasantly_distracted.label>愉快的走神</NMM_VoyeurExcited.stages.pleasantly_distracted.label>
+	<NMM_VoyeurExcited.stages.pleasantly_distracted.description>那副难忘的景象让我心情好了起来。</NMM_VoyeurExcited.stages.pleasantly_distracted.description>
+</LanguageData>
