@@ -24,8 +24,8 @@
   <NMM_NSFemGens>从来没见过女人的生殖器</NMM_NSFemGens>
   <NMM_NSMaleGens>从来没见过男人的生殖器</NMM_NSMaleGens>
   <NMM_NBSNaked>{0_pronoun}的裸体从来未被人看过</NMM_NBSNaked>
-  <NMM_NBSBreasts>{0_pronoun}的乳房从来未被人看过</NMM_NBSBreasts>
-  <NMM_NBSGens>{0_pronoun}的生殖器从来未被人看过</NMM_NBSGens>
+  <NMM_NBSBreasts>{0_possessive}乳房从来未被人看过</NMM_NBSBreasts>
+  <NMM_NBSGens>{0_possessive}生殖器从来未被人看过</NMM_NBSGens>
   <NMM_NBSNakedFP>我从来没有被人看到过裸体</NMM_NBSNakedFP>
   <NMM_NBSBreastsFP>我从来没有被人看到过乳房</NMM_NBSBreastsFP>
   <NMM_NBSGensFP>我从来没有被人看到过生殖器</NMM_NBSGensFP>
@@ -54,4 +54,16 @@
   <NMM_LoverCanSee>{0_pronoun}偶尔可以看我的裸体。</NMM_LoverCanSee>
   <NMM_TheyCantSeeMe>我不想让{0_objective}看到我的裸体。</NMM_TheyCantSeeMe>
   <NMM_TheyCanSeeMe>我不介意{0_pronoun}看到我的裸体。</NMM_TheyCanSeeMe>
+
+	<NMM_StatusCumpilationCoverage>体液覆盖：{0}</NMM_StatusCumpilationCoverage>
+	<NMM_StatusNaturallyCovered>天然遮盖（{0}）</NMM_StatusNaturallyCovered>
+	<NMM_StatusNaturallyCoveredActivity>{0} —— 天然遮盖（{1}）</NMM_StatusNaturallyCoveredActivity>
+	<NMM_StatusActivityMasturbating>自慰中</NMM_StatusActivityMasturbating>
+	<NMM_StatusActivitySexual>性行为中</NMM_StatusActivitySexual>
+	<NMM_StatusActivityShowering>淋浴中</NMM_StatusActivityShowering>
+	<NMM_StatusActivityBathing>泡澡中</NMM_StatusActivityBathing>
+	<NMM_StatusActivitySauna>使用桑拿房</NMM_StatusActivitySauna>
+	<NMM_StatusActivityHotTub>使用热水浴缸</NMM_StatusActivityHotTub>
+	<NMM_StatusActivitySwimming>游泳中</NMM_StatusActivitySwimming>
+	<NMM_StatusNaturallyCoveredTooltip>该小人的身体属于天然遮盖（{0}），因此不算裸露</NMM_StatusNaturallyCoveredTooltip>
 </LanguageData>

@@ -71,15 +71,27 @@ namespace NMMOpinionsChineseUI
             n += TryPatch(harmony, "NudityMattersMore_opinions.OpinionHelper", "GetHeaderLabel",
                           prefix: nameof(Patches.GetHeaderLabel_Prefix));
 
-            // ④ 原模组作者留下的**俄语**弹窗消息（「XX 看到 YY 遮住身体」）
-            n += TryPatch(harmony, "NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches", "ApplyFirstTimeThought_Prefix",
-                          transpiler: nameof(Patches.Russian_Transpiler));
-            n += TryPatch(harmony, "NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches", "ApplyRenewThought_Prefix",
-                          transpiler: nameof(Patches.Russian_Transpiler));
-            n += TryPatch(harmony, "NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches", "ApplyFirstTimeEverThought_Prefix",
-                          transpiler: nameof(Patches.Russian_Transpiler));
-            n += TryPatch(harmony, "NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches", "GetRelationsString",
-                          transpiler: nameof(Patches.Russian_Transpiler));
+            // ④ 【2026-11-07 退役，不再挂补丁】
+            //    这里原本给 4 个方法挂 Russian_Transpiler，去改写原模组作者留下的**俄语**
+            //    弹窗消息（「XX 看到 YY 遮住身体」那几句）。
+            //
+            //    前置 1.3（[OWL] NMM Combined Edition）做了一次重构，两件事同时发生：
+            //      ① 命名空间 `NudityMattersMore_opinions_patches` **整个消失** ——
+            //         反编译 1.7 的前置 NudityMattersMore.dll（222 个类型）确认它只剩
+            //         NudityMattersMore / NudityMattersMore_opinions /
+            //         .CalculationHelpers / .Rendering 四个命名空间；
+            //      ② 这套逻辑搬进了 `NudityMattersMore.PawnInteractionManager`
+            //         （ApplyFirstTimeThought / ApplyRenewThought /
+            //          ApplyFirstTimeEverThought / GetRelationsString）。
+            //
+            //    **但真正决定退役的是第 ③ 条**：那些方法体里的俄语字符串**已经没有了** ——
+            //    对前置 DLL 做 search_string_literals("увидел|наготу|соперник|прикрыва")
+            //    命中 **0 条**，作者重构时把它改成了 Keyed 翻译
+            //    （证据：前置 1.7/Languages/English/Keyed/InteractionLog.xml 共 210 键）。
+            //    既然"要修的缺陷"已经不存在，按 §3.1「目标修好就自动退场」处理：
+            //    **不改挂到新方法上**（那样只是继续改一个已经不需要改的地方），
+            //    直接退役，并把这套判断留在这里。若将来前置又冒出新俄语串，再议。
+            //    ⚠ 退役后本项不再计入「共处理 N 处」；当前成功目标为 12 处。
 
             // ⑤ 设置界面 —— 两个模组的设置窗口里的选项文字**全是硬编码英文**，
             //    玩家打开「选项 → 模组设置」就会看到，必须翻。
@@ -92,8 +104,13 @@ namespace NMMOpinionsChineseUI
                           transpiler: nameof(Patches.Settings_Transpiler));
             n += TryPatch(harmony, "NudityMattersMore_opinions.NudityMattersMore_opinions_Mod", "DrawInteractionsSettings",
                           transpiler: nameof(Patches.Settings_Transpiler));
-            n += TryPatch(harmony, "NudityMattersMore_opinions.NudityMattersMore_opinions_Mod", "SettingsCategory",
-                          transpiler: nameof(Patches.Settings_Transpiler));
+            // ⚠【2026-11-07 退役】`NudityMattersMore_opinions_Mod.SettingsCategory` 已不存在。
+            //    反编译前置 1.3 的同名类型，只剩 4 个成员：
+            //    DrawSettings(Listing_Standard) / DrawGeneralSettings(Listing_Standard) /
+            //    DrawInteractionsSettings(Listing_Standard) / settings 字段 —— 没有 SettingsCategory。
+            //    该路径原本是给"设置窗口的分类名"兜底，现在分类名由上方
+            //    `NudityMattersMore.SettingsCategory`（仍存在，且已挂 Settings_Transpiler）覆盖，
+            //    故删除本目标（保留说明，避免下次有人再补回来又踩空）。
 
             // ⑥ 设置界面里「互动类型」复选框的名字 —— 那些名字是运行时从枚举取的，
             //    Transpiler 抓不到，只能在 CheckboxLabeled 被调用时替换。

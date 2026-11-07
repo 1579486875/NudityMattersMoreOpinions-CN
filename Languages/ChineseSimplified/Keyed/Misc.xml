@@ -11,4 +11,27 @@
   -->
   <NMM_PrudeDraft>{0_labelShort}的手臂牢牢地挡在{0_possessive}身体上。</NMM_PrudeDraft>
   <NMM_BiopodWarning>不能穿着任何服装进入生物塑形舱。</NMM_BiopodWarning>
+
+	<NMM.PawnStatus.Prisoner>囚犯</NMM.PawnStatus.Prisoner>
+	<NMM.PawnStatus.Slave>奴隶</NMM.PawnStatus.Slave>
+	<NMM.Relation.Rival>{0}的情敌{1}</NMM.Relation.Rival>
+	<NMM.Relation.Friend>{0}的朋友{1}</NMM.Relation.Friend>
+	<NMM.Relation.Parent>{0}{1}</NMM.Relation.Parent>
+	<NMM.Relation.Named>{0}{1}{2}</NMM.Relation.Named>
+	<NMM.Opinion.Fallback.Positive>正面看法。</NMM.Opinion.Fallback.Positive>
+	<NMM.Opinion.Fallback.Negative>负面看法。</NMM.Opinion.Fallback.Negative>
+	<NMM.Opinion.Fallback.Neutral>中性看法。</NMM.Opinion.Fallback.Neutral>
+	<NMM.Opinion.NotObserved>尚未观察过。</NMM.Opinion.NotObserved>
+	<NMM.Opinion.NotObservedAnus>尚未观察过。</NMM.Opinion.NotObservedAnus>
+	<NMM.Opinion.MissingDef>未找到{0}对应的看法定义。</NMM.Opinion.MissingDef>
+	<NMM.Size.Tiny>极小</NMM.Size.Tiny>
+	<NMM.Size.Small>小</NMM.Size.Small>
+	<NMM.Size.Average>中等</NMM.Size.Average>
+	<NMM.Size.Large>大</NMM.Size.Large>
+	<NMM.Size.Huge>巨大</NMM.Size.Huge>
+	<NMM.Size.TinyLower>极小</NMM.Size.TinyLower>
+	<NMM.Size.SmallLower>小</NMM.Size.SmallLower>
+	<NMM.Size.AverageLower>中等</NMM.Size.AverageLower>
+	<NMM.Size.LargeLower>大</NMM.Size.LargeLower>
+	<NMM.Size.HugeLower>巨大</NMM.Size.HugeLower>
 </LanguageData>

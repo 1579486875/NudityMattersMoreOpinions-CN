@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  NMM 1.3 新增 Keyed · 简体中文
+  键名与 RJW-功能-裸体评价\1.7\Languages\English\Keyed\Settings.xml 一一对应。
+-->
+<LanguageData>
+	<NMM.Settings.Category>裸体评价更多</NMM.Settings.Category>
+	<NMM.Settings.PawnTab>小人标签页</NMM.Settings.PawnTab>
+	<NMM.Settings.PawnTabStyleVanilla>样式：原版（NMM + 看法）</NMM.Settings.PawnTabStyleVanilla>
+	<NMM.Settings.PawnTabStyleEnhanced>样式：增强（开发中）</NMM.Settings.PawnTabStyleEnhanced>
+	<NMM.Settings.PawnTabVanillaDescription>沿用已久的 NMM 标签页，带完整的「看法」面板。</NMM.Settings.PawnTabVanillaDescription>
+	<NMM.Settings.PawnTabEnhancedDescription>预留给可读性全面重设计的版本；目前仍使用原版布局。</NMM.Settings.PawnTabEnhancedDescription>
+	<NMM.Settings.DisableNudityTab>禁用裸体标签页</NMM.Settings.DisableNudityTab>
+	<NMM.Settings.NudityAndClothing>裸体与衣着</NMM.Settings.NudityAndClothing>
+	<NMM.Settings.NipSlips>乳头走光</NMM.Settings.NipSlips>
+	<NMM.Settings.MeleeStrip>近战攻击可能扯掉衣物</NMM.Settings.MeleeStrip>
+	<NMM.Settings.WetShirts>湿透的衣服</NMM.Settings.WetShirts>
+	<NMM.Settings.DrunkStripping>醉酒脱衣</NMM.Settings.DrunkStripping>
+	<NMM.Settings.MeleeStripChance>近战扯掉衣物的概率：{0}</NMM.Settings.MeleeStripChance>
+	<NMM.Settings.ArmorDoesNotStrip>护甲不会被扯掉</NMM.Settings.ArmorDoesNotStrip>
+	<NMM.Settings.ObservationsAndIntegrations>观察与整合</NMM.Settings.ObservationsAndIntegrations>
+	<NMM.Settings.ScanAllMapPawns>观察非殖民地小人</NMM.Settings.ScanAllMapPawns>
+	<NMM.Settings.ScanAllMapPawnsTip>启用后，观察范围包括地图上符合条件的访客、商队成员和其他人形小人。关闭则只扫描自由殖民者和囚犯。</NMM.Settings.ScanAllMapPawnsTip>
+	<NMM.Settings.OutdoorObservationRange>室外观察范围：{0} 格</NMM.Settings.OutdoorObservationRange>
+	<NMM.Settings.ShowHands>显示手部</NMM.Settings.ShowHands>
+	<NMM.Settings.ShowObservationMessages>显示裸体观察消息</NMM.Settings.ShowObservationMessages>
+	<NMM.Settings.ShowObservationMessagesTip>默认关闭：在规模较大的殖民地，逐条观察消息会非常刷屏。</NMM.Settings.ShowObservationMessagesTip>
+	<NMM.Settings.SwimNaked>DBH 的桑拿/游泳/热水浴缸按裸体处理</NMM.Settings.SwimNaked>
+	<NMM.Settings.ExtraPrudeBehaviors>额外保守行为（更多遮挡）</NMM.Settings.ExtraPrudeBehaviors>
+	<NMM.Settings.IgnoreFamily>忽略亲属</NMM.Settings.IgnoreFamily>
+	<NMM.Settings.BiosculpterNudity>生物塑形舱要求裸体</NMM.Settings.BiosculpterNudity>
+	<NMM.Settings.CumpilationIntegration>观察「体液覆盖」状态</NMM.Settings.CumpilationIntegration>
+	<NMM.Settings.CumpilationIntegrationTip>让 NMM 注意到可见的体液覆盖，添加可选的社交反应，并在小人状态里显示。不会改动体液本身或相关想法。</NMM.Settings.CumpilationIntegrationTip>
+	<NMM.Settings.UseRjwQuirks>用 RJW 怪癖判定暴露癖与窥视癖</NMM.Settings.UseRjwQuirks>
+	<NMM.Settings.UseRjwQuirksTip>把 RJW 怪癖的「暴露癖」和 Privacy Please 的「窥视癖」当作 NMM 自带同类特质的等效替代。NMM 原有特质始终有效。</NMM.Settings.UseRjwQuirksTip>
+	<NMM.Settings.PrudeFlash>保守者的闪避效果</NMM.Settings.PrudeFlash>
+	<NMM.Settings.PrudeFlashOften>更频繁地触发闪避效果</NMM.Settings.PrudeFlashOften>
+	<NMM.Settings.BraThoughts>胸罩相关想法</NMM.Settings.BraThoughts>
+	<NMM.Settings.DisableFutaTrapMenus>禁用扶她/男娘菜单</NMM.Settings.DisableFutaTrapMenus>
+	<NMM.Settings.DeveloperOptions>开发者选项</NMM.Settings.DeveloperOptions>
+	<NMM.Settings.CoverBodyDebug>CoverBody 调试消息</NMM.Settings.CoverBodyDebug>
+	<NMM.Settings.InteractionDebug>互动调试消息</NMM.Settings.InteractionDebug>
+	<NMM.Settings.NipSlipDebug>乳头走光调试消息</NMM.Settings.NipSlipDebug>
+	<NMM.Settings.HistoryDebug>历史记录调试消息</NMM.Settings.HistoryDebug>
+	<NMM.Settings.MeleeStripDebug>近战扯衣调试消息</NMM.Settings.MeleeStripDebug>
+	<NMM.Settings.WetShirtDebug>湿衣调试消息</NMM.Settings.WetShirtDebug>
+	<NMM.Settings.NipSlipFaster>更快走光［乳头走光调试］</NMM.Settings.NipSlipFaster>
+	<NMM.Settings.NipSlipNeverCheck>从不检测［乳头走光调试］</NMM.Settings.NipSlipNeverCheck>
+	<NMM.Settings.PrudesBreakFaster>保守者更快崩溃［调试］</NMM.Settings.PrudesBreakFaster>
+	<NMM.Settings.MessageDefTest>MessageDef 测试［调试］</NMM.Settings.MessageDefTest>
+	<NMM.Opinions.Settings.Title>NMM 看法生成器设置</NMM.Opinions.Settings.Title>
+	<NMM.Opinions.Settings.UseGenerator>启用情境看法生成器</NMM.Opinions.Settings.UseGenerator>
+	<NMM.Opinions.Settings.UseGeneratorTip>关闭后只显示预定义的看法。默认：开启。</NMM.Opinions.Settings.UseGeneratorTip>
+	<NMM.Opinions.Settings.GeneratedChance>生成看法的概率：{0}%</NMM.Opinions.Settings.GeneratedChance>
+	<NMM.Opinions.Settings.SocialFeelings>社交感受</NMM.Opinions.Settings.SocialFeelings>
+	<NMM.Opinions.Settings.EnableSocialFeelings>启用社交感受</NMM.Opinions.Settings.EnableSocialFeelings>
+	<NMM.Opinions.Settings.EnableSocialFeelingsTip>依据真实的裸体观察添加简短的心情记忆；不会主动扫描小人。</NMM.Opinions.Settings.EnableSocialFeelingsTip>
+	<NMM.Opinions.Settings.EnableEnvy>启用羡慕</NMM.Opinions.Settings.EnableEnvy>
+	<NMM.Opinions.Settings.EnableEnvyTip>当差异明显时，可相互比较的可见部位会引发羡慕。</NMM.Opinions.Settings.EnableEnvyTip>
+	<NMM.Opinions.Settings.EnableJealousy>启用伴侣吃醋</NMM.Opinions.Settings.EnableJealousy>
+	<NMM.Opinions.Settings.EnableJealousyTip>多名不同的目击者会加剧同一伴侣的吃醋记忆。</NMM.Opinions.Settings.EnableJealousyTip>
+	<NMM.Opinions.Settings.CommentaryTitle>社交日志旁白</NMM.Opinions.Settings.CommentaryTitle>
+	<NMM.Opinions.Settings.EnableCommentary>对观察到的行为启用小人旁白</NMM.Opinions.Settings.EnableCommentary>
+	<NMM.Opinions.Settings.EnableCommentaryTip>添加可选的 SpeakUp 社交日志旁白。不会改变互动、记忆或心情影响。默认：开启。</NMM.Opinions.Settings.EnableCommentaryTip>
+	<NMM.Opinions.Settings.CommentaryUnavailable>对观察到的行为启用小人旁白（未找到 SpeakUp 模组，功能不可用）</NMM.Opinions.Settings.CommentaryUnavailable>
+	<NMM.Opinions.Settings.CommentaryCooldown>旁白冷却：{0} 秒</NMM.Opinions.Settings.CommentaryCooldown>
+	<NMM.Opinions.Settings.MaxSimultaneousOpinions>同时存在的看法上限：{0}</NMM.Opinions.Settings.MaxSimultaneousOpinions>
+	<NMM.Opinions.Settings.AllowSameState>允许评论处于相同状态的小人</NMM.Opinions.Settings.AllowSameState>
+	<NMM.Opinions.Settings.AllowSameStateTip>启用后，裸体的小人可以评论另一个裸体的小人，以此类推。默认：关闭。</NMM.Opinions.Settings.AllowSameStateTip>
+	<NMM.Opinions.Settings.Debugging>调试</NMM.Opinions.Settings.Debugging>
+	<NMM.Opinions.Settings.EnableDebugLogging>启用调试日志</NMM.Opinions.Settings.EnableDebugLogging>
+	<NMM.Opinions.Settings.EnableDebugLoggingTip>在控制台输出详细日志以便排查问题。正常游玩时请保持关闭。默认：关闭。</NMM.Opinions.Settings.EnableDebugLoggingTip>
+	<NMM.Opinions.Settings.Reset>将看法设置恢复为默认</NMM.Opinions.Settings.Reset>
+	<NMM.Opinions.Settings.ProblematicInteractions>敏感事件旁白（实验性）</NMM.Opinions.Settings.ProblematicInteractions>
+	<NMM.Opinions.Settings.ProblematicInteractionsWarning>这些开关只会添加 NMM 的可选 SpeakUp 旁白，不会启用或关闭事件、互动日志、看法记忆或心情影响。由于角色身份有时并不明确，生成的句子偶尔可能用错人称视角。</NMM.Opinions.Settings.ProblematicInteractionsWarning>
+	<NMM.Opinions.Settings.InteractionToggleTip>启用或禁用「{0}」互动的可选 SpeakUp 旁白。不影响玩法，也不影响已保存的看法。</NMM.Opinions.Settings.InteractionToggleTip>
+	<NMM.Opinions.Settings.OtherCommentaries>其他旁白</NMM.Opinions.Settings.OtherCommentaries>
+	<NMM.OpinionTab.Title>看法查看器</NMM.OpinionTab.Title>
+	<NMM.OpinionTab.ObservesSelf>{0} 观察自己</NMM.OpinionTab.ObservesSelf>
+	<NMM.OpinionTab.Observes>{0} 观察 {1}</NMM.OpinionTab.Observes>
+	<NMM.OpinionTab.NoPawnSelected>未选择小人</NMM.OpinionTab.NoPawnSelected>
+	<NMM.OpinionTab.SelectPawn>选择小人…</NMM.OpinionTab.SelectPawn>
+	<NMM.OpinionTab.ObserveSelf>观察自己（{0}）</NMM.OpinionTab.ObserveSelf>
+	<NMM.OpinionTab.NoPawnsFound>未找到小人</NMM.OpinionTab.NoPawnsFound>
+	<NMM.OpinionTab.FilterCurrentMap>当前地图</NMM.OpinionTab.FilterCurrentMap>
+	<NMM.OpinionTab.FilterAllColonists>全部殖民者</NMM.OpinionTab.FilterAllColonists>
+	<NMM.OpinionTab.FilterAllKnown>全部已知</NMM.OpinionTab.FilterAllKnown>
+	<NMM.OpinionTab.NoPawnForOpinions>未选择要查看看法的小人。</NMM.OpinionTab.NoPawnForOpinions>
+	<NMM.OpinionTab.MissingData>错误：无法显示看法。观察者、被观察的小人或观察者的记忆有缺失。</NMM.OpinionTab.MissingData>
+	<NMM.OpinionTab.Breasts>乳房</NMM.OpinionTab.Breasts>
+	<NMM.OpinionTab.Chest>胸膛</NMM.OpinionTab.Chest>
+	<NMM.OpinionTab.Vagina>阴道</NMM.OpinionTab.Vagina>
+	<NMM.OpinionTab.Penis>阴茎</NMM.OpinionTab.Penis>
+	<NMM.OpinionTab.Genitals>生殖器</NMM.OpinionTab.Genitals>
+	<NMM.OpinionTab.Anus>肛门</NMM.OpinionTab.Anus>
+	<NMM.OpinionTab.OpinionAbout>{0} 对 {1} 的{2}的看法：</NMM.OpinionTab.OpinionAbout>
+	<NMM.OpinionTab.PartAndSize>   {0}（{1}）</NMM.OpinionTab.PartAndSize>
+	<NMM.OpinionTab.NoChestOpinion>   {0} 对 {1} 的胸膛/乳头没有特别的看法。</NMM.OpinionTab.NoChestOpinion>
+	<NMM.OpinionTab.NoChestDetected>胸部看法：无（未检测到乳房）</NMM.OpinionTab.NoChestDetected>
+	<NMM.OpinionTab.NoGenitalsDetected>生殖器看法：无（未检测到生殖器）</NMM.OpinionTab.NoGenitalsDetected>
+	<NMM.OpinionTab.NoAnusDetected>肛门看法：无（未检测到肛门）</NMM.OpinionTab.NoAnusDetected>
+	<NMM.OpinionTab.InteractionLog>互动日志</NMM.OpinionTab.InteractionLog>
+	<NMM.OpinionTab.Thoughts>想法</NMM.OpinionTab.Thoughts>
+	<NMM.OpinionTab.NoSituationalOpinions>尚未记录任何情境看法。</NMM.OpinionTab.NoSituationalOpinions>
+</LanguageData>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  NMM 1.3 新增 Keyed · 简体中文
+  键名与 RJW-功能-裸体评价\1.7\Languages\English\Keyed\Notifications.xml 一一对应。
+-->
+<LanguageData>
+	<NMM.Notification.CaughtPeepingShower>{0}抓到{1}想偷看自己洗澡。</NMM.Notification.CaughtPeepingShower>
+	<NMM.Notification.CaughtPeepingBath>{0}抓到{1}想偷看自己泡澡。</NMM.Notification.CaughtPeepingBath>
+	<NMM.Notification.FirstSawNaked>{0}第一次看到了{1}的裸体。</NMM.Notification.FirstSawNaked>
+	<NMM.Notification.FirstSawBreasts>{0}第一次看到了{1}的乳房。</NMM.Notification.FirstSawBreasts>
+	<NMM.Notification.FirstSawGenitals>{0}第一次看到了{1}的生殖器。</NMM.Notification.FirstSawGenitals>
+	<NMM.Notification.ObservationSummary>一阵关注：{0}名殖民者对{2}名裸露的小人做出了{1}次观察。</NMM.Notification.ObservationSummary>
+	<NMM.Notification.RenewSawNaked>{0}好一阵子以来第一次看到了{1}的裸体。</NMM.Notification.RenewSawNaked>
+	<NMM.Notification.RenewSawBreasts>{0}好一阵子以来第一次看到了{1}的乳房。</NMM.Notification.RenewSawBreasts>
+	<NMM.Notification.RenewSawGenitals>{0}好一阵子以来第一次看到了{1}的生殖器。</NMM.Notification.RenewSawGenitals>
+	<NMM.Notification.FirstSawAnotherNakedWoman>{0}第一次看到了另一个女人的裸体。</NMM.Notification.FirstSawAnotherNakedWoman>
+	<NMM.Notification.FirstSawAnotherNakedMan>{0}第一次看到了另一个男人的裸体。</NMM.Notification.FirstSawAnotherNakedMan>
+	<NMM.Notification.FirstSawAnotherBreasts>{0}第一次看到了别人的乳房。</NMM.Notification.FirstSawAnotherBreasts>
+	<NMM.Notification.FirstSawAnotherWomanGenitals>{0}第一次看到了另一个女人的生殖器。</NMM.Notification.FirstSawAnotherWomanGenitals>
+	<NMM.Notification.FirstSawNakedWoman>{0}第一次看到了女人的裸体。</NMM.Notification.FirstSawNakedWoman>
+	<NMM.Notification.FirstSawNakedMan>{0}第一次看到了男人的裸体。</NMM.Notification.FirstSawNakedMan>
+	<NMM.Notification.FirstSawBreastsGeneric>{0}第一次看到了乳房。</NMM.Notification.FirstSawBreastsGeneric>
+	<NMM.Notification.FirstSawWomanGenitals>{0}第一次看到了女人的生殖器。</NMM.Notification.FirstSawWomanGenitals>
+	<NMM.Notification.WasFirstSeenNaked>{0}第一次被人看到裸体。</NMM.Notification.WasFirstSeenNaked>
+	<NMM.Notification.WasFirstSeenBreasts>{0}的乳房第一次被人看到。</NMM.Notification.WasFirstSeenBreasts>
+	<NMM.Notification.WasFirstSeenGenitals>{0}的生殖器第一次被人看到。</NMM.Notification.WasFirstSeenGenitals>
+	<NMM.Notification.FirstSawCovering>{0}第一次看到{1}遮挡{2}身体。</NMM.Notification.FirstSawCovering>
+	<NMM.Notification.SawCoveringAgain>{0}又一次看到{1}遮挡{2}身体。</NMM.Notification.SawCoveringAgain>
+	<NMM.Notification.FirstSawSomeoneCovering>{0}第一次看到有人遮挡{1}的裸露身体。</NMM.Notification.FirstSawSomeoneCovering>
+	<NMM.Notification.WasFirstNoticedCovering>{0}第一次被人注意到在遮挡{1}的身体。</NMM.Notification.WasFirstNoticedCovering>
+	<NMM.NakedTime.Sober1>{0}刚意识到{1}不想光着身子。</NMM.NakedTime.Sober1>
+	<NMM.NakedTime.Sober2>{0}突然为光着身子感到难为情。</NMM.NakedTime.Sober2>
+	<NMM.NakedTime.Sober3>{0}刚意识到{1}还光着身子。</NMM.NakedTime.Sober3>
+	<NMM.NakedTime.Undress1>{0}醉得不成样子，把{1}的衣服全脱了。</NMM.NakedTime.Undress1>
+	<NMM.NakedTime.Undress2>{0}酩酊大醉，决定把衣服脱了。</NMM.NakedTime.Undress2>
+	<NMM.NakedTime.Undress3>{0}突然把{1}的衣服全脱了。</NMM.NakedTime.Undress3>
+	<NMM.NakedTime.Topless1>{0}来了感觉，把{1}上衣脱了。</NMM.NakedTime.Topless1>
+	<NMM.NakedTime.Topless2>{0}含糊地说着{1}话，决定光着上身。</NMM.NakedTime.Topless2>
+	<NMM.NakedTime.Topless3>{0}突然把{1}衬衣全脱了。</NMM.NakedTime.Topless3>
+	<NMM.NakedTime.StoppedCaring>{0}不再在意{1}自己光着身子了。</NMM.NakedTime.StoppedCaring>
+</LanguageData>
