@@ -44,9 +44,9 @@ using Verse;
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.2.11.0")]
-[assembly: AssemblyFileVersion("1.2.11.0")]
-[assembly: AssemblyInformationalVersion("1.2.11")]
+[assembly: AssemblyVersion("1.2.12.0")]
+[assembly: AssemblyFileVersion("1.2.12.0")]
+[assembly: AssemblyInformationalVersion("1.2.12")]
 
 namespace NMMOpinionsChineseUI
 {
