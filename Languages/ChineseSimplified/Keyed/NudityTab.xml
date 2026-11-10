@@ -9,7 +9,6 @@
     不管是英文原版还是别人做的汉化版，装上本包都能显示完整中文。
     我们不修改前置模组的任何文件，所有文字都通过「翻译文件覆盖」实现。
   -->
-  <NMM_Nudity>裸体</NMM_Nudity>
   <NMM_FemButton>女性</NMM_FemButton>
   <NMM_MaleButton>男性</NMM_MaleButton>
   <NMM_TrapButton>男娘</NMM_TrapButton>
