@@ -137,6 +137,25 @@ namespace NMMOpinionsChineseUI
                 Log.Warning("[NMM 汉化] 界面补丁没找到任何目标方法 —— 原模组可能更新了，界面文字会保持英文。");
         }
 
+        /// <summary>
+        /// 已经报过「找不到」的键 —— 同一个类型 / 方法只报一次。
+        ///
+        /// 为什么需要去重：1.7 合并版没有 1.6 才有的
+        /// `NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches`，
+        /// 而界面里指向它的目标有 4 个，于是 2026-11-13 实机日志里出现
+        /// **4 条一模一样的 WARN** —— 玩家会以为出了 4 个问题。
+        /// 跳过本身是正确的（1.7 用的是另一套渲染器），需要保留记录，
+        /// 但只需要一条。
+        /// </summary>
+        private static readonly System.Collections.Generic.HashSet<string> ReportedMissing =
+            new System.Collections.Generic.HashSet<string>();
+
+        private static void WarnMissingOnce(string what)
+        {
+            if (ReportedMissing.Add(what))
+                Log.Warning("[NMM 汉化] 找不到" + what);
+        }
+
         /// <summary>找到目标方法就装补丁，找不到只记一条警告，绝不让游戏崩。</summary>
         private static int TryPatch(Harmony harmony, string typeName, string methodName,
                                     string transpiler = null, string prefix = null)
@@ -146,14 +165,14 @@ namespace NMMOpinionsChineseUI
                 Type t = AccessTools.TypeByName(typeName);
                 if (t == null)
                 {
-                    Log.Warning("[NMM 汉化] 找不到类型：" + typeName);
+                    WarnMissingOnce("类型：" + typeName);
                     return 0;
                 }
 
                 MethodBase target = AccessTools.Method(t, methodName);
                 if (target == null)
                 {
-                    Log.Warning("[NMM 汉化] 找不到方法：" + typeName + "." + methodName);
+                    WarnMissingOnce("方法：" + typeName + "." + methodName);
                     return 0;
                 }
 
@@ -191,7 +210,7 @@ namespace NMMOpinionsChineseUI
                 Type t = AccessTools.TypeByName(typeName);
                 if (t == null)
                 {
-                    Log.Warning("[NMM 汉化] 找不到类型：" + typeName);
+                    WarnMissingOnce("类型：" + typeName);
                     return 0;
                 }
 
