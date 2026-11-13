@@ -3,88 +3,70 @@
 	<name>裸体评价更多看法 简体汉化</name>
 	<author>大赢经直插白皮赢道</author>
 	<packageId>shark510.nuditymattersmoreopinions.zhfix</packageId>
-  <modVersion>1.2.12</modVersion>
-  <url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
+	<modVersion>1.4.0</modVersion>
+	<url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
 	<supportedVersions>
 		<li>1.6</li>
 		<li>1.7</li>
 	</supportedVersions>
 	<modDependencies>
-
 		<li>
 			<packageId>brrainz.harmony</packageId>
 			<displayName>Harmony</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
 		</li>
-		<li>
-			<packageId>dord.nuditymattersmore</packageId>
-			<displayName>Nudity Matters More</displayName>
-			<downloadUrl>https://gitgud.io/dordheaven/nudity-matters-more.git</downloadUrl>
-		</li>		<!-- 2026-11-03：原「Nudity Matters More opinions」从硬依赖降级为排序提示。
-		     原因：1.7 的整合版 dord.nuditymattersmore（NMM Combined Edition）
-		     声明 incompatibleWith 原 opinions，硬依赖它会让本包在整合版环境下无法启用。
-		     共同前置 dord.nuditymattersmore 仍保留在上面。 -->
 	</modDependencies>
 	<loadAfter>
-
 		<li>brrainz.harmony</li>
 		<li>dord.nuditymattersmore</li>
 		<li>shark510.nuditymattersmoreopinions</li>
 	</loadAfter>
-	<description>「裸体评价更多看法」的完整简体中文，两个前置模组一共 137,033 条译文。
+	<description>「裸体评价更多看法」的完整简体中文。
 
-举凡两个前置模组里玩家看得见的文字，这里都译成了简体中文：
+一套文件同时服务三个目标：
+· 1.7 的合并版 [OWL] NMM Combined Edition（dord.nuditymattersmore）
+· 1.6 的 Nudity Matters More（dord.nuditymattersmore，旧版）
+· 1.6 的 Nudity Matters More opinions（shark510.nuditymattersmoreopinions）
 
-· Nudity Matters More（裸体评价）
-· Nudity Matters More opinions（更多看法）
+2026-11-13 起不再硬依赖原模组
+以前这份汉化被绑在「裸体影响增强」上，没装它就连带启不了。现在改了：硬依赖只剩 Harmony，原模组一律降为排序提示（loadAfter）。所以装了哪个版本都能用，一个都不装也不会报错。
 
-它自成一体：无论你装的是英文原版，还是别人做的汉化版，单装这一份就能得到完整中文。
+为什么原先绑死：1.6 的原版和 1.7 的合并版共用同一个 packageId（dord.nuditymattersmore），游戏只认 id 不认版本。既然两个版本都得认，不如干脆不写死。
 
-汉化了什么
+三个版本怎么共存
+· 补丁 DLL 全部用反射探测（AccessTools.TypeByName）：1.7 合并版里那些 1.6 才有的方法找不到就跳过，1.6 里找得到的就照常挂上。两个版本跑同一份文件，不用手动切换。
+· 文本注入按 Def 名查（GenDefDatabase.GetDefSilentFail）：查不到就跳过那个容器，不会因为某个 Def 缺席而崩。
+· 全程零存档写入，加装、移除、换版本都不用开新档。
 
-Nudity Matters More opinions
-· 看法正文 123,021 条 —— 社交界面里那一条条具体的评价文字
-· 互动日志 5,743 条 —— 日志里「XX 摸了 YY 的 ZZ」这类记录
-· 看法条目名称 5,214 条 —— 每条评价的标题
-· 看法生成器模板 2,729 条 —— 程序拼看法时用的句段
+内容覆盖
+· 界面键值 471 条（NMM.OpinionTab.*、NMM.Log.*、NMM.Notification.*、NMM.Settings.* 等）
+· 定义文本 137,647 条 —— 看法正文 123,455、互动日志规则 5,743、通用文本 2,729、名称 5,573、描述 147
+· 增强界面约 90 条 —— 合并版把文字写死在 C# 里，只能靠补丁 DLL 在运行时替换
 
-Nudity Matters More
-· 健康状态 / 心情 / 特质 279 条
-· 界面文字 47 条
-
-两个模组写在代码里、翻译文件够不着的硬编码
-· 设置界面的全部选项
-· 屏幕消息「XX 第一次看到 YY 裸体」等 17 种句式
-· 「看法」标签页的界面文字
-· 原模组作者留下的俄语弹窗消息
+合并版顺手变好的地方
+· 「看法」标签页已改成读翻译键，不再需要逐条硬替换。
+· 作者删掉了早期留下的俄语弹窗消息。
 
 顺手修掉的原模组缺陷
-
-· 英文所有格是硬拼的，落到中文里会变成「张三's」这种夹生写法 —— 已悉数改写成中文说法。
-· 原模组「拘谨 / 暴露狂 / 视奸狂」三个特质的翻译文件里有一处 XML 语法错误（颜色标签没转义），会让整个文件加载失败、特质描述一直显示英文，已用正确写法覆盖。
+· 英文所有格是硬拼的，落到中文会变成「张三's」这种夹生写法 —— 已悉数改写成中文说法。
+· 「拘谨 / 暴露狂 / 视奸狂」三个特质的翻译文件里有一处 XML 语法错误（颜色标签没转义），会让整个文件加载失败、描述一直显示英文，已用正确写法覆盖。
 · 「视奸狂」的描述里多了个右大括号，会让文本格式化报错 —— 已修正。
 
 怎么用
-
 1. 把游戏语言设为「简体中文」。这一步最关键，设错了汉化不会生效。
-2. 先装原模组及其前置（RimJobWorld、Harmony）。
-3. 再装这个汉化包。
-
-加载顺序上须排在原模组之后。About.xml 已声明 loadAfter，游戏会自行排妥。
+2. 装你手上的那套原模组（合并版或 1.6 原版任选），外加 Harmony。
+3. 把这个汉化包排在它们之后。About.xml 已声明 loadAfter，游戏会自行排妥。
 
 结构说明
-
-文字分两处存放，缺一不可：
-
-· Languages\ —— 普通翻译键（界面、名称等），游戏自己读。
-· OwnInjections\ —— 12.5 万条看法正文，由本包自带的补丁 DLL 在启动时注入。这个目录游戏不扫描；把整列表放在 Languages\ 下会被游戏的列表翻译规则拒绝（目标字段缺 TranslationCanChangeCount 特性）。
-
-所以 Assemblies\NMMOpinionsChineseUI.dll 是必需文件，删掉它正文会变回英文。
+· Languages\ —— 翻译键与定义文本，游戏自己读。
+· OwnInjections\ —— 12.5 万条看法正文，由本包自带的补丁 DLL 在启动时注入。这个目录游戏不扫描；整列表放在 Languages\ 下会被游戏的列表翻译规则拒绝（目标字段缺 TranslationCanChangeCount 特性）。
+· Assemblies\ —— 两个补丁 DLL：NMMOpinionsChineseUI.dll 负责正文注入与 1.6 界面替换，GNH_NMM_Enhanced_ZH.dll 负责合并版增强界面的文字替换。
+两个 DLL 都带类型探测，缺目标时静默跳过，删掉后对应部分会变回英文。
 
 模组信息
-
 适用版本　RimWorld 1.6 / 1.7
-前置依赖　Nudity Matters More、Nudity Matters More opinions（以及它们各自的前置 RimJobWorld、Harmony）
+硬依赖　　Harmony
+排序提示　Nudity Matters More（含合并版）、NMM opinions
 作者　　　大赢经直插白皮赢道
 AI 协作　代码由 DeepSeek娘·汐蓝 辅助编写，作者负责设计、审阅与实机验证
 存档影响　不往存档里写任何数据，加装或移除都不用开新档

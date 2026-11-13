@@ -38,15 +38,15 @@ using Verse;
 //   而那条 csc 命令行不带任何版本参数，于是编出来的程序集版本一直是 0.0.0.0 ——
 //   「游戏里模组列表显示的版本（读 About.xml）」和「DLL 自己记录的版本」对不上，
 //   双击 dll 看属性也是空白。这里显式声明，与 About\About.xml 的
-//   <modVersion>1.2.11</modVersion> 保持一致。
+//   <modVersion>1.4.0</modVersion> 保持一致。
 //
 // 改版本号时这三行要一起改：
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.2.12.0")]
-[assembly: AssemblyFileVersion("1.2.12.0")]
-[assembly: AssemblyInformationalVersion("1.2.12")]
+[assembly: AssemblyVersion("1.4.0.0")]
+[assembly: AssemblyFileVersion("1.4.0.0")]
+[assembly: AssemblyInformationalVersion("1.4.0")]
 
 namespace NMMOpinionsChineseUI
 {
@@ -71,27 +71,15 @@ namespace NMMOpinionsChineseUI
             n += TryPatch(harmony, "NudityMattersMore_opinions.OpinionHelper", "GetHeaderLabel",
                           prefix: nameof(Patches.GetHeaderLabel_Prefix));
 
-            // ④ 【2026-11-07 退役，不再挂补丁】
-            //    这里原本给 4 个方法挂 Russian_Transpiler，去改写原模组作者留下的**俄语**
-            //    弹窗消息（「XX 看到 YY 遮住身体」那几句）。
-            //
-            //    前置 1.3（[OWL] NMM Combined Edition）做了一次重构，两件事同时发生：
-            //      ① 命名空间 `NudityMattersMore_opinions_patches` **整个消失** ——
-            //         反编译 1.7 的前置 NudityMattersMore.dll（222 个类型）确认它只剩
-            //         NudityMattersMore / NudityMattersMore_opinions /
-            //         .CalculationHelpers / .Rendering 四个命名空间；
-            //      ② 这套逻辑搬进了 `NudityMattersMore.PawnInteractionManager`
-            //         （ApplyFirstTimeThought / ApplyRenewThought /
-            //          ApplyFirstTimeEverThought / GetRelationsString）。
-            //
-            //    **但真正决定退役的是第 ③ 条**：那些方法体里的俄语字符串**已经没有了** ——
-            //    对前置 DLL 做 search_string_literals("увидел|наготу|соперник|прикрыва")
-            //    命中 **0 条**，作者重构时把它改成了 Keyed 翻译
-            //    （证据：前置 1.7/Languages/English/Keyed/InteractionLog.xml 共 210 键）。
-            //    既然"要修的缺陷"已经不存在，按 §3.1「目标修好就自动退场」处理：
-            //    **不改挂到新方法上**（那样只是继续改一个已经不需要改的地方），
-            //    直接退役，并把这套判断留在这里。若将来前置又冒出新俄语串，再议。
-            //    ⚠ 退役后本项不再计入「共处理 N 处」；当前成功目标为 12 处。
+            // ④ 原模组作者留下的**俄语**弹窗消息（「XX 看到 YY 遮住身体」）
+            n += TryPatch(harmony, "NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches", "ApplyFirstTimeThought_Prefix",
+                          transpiler: nameof(Patches.Russian_Transpiler));
+            n += TryPatch(harmony, "NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches", "ApplyRenewThought_Prefix",
+                          transpiler: nameof(Patches.Russian_Transpiler));
+            n += TryPatch(harmony, "NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches", "ApplyFirstTimeEverThought_Prefix",
+                          transpiler: nameof(Patches.Russian_Transpiler));
+            n += TryPatch(harmony, "NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches", "GetRelationsString",
+                          transpiler: nameof(Patches.Russian_Transpiler));
 
             // ⑤ 设置界面 —— 两个模组的设置窗口里的选项文字**全是硬编码英文**，
             //    玩家打开「选项 → 模组设置」就会看到，必须翻。
@@ -104,13 +92,8 @@ namespace NMMOpinionsChineseUI
                           transpiler: nameof(Patches.Settings_Transpiler));
             n += TryPatch(harmony, "NudityMattersMore_opinions.NudityMattersMore_opinions_Mod", "DrawInteractionsSettings",
                           transpiler: nameof(Patches.Settings_Transpiler));
-            // ⚠【2026-11-07 退役】`NudityMattersMore_opinions_Mod.SettingsCategory` 已不存在。
-            //    反编译前置 1.3 的同名类型，只剩 4 个成员：
-            //    DrawSettings(Listing_Standard) / DrawGeneralSettings(Listing_Standard) /
-            //    DrawInteractionsSettings(Listing_Standard) / settings 字段 —— 没有 SettingsCategory。
-            //    该路径原本是给"设置窗口的分类名"兜底，现在分类名由上方
-            //    `NudityMattersMore.SettingsCategory`（仍存在，且已挂 Settings_Transpiler）覆盖，
-            //    故删除本目标（保留说明，避免下次有人再补回来又踩空）。
+            n += TryPatch(harmony, "NudityMattersMore_opinions.NudityMattersMore_opinions_Mod", "SettingsCategory",
+                          transpiler: nameof(Patches.Settings_Transpiler));
 
             // ⑥ 设置界面里「互动类型」复选框的名字 —— 那些名字是运行时从枚举取的，
             //    Transpiler 抓不到，只能在 CheckboxLabeled 被调用时替换。
@@ -356,16 +339,33 @@ namespace NMMOpinionsChineseUI
             return true;
         }
 
-        /// <summary>当前游戏语言是不是简体中文。</summary>
+        // ── 语言判定缓存 ────────────────────────────────────────────────
+        // 为什么需要：GameIsChinese() 被挂在 Verse.Messages.Message 和
+        // Listing_Standard.CheckboxLabeled 这两个**全局高频**方法的 Prefix 上。
+        // 原实现每次都做 3 次字符串 IndexOf/Contains —— 単次开销不大，
+        // 但事件密集时（一次袭击刷几十条消息）会被反复调用。
+        // 语言只可能在主菜单切换，用「语言对象引用」做缓存键即可：
+        // 引用没变 → 直接返回上次结果（一次引用比较）。
+        private static string cachedFolderName;
+        private static bool cachedIsChinese = true;
+
+        /// <summary>当前游戏语言是不是简体中文（按 folderName 缓存）。</summary>
         public static bool GameIsChinese()
         {
             try
             {
                 var lang = LanguageDatabase.activeLanguage;
-                if (lang == null) return true;
-                return IsChineseLanguage(lang.folderName,
-                                         lang.FriendlyNameNative,
-                                         lang.FriendlyNameEnglish);
+                if (lang == null) return true;                  // 语言库还没建好 → 照常汉化
+
+                string fn = lang.folderName;
+                if (string.Equals(fn, cachedFolderName, StringComparison.Ordinal))
+                    return cachedIsChinese;                     // ← 热路径只走这一次比较
+
+                cachedIsChinese = IsChineseLanguage(fn,
+                                                    lang.FriendlyNameNative,
+                                                    lang.FriendlyNameEnglish);
+                cachedFolderName = fn;
+                return cachedIsChinese;
             }
             catch
             {
