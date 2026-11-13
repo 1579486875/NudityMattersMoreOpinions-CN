@@ -8,7 +8,7 @@
   <Observer_describes_pawn_having_Sex.label>观察者 · 描述 · 角色 · 进行 · 性行为</Observer_describes_pawn_having_Sex.label>
   <Observer_describes_pawn_Masturbation.label>观察者 · 描述 · 角色 · 自慰</Observer_describes_pawn_Masturbation.label>
   <Observer_describes_pawn_Rapes_someone.label>观察者 · 描述 · 角色 · 强奸他人 · 某人</Observer_describes_pawn_Rapes_someone.label>
-  <Observer_describes_pawn_being_Raped.label>观察者 · 描述 · 角色 · 被 · 被强奸</Observer_describes_pawn_being_Raped.label>
+  <Observer_describes_pawn_being_Raped.label>观察者 · 描述 · 角色 · 被强奸</Observer_describes_pawn_being_Raped.label>
   <Observer_describes_pawn_using_Shower.label>观察者 · 描述 · 角色 · 淋浴中</Observer_describes_pawn_using_Shower.label>
   <Observer_describes_pawn_using_Bath.label>观察者 · 描述 · 角色 · 泡澡中</Observer_describes_pawn_using_Bath.label>
   <Observer_describes_pawn_using_Sauna.label>观察者 · 描述 · 角色 · 桑拿中</Observer_describes_pawn_using_Sauna.label>
@@ -40,7 +40,7 @@
   <OBSERVED_describes_I_was_seen_having_Sex.label>被观察者 · 描述 · 我 · 被看到 · 进行 · 性行为</OBSERVED_describes_I_was_seen_having_Sex.label>
   <OBSERVED_describes_I_was_seen_Masturbation.label>被观察者 · 描述 · 我 · 被看到 · 自慰</OBSERVED_describes_I_was_seen_Masturbation.label>
   <OBSERVED_describes_I_was_seen_Rapes_someone.label>被观察者 · 描述 · 我 · 被看到 · 强奸他人 · 某人</OBSERVED_describes_I_was_seen_Rapes_someone.label>
-  <OBSERVED_describes_I_was_seen_being_Raped.label>被观察者 · 描述 · 我 · 被看到 · 被 · 被强奸</OBSERVED_describes_I_was_seen_being_Raped.label>
+  <OBSERVED_describes_I_was_seen_being_Raped.label>被观察者 · 描述 · 我 · 被看到 · 被强奸</OBSERVED_describes_I_was_seen_being_Raped.label>
   <OBSERVED_describes_I_was_seen_using_Shower.label>被观察者 · 描述 · 我 · 被看到 · 淋浴中</OBSERVED_describes_I_was_seen_using_Shower.label>
   <OBSERVED_describes_I_was_seen_using_Bath.label>被观察者 · 描述 · 我 · 被看到 · 泡澡中</OBSERVED_describes_I_was_seen_using_Bath.label>
   <OBSERVED_describes_I_was_seen_using_Sauna.label>被观察者 · 描述 · 我 · 被看到 · 桑拿中</OBSERVED_describes_I_was_seen_using_Sauna.label>

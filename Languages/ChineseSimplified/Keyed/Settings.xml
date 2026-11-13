@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  NMM 1.3 新增 Keyed · 简体中文
-  键名与 RJW-功能-裸体评价\1.7\Languages\English\Keyed\Settings.xml 一一对应。
--->
 <LanguageData>
 	<NMM.Settings.Category>裸体评价更多</NMM.Settings.Category>
 	<NMM.Settings.PawnTab>小人标签页</NMM.Settings.PawnTab>
@@ -94,8 +90,8 @@
 	<NMM.OpinionTab.Genitals>生殖器</NMM.OpinionTab.Genitals>
 	<NMM.OpinionTab.Anus>肛门</NMM.OpinionTab.Anus>
 	<NMM.OpinionTab.OpinionAbout>{0} 对 {1} 的{2}的看法：</NMM.OpinionTab.OpinionAbout>
-	<NMM.OpinionTab.PartAndSize>   {0}（{1}）</NMM.OpinionTab.PartAndSize>
-	<NMM.OpinionTab.NoChestOpinion>   {0} 对 {1} 的胸膛/乳头没有特别的看法。</NMM.OpinionTab.NoChestOpinion>
+	<NMM.OpinionTab.PartAndSize>{0}（{1}）</NMM.OpinionTab.PartAndSize>
+	<NMM.OpinionTab.NoChestOpinion>{0} 对 {1} 的胸膛/乳头没有特别的看法。</NMM.OpinionTab.NoChestOpinion>
 	<NMM.OpinionTab.NoChestDetected>胸部看法：无（未检测到乳房）</NMM.OpinionTab.NoChestDetected>
 	<NMM.OpinionTab.NoGenitalsDetected>生殖器看法：无（未检测到生殖器）</NMM.OpinionTab.NoGenitalsDetected>
 	<NMM.OpinionTab.NoAnusDetected>肛门看法：无（未检测到肛门）</NMM.OpinionTab.NoAnusDetected>
