@@ -62,6 +62,7 @@ INCLUDE = [
     "Assemblies",       # 界面汉化补丁 DLL（少了它界面文字还是英文）
     "Languages",        # 游戏自己扫描的翻译文件
     "OwnInjections",    # ★ 正文注入清单 —— DLL 在启动时读它
+    "LoadFolders.xml",  # 版本分流（v1.6 / v1.7 都加载根目录）—— 缺了它两版本共存无声明
     "tools",            # 自检工具，玩家可用来验证补丁完好
     "汉化说明.md",       # 中文说明
     "README.md",
@@ -156,6 +157,8 @@ def main():
     must = [
         "About/About.xml",
         "Assemblies/NMMOpinionsChineseUI.dll",
+        "Assemblies/GNH_NMM_Enhanced_ZH.dll",   # 合并版增强界面（硬编码文字）的替换补丁
+        "LoadFolders.xml",
         "Languages/ChineseSimplified/DefInjected/InteractionDef/Interactions.xml",
         # 正文清单的代表性文件：它不在就说明整个 OwnInjections 目录丢了
         "OwnInjections/ChineseSimplified/DefInjected/"
