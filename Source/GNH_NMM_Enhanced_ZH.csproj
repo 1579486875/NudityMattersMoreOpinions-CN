@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    第二个补丁 DLL：合并版「增强界面」（EnhancedNmmTabRenderer）汉化。
+    与 NMMOpinionsChineseUI.csproj 同构，只是源码与产物名不同。
+
+    为什么单独一个 csproj：
+      两个 DLL 职责不同 —— 一个管 1.6 界面 + 正文注入，一个管 1.7 合并版的增强页。
+      分开编，任何一个出问题都不连累另一个。
+
+    ⚠ 源码只有一份：tools\ui-patch-tester\GNH_NMM_Enhanced_ZH.cs，不要放副本。
+  -->
+
+  <PropertyGroup>
+    <!-- net472：与 1.6（Mono / .NET Framework 4.8）原生兼容，
+         1.7（Waylith CLR / .NET 10）也能加载，一份 dll 双版本可用。
+         ⚠ 不要改成 net8.0 / net10.0 —— 那样编出来的 dll 引 System.Runtime 10.0.0.0，
+            1.6 的 .NET 4.8 里没有这个版本，加载会失败。 -->
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <OutputType>Library</OutputType>
+    <AssemblyName>GNH_NMM_Enhanced_ZH</AssemblyName>
+    <RootNamespace>GNH.NMM.Combined.ZH</RootNamespace>
+
+    <!-- 版本号由源码里的 [assembly: AssemblyVersion] 提供，不要在这里重复声明。 -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <Deterministic>true</Deterministic>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>..\Assemblies\</OutputPath>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <!-- 游戏程序集一律不复制进输出目录（§2 编译层：<Private>false</Private>）。
+         ⚠ 引用必须用 **1.6 的 Managed 目录 + net472 版 Harmony**：
+            1.7 的 Harmony 3.0 引 System.Runtime 10.0.0.0，用 net472 编会报 CS1705。 -->
+    <RimWorldManaged1_6 Condition="'$(RimWorldManaged1_6)' == ''">D:\RimWorld-1.6\RimWorldWin64_Data\Managed</RimWorldManaged1_6>
+    <HarmonyDll Condition="'$(HarmonyDll)' == ''">D:\steam\steamapps\common\RimWorld\Mods\TPS优化器——性能\Assemblies\net472\0Harmony.dll</HarmonyDll>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\tools\ui-patch-tester\GNH_NMM_Enhanced_ZH.cs" Link="GNH_NMM_Enhanced_ZH.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(RimWorldManaged1_6)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(RimWorldManaged1_6)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>$(RimWorldManaged1_6)\System.Xml.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(HarmonyDll)</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

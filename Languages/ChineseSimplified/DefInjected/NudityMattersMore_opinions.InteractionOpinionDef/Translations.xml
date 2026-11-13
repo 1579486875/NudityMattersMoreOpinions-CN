@@ -1,74 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <!--
-    ═══════════════════════════════════════════════════════════════
-    Nudity Matters More opinions —— NudityMattersMore_opinions.InteractionOpinionDef
-    ═══════════════════════════════════════════════════════════════
-    本文件由「裸体评价更多看法 简体汉化」提供，是翻译文件而非游戏内容。
-    键名格式：Def名称.字段路径 —— 键名由游戏用来定位原文，请勿改动。
-  -->
-  <Observer_describes_pawn_Covering.label>观察者_描述_角色_遮盖</Observer_describes_pawn_Covering.label>
-  <Observer_describes_pawn_Naked.label>观察者_描述_角色_赤裸</Observer_describes_pawn_Naked.label>
-  <Observer_describes_pawn_Topless.label>观察者_描述_角色_上身赤裸</Observer_describes_pawn_Topless.label>
-  <Observer_describes_pawn_Bottomless.label>观察者_描述_角色_下身赤裸</Observer_describes_pawn_Bottomless.label>
-  <Observer_describes_pawn_having_Sex.label>观察者_描述_角色_进行_性行为</Observer_describes_pawn_having_Sex.label>
-  <Observer_describes_pawn_Masturbation.label>观察者_描述_角色_自慰</Observer_describes_pawn_Masturbation.label>
-  <Observer_describes_pawn_Rapes_someone.label>观察者_描述_角色_强奸他人_某人</Observer_describes_pawn_Rapes_someone.label>
-  <Observer_describes_pawn_being_Raped.label>观察者_描述_角色_被_被强奸</Observer_describes_pawn_being_Raped.label>
-  <Observer_describes_pawn_using_Shower.label>观察者_描述_角色_淋浴中</Observer_describes_pawn_using_Shower.label>
-  <Observer_describes_pawn_using_Bath.label>观察者_描述_角色_泡澡中</Observer_describes_pawn_using_Bath.label>
-  <Observer_describes_pawn_using_Sauna.label>观察者_描述_角色_桑拿中</Observer_describes_pawn_using_Sauna.label>
-  <Observer_describes_pawn_was_Swimming.label>观察者_描述_角色_游泳</Observer_describes_pawn_was_Swimming.label>
-  <Observer_describes_pawn_using_HotTub.label>观察者_描述_角色_热水浴缸中</Observer_describes_pawn_using_HotTub.label>
-  <Observer_describes_pawn_had_a_NipSlip.label>观察者_描述_角色_有_走光</Observer_describes_pawn_had_a_NipSlip.label>
-  <Observer_describes_pawn_had_a_BreastSlip.label>观察者_描述_角色_有_乳房走光</Observer_describes_pawn_had_a_BreastSlip.label>
-  <Observer_describes_pawn_had_a_AreolaSlip.label>观察者_描述_角色_有_乳晕走光</Observer_describes_pawn_had_a_AreolaSlip.label>
-  <Observer_describes_pawn_was_in_Biopod.label>观察者_描述_角色_在_生物舱</Observer_describes_pawn_was_in_Biopod.label>
-  <Observer_describes_pawn_was_Changing_clothes.label>观察者_描述_角色_换衣_衣服</Observer_describes_pawn_was_Changing_clothes.label>
-  <Observer_describes_pawn_had_a_WetShirt.label>观察者_描述_角色_有_湿衣</Observer_describes_pawn_had_a_WetShirt.label>
-  <Observer_describes_pawn_Breastfeed.label>观察者_描述_角色_哺乳</Observer_describes_pawn_Breastfeed.label>
-  <Observer_describes_pawn_SelfMilk.label>观察者_描述_角色_自挤奶</Observer_describes_pawn_SelfMilk.label>
-  <Observer_describes_pawn_Milk_someone.label>观察者_描述_角色_挤奶_某人</Observer_describes_pawn_Milk_someone.label>
-  <Observer_describes_pawn_who_was_naked_on_medical_treatment.label>观察者_描述_角色_角色_赤裸_医疗_治疗</Observer_describes_pawn_who_was_naked_on_medical_treatment.label>
-  <Observer_describes_pawn_who_was_topless_on_medical_treatment.label>观察者_描述_角色_角色_上身赤裸_医疗_治疗</Observer_describes_pawn_who_was_topless_on_medical_treatment.label>
-  <Observer_describes_pawn_who_was_botomless_on_medical_treatment.label>观察者_描述_角色_角色_下身赤裸_医疗_治疗</Observer_describes_pawn_who_was_botomless_on_medical_treatment.label>
-  <Observer_describes_pawn_who_was_naked_on_self_medical_treatment.label>观察者_描述_角色_角色_赤裸_自我_医疗_治疗</Observer_describes_pawn_who_was_naked_on_self_medical_treatment.label>
-  <Observer_describes_pawn_who_was_topless_on_self_medical_treatment.label>观察者_描述_角色_角色_上身赤裸_自我_医疗_治疗</Observer_describes_pawn_who_was_topless_on_self_medical_treatment.label>
-  <Observer_describes_pawn_who_was_botomless_on_self_medical_treatment.label>观察者_描述_角色_角色_下身赤裸_自我_医疗_治疗</Observer_describes_pawn_who_was_botomless_on_self_medical_treatment.label>
-  <Observer_describes_pawn_who_was_naked_during_Surgery.label>观察者_描述_角色_角色_赤裸_期间_手术</Observer_describes_pawn_who_was_naked_during_Surgery.label>
-  <Observer_describes_pawn_who_was_posing_topless_like_art_sculpture.label>观察者_描述_角色_角色_摆姿势_上身赤裸_如同_艺术_雕塑</Observer_describes_pawn_who_was_posing_topless_like_art_sculpture.label>
-  <Observer_describes_pawn_who_was_posing_bottomless_like_art_sculpture.label>观察者_描述_角色_角色_摆姿势_下身赤裸_如同_艺术_雕塑</Observer_describes_pawn_who_was_posing_bottomless_like_art_sculpture.label>
-  <Observer_describes_pawn_who_was_posing_naked_like_art_sculpture.label>观察者_描述_角色_角色_摆姿势_赤裸_如同_艺术_雕塑</Observer_describes_pawn_who_was_posing_naked_like_art_sculpture.label>
-  <OBSERVED_describes_I_was_seen_Covering.label>被观察者_描述_我_被看到_遮盖</OBSERVED_describes_I_was_seen_Covering.label>
-  <OBSERVED_describes_I_was_seen_Naked.label>被观察者_描述_我_被看到_赤裸</OBSERVED_describes_I_was_seen_Naked.label>
-  <OBSERVED_describes_I_was_seen_Topless.label>被观察者_描述_我_被看到_上身赤裸</OBSERVED_describes_I_was_seen_Topless.label>
-  <OBSERVED_describes_I_was_seen_Bottomless.label>被观察者_描述_我_被看到_下身赤裸</OBSERVED_describes_I_was_seen_Bottomless.label>
-  <OBSERVED_describes_I_was_seen_having_Sex.label>被观察者_描述_我_被看到_进行_性行为</OBSERVED_describes_I_was_seen_having_Sex.label>
-  <OBSERVED_describes_I_was_seen_Masturbation.label>被观察者_描述_我_被看到_自慰</OBSERVED_describes_I_was_seen_Masturbation.label>
-  <OBSERVED_describes_I_was_seen_Rapes_someone.label>被观察者_描述_我_被看到_强奸他人_某人</OBSERVED_describes_I_was_seen_Rapes_someone.label>
-  <OBSERVED_describes_I_was_seen_being_Raped.label>被观察者_描述_我_被看到_被_被强奸</OBSERVED_describes_I_was_seen_being_Raped.label>
-  <OBSERVED_describes_I_was_seen_using_Shower.label>被观察者_描述_我_被看到_淋浴中</OBSERVED_describes_I_was_seen_using_Shower.label>
-  <OBSERVED_describes_I_was_seen_using_Bath.label>被观察者_描述_我_被看到_泡澡中</OBSERVED_describes_I_was_seen_using_Bath.label>
-  <OBSERVED_describes_I_was_seen_using_Sauna.label>被观察者_描述_我_被看到_桑拿中</OBSERVED_describes_I_was_seen_using_Sauna.label>
-  <OBSERVED_describes_I_was_seen_was_Swimming.label>被观察者_描述_我_被看到_游泳</OBSERVED_describes_I_was_seen_was_Swimming.label>
-  <OBSERVED_describes_I_was_seen_using_HotTub.label>被观察者_描述_我_被看到_热水浴缸中</OBSERVED_describes_I_was_seen_using_HotTub.label>
-  <OBSERVED_describes_I_was_seen_had_a_NipSlip.label>被观察者_描述_我_被看到_有_走光</OBSERVED_describes_I_was_seen_had_a_NipSlip.label>
-  <OBSERVED_describes_I_was_seen_had_a_BreastSlip.label>被观察者_描述_我_被看到_有_乳房走光</OBSERVED_describes_I_was_seen_had_a_BreastSlip.label>
-  <OBSERVED_describes_I_was_seen_had_a_AreolaSlip.label>被观察者_描述_我_被看到_有_乳晕走光</OBSERVED_describes_I_was_seen_had_a_AreolaSlip.label>
-  <OBSERVED_describes_I_was_seen_was_in_Biopod.label>被观察者_描述_我_被看到_在_生物舱</OBSERVED_describes_I_was_seen_was_in_Biopod.label>
-  <OBSERVED_describes_I_was_seen_was_Changing_clothes.label>被观察者_描述_我_被看到_换衣_衣服</OBSERVED_describes_I_was_seen_was_Changing_clothes.label>
-  <OBSERVED_describes_I_was_seen_had_a_WetShirt.label>被观察者_描述_我_被看到_有_湿衣</OBSERVED_describes_I_was_seen_had_a_WetShirt.label>
-  <OBSERVED_describes_I_was_seen_Breastfeed.label>被观察者_描述_我_被看到_哺乳</OBSERVED_describes_I_was_seen_Breastfeed.label>
-  <OBSERVED_describes_I_was_seen_SelfMilk.label>被观察者_描述_我_被看到_自挤奶</OBSERVED_describes_I_was_seen_SelfMilk.label>
-  <OBSERVED_describes_I_was_seen_Milk.label>被观察者_描述_我_被看到_挤奶</OBSERVED_describes_I_was_seen_Milk.label>
-  <OBSERVED_describes_I_was_seen_who_was_naked_on_medical_treatment.label>被观察者_描述_我_被看到_角色_赤裸_医疗_治疗</OBSERVED_describes_I_was_seen_who_was_naked_on_medical_treatment.label>
-  <OBSERVED_describes_I_was_seen_who_was_topless_on_medical_treatment.label>被观察者_描述_我_被看到_角色_上身赤裸_医疗_治疗</OBSERVED_describes_I_was_seen_who_was_topless_on_medical_treatment.label>
-  <OBSERVED_describes_I_was_seen_who_was_botomless_on_medical_treatment.label>被观察者_描述_我_被看到_角色_下身赤裸_医疗_治疗</OBSERVED_describes_I_was_seen_who_was_botomless_on_medical_treatment.label>
-  <OBSERVED_describes_I_was_seen_who_was_naked_on_self_medical_treatment.label>被观察者_描述_我_被看到_角色_赤裸_自我_医疗_治疗</OBSERVED_describes_I_was_seen_who_was_naked_on_self_medical_treatment.label>
-  <OBSERVED_describes_I_was_seen_who_was_topless_on_self_medical_treatment.label>被观察者_描述_我_被看到_角色_上身赤裸_自我_医疗_治疗</OBSERVED_describes_I_was_seen_who_was_topless_on_self_medical_treatment.label>
-  <OBSERVED_describes_I_was_seen_who_was_botomless_on_self_medical_treatment.label>被观察者_描述_我_被看到_角色_下身赤裸_自我_医疗_治疗</OBSERVED_describes_I_was_seen_who_was_botomless_on_self_medical_treatment.label>
-  <OBSERVED_describes_I_was_seen_who_was_naked_during_Surgery.label>被观察者_描述_我_被看到_角色_赤裸_期间_手术</OBSERVED_describes_I_was_seen_who_was_naked_during_Surgery.label>
-  <OBSERVED_describes_I_was_seen_who_was_posing_topless_like_art_sculpture.label>被观察者_描述_我_被看到_角色_摆姿势_上身赤裸_如同_艺术_雕塑</OBSERVED_describes_I_was_seen_who_was_posing_topless_like_art_sculpture.label>
-  <OBSERVED_describes_I_was_seen_who_was_posing_bottomless_like_art_sculpture.label>被观察者_描述_我_被看到_角色_摆姿势_下身赤裸_如同_艺术_雕塑</OBSERVED_describes_I_was_seen_who_was_posing_bottomless_like_art_sculpture.label>
-  <OBSERVED_describes_I_was_seen_who_was_posing_naked_like_art_sculpture.label>被观察者_描述_我_被看到_角色_摆姿势_赤裸_如同_艺术_雕塑</OBSERVED_describes_I_was_seen_who_was_posing_naked_like_art_sculpture.label></LanguageData>
-
+  
+  <Observer_describes_pawn_Covering.label>观察者 · 描述 · 角色 · 遮盖</Observer_describes_pawn_Covering.label>
+  <Observer_describes_pawn_Naked.label>观察者 · 描述 · 角色 · 赤裸</Observer_describes_pawn_Naked.label>
+  <Observer_describes_pawn_Topless.label>观察者 · 描述 · 角色 · 上身赤裸</Observer_describes_pawn_Topless.label>
+  <Observer_describes_pawn_Bottomless.label>观察者 · 描述 · 角色 · 下身赤裸</Observer_describes_pawn_Bottomless.label>
+  <Observer_describes_pawn_having_Sex.label>观察者 · 描述 · 角色 · 进行 · 性行为</Observer_describes_pawn_having_Sex.label>
+  <Observer_describes_pawn_Masturbation.label>观察者 · 描述 · 角色 · 自慰</Observer_describes_pawn_Masturbation.label>
+  <Observer_describes_pawn_Rapes_someone.label>观察者 · 描述 · 角色 · 强奸他人 · 某人</Observer_describes_pawn_Rapes_someone.label>
+  <Observer_describes_pawn_being_Raped.label>观察者 · 描述 · 角色 · 被 · 被强奸</Observer_describes_pawn_being_Raped.label>
+  <Observer_describes_pawn_using_Shower.label>观察者 · 描述 · 角色 · 淋浴中</Observer_describes_pawn_using_Shower.label>
+  <Observer_describes_pawn_using_Bath.label>观察者 · 描述 · 角色 · 泡澡中</Observer_describes_pawn_using_Bath.label>
+  <Observer_describes_pawn_using_Sauna.label>观察者 · 描述 · 角色 · 桑拿中</Observer_describes_pawn_using_Sauna.label>
+  <Observer_describes_pawn_was_Swimming.label>观察者 · 描述 · 角色 · 游泳</Observer_describes_pawn_was_Swimming.label>
+  <Observer_describes_pawn_using_HotTub.label>观察者 · 描述 · 角色 · 热水浴缸中</Observer_describes_pawn_using_HotTub.label>
+  <Observer_describes_pawn_had_a_NipSlip.label>观察者 · 描述 · 角色 · 有 · 走光</Observer_describes_pawn_had_a_NipSlip.label>
+  <Observer_describes_pawn_had_a_BreastSlip.label>观察者 · 描述 · 角色 · 有 · 乳房走光</Observer_describes_pawn_had_a_BreastSlip.label>
+  <Observer_describes_pawn_had_a_AreolaSlip.label>观察者 · 描述 · 角色 · 有 · 乳晕走光</Observer_describes_pawn_had_a_AreolaSlip.label>
+  <Observer_describes_pawn_was_in_Biopod.label>观察者 · 描述 · 角色 · 在 · 生物舱</Observer_describes_pawn_was_in_Biopod.label>
+  <Observer_describes_pawn_was_Changing_clothes.label>观察者 · 描述 · 角色 · 换衣 · 衣服</Observer_describes_pawn_was_Changing_clothes.label>
+  <Observer_describes_pawn_had_a_WetShirt.label>观察者 · 描述 · 角色 · 有 · 湿衣</Observer_describes_pawn_had_a_WetShirt.label>
+  <Observer_describes_pawn_Breastfeed.label>观察者 · 描述 · 角色 · 哺乳</Observer_describes_pawn_Breastfeed.label>
+  <Observer_describes_pawn_SelfMilk.label>观察者 · 描述 · 角色 · 自挤奶</Observer_describes_pawn_SelfMilk.label>
+  <Observer_describes_pawn_Milk_someone.label>观察者 · 描述 · 角色 · 挤奶 · 某人</Observer_describes_pawn_Milk_someone.label>
+  <Observer_describes_pawn_who_was_naked_on_medical_treatment.label>观察者 · 描述 · 角色 · 赤裸 · 医疗 · 治疗</Observer_describes_pawn_who_was_naked_on_medical_treatment.label>
+  <Observer_describes_pawn_who_was_topless_on_medical_treatment.label>观察者 · 描述 · 角色 · 上身赤裸 · 医疗 · 治疗</Observer_describes_pawn_who_was_topless_on_medical_treatment.label>
+  <Observer_describes_pawn_who_was_botomless_on_medical_treatment.label>观察者 · 描述 · 角色 · 下身赤裸 · 医疗 · 治疗</Observer_describes_pawn_who_was_botomless_on_medical_treatment.label>
+  <Observer_describes_pawn_who_was_naked_on_self_medical_treatment.label>观察者 · 描述 · 角色 · 赤裸 · 自我 · 医疗 · 治疗</Observer_describes_pawn_who_was_naked_on_self_medical_treatment.label>
+  <Observer_describes_pawn_who_was_topless_on_self_medical_treatment.label>观察者 · 描述 · 角色 · 上身赤裸 · 自我 · 医疗 · 治疗</Observer_describes_pawn_who_was_topless_on_self_medical_treatment.label>
+  <Observer_describes_pawn_who_was_botomless_on_self_medical_treatment.label>观察者 · 描述 · 角色 · 下身赤裸 · 自我 · 医疗 · 治疗</Observer_describes_pawn_who_was_botomless_on_self_medical_treatment.label>
+  <Observer_describes_pawn_who_was_naked_during_Surgery.label>观察者 · 描述 · 角色 · 赤裸 · 期间 · 手术</Observer_describes_pawn_who_was_naked_during_Surgery.label>
+  <Observer_describes_pawn_who_was_posing_topless_like_art_sculpture.label>观察者 · 描述 · 角色 · 摆姿势 · 上身赤裸 · 如同 · 艺术 · 雕塑</Observer_describes_pawn_who_was_posing_topless_like_art_sculpture.label>
+  <Observer_describes_pawn_who_was_posing_bottomless_like_art_sculpture.label>观察者 · 描述 · 角色 · 摆姿势 · 下身赤裸 · 如同 · 艺术 · 雕塑</Observer_describes_pawn_who_was_posing_bottomless_like_art_sculpture.label>
+  <Observer_describes_pawn_who_was_posing_naked_like_art_sculpture.label>观察者 · 描述 · 角色 · 摆姿势 · 赤裸 · 如同 · 艺术 · 雕塑</Observer_describes_pawn_who_was_posing_naked_like_art_sculpture.label>
+  <OBSERVED_describes_I_was_seen_Covering.label>被观察者 · 描述 · 我 · 被看到 · 遮盖</OBSERVED_describes_I_was_seen_Covering.label>
+  <OBSERVED_describes_I_was_seen_Naked.label>被观察者 · 描述 · 我 · 被看到 · 赤裸</OBSERVED_describes_I_was_seen_Naked.label>
+  <OBSERVED_describes_I_was_seen_Topless.label>被观察者 · 描述 · 我 · 被看到 · 上身赤裸</OBSERVED_describes_I_was_seen_Topless.label>
+  <OBSERVED_describes_I_was_seen_Bottomless.label>被观察者 · 描述 · 我 · 被看到 · 下身赤裸</OBSERVED_describes_I_was_seen_Bottomless.label>
+  <OBSERVED_describes_I_was_seen_having_Sex.label>被观察者 · 描述 · 我 · 被看到 · 进行 · 性行为</OBSERVED_describes_I_was_seen_having_Sex.label>
+  <OBSERVED_describes_I_was_seen_Masturbation.label>被观察者 · 描述 · 我 · 被看到 · 自慰</OBSERVED_describes_I_was_seen_Masturbation.label>
+  <OBSERVED_describes_I_was_seen_Rapes_someone.label>被观察者 · 描述 · 我 · 被看到 · 强奸他人 · 某人</OBSERVED_describes_I_was_seen_Rapes_someone.label>
+  <OBSERVED_describes_I_was_seen_being_Raped.label>被观察者 · 描述 · 我 · 被看到 · 被 · 被强奸</OBSERVED_describes_I_was_seen_being_Raped.label>
+  <OBSERVED_describes_I_was_seen_using_Shower.label>被观察者 · 描述 · 我 · 被看到 · 淋浴中</OBSERVED_describes_I_was_seen_using_Shower.label>
+  <OBSERVED_describes_I_was_seen_using_Bath.label>被观察者 · 描述 · 我 · 被看到 · 泡澡中</OBSERVED_describes_I_was_seen_using_Bath.label>
+  <OBSERVED_describes_I_was_seen_using_Sauna.label>被观察者 · 描述 · 我 · 被看到 · 桑拿中</OBSERVED_describes_I_was_seen_using_Sauna.label>
+  <OBSERVED_describes_I_was_seen_was_Swimming.label>被观察者 · 描述 · 我 · 被看到 · 游泳</OBSERVED_describes_I_was_seen_was_Swimming.label>
+  <OBSERVED_describes_I_was_seen_using_HotTub.label>被观察者 · 描述 · 我 · 被看到 · 热水浴缸中</OBSERVED_describes_I_was_seen_using_HotTub.label>
+  <OBSERVED_describes_I_was_seen_had_a_NipSlip.label>被观察者 · 描述 · 我 · 被看到 · 有 · 走光</OBSERVED_describes_I_was_seen_had_a_NipSlip.label>
+  <OBSERVED_describes_I_was_seen_had_a_BreastSlip.label>被观察者 · 描述 · 我 · 被看到 · 有 · 乳房走光</OBSERVED_describes_I_was_seen_had_a_BreastSlip.label>
+  <OBSERVED_describes_I_was_seen_had_a_AreolaSlip.label>被观察者 · 描述 · 我 · 被看到 · 有 · 乳晕走光</OBSERVED_describes_I_was_seen_had_a_AreolaSlip.label>
+  <OBSERVED_describes_I_was_seen_was_in_Biopod.label>被观察者 · 描述 · 我 · 被看到 · 在 · 生物舱</OBSERVED_describes_I_was_seen_was_in_Biopod.label>
+  <OBSERVED_describes_I_was_seen_was_Changing_clothes.label>被观察者 · 描述 · 我 · 被看到 · 换衣 · 衣服</OBSERVED_describes_I_was_seen_was_Changing_clothes.label>
+  <OBSERVED_describes_I_was_seen_had_a_WetShirt.label>被观察者 · 描述 · 我 · 被看到 · 有 · 湿衣</OBSERVED_describes_I_was_seen_had_a_WetShirt.label>
+  <OBSERVED_describes_I_was_seen_Breastfeed.label>被观察者 · 描述 · 我 · 被看到 · 哺乳</OBSERVED_describes_I_was_seen_Breastfeed.label>
+  <OBSERVED_describes_I_was_seen_SelfMilk.label>被观察者 · 描述 · 我 · 被看到 · 自挤奶</OBSERVED_describes_I_was_seen_SelfMilk.label>
+  <OBSERVED_describes_I_was_seen_Milk.label>被观察者 · 描述 · 我 · 被看到 · 挤奶</OBSERVED_describes_I_was_seen_Milk.label>
+  <OBSERVED_describes_I_was_seen_who_was_naked_on_medical_treatment.label>被观察者 · 描述 · 我 · 被看到 · 角色 · 赤裸 · 医疗 · 治疗</OBSERVED_describes_I_was_seen_who_was_naked_on_medical_treatment.label>
+  <OBSERVED_describes_I_was_seen_who_was_topless_on_medical_treatment.label>被观察者 · 描述 · 我 · 被看到 · 角色 · 上身赤裸 · 医疗 · 治疗</OBSERVED_describes_I_was_seen_who_was_topless_on_medical_treatment.label>
+  <OBSERVED_describes_I_was_seen_who_was_botomless_on_medical_treatment.label>被观察者 · 描述 · 我 · 被看到 · 角色 · 下身赤裸 · 医疗 · 治疗</OBSERVED_describes_I_was_seen_who_was_botomless_on_medical_treatment.label>
+  <OBSERVED_describes_I_was_seen_who_was_naked_on_self_medical_treatment.label>被观察者 · 描述 · 我 · 被看到 · 角色 · 赤裸 · 自我 · 医疗 · 治疗</OBSERVED_describes_I_was_seen_who_was_naked_on_self_medical_treatment.label>
+  <OBSERVED_describes_I_was_seen_who_was_topless_on_self_medical_treatment.label>被观察者 · 描述 · 我 · 被看到 · 角色 · 上身赤裸 · 自我 · 医疗 · 治疗</OBSERVED_describes_I_was_seen_who_was_topless_on_self_medical_treatment.label>
+  <OBSERVED_describes_I_was_seen_who_was_botomless_on_self_medical_treatment.label>被观察者 · 描述 · 我 · 被看到 · 角色 · 下身赤裸 · 自我 · 医疗 · 治疗</OBSERVED_describes_I_was_seen_who_was_botomless_on_self_medical_treatment.label>
+  <OBSERVED_describes_I_was_seen_who_was_naked_during_Surgery.label>被观察者 · 描述 · 我 · 被看到 · 角色 · 赤裸 · 期间 · 手术</OBSERVED_describes_I_was_seen_who_was_naked_during_Surgery.label>
+  <OBSERVED_describes_I_was_seen_who_was_posing_topless_like_art_sculpture.label>被观察者 · 描述 · 我 · 被看到 · 角色 · 摆姿势 · 上身赤裸 · 如同 · 艺术 · 雕塑</OBSERVED_describes_I_was_seen_who_was_posing_topless_like_art_sculpture.label>
+  <OBSERVED_describes_I_was_seen_who_was_posing_bottomless_like_art_sculpture.label>被观察者 · 描述 · 我 · 被看到 · 角色 · 摆姿势 · 下身赤裸 · 如同 · 艺术 · 雕塑</OBSERVED_describes_I_was_seen_who_was_posing_bottomless_like_art_sculpture.label>
+  <OBSERVED_describes_I_was_seen_who_was_posing_naked_like_art_sculpture.label>被观察者 · 描述 · 我 · 被看到 · 角色 · 摆姿势 · 赤裸 · 如同 · 艺术 · 雕塑</OBSERVED_describes_I_was_seen_who_was_posing_naked_like_art_sculpture.label></LanguageData>

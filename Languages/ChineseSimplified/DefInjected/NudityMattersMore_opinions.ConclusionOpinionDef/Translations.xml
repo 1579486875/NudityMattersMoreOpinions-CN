@@ -1,16 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <!--
-    ═══════════════════════════════════════════════════════════════
-    Nudity Matters More opinions —— NudityMattersMore_opinions.ConclusionOpinionDef
-    ═══════════════════════════════════════════════════════════════
-    本文件由「裸体评价更多看法 简体汉化」提供，是翻译文件而非游戏内容。
-    键名格式：Def名称.字段路径 —— 键名由游戏用来定位原文，请勿改动。
-  -->
-  <Observer_generator_conclusion_positive.label>观察者_生成_结论_正面</Observer_generator_conclusion_positive.label>
-  <Observer_generator_conclusion_Neutral.label>观察者_生成_结论_中性</Observer_generator_conclusion_Neutral.label>
-  <Observer_generator_conclusion_Negative.label>观察者_生成_结论_负面</Observer_generator_conclusion_Negative.label>
-  <Observed_generator_conclusion_positive.label>被观察者_生成_结论_正面</Observed_generator_conclusion_positive.label>
-  <Observed_generator_conclusion_Neutral.label>被观察者_生成_结论_中性</Observed_generator_conclusion_Neutral.label>
-  <Observed_generator_conclusion_Negative.label>被观察者_生成_结论_负面</Observed_generator_conclusion_Negative.label></LanguageData>
-
+  
+  <Observer_generator_conclusion_positive.label>观察者 · 生成 · 结论 · 正面</Observer_generator_conclusion_positive.label>
+  <Observer_generator_conclusion_Neutral.label>观察者 · 生成 · 结论 · 中性</Observer_generator_conclusion_Neutral.label>
+  <Observer_generator_conclusion_Negative.label>观察者 · 生成 · 结论 · 负面</Observer_generator_conclusion_Negative.label>
+  <Observed_generator_conclusion_positive.label>被观察者 · 生成 · 结论 · 正面</Observed_generator_conclusion_positive.label>
+  <Observed_generator_conclusion_Neutral.label>被观察者 · 生成 · 结论 · 中性</Observed_generator_conclusion_Neutral.label>
+  <Observed_generator_conclusion_Negative.label>被观察者 · 生成 · 结论 · 负面</Observed_generator_conclusion_Negative.label></LanguageData>

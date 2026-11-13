@@ -3535,7 +3535,7 @@
     <li>r_logentry-&gt;[INITIATOR_nameDef]观察到[RECIPIENT_nameDef]正在自慰。</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 听到 [RECIPIENT_nameDef] 评论自己被发现自慰。</li>
   </Masturbation_wasObserved_Interaction.logRulesRecipient.rulesStrings>
-  <Rape_wasObserved_Interaction.label>r_logentry-&gt;被目睹有强奸行为</Rape_wasObserved_Interaction.label>
+  <Rape_wasObserved_Interaction.label>被目睹有强奸行为</Rape_wasObserved_Interaction.label>
   <Rape_wasObserved_Interaction.logRulesInitiator.rulesStrings>
     <li>r_logentry-&gt;[RECIPIENT_nameDef] 正在[rape]，[RECIPIENT_possessive] 瞥了我一眼，眼神中带着[emotion]情绪。</li>
     <li>r_logentry-&gt;[RECIPIENT_nameDef] [rape]，满脸[emotion]情绪。</li>
@@ -5850,159 +5850,159 @@
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef]注意到，当时乳露未遮掩。</li>
   </NMM_DynamicBubble_AreolaSlip_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_Biopod_Observed.label>观察生物舱 (dynamic)</NMM_DynamicBubble_Biopod_Observed.label>
+  <NMM_DynamicBubble_Biopod_Observed.label>观察生物舱</NMM_DynamicBubble_Biopod_Observed.label>
   <NMM_DynamicBubble_Biopod_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 被 [RECIPIENT_nameDef] [seen_by]，当时 [INITIATOR_pronoun] 在生物舱胶囊中赤身裸体。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 被 [RECIPIENT_nameDef] 注意到时正赤身裸体地在生物舱胶囊中。</li>
   </NMM_DynamicBubble_Biopod_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_Changing_Observed.label>观察更换 (dynamic)</NMM_DynamicBubble_Changing_Observed.label>
+  <NMM_DynamicBubble_Changing_Observed.label>观察更换</NMM_DynamicBubble_Changing_Observed.label>
   <NMM_DynamicBubble_Changing_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 被 [RECIPIENT_nameDef] [seen_by]，而 [INITIATOR_pronoun] 正在换衣服。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]在换衣服时被[RECIPIENT_nameDef]注意到了。</li>
   </NMM_DynamicBubble_Changing_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_WetShirt_Observed.label>观察湿衬衫 (dynamic)</NMM_DynamicBubble_WetShirt_Observed.label>
+  <NMM_DynamicBubble_WetShirt_Observed.label>观察湿衬衫</NMM_DynamicBubble_WetShirt_Observed.label>
   <NMM_DynamicBubble_WetShirt_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef]看到[seen_by]，当时[INITIATOR_pronoun]穿着湿透的透明上衣。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef]注意到，当时穿着湿衬衫。</li>
   </NMM_DynamicBubble_WetShirt_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_Breastfeed_Observed.label>观察哺乳 (dynamic)</NMM_DynamicBubble_Breastfeed_Observed.label>
+  <NMM_DynamicBubble_Breastfeed_Observed.label>观察哺乳</NMM_DynamicBubble_Breastfeed_Observed.label>
   <NMM_DynamicBubble_Breastfeed_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef][seen_by]，当时[INITIATOR_pronoun]正在哺乳。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef]注意到，当时[INITIATOR_pronoun]正在哺乳。</li>
   </NMM_DynamicBubble_Breastfeed_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_SelfMilk_Observed.label>观察自我挤奶 (dynamic)</NMM_DynamicBubble_SelfMilk_Observed.label>
+  <NMM_DynamicBubble_SelfMilk_Observed.label>观察自我挤奶</NMM_DynamicBubble_SelfMilk_Observed.label>
   <NMM_DynamicBubble_SelfMilk_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef][seen_by]，此时[INITIATOR_pronoun]正在给自己挤奶。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef]注意到，当时正在自行挤奶。</li>
   </NMM_DynamicBubble_SelfMilk_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_Milk_Observed.label>观察挤奶 (dynamic)</NMM_DynamicBubble_Milk_Observed.label>
+  <NMM_DynamicBubble_Milk_Observed.label>观察挤奶</NMM_DynamicBubble_Milk_Observed.label>
   <NMM_DynamicBubble_Milk_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef][seen_by]，当时[INITIATOR_pronoun]正被某人挤奶</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef]注意到，当时正被某人挤奶</li>
   </NMM_DynamicBubble_Milk_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_MedicalFull_Observed.label>观察全身医疗 (dynamic)</NMM_DynamicBubble_MedicalFull_Observed.label>
+  <NMM_DynamicBubble_MedicalFull_Observed.label>观察全身医疗</NMM_DynamicBubble_MedicalFull_Observed.label>
   <NMM_DynamicBubble_MedicalFull_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef][seen_by]，当时[INITIATOR_pronoun]正赤裸着接受照料。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef]注意到，当时正赤裸着接受照料。</li>
   </NMM_DynamicBubble_MedicalFull_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_MedicalTop_Observed.label>观察上半身医疗 (dynamic)</NMM_DynamicBubble_MedicalTop_Observed.label>
+  <NMM_DynamicBubble_MedicalTop_Observed.label>观察上半身医疗</NMM_DynamicBubble_MedicalTop_Observed.label>
   <NMM_DynamicBubble_MedicalTop_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 被 [RECIPIENT_nameDef][seen_by]，当时 [INITIATOR_pronoun] 被赤裸上身治疗。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 在赤裸上身接受治疗时被 [RECIPIENT_nameDef] 注意到。</li>
   </NMM_DynamicBubble_MedicalTop_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_MedicalBottom_Observed.label>观察下半身医疗 (dynamic)</NMM_DynamicBubble_MedicalBottom_Observed.label>
+  <NMM_DynamicBubble_MedicalBottom_Observed.label>观察下半身医疗</NMM_DynamicBubble_MedicalBottom_Observed.label>
   <NMM_DynamicBubble_MedicalBottom_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 被 [RECIPIENT_nameDef] [seen_by]，当时 [INITIATOR_pronoun] 正裸露着下半身接受治疗。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 被 [RECIPIENT_nameDef] 注意到，当时正在裸露下半身接受治疗。</li>
   </NMM_DynamicBubble_MedicalBottom_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_MedicalFullSelf_Observed.label>观察自我全身医疗 (dynamic)</NMM_DynamicBubble_MedicalFullSelf_Observed.label>
+  <NMM_DynamicBubble_MedicalFullSelf_Observed.label>观察自我全身医疗</NMM_DynamicBubble_MedicalFullSelf_Observed.label>
   <NMM_DynamicBubble_MedicalFullSelf_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef][seen_by]，当时[INITIATOR_pronoun]正在赤裸地自我治疗。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef]注意到，当时正在赤裸地自我治疗。</li>
   </NMM_DynamicBubble_MedicalFullSelf_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_MedicalTopSelf_Observed.label>观察自我上半身医疗 (dynamic)</NMM_DynamicBubble_MedicalTopSelf_Observed.label>
+  <NMM_DynamicBubble_MedicalTopSelf_Observed.label>观察自我上半身医疗</NMM_DynamicBubble_MedicalTopSelf_Observed.label>
   <NMM_DynamicBubble_MedicalTopSelf_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 被 [RECIPIENT_nameDef] [seen_by]，当时 [INITIATOR_pronoun] 正赤膊自行治疗。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 被 [RECIPIENT_nameDef] 注意到，当时正赤膊自行治疗。</li>
   </NMM_DynamicBubble_MedicalTopSelf_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_MedicalBottomSelf_Observed.label>观察自我下半身医疗 (dynamic)</NMM_DynamicBubble_MedicalBottomSelf_Observed.label>
+  <NMM_DynamicBubble_MedicalBottomSelf_Observed.label>观察自我下半身医疗</NMM_DynamicBubble_MedicalBottomSelf_Observed.label>
   <NMM_DynamicBubble_MedicalBottomSelf_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 被 [RECIPIENT_nameDef] [seen_by]，同时 [INITIATOR_pronoun] 进行了无止境的自我照料。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 被 [RECIPIENT_nameDef] 注意到了，当时正在接受下半身裸露的自理治疗。</li>
   </NMM_DynamicBubble_MedicalBottomSelf_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_Surgery_Observed.label>观察到手术 (dynamic)</NMM_DynamicBubble_Surgery_Observed.label>
+  <NMM_DynamicBubble_Surgery_Observed.label>观察到手术</NMM_DynamicBubble_Surgery_Observed.label>
   <NMM_DynamicBubble_Surgery_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 被 [RECIPIENT_nameDef] [seen_by]，当时 [INITIATOR_pronoun] 正赤裸地躺在手术台上。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 在手术台上赤裸时被 [RECIPIENT_nameDef] 注意到了。</li>
   </NMM_DynamicBubble_Surgery_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_HumanArtFull_Observed.label>观察到完整人体艺术 (dynamic)</NMM_DynamicBubble_HumanArtFull_Observed.label>
+  <NMM_DynamicBubble_HumanArtFull_Observed.label>观察到完整人体艺术</NMM_DynamicBubble_HumanArtFull_Observed.label>
   <NMM_DynamicBubble_HumanArtFull_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 被 [seen_by] [RECIPIENT_nameDef]，当 [INITIATOR_pronoun] 正裸体进行人类艺术工作。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef]注意到，当时正赤裸进行人类艺术工作。</li>
   </NMM_DynamicBubble_HumanArtFull_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_HumanArtTop_Observed.label>观察到上半身人体艺术 (dynamic)</NMM_DynamicBubble_HumanArtTop_Observed.label>
+  <NMM_DynamicBubble_HumanArtTop_Observed.label>观察到上半身人体艺术</NMM_DynamicBubble_HumanArtTop_Observed.label>
   <NMM_DynamicBubble_HumanArtTop_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef][seen_by]，当时[INITIATOR_pronoun]正赤膊执行人体艺术工作。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef]注意到，当时正赤膊执行人体艺术工作。</li>
   </NMM_DynamicBubble_HumanArtTop_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_HumanArtBottom_Observed.label>观察到下半身人体艺术 (dynamic)</NMM_DynamicBubble_HumanArtBottom_Observed.label>
+  <NMM_DynamicBubble_HumanArtBottom_Observed.label>观察到下半身人体艺术</NMM_DynamicBubble_HumanArtBottom_Observed.label>
   <NMM_DynamicBubble_HumanArtBottom_Observed.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 被 [RECIPIENT_nameDef] [seen_by]，当时 [INITIATOR_pronoun] 正光着身子表演人类艺术工作。</li>
     <li>seen_by-&gt;被观察</li>
     <li>seen_by-&gt;被看到</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]被[RECIPIENT_nameDef]注意到，当时正赤身裸体地执行人类艺术工作。</li>
   </NMM_DynamicBubble_HumanArtBottom_Observed.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_Covering_Observer.label>正在观察遮挡 (dynamic)</NMM_DynamicBubble_Covering_Observer.label>
+  <NMM_DynamicBubble_Covering_Observer.label>正在观察遮挡</NMM_DynamicBubble_Covering_Observer.label>
   <NMM_DynamicBubble_Covering_Observer.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 看到 [RECIPIENT_nameDef] 在遮掩。</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 观察到 [RECIPIENT_nameDef] 尝试遮掩。</li>
   </NMM_DynamicBubble_Covering_Observer.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_Naked_Observer.label>正在观察裸体 (dynamic)</NMM_DynamicBubble_Naked_Observer.label>
+  <NMM_DynamicBubble_Naked_Observer.label>正在观察裸体</NMM_DynamicBubble_Naked_Observer.label>
   <NMM_DynamicBubble_Naked_Observer.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef]看到了裸体的[RECIPIENT_nameDef]。</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]观察了[RECIPIENT_nameDef]的裸体。</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]听到[RECIPIENT_nameDef]评论自己被看到裸体。</li>
   </NMM_DynamicBubble_Naked_Observer.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_Topless_Observer.label>正在观察上半身裸露 (dynamic)</NMM_DynamicBubble_Topless_Observer.label>
+  <NMM_DynamicBubble_Topless_Observer.label>正在观察上半身裸露</NMM_DynamicBubble_Topless_Observer.label>
   <NMM_DynamicBubble_Topless_Observer.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef]看到了裸露上身的[RECIPIENT_nameDef]。</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 观察到 [RECIPIENT_nameDef] 的上身裸露状态。</li>
   </NMM_DynamicBubble_Topless_Observer.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_Bottomless_Observer.label>正在观察下半身裸露 (dynamic)</NMM_DynamicBubble_Bottomless_Observer.label>
+  <NMM_DynamicBubble_Bottomless_Observer.label>正在观察下半身裸露</NMM_DynamicBubble_Bottomless_Observer.label>
   <NMM_DynamicBubble_Bottomless_Observer.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 看到 [RECIPIENT_nameDef] 没穿裤子。</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 观察到 [RECIPIENT_nameDef] 下方裸露的状态。</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 听到 [RECIPIENT_nameDef] 评论被看到光着屁股</li>
   </NMM_DynamicBubble_Bottomless_Observer.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_Sex_Observer.label>正在观察性行为 (dynamic)</NMM_DynamicBubble_Sex_Observer.label>
+  <NMM_DynamicBubble_Sex_Observer.label>正在观察性行为</NMM_DynamicBubble_Sex_Observer.label>
   <NMM_DynamicBubble_Sex_Observer.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef]看到[RECIPIENT_nameDef]在做爱</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]观察到[RECIPIENT_nameDef]正在进行性行为</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]听到[RECIPIENT_nameDef]评论被看到在做爱</li>
   </NMM_DynamicBubble_Sex_Observer.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_Masturbation_Observer.label>正在观察自慰 (dynamic)</NMM_DynamicBubble_Masturbation_Observer.label>
+  <NMM_DynamicBubble_Masturbation_Observer.label>正在观察自慰</NMM_DynamicBubble_Masturbation_Observer.label>
   <NMM_DynamicBubble_Masturbation_Observer.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef]看到[RECIPIENT_nameDef]在自慰。</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]观察到[RECIPIENT_nameDef]正在自慰。</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 听到 [RECIPIENT_nameDef] 评论自己被发现自慰。</li>
   </NMM_DynamicBubble_Masturbation_Observer.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_Rape_Observer.label>正在观察强奸 (dynamic)</NMM_DynamicBubble_Rape_Observer.label>
+  <NMM_DynamicBubble_Rape_Observer.label>正在观察强奸</NMM_DynamicBubble_Rape_Observer.label>
   <NMM_DynamicBubble_Rape_Observer.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 看到 [RECIPIENT_nameDef] 正在强奸某人。</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 观察到 [RECIPIENT_nameDef] 正在强奸。</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef] 听到 [RECIPIENT_nameDef] 评论被看到强奸某人。</li>
   </NMM_DynamicBubble_Rape_Observer.logRulesRecipient.rulesStrings>
-  <NMM_DynamicBubble_Raped_Observer.label>正在观察被强奸 (dynamic)</NMM_DynamicBubble_Raped_Observer.label>
+  <NMM_DynamicBubble_Raped_Observer.label>正在观察被强奸</NMM_DynamicBubble_Raped_Observer.label>
   <NMM_DynamicBubble_Raped_Observer.logRulesRecipient.rulesStrings>
     <li>r_logentry-&gt;[INITIATOR_nameDef]看到[RECIPIENT_nameDef]被某人强奸了。</li>
     <li>r_logentry-&gt;[INITIATOR_nameDef]观察到[RECIPIENT_nameDef]正在被强奸。</li>

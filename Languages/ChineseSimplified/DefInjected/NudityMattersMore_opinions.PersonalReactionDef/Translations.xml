@@ -1,16 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <!--
-    ═══════════════════════════════════════════════════════════════
-    Nudity Matters More opinions —— NudityMattersMore_opinions.PersonalReactionDef
-    ═══════════════════════════════════════════════════════════════
-    本文件由「裸体评价更多看法 简体汉化」提供，是翻译文件而非游戏内容。
-    键名格式：Def名称.字段路径 —— 键名由游戏用来定位原文，请勿改动。
-  -->
-  <Observer_reacts_to_see_pawn_Positive.label>观察者_反应_看到_角色_正面</Observer_reacts_to_see_pawn_Positive.label>
-  <Observer_reacts_to_see_pawn_Neutral.label>观察者_反应_看到_角色_中性</Observer_reacts_to_see_pawn_Neutral.label>
-  <Observer_reacts_to_see_pawn_Negative.label>观察者_反应_看到_角色_负面</Observer_reacts_to_see_pawn_Negative.label>
-  <Observed_reacts_to_was_seen_by_anotehr_pawn_Positive.label>被观察者_反应_被看到_被_另一个_角色_正面</Observed_reacts_to_was_seen_by_anotehr_pawn_Positive.label>
-  <Observed_reacts_to_was_seen_by_anotehr_pawn_Neutral.label>被观察者_反应_被看到_被_另一个_角色_中性</Observed_reacts_to_was_seen_by_anotehr_pawn_Neutral.label>
-  <Observed_reacts_to_was_seen_by_anotehr_pawn_Negative.label>被观察者_反应_被看到_被_另一个_角色_负面</Observed_reacts_to_was_seen_by_anotehr_pawn_Negative.label></LanguageData>
-
+  
+  <Observer_reacts_to_see_pawn_Positive.label>观察者 · 反应 · 看到 · 角色 · 正面</Observer_reacts_to_see_pawn_Positive.label>
+  <Observer_reacts_to_see_pawn_Neutral.label>观察者 · 反应 · 看到 · 角色 · 中性</Observer_reacts_to_see_pawn_Neutral.label>
+  <Observer_reacts_to_see_pawn_Negative.label>观察者 · 反应 · 看到 · 角色 · 负面</Observer_reacts_to_see_pawn_Negative.label>
+  <Observed_reacts_to_was_seen_by_anotehr_pawn_Positive.label>被观察者 · 反应 · 被看到 · 被 · 另一个 · 角色 · 正面</Observed_reacts_to_was_seen_by_anotehr_pawn_Positive.label>
+  <Observed_reacts_to_was_seen_by_anotehr_pawn_Neutral.label>被观察者 · 反应 · 被看到 · 被 · 另一个 · 角色 · 中性</Observed_reacts_to_was_seen_by_anotehr_pawn_Neutral.label>
+  <Observed_reacts_to_was_seen_by_anotehr_pawn_Negative.label>被观察者 · 反应 · 被看到 · 被 · 另一个 · 角色 · 负面</Observed_reacts_to_was_seen_by_anotehr_pawn_Negative.label></LanguageData>

@@ -1,12 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <!--
-    ═══════════════════════════════════════════════════════════════
-    Nudity Matters More opinions —— NudityMattersMore_opinions.OpinionStartDef
-    ═══════════════════════════════════════════════════════════════
-    本文件由「裸体评价更多看法 简体汉化」提供，是翻译文件而非游戏内容。
-    键名格式：Def名称.字段路径 —— 键名由游戏用来定位原文，请勿改动。
-  -->
-  <Observer_opinion_start.label>观察者_看法_开头</Observer_opinion_start.label>
-  <Observed_opinion_start.label>被观察者_看法_开头</Observed_opinion_start.label></LanguageData>
-
+  
+  <Observer_opinion_start.label>观察者 · 看法 · 开头</Observer_opinion_start.label>
+  <Observed_opinion_start.label>被观察者 · 看法 · 开头</Observed_opinion_start.label></LanguageData>
