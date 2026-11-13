@@ -3,7 +3,7 @@
 	<name>裸体评价更多看法 简体汉化</name>
 	<author>大赢经直插白皮赢道</author>
 	<packageId>shark510.nuditymattersmoreopinions.zhfix</packageId>
-	<modVersion>1.4.2</modVersion>
+	<modVersion>1.4.3</modVersion>
 	<url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
 	<supportedVersions>
 		<li>1.6</li>
@@ -36,6 +36,9 @@
 三个版本怎么共存
 · 补丁 DLL 全部用反射探测（AccessTools.TypeByName）：1.7 合并版里那些 1.6 才有的方法找不到就跳过，1.6 里找得到的就照常挂上。两个版本跑同一份文件，不用手动切换。
 · 文本注入按 Def 名查（GenDefDatabase.GetDefSilentFail）：查不到就跳过那个容器，不会因为某个 Def 缺席而崩。
+· 译文按版本分层加载：只在 1.7 合并版里才有的定义（防护层、心情、特质，
+  以及合并版新增的一批看法）放在 v1.7\ 子目录，由 LoadFolders.xml 按游戏版本决定加不加载。
+  这样 1.6 玩家不会因为「翻译了对方根本没有的东西」而在语言选项里看到一串翻译错误。
 · 全程零存档写入，加装、移除、换版本都不用开新档。
 
 内容覆盖
@@ -58,7 +61,8 @@
 3. 把这个汉化包排在它们之后。About.xml 已声明 loadAfter，游戏会自行排妥。
 
 结构说明
-· Languages\ —— 翻译键与定义文本，游戏自己读。
+· Languages\ —— 翻译键与定义文本，游戏自己读。两个版本共用的部分在这里；
+· v1.7\ —— 只在 1.7 加载的那一层（见下）。
 · OwnInjections\ —— 12.5 万条看法正文，由本包自带的补丁 DLL 在启动时注入。这个目录游戏不扫描；整列表放在 Languages\ 下会被游戏的列表翻译规则拒绝（目标字段缺 TranslationCanChangeCount 特性）。
 · Assemblies\ —— 两个补丁 DLL：NMMOpinionsChineseUI.dll 负责正文注入与 1.6 界面替换，GNH_NMM_Enhanced_ZH.dll 负责合并版增强界面的文字替换。
 两个 DLL 都带类型探测，缺目标时静默跳过，删掉后对应部分会变回英文。
