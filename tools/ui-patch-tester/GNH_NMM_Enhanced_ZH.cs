@@ -41,9 +41,9 @@ using HarmonyLib;
 using Verse;
 
 // 版本号与 About\About.xml 的 <modVersion> 保持一致（模组纪律，游戏不校验它）。
-[assembly: System.Reflection.AssemblyVersion("1.4.12.0")]
-[assembly: System.Reflection.AssemblyFileVersion("1.4.12.0")]
-[assembly: System.Reflection.AssemblyInformationalVersion("1.4.12")]
+[assembly: System.Reflection.AssemblyVersion("1.4.13.0")]
+[assembly: System.Reflection.AssemblyFileVersion("1.4.13.0")]
+[assembly: System.Reflection.AssemblyInformationalVersion("1.4.13")]
 
 namespace GNH.NMM.Combined.ZH
 {

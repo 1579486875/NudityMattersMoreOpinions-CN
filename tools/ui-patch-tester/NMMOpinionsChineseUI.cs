@@ -51,7 +51,6 @@
 
 using System.Collections.Generic;
 using System;
-using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Text.RegularExpressions;
@@ -71,9 +70,9 @@ using Verse;
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.4.12.0")]
-[assembly: AssemblyFileVersion("1.4.12.0")]
-[assembly: AssemblyInformationalVersion("1.4.12")]
+[assembly: AssemblyVersion("1.4.13.0")]
+[assembly: AssemblyFileVersion("1.4.13.0")]
+[assembly: AssemblyInformationalVersion("1.4.13")]
 
 namespace NMMOpinionsChineseUI
 {
@@ -143,6 +142,28 @@ namespace NMMOpinionsChineseUI
 
             // ⑦ 屏幕消息（「XX 第一次看到 YY 裸体」这类，显示在左上角消息区）。
             //    Messages.Message 有三个接收 string 的重载，必须全部挂上（用 TryPatchAll 批量找）。
+            // ── 增强风格渲染器（群友报告的「视角范围」就在这）────────────
+            // 这个类是**整套自己重画**的界面，文字全部硬编码在 C# 里，不读翻译键。
+            // 逐方法挂 Transpiler：每个方法只负责返一小段界面文字，改 IL 常量最干净。
+            string[] enhancedMethods =
+            {
+                "GetFilterLabel",        // 「人员：殖民地」那个范围按钮
+                "OpenRosterFilterMenu",  // 点开后的 All / Colony / Prison / Other
+                "OpenGenderFilterMenu",  // 性别筛选菜单
+                "GetGenderFilterLabel",  // 「性别：全部」
+                "GetSortLabel",          // 姓名 / 最近 / 关系
+                "GetPawnStatus",         // 家人 / 殖民者 / 商队 / 地图外
+                "SeenLabel",             // 未见过 / 刚刚 · 知情
+                "GetRelationshipLabel",  // 无关系 / 对手 / 朋友
+                "GetAwarenessTooltip",   // 知道 / 不知道
+                "DrawRoster",            // 人员页
+                "DrawOverview",          // 概览页
+            };
+            for (int i = 0; i < enhancedMethods.Length; i++)
+                n += TryPatch(harmony, "NudityMattersMore.EnhancedNmmTabRenderer",
+                              enhancedMethods[i],
+                              transpiler: nameof(Patches.Enhanced_Transpiler));
+
             n += TryPatchAll(harmony, "Verse.Messages", "Message",
                              prefix: nameof(Patches.Messages_Prefix));
 
@@ -290,6 +311,16 @@ namespace NMMOpinionsChineseUI
         {
             if (!Zh.GameIsChinese()) return codes;
             return Zh.Rewrite(codes, Zh.PartDataText);
+        }
+
+        /// <summary>
+        /// 增强风格渲染器（EnhancedNmmTabRenderer）里的硬编码界面文字。
+        /// 玩家开「风格：强化」后看到的范围/性别/排序/关系/状态等，全在这个类里硬编码。
+        /// </summary>
+        public static IEnumerable<CodeInstruction> Enhanced_Transpiler(IEnumerable<CodeInstruction> codes)
+        {
+            if (!Zh.GameIsChinese()) return codes;
+            return Zh.Rewrite(codes, Zh.EnhancedText);
         }
 
         /// <summary>看法文本里的状态碎片（ProcessOpinionText）。</summary>
@@ -919,6 +950,74 @@ namespace NMMOpinionsChineseUI
                 new Regex(@"^(.+?)'s genitals were seen for the first time\.$"),
                 "$1 的生殖器第一次被人看到。"),
         };
+
+        /// <summary>
+        /// 增强风格（EnhancedNmmTabRenderer）里的硬编码界面文字。
+        ///
+        /// 为什么单独一张表：原版风格走 Translator.Translate("NMM.OpinionTab.FilterCurrentMap")
+        /// 那套翻译键（Keyed/Settings.xml 里已经有中文），但**增强风格是自己重画整个标签页的**，
+        /// 所有文字直接写在 C# 里 —— 例如 GetFilterLabel() 返回 "People: Colony"。
+        /// 玩家开了「风格：强化」后，看法检查器的范围/性别/排序/关系/状态全部变英文，
+        /// 就是这些字符串造成的（2026-11-14 群友截图报告）。
+        /// </summary>
+        public static readonly Dictionary<string, string> EnhancedText =
+            new Dictionary<string, string>
+            {
+                // ── 人员范围筛选（群友报告的那个「检查范围」按钮）──
+                { "People: ",     "人员：" },
+                { "People",       "人员" },
+                { "Colony",       "殖民地" },
+                { "Prison",       "囚犯" },
+                { "Other",        "其他" },
+                { "All",          "全部" },
+
+                // ── 性别筛选 ──────────────────────────────
+                { "Gender: All",  "性别：全部" },
+                { "Gender: ",     "性别：" },
+
+                // ── 排序 ─────────────────────────────────
+                { "Name",      "姓名" },
+                { "Recent",    "最近" },
+                { "Relation",  "关系" },
+
+                // ── 观察状态 ──────────────────────────────
+                { "Not seen",   "未见过" },
+                { "Now",        "刚刚" },
+                { " · aware",   " · 知情" },
+                { " · unaware", " · 不知情" },
+
+                // ── 关系 ─────────────────────────────────
+                { "No relationship", "无关系" },
+                { "Rival",           "对手" },
+                { "Friend",          "朋友" },
+
+                // ── 角色所在状态（GetPawnStatus）──────────
+                { "Family",     "家人" },
+                { "Colonist",   "殖民者" },
+                { "Prisoner",   "囚犯" },
+                { "Caravan",    "商队" },
+                { "Away",       "外出" },
+                { "Off map · ", "地图外 · " },
+                { "Off map",    "地图外" },
+                { "On map",     "地图内" },
+
+                // ── 知情提示（GetAwarenessTooltip）─────────
+                { " was aware that ",     " 知道 " },
+                { " saw them.",           " 看到了自己。" },
+                { " was not aware when ", " 不知道 " },
+
+                // ── 性别筛选悬停说明（DrawRoster）───────────
+                { "Choose All, Female, Male, Trap, or Futa.",
+                  "可选：全部 / 女 / 男 / 伪娘 / 扶她。" },
+                { "Choose All, Female (including Trap and Futa), or Male.",
+                  "可选：全部 / 女（含伪娘与扶她）/ 男。" },
+
+                // ── 概览页统计说明（DrawOverview）────────────
+                { "Lifetime count of recorded NMM events where this pawn observed another pawn.",
+                  "这个角色观察其他角色的历史累计次数。" },
+                { "Lifetime count of recorded NMM events where another pawn observed this pawn.",
+                  "其他角色观察这个角色的历史累计次数。" },
+            };
 
         /// <summary>
         /// 遍历 IL：遇到 ldstr（"把字符串常量压栈"）就查表，命中就换掉操作数。
