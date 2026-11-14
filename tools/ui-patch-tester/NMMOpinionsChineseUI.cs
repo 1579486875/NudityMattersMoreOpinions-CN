@@ -70,9 +70,9 @@ using Verse;
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.4.15.0")]
-[assembly: AssemblyFileVersion("1.4.15.0")]
-[assembly: AssemblyInformationalVersion("1.4.15")]
+[assembly: AssemblyVersion("1.4.16.0")]
+[assembly: AssemblyFileVersion("1.4.16.0")]
+[assembly: AssemblyInformationalVersion("1.4.16")]
 
 namespace NMMOpinionsChineseUI
 {
@@ -81,6 +81,24 @@ namespace NMMOpinionsChineseUI
     public static class Bootstrap
     {
         static Bootstrap()
+        {
+            // 最外层兜底：静态构造函数一旦抛异常，CLR 会把该类型标记为不可用，
+            // 后续任何访问都抛 TypeInitializationException —— 表现就是「模组装了但完全没效果」，
+            // 而且日志里只有一条难懂的异常，玩家根本看不出是汉化包的问题。
+            // 所以这里整体再包一层，确保即使 harmony 初始化或循环本身出错，
+            // 也只是「界面没汉化」，不会影响游戏启动。
+            try
+            {
+                ApplyAll();
+            }
+            catch (Exception ex)
+            {
+                Log.Error("[NMM 汉化] 界面补丁初始化失败（游戏照常运行，界面文字会保持英文）：" + ex);
+            }
+        }
+
+        /// <summary>实际干活的安装流程。所有单个补丁失败都在 TryPatch 内部吞掉。</summary>
+        private static void ApplyAll()
         {
             var harmony = new Harmony("shark510.nuditymattersmoreopinions.zhfix.ui");
             int n = 0;

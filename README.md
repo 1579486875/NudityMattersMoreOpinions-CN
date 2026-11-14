@@ -40,6 +40,43 @@
 > · **138,682** = 本包实际写出的译文键（`Languages` 12,938 ＋ `OwnInjections` 125,744）—— 回答「这个包里有多少条译文」
 > 后者比前者多 567，来源有两处：① 整列表被拆成索引式后条数变多；② 少数键是补丁覆盖别的模组 Def 时加的（`Wait.reportString` 等 10 条、Gonadz 睾丸看法 75 条）。
 
+## 正文双通道架构（v1.4.14 起）
+
+原模组 1.7 合并版 `NudityMattersMore.dll` 里有个 `OpinionTextTranslator` 类，
+它支持用原生 Keyed 查正文：
+
+```csharp
+string text = $"NMM.Opinion.{def.defName}.{fieldName}.{num}";
+if (!Translator.CanTranslate(text)) return result;   // 没翻译退回英文
+return Translator.Translate(text);
+```
+
+**但 1.6 的两个原版没有这个类**（实测 `NudityMattersMore_opinions.dll` 里 grep 命中 0）。
+所以本包准备了两套通道，按运行时探测自动分流：
+
+| 环境 | 走哪条 | 条数 |
+|---|---|---|
+| **1.7 合并版** | 原生 Keyed（`v1.7/Languages/ChineseSimplified/Keyed/Opinions/`） | 126,239 |
+| **1.6 两个原版** | 运行时注入（`OwnInjections/`，反射写回 `List<string>`） | 125,744 |
+
+探测逻辑在 `OwnListInjector.HasKeyedPath()`：能不能找到
+`NudityMattersMore_opinions.OpinionTextTranslator` 这个类型。
+找到就让位给 Keyed（省 12.5 万次反射），找不到就自己注入（1.6 环境）。
+探测本身失败时按「没有」处理 —— 宁可多做，不能让玩家看到英文。
+
+## 补丁规模
+
+| 类别 | 数量 |
+|---|---|
+| 固定方法 Transpiler/Prefix | 17 |
+| 批量挂载（`Listing_Standard.CheckboxLabeled`、`Messages.Message` 全重载） | 2 组 |
+| 增强风格渲染器（`EnhancedNmmTabRenderer` 逐方法） | 11 |
+| **合计** | **30 处** |
+
+> 日志里那句「界面补丁已应用，共处理 N 处」是累加计数。加增强风格之前是 17，
+> 现在应为 28~30（取决于 `TryPatchAll` 命中几个重载）。
+
+
 
 > ⚠️ **重要**：它**只是语言包**，本身不含任何游戏内容。
 > 装了原模组（1.7 合并版或 1.6 的原版任选其一）才有文字可显示 —— 单独装它不会报错，但游戏里看不到东西。

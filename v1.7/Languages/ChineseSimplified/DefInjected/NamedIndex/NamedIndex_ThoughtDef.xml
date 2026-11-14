@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 命名索引版本：与数字索引（xxx.0）指向同一字段，
+     两套并存时游戏会记一条 Duplicate key 提示，不影响功能。
+     之所以保留两套：作者以后往列表前面插元素时，数字索引会错位，
+     命名索引不受影响（如 degreeDatas.exhibitionist / stages.jealous）。 -->
+<LanguageData>
+  <NMM_EnviousOfBreasts.stages.unwelcome_comparison.description>那对胸比我的好太多了。扎心。</NMM_EnviousOfBreasts.stages.unwelcome_comparison.description>
+  <NMM_EnviousOfBreasts.stages.unwelcome_comparison.label>羡慕身材</NMM_EnviousOfBreasts.stages.unwelcome_comparison.label>
+  <NMM_EnviousOfPenis.stages.unwelcome_comparison.description>看到更大的那话儿，只觉得自己又小又没用。</NMM_EnviousOfPenis.stages.unwelcome_comparison.description>
+  <NMM_EnviousOfPenis.stages.unwelcome_comparison.label>羡慕尺寸</NMM_EnviousOfPenis.stages.unwelcome_comparison.label>
+  <NMM_Jealousy.stages.jealous_feelings.description>好几个人看见我伴侣光着身子。这事一直硌在我心里。</NMM_Jealousy.stages.jealous_feelings.description>
+  <NMM_Jealousy.stages.jealous_feelings.label>嫉妒</NMM_Jealousy.stages.jealous_feelings.label>
+  <NMM_JealousyMild.stages.protective_feelings.description>别人把我伴侣看了个够。我不乐意。</NMM_JealousyMild.stages.protective_feelings.description>
+  <NMM_JealousyMild.stages.protective_feelings.label>轻微嫉妒</NMM_JealousyMild.stages.protective_feelings.label>
+  <NMM_JealousyVery.stages.strong_jealousy.description>太多人看见我伴侣赤裸的样子了。我讨厌这种被当众围观的感觉。</NMM_JealousyVery.stages.strong_jealousy.description>
+  <NMM_JealousyVery.stages.strong_jealousy.label>嫉妒至极</NMM_JealousyVery.stages.strong_jealousy.label>
+</LanguageData>

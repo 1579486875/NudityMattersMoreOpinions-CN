@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 由本包迁移脚本生成：Key 格式与原模组 Docs/Localization.md 一致，只翻译元素文本，不要改元素名。 -->
 <LanguageData>
   <NMM.Opinion.Opinion_Penis_Negative_Micro_CrocodilianPenis.opinionTexts.20>我几乎没注意到{PAWN_nameShort}的那显微镜般的爬行类茎身；实在太微不足道了。</NMM.Opinion.Opinion_Penis_Negative_Micro_CrocodilianPenis.opinionTexts.20>
   <NMM.Opinion.Opinion_Penis_Negative_Micro_CrocodilianPenis.opinionTexts.21>{PAWN_nameShort}的萎缩的睾丸，印证了{PAWN_possessive}整套鳄鱼配置有多可悲。</NMM.Opinion.Opinion_Penis_Negative_Micro_CrocodilianPenis.opinionTexts.21>
@@ -1701,7 +1700,7 @@
   <NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.24>我差点错过。{PAWN_nameShort}的阴茎正是生理劣等的明证，几乎只是个小鼓包。</NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.24>
   <NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.25>{PAWN_nameShort}那根极小、几乎看不见、被他称作阴茎的东西，老实说，是对男性生理构造的嘲弄。</NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.25>
   <NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.26>看着{PAWN_nameShort}的可悲萎缩的肉具，让我满心都是深切的失望。</NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.26>
-  <NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.27>真是一件毫无灵感的装备。{PAWN_nameShort}的小巧的阴茎诉说着目的的缺失与活力的匮乏。</NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.27>
+  <NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.27>真是一件毫无灵感的装备。{PAWN_nameShort}那根小巧的阴茎，瞧得出一股既无目的、也无活力的模样。</NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.27>
   <NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.28>我几乎无法把{PAWN_nameShort}的阴茎从周围的皮肉中分辨出来；它就是这么无足轻重。</NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.28>
   <NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.29>{PAWN_nameShort}的小巧而没有说服力的阴茎与干瘪的睾丸，是支持禁欲的视觉论据。</NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.29>
   <NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.3>如此微小的东西。{PAWN_nameShort}的阴茎，一朵枯萎的小花苞，看起来毫无用处，说白了还令人尴尬。</NMM.Opinion.Opinion_Penis_Negative_Small_Elderly_Male_opinion.opinionTexts.3>
