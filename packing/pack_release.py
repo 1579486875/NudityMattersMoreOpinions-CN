@@ -173,7 +173,12 @@ def main():
         # 正文 Keyed 的代表性文件（1.7 用）：它不在就说明 Keyed 正文丢了
         "v1.7/Languages/ChineseSimplified/Keyed/PrivateParts.01.xml",
         # 中文代词表：缺它则 {PAWN_possessive} 会漏出 his/her
-        "v1.7/Languages/ChineseSimplified/Keyed/ChinesePronouns.xml",
+        # ⚠ 2026-11-15 订正：v1.4.21 去重时把 v1.7 下那份删了 ——
+        #   它与主目录那份 **hash 完全一致**（943 B，21 个键），是纯冗余。
+        #   LoadFolders 的 <v1.7> 是 `<li>/</li> + <li>v1.7</li>`，两个目录都会加载，
+        #   翻译表「后加载覆盖先加载」，内容一样谁覆盖谁都不变；
+        #   删掉 v1.7 那份后，主目录这份仍然生效（1.6/1.5 本来也只加载主目录）。
+        "Languages/ChineseSimplified/Keyed/ChinesePronouns.xml",
         # 正文注入清单的代表性文件（1.6 用）：1.6 原版没有 Keyed 通道，只能靠它
         "OwnInjections/ChineseSimplified/DefInjected/"
         "NudityMattersMore_opinions.OpinionDef_SexPart/OpinionTexts_Part001.xml",
