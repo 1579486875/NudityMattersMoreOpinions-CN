@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 32/39 · 共 2983 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Self_Vagina_Micro_Ahegao_Unisex_Neutral.opinionTexts>
     <li>我极小的缝隙感觉完全满足，含蓄的存在是一声安静的快感嗡鸣。精致的阴唇与娇小的阴蒂在余韵中反应优美。</li>
     <li>这极小的阴道几乎只是一道缝，却出人意料地带劲。紧凑的形态加上放松的阴蒂，让我幸福地满足。</li>
@@ -909,7 +899,7 @@
   </Opinion_Self_Vagina_Tight_Ahegao_Female_Neutral.opinionTexts>
   <Opinion_Self_Vagina_Tight_Ahegao_Female_Positive.opinionTexts>
     <li>我紧致丰润的缝隙感觉胀得精致，那愉悦的湿润更是放大了这份深沉的极乐。</li>
-    <li>我内壁那紧贴的拥抱难以言表；阴蒂充血肿胀、阵阵搏动，更添阿黑颜的韵味。</li>
+    <li>我内壁那紧贴的拥抱难以言表；阴蒂充血肿胀、阵阵搏动，更添阿嘿颜的韵味。</li>
     <li>一个格外紧致的入口，如此敏感，又滑润得令人愉悦。我彻底被这份安宁的满足所吞没。</li>
     <li>它紧握得如此完美，简直不可思议；我阴唇的充血肿胀更为这宁静的余韵添色。</li>
     <li>我紧致的小穴是强烈快感的源泉，如今放松得美妙，湿润得精致。</li>
@@ -1005,7 +995,7 @@
   </Opinion_Self_Vagina_Tight_Ahegao_Unisex_Neutral.opinionTexts>
   <Opinion_Self_Vagina_Tight_Ahegao_Unisex_Positive.opinionTexts>
     <li>我紧致丰润的缝隙感觉胀得精致，那愉悦的湿润更是放大了这份深沉的极乐。</li>
-    <li>我内壁那紧贴的拥抱难以言表；阴蒂充血肿胀、阵阵搏动，更添阿黑颜的韵味。</li>
+    <li>我内壁那紧贴的拥抱难以言表；阴蒂充血肿胀、阵阵搏动，更添阿嘿颜的韵味。</li>
     <li>一个格外紧致的入口，如此敏感，又滑润得令人愉悦。我彻底被这份安宁的满足所吞没。</li>
     <li>它紧握得如此完美，简直不可思议；我阴唇的充血肿胀更为这宁静的余韵添色。</li>
     <li>我紧致的小穴是强烈快感的源泉，如今放松得美妙，湿润得精致。</li>

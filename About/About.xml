@@ -3,7 +3,7 @@
 	<name>裸体评价更多看法 简体汉化</name>
 	<author>大赢经直插白皮赢道</author>
 	<packageId>shark510.nuditymattersmoreopinions.zhfix</packageId>
-	<modVersion>1.4.8</modVersion>
+	<modVersion>1.4.9</modVersion>
 	<url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
 	<supportedVersions>
 		<li>1.6</li>
@@ -43,7 +43,7 @@
 
 内容覆盖
 · 界面键值 471 条（NMM.OpinionTab.*、NMM.Log.*、NMM.Notification.*、NMM.Settings.* 等）
-· 定义文本 137,647 条 —— 看法正文 123,455、互动日志规则 5,743、通用文本 2,729、名称 5,573、描述 147
+· 定义文本 137,644 条 —— 看法正文 123,453、互动日志规则 5,743、通用文本 2,729、名称 5,572、描述 147
 · 增强界面约 90 条 —— 合并版把文字写死在 C# 里，只能靠补丁 DLL 在运行时替换
 
 合并版顺手变好的地方

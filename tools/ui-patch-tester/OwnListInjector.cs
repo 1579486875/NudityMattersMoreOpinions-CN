@@ -5,6 +5,32 @@
 // designed, reviewed and validated by the human author.
 // ---------------------------------------------------------------------------
 
+// ==========================================================================
+// 【方案 C】自有注入清单 —— 绕过 [TranslationCanChangeCount] 限制写入整列表译文
+// ==========================================================================
+//
+// 【症状】      Languages\ 下写 <Def.opinionTexts> 整列表会被游戏拒绝，
+//              日志只留一条 `Tried to translate field ... doesn't have
+//              [TranslationCanChangeCount] ...`，译文一条都不生效。
+//              v1.2.7 的 123,015 条正文就是这样整批丢掉的。
+// 【根因】      反编译 Verse.DefInjectionPackage.SetDefFieldAtPath 可见：
+//                else if (!isPlaceholder && ensureFieldType != typeof(string)
+//                         && !fieldNamed.HasAttribute<TranslationCanChangeCountAttribute>())
+//                    loadErrors.Add("Tried to translate field ...");
+//                else if (!isPlaceholder) { fieldNamed.SetValue(obj, value); result2 = true; }
+//              原模组的 OpinionDef_SexPart.opinionTexts、BodyPartOpinionDef.texts 等
+//              都是裸的 `public List<string>`，没有该特性。
+// 【修法】      把清单搬到游戏**不扫描**的 OwnInjections\ 目录，由本类在
+//              [StaticConstructorOnStartup] 里反射逐条写回。
+//              不选「索引式写法」（<Def.opinionTexts.0>）的原因：那样键数会从
+//              1.1 万涨回 13.7 万，加载明显变慢。
+// 【自动让路】  ① 游戏语言不是中文（Zh.GameIsChinese() == false）→ 整个注入跳过，
+//              只打一条 Message；
+//              ② 找不到本模组根目录 → 打 Warning 跳过；
+//              ③ 某个 Def / 字段不存在 → 只跳过那一条，并计入「跳过」统计。
+//              三种情况都不会抛异常，其余功能照常。
+// ==========================================================================
+//
 // 裸体评价更多看法 简体汉化 —— 自有注入清单（「方案 C」）
 //
 // ① 这个类修什么问题
