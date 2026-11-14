@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    合并版自带的 Gonadz_Opinions_Patch.xml 往看法系统里加了 18 个睾丸相关 Def。
+    这些 Def 不在 1.7\Defs 里（它们是运行时由 Patch 注入的），
+    所以按 Defs 建索引的覆盖率统计扫不到 —— 游戏里一直显示英文。
+    本文件补上它们的 label 与 opinionTexts。
+    ⚠ 占位符必须原样保留：{PAWN_nameShortPossessive} / {OBSERVED_partSpecificLabel} / {OBSERVED_sizeLabel}
+  -->
+  <NMM_Testicles_Micro_Positive.label>微小睾丸（正面）</NMM_Testicles_Micro_Positive.label>
+  <NMM_Testicles_Micro_Positive.opinionTexts.0>{PAWN_nameShortPossessive}那对小小的{OBSERVED_partSpecificLabel}又紧又可爱，几乎是在求人捧一把。</NMM_Testicles_Micro_Positive.opinionTexts.0>
+  <NMM_Testicles_Micro_Positive.opinionTexts.1>那对微小的{OBSERVED_partSpecificLabel}又小又整齐，紧紧贴根部。我喜欢它们这么紧凑。</NMM_Testicles_Micro_Positive.opinionTexts.1>
+  <NMM_Testicles_Micro_Positive.opinionTexts.2>一对精致的小{OBSERVED_partSpecificLabel}，光滑又紧实。小成这样反而有种说不出的吸引力。</NMM_Testicles_Micro_Positive.opinionTexts.2>
+  <NMM_Testicles_Micro_Positive.opinionTexts.3>{PAWN_nameShortPossessive}那对微球挂得又高又紧。看着就敏感，很好逗。</NMM_Testicles_Micro_Positive.opinionTexts.3>
+  <NMM_Testicles_Micro_Positive.opinionTexts.4>这么小、这么整齐的{OBSERVED_partSpecificLabel}。整套东西看着都清爽好掌控。</NMM_Testicles_Micro_Positive.opinionTexts.4>
+  <NMM_Testicles_Micro_Neutral.label>微小睾丸（中性）</NMM_Testicles_Micro_Neutral.label>
+  <NMM_Testicles_Micro_Neutral.opinionTexts.0>{PAWN_nameShortPossessive}那对微小的{OBSERVED_partSpecificLabel}几乎看不见。</NMM_Testicles_Micro_Neutral.opinionTexts.0>
+  <NMM_Testicles_Micro_Neutral.opinionTexts.1>小得几乎注意不到的{OBSERVED_partSpecificLabel}。</NMM_Testicles_Micro_Neutral.opinionTexts.1>
+  <NMM_Testicles_Micro_Neutral.opinionTexts.2>那对小小的{OBSERVED_partSpecificLabel}不怎么显眼。</NMM_Testicles_Micro_Neutral.opinionTexts.2>
+  <NMM_Testicles_Micro_Negative.label>微小睾丸（负面）</NMM_Testicles_Micro_Negative.label>
+  <NMM_Testicles_Micro_Negative.opinionTexts.0>{PAWN_nameShortPossessive}那对萎缩的微小{OBSERVED_partSpecificLabel}看着可怜，像没发育起来。</NMM_Testicles_Micro_Negative.opinionTexts.0>
+  <NMM_Testicles_Micro_Negative.opinionTexts.1>那对小球小得像是从来没掉下来过。</NMM_Testicles_Micro_Negative.opinionTexts.1>
+  <NMM_Testicles_Micro_Negative.opinionTexts.2>可怜巴巴的一点{OBSERVED_partSpecificLabel}。实在没法当回事。</NMM_Testicles_Micro_Negative.opinionTexts.2>
+  <NMM_Testicles_Micro_Negative.opinionTexts.3>微小又干瘪的{OBSERVED_partSpecificLabel}，看着虚弱又空。</NMM_Testicles_Micro_Negative.opinionTexts.3>
+  <NMM_Testicles_Tiny_Positive.label>极小睾丸（正面）</NMM_Testicles_Tiny_Positive.label>
+  <NMM_Testicles_Tiny_Positive.opinionTexts.0>{PAWN_nameShortPossessive}那对紧实的{OBSERVED_partSpecificLabel}又小又滑，看着讨喜。我想摸摸看。</NMM_Testicles_Tiny_Positive.opinionTexts.0>
+  <NMM_Testicles_Tiny_Positive.opinionTexts.1>那对小而高的球，绷得很紧。紧凑成这样反而勾人。</NMM_Testicles_Tiny_Positive.opinionTexts.1>
+  <NMM_Testicles_Tiny_Positive.opinionTexts.2>一对齐整的小{OBSERVED_partSpecificLabel}，一只手就握得下。</NMM_Testicles_Tiny_Positive.opinionTexts.2>
+  <NMM_Testicles_Tiny_Positive.opinionTexts.3>{PAWN_nameShortPossessive}那对偏小但紧实的{OBSERVED_partSpecificLabel}看着敏感又有趣。</NMM_Testicles_Tiny_Positive.opinionTexts.3>
+  <NMM_Testicles_Tiny_Neutral.label>极小睾丸（中性）</NMM_Testicles_Tiny_Neutral.label>
+  <NMM_Testicles_Tiny_Neutral.opinionTexts.0>{PAWN_nameShortPossessive}那对{OBSERVED_partSpecificLabel}偏小。</NMM_Testicles_Tiny_Neutral.opinionTexts.0>
+  <NMM_Testicles_Tiny_Neutral.opinionTexts.1>小小的{OBSERVED_partSpecificLabel}，没什么特别。</NMM_Testicles_Tiny_Neutral.opinionTexts.1>
+  <NMM_Testicles_Tiny_Negative.label>极小睾丸（负面）</NMM_Testicles_Tiny_Negative.label>
+  <NMM_Testicles_Tiny_Negative.opinionTexts.0>{PAWN_nameShortPossessive}那对偏小的{OBSERVED_partSpecificLabel}看着让人失望，软弱无力。</NMM_Testicles_Tiny_Negative.opinionTexts.0>
+  <NMM_Testicles_Tiny_Negative.opinionTexts.1>那对小球的容量看着就不大。</NMM_Testicles_Tiny_Negative.opinionTexts.1>
+  <NMM_Testicles_Tiny_Negative.opinionTexts.2>那么小的{OBSERVED_partSpecificLabel}，整个下面都显得不完整。</NMM_Testicles_Tiny_Negative.opinionTexts.2>
+  <NMM_Testicles_Average_Positive.label>普通睾丸（正面）</NMM_Testicles_Average_Positive.label>
+  <NMM_Testicles_Average_Positive.opinionTexts.0>{PAWN_nameShortPossessive}那对形状漂亮的{OBSERVED_partSpecificLabel}饱满又结实。这尺寸正好拿来玩。</NMM_Testicles_Average_Positive.opinionTexts.0>
+  <NMM_Testicles_Average_Positive.opinionTexts.1>一对结实匀称的{OBSERVED_partSpecificLabel}，垂得恰到好处。看着健康，分量也够。</NMM_Testicles_Average_Positive.opinionTexts.1>
+  <NMM_Testicles_Average_Positive.opinionTexts.2>那对{OBSERVED_partSpecificLabel}的分量不错。我不介意上手摸摸。</NMM_Testicles_Average_Positive.opinionTexts.2>
+  <NMM_Testicles_Average_Positive.opinionTexts.3>{PAWN_nameShortPossessive}那对均衡的{OBSERVED_partSpecificLabel}堪称完美——不大不小。</NMM_Testicles_Average_Positive.opinionTexts.3>
+  <NMM_Testicles_Average_Neutral.label>普通睾丸（中性）</NMM_Testicles_Average_Neutral.label>
+  <NMM_Testicles_Average_Neutral.opinionTexts.0>{PAWN_nameShortPossessive}那对普通大小的{OBSERVED_partSpecificLabel}没什么特别。</NMM_Testicles_Average_Neutral.opinionTexts.0>
+  <NMM_Testicles_Average_Neutral.opinionTexts.1>看着很一般的{OBSERVED_partSpecificLabel}。</NMM_Testicles_Average_Neutral.opinionTexts.1>
+  <NMM_Testicles_Average_Negative.label>普通睾丸（负面）</NMM_Testicles_Average_Negative.label>
+  <NMM_Testicles_Average_Negative.opinionTexts.0>{PAWN_nameShortPossessive}那对平常的{OBSERVED_partSpecificLabel}提不起我的兴趣。</NMM_Testicles_Average_Negative.opinionTexts.0>
+  <NMM_Testicles_Average_Negative.opinionTexts.1>普通的球。转头就忘。</NMM_Testicles_Average_Negative.opinionTexts.1>
+  <NMM_Testicles_Large_Positive.label>大型睾丸（正面）</NMM_Testicles_Large_Positive.label>
+  <NMM_Testicles_Large_Positive.opinionTexts.0>{PAWN_nameShortPossessive}那对沉甸甸的{OBSERVED_partSpecificLabel}饱满得让人想抓过来握一把。</NMM_Testicles_Large_Positive.opinionTexts.0>
+  <NMM_Testicles_Large_Positive.opinionTexts.1>那对大球垂下来很有分量。看着胀，也看着敏感。</NMM_Testicles_Large_Positive.opinionTexts.1>
+  <NMM_Testicles_Large_Positive.opinionTexts.2>一大对{OBSERVED_partSpecificLabel}，又低又沉。我都能想象出里面有多满。</NMM_Testicles_Large_Positive.opinionTexts.2>
+  <NMM_Testicles_Large_Positive.opinionTexts.3>{PAWN_nameShortPossessive}那对偏大的{OBSERVED_partSpecificLabel}一动就晃。真带劲。</NMM_Testicles_Large_Positive.opinionTexts.3>
+  <NMM_Testicles_Large_Positive.opinionTexts.4>那对沉{OBSERVED_partSpecificLabel}看着像是需要好好放一放。</NMM_Testicles_Large_Positive.opinionTexts.4>
+  <NMM_Testicles_Large_Neutral.label>大型睾丸（中性）</NMM_Testicles_Large_Neutral.label>
+  <NMM_Testicles_Large_Neutral.opinionTexts.0>{PAWN_nameShortPossessive}那对{OBSERVED_partSpecificLabel}垂得很明显。</NMM_Testicles_Large_Neutral.opinionTexts.0>
+  <NMM_Testicles_Large_Neutral.opinionTexts.1>比一般的球大一些。</NMM_Testicles_Large_Neutral.opinionTexts.1>
+  <NMM_Testicles_Large_Negative.label>大型睾丸（负面）</NMM_Testicles_Large_Negative.label>
+  <NMM_Testicles_Large_Negative.opinionTexts.0>{PAWN_nameShortPossessive}那对偏大的{OBSERVED_partSpecificLabel}看着有点过分，还往下坠。</NMM_Testicles_Large_Negative.opinionTexts.0>
+  <NMM_Testicles_Large_Negative.opinionTexts.1>那对大球垂得太低了。有点倒胃口。</NMM_Testicles_Large_Negative.opinionTexts.1>
+  <NMM_Testicles_Huge_Positive.label>巨大睾丸（正面）</NMM_Testicles_Huge_Positive.label>
+  <NMM_Testicles_Huge_Positive.opinionTexts.0>{PAWN_nameShortPossessive}那对沉甸甸晃来晃去的{OBSERVED_partSpecificLabel}真是够带劲。又重又满。</NMM_Testicles_Huge_Positive.opinionTexts.0>
+  <NMM_Testicles_Huge_Positive.opinionTexts.1>那对巨球压过一切。我想掂掂它们有多重。</NMM_Testicles_Huge_Positive.opinionTexts.1>
+  <NMM_Testicles_Huge_Positive.opinionTexts.2>庞大又低垂的{OBSERVED_partSpecificLabel}，又厚又沉。看着像随时要炸开。</NMM_Testicles_Huge_Positive.opinionTexts.2>
+  <NMM_Testicles_Huge_Positive.opinionTexts.3>{PAWN_nameShortPossessive}那对巨大的{OBSERVED_partSpecificLabel}每走一步都重重地晃。下流，却让人移不开眼。</NMM_Testicles_Huge_Positive.opinionTexts.3>
+  <NMM_Testicles_Huge_Positive.opinionTexts.4>那对巨球看着又胀又酸。光是看着，我几乎就能感到那份重量。</NMM_Testicles_Huge_Positive.opinionTexts.4>
+  <NMM_Testicles_Huge_Neutral.label>巨大睾丸（中性）</NMM_Testicles_Huge_Neutral.label>
+  <NMM_Testicles_Huge_Neutral.opinionTexts.0>{PAWN_nameShortPossessive}那对巨大的{OBSERVED_partSpecificLabel}让人很难忽视。</NMM_Testicles_Huge_Neutral.opinionTexts.0>
+  <NMM_Testicles_Huge_Neutral.opinionTexts.1>非常大的一对球。特别显眼。</NMM_Testicles_Huge_Neutral.opinionTexts.1>
+  <NMM_Testicles_Huge_Negative.label>巨大睾丸（负面）</NMM_Testicles_Huge_Negative.label>
+  <NMM_Testicles_Huge_Negative.opinionTexts.0>{PAWN_nameShortPossessive}那对大得过分的{OBSERVED_partSpecificLabel}看着下流又夸张。</NMM_Testicles_Huge_Negative.opinionTexts.0>
+  <NMM_Testicles_Huge_Negative.opinionTexts.1>那对巨球实在太过了。看着就不舒服。</NMM_Testicles_Huge_Negative.opinionTexts.1>
+  <NMM_Testicles_Ginormous_Positive.label>硕大睾丸（正面）</NMM_Testicles_Ginormous_Positive.label>
+  <NMM_Testicles_Ginormous_Positive.opinionTexts.0>{PAWN_nameShortPossessive}那对骇人的沉甸甸{OBSERVED_partSpecificLabel}下流得恰到好处，简直完美。</NMM_Testicles_Ginormous_Positive.opinionTexts.0>
+  <NMM_Testicles_Ginormous_Positive.opinionTexts.1>那对硕大无朋的球荒唐得可爱。又重又低，把所有东西都压下去了。</NMM_Testicles_Ginormous_Positive.opinionTexts.1>
+  <NMM_Testicles_Ginormous_Positive.opinionTexts.2>怪物般的{OBSERVED_partSpecificLabel}，又厚又满。我想看它们晃起来。</NMM_Testicles_Ginormous_Positive.opinionTexts.2>
+  <NMM_Testicles_Ginormous_Positive.opinionTexts.3>{PAWN_nameShortPossessive}那对荒诞的巨型{OBSERVED_partSpecificLabel}晃得像有自己的主意。</NMM_Testicles_Ginormous_Positive.opinionTexts.3>
+  <NMM_Testicles_Ginormous_Positive.opinionTexts.4>那对庞大又肿胀的球看着满得发疼。光那份重量就已经够下流了。</NMM_Testicles_Ginormous_Positive.opinionTexts.4>
+  <NMM_Testicles_Ginormous_Neutral.label>硕大睾丸（中性）</NMM_Testicles_Ginormous_Neutral.label>
+  <NMM_Testicles_Ginormous_Neutral.opinionTexts.0>{PAWN_nameShortPossessive}那对硕大无朋的{OBSERVED_partSpecificLabel}把别的一切都比下去了。</NMM_Testicles_Ginormous_Neutral.opinionTexts.0>
+  <NMM_Testicles_Ginormous_Neutral.opinionTexts.1>大得离谱的一对球。想看不见都难。</NMM_Testicles_Ginormous_Neutral.opinionTexts.1>
+  <NMM_Testicles_Ginormous_Negative.label>硕大睾丸（负面）</NMM_Testicles_Ginormous_Negative.label>
+  <NMM_Testicles_Ginormous_Negative.opinionTexts.0>{PAWN_nameShortPossessive}那对荒诞的巨型{OBSERVED_partSpecificLabel}看着怪异又不像真的。</NMM_Testicles_Ginormous_Negative.opinionTexts.0>
+  <NMM_Testicles_Ginormous_Negative.opinionTexts.1>那对巨球简直荒唐。大得谈不上好看。</NMM_Testicles_Ginormous_Negative.opinionTexts.1>
+  <NMM_Testicles_Ginormous_Negative.opinionTexts.2>硕大无朋的{OBSERVED_partSpecificLabel}，看着又肿又不舒服。倒胃口。</NMM_Testicles_Ginormous_Negative.opinionTexts.2>
+</LanguageData>

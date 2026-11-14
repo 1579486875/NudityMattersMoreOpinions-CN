@@ -70,9 +70,9 @@ using Verse;
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.4.2.0")]
-[assembly: AssemblyFileVersion("1.4.2.0")]
-[assembly: AssemblyInformationalVersion("1.4.2")]
+[assembly: AssemblyVersion("1.4.5.0")]
+[assembly: AssemblyFileVersion("1.4.5.0")]
+[assembly: AssemblyInformationalVersion("1.4.5")]
 
 namespace NMMOpinionsChineseUI
 {
@@ -137,25 +137,6 @@ namespace NMMOpinionsChineseUI
                 Log.Warning("[NMM 汉化] 界面补丁没找到任何目标方法 —— 原模组可能更新了，界面文字会保持英文。");
         }
 
-        /// <summary>
-        /// 已经报过「找不到」的键 —— 同一个类型 / 方法只报一次。
-        ///
-        /// 为什么需要去重：1.7 合并版没有 1.6 才有的
-        /// `NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches`，
-        /// 而界面里指向它的目标有 4 个，于是 2026-11-13 实机日志里出现
-        /// **4 条一模一样的 WARN** —— 玩家会以为出了 4 个问题。
-        /// 跳过本身是正确的（1.7 用的是另一套渲染器），需要保留记录，
-        /// 但只需要一条。
-        /// </summary>
-        private static readonly System.Collections.Generic.HashSet<string> ReportedMissing =
-            new System.Collections.Generic.HashSet<string>();
-
-        private static void WarnMissingOnce(string what)
-        {
-            if (ReportedMissing.Add(what))
-                Log.Warning("[NMM 汉化] 找不到" + what);
-        }
-
         /// <summary>找到目标方法就装补丁，找不到只记一条警告，绝不让游戏崩。</summary>
         private static int TryPatch(Harmony harmony, string typeName, string methodName,
                                     string transpiler = null, string prefix = null)
@@ -165,14 +146,14 @@ namespace NMMOpinionsChineseUI
                 Type t = AccessTools.TypeByName(typeName);
                 if (t == null)
                 {
-                    WarnMissingOnce("类型：" + typeName);
+                    Log.Warning("[NMM 汉化] 找不到类型：" + typeName);
                     return 0;
                 }
 
                 MethodBase target = AccessTools.Method(t, methodName);
                 if (target == null)
                 {
-                    WarnMissingOnce("方法：" + typeName + "." + methodName);
+                    Log.Warning("[NMM 汉化] 找不到方法：" + typeName + "." + methodName);
                     return 0;
                 }
 
@@ -210,7 +191,7 @@ namespace NMMOpinionsChineseUI
                 Type t = AccessTools.TypeByName(typeName);
                 if (t == null)
                 {
-                    WarnMissingOnce("类型：" + typeName);
+                    Log.Warning("[NMM 汉化] 找不到类型：" + typeName);
                     return 0;
                 }
 
@@ -459,6 +440,14 @@ namespace NMMOpinionsChineseUI
             { "vagina",                            "阴道" },
             { "penis",                             "阴茎" },
             { "genitals",                          "生殖器" },
+            { "testicles",                         "睾丸" },
+
+            // ── 大写 "Testicles" 是个例外 ──
+            // 2026-11-14 实测发现：FillTab 里有一处把 "Testicles" 直接当**显示文本**传进
+            //   TranslatorFormattedStringExtensions.Translate("NMM.OpinionTab.OpinionAbout", a, b, "Testicles")
+            // 而查 Def 用的是 "Gonads"（小写 gonads 也不参与），所以这个大写串纯显示用，可以安全替换。
+            // EnhancedNmmTabRenderer 里同样有两处。
+            { "Testicles",                         "睾丸" },
 
             // ── 检测不到时的兜底提示 ──
             { "Chest opinion: N/A (No breasts detected)",     "胸部看法：无（未检测到乳房）" },
