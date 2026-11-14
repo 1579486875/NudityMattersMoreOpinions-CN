@@ -3,7 +3,7 @@
 	<name>裸体评价更多看法 简体汉化</name>
 	<author>大赢经直插白皮赢道</author>
 	<packageId>shark510.nuditymattersmoreopinions.zhfix</packageId>
-	<modVersion>1.4.16</modVersion>
+	<modVersion>1.4.17</modVersion>
 	<url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
 	<supportedVersions>
 		<li>1.6</li>
@@ -21,7 +21,12 @@
 		<li>dord.nuditymattersmore</li>
 		<li>shark510.nuditymattersmoreopinions</li>
 	</loadAfter>
-	<description>「裸体评价更多看法」的完整简体中文。
+	<description>
+【v1.4.17 代词与所有格修复】
+· 修正 168 处「名字's」——原模组用 {PAWN_nameShortPossessive} 表示所有格，而中文语言包没有 LanguageWorker，该占位符会按英文规则渲染成「冯俊晧's」。现已统一改写为「{PAWN_nameShort}的」。
+· 补全 21 个中文代词键（Prohis/Proher/Proits 等）——这几个键由 Core 提供、中文缺译时会直接漏出 his / her / he / she / him，波及正文里约两万四千处 {PAWN_possessive} 一类占位符。补齐后全部按「他的 / 她的 / 它」显示。
+· 正文 Keyed 由子目录 Keyed/Opinions/ 摊平到 Keyed/ 根目录，与全库一千多个模组的通行写法一致，避免少数条目在个别环境下取不到译文而退回英文。
+「裸体评价更多看法」的完整简体中文。
 
 一套文件同时服务三个目标：
 · 1.7 的合并版 [OWL] NMM Combined Edition（dord.nuditymattersmore）
