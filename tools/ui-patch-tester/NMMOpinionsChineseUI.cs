@@ -49,6 +49,7 @@
 //   ③ 本文件只在 Bootstrap 的静态构造函数里装一次补丁 —— CLR 保证静态构造函数只跑一次，
 //      所以不会像 Mod 子类构造函数那样被重复安装（重复安装会让补丁层层叠加）。
 
+using System.Collections.Generic;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -70,9 +71,9 @@ using Verse;
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.4.9.0")]
-[assembly: AssemblyFileVersion("1.4.9.0")]
-[assembly: AssemblyInformationalVersion("1.4.9")]
+[assembly: AssemblyVersion("1.4.10.0")]
+[assembly: AssemblyFileVersion("1.4.10.0")]
+[assembly: AssemblyInformationalVersion("1.4.10")]
 
 namespace NMMOpinionsChineseUI
 {
@@ -151,6 +152,16 @@ namespace NMMOpinionsChineseUI
                 Log.Warning("[NMM 汉化] 界面补丁没找到任何目标方法 —— 原模组可能更新了，界面文字会保持英文。");
         }
 
+        // ── 警告去重 ────────────────────────────────────────────────
+        // 为什么要去重：同一个类型会被多个方法引用（例：NMMOpinionsHarmonyPatches
+        // 被 ApplyFirstTimeThought / ApplyRenewThought / ApplyFirstTimeEverThought /
+        // GetRelationsString 四个方法用），原模组删掉该类型后就会连打 4 条一模一样的警告。
+        // 这类噪音会把真正的告警淹掉，玩家看日志时也难判断「到底坏了几处」。
+        // 判据：v1.4.4 的发布说明就写着「只报一次」，但当时没真的实现 —— 本轮补上。
+        // 线程安全：调用方是 [StaticConstructorOnStartup]，CLR 保证只执行一次，无需加锁。
+        private static readonly HashSet<string> warnedTypes = new HashSet<string>();
+        private static readonly HashSet<string> warnedMethods = new HashSet<string>();
+
         /// <summary>找到目标方法就装补丁，找不到只记一条警告，绝不让游戏崩。</summary>
         private static int TryPatch(Harmony harmony, string typeName, string methodName,
                                     string transpiler = null, string prefix = null)
@@ -160,14 +171,17 @@ namespace NMMOpinionsChineseUI
                 Type t = AccessTools.TypeByName(typeName);
                 if (t == null)
                 {
-                    Log.Warning("[NMM 汉化] 找不到类型：" + typeName);
+                    if (warnedTypes.Add(typeName))          // 同一类型只报一次
+                        Log.Warning("[NMM 汉化] 找不到类型：" + typeName);
                     return 0;
                 }
 
                 MethodBase target = AccessTools.Method(t, methodName);
                 if (target == null)
                 {
-                    Log.Warning("[NMM 汉化] 找不到方法：" + typeName + "." + methodName);
+                    string full = typeName + "." + methodName;
+                    if (warnedMethods.Add(full))            // 同一方法只报一次
+                        Log.Warning("[NMM 汉化] 找不到方法：" + full);
                     return 0;
                 }
 
