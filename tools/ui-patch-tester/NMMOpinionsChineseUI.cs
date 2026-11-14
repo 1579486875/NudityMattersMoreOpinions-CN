@@ -72,7 +72,7 @@ using Verse;
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.4.20.0")]
+[assembly: AssemblyVersion("1.4.21.0")]
 [assembly: AssemblyFileVersion("1.4.19.0")]
 [assembly: AssemblyInformationalVersion("1.4.19")]
 
