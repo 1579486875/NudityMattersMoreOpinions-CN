@@ -41,9 +41,9 @@ using HarmonyLib;
 using Verse;
 
 // 版本号与 About\About.xml 的 <modVersion> 保持一致（模组纪律，游戏不校验它）。
-[assembly: System.Reflection.AssemblyVersion("1.4.7.0")]
-[assembly: System.Reflection.AssemblyFileVersion("1.4.7.0")]
-[assembly: System.Reflection.AssemblyInformationalVersion("1.4.7")]
+[assembly: System.Reflection.AssemblyVersion("1.4.8.0")]
+[assembly: System.Reflection.AssemblyFileVersion("1.4.8.0")]
+[assembly: System.Reflection.AssemblyInformationalVersion("1.4.8")]
 
 namespace GNH.NMM.Combined.ZH
 {
@@ -106,12 +106,11 @@ namespace GNH.NMM.Combined.ZH
                 { "Relationships", "关系" },
                 { "History", "历史" },
 
-                // ── 部位表（DrawOpinionDirection 的列头与行标题）──
-                // 2026-11-14 反编译发现：这四个列头 + Testicles 行标题都是硬编码
-                { "Body part", "部位" },
-                { "Opinion", "看法" },
-                { "Size", "尺寸" },
-                { "Seen / aware", "看过 / 知情" },
+                // ── 部位表行标题 ──
+                // 2026-11-14 反编译 DrawOpinionDirection 发现 "Testicles" 是硬编码。
+                // 4 个列头（Body part / Opinion / Size / Seen / aware）已在下方的
+                // 「对比表头」段存在，这里**不能重复** —— 集合初始化器重复键会在
+                // 运行时抛 ArgumentException，编译期查不出来。
                 { "Testicles", "睾丸" },
 
                 // ── 概览页 ──
