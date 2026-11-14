@@ -400,7 +400,7 @@ zip 内已经包含正确的目录结构，**不要**再额外套文件夹。
 | | |
 |---|---|
 | 适用游戏版本 | RimWorld **1.6 / 1.7** |
-| 汉化版本 | **1.4.19** |
+| 汉化版本 | **1.4.20** |
 | packageId | `shark510.nuditymattersmoreopinions.zhfix` |
 | 硬依赖 | `brrainz.harmony`（Harmony） |
 | 排序提示（可选装） | `dord.nuditymattersmore`（1.7 合并版 或 1.6 原版）<br>`shark510.nuditymattersmoreopinions`（1.6 opinions） |
