@@ -61,6 +61,7 @@ INCLUDE = [
     "About",            # 模组元数据，游戏靠它识别模组
     "Assemblies",       # 界面汉化补丁 DLL（少了它界面文字还是英文）
     "Languages",        # 游戏自己扫描的翻译文件
+    "OwnInjections",    # ★ 1.6 专用正文注入清单（1.7 走 Keyed，但 1.6 必须靠它）
     "LoadFolders.xml",  # 版本分流（v1.6 / v1.7 都加载根目录）—— 缺了它两版本共存无声明
     # ⚠️ 2026-11-13 订正：v1.7\ 必须打进去。
     #    v1.4.3 起把「只在 1.7 合并版里才有的定义」的译文搬到了 v1.7\ 子目录，
@@ -169,8 +170,11 @@ def main():
         "Assemblies/GNH_NMM_Enhanced_ZH.dll",   # 合并版增强界面（硬编码文字）的替换补丁
         "LoadFolders.xml",
         "Languages/ChineseSimplified/DefInjected/InteractionDef/Interactions.xml",
-        # 正文 Keyed 的代表性文件：它不在就说明整个 Keyed/Opinions 目录丢了
+        # 正文 Keyed 的代表性文件（1.7 用）：它不在就说明 Keyed/Opinions 丢了
         "v1.7/Languages/ChineseSimplified/Keyed/Opinions/PrivateParts.01.xml",
+        # 正文注入清单的代表性文件（1.6 用）：1.6 原版没有 Keyed 通道，只能靠它
+        "OwnInjections/ChineseSimplified/DefInjected/"
+        "NudityMattersMore_opinions.OpinionDef_SexPart/OpinionTexts_Part001.xml",
     ]
     missing = [m for m in must if not os.path.isfile(os.path.join(REPO, m.replace("/", os.sep)))]
     if missing:
@@ -209,11 +213,20 @@ def main():
     # v1.4.14 起正文改走官方 Keyed 通道（OpinionTextTranslator.Pick），
     # OwnInjections/ 已移除。这里断言 Keyed/Opinions 真的进包 ——
     # 少了它是「静默残废」（正文全退回英文），不会报错。
+    # 两套正文通道都要在包里：
+    #   · Keyed/Opinions  → 1.7 合并版（有 OpinionTextTranslator）
+    #   · OwnInjections   → 1.6 两个原版（没有那个类型，只能运行时注入）
     op = [n for n in names if "/Keyed/Opinions/" in n]
     if len(op) >= 27:
-        print("  正文 Keyed：[OK] 已打进包（%d 个文件）" % len(op))
+        print("  正文 Keyed：[OK] 已打进包（%d 个文件）— 1.7 用" % len(op))
     else:
-        print("  正文 Keyed：[NG] 只有 %d 个文件（应 27），12.6 万条正文会退回英文" % len(op))
+        print("  正文 Keyed：[NG] 只有 %d 个文件（应 27）— 1.7 正文会退回英文" % len(op))
+        bad += 1
+    own = [n for n in names if "/OwnInjections/" in n]
+    if len(own) >= 47:
+        print("  正文注入  ：[OK] 已打进包（%d 个文件）— 1.6 用" % len(own))
+    else:
+        print("  正文注入  ：[NG] 只有 %d 个文件（应 47）— 1.6 正文会退回英文" % len(own))
         bad += 1
 
     junk = [n for n in names if "__pycache__" in n or n.endswith(".pyc")]

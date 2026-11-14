@@ -135,27 +135,50 @@ namespace NMMOpinionsChineseUI
         }
 
         /// <summary>只跑一次的兜底标志（正常情况下 CLR 已经保证了一次）。</summary>
-        // ── 开关 ────────────────────────────────────────────────────
-        // 2026-11-14 迁移到 Keyed 后默认关闭。
+        // ── 版本分流：1.7 走 Keyed，1.6 走注入 ──────────────────────
         //
-        // 背景：原模组 v1.4 的 OpinionTextTranslator.Pick 已经支持
-        //     NMM.Opinion.{defName}.{fieldName}.{index}
-        // 这套原生 Keyed 查找（反编译确认，没翻译就自动退回英文）。
-        // 本包已把 126,239 条正文全部转成
-        //     v1.7/Languages/ChineseSimplified/Keyed/Opinions/*.xml
-        // 因此这里再跑一遍只是白做 12.5 万次反射 + XML 解析。
+        // 2026-11-14 迁移后发现的关键差异（实测两个 DLL）：
+        //   · 1.7 合并版 NudityMattersMore.dll  → 有 OpinionTextTranslator（grep 命中 1）
+        //   · 1.6 原版 NudityMattersMore_opinions.dll → 没有（grep 命中 0）
         //
-        // 想回退到旧方案（万一 Keyed 那条路出问题）：把下面改成 true 即可。
-        // 两种方案写的都是同一个 List<string> 字段，不会互相破坏。
-        private static readonly bool Enabled = false;   // 用 readonly 而非 const：
-        // const 会被编译期折叠，后面「if (ran) return;」会被判为不可达代码并报 CS0162 警告。
+        // 也就是说「NMM.Opinion.{defName}.{fieldName}.{index}」这条原生 Keyed 通道
+        // **只有 1.7 合并版才有**。1.6 的两个原模组完全不认这套 Key，
+        // 正文只能靠本类反射写回 List<string>。
+        //
+        // 所以不能一刀切停用 —— 那样 1.6 玩家的 12.5 万条正文会全部退回英文。
+        // 改成运行时探测：
+        //   · 探测到 OpinionTextTranslator → 让位给 Keyed（省掉 12.5 万次反射）
+        //   · 探测不到 → 老办法注入（1.6 环境）
+        //
+        // 想强制走注入（比如 Keyed 那条路出问题，临时排查用）：
+        // 把 ForceLegacy 改成 true。
+        private static readonly bool ForceLegacy = false;
+
+        /// <summary>当前加载的原模组是不是 1.7 合并版（有没有 Keyed 通道）。</summary>
+        private static bool HasKeyedPath()
+        {
+            try
+            {
+                return AccessTools.TypeByName(
+                    "NudityMattersMore_opinions.OpinionTextTranslator") != null;
+            }
+            catch
+            {
+                return false;       // 探测失败就当没有，走注入（更保险）
+            }
+        }
 
         private static bool ran;
 
         static OwnListInjector()
         {
-            if (!Enabled) return;       // 已迁移到 Keyed，见文件头说明
             if (ran) return;
+
+            // 1.7 合并版自带 OpinionTextTranslator，正文走原生 Keyed，
+            // 这里再注入就是白做 12.5 万次反射；1.6 原版没有那个类型，
+            // 必须靠本类写回，否则正文全是英文。
+            if (!ForceLegacy && HasKeyedPath())
+                return;
             ran = true;
 
             try
