@@ -135,14 +135,27 @@ namespace NMMOpinionsChineseUI
         }
 
         /// <summary>只跑一次的兜底标志（正常情况下 CLR 已经保证了一次）。</summary>
+        // ── 开关 ────────────────────────────────────────────────────
+        // 2026-11-14 迁移到 Keyed 后默认关闭。
+        //
+        // 背景：原模组 v1.4 的 OpinionTextTranslator.Pick 已经支持
+        //     NMM.Opinion.{defName}.{fieldName}.{index}
+        // 这套原生 Keyed 查找（反编译确认，没翻译就自动退回英文）。
+        // 本包已把 126,239 条正文全部转成
+        //     v1.7/Languages/ChineseSimplified/Keyed/Opinions/*.xml
+        // 因此这里再跑一遍只是白做 12.5 万次反射 + XML 解析。
+        //
+        // 想回退到旧方案（万一 Keyed 那条路出问题）：把下面改成 true 即可。
+        // 两种方案写的都是同一个 List<string> 字段，不会互相破坏。
+        private static readonly bool Enabled = false;   // 用 readonly 而非 const：
+        // const 会被编译期折叠，后面「if (ran) return;」会被判为不可达代码并报 CS0162 警告。
+
         private static bool ran;
 
         static OwnListInjector()
         {
-            if (ran)
-            {
-                return;
-            }
+            if (!Enabled) return;       // 已迁移到 Keyed，见文件头说明
+            if (ran) return;
             ran = true;
 
             try
