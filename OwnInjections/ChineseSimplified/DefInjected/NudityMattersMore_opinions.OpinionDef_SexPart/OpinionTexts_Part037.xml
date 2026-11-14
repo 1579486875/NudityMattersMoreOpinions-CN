@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 37/39 · 共 2980 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Vagina_Neutral_Tight_Elderly_Male_voyer_opinion.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道唤起久被遗忘的渴望，是一种诱人的紧缩。我年迈的阴茎微微抽动。</li>
     <li>{PAWN_nameShort}的外阴那处年轻紧致的开口相当了得。一阵隐隐的酸胀开始了。</li>
@@ -32,7 +22,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致真是奇迹，唤起旧日的欲望。我的思绪变得混沌。</li>
     <li>{PAWN_nameShort}的阴道的内部结构如此有限、从未被撑开，却彻底令人着迷。我的手不由自主地动了。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，值得更仔细的端详。一声低吟响起。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，引人遐思。我的思绪翻腾。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，引人遐思。我的思绪翻腾。</li>
     <li>{PAWN_nameShort}的阴蒂小巧、被保护得很好，仿佛在挑衅。一阵虚幻的勃起。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造是一份诱人的前景。我的身体在渴求。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态。我的呼吸加重了。</li>
@@ -45,7 +35,7 @@
   </Opinion_Vagina_Neutral_Tight_Elderly_Male_voyer_opinion.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_HorseVagina.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道，带着马类特征，出奇地紧凑而不寻常。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口明显像马，相当狭窄。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口明显像马，相当狭窄。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致，带着明显的马类特征，呈现出奇特的景象。</li>
     <li>{PAWN_nameShort}的紧实不屈的阴道受马基因的影响，构造显得格外独特。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质带着马类特征，引人遐想。</li>
@@ -64,7 +54,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致，一项马类特征，公然可见。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，还掺着马类基因，相当独特。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，带着马类特征，相当明显而古怪。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，公然展示，带着马类的异样。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，公然展示，带着马类的异样。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，却完全外露着，且明显带有马类特征。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造带着马基因的影响，完全暴露无遗。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态，坦然展露，带有马类特征。</li>
@@ -77,7 +67,7 @@
   </Opinion_Vagina_Neutral_Tight_HorseVagina.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_Insect_OvipositorF.opinionTexts>
     <li>{PAWN_nameShort}的紧致的产卵管，带着虫类特征，紧凑而异质得令人惊心。</li>
-    <li>{PAWN_nameShort}的 产卵管那紧凑的开口明显像虫类，看上去相当狭窄而覆着甲壳。</li>
+    <li>{PAWN_nameShort}的产卵管那紧凑的开口明显像虫类，看上去相当狭窄而覆着甲壳。</li>
     <li>{PAWN_nameShort}的内壁的紧致，带着甲壳般的质感，是一种奇异又令人不安的景象。</li>
     <li>{PAWN_nameShort}的受虫族基因影响的紧实不屈的产卵管，呈现出一种奇特而僵硬的构造。</li>
     <li>{PAWN_nameShort}的产卵管入口那精致、近乎闭合的特质，带着虫族特征，既引人遐想又令人不安。</li>
@@ -96,7 +86,7 @@
     <li>{PAWN_nameShort}的产卵管那作为虫类特征的异常紧致，公开可见且相当醒目，以一种令人不安的方式。</li>
     <li>{PAWN_nameShort}的产卵管的内部结构显得有限，还掺着虫族基因，相当独特，也僵硬得令人不安。</li>
     <li>{PAWN_nameShort}的产卵管口那醒目的娇小，带着虫族特征，相当明显而古怪，几乎亵渎神明。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 外露器官那不肯退让的紧实，公然展示着，带着虫族的异样。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的外露器官那不肯退让的紧实，公然展示着，带着虫族的异样。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，却完全外露着，且明显带有虫类特征。</li>
     <li>{PAWN_nameShort}的产卵管那极度狭窄的构造带着虫基因的影响，完全暴露无遗，令人不安。</li>
     <li>短暂一看{PAWN_nameShort}的产卵管开口，确认它诱人的紧凑状态，坦然展露，带有虫族痕迹。</li>
@@ -109,7 +99,7 @@
   </Opinion_Vagina_Neutral_Tight_Insect_OvipositorF.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_MaleOpinion.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道相当显眼，暗示着一份令人愉悦的紧贴感。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口相当诱人，是一处紧实而迎人的空间。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口相当诱人，是一处紧实而迎人的空间。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致相当醒目，几乎在招手相邀。</li>
     <li>{PAWN_nameShort}的紧实不屈的阴道自有一种魅力，暗示着一场令人愉快的挑战。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质诱惑至极。</li>
@@ -128,7 +118,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致极其诱人。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，这当然令人兴奋。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小相当诱人。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，看起来会插得很紧。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，看起来会插得很紧。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，让它显得更加娇嫩。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造，是个诱人的念头。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态。</li>
@@ -207,7 +197,7 @@
   </Opinion_Vagina_Neutral_Tight_MatureFemale_observed_by_Elder_male.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_MatureFemale_observed_by_Exhibitionist.opinionTexts>
     <li>那私处露了出来，紧凑的形状配上整齐闭合的阴唇，显得含蓄而不张扬。</li>
-    <li>展露的构造很是含蓄，外侧的褶皱轮廓分明却并不张扬，是一种毫不夸张的呈现。</li>
+    <li>展露的构造很是含蓄，外侧的褶皱轮廓分明却并不张扬，是一种毫不夸张的姿态。</li>
     <li>突然一瞥私密部位，呈现出一副相当普通的形状，阴唇紧密相贴，暗示着紧致。</li>
     <li>那形态相当收拢，外侧阴唇并未外翻蔓延，显示出一种天然的紧凑设计，任人观看。</li>
     <li>那微微的张开让人得以匆匆一瞥，露出一个狭窄而紧闭的孔洞，算是一点含蓄的展露。</li>
@@ -383,7 +373,7 @@
   </Opinion_Vagina_Neutral_Tight_MatureFemale_observed_by_voyer.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_PigNarrowVagina.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道，带着猪类特征，紧凑而狭窄得奇怪。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口明显像猪，看上去相当受限。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口明显像猪，看上去相当受限。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致，带着粗糙的质感，是一幅奇特、稍显粗野的景象。</li>
     <li>{PAWN_nameShort}的受猪类基因影响的紧实不屈的阴道，呈现出一种奇特而粗壮的构造。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质带着猪类特征，引人遐想却古怪。</li>
@@ -402,7 +392,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致，一项猪类特征，公然可见，以朴素的方式相当醒目。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，还掺着猪类基因，相当独特，也略显粗糙。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，带着猪类特征，相当明显而古怪，几乎粗鄙。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，公然展示，带着猪类的异样。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，公然展示，带着猪类的异样。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，却完全外露着，且明显带有猪类特征。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造带着猪基因的影响，完全暴露无遗，结实敦厚。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态，坦然展露，带有猪类痕迹。</li>
@@ -415,7 +405,7 @@
   </Opinion_Vagina_Neutral_Tight_PigNarrowVagina.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_SlimeVagina.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道，带着黏液特征，紧凑而不寻常得令人不安。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口明显像史莱姆，看上去相当狭窄而泛着水光。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口明显像史莱姆，看上去相当狭窄而泛着水光。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致，带着黏稠的质感，是一幅奇异而滑腻的景象。</li>
     <li>{PAWN_nameShort}的受史莱姆基因影响的紧实不屈的阴道，呈现出一种奇特而无定形的构造。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质带着黏液特征，引人遐想却奇异。</li>
@@ -434,7 +424,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致，一项黏液特征，公然可见，以凝胶状的方式相当醒目。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，还掺着史莱姆基因，相当独特，也流动得令人不安。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，带着史莱姆特征，相当明显而古怪，几乎流动不定。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，公然展示，带着黏滑的异样。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，公然展示，带着黏滑的异样。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，却完全外露着，且明显黏滑。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造带着史莱姆基因的影响，完全暴露无遗，其蠕动令人不安。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态，坦然展露，带有黏液痕迹。</li>
@@ -448,17 +438,17 @@
   <Opinion_Vagina_Neutral_Tight_trait_Kind.opinionTexts>
     <li>{PAWN_nameShort}的阴道显得相当小巧精致，一种天生不张扬的形态。</li>
     <li>{PAWN_nameShort}的外阴那朴素的开口显得相当不张扬。</li>
-    <li>人观察着 {PAWN_nameShort}的 阴唇那紧凑、几乎不起眼的模样。</li>
+    <li>有人观察着 {PAWN_nameShort}的阴唇那紧凑、几乎不起眼的模样。</li>
     <li>{PAWN_nameShort}的阴蒂小巧而含蓄地收着，是一副温柔的构造。</li>
     <li>{PAWN_nameShort}的阴道给人的整体印象是一种自然、青春的整洁。</li>
     <li>匆匆一瞥确认{PAWN_nameShort}的内褶的紧致，只是自然状态而已。</li>
     <li>{PAWN_nameShort}的娇嫩的阴道口相当紧致，却毫不生硬。</li>
     <li>{PAWN_nameShort}的外阴紧实，透着自然无瑕的模样。</li>
-    <li>人注意到 {PAWN_nameShort}的 阴道部位那紧凑而似乎未被触碰过的质感。</li>
+    <li>有人注意到 {PAWN_nameShort}的阴道部位那紧凑而似乎未被触碰过的质感。</li>
     <li>{PAWN_nameShort}的阴道的狭窄，只是它年轻形态的一个特征。</li>
     <li>{PAWN_nameShort}的阴唇紧紧收拢，呈现出一副小巧而不张扬的轮廓。</li>
     <li>匆匆一看，发现{PAWN_nameShort}的身上有个明显偏小的阴道口，只是个简单的观察。</li>
-    <li>{PAWN_nameShort}的 紧致外阴上的阴蒂纤细娇小，形态却相当完美。</li>
+    <li>{PAWN_nameShort}的紧致外阴上的阴蒂纤细娇小，形态却相当完美。</li>
     <li>{PAWN_nameShort}的阴道呈现出适度的深度，与其未显老态的外观相称。</li>
     <li>{PAWN_nameShort}的私处那份纯净的紧缩感相当清晰可见，仅此而已。</li>
     <li>{PAWN_nameShort}的阴道褶皱那份整洁说明它自然、未被触碰的状态。</li>
@@ -479,7 +469,7 @@
   </Opinion_Vagina_Neutral_Tight_trait_Kind.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_trait_NMM_Exhibitionist.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道相当外露，展示得明明白白。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口坦然地展示着，引来注目。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口坦然地展示着，引来注目。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致相当显眼，是一种大胆的宣言。</li>
     <li>{PAWN_nameShort}的紧实不屈的阴道清清楚楚地展示着，任所有人观看。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质被坦然地展示出来。</li>
@@ -498,7 +488,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致公然可见。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，而且全都展示在外。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，任何看的人都相当清楚。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，公然展示。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，公然展示。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，却完全外露着。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造完全暴露无遗。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态，坦然展露。</li>
@@ -511,7 +501,7 @@
   </Opinion_Vagina_Neutral_Tight_trait_NMM_Exhibitionist.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_trait_NMM_Exhibitionist_Female.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道公然展露，让我也勇敢到想暴露自己的。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口如此公开，令人心动。我自己的也跟着一阵战栗。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口如此公开，令人心动。我自己的也跟着一阵战栗。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致非常显眼，也相当撩人。我自己的阴唇有了反应。</li>
     <li>{PAWN_nameShort}的紧实不屈的阴道清清楚楚地展示着，也促使我把自己的也露出来。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质坦然展示着，令我兴奋。我的私处暖了起来。</li>
@@ -530,7 +520,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致公然可见，让我觉得自己更大胆。我的内阴唇肿胀。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，而且全都展示在外，勾起我自己的暴露癖。我思绪翻腾。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，任何看的人都相当清楚，让我想把一切都展露出来。我的阴蒂搏动着。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，公然展示，让我想张开自己。我的目光流连不去。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，公然展示，让我想张开自己。我的目光流连不去。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，却完全外露着，是一份诱人的邀约。我的身体因期待而阵阵发麻。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造完全暴露无遗，我感到一股强烈的冲动想要暴露自己。我的腰胯不自觉地轻轻摆动。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态，坦然展露，也鼓励了我自己的展示。我呼吸一滞。</li>
@@ -543,7 +533,7 @@
   </Opinion_Vagina_Neutral_Tight_trait_NMM_Exhibitionist_Female.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_trait_NMM_Exhibitionist_male.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道公然展露，让我也想亮出自己的。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口如此公开，令人性起。我的鸡巴动了。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口如此公开，令人性起。我的鸡巴动了。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致非常显眼，也相当撩人。我的阳具有了反应。</li>
     <li>{PAWN_nameShort}的紧实不屈的阴道清清楚楚地展示着，让我也觉得自己被暴露了。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质坦然展示着，令我兴奋。我的茎身一阵酥麻。</li>
@@ -562,7 +552,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致公然可见，让我觉得自己更大胆。我的勃起无可否认。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，而且全都展示在外，勾起我自己的暴露癖。我思绪翻腾。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，任何看的人都相当清楚，让我想把一切都展露出来。我的阴茎胀痛着渴望释放。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，公然展示，让我想脱下裤子。我的目光流连不去。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，公然展示，让我想脱下裤子。我的目光流连不去。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，却完全外露着，是一份诱人的邀约。我的器官因期待而抽动。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造完全暴露无遗，我感到一股强烈的冲动想要暴露自己。我已完全勃起。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态，坦然展露，也鼓励了我自己的展示。我呼吸一滞。</li>
@@ -575,7 +565,7 @@
   </Opinion_Vagina_Neutral_Tight_trait_NMM_Exhibitionist_male.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_trait_Nymphomaniac.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道诱人至极，激起一股强烈的冲动。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口让我渴望着亲密。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口让我渴望着亲密。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致极其撩人，有一种强烈的吸引力。</li>
     <li>{PAWN_nameShort}的紧实不屈的阴道承诺着绝妙的快感，一份渴求。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质让我疯狂。</li>
@@ -594,7 +584,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致让我充满压倒性的欲望。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，是个令人战栗的念头，让我失去控制。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，点燃一股原始而绝望的冲动。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，一阵持续的搏动。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，一阵持续的搏动。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，让它成了我渴望的绝佳目标。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造是一份诱人的前景，一种难以忍受的渴望。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态，让我无法自拔。</li>
@@ -607,7 +597,7 @@
   </Opinion_Vagina_Neutral_Tight_trait_Nymphomaniac.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_trait_Nymphomaniac_Female.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道诱人至极；我自己的深处因欲望而发痛。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口让我渴望着触碰；我的下身感到一股强烈的暖意。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口让我渴望着触碰；我的下身感到一股强烈的暖意。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致极其撩人；我自己的阴唇也变得异常敏感。</li>
     <li>{PAWN_nameShort}的紧实不屈的阴道承诺着绝妙的快感；我的身体因期待而嗡鸣。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质让我疯狂；我的阴蒂阵阵搏动。</li>
@@ -626,7 +616,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致让我充满压倒性的欲望；我几乎无法呼吸。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，是个令人战栗的念头；我脑中翻涌着色情的幻想。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，点燃一股原始而绝望的占有冲动。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实；我的小腹因渴望而紧绷。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实；我的小腹因渴望而紧绷。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，让它成了我炽热渴望的绝佳目标。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造是一份诱人的前景；我彻底被迷住了。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态；我正失去所有控制。</li>
@@ -639,7 +629,7 @@
   </Opinion_Vagina_Neutral_Tight_trait_Nymphomaniac_Female.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_trait_Nymphomaniac_male.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道诱人至极，我的阴茎已经硬了。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口让我渴望着她；我的下身因期待而搏动。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口让我渴望着她；我的下身因期待而搏动。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致极其撩人，我的胯下阵阵作痛。</li>
     <li>{PAWN_nameShort}的紧实不屈的阴道承诺着绝妙的快感；我的睾丸收紧。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质让我的阴茎疯狂。</li>
@@ -658,7 +648,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致让我充满压倒性的欲望；我的阴茎感觉快要爆炸。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，是个令人战栗的念头；我满脑子都是它。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，点燃一股原始而绝望的插入冲动。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实；我的勃起几乎胀痛。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实；我的勃起几乎胀痛。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，让它成了我迫切渴望的绝佳目标。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造是一份诱人的前景；我整个人的存在都集中在它身上。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态；我的视野变窄。</li>
@@ -671,7 +661,7 @@
   </Opinion_Vagina_Neutral_Tight_trait_Nymphomaniac_male.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_trait_Prude.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道实在有点太……显眼了。这种东西本来就不必给人看。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口相当\n             小巧，却仍太过显眼。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口相当\n 小巧，却仍太过显眼。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致相当明显，是一种多余的展示。</li>
     <li>{PAWN_nameShort}的紧实不屈的阴道明晃晃地露着，说实话，有点过了。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质如此暴露，实在不成体统。</li>
@@ -690,7 +680,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致公然可见，一场真正厚颜的展览。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，而且全都羞耻地展示在外。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，任何看的人都相当清楚，实在令人反感。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，公然展示，极不恰当。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，公然展示，极不恰当。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，却完全外露着，真是毫不知羞。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造完全暴露无遗，而且露得冒犯人。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态，坦然展露，而且极其伤风败俗。</li>
@@ -722,7 +712,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致出人意料地引人入胜。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，是个引人着迷的话题。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小相当令人难忘。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，是其形态的证明。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，是其形态的证明。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，更添几分神秘的魅力。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造吸引着目光。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态。</li>
@@ -735,7 +725,7 @@
   </Opinion_Vagina_Neutral_Tight_trait_Voyeur.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_trait_Voyeur_F.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道真是道风景；让我自己的也跟着酥麻起来。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口引人好奇。我感到一阵含蓄的暖意蔓延开来。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口引人好奇。我感到一阵含蓄的暖意蔓延开来。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致非常撩人。我自己的阴唇也变得敏感。</li>
     <li>{PAWN_nameShort}的紧实不屈的阴道有着难以否认的吸引力。我体内的褶皱感到一阵牵引。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质极为奇特。我感到一阵低沉的嗡鸣。</li>
@@ -754,7 +744,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致出人意料地引人入胜。一阵深处的搏动。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，是个极为引人关注的话题。我的湿润清晰可感。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小相当诱人。一份美妙的期待。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，如此完美。我的小腹深处胀痛。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，如此完美。我的小腹深处胀痛。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，让它显得更加娇嫩诱人。我呼吸一滞。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造是一份诱人的前景。我的双手攥紧。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态。我的欲望愈发锐利。</li>
@@ -767,7 +757,7 @@
   </Opinion_Vagina_Neutral_Tight_trait_Voyeur_F.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_trait_Voyeur_M.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道是令人着迷的景象；我的阴茎感到熟悉的躁动。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口暗示着一场美妙的挑战。我的勃起挺硬起来。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口暗示着一场美妙的挑战。我的勃起挺硬起来。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致让人性致勃发。我感到胯下一阵悸动。</li>
     <li>{PAWN_nameShort}的紧实不屈的阴道承诺着令人战栗的阻力。我的思绪飘向了进入。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质让我热血沸腾。我的阴茎一阵悸动。</li>
@@ -786,7 +776,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致让我充满欲望。我想象着那种感觉。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，是个令人战栗的念头。我的释放就要来了。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，点燃一股原始的冲动。我的阴茎抽动了一下。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，如此完美。我的搏动愈发强烈。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，如此完美。我的搏动愈发强烈。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，让它成了绝佳的目标。我几乎就要到了。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造是一份诱人的前景。我的呼吸一滞。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态。我彻底沉沦了。</li>
@@ -982,7 +972,7 @@
     <li>迷人的一瞥，可见的褶皱暗示着一段深刻交合的过往。成熟之中透着诱人。</li>
     <li>多么迷人的年长成熟景象，那精巧的阴蒂暗示着温柔的欢愉。她的形体精美绝伦。</li>
     <li>她私处那含蓄却深刻的美。它柔和的曲线以无可否认的智慧召唤着人。</li>
-    <li>极其丰满的呈现，阴唇饱满迎人。它的可见本身就是对温暖的宣告。</li>
+    <li>极其丰满的姿态，阴唇饱满迎人。它的可见本身就是对温暖的宣告。</li>
     <li>{PAWN_nameShort}的那老年形态的优雅十足，一种深沉而诱人的平静。它预示着深切的舒适。</li>
     <li>她那私密的门户，是亲历的阅历与长久不息的欲望的明证。诱人的幽深攫住了目光。</li>
     <li>引人入胜的一幕，轻轻分开，露出诱人的阴影。内侧皱褶那柔嫩的粉色令人着迷。</li>
@@ -992,7 +982,7 @@
   <Opinion_Vagina_Positive_Abyssal_ElderFemale_observed_by_Elder_female.opinionTexts>
     <li>{PAWN_nameShort}的年迈的身形展现出如此天然的优雅。真是保养得宜、令人赏心悦目的景象。</li>
     <li>她私处那优雅的轮廓，映照出一生端庄的女性气质。相当令人钦佩。</li>
-    <li>她那娇嫩的褶皱含蓄地露出一份透着安逸阅历的深邃。美丽而宁静的呈现。</li>
+    <li>她那娇嫩的褶皱含蓄地露出一份透着安逸阅历的深邃。美丽而宁静的姿态。</li>
     <li>真正吸引人的一幕，她把私处呈现得如此自信。那么自然，毫不造作。</li>
     <li>她阴唇那柔和的饱满，一种柔软诱人的美感。看起来无比舒适、备受呵护。</li>
     <li>如此精致的美，她私处若隐若现。散发着一种沉静而持久的诱惑。</li>
@@ -1057,7 +1047,7 @@
     <li>她那自信的暴露透着深沉的吸引力，让人更懂得欣赏公开展示的艺术。</li>
   </Opinion_Vagina_Positive_Abyssal_ElderFemale_observed_by_Exhibitionist.opinionTexts>
   <Opinion_Vagina_Positive_Abyssal_ElderFemale_observed_by_Nymphomaniac.opinionTexts>
-    <li>光是看着 {PAWN_nameShort}的 那丰茂诱人的深处，我的身体就阵阵作痛。我迫切渴望那份极致的快感，立刻就要。</li>
+    <li>光是看着 {PAWN_nameShort}的那丰茂诱人的深处，我的身体就阵阵作痛。我迫切渴望那份极致的快感，立刻就要。</li>
     <li>她那饱满柔软的阴唇激起一股无可否认的冲动。我现在就要那甜美的触感。</li>
     <li>她身体的每一道曲线都在尖叫着欲望，那阴蒂几乎在讨求触碰。我几乎因需求而发抖。</li>
     <li>如此精致、明晰的邀约。我的脉搏加快，被那想要沉溺其中的渴望彻底吞没。</li>
@@ -1079,7 +1069,7 @@
     <li>这幅极致的景象把我整个人都点燃了。我迫切地需要被她的热情包裹起来。</li>
   </Opinion_Vagina_Positive_Abyssal_ElderFemale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Vagina_Positive_Abyssal_ElderFemale_observed_by_Prude.opinionTexts>
-    <li>人确实不该盯着看，然而 {PAWN_nameShort}的 年长的身形有着一种无从否认而引人入胜的……构造。</li>
+    <li>人确实不该盯着看，然而 {PAWN_nameShort}的年长的身形有着一种无从否认而引人入胜的……构造。</li>
     <li>一次相当显眼的展示，不过必须承认，这构造对她这个年纪而言……匀称得出奇。</li>
     <li>虽然不合礼数，但那暴露的深度与形状确实……健硕。真是奇特的景象。</li>
     <li>尽管我有所保留，她阴唇的丰腴却出乎意料地……显眼。相当引人注目。</li>
@@ -1088,7 +1078,7 @@
     <li>我的矜持受到冒犯，但她内侧褶皱竟然如此外露……倒也称得上深邃。</li>
     <li>真是丢人！可那双柔软诱人的阴唇，确实带着某种……耐人寻味的饱满。</li>
     <li>真是有伤风化，但那宽容的入口似乎许诺着……出人意料的深邃慰藉。</li>
-    <li>人努力不去看，但 {PAWN_nameShort}的 年长的构造实在……叫人不得不注目。</li>
+    <li>人努力不去看，但 {PAWN_nameShort}的年长的构造实在……叫人不得不注目。</li>
     <li>如此不合礼数的景致，但那微妙的光泽暗示着……湿润。令人不安地迷人。</li>
     <li>我不赞同，可她私处那结实饱满的形状……竟有种说不出的引人。</li>
     <li>真是胆大，可那完美成形的阴蒂相当……突出。让人忍不住再看一眼。</li>
@@ -1147,7 +1137,7 @@
   <Opinion_Vagina_Positive_Abyssal_ElderFemale_observed_by_middle_aged_Female.opinionTexts>
     <li>{PAWN_nameShort}的年迈的身形展现出如此天然的优雅。真是保养得宜、令人赏心悦目的景象。</li>
     <li>她私处那优雅的轮廓，映照出一生端庄的女性气质。相当令人钦佩。</li>
-    <li>她那娇嫩的褶皱含蓄地露出一份透着安逸阅历的深邃。美丽而宁静的呈现。</li>
+    <li>她那娇嫩的褶皱含蓄地露出一份透着安逸阅历的深邃。美丽而宁静的姿态。</li>
     <li>真正吸引人的一幕，她把私处呈现得如此自信。那么自然，毫不造作。</li>
     <li>她阴唇那柔和的饱满，一种柔软诱人的美感。看起来无比舒适、备受呵护。</li>
     <li>如此精致的美，她私处若隐若现。散发着一种沉静而持久的诱惑。</li>
@@ -1180,7 +1170,7 @@
     <li>她温暖之中那层含蓄的光泽无可否认，是她持久魅力的鲜活见证。我渴望她。</li>
     <li>如此诱人的阴唇，通往深沉极乐的门户。她体现了一个男人所能期盼的一切。</li>
     <li>她那深邃，是等待被探索的美丽谜团。这位老年美人简直是一剂强效春药。</li>
-    <li>她那私密构造的呈现方式是纯粹的完美。我被她历经岁月的魅力所征服。</li>
+    <li>她那私密构造的姿态方式是纯粹的完美。我被她历经岁月的魅力所征服。</li>
     <li>一瞥真正的女性力量，她丰盈的身姿散发着暖意与邀请。我心跳加速。</li>
     <li>她阴唇的饱满，是一块承诺舒适与激情欢愉的柔软软垫。我渴望她。</li>
     <li>她自信地显露着自己，正是她无拘无束激情的见证。她就是成熟欲望的化身。</li>
@@ -1277,12 +1267,12 @@
   </Opinion_Vagina_Positive_Abyssal_Elderly_Male_opinion.opinionTexts>
   <Opinion_Vagina_Positive_Abyssal_Elderly_Male_voyer_opinion.opinionTexts>
     <li>看到{PAWN_nameShort}的那无边而甘美的深处，我这老阴茎动了！</li>
-    <li>哦，那宽广诱人的深渊！我自己的身体也对 {PAWN_nameShort}的 深邃的美产生了反应。</li>
+    <li>哦，那宽广诱人的深渊！我自己的身体也对 {PAWN_nameShort}的深邃的美产生了反应。</li>
     <li>如此不可思议的深邃开口！{PAWN_nameShort}的真是一大奇观，我感到一阵鲜明的搏动。</li>
     <li>{PAWN_nameShort}的私处那无尽的深渊让我浑身战栗，点燃了旧日的欲望。</li>
     <li>我的下体因渴望{PAWN_nameShort}的那壮丽而仿佛无边无际的内部而阵阵发痛。</li>
     <li>{PAWN_nameShort}的丰盈湿润的阴唇让我自己那根老家伙因期待而抽动。</li>
-    <li>{PAWN_nameShort}的 的深邃空洞令人沉醉；它唤醒了我内心潜藏的渴求。</li>
+    <li>{PAWN_nameShort}深邃空洞令人沉醉；它唤醒了我内心潜藏的渴求。</li>
     <li>真是一道巨大而诱人的门扉！{PAWN_nameShort}的在我核心点燃一股强劲的暖流。</li>
     <li>我这双老练的眼睛饱览着{PAWN_nameShort}的深邃幽暗的广大区域，感到一股原始的冲动涌起。</li>
     <li>{PAWN_nameShort}的之宽阔简直令人屏息；我那些老本能正在尖叫。</li>
@@ -1418,7 +1408,7 @@
     <li>迷人的一瞥，可见的褶皱暗示着一段激情缠绵的过往。真是诱人。</li>
     <li>多么迷人的成熟景象，那精巧的阴蒂暗示着敏感的欢愉。她的形体简直精美绝伦。</li>
     <li>她私处那含蓄却深刻的美。它柔和的曲线以无可否认的磁力召唤着人。</li>
-    <li>极其丰满的呈现，阴唇饱满迎人。它的可见本身就是对温暖的宣告。</li>
+    <li>极其丰满的姿态，阴唇饱满迎人。它的可见本身就是对温暖的宣告。</li>
     <li>{PAWN_nameShort}的那成熟形态的优雅十足，一种深沉而诱人的温暖。它预示着深切的满足。</li>
     <li>她那私密的门户，是亲历的阅历与欲望的明证。诱人的幽深攫住了目光。</li>
     <li>引人入胜的一幕，轻轻分开，露出诱人的阴影。内侧皱褶那柔嫩的粉色令人着迷。</li>
@@ -1492,7 +1482,7 @@
     <li>她那自信的暴露透着深沉的吸引力，让人更懂得欣赏公开展示的艺术。</li>
   </Opinion_Vagina_Positive_Abyssal_MatureFemale_observed_by_Exhibitionist.opinionTexts>
   <Opinion_Vagina_Positive_Abyssal_MatureFemale_observed_by_Nymphomaniac.opinionTexts>
-    <li>光是看着 {PAWN_nameShort}的 那丰茂诱人的深处，我的身体就阵阵作痛。我迫切渴望那份极致的快感，立刻就要。</li>
+    <li>光是看着 {PAWN_nameShort}的那丰茂诱人的深处，我的身体就阵阵作痛。我迫切渴望那份极致的快感，立刻就要。</li>
     <li>她那饱满柔软的阴唇激起一股无可否认的冲动。我现在就要那甜美的触感。</li>
     <li>她身体的每一道曲线都在尖叫着欲望，那阴蒂几乎在讨求触碰。我几乎因需求而发抖。</li>
     <li>如此精致、明晰的邀约。我的脉搏加快，被那想要沉溺其中的渴望彻底吞没。</li>
@@ -1514,7 +1504,7 @@
     <li>这幅极致的景象把我整个人都点燃了。我迫切地需要被她的热情包裹起来。</li>
   </Opinion_Vagina_Positive_Abyssal_MatureFemale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Vagina_Positive_Abyssal_MatureFemale_observed_by_Prude.opinionTexts>
-    <li>人确实不该盯着看，然而 {PAWN_nameShort}的 成熟的身形有着一种无从否认而引人入胜的……构造。</li>
+    <li>人确实不该盯着看，然而 {PAWN_nameShort}的成熟的身形有着一种无从否认而引人入胜的……构造。</li>
     <li>一次相当显眼的展示，不过必须承认，这构造……匀称得出奇。</li>
     <li>虽然不合礼数，但那暴露的深度与形状确实……健硕。真是奇特的景象。</li>
     <li>尽管我有所保留，她阴唇的丰腴却出乎意料地……显眼。相当引人注目。</li>
@@ -1523,7 +1513,7 @@
     <li>我的矜持受到冒犯，但她内侧褶皱竟然如此外露……倒也称得上深邃。</li>
     <li>真是丢人！可那双柔软诱人的阴唇，确实带着某种……耐人寻味的饱满。</li>
     <li>真是有伤风化，但那宽容的入口似乎许诺着……出人意料的深邃慰藉。</li>
-    <li>人努力不去看，但 {PAWN_nameShort}的 成熟的构造实在……叫人不得不注目。</li>
+    <li>人努力不去看，但 {PAWN_nameShort}的成熟的构造实在……叫人不得不注目。</li>
     <li>如此不合礼数的景致，但那微妙的光泽暗示着……湿润。令人不安地迷人。</li>
     <li>我不赞同，可她私处那结实饱满的形状……竟有种说不出的引人。</li>
     <li>真是胆大，可那完美成形的阴蒂相当……突出。让人忍不住再看一眼。</li>
@@ -1582,7 +1572,7 @@
   <Opinion_Vagina_Positive_Abyssal_MatureFemale_observed_by_middle_aged_Female.opinionTexts>
     <li>{PAWN_nameShort}的成熟的身形流露出如此自然的优雅。真是一幅保养得当、赏心悦目的景象。</li>
     <li>她私处那优雅的轮廓，映照出一生端庄的女性气质。相当令人钦佩。</li>
-    <li>她那娇嫩的褶皱含蓄地露出一份透着安逸阅历的深邃。美丽而宁静的呈现。</li>
+    <li>她那娇嫩的褶皱含蓄地露出一份透着安逸阅历的深邃。美丽而宁静的姿态。</li>
     <li>真正吸引人的一幕，她把私处呈现得如此自信。那么自然，毫不造作。</li>
     <li>她阴唇那柔和的饱满，一种柔软诱人的美感。看起来无比舒适、备受呵护。</li>
     <li>如此精致的美，她私处若隐若现。散发着一种沉静而持久的诱惑。</li>
@@ -1592,7 +1582,7 @@
     <li>她那内侧部位微微泛红，暗示着健康的活力。真是一种令人着迷的自然之美。</li>
     <li>她那令人自在的深邃，暗示着内心深处的安宁。那是一种成熟而不做作的美。</li>
     <li>她私处那含蓄的光彩。它诉说着一个女人懂得并热爱自己的身体。</li>
-    <li>如此恰到好处的轮廓，柔软诱人的外表。真是自然又美丽的呈现。</li>
+    <li>如此恰到好处的轮廓，柔软诱人的外表。真是自然又美丽的姿态。</li>
     <li>一幕难得一见的景象，她阴唇的均衡与天然的丰满。那份简约着实引人注目。</li>
     <li>她袒露的身形散发着安静的自信。这是对女性优雅含蓄而有力的宣示。</li>
     <li>她那优雅的身体未被时间留下瑕疵，展现出一种深沉而安然的美。多么鼓舞人心。</li>
@@ -1614,7 +1604,7 @@
     <li>她温暖之中那层含蓄的光泽无可否认，是她持久魅力的鲜活见证。我渴望她。</li>
     <li>如此诱人的阴唇，通往深沉极乐的门户。她体现了一个男人所能期盼的一切。</li>
     <li>她那深邃，是等待被探索的美丽谜团。这位成熟美人简直是一剂强效春药。</li>
-    <li>她那私密构造的呈现方式是纯粹的完美。我被她历经岁月的魅力所征服。</li>
+    <li>她那私密构造的姿态方式是纯粹的完美。我被她历经岁月的魅力所征服。</li>
     <li>一瞥真正的女性力量，她丰盈的身姿散发着暖意与邀请。我心跳加速。</li>
     <li>她阴唇的饱满，是一块承诺舒适与激情欢愉的柔软软垫。我渴望她。</li>
     <li>她自信地显露着自己，正是她无拘无束激情的见证。她就是成熟欲望的化身。</li>
@@ -1840,7 +1830,7 @@
   <Opinion_Vagina_Positive_Abyssal_trait_Nymphomaniac.opinionTexts>
     <li>{PAWN_nameShort}的无尽的深处是我满脑子所想；我要插进去！</li>
     <li>{PAWN_nameShort}的那诱人开口的尺寸让我整个身体因欲望而发疼。</li>
-    <li>哦，{PAWN_nameShort}的 私处那无尽的深渊，让我欲火难耐、无法满足！</li>
+    <li>哦，{PAWN_nameShort}的私处那无尽的深渊，让我欲火难耐、无法满足！</li>
     <li>我对{PAWN_nameShort}的那幽深黑暗的广阔之处涌起强烈到难以自制的冲动。</li>
     <li>{PAWN_nameShort}的那宽宏而闪亮的阴唇把我折磨得彻底心神不宁。</li>
     <li>一处深邃而好客的洞穴，{PAWN_nameShort}的以淫欲吞噬我的每一个念头。</li>
@@ -1872,7 +1862,7 @@
   <Opinion_Vagina_Positive_Abyssal_trait_Nymphomaniac_Female.opinionTexts>
     <li>{PAWN_nameShort}的无尽的深处是我满脑子所想；我自己的下身酸胀着想要插进去！</li>
     <li>{PAWN_nameShort}的那诱人开口的尺寸让我整个身体因欲望而酥麻，我的褶皱湿了。</li>
-    <li>哦，{PAWN_nameShort}的 私处那无尽的深渊，让我的阴蒂不受控制地搏动！</li>
+    <li>哦，{PAWN_nameShort}的私处那无尽的深渊，让我的阴蒂不受控制地搏动！</li>
     <li>我对{PAWN_nameShort}的那幽深黑暗的广阔之处涌起强烈到难以自制的冲动，我的湿润加剧了。</li>
     <li>{PAWN_nameShort}的那宽宏而闪亮的阴唇把我折磨得彻底心神不宁，我湿透了。</li>
     <li>一处深邃而好客的洞穴，{PAWN_nameShort}的以淫欲吞噬我的每一个念头，我的腰胯不住抽动。</li>
@@ -1904,7 +1894,7 @@
   <Opinion_Vagina_Positive_Abyssal_trait_Nymphomaniac_male.opinionTexts>
     <li>{PAWN_nameShort}的无尽的深处是我满脑子所想；我的鸡巴搏动着想要插进去！</li>
     <li>{PAWN_nameShort}的那诱人开口的尺寸让我整个身体因情欲而发疼，我的茎身硬挺。</li>
-    <li>哦，{PAWN_nameShort}的 私处那无尽的深渊，让我的睾丸都快炸开了！</li>
+    <li>哦，{PAWN_nameShort}的私处那无尽的深渊，让我的睾丸都快炸开了！</li>
     <li>我对{PAWN_nameShort}的那幽深黑暗的广阔之处涌起强烈到难以自制的冲动，我的勃起无法控制。</li>
     <li>{PAWN_nameShort}的那宽宏而闪亮的阴唇把我折磨得彻底心神不宁，我硬如磐石。</li>
     <li>一处深邃而好客的洞穴，{PAWN_nameShort}的以淫欲吞噬我的每一个念头，我的阴茎隐隐作痛。</li>
@@ -1968,7 +1958,7 @@
   <Opinion_Vagina_Positive_Abyssal_trait_Voyeur.opinionTexts>
     <li>我的眼睛黏在{PAWN_nameShort}的无边的迷人深处，真是好一片风景！</li>
     <li>{PAWN_nameShort}的那诱人开口的尺寸，是偷窥者梦想成真。</li>
-    <li>哦，{PAWN_nameShort}的 私处那无尽的深渊，我无法移开视线！</li>
+    <li>哦，{PAWN_nameShort}的私处那无尽的深渊，我无法移开视线！</li>
     <li>观察{PAWN_nameShort}的那幽深黑暗的广阔之处，一个令人着迷的秘密，我一阵兴奋。</li>
     <li>{PAWN_nameShort}的那宽宏而闪亮的阴唇真是壮观无比的景象。</li>
     <li>一处深邃而好客的洞穴，{PAWN_nameShort}的是我好奇双眼的一场盛宴。</li>
@@ -2000,7 +1990,7 @@
   <Opinion_Vagina_Positive_Abyssal_trait_Voyeur_F.opinionTexts>
     <li>看到{PAWN_nameShort}的无边而迷人的深处，我的下体一阵酥麻！</li>
     <li>{PAWN_nameShort}的那诱人开口的尺寸让我自己的褶皱因渴望而抽动。</li>
-    <li>哦，{PAWN_nameShort}的 私处那无尽的深渊，光是盯着就让我湿透了！</li>
+    <li>哦，{PAWN_nameShort}的私处那无尽的深渊，光是盯着就让我湿透了！</li>
     <li>观察{PAWN_nameShort}的那幽深黑暗的广阔之处，一个令人着迷的秘密，我一阵兴奋。我自己的湿润加剧了。</li>
     <li>{PAWN_nameShort}的那宽宏而闪亮的阴唇真是壮观无比的景象，我感觉自己好湿。</li>
     <li>一处深邃而好客的洞穴，{PAWN_nameShort}的在召我靠近，我的欲望汹涌而起。</li>
@@ -2032,7 +2022,7 @@
   <Opinion_Vagina_Positive_Abyssal_trait_Voyeur_M.opinionTexts>
     <li>光是看着{PAWN_nameShort}的那无边而迷人的深邃，我的茎身就抽动起来！</li>
     <li>{PAWN_nameShort}的那诱人开口的尺寸让我的鸡巴阵阵搏动，偷窥者的春梦成真。</li>
-    <li>哦，{PAWN_nameShort}的 私处那无尽的深渊，光是盯着就让我硬起来了！</li>
+    <li>哦，{PAWN_nameShort}的私处那无尽的深渊，光是盯着就让我硬起来了！</li>
     <li>观察{PAWN_nameShort}的那幽深黑暗的广阔之处，一个令人着迷的秘密，我一阵兴奋。我的睾丸因期待而胀痛。</li>
     <li>{PAWN_nameShort}的那宽宏而闪亮的阴唇真是壮观无比的景象，让我硬如磐石。</li>
     <li>一处深邃而好客的洞穴，{PAWN_nameShort}的在召我靠近，我的阴茎渴望着进入其中。</li>
@@ -2062,7 +2052,7 @@
     <li>我这变态的好奇心被{PAWN_nameShort}的那壮丽辽阔的迷人景象极大地满足，我阵阵作痛。</li>
   </Opinion_Vagina_Positive_Abyssal_trait_Voyeur_M.opinionTexts>
   <Opinion_Vagina_Positive_Accommodating.opinionTexts>
-    <li>看见 {PAWN_nameShort}的 那包容的阴道，立刻攫住了我的注意力。</li>
+    <li>看见 {PAWN_nameShort}的那包容的阴道，立刻攫住了我的注意力。</li>
     <li>{PAWN_nameShort}的随和宽容的阴道邀请更深的探索，许诺着愉悦的历险。</li>
     <li>我被{PAWN_nameShort}的那包容的阴道迷住了，感觉像是一个迎人的拥抱。</li>
     <li>我细看{PAWN_nameShort}的丰厚开阔的开口，那包容的阴道仿佛在低语着快感的甜言蜜语。</li>
@@ -2096,7 +2086,7 @@
     <li>{PAWN_nameShort}的那包容的阴道丰满而敞开的模样让我大为触动，暗示着一种真正放得开的性情。</li>
     <li>{PAWN_nameShort}的那包容阴道松弛宽敞的构造实在令人屏息，是自然之美的明证。</li>
     <li>{PAWN_nameShort}的随和宽容的阴道以其深邃好客的褶皱，暗示着对亲密联结的热切。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的阴道，我注意到它那异常柔软的大阴唇，框出一处诱人的深处。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的阴道，我注意到它那异常柔软的大阴唇，框出一处诱人的深处。</li>
     <li>{PAWN_nameShort}的阴道那易于接纳的尺寸，让我对它广阔的内部生出愉悦的好奇。</li>
     <li>{PAWN_nameShort}的随和宽容的阴道呈现出丰润诱人的轮廓，许诺着丰沛的感觉。</li>
     <li>我发觉自己被{PAWN_nameShort}的那舒适、慷慨迎人的阴道口吸引，真是一幅令人着迷的景象。</li>
@@ -2116,8 +2106,8 @@
     <li>{PAWN_nameShort}的猫科外阴那自然而柔软的曲线确实动人。</li>
     <li>{PAWN_nameShort}的柔软而包容的深处是精致的美景。</li>
     <li>{PAWN_nameShort}的猫阴道那异样却极其热情好客的形态吸引着我。</li>
-    <li>{PAWN_nameShort}的猫科入口那惊人的尺寸与放松的呈现方式，相当醒目。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的猫族阴道，我感到一种俏皮而光滑的吸引力。</li>
+    <li>{PAWN_nameShort}的猫科入口那惊人的尺寸与放松的姿态方式，相当醒目。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的猫族阴道，我感到一种俏皮而光滑的吸引力。</li>
     <li>{PAWN_nameShort}的猫族外阴那饱满柔软的阴唇，框出一个真正宽阔的洞口。</li>
     <li>{PAWN_nameShort}的随和宽容的阴蒂突出得美妙，暗示着含蓄撩人的感受。</li>
     <li>{PAWN_nameShort}的猫阴道那片宽阔而柔韧的区域，是其独特设计的明证。</li>
@@ -2148,8 +2138,8 @@
     <li>{PAWN_nameShort}的恶魔外阴那自然而威猛的曲线确实动人。</li>
     <li>{PAWN_nameShort}的骇人又宽松的深处，是一幅精妙绝伦的景象。</li>
     <li>{PAWN_nameShort}的恶魔阴道那异样却极其热情好客的形态吸引着我。</li>
-    <li>{PAWN_nameShort}的恶魔入口那惊人的尺寸与放松的呈现方式，相当醒目。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的恶魔阴道，我感到一种禁忌而阴暗的吸引力。</li>
+    <li>{PAWN_nameShort}的恶魔入口那惊人的尺寸与放松的姿态方式，相当醒目。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的恶魔阴道，我感到一种禁忌而阴暗的吸引力。</li>
     <li>{PAWN_nameShort}的恶魔外阴那饱满有力的阴唇，框出一个真正宽阔的洞口。</li>
     <li>{PAWN_nameShort}的随和宽容的阴蒂突出得美妙，暗示着邪恶的感受。</li>
     <li>{PAWN_nameShort}的恶魔阴道那片宽阔而柔韧的区域，是其独特设计的明证。</li>
@@ -2180,8 +2170,8 @@
     <li>{PAWN_nameShort}的犬类外阴那自然而柔软的曲线确实动人。</li>
     <li>{PAWN_nameShort}的忠诚而好客的深处，是令人叹为观止的精致景象。</li>
     <li>{PAWN_nameShort}的犬阴道那异样却极其热情好客的形态吸引着我。</li>
-    <li>{PAWN_nameShort}的犬类入口那惊人的尺寸与放松的呈现方式，相当醒目。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的犬族阴道，我感到一种甜美而忠诚的吸引力。</li>
+    <li>{PAWN_nameShort}的犬类入口那惊人的尺寸与放松的姿态方式，相当醒目。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的犬族阴道，我感到一种甜美而忠诚的吸引力。</li>
     <li>{PAWN_nameShort}的犬族外阴那饱满柔软的阴唇，框出一个真正宽阔的洞口。</li>
     <li>{PAWN_nameShort}的随和宽容的阴蒂突出得美妙，暗示着欢愉的感受。</li>
     <li>{PAWN_nameShort}的犬类阴道那片宽阔而柔韧的区域，是其独特设计的明证。</li>
@@ -2212,8 +2202,8 @@
     <li>{PAWN_nameShort}的龙类外阴那自然而威猛的曲线确实动人。</li>
     <li>{PAWN_nameShort}的骇人又宽松的深处，是一幅精妙绝伦的景象。</li>
     <li>{PAWN_nameShort}的龙阴道那异样却极其热情好客的形态吸引着我。</li>
-    <li>{PAWN_nameShort}的龙族入口那惊人的尺寸与放松的呈现方式，相当醒目。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的龙族阴道，我感到一种禁忌而原始的吸引力。</li>
+    <li>{PAWN_nameShort}的龙族入口那惊人的尺寸与放松的姿态方式，相当醒目。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的龙族阴道，我感到一种禁忌而原始的吸引力。</li>
     <li>{PAWN_nameShort}的龙族外阴那饱满有力的阴唇，框出一个真正宽阔的洞口。</li>
     <li>{PAWN_nameShort}的随和宽容的阴蒂突出得美妙，暗示着灼热的感受。</li>
     <li>{PAWN_nameShort}的龙阴道那片宽阔而柔韧的区域，是其独特设计的明证。</li>
@@ -2300,7 +2290,7 @@
     <li>看见它如此坦然敞开，那饱满的唇瓣与深邃的缝隙，令人兴奋。</li>
     <li>那片顺从的深处无拘无束地呈现在眼前，真是赏心悦目、超越时光的一幕。</li>
     <li>它乐于被看见，突出的阴蒂与丰美的阴唇，真是既令人兴奋又大胆。</li>
-    <li>{PAWN_nameShort}的 私密部位随意可见，让我满怀深切的自豪。</li>
+    <li>{PAWN_nameShort}的私密部位随意可见，让我满怀深切的自豪。</li>
     <li>{PAWN_pronoun}如此大方地展示那副善于容纳的身躯，真是令人激动，也真勇敢。</li>
     <li>如此诱人、毫无羞耻的展示，显然是要供所有人欣赏的，真是宏大。</li>
     <li>那饱满丰盈的门户这般敞开展示，给我带来了极大的满足与喜悦。</li>
@@ -2312,7 +2302,7 @@
     <li>它自豪的显眼，深邃而热情，让我的心因愉悦与倾慕而澎湃。</li>
     <li>她阴唇那宽宏的张开，是无所顾忌之美的真正明证，神圣而不受岁月侵蚀。</li>
     <li>一副真正值得展出的形态，构图完美，对围观者来说迷人至极，是一场盛大的展示。</li>
-    <li>它大胆的呈现暗示着丰美的深度，能公开而心怀敬意地观赏，真是件乐事。</li>
+    <li>它大胆的姿态暗示着丰美的深度，能公开而心怀敬意地观赏，真是件乐事。</li>
     <li>{PAWN_nameShort}的那份毫不遮掩的私密之美极其诱人，又充满力量。</li>
     <li>如此自信而迎人的展示，邀请每一个注视者来欣赏，真是壮丽。</li>
     <li>她那湿润丰盈的轮廓毫无保留地展露，是一场令人颤栗、扣人心弦的色欲奇观。</li>
@@ -2333,7 +2323,7 @@
     <li>它自然、无拘无束的美激起了强烈、不可否认、超越时间的肉欲饥渴。</li>
     <li>我想象着被{PAWN_possessive}柔软丰盈的内部包裹时那种美妙的感受。</li>
     <li>它那饱满而善于容纳的轮廓，预示着无尽、令人沉醉而深切的满足。</li>
-    <li>我的身体因渴望感受 {PAWN_nameShort}的 温暖与成熟的拥抱而脉动，急切难耐。</li>
+    <li>我的身体因渴望感受 {PAWN_nameShort}的温暖与成熟的拥抱而脉动，急切难耐。</li>
     <li>那深邃诱人的黑暗在召唤，要求着被填满、被彻底取悦，无止无休。</li>
     <li>我完全被它那诱人的形状迷住了，渴望把它的每一寸都彻底探索一遍。</li>
     <li>如此完美、包容的容器；我的性唤起变成了一种毫不松懈、急迫、吞噬一切的需求。</li>
@@ -2489,7 +2479,7 @@
     <li>{PAWN_nameShort}的阴道那诱人的、丰盈的深度，是令人叹为观止的美妙之物。</li>
     <li>真是一个绝妙的自然设计范例；{PAWN_nameShort}的包容的外阴。</li>
     <li>{PAWN_nameShort}的柔软迎人的褶皱排列完美，是一幅和谐的景致。</li>
-    <li>{PAWN_nameShort}的 私密部位那自信而开放的呈现相当震撼。</li>
+    <li>{PAWN_nameShort}的私密部位那自信而开放的姿态相当震撼。</li>
     <li>我欣赏{PAWN_nameShort}的那迎纳的阴道丰富饱满的轮廓，一幅熟透的景象。</li>
     <li>{PAWN_nameShort}的丰盈的阴蒂被宽厚的包皮包裹着，仿佛正好预备着迎接欢愉。</li>
     <li>{PAWN_nameShort}的大阴唇那光滑自然的弧线真是精致。</li>
@@ -2518,7 +2508,7 @@
     <li>{PAWN_nameShort}的构造那柔和的成熟感，既令人安心又深深迷人。</li>
     <li>{PAWN_nameShort}的随和宽容的深处暗示着深切的联结承受力，真是绝妙的一景。</li>
     <li>我发觉自己在品味{PAWN_nameShort}的那迎人的入口所透出的安宁与包容。</li>
-    <li>{PAWN_nameShort}的外阴柔软圆润的曲线相当惹人喜爱，是一份优雅的呈现。</li>
+    <li>{PAWN_nameShort}的外阴柔软圆润的曲线相当惹人喜爱，是一份优雅的姿态。</li>
     <li>{PAWN_nameShort}的丰盈的内阴唇呈现出优美自然的舒展，引人安静地凝望。</li>
     <li>{PAWN_nameShort}的那柔顺迎人的阴道上，宽绰的阴蒂包皮暗示着内里一片丰饶而敏感的地貌。</li>
     <li>我观察到{PAWN_nameShort}的外侧阴唇柔软诱人的质感，一份令人愉悦的天然暖意。</li>
@@ -2582,8 +2572,8 @@
     <li>{PAWN_nameShort}的马类外阴那自然而强健的曲线确实动人。</li>
     <li>{PAWN_nameShort}的强有力的包容深处，是精致绝伦的景象。</li>
     <li>{PAWN_nameShort}的马阴道那异样却极其热情好客的形态吸引着我。</li>
-    <li>{PAWN_nameShort}的马类入口那惊人的尺寸与放松的呈现方式，相当醒目。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的马族阴道，我感到一种原初的敬畏。</li>
+    <li>{PAWN_nameShort}的马类入口那惊人的尺寸与放松的姿态方式，相当醒目。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的马族阴道，我感到一种原初的敬畏。</li>
     <li>{PAWN_nameShort}的马族外阴那饱满强健的阴唇，框出一个真正宽阔的洞口。</li>
     <li>{PAWN_nameShort}的随和宽容的阴蒂突出得美妙，暗示着强烈的感受。</li>
     <li>{PAWN_nameShort}的马阴道那片宽阔而柔韧的区域，是其独特设计的明证。</li>
@@ -2601,7 +2591,7 @@
   </Opinion_Vagina_Positive_Accommodating_HorseVagina.opinionTexts>
   <Opinion_Vagina_Positive_Accommodating_Insect_OvipositorF.opinionTexts>
     <li>{PAWN_nameShort}的虫类产卵管意外地善于包容，是昆虫学设计的奇迹。</li>
-    <li>{PAWN_nameShort}的 那覆着甲壳、分节的产卵管既引人好奇又功能明确。</li>
+    <li>{PAWN_nameShort}的那覆着甲壳、分节的产卵管既引人好奇又功能明确。</li>
     <li>{PAWN_nameShort}的随和宽容的虫类深处，暗示着精准而独特的感觉。</li>
     <li>{PAWN_nameShort}的产卵管那机械式而宽阔大方的入口让我着迷，构造独一无二。</li>
     <li>{PAWN_nameShort}的那产卵管的容量何等令人着迷；真正能容纳万物的奇观。</li>
@@ -2614,8 +2604,8 @@
     <li>{PAWN_nameShort}的产卵管那自然而实用的曲线确实动人。</li>
     <li>{PAWN_nameShort}的奇异而宽松的深处，是一幅精妙绝伦的景象。</li>
     <li>{PAWN_nameShort}的产卵管那异样却极其热情好客的形态吸引着我。</li>
-    <li>{PAWN_nameShort}的虫族入口那惊人的尺寸与放松的呈现方式，相当醒目。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的产卵管，我感到一种异星而原始的吸引力。</li>
+    <li>{PAWN_nameShort}的虫族入口那惊人的尺寸与放松的姿态方式，相当醒目。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的产卵管，我感到一种异星而原始的吸引力。</li>
     <li>{PAWN_nameShort}的产卵器那饱满有力的构造，框出一个真正宽阔的洞口。</li>
     <li>{PAWN_nameShort}的随和宽容的阴蒂突出得美妙，暗示着独特的感受。</li>
     <li>{PAWN_nameShort}的产卵器那片宽阔而柔韧的区域，是其独特设计的明证。</li>
@@ -2653,7 +2643,7 @@
     <li>{PAWN_nameShort}的阴道深处那幽暗撩人的阴影让我着迷。</li>
     <li>那包容的温暖与紧握所许诺的一切，几乎让人无法承受。</li>
     <li>{PAWN_nameShort}的随和宽容的阴道简直完美，是一派终极满足的景象。</li>
-    <li>看到 {PAWN_nameShort}的 那美妙张开的外阴，我的身体反应强烈。</li>
+    <li>看到 {PAWN_nameShort}的那美妙张开的外阴，我的身体反应强烈。</li>
     <li>我几乎尝到了{PAWN_nameShort}的那包容入口传来的甜美。</li>
     <li>{PAWN_nameShort}的那随和的阴道框住那诱人阴蒂的样子是纯粹的艺术。</li>
     <li>我完全被{PAWN_nameShort}的内里褶皱那丰沛柔软的触感迷住。</li>
@@ -2734,7 +2724,7 @@
     <li>看见它如此坦然敞开，那饱满的唇瓣与深邃的缝隙，令人兴奋。</li>
     <li>那片顺从的深处无拘无束地呈现在眼前，真是赏心悦目的一幕。</li>
     <li>它乐于被看见，突出的阴蒂与丰美的阴唇，真是令人兴奋。</li>
-    <li>{PAWN_nameShort}的 私密部位随意可见，让我满怀自豪。</li>
+    <li>{PAWN_nameShort}的私密部位随意可见，让我满怀自豪。</li>
     <li>{PAWN_pronoun}如此大方地展示那副善于容纳的身躯，真是令人激动。</li>
     <li>如此诱人、毫无羞耻的展示，显然是要供所有人欣赏的。</li>
     <li>那饱满丰盈的门户这般敞开展示，给我带来了极大的满足。</li>
@@ -2746,7 +2736,7 @@
     <li>它自豪的显眼，深邃而热情，让我的心因愉悦而澎湃。</li>
     <li>她阴唇那宽宏的张开，是无所顾忌之美的真正明证，神圣非凡。</li>
     <li>一副真正值得展出的形态，构图完美，对围观者来说迷人至极。</li>
-    <li>它大胆的呈现暗示着丰美的深度，能公开地观赏，真是件乐事。</li>
+    <li>它大胆的姿态暗示着丰美的深度，能公开地观赏，真是件乐事。</li>
     <li>{PAWN_nameShort}的那份毫不遮掩的私密之美极其诱人。</li>
     <li>如此自信而迎人的展示，邀请每一个注视者来欣赏。</li>
     <li>她那湿润丰盈的轮廓毫无保留地展露，是一场令人颤栗的色欲奇观。</li>
@@ -2767,7 +2757,7 @@
     <li>它自然、无拘无束的美激起了强烈而不可否认的肉欲饥渴。</li>
     <li>我想象着被{PAWN_possessive}柔软丰盈的内部包裹时那种美妙的感受。</li>
     <li>它那饱满而善于容纳的轮廓，预示着无尽而令人沉醉的满足。</li>
-    <li>我的身体因渴望感受 {PAWN_nameShort}的 的温暖与拥抱而脉动，急切难耐。</li>
+    <li>我的身体因渴望感受 {PAWN_nameShort}温暖与拥抱而脉动，急切难耐。</li>
     <li>那深邃诱人的黑暗在召唤，要求着被填满、被彻底取悦。</li>
     <li>我完全被它那诱人的形状迷住了，渴望把它的每一寸都探索一遍。</li>
     <li>如此完美、包容的容器；我的性唤起变成了一种毫不松懈、急迫的需求。</li>
@@ -2920,8 +2910,8 @@
     <li>{PAWN_nameShort}的猪类外阴那自然而饱满的曲线确实动人。</li>
     <li>{PAWN_nameShort}的紧致而包容的深处是一道精致的景象。</li>
     <li>{PAWN_nameShort}的猪阴道那异样却极其热情好客的形态吸引着我。</li>
-    <li>{PAWN_nameShort}的猪类入口那惊人的尺寸与放松的呈现方式，相当醒目。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的猪族阴道，我感到一种独特而温暖的吸引力。</li>
+    <li>{PAWN_nameShort}的猪类入口那惊人的尺寸与放松的姿态方式，相当醒目。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的猪族阴道，我感到一种独特而温暖的吸引力。</li>
     <li>{PAWN_nameShort}的猪族外阴那饱满柔软的阴唇，框出一个真正宽阔的洞口。</li>
     <li>{PAWN_nameShort}的随和宽容的阴蒂突出得美妙，暗示着强烈的感受。</li>
     <li>{PAWN_nameShort}的猪阴道那片宽阔而柔韧的区域，是其独特设计的明证。</li>
@@ -2952,8 +2942,8 @@
     <li>{PAWN_nameShort}的史莱姆外阴那自然而流动的曲线确实动人。</li>
     <li>{PAWN_nameShort}的奇异而宽松的深处，是一幅精妙绝伦的景象。</li>
     <li>{PAWN_nameShort}的史莱姆阴道那异样却极其热情好客的形态吸引着我。</li>
-    <li>{PAWN_nameShort}的凝胶状入口那惊人的尺寸与放松的呈现方式，相当醒目。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的史莱姆阴道，我感到一种异星而流质的吸引力。</li>
+    <li>{PAWN_nameShort}的凝胶状入口那惊人的尺寸与放松的姿态方式，相当醒目。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的史莱姆阴道，我感到一种异星而流质的吸引力。</li>
     <li>{PAWN_nameShort}的史莱姆外阴那饱满柔软的阴唇，框出一个真正宽阔的洞口。</li>
     <li>{PAWN_nameShort}的随和宽容的阴蒂突出得美妙，暗示着令人扭动难耐的感受。</li>
     <li>{PAWN_nameShort}的史莱姆阴道那片宽阔而柔韧的区域，是其独特设计的明证。</li>
@@ -2987,7 +2977,7 @@
     <li>{PAWN_nameShort}的阴道那诱人的、丰盈的深度，是令人叹为观止、令人安心之物。</li>
     <li>真是一个绝妙的自然温柔设计范例；{PAWN_nameShort}的包容的外阴。</li>
     <li>{PAWN_nameShort}的柔软迎人的褶皱排列完美，是一幅和谐而宁静的景致。</li>
-    <li>{PAWN_nameShort}的 私密部位那自信而开放的呈现相当震撼，却又令人安适。</li>
+    <li>{PAWN_nameShort}的私密部位那自信而开放的姿态相当震撼，却又令人安适。</li>
     <li>我欣赏{PAWN_nameShort}的那迎纳的阴道丰富饱满的轮廓，一幅自然柔软的画面。</li>
     <li>{PAWN_nameShort}的丰盈的阴蒂被宽厚的包皮包裹着，仿佛正好预备着迎接温柔的欢愉。</li>
     <li>{PAWN_nameShort}的大阴唇那光滑自然的弧线真是精致，一份温柔的邀约。</li>
@@ -3005,7 +2995,7 @@
     <li>{PAWN_nameShort}的随和宽容的阴道是对自然之美大胆而鼓舞人心的展示。</li>
     <li>我爱看{PAWN_nameShort}的慷慨、毫无拘束的私处；那太让人解脱了。</li>
     <li>{PAWN_nameShort}的随和宽容的深处被如此坦然地呈现，实在令人着迷。</li>
-    <li>{PAWN_nameShort}的 饱满迎人的外阴那自信的展示，实在极具吸引力。</li>
+    <li>{PAWN_nameShort}的饱满迎人的外阴那自信的展示，实在极具吸引力。</li>
     <li>{PAWN_nameShort}的宽容的阴道所呈现的，是多么美妙而宽敞的一场展示！</li>
     <li>{PAWN_nameShort}的随和宽容的尺寸被如此坦然地展示出来，让我也想把自己露出来。</li>
     <li>如此诱人、坦露的景象；让我想要为裸体欢呼。</li>
@@ -3022,7 +3012,7 @@
     <li>我沉醉于{PAWN_nameShort}的深邃阴道毫无遮挡的景致，敞开得如此诱人。</li>
     <li>如此乐于展示那副善于容纳的温热与身形，实在极具感染力。</li>
     <li>{PAWN_nameShort}的随和宽容的阴道完完全全适合公开展赏。</li>
-    <li>{PAWN_nameShort}的那敞开得妙不可言的外阴，其雄伟的呈现令人屏息。</li>
+    <li>{PAWN_nameShort}的那敞开得妙不可言的外阴，其雄伟的姿态令人屏息。</li>
     <li>{PAWN_nameShort}的如此自信地展示这般包容之美，让我生出一种亲切的共鸣。</li>
     <li>{PAWN_nameShort}的那随和的阴道框住那诱人阴蒂的样子是纯粹的行为艺术。</li>
     <li>{PAWN_nameShort}的内壁褶皱那丰盈柔软的质感一览无余，把我彻底迷倒。</li>
@@ -3037,7 +3027,7 @@
     <li>{PAWN_nameShort}的随和宽容的阴道是大胆而鼓舞人心的展示，让我自己的外阴阵阵发麻。</li>
     <li>我爱看{PAWN_nameShort}的慷慨、毫无拘束的私处；那太让人解脱了，就像我自己的一样。</li>
     <li>{PAWN_nameShort}的随和宽容的深处被如此坦然地呈现，实在令人着迷，我的私处发暖。</li>
-    <li>{PAWN_nameShort}的 饱满迎人的外阴那自信的展示，让我也想袒露自己。</li>
+    <li>{PAWN_nameShort}的饱满迎人的外阴那自信的展示，让我也想袒露自己。</li>
     <li>{PAWN_nameShort}的宽容的阴道所呈现的，是多么美妙而宽敞的一场展示；我自己的汁液也流了出来。</li>
     <li>{PAWN_nameShort}的随和宽容的尺寸被如此坦然地展示出来，让我自己的阴唇因惊叹而张开。</li>
     <li>如此诱人、坦露的景象；让我阴蒂因共享的兴奋而搏动。</li>
@@ -3054,7 +3044,7 @@
     <li>我沉醉于{PAWN_nameShort}的深邃阴道毫无遮挡的景致，敞开得如此诱人；我自己的湿润也增多了。</li>
     <li>如此乐于展示那副善于容纳的温热与身形，实在极具感染力，让我自己的私处也起了反应。</li>
     <li>{PAWN_nameShort}的随和宽容的阴道完完全全适合公开展赏，正如我希望自己的那样。</li>
-    <li>{PAWN_nameShort}的那敞开得妙不可言的外阴，其雄伟的呈现令人屏息，我自己体内深处也深深骚动。</li>
+    <li>{PAWN_nameShort}的那敞开得妙不可言的外阴，其雄伟的姿态令人屏息，我自己体内深处也深深骚动。</li>
     <li>{PAWN_nameShort}的如此自信地展示这般包容之美，让我生出一种亲切的共鸣；我自己的身体阵阵发麻。</li>
     <li>{PAWN_nameShort}的那随和的阴道框住那诱人阴蒂的样子是纯粹的行为艺术，让我渴望更多。</li>
     <li>{PAWN_nameShort}的内壁褶皱那丰盈柔软的质感一览无余，把我彻底迷倒，让我自己的欲望绽放。</li>
@@ -3069,7 +3059,7 @@
     <li>{PAWN_nameShort}的随和宽容的阴道让我自己的鸡巴骄傲地挺立回应。</li>
     <li>{PAWN_nameShort}的那丰盈而敞开的私密之美，助长了我的暴露癖欲望。</li>
     <li>{PAWN_nameShort}的随和宽容的深处被如此坦然地呈现，让我的肉棒因兴奋而搏动。</li>
-    <li>{PAWN_nameShort}的 饱满迎人的外阴那自信的展示，让我想要袒露自己。</li>
+    <li>{PAWN_nameShort}的饱满迎人的外阴那自信的展示，让我想要袒露自己。</li>
     <li>{PAWN_nameShort}的宽容的阴道所呈现的，是多么美妙而宽敞的一场展示；我硬得像石头。</li>
     <li>{PAWN_nameShort}的随和宽容的尺寸被如此坦然地展示出来，让我的鸡巴骄傲地胀起。</li>
     <li>如此诱人、坦露的景象；让我想要向{PAWN_objective}展示自己被唤起的模样。</li>
@@ -3086,7 +3076,7 @@
     <li>我沉醉于{PAWN_nameShort}的深邃阴道毫无遮挡的景致，敞开得如此诱人；我的阴茎已蓄势待发。</li>
     <li>如此乐于展示那副善于容纳的温热与身形，实在极具感染力，让我勃起得毫不掩饰。</li>
     <li>{PAWN_nameShort}的随和宽容的阴道完完全全适合公开展赏，正如我自己那露在外面的男根。</li>
-    <li>{PAWN_nameShort}的那敞开得妙不可言的外阴，其雄伟的呈现令人屏息，我的鸡巴也向它致敬。</li>
+    <li>{PAWN_nameShort}的那敞开得妙不可言的外阴，其雄伟的姿态令人屏息，我的鸡巴也向它致敬。</li>
     <li>{PAWN_nameShort}的如此自信地展示这般包容之美，让我生出一种亲切的共鸣；我自己的身体也有了反应。</li>
     <li>{PAWN_nameShort}的那随和的阴道框住那诱人阴蒂的样子是纯粹的行为艺术，让我欲火升腾。</li>
     <li>{PAWN_nameShort}的内壁褶皱那丰盈柔软的质感一览无余，把我彻底迷倒，让我硬了起来。</li>
@@ -3102,7 +3092,7 @@
     <li>{PAWN_nameShort}的那丰盈而敞露的私处，点燃了一股强烈灼烧的需求。</li>
     <li>{PAWN_nameShort}的随和宽容的深处唤醒了一头凶猛的饥饿；我被欲望吞没。</li>
     <li>看到{PAWN_nameShort}的那丰腴好客的外阴，我涌起无法满足的冲动。</li>
-    <li>我的身体渴望着 {PAWN_nameShort}的 那宽阔包容的阴道的拥抱。</li>
+    <li>我的身体渴望着 {PAWN_nameShort}的那宽阔包容的阴道的拥抱。</li>
     <li>{PAWN_nameShort}的随和宽容的尺寸许诺着无尽的满足，我的欲望随之高涨。</li>
     <li>如此诱人的开口！我几乎因未得满足的情欲而颤抖。</li>
     <li>{PAWN_nameShort}的那柔软柔顺的小阴唇，让我因渴求而彻底狂乱。</li>
@@ -3119,7 +3109,7 @@
     <li>{PAWN_nameShort}的阴道深处那幽暗撩人的阴影让我着迷；我的身体在嘶喊。</li>
     <li>那包容的温暖与紧握所许诺的一切，几乎让人无法承受；我迫切想要释放。</li>
     <li>{PAWN_nameShort}的随和宽容的阴道简直完美，是我那不知足的欲望的终极对象。</li>
-    <li>看到 {PAWN_nameShort}的 那美妙张开的外阴，我的身体剧烈反应；我需要满足。</li>
+    <li>看到 {PAWN_nameShort}的那美妙张开的外阴，我的身体剧烈反应；我需要满足。</li>
     <li>我几乎能感觉到自己正进入{PAWN_nameShort}的那包容的入口；渴望无比强烈。</li>
     <li>{PAWN_nameShort}的那随和的阴道框住那诱人阴蒂的样子是种精致的折磨。</li>
     <li>我完全被{PAWN_nameShort}的内里褶皱那丰沛柔软的触感吞没；我的欲火没有边界。</li>
@@ -3134,7 +3124,7 @@
     <li>{PAWN_nameShort}的那丰盈而敞露的私处，在我自己的外阴处点燃了一股强烈灼烧的需求。</li>
     <li>{PAWN_nameShort}的随和宽容的深处唤醒了一头凶猛的饥饿；我被欲望吞没，我的身体也是。</li>
     <li>看到{PAWN_nameShort}的那丰腴好客的外阴，我涌起无法满足的冲动，我自己的湿润加剧了。</li>
-    <li>我的身体渴望着 {PAWN_nameShort}的 那宽阔包容的阴道的拥抱；我几乎在滴水。</li>
+    <li>我的身体渴望着 {PAWN_nameShort}的那宽阔包容的阴道的拥抱；我几乎在滴水。</li>
     <li>{PAWN_nameShort}的随和宽容的尺寸许诺着无尽的满足，我的欲望随之高涨，阴蒂也胀起来。</li>
     <li>如此诱人的开口！我几乎因未得满足的情欲而颤抖，我自己的深处也阵阵作痛。</li>
     <li>{PAWN_nameShort}的那柔软柔顺的小阴唇，让我自己的阴蒂因渴求而搏动。</li>
@@ -3151,7 +3141,7 @@
     <li>{PAWN_nameShort}的阴道深处那幽暗撩人的阴影让我着迷；我的身体在嘶喊，为我们两人嘶喊。</li>
     <li>那包容的温暖与紧握所许诺的一切，几乎让人无法承受；我迫切想要释放，我自己的湿润无可掩饰。</li>
     <li>{PAWN_nameShort}的随和宽容的阴道简直完美，是我那不知足、彼此呼应的欲望的终极对象。</li>
-    <li>看到 {PAWN_nameShort}的 那美妙张开的外阴，我的身体剧烈反应；我需要满足，为我们两人。</li>
+    <li>看到 {PAWN_nameShort}的那美妙张开的外阴，我的身体剧烈反应；我需要满足，为我们两人。</li>
     <li>我几乎能感觉到自己正进入{PAWN_nameShort}的那包容的入口；渴望无比强烈，我自己的髋部也酸痛起来。</li>
     <li>{PAWN_nameShort}的那随和的阴道框住那诱人阴蒂的样子是种精致的折磨，让我周身战栗。</li>
     <li>我完全被{PAWN_nameShort}的内里褶皱那丰沛柔软的触感吞没；我的欲火没有边界，还被她的欲火放大。</li>
@@ -3166,7 +3156,7 @@
     <li>{PAWN_nameShort}的那丰盈而敞露的私处，在我胯下点燃了一股强烈而酸痛的需求。</li>
     <li>{PAWN_nameShort}的随和宽容的深处唤醒了一头凶猛的饥饿；我的鸡巴正索要进入。</li>
     <li>看到{PAWN_nameShort}的那丰腴好客的外阴，我涌起无法满足的冲动，我的勃起更加胀大。</li>
-    <li>我的身体渴望着 {PAWN_nameShort}的 那宽阔包容的阴道的拥抱；我硬得发疼。</li>
+    <li>我的身体渴望着 {PAWN_nameShort}的那宽阔包容的阴道的拥抱；我硬得发疼。</li>
     <li>{PAWN_nameShort}的随和宽容的尺寸许诺着无尽的满足，我的肉棒随着欲望搏动。</li>
     <li>如此诱人的开口！我的阴茎因未得满足的情欲几乎在裤子里搏动。</li>
     <li>{PAWN_nameShort}的那柔软柔顺的小阴唇，让我的蛋蛋因渴求而酸胀。</li>
@@ -3183,7 +3173,7 @@
     <li>{PAWN_nameShort}的阴道深处那幽暗撩人的阴影让我着迷；我的身体在强烈地嘶喊。</li>
     <li>那包容的温暖与紧握所许诺的一切，几乎让人无法承受；我迫切想要立刻释放在里面。</li>
     <li>{PAWN_nameShort}的随和宽容的阴道简直完美，是我那不知足、索求无度的鸡巴的终极对象。</li>
-    <li>看到 {PAWN_nameShort}的 那美妙张开的外阴，我的身体剧烈反应；我需要释放这份压力。</li>
+    <li>看到 {PAWN_nameShort}的那美妙张开的外阴，我的身体剧烈反应；我需要释放这份压力。</li>
     <li>我几乎能感觉到自己正进入{PAWN_nameShort}的那包容的入口；想要把自己阴茎埋进去的渴望无比强烈。</li>
     <li>{PAWN_nameShort}的那随和的阴道框住那诱人阴蒂的样子是种精致的折磨，让我硬得发痛。</li>
     <li>我完全被{PAWN_nameShort}的内里褶皱那丰沛柔软的触感吞没；我对它的欲望没有边界。</li>
@@ -3199,11 +3189,11 @@
     <li>{PAWN_nameShort}的随和宽容的深处颇为……显眼。要我说，有点过了。</li>
     <li>{PAWN_nameShort}的外阴那惊人的尺寸近乎放肆。倒是相当能容。</li>
     <li>我想{PAWN_nameShort}的那宽裕的阴道是为实用而设计的，仅此而已。</li>
-    <li>一眼就能看出 {PAWN_nameShort}的 私处的宽绰。它……就在那儿。</li>
+    <li>一眼就能看出 {PAWN_nameShort}的私处的宽绰。它……就在那儿。</li>
     <li>{PAWN_nameShort}的随和宽容的入口宽敞得无可否认。倒不是我在看。</li>
     <li>这是相当……丰盈的展示。{PAWN_nameShort}的包容的阴道相当显眼。</li>
     <li>{PAWN_nameShort}的身体构造那种易于接纳的特质，我想，算是实用吧。</li>
-    <li>人无法否认 {PAWN_nameShort}的 私处轮廓的宽广。相当扎眼。</li>
+    <li>人无法否认 {PAWN_nameShort}的私处轮廓的宽广。相当扎眼。</li>
     <li>{PAWN_nameShort}的随和宽容的阴蒂确实很显眼。说不上含蓄，你不觉得吗？</li>
     <li>{PAWN_nameShort}的那容纳万物的通道深度相当明显。明显过头了。</li>
     <li>我注意到{PAWN_nameShort}的相当柔软顺服的阴唇。它们确实很能容纳。</li>
@@ -3219,7 +3209,7 @@
     <li>一次相当显眼的尺寸展示。{PAWN_nameShort}的那能容纳一切的阴道，本身就是一种宣言。</li>
     <li>整体印象是极度的……宽敞。{PAWN_nameShort}的真是来者不拒。</li>
     <li>很难不去注意{PAWN_nameShort}的私密部位到底有多可观。</li>
-    <li>人或许会说它“毫无节制”。{PAWN_nameShort}的 那包容的阴道。</li>
+    <li>人或许会说它“毫无节制”。{PAWN_nameShort}的那包容的阴道。</li>
     <li>那份松弛而敞开的样子……确实了不得。{PAWN_nameShort}的这般包容。</li>
     <li>非常柔软而突出的构造。{PAWN_nameShort}包容的外阴。</li>
     <li>我见过更……不辽阔的东西。{PAWN_nameShort}的那迎合的阴道非常开阔。</li>

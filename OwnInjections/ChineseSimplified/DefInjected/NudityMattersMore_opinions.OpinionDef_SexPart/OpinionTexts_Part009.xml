@@ -1,22 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 9/39 · 共 3000 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Anus_Positive_Micro_MatureFemale_observed_by_Prude.opinionTexts>
     <li>尽管我讲求体面，那匆匆一瞥{PAWN_nameShort}的紧实的成熟臀肉与出人意料含蓄的肛门，不得不承认，形态相当好。</li>
     <li>{PAWN_nameShort}的臀部突然出现，那小巧而不甚明显的肛门，倒没有想象中那么令人反感；其实还挺整洁的。</li>
     <li>{PAWN_nameShort}的臀部并没有完全冒犯到我的矜持；那极小且隐藏得极好的肛门让它尚且可以忍受。</li>
     <li>观察着{PAWN_nameShort}的后部，那小巧的肛门开口，若非要承认的话，值得称许地毫不挑逗。精致得令人意外。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，恕我直言，倒也相当不刺眼。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，恕我直言，倒也相当不刺眼。</li>
     <li>虽然我更偏好端庄得体，但{PAWN_nameShort}的形美的臀部确实衬托出一处非常含蓄、几乎难以察觉的肛门开口，那倒……还好。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。让它比我预想的要不那么粗俗。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。其……洁净之处，倒是值得欣赏。</li>
@@ -38,7 +28,7 @@
     <li>那一瞥{PAWN_nameShort}的线条优美的臀部，露出一个低调得几乎察觉不到的肛门开口，整洁得令人印象深刻。</li>
     <li>{PAWN_nameShort}的比例匀称的臀部，带着一处异常小巧、整洁内收的肛门，突然映入眼帘，显示出极大的用心。</li>
     <li>观察着{PAWN_nameShort}的优雅的后部，那小巧的肛门开口精致得令人意外。非常干净。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实保养得极好。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实保养得极好。</li>
     <li>{PAWN_nameShort}的形态优美的臀部，衬托着那极其含蓄、几乎察觉不到的肛门开口，构成一幅相当令人赞叹的景致。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。就{PAWN_possessive}年纪而言相当令人惊叹。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。这是优雅老去的好例子。</li>
@@ -60,7 +50,7 @@
     <li>那一瞥{PAWN_nameShort}的线条优美的臀部，露出一个低调得几乎察觉不到的肛门开口，意外地诱人。</li>
     <li>{PAWN_nameShort}的比例匀称的臀部，带着一处异常小巧、整洁内收的肛门，突然映入眼帘，相当令人性奋。</li>
     <li>观察着{PAWN_nameShort}的优雅的后部，那小巧的肛门开口是个迷人得耐人寻味的细节。真让我多看了两眼。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实诱人。非常不错。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实诱人。非常不错。</li>
     <li>{PAWN_nameShort}的形态优美的臀部，衬托着那极其含蓄、几乎察觉不到的肛门开口，构成一幅出人意料性感的景致。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。我非常喜欢。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。确实抓住了我的目光。</li>
@@ -82,7 +72,7 @@
     <li>那一瞥{PAWN_nameShort}的线条优美的臀部，露出一个低调得几乎察觉不到的肛门开口，整洁得令人印象深刻。</li>
     <li>{PAWN_nameShort}的比例匀称的臀部，带着一处异常小巧、整洁内收的肛门，突然映入眼帘，显示出绝妙的维护。</li>
     <li>观察着{PAWN_nameShort}的优雅的后部，那小巧的肛门开口精致得令人意外。保养得非常好。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实令人赞叹。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实令人赞叹。</li>
     <li>{PAWN_nameShort}的形态优美的臀部，衬托着那极其含蓄、几乎察觉不到的肛门开口，构成一幅相当体面的景致。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。就{PAWN_possessive}年纪而言相当令人惊叹。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。这是从容老去的好例子。</li>
@@ -104,7 +94,7 @@
     <li>那一瞥{PAWN_nameShort}的线条优美的臀部，露出一个低调得几乎察觉不到的肛门开口，出奇地诱人。</li>
     <li>{PAWN_nameShort}的比例匀称的臀部，带着一处异常小巧、整洁内收的肛门，突然映入眼帘，确实迷人。</li>
     <li>观察着{PAWN_nameShort}的优雅的后部，那小巧的肛门开口是个迷人得耐人寻味的细节。相当令人渴望。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实诱人。非常出色。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实诱人。非常出色。</li>
     <li>{PAWN_nameShort}的形态优美的臀部，衬托着那极其含蓄、几乎察觉不到的肛门开口，构成一幅真正勾人的景致。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。我觉得非常动人。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。相当刺激的一幕。</li>
@@ -125,7 +115,7 @@
     <li>瞥见{PAWN_nameShort}的紧实的成熟臀肉，那极小、几乎藏起来的肛门让偷窥者大饱眼福。真是精妙绝伦的细节！</li>
     <li>那一次对{PAWN_nameShort}的线条优美臀部的短暂观察，露出一个低调得几乎察觉不到的肛门开口，是极为满足的视觉享受。</li>
     <li>意外看见{PAWN_nameShort}的那比例匀称的臀部，上面嵌着一个小得出奇、收得齐整的肛门，竟无比迷人。</li>
-    <li>偷偷观察着 {PAWN_nameShort}的 优雅的臀部，那小巧难觅的肛门孔是一次令人激动的发现。多么精致而诱人的景象。</li>
+    <li>偷偷观察着 {PAWN_nameShort}的优雅的臀部，那小巧难觅的肛门孔是一次令人激动的发现。多么精致而诱人的景象。</li>
     <li>留意到{PAWN_nameShort}的那隐约结实的臀部，以及那极小、几乎消失的肛门特征，这种偷窥的快感令我极为满足。</li>
     <li>偷瞄一眼{PAWN_nameShort}的成熟而形状姣好的臀部，露出一个小得恰到好处、几乎看不见的肛门。一段愉快的私密时刻。</li>
     <li>悄悄欣赏{PAWN_nameShort}的臀部优美的曲线，衬托出那个娇嫩、极小的肛门，真是无比愉悦。</li>
@@ -133,14 +123,14 @@
     <li>我的目光停留在{PAWN_nameShort}的那曲线玲珑的身姿上，欣赏着{PAWN_possessive}那紧致小巧的肛门几乎被完全遮住的姿态。真是难得的美景。</li>
     <li>{PAWN_nameShort}的臀部忽然出现，露出一个出乎意料地小巧含蓄的后庭，真是令人激动的一幕。</li>
     <li>偷来的匆匆一瞥，确认了{PAWN_nameShort}的臀部那精致的形状，还有那极小、羞涩得惹人怜爱的肛门。</li>
-    <li>我暗中观察 {PAWN_nameShort}的 整洁的臀部，那小巧而掩藏得当的肛门为其增色，让我心中升起一份安静的欣赏。</li>
+    <li>我暗中观察 {PAWN_nameShort}的整洁的臀部，那小巧而掩藏得当的肛门为其增色，让我心中升起一份安静的欣赏。</li>
     <li>我忍不住赞叹{PAWN_nameShort}的那紧实后臀的含蓄魅力，尤其是那处小巧得几乎看不见的肛部。</li>
     <li>那短暂一瞥{PAWN_nameShort}的雕琢精细的臀部，配上那完美纤巧而紧致的肛门褶皱，实在是一份精致的享受。</li>
     <li>{PAWN_nameShort}的臀部那条条诱人的线条，配上那小巧含蓄得不可思议的肛门，是偷窥者美梦成真的一幕。</li>
     <li>一个取景完美的画面：{PAWN_nameShort}的成熟的臀部，只露出一个羞怯藏着的微小肛门，令人深深满足。</li>
     <li>{PAWN_nameShort}的那曲线玲珑的后庭那隐秘的美，尤其是那处极小又藏得极好的肛门孔，实在值得一看。</li>
     <li>我的目光被{PAWN_nameShort}的臀部优雅的曲线吸引，从{PAWN_possessive}那精巧微小的肛门中获得快感。</li>
-    <li>这一瞟突出了 {PAWN_nameShort}的 浑圆的臀部，以及那极其含蓄、几乎觉察不到的肛门。实在令人着迷。</li>
+    <li>这一瞟突出了 {PAWN_nameShort}的浑圆的臀部，以及那极其含蓄、几乎觉察不到的肛门。实在令人着迷。</li>
     <li>欣赏{PAWN_nameShort}的臀部优美的比例，配上那玲珑、完美隐藏的肛门，是一份私密的愉悦。</li>
   </Opinion_Anus_Positive_Micro_MatureFemale_observed_by_voyer.opinionTexts>
   <Opinion_Anus_Positive_Micro_MatureMale.opinionTexts>
@@ -148,7 +138,7 @@
     <li>{PAWN_nameShort}的臀部那肌肉线条完美的轮廓，轻轻环抱着一处极小、几乎隐没的肛门，一个真正令人愉悦的身体细节。</li>
     <li>匆匆一瞥那精致的臀部，露出一个出奇小巧的肛门，印证了一副纤巧迷人的身段。相当诱人。</li>
     <li>观察着{PAWN_nameShort}的匀称的臀部，那小巧的肛门开口是令人意外却又无可否认地诱人的特征。相当迷人。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，实在是一个令人愉快的发现。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，实在是一个令人愉快的发现。</li>
     <li>{PAWN_nameShort}的臀部形态优美，衬托着一个小巧得几乎察觉不到的肛门开口，景象实在诱人。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。一种精致的美学。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。一个出人意料地迷人的细节。</li>
@@ -170,7 +160,7 @@
     <li>那一瞥{PAWN_nameShort}的线条优美的臀部，露出一个低调得几乎察觉不到的肛门开口，意外地诱人。</li>
     <li>{PAWN_nameShort}的比例匀称的臀部，带着一处异常小巧、整洁内收的肛门，突然映入眼帘，确实迷人。</li>
     <li>观察着{PAWN_nameShort}的优雅的后部，那小巧的肛门开口是个迷人得耐人寻味的细节。相当令人渴望。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实诱人。非常出色。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实诱人。非常出色。</li>
     <li>{PAWN_nameShort}的形态优美的臀部，衬托着那极其含蓄、几乎察觉不到的肛门开口，构成一幅真正勾人的景致。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。我觉得非常动人。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。相当刺激的一幕。</li>
@@ -192,7 +182,7 @@
     <li>那一瞥{PAWN_nameShort}的线条优美的臀部，露出一个低调得几乎察觉不到的肛门开口，显出极好的打理。</li>
     <li>{PAWN_nameShort}的比例匀称的臀部，带着一处异常小巧、整洁内收的肛门，突然映入眼帘，是他精心保养的明证。</li>
     <li>观察着{PAWN_nameShort}的优雅的后部，那小巧的肛门开口精致得令人意外。以他的年纪来说保养得非常好。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，在 {PAWN_possessive} 这个人生阶段确实令人赞叹。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，在 {PAWN_possessive} 这个人生阶段确实令人赞叹。</li>
     <li>{PAWN_nameShort}的形态优美的臀部，衬托着那极其含蓄、几乎察觉不到的肛门开口，构成一幅相当体面的景致。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。相当令人惊叹。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。他的身材依然相当有型。</li>
@@ -220,7 +210,7 @@
     <li>能展示{PAWN_nameShort}的那形状姣好的后庭，连同那格外小巧、私密得讨人喜欢的肛门，真是件乐事。</li>
     <li>看到{PAWN_nameShort}的紧实迷人的臀部与那含蓄得几乎看不见的肛门，我的自信一飞冲天。被人观赏真是愉快。</li>
     <li>{PAWN_nameShort}的成熟臀部那含蓄的美，配上小巧而整洁的肛门，构成了一幅精致而抓人眼球的景象。</li>
-    <li>展示 {PAWN_nameShort}的 轮廓分明的臀部，露出那完美、几乎隐藏的肛门，让人感到无比强大而诱人。</li>
+    <li>展示 {PAWN_nameShort}的轮廓分明的臀部，露出那完美、几乎隐藏的肛门，让人感到无比强大而诱人。</li>
     <li>{PAWN_nameShort}的优雅的臀部，配上那小巧得惹人喜爱的肛门孔，正是我希望能吸引目光的样子。</li>
     <li>{PAWN_nameShort}的那形状优美的臀瓣展示着令人愉悦的极小肛门，被公开欣赏着，我深感满足。</li>
     <li>{PAWN_nameShort}的优雅的臀部配上那恰到好处的小巧含蓄的肛门，展示出来供人欣赏。这份被看见的感觉真好。</li>
@@ -229,14 +219,14 @@
     <li>{PAWN_nameShort}的美丽的臀部因那个微型、几乎被遮没的肛门更显动人，俘获了观望的目光，让我心中充盈。</li>
     <li>{PAWN_nameShort}的臀部的精妙曲线，配着一处小巧完美、毫无瑕疵的肛门，本就该被人欣赏。</li>
     <li>展示{PAWN_nameShort}的那曲线优美的臀部是种特别的乐趣，尤其是配上那处小巧得妙不可言、羞怯而迎人的肛门。</li>
-    <li>{PAWN_nameShort}的 成熟臀部那自信的展示，凸显出它纤巧、几乎觉察不到的肛门，实在是一次迷人的体验。</li>
+    <li>{PAWN_nameShort}的成熟臀部那自信的展示，凸显出它纤巧、几乎觉察不到的肛门，实在是一次迷人的体验。</li>
   </Opinion_Anus_Positive_Micro_MatureMale_observed_by_Exhibitionist.opinionTexts>
   <Opinion_Anus_Positive_Micro_MatureMale_observed_by_Nymphomaniac.opinionTexts>
     <li>{PAWN_nameShort}的紧实成熟的臀部，配上那只紧得难以置信、尺寸极小的肛门，立刻在我心中激起一股强烈的欲望。</li>
     <li>{PAWN_nameShort}的后臀那诱人的曲线，连同其精巧、几乎隐没的肛门开口，刺激得令人难以置信。我渴求它。</li>
     <li>突然看到{PAWN_nameShort}的线条优美的臀部，以及那格外小巧、若隐若现的诱人肛门。我的身体渴求更多。</li>
     <li>观察着{PAWN_nameShort}的精美的后部，那小巧的肛门开口是极其撩人的细节。我感到一股灼热的渴求。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，点燃了一份深切而无法满足的渴望。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，点燃了一份深切而无法满足的渴望。</li>
     <li>{PAWN_nameShort}的形态优美的臀部，衬托着那极其含蓄、几乎察觉不到的肛门开口，激起一股压倒性的冲动。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。让我周身泛起纯粹情欲的战栗。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。探索的欲望汹涌难挡。</li>
@@ -258,7 +248,7 @@
     <li>{PAWN_nameShort}的臀部突然出现，那小巧而不甚明显的肛门，倒没有想象中那么令人反感；其实还挺整洁的。</li>
     <li>{PAWN_nameShort}的臀部并没有完全冒犯到我的矜持；那极小且隐藏得极好的肛门让它尚且可以忍受。</li>
     <li>观察着{PAWN_nameShort}的后部，那小巧的肛门开口，若非要承认的话，值得称许地毫不挑逗。精致得令人意外。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，恕我直言，倒也相当不刺眼。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，恕我直言，倒也相当不刺眼。</li>
     <li>虽然我更偏好端庄得体，但{PAWN_nameShort}的形美的臀部确实衬托出一处非常含蓄、几乎难以察觉的肛门开口，那倒……还好。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。让它比我预想的要不那么粗俗。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。其……洁净之处，倒是值得欣赏。</li>
@@ -280,7 +270,7 @@
     <li>那一瞥{PAWN_nameShort}的线条优美的臀部，露出一个低调得几乎察觉不到的肛门开口，意外地诱人。</li>
     <li>{PAWN_nameShort}的比例匀称的臀部，带着一处异常小巧、整洁内收的肛门，突然映入眼帘，确实迷人。</li>
     <li>观察着{PAWN_nameShort}的优雅的后部，那小巧的肛门开口是个迷人得耐人寻味的细节。相当令人渴望。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实诱人。非常出色。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实诱人。非常出色。</li>
     <li>{PAWN_nameShort}的形态优美的臀部，衬托着那极其含蓄、几乎察觉不到的肛门开口，构成一幅真正勾人的景致。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。我觉得非常动人。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。相当刺激的一幕。</li>
@@ -302,7 +292,7 @@
     <li>那一瞥{PAWN_nameShort}的线条优美的臀部，露出一个低调得几乎察觉不到的肛门开口，对一位上了年纪的男人来说，整洁得令人印象深刻。</li>
     <li>{PAWN_nameShort}的比例匀称的臀部，带着一处异常小巧、整洁内收的肛门，突然映入眼帘，显示出极好的保养。</li>
     <li>观察着{PAWN_nameShort}的优雅的后部，那小巧的肛门开口精致得令人意外。相当不错。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实保养得极好。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实保养得极好。</li>
     <li>{PAWN_nameShort}的形态优美的臀部，衬托着那极其含蓄、几乎察觉不到的肛门开口，构成一幅相当令人赞叹的景致。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。就{PAWN_possessive}年纪而言相当令人惊叹。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。这是优雅老去的好例子。</li>
@@ -324,7 +314,7 @@
     <li>那一瞥{PAWN_nameShort}的线条优美的臀部，露出一个低调得几乎察觉不到的肛门开口，意外地诱人。</li>
     <li>{PAWN_nameShort}的比例匀称的臀部，带着一处异常小巧、整洁内收的肛门，突然映入眼帘，确实迷人。</li>
     <li>观察着{PAWN_nameShort}的优雅的后部，那小巧的肛门开口是个迷人得耐人寻味的细节。相当令人渴望。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实诱人。非常出色。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实诱人。非常出色。</li>
     <li>{PAWN_nameShort}的形态优美的臀部，衬托着那极其含蓄、几乎察觉不到的肛门开口，构成一幅真正勾人的景致。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。我觉得非常动人。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。相当刺激的一幕。</li>
@@ -346,7 +336,7 @@
     <li>那一瞥{PAWN_nameShort}的线条优美的臀部，露出一个低调得几乎察觉不到的肛门开口，整洁得令人印象深刻。</li>
     <li>{PAWN_nameShort}的比例匀称的臀部，带着一处异常小巧、整洁内收的肛门，突然映入眼帘，显示出绝妙的维护。</li>
     <li>观察着{PAWN_nameShort}的优雅的后部，那小巧的肛门开口精致得令人意外。保养得非常好。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实令人赞叹。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑整洁的结构，配着那极其含蓄的肛门褶皱，确实令人赞叹。</li>
     <li>{PAWN_nameShort}的形态优美的臀部，衬托着那极其含蓄、几乎察觉不到的肛门开口，构成一幅相当体面的景致。</li>
     <li>{PAWN_nameShort}的臀部如此优雅地弯出曲线，只露出一枚极小、羞怯内敛的肛门，颇为动人。就{PAWN_possessive}年纪而言相当令人惊叹。</li>
     <li>匆匆一瞥展现出一个紧致、比例匀称的臀部，肛门的存在感极其低调。这是优雅老去的好例子。</li>
@@ -367,7 +357,7 @@
     <li>瞥见{PAWN_nameShort}的紧实的成熟臀肉，那极小、几乎藏起来的肛门让偷窥者大饱眼福。真是精妙绝伦的细节！</li>
     <li>那一次对{PAWN_nameShort}的线条优美臀部的短暂观察，露出一个低调得几乎察觉不到的肛门开口，是极为满足的视觉享受。</li>
     <li>意外看见{PAWN_nameShort}的那比例匀称的臀部，上面嵌着一个小得出奇、收得齐整的肛门，竟无比迷人。</li>
-    <li>偷偷观察着 {PAWN_nameShort}的 优雅的臀部，那小巧难觅的肛门孔是一次令人激动的发现。多么精致而诱人的景象。</li>
+    <li>偷偷观察着 {PAWN_nameShort}的优雅的臀部，那小巧难觅的肛门孔是一次令人激动的发现。多么精致而诱人的景象。</li>
     <li>留意到{PAWN_nameShort}的那隐约结实的臀部，以及那极小、几乎消失的肛门特征，这种偷窥的快感令我极为满足。</li>
     <li>偷瞄一眼{PAWN_nameShort}的成熟而形状姣好的臀部，露出一个小得恰到好处、几乎看不见的肛门。一段愉快的私密时刻。</li>
     <li>悄悄欣赏{PAWN_nameShort}的臀部优美的曲线，衬托出那个娇嫩、极小的肛门，真是无比愉悦。</li>
@@ -375,14 +365,14 @@
     <li>我的目光停留在{PAWN_nameShort}的那曲线玲珑的身姿上，欣赏着{PAWN_possessive}那紧致小巧的肛门几乎被完全遮住的姿态。真是难得的美景。</li>
     <li>{PAWN_nameShort}的臀部忽然出现，露出一个出乎意料地小巧含蓄的后庭，真是令人激动的一幕。</li>
     <li>偷来的匆匆一瞥，确认了{PAWN_nameShort}的臀部那精致的形状，还有那极小、羞涩得惹人怜爱的肛门。</li>
-    <li>我暗中观察 {PAWN_nameShort}的 整洁的臀部，那小巧而掩藏得当的肛门为其增色，让我心中升起一份安静的欣赏。</li>
+    <li>我暗中观察 {PAWN_nameShort}的整洁的臀部，那小巧而掩藏得当的肛门为其增色，让我心中升起一份安静的欣赏。</li>
     <li>我忍不住赞叹{PAWN_nameShort}的那紧实后臀的含蓄魅力，尤其是那处小巧得几乎看不见的肛部。</li>
     <li>那短暂一瞥{PAWN_nameShort}的雕琢精细的臀部，配上那完美纤巧而紧致的肛门褶皱，实在是一份精致的享受。</li>
     <li>{PAWN_nameShort}的臀部那条条诱人的线条，配上那小巧含蓄得不可思议的肛门，是偷窥者美梦成真的一幕。</li>
     <li>一个取景完美的画面：{PAWN_nameShort}的成熟的臀部，只露出一个羞怯藏着的微小肛门，令人深深满足。</li>
     <li>{PAWN_nameShort}的那曲线玲珑的后庭那隐秘的美，尤其是那处极小又藏得极好的肛门孔，实在值得一看。</li>
     <li>我的目光被{PAWN_nameShort}的臀部优雅的曲线吸引，从{PAWN_possessive}那精巧微小的肛门中获得快感。</li>
-    <li>这一瞟突出了 {PAWN_nameShort}的 浑圆的臀部，以及那极其含蓄、几乎觉察不到的肛门。实在令人着迷。</li>
+    <li>这一瞟突出了 {PAWN_nameShort}的浑圆的臀部，以及那极其含蓄、几乎觉察不到的肛门。实在令人着迷。</li>
     <li>欣赏{PAWN_nameShort}的臀部优美的比例，配上那玲珑、完美隐藏的肛门，是一份私密的愉悦。</li>
   </Opinion_Anus_Positive_Micro_MatureMale_observed_by_voyer.opinionTexts>
   <Opinion_Anus_Positive_Micro_SlimeAnus.opinionTexts>
@@ -390,7 +380,7 @@
     <li>{PAWN_nameShort}的那微小史莱姆肛门的含蓄优雅，以其滑腻而独特的方式相当迷人。</li>
     <li>{PAWN_nameShort}的那凝胶状臀部上完美小巧而紧致的开口如此诱人，勾起一份奇特的好奇。</li>
     <li>观察着{PAWN_nameShort}的不大、几乎看不见的史莱姆皱褶，让我心中充满一种好奇的、软糯的欣赏。</li>
-    <li>{PAWN_nameShort}的 极小史莱姆穴口的紧致出乎意料地引人好奇，尽管它的质地有些特别。</li>
+    <li>{PAWN_nameShort}的极小史莱姆穴口的紧致出乎意料地引人好奇，尽管它的质地有些特别。</li>
     <li>{PAWN_nameShort}的娇小得近乎隐秘的史莱姆肛门真是既诡异又美丽的景象，是黏液体态的明证。</li>
     <li>{PAWN_nameShort}的小巧渗液的菊蕾那亲密的魅力，奇异地令人振奋，是一种流动的愉悦。</li>
     <li>{PAWN_nameShort}的凝胶状臀部上如此整洁、紧凑的开口，那份黏滑有种奇异的吸引力。</li>
@@ -422,7 +412,7 @@
     <li>{PAWN_nameShort}的那微小肛门的含蓄优雅相当迷人，是一种值得细细品味的低调之美。</li>
     <li>{PAWN_nameShort}的那臀部上完美小巧而紧致的开口如此可人，勾起一份温柔的情愫。</li>
     <li>观察着{PAWN_nameShort}的不大、几乎看不见的皱褶，让我心中充满温暖、共情的欣赏。</li>
-    <li>{PAWN_nameShort}的 极小穴口的紧致透着一份未被触碰过的纯真之美。</li>
+    <li>{PAWN_nameShort}的极小穴口的紧致透着一份未被触碰过的纯真之美。</li>
     <li>{PAWN_nameShort}的娇小得近乎隐秘的肛门真是美丽的景象，激起一份温柔而敬重的欣赏。</li>
     <li>{PAWN_nameShort}的小巧菊蕾那份亲密的魅力令人振奋，让我心生一份温柔关怀。</li>
     <li>{PAWN_nameShort}的臀部上如此整洁、紧凑的开口，那份小巧颇为讨喜。</li>
@@ -454,7 +444,7 @@
     <li>{PAWN_nameShort}的那微小肛门的含蓄优雅让我感到共鸣，想要展示自己。</li>
     <li>{PAWN_nameShort}的那臀部上完美小巧而紧致的开口如此诱人，让我想要展露自己。</li>
     <li>观察着{PAWN_nameShort}的不大、几乎看不见的皱褶，让我充满一种强烈的展示冲动。</li>
-    <li>{PAWN_nameShort}的 极小穴口的紧致让我欣赏裸体，也想与大家分享。</li>
+    <li>{PAWN_nameShort}的极小穴口的紧致让我欣赏裸体，也想与大家分享。</li>
     <li>{PAWN_nameShort}的娇小得近乎隐秘的肛门真是美丽的景象，促使我去颂扬暴露的形体。</li>
     <li>{PAWN_nameShort}的小巧菊蕾那份亲密的魅力令人振奋，让我渴望展露自己的脆弱。</li>
     <li>{PAWN_nameShort}的臀部上如此整洁、紧凑的开口，让我想要把一切都敞开来展示。</li>
@@ -486,7 +476,7 @@
     <li>{PAWN_nameShort}的那微小肛门的含蓄优雅让我涌起强烈的冲动，想暴露我自己那被唤起的身躯。</li>
     <li>{PAWN_nameShort}的那臀部上完美小巧而紧致的开口如此诱人，让我现在就想把腿张开。</li>
     <li>观察着{PAWN_nameShort}的不大、几乎看不见的皱褶，让我充满一种强烈的冲动，想公开展示我湿透的小穴。</li>
-    <li>{PAWN_nameShort}的 极小穴口的紧致让我欣赏裸体，也想炫耀我的女体。</li>
+    <li>{PAWN_nameShort}的极小穴口的紧致让我欣赏裸体，也想炫耀我的女体。</li>
     <li>她那小巧、近乎隐秘的肛门真是美景，促使我为一切裸露的身体欢呼，包括我自己那湿漉漉的。</li>
     <li>{PAWN_nameShort}的小巧菊蕾那份亲密的魅力令人振奋，让我渴望展露自己搏动的阴蒂。</li>
     <li>{PAWN_nameShort}的臀部上如此整洁、紧凑的开口，让我想要让自己湿透的私处被人看见。</li>
@@ -518,7 +508,7 @@
     <li>{PAWN_nameShort}的那微小肛门的含蓄优雅让我涌起强烈的冲动，想暴露我自己那被唤起的身躯。</li>
     <li>{PAWN_nameShort}的那臀部上完美小巧而紧致的开口如此诱人，让我现在就想把裤子脱了。</li>
     <li>观察着{PAWN_nameShort}的不大、几乎看不见的皱褶，让我充满一种强烈的冲动，想公开展示我硬挺的鸡巴。</li>
-    <li>{PAWN_nameShort}的 极小穴口的紧致让我欣赏裸体，也想炫耀我的男根。</li>
+    <li>{PAWN_nameShort}的极小穴口的紧致让我欣赏裸体，也想炫耀我的男根。</li>
     <li>她那小巧、近乎隐秘的肛门真是美景，促使我为一切裸露的身体欢呼，包括我自己那根挺立的。</li>
     <li>{PAWN_nameShort}的小巧菊蕾那份亲密的魅力令人振奋，让我渴望展露自己搏动的阴茎。</li>
     <li>{PAWN_nameShort}的臀部上如此整洁、紧凑的开口，让我想要让自己的勃起被人看见。</li>
@@ -550,7 +540,7 @@
     <li>{PAWN_nameShort}的那微小肛门的含蓄优雅在我体内激起强烈而无可否认的性饥渴。</li>
     <li>{PAWN_nameShort}的那臀部上完美小巧而紧致的开口如此诱人，让我身体因欲望而作痛。</li>
     <li>观察着{PAWN_nameShort}的不大、几乎看不见的皱褶，让我充满一种压倒性的亲密冲动。</li>
-    <li>{PAWN_nameShort}的 极小穴口的紧致让我渴望一场热烈的交合。</li>
+    <li>{PAWN_nameShort}的极小穴口的紧致让我渴望一场热烈的交合。</li>
     <li>{PAWN_nameShort}的娇小得近乎隐秘的肛门真是美丽的景象，唤醒了我最深处的肉欲需求。</li>
     <li>{PAWN_nameShort}的小巧菊蕾那份亲密的魅力令人振奋，让我渴求强烈的身体刺激。</li>
     <li>{PAWN_nameShort}的臀部上如此整洁、紧凑的开口，让我整个身心都因性欲而搏动。</li>
@@ -582,7 +572,7 @@
     <li>{PAWN_nameShort}的那微小肛门的含蓄优雅在我体内激起强烈而无可否认的性饥渴，让我湿润。</li>
     <li>{PAWN_nameShort}的那臀部上完美小巧而紧致的开口如此诱人，让我身体因灼热的欲望而作痛。</li>
     <li>观察着{PAWN_nameShort}的不大、几乎看不见的皱褶，让我充满一种压倒性的冲动，想立刻亲密。</li>
-    <li>{PAWN_nameShort}的 极小穴口的紧致让我整个阴户都渴望一场热烈交合。</li>
+    <li>{PAWN_nameShort}的极小穴口的紧致让我整个阴户都渴望一场热烈交合。</li>
     <li>她那小巧、近乎隐秘的肛门真是美景，唤醒我内心最深的肉欲，让我湿得滴水。</li>
     <li>{PAWN_nameShort}的小巧菊蕾那份亲密的魅力令人振奋，让我渴求强烈的身体刺激，我的阴蒂在搏动。</li>
     <li>{PAWN_nameShort}的臀部上如此整洁、紧凑的开口，让我整个身心都因性欲而搏动，我的私处抽动着。</li>
@@ -614,7 +604,7 @@
     <li>{PAWN_nameShort}的那微小肛门的含蓄优雅在我体内激起强烈而无可否认的性饥渴，让我为他湿润。</li>
     <li>{PAWN_nameShort}的那臀部上完美小巧而紧致的开口如此诱人，让我身体因对他灼热的欲望而作痛。</li>
     <li>观察着{PAWN_nameShort}的不大、几乎看不见的皱褶，让我充满一种压倒性的冲动，想立刻与他亲密。</li>
-    <li>{PAWN_nameShort}的 极小穴口的紧致让我整个阴户都渴望与他热烈交合。</li>
+    <li>{PAWN_nameShort}的极小穴口的紧致让我整个阴户都渴望与他热烈交合。</li>
     <li>他精巧、近乎隐秘的肛门真是美丽的景象，唤醒我最深处的肉欲需求，让我为他湿透。</li>
     <li>{PAWN_nameShort}的小巧菊蕾那份亲密的魅力令人振奋，让我渴求强烈的身体刺激，我的阴蒂为他搏动。</li>
     <li>{PAWN_nameShort}的臀部上如此整洁、紧凑的开口，让我整个身心都因性欲而搏动，我的私处为他而抽动。</li>
@@ -646,7 +636,7 @@
     <li>{PAWN_nameShort}的那微小肛门的含蓄优雅在我体内激起强烈而无可否认的性饥渴，让我勃起。</li>
     <li>{PAWN_nameShort}的那臀部上完美小巧而紧致的开口如此诱人，让我身体因灼热的勃起而作痛。</li>
     <li>观察着{PAWN_nameShort}的不大、几乎看不见的皱褶，让我充满一种压倒性的冲动，想立刻插入。</li>
-    <li>{PAWN_nameShort}的 极小穴口的紧致让我整根阴茎都渴望一场热烈交合。</li>
+    <li>{PAWN_nameShort}的极小穴口的紧致让我整根阴茎都渴望一场热烈交合。</li>
     <li>她那小巧、近乎隐秘的肛门真是美景，唤醒我内心最深的肉欲，让我的睾丸发沉。</li>
     <li>{PAWN_nameShort}的小巧菊蕾那份亲密的魅力令人振奋，让我渴求强烈的身体刺激，我的茎身在搏动。</li>
     <li>{PAWN_nameShort}的臀部上如此整洁、紧凑的开口，让我整个身心都因性欲而搏动，我的阴茎抽动着。</li>
@@ -678,7 +668,7 @@
     <li>{PAWN_nameShort}的那微小肛门的含蓄优雅在我体内激起强烈而无可否认的性饥渴，让我为他勃起。</li>
     <li>{PAWN_nameShort}的那臀部上完美小巧而紧致的开口如此诱人，让我身体因对他灼热的勃起而作痛。</li>
     <li>观察着{PAWN_nameShort}的不大、几乎看不见的皱褶，让我充满一种压倒性的冲动，想立刻插入。</li>
-    <li>{PAWN_nameShort}的 极小穴口的紧致让我整根阴茎都渴望与他热烈交合。</li>
+    <li>{PAWN_nameShort}的极小穴口的紧致让我整根阴茎都渴望与他热烈交合。</li>
     <li>他精巧、近乎隐秘的肛门真是美丽的景象，唤醒我最深处的肉欲需求，让我为他睾丸发沉。</li>
     <li>{PAWN_nameShort}的小巧菊蕾那份亲密的魅力令人振奋，让我渴求强烈的身体刺激，我的茎身为他搏动。</li>
     <li>{PAWN_nameShort}的臀部上如此整洁、紧凑的开口，让我整个身心都因性欲而搏动，我的阴茎为他而抽动。</li>
@@ -710,7 +700,7 @@
     <li>{PAWN_nameShort}的那微小肛门的含蓄优雅，呃，它就在那儿。勉强而已。何必让人看见呢？</li>
     <li>{PAWN_nameShort}的臀部上那完美小巧而紧致的开口。哼。我猜，比大多数要含蓄些。</li>
     <li>观察着{PAWN_nameShort}的不大、几乎看不见的皱褶……对体面的场合来说还是有点过火。</li>
-    <li>{PAWN_nameShort}的 极小穴口的紧致。怎么说呢……比想象中没那么刺眼。</li>
+    <li>{PAWN_nameShort}的极小穴口的紧致。怎么说呢……比想象中没那么刺眼。</li>
     <li>{PAWN_nameShort}的娇小得近乎隐秘的肛门。要我说，这纯属多余的生理细节。</li>
     <li>{PAWN_nameShort}的小巧菊蕾那份亲密的魅力，说实在的，令人不安。何必盯着这种东西？</li>
     <li>{PAWN_nameShort}的臀部上如此整洁、紧凑的开口。尽管经历种种，它竟保养得出奇地好。</li>
@@ -915,8 +905,8 @@
   </Opinion_Anus_Positive_Tight.opinionTexts>
   <Opinion_Anus_Positive_Tight_DemonAnus.opinionTexts>
     <li>{PAWN_nameShort}的恶魔肛门虽具异界本质，却紧致得惊人、引人好奇，是个奇特的景象。</li>
-    <li>观察 {PAWN_nameShort}的 那恶魔肛门独特的紧致，我不由被它异样而紧实的外观吸引。</li>
-    <li>{PAWN_nameShort}的 臀部上那紧凑、紧得几乎令人不安的恶魔肛门，带着一种奇异、无法抗拒的魅力。</li>
+    <li>观察 {PAWN_nameShort}的那恶魔肛门独特的紧致，我不由被它异样而紧实的外观吸引。</li>
+    <li>{PAWN_nameShort}的臀部上那紧凑、紧得几乎令人不安的恶魔肛门，带着一种奇异、无法抗拒的魅力。</li>
     <li>我着迷于{PAWN_nameShort}的恶魔肛门那紧绷、地狱般的褶皱，如此坚硬不屈。</li>
     <li>{PAWN_nameShort}的恶魔臀部，顶端是一个紧得出人意料的肛门，暗示着一种强劲而原始的自制力。</li>
     <li>如此紧得令人不安的恶魔肛门，其古怪的形态透着原始而古老的美，竟有种奇异的魅力。</li>
@@ -931,11 +921,11 @@
     <li>{PAWN_nameShort}的恶魔肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致却令人不安的形体。</li>
     <li>{PAWN_nameShort}的紧致小巧的魔性肛门和线条优美的臀部，构成一幅黑暗的优雅与无瑕、不洁之美。</li>
     <li>好一个紧致得惊人的恶魔肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人肃然起敬又充满神秘。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的恶魔肛门，几乎像一个隐秘的笑窝，干净而诡异的外观相当诱人。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的恶魔肛门，几乎像一个隐秘的笑窝，干净而诡异的外观相当诱人。</li>
     <li>{PAWN_nameShort}的紧实小巧的魔族肛门位置整齐，与{PAWN_possessive}强壮的体格和结实的身体完美相衬，带着一种令人不安又美丽的感觉。</li>
     <li>真是一个整洁而紧致的恶魔肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，是保养良好的标志，尽管来历不凡。</li>
     <li>我忍不住注意到那个妙不可言的紧致恶魔肛门，几乎被{PAWN_nameShort}的臀部有力的隆起藏住，真是值得称道又引人入胜的景象。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的恶魔肛门，道出一副精致而能干的体态，以一种阴森的方式看在眼里无比悦目。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的恶魔肛门，道出一副精致而能干的体态，以一种阴森的方式看在眼里无比悦目。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙恶魔肛门补全，我觉得它看着强烈动人，气势逼人。</li>
     <li>如此洁净而紧实的恶魔肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，一幅结实、天然却超脱尘世的美景。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的恶魔肛门相当惹人喜爱，为{PAWN_possessive}强烈的魅力与沉静的尊严增色不少，这是一种令人不安的吸引。</li>
@@ -964,7 +954,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添魅力。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份未被触碰的美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderFemale.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Elder_female.opinionTexts>
@@ -986,7 +976,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添魅力。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份未被触碰的美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Elder_female.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Elder_male.opinionTexts>
@@ -1008,7 +998,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份未被触碰的青春之美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。相当刺激。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱诱人身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Elder_male.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Exhibitionist.opinionTexts>
@@ -1030,7 +1020,7 @@
     <li>{PAWN_nameShort}的身体是公开的赏心乐事；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门虽然几乎看不见，却闪着大胆的光芒。</li>
     <li>她的臀部比例无可挑剔，那紧致的肛门几乎完美隐藏，她却如此优雅地展示出来。真叫人备受鼓舞。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。看着真叫人欢喜。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造，毫不遮掩地展露在外。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造，毫不遮掩地展露在外。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门。一个被大胆分享给世界的含蓄动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Exhibitionist.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Nymphomaniac.opinionTexts>
@@ -1052,7 +1042,7 @@
     <li>{PAWN_nameShort}的身体有一种深沉的魅惑；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更是令人完全着迷。</li>
     <li>她的臀部比例无可挑剔，那紧致几乎完美隐藏的肛门，让我被好奇与渴念烧灼。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴，看得我几乎喘不过气。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。令人极其兴奋。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。令人极其兴奋。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，一个含蓄而深深动人的细节，占据了我的全部思绪。</li>
   </Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Prude.opinionTexts>
@@ -1070,11 +1060,11 @@
     <li>{PAWN_nameShort}的臀部的线条凸显出一个雕塑般完美、格外紧实紧致的肛门区域。只不过人选择不去盯着看罢了。</li>
     <li>她的臀部依然饱满，配上一个令人愉悦的紧致小巧穴口，无可否认地展露在外。这身打扮相当大胆。</li>
     <li>一瞥之下显出{PAWN_nameShort}的臀部那紧致僵硬的轮廓，肛门一带尤其整齐。这种景象本该是私密的。</li>
-    <li>她臀瓣柔和的隆起展露出一个异常洁净紧致的肛门。尽管是在公开场合被看，这仍是一副干净利落的呈现。</li>
+    <li>她臀瓣柔和的隆起展露出一个异常洁净紧致的肛门。尽管是在公开场合被看，这仍是一副干净利落的姿态。</li>
     <li>{PAWN_nameShort}的身体清晰可见。{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门虽然露着，却依旧整洁。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏。它突然变得可见，叫人不禁惋惜。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。这种情形还是别碰为妙。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以看到那出奇贴合、保养良好的肛门构造。就这样吧。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以看到那出奇贴合、保养良好的肛门构造。就这样吧。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门。一个本该不被人看见的含蓄细节。</li>
   </Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Prude.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Young_female.opinionTexts>
@@ -1096,7 +1086,7 @@
     <li>{PAWN_nameShort}的身体保养得相当好；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，足见打理之用心。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份完好如新的气息。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。真是一具精致的身躯。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。真是一具精致的身躯。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具优雅老去的身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Young_female.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Young_male.opinionTexts>
@@ -1118,7 +1108,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份未被触碰的青春之美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。相当刺激。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱诱人身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderFemale_observed_by_Young_male.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderFemale_observed_by_middle_aged_Female.opinionTexts>
@@ -1140,7 +1130,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添魅力。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份未被触碰的美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderFemale_observed_by_middle_aged_Female.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderFemale_observed_by_middle_aged_male.opinionTexts>
@@ -1162,7 +1152,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份未被触碰的青春之美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。相当刺激。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱诱人身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderFemale_observed_by_middle_aged_male.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderFemale_observed_by_voyer.opinionTexts>
@@ -1184,7 +1174,7 @@
     <li>{PAWN_nameShort}的身体是私密的愉悦；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添几分神秘。</li>
     <li>她的臀部比例无可挑剔，那紧致的肛门几乎完美隐藏，散发着一份未被触碰的神秘。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴，勾引着我的目光。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。真是一幕精致的景象。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。真是一幕精致的景象。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，一个含蓄而深深动人的细节。多么难得的发现！</li>
   </Opinion_Anus_Positive_Tight_ElderFemale_observed_by_voyer.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderMale.opinionTexts>
@@ -1206,7 +1196,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的力量感。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderMale.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderMale_observed_by_Elder_female.opinionTexts>
@@ -1228,7 +1218,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的力量感。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderMale_observed_by_Elder_female.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderMale_observed_by_Elder_male.opinionTexts>
@@ -1250,7 +1240,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的年轻气韵。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。相当齐整。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。做得非常好。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。做得非常好。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具强壮身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderMale_observed_by_Elder_male.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderMale_observed_by_Exhibitionist.opinionTexts>
@@ -1272,7 +1262,7 @@
     <li>{PAWN_nameShort}的身体是公开的赏心乐事；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门虽然几乎看不见，却闪着大胆的光芒。</li>
     <li>他的臀部比例无可挑剔，那紧致的肛门几乎被完美地遮掩着，他却能如此优雅地展示出来。真让人感到充满力量。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。看着真叫人欢喜。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造，毫不遮掩地展露在外。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造，毫不遮掩地展露在外。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门。一个被大胆分享给世界的含蓄动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderMale_observed_by_Exhibitionist.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderMale_observed_by_Nymphomaniac.opinionTexts>
@@ -1294,7 +1284,7 @@
     <li>{PAWN_nameShort}的身体有一种深沉的魅惑；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更是令人完全着迷。</li>
     <li>他的臀部比例无可挑剔，那紧致的肛门几乎被完美地遮掩着，让我燃起好奇与渴望。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴，看得我几乎喘不过气。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。令人极其兴奋。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。令人极其兴奋。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，一个含蓄而深深动人的细节，占据了我的全部思绪。</li>
   </Opinion_Anus_Positive_Tight_ElderMale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderMale_observed_by_Prude.opinionTexts>
@@ -1312,11 +1302,11 @@
     <li>{PAWN_nameShort}的臀部的线条凸显出一个雕塑般完美、格外紧实紧致的肛门区域。只不过人选择不去盯着看罢了。</li>
     <li>他的臀部依然饱满，带着那愉悦般紧致而小巧的开口，无可否认地展露在外。相当大胆的穿着选择。</li>
     <li>一瞥之下显出{PAWN_nameShort}的臀部那紧致僵硬的轮廓，肛门一带尤其整齐。这种景象本该是私密的。</li>
-    <li>他臀瓣柔和的隆起展露出一个异常洁净紧致的肛门。尽管是在公开场合被看，这仍是一副干净利落的呈现。</li>
+    <li>他臀瓣柔和的隆起展露出一个异常洁净紧致的肛门。尽管是在公开场合被看，这仍是一副干净利落的姿态。</li>
     <li>{PAWN_nameShort}的身体清晰可见。{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门虽然露着，却依旧整洁。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着。它突然露出来，让人不免遗憾。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。这种情形还是别碰为妙。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以看到那出奇贴合、保养良好的肛门构造。就这样吧。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以看到那出奇贴合、保养良好的肛门构造。就这样吧。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门。一个本该不被人看见的含蓄细节。</li>
   </Opinion_Anus_Positive_Tight_ElderMale_observed_by_Prude.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderMale_observed_by_Young_female.opinionTexts>
@@ -1338,7 +1328,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的年轻之美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。相当刺激。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱诱人身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderMale_observed_by_Young_female.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderMale_observed_by_Young_male.opinionTexts>
@@ -1360,7 +1350,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的年轻气韵。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。相当齐整。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。做得非常好。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。做得非常好。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具强壮身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderMale_observed_by_Young_male.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderMale_observed_by_middle_aged_Female.opinionTexts>
@@ -1382,7 +1372,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的力量感。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderMale_observed_by_middle_aged_Female.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderMale_observed_by_middle_aged_male.opinionTexts>
@@ -1404,7 +1394,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的年轻气韵。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。相当齐整。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。做得非常好。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。做得非常好。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具强壮身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_ElderMale_observed_by_middle_aged_male.opinionTexts>
   <Opinion_Anus_Positive_Tight_ElderMale_observed_by_voyer.opinionTexts>
@@ -1426,7 +1416,7 @@
     <li>{PAWN_nameShort}的身体是私密的愉悦；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添几分神秘。</li>
     <li>他的臀部比例无可挑剔，那紧致的肛门几乎被完美地遮掩着，散发着一股未被触碰的神秘感。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴，勾引着我的目光。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。真是一幕精致的景象。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。真是一幕精致的景象。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，一个含蓄而深深动人的细节。多么难得的发现！</li>
   </Opinion_Anus_Positive_Tight_ElderMale_observed_by_voyer.opinionTexts>
   <Opinion_Anus_Positive_Tight_Elderly_Female_opinion.opinionTexts>
@@ -1447,11 +1437,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少。</li>
@@ -1479,11 +1469,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}强壮的形体，是经久不衰的活力的标志。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和健壮的臀部，构成一幅男性力量与无瑕自然的身形。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人肃然起敬。</li>
-    <li>{PAWN_nameShort}的 轮廓分明的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，干净的外观相当诱人。</li>
+    <li>{PAWN_nameShort}的轮廓分明的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，干净的外观相当诱人。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}强壮的体格和结实的身体完美相衬。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，是保养良好的标志。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部有力的隆起藏住，真是值得称道的景象。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致而能干的体态，看在眼里无比悦目。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致而能干的体态，看在眼里无比悦目。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它强烈动人，看上一眼便觉有力。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，一幅结实、天然的美景。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}强烈的魅力与沉静的尊严增色不少。</li>
@@ -1511,11 +1501,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少。</li>
@@ -1543,11 +1533,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}强壮的形体，是经久不衰的活力的标志。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和健壮的臀部，构成一幅男性力量与无瑕自然的身形。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人肃然起敬。</li>
-    <li>{PAWN_nameShort}的 轮廓分明的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，干净的外观相当诱人。</li>
+    <li>{PAWN_nameShort}的轮廓分明的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，干净的外观相当诱人。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}强壮的体格和结实的身体完美相衬。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，是保养良好的标志。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部有力的隆起藏住，真是值得称道的景象。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致而能干的体态，看在眼里无比悦目。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致而能干的体态，看在眼里无比悦目。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它强烈动人，看上一眼便觉有力。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，一幅结实、天然的美景。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}强烈的魅力与沉静的尊严增色不少。</li>
@@ -1575,7 +1565,7 @@
     <li>一个真正精美紧致的小肛门，完美嵌在{PAWN_nameShort}的有型的臀部之间，撩动我内心深处的什么。</li>
     <li>{PAWN_nameShort}的紧致、几乎无法察觉的肛门是年轻身体的奇迹，让我脊背发麻。</li>
     <li>我发觉自己彻底死盯着{PAWN_nameShort}的紧致得迷人的肛门，这细微的细节点燃了我的欲望。</li>
-    <li>{PAWN_nameShort}的 紧实浑圆的臀部上那紧凑诱人的肛门是一份私密的欢愉，我的感官被点亮。</li>
+    <li>{PAWN_nameShort}的紧实浑圆的臀部上那紧凑诱人的肛门是一份私密的欢愉，我的感官被点亮。</li>
     <li>{PAWN_nameShort}的形态优美的臀部，配上那紧致诱人的美妙肛门，许诺着禁忌的快感。</li>
     <li>我的目光被那个紧致得美妙绝伦的肛门吸引，它几乎被{PAWN_nameShort}的撩人的曲线完全遮住；真是迷人的景象。</li>
     <li>如此洁净而紧致的肛门，小巧紧实，在我这老迈的心智中点燃炽热的好奇。我的勃起很明显。</li>
@@ -1607,7 +1597,7 @@
     <li>一个真正精美紧致的小肛门，完美嵌在{PAWN_nameShort}的有型的臀部之间，撩动我内心深处的什么，我的下体渴求着它。</li>
     <li>{PAWN_nameShort}的紧致、几乎无法察觉的肛门是年轻男性身体的奇迹，让我脊背发麻、呼吸急促。</li>
     <li>我发觉自己彻底死盯着{PAWN_nameShort}的紧致得迷人的肛门，这细微的细节点燃了我的欲望，让我欲求不满。</li>
-    <li>{PAWN_nameShort}的 紧实浑圆的臀部上那紧凑诱人的肛门是一份私密的欢愉，我的感官被点亮，身体因期待而嗡鸣。</li>
+    <li>{PAWN_nameShort}的紧实浑圆的臀部上那紧凑诱人的肛门是一份私密的欢愉，我的感官被点亮，身体因期待而嗡鸣。</li>
     <li>{PAWN_nameShort}的形态优美的臀部，配上那紧致诱人的美妙肛门，向渴望着的我许诺着禁忌的快感。</li>
     <li>我的目光被那个紧致得美妙绝伦的肛门吸引，它几乎被{PAWN_nameShort}的撩人的曲线完全遮住；这真正迷人的景象不断助燃我的肉欲念头。</li>
     <li>如此洁净而紧致的肛门，小巧紧实，在我这老迈的心智中点燃炽热的好奇。我的勃起明显而急切。</li>
@@ -1623,8 +1613,8 @@
   </Opinion_Anus_Positive_Tight_Elderly_Male_voyer_opinion_Male.opinionTexts>
   <Opinion_Anus_Positive_Tight_InsectAnus.opinionTexts>
     <li>{PAWN_nameShort}的虫类肛门，带有几丁质结构，紧致而奇异得惊人，是一种迷人的解剖异态。</li>
-    <li>观察 {PAWN_nameShort}的 那虫族肛门奇特的紧致，我不由被它异样的、分节的紧实吸引。</li>
-    <li>{PAWN_nameShort}的 臀部上那紧凑、紧得几乎令人不安的虫族肛门，带着一种奇异、无法抗拒、坚硬的魅力。</li>
+    <li>观察 {PAWN_nameShort}的那虫族肛门奇特的紧致，我不由被它异样的、分节的紧实吸引。</li>
+    <li>{PAWN_nameShort}的臀部上那紧凑、紧得几乎令人不安的虫族肛门，带着一种奇异、无法抗拒、坚硬的魅力。</li>
     <li>{PAWN_nameShort}的虫族肛门那紧绷、甲壳质的褶皱让我心动，如此紧实、精妙绝伦。</li>
     <li>{PAWN_nameShort}的虫形臀部的顶端是意外紧致的肛门，暗示着一种奇特却令人愉悦的生物机械控制力。</li>
     <li>如此紧得令人不安的虫族肛门，其古怪的多面形态透着原始而异质的美，竟有种奇异的魅力。</li>
@@ -1639,11 +1629,11 @@
     <li>{PAWN_nameShort}的虫族肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致却异样陌生的形体。</li>
     <li>{PAWN_nameShort}的紧致小巧的虫类肛门和线条优美的臀部，构成一幅甲壳质的优雅与无瑕、异样的美。</li>
     <li>好一个紧致得惊人的虫族肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，以一种真正诡异的方式让人肃然起敬、充满神秘。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的虫族肛门，几乎像一个隐秘的笑窝，干净诡异却又引人好奇，相当诱人。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的虫族肛门，几乎像一个隐秘的笑窝，干净诡异却又引人好奇，相当诱人。</li>
     <li>{PAWN_nameShort}的紧实小巧的虫族肛门位置整齐，与{PAWN_possessive}强壮的体格和结实的身体完美相衬，以一种既令人不安又美得异样的方式。</li>
     <li>真是一个整洁而紧致的昆虫肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，是保养良好的标志，尽管其性质与众不同。</li>
     <li>我忍不住注意到那个妙不可言的紧致虫族肛门，几乎被{PAWN_nameShort}的臀部有力的隆起藏住，真是值得称道又引人入胜的节状景象。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的虫族肛门，道出一副精致而能干的体态，以一种古怪的节肢动物方式看在眼里无比悦目。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的虫族肛门，道出一副精致而能干的体态，以一种古怪的节肢动物方式看在眼里无比悦目。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙虫族肛门补全，我觉得它看着强烈动人、气势逼人，带着一种奇异的迷人气息。</li>
     <li>如此洁净而紧实的虫族肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，一幅结实、天然却超脱尘世、覆着甲壳的美景。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的虫族肛门相当惹人喜爱，为{PAWN_possessive}强烈的魅力与沉静的尊严增色不少，一种令人不安却又无法否认的吸引。</li>
@@ -1671,11 +1661,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，让我疯狂。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美，极大地唤起了我。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人彻底着迷。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，让我为之窒息。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，让我为之窒息。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，招我靠近。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，点燃了我的激情。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是情色的景象。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，无比撩人。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，无比撩人。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它极度动人。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，让它令人无法抗拒。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并勾起深沉的欲望。</li>
@@ -1703,11 +1693,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}强壮的形体，是经久不衰的活力的标志。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和健壮的臀部，构成一幅男性力量与无瑕自然的身形。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人肃然起敬。</li>
-    <li>{PAWN_nameShort}的 轮廓分明的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，干净的外观相当诱人。</li>
+    <li>{PAWN_nameShort}的轮廓分明的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，干净的外观相当诱人。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}强壮的体格和结实的身体完美相衬。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，是保养良好的标志。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部有力的隆起藏住，真是值得称道的景象。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致而能干的体态，看在眼里无比悦目。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致而能干的体态，看在眼里无比悦目。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它强烈动人，看上一眼便觉有力。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，一幅结实、天然的美景。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}强烈的魅力与沉静的尊严增色不少。</li>
@@ -1736,7 +1726,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添魅力。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份未被触碰的美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureFemale.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Elder_female.opinionTexts>
@@ -1758,7 +1748,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添魅力。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份未被触碰的美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Elder_female.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Elder_male.opinionTexts>
@@ -1780,7 +1770,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份未被触碰的成熟之美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。颇为刺激。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱诱人身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Elder_male.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Exhibitionist.opinionTexts>
@@ -1802,7 +1792,7 @@
     <li>{PAWN_nameShort}的身体是公开的赏心乐事；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门虽然几乎看不见，却闪着大胆的光芒。</li>
     <li>她的臀部比例无可挑剔，那紧致的肛门几乎完美隐藏，她却如此优雅地展示出来。真叫人备受鼓舞。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。看着真叫人欢喜。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造，毫不遮掩地展露在外。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造，毫不遮掩地展露在外。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门。一个被大胆分享给世界的含蓄动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Exhibitionist.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Nymphomaniac.opinionTexts>
@@ -1824,7 +1814,7 @@
     <li>{PAWN_nameShort}的身体有一种深沉的魅惑；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更是令人完全着迷。</li>
     <li>她的臀部比例无可挑剔，那紧致几乎完美隐藏的肛门，让我被好奇与渴念烧灼。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴，看得我几乎喘不过气。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。令人极其兴奋。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。令人极其兴奋。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，一个含蓄而深深动人的细节，占据了我的全部思绪。</li>
   </Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Prude.opinionTexts>
@@ -1842,11 +1832,11 @@
     <li>{PAWN_nameShort}的臀部的线条凸显出一个雕塑般完美、格外紧实紧致的肛门区域。只不过人选择不去盯着看罢了。</li>
     <li>她的臀部依然饱满，配上一个令人愉悦的紧致小巧穴口，无可否认地展露在外。这身打扮相当大胆。</li>
     <li>一瞥之下显出{PAWN_nameShort}的臀部那紧致僵硬的轮廓，肛门一带尤其整齐。这种景象本该是私密的。</li>
-    <li>她臀瓣柔和的隆起展露出一个异常洁净紧致的肛门。尽管是在公开场合被看，这仍是一副干净利落的呈现。</li>
+    <li>她臀瓣柔和的隆起展露出一个异常洁净紧致的肛门。尽管是在公开场合被看，这仍是一副干净利落的姿态。</li>
     <li>{PAWN_nameShort}的身体清晰可见。{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门虽然露着，却依旧整洁。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏。它突然变得可见，叫人不禁惋惜。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。这种情形还是别碰为妙。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以看到那出奇贴合、保养良好的肛门构造。就这样吧。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以看到那出奇贴合、保养良好的肛门构造。就这样吧。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门。一个本该不被人看见的含蓄细节。</li>
   </Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Prude.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Young_female.opinionTexts>
@@ -1868,7 +1858,7 @@
     <li>{PAWN_nameShort}的身体保养得相当好；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，足见打理之用心。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份完好如新的气息。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。真是一具精致的身躯。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。真是一具精致的身躯。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具优雅老去的身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Young_female.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Young_male.opinionTexts>
@@ -1890,7 +1880,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份未被触碰的青春之美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。相当刺激。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱诱人身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureFemale_observed_by_Young_male.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureFemale_observed_by_middle_aged_Female.opinionTexts>
@@ -1912,7 +1902,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添魅力。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份未被触碰的美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureFemale_observed_by_middle_aged_Female.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureFemale_observed_by_middle_aged_male.opinionTexts>
@@ -1934,7 +1924,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>她的臀部比例匀称，那紧致的肛门几乎完美隐藏，散发出一份未被触碰的成熟之美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。颇为刺激。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱诱人身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureFemale_observed_by_middle_aged_male.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureFemale_observed_by_voyer.opinionTexts>
@@ -1956,7 +1946,7 @@
     <li>{PAWN_nameShort}的身体是私密的愉悦；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添几分神秘。</li>
     <li>她的臀部比例无可挑剔，那紧致的肛门几乎完美隐藏，散发着一份未被触碰的神秘。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴，勾引着我的目光。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。真是一幕精致的景象。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。真是一幕精致的景象。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，一个含蓄而深深动人的细节。多么难得的发现！</li>
   </Opinion_Anus_Positive_Tight_MatureFemale_observed_by_voyer.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureMale.opinionTexts>
@@ -1978,7 +1968,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的力量感。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具强健有力身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureMale.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureMale_observed_by_Elder_female.opinionTexts>
@@ -2000,7 +1990,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的力量感。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具强健有力身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureMale_observed_by_Elder_female.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureMale_observed_by_Elder_male.opinionTexts>
@@ -2022,7 +2012,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的成熟力量。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。颇为齐整。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具强壮威严身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureMale_observed_by_Elder_male.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureMale_observed_by_Exhibitionist.opinionTexts>
@@ -2044,7 +2034,7 @@
     <li>{PAWN_nameShort}的身体是公开的赏心乐事；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门虽然几乎看不见，却闪着大胆的光芒。</li>
     <li>他的臀部比例无可挑剔，那紧致的肛门几乎被完美地遮掩着，他却能如此优雅地展示出来。真让人感到充满力量。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。看着真叫人欢喜。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造，毫不遮掩地展露在外。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造，毫不遮掩地展露在外。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门。一个被大胆分享给世界的含蓄动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureMale_observed_by_Exhibitionist.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureMale_observed_by_Nymphomaniac.opinionTexts>
@@ -2066,7 +2056,7 @@
     <li>{PAWN_nameShort}的身体有一种深沉的魅惑；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更是令人完全着迷。</li>
     <li>他的臀部比例无可挑剔，那紧致的肛门几乎被完美地遮掩着，让我燃起好奇与渴望。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴，看得我几乎喘不过气。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。令人极其兴奋。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。令人极其兴奋。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，一个含蓄而深深动人的细节，占据了我的全部思绪。</li>
   </Opinion_Anus_Positive_Tight_MatureMale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureMale_observed_by_Prude.opinionTexts>
@@ -2084,11 +2074,11 @@
     <li>{PAWN_nameShort}的臀部的线条凸显出一个雕塑般完美、格外紧实紧致的肛门区域。只不过人选择不去盯着看罢了。</li>
     <li>他的臀部依然饱满，带着那愉悦般紧致而小巧的开口，无可否认地展露在外。相当大胆的穿着选择。</li>
     <li>一瞥之下显出{PAWN_nameShort}的臀部那紧致僵硬的轮廓，肛门一带尤其整齐。这种景象本该是私密的。</li>
-    <li>他臀瓣柔和的隆起展露出一个异常洁净紧致的肛门。尽管是在公开场合被看，这仍是一副干净利落的呈现。</li>
+    <li>他臀瓣柔和的隆起展露出一个异常洁净紧致的肛门。尽管是在公开场合被看，这仍是一副干净利落的姿态。</li>
     <li>{PAWN_nameShort}的身体清晰可见。{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门虽然露着，却依旧整洁。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着。它突然露出来，让人不免遗憾。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。这种情形还是别碰为妙。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以看到那出奇贴合、保养良好的肛门构造。就这样吧。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以看到那出奇贴合、保养良好的肛门构造。就这样吧。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门。一个本该不被人看见的含蓄细节。</li>
   </Opinion_Anus_Positive_Tight_MatureMale_observed_by_Prude.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureMale_observed_by_Young_female.opinionTexts>
@@ -2110,7 +2100,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的年轻之美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。相当刺激。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱诱人身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureMale_observed_by_Young_female.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureMale_observed_by_Young_male.opinionTexts>
@@ -2132,7 +2122,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的年轻气韵。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。相当齐整。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。做得非常好。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。做得非常好。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具强壮身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureMale_observed_by_Young_male.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureMale_observed_by_middle_aged_Female.opinionTexts>
@@ -2154,7 +2144,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的力量感。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具强健有力身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureMale_observed_by_middle_aged_Female.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureMale_observed_by_middle_aged_male.opinionTexts>
@@ -2176,7 +2166,7 @@
     <li>{PAWN_nameShort}的身体相当惊艳；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧、几乎看不见的肛门更添几分引人入胜的魅力。</li>
     <li>他的臀部比例匀称，那紧致的肛门几乎被完美地遮掩着，透出一股未被触碰的成熟之美。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴。颇为刺激。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。非常诱人。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，是一具可爱诱人身体上含蓄而动人的细节。</li>
   </Opinion_Anus_Positive_Tight_MatureMale_observed_by_middle_aged_male.opinionTexts>
   <Opinion_Anus_Positive_Tight_MatureMale_observed_by_voyer.opinionTexts>
@@ -2198,13 +2188,13 @@
     <li>{PAWN_nameShort}的身体是私密的愉悦；{PAWN_possessive}臀部形态完美无瑕，那个紧致小巧的肛门几乎看不见，更添几分神秘。</li>
     <li>他的臀部比例无可挑剔，那紧致的肛门几乎被完美地遮掩着，散发着一股未被触碰的神秘感。</li>
     <li>{PAWN_nameShort}的圆润饱满的臀部完美衬托着那隐秘却明显紧致的后穴，勾引着我的目光。</li>
-    <li>观察 {PAWN_nameShort}的 臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。真是一幕精致的景象。</li>
+    <li>观察 {PAWN_nameShort}的臀部平滑成熟的线条，可以欣赏到那出奇贴合、保养良好的肛门构造。真是一幕精致的景象。</li>
     <li>{PAWN_nameShort}的曲线那精巧的紧实度显出一个紧凑而紧致的肛门，一个含蓄而深深动人的细节。多么难得的发现！</li>
   </Opinion_Anus_Positive_Tight_MatureMale_observed_by_voyer.opinionTexts>
   <Opinion_Anus_Positive_Tight_SlimeAnus.opinionTexts>
     <li>{PAWN_nameShort}的史莱姆肛门，尽管本质胶质，却紧致得出奇、引人入胜，是一处独特的构造奇观。</li>
-    <li>观察 {PAWN_nameShort}的 那史莱姆肛门奇特的紧致，我不由被它异样的、泛着光的紧实吸引。</li>
-    <li>{PAWN_nameShort}的 臀部上那紧凑、紧得出奇的史莱姆肛门，带着一种奇异、无法抗拒的流动魅力。</li>
+    <li>观察 {PAWN_nameShort}的那史莱姆肛门奇特的紧致，我不由被它异样的、泛着光的紧实吸引。</li>
+    <li>{PAWN_nameShort}的臀部上那紧凑、紧得出奇的史莱姆肛门，带着一种奇异、无法抗拒的流动魅力。</li>
     <li>{PAWN_nameShort}的黏液肛门那紧绷、闪亮的褶皱让我心动，如此紧实、柔韧可人。</li>
     <li>{PAWN_nameShort}的胶质般的臀部顶端是一只紧得出人意料的肛门，暗示着一种奇特却令人愉快的克制。</li>
     <li>如此紧得令人不安的黏液肛门，其古怪的流动形态透着原始而湿润的美，竟有种奇异的魅力。</li>
@@ -2219,11 +2209,11 @@
     <li>{PAWN_nameShort}的史莱姆肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致却流动不安的形体。</li>
     <li>{PAWN_nameShort}的紧致小巧的黏液肛门和线条优美的臀部，构成一幅闪亮的优雅与无瑕、异样的美。</li>
     <li>好一个紧致得惊人的黏液肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，以一种滑腻的方式让人肃然起敬、充满神秘。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的史莱姆肛门，几乎像一个隐秘的笑窝，干净诡异却又引人好奇，相当诱人。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的史莱姆肛门，几乎像一个隐秘的笑窝，干净诡异却又引人好奇，相当诱人。</li>
     <li>{PAWN_nameShort}的紧实小巧的史莱姆肛门位置整齐，与{PAWN_possessive}强壮的体格和结实的身体完美相衬，以一种既令人不安又柔韧得美妙的方式。</li>
     <li>真是一个整洁而紧致的黏液肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，是保养良好的标志，尽管其性质与众不同。</li>
     <li>我忍不住注意到那个妙不可言的紧致史莱姆肛门，几乎被{PAWN_nameShort}的臀部有力的隆起藏住，真是值得称道又引人入胜的胶状景象。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的史莱姆肛门，道出一副精致而能干的体态，以一种古怪的黏稠方式看在眼里无比悦目。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的史莱姆肛门，道出一副精致而能干的体态，以一种古怪的黏稠方式看在眼里无比悦目。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙史莱姆肛门补全，我觉得它看着强烈动人、气势逼人，带着一种黏软湿滑的姿态。</li>
     <li>如此洁净而紧实的史莱姆肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，一幅结实、天然却超脱尘世、黏滑的美景。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的黏液肛门相当惹人喜爱，为{PAWN_possessive}强烈的魅力与沉静的尊严增色不少，一种令人不安却又无法否认的吸引。</li>
@@ -2251,11 +2241,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，以一种谦逊而迷人的方式完善了{PAWN_possessive}精致的形体。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅优雅而毫无瑕疵的自然美景。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，可爱极了。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，自有一种含蓄的完美。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，自有一种含蓄的完美。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，是一幅和谐的景象。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，一位温柔的美人。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人而纯洁的景象。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看在眼里无比悦目。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看在眼里无比悦目。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着极度悦目而优雅。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，一幅朴素、天然的美景。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力与温婉的妩媚增色不少。</li>
@@ -2283,11 +2273,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，吸引着我执拗而饥渴的目光。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美，这景象深深唤起了我。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人看得彻底着迷，我感觉到一股炽热。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，让我血脉偾张。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，让我血脉偾张。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，令人着迷的景致撩动我的核心。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，一份让我充满情欲的私人迷恋。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人而情色的景象。我的欲望滋长。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，把我的身体点燃。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，把我的身体点燃。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着强烈动人，几乎令人难以承受。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，那美景让我绷紧了身体。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并在我体内勾起深沉的肉欲。</li>
@@ -2315,11 +2305,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，吸引着我执拗而渴慕的目光，我自己的身体也随之泛起一阵轻柔的酸痛。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美，这景象深深唤起了我，我渴望着这样公开的分享。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人看得彻底着迷，一股强烈的暖意从身体深处散发。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，让我的血脉因暴露的刺激而奔涌。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，让我的血脉因暴露的刺激而奔涌。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，令人着迷的景致撩动我的感官，也鼓励我自己展露一番。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，一份让我充满情欲、并渴望同样被看见的私人迷恋。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人而情色的景象。我的欲望滋长，皮肤因兴奋而发麻。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，用想要效仿的暴露癖冲动把我的身体点燃。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，用想要效仿的暴露癖冲动把我的身体点燃。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着强烈动人，几乎令人难以承受，勾起了我自己也想显露的欲望。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，那美景让我渴望着被看见、被欣赏。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并在我体内勾起深沉肉欲，而我正考虑着自己的当众展示。</li>
@@ -2347,11 +2337,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，吸引着我执拗而饥渴的目光，我自己的身体也随之回应。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美，这景象深深唤起了我，我渴望着暴露。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人看得彻底着迷，我感觉到一股强烈的热意从胯下散发。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，让我血脉偾张、身体焦躁。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，让我血脉偾张、身体焦躁。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，令人着迷的景致撩动我的核心，也鼓励我自己展露一番。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，一份让我充满情欲与被观看渴望的私人迷恋。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人而情色的景象，它让我的欲望滋长，皮肤阵阵发麻。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，用暴露癖的冲动把我的身体点燃。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，用暴露癖的冲动把我的身体点燃。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着强烈动人，几乎令人难以承受，勾起了我自己也想展示一番的欲望。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，那美景让我绷紧，渴望被人看见。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并在我体内勾起深沉肉欲，而我正考虑着自己的展示。</li>
@@ -2379,11 +2369,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，以一股压倒性的渴望让我疯狂。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美，激起一股无法控制、强硬的需求。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人彻底着迷，我的身体因期待而颤抖。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，让我因狂野的欲念而窒息。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，让我因狂野的欲念而窒息。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，以无法抗拒的引力招我靠近。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，让我激情高涨到无法忍受。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人而情色的景象，它索要满足。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，把我整个人点燃。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，把我整个人点燃。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着强烈动人，那份诱惑几乎令人难以承受。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，那美景让我因欲望而绷紧。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并在我体内勾起深沉肉欲，一团熊熊烈焰。</li>
@@ -2411,11 +2401,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，以一股压倒性的渴望让我疯狂，我的身体一阵酥麻。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美，激起一股无法控制、强硬的需求，在我全身回荡。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人彻底着迷，我的身体因期待而颤抖，外阴湿润。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，让我因狂野的欲念而窒息，我整个女性之身都苏醒过来。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，让我因狂野的欲念而窒息，我整个女性之身都苏醒过来。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，以无法抗拒的磁性引力把我朝她拉近。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，让我激情高涨到无法忍受，我必须得到{PAWN_objective}。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人而情色的景象，它索要我身体的满足。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，用渴望把我整个人点燃。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，用渴望把我整个人点燃。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着强烈动人，几乎令人难以承受，而我女性的部位隐隐作痛。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，那美景让我因欲望与灼热的内火而绷紧。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并在我体内勾起深沉肉欲，一团尖叫着要释放的熊熊烈焰。</li>
@@ -2443,11 +2433,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，以一股压倒性的渴望让我疯狂，我的身体酥麻而湿润。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅男性优雅与无瑕之美，激起一股无法控制、强硬的需求，为他而在我全身回荡。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人彻底着迷，我的身体因期待而颤抖，外阴湿润而渴望。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，让我因狂野的欲念而窒息，我整个女性之身都为他而苏醒。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，让我因狂野的欲念而窒息，我整个女性之身都为他而苏醒。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，以无法抗拒的磁性引力把我朝他拉近。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，让我激情高涨到无法忍受，我现在必须得到{PAWN_objective}。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人而情色的景象，它索要我与他共赴云雨的满足。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，用对他的渴望把我整个人点燃。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，用对他的渴望把我整个人点燃。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着强烈动人，几乎令人难以承受，而我女性的部位为他隐隐作痛。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，那美景让我因欲望和他带来的灼热内火而绷紧。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并在我体内勾起深沉肉欲，一团尖叫着要与他一同释放的熊熊烈焰。</li>
@@ -2475,11 +2465,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，以一股压倒性的渴望让我疯狂，我的勃起紧绷。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美，激起一股无法控制、强硬的需求，我坚硬的茎身随之响应。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人彻底着迷，我的身体因期待而颤抖，睾丸一阵紧缩。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，让我因狂野的欲念而窒息，我的阴茎酸胀难耐。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，让我因狂野的欲念而窒息，我的阴茎酸胀难耐。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，以无法抗拒的引力招我靠近，我的勃起不容否认。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，让我激情高涨到无法忍受，我必须得到{PAWN_objective}。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人而情色的景象，它索要满足，也索要我这根硬挺的茎身。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，把我整个人点燃，我渴望挺动。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，把我整个人点燃，我渴望挺动。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着强烈动人，几乎令人难以承受，我的胯下阵阵搏动。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，那美景让我因欲望而绷紧，我的勃起执拗难消。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并在我体内勾起深沉肉欲，在我下身燃起熊熊烈焰。</li>
@@ -2507,11 +2497,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，以一股压倒性的渴望让我疯狂，我的勃起紧绷而搏动。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美，激起一股无法控制、强硬的需求，我坚硬的茎身高声响应。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人彻底着迷，我的身体因期待而颤抖，睾丸因欲望而紧缩。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，让我因狂野的欲念而窒息，我的阴茎酸胀地渴求插入。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，让我因狂野的欲念而窒息，我的阴茎酸胀地渴求插入。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，以无法抗拒的引力招我靠近，我的勃起硬得不容否认，蓄势待发。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，让我激情高涨到无法忍受，我现在必须得到{PAWN_objective}。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人而情色的景象，它索要我这根硬挺茎身的满足。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，把我整个人点燃，我渴望挺入他体内。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，把我整个人点燃，我渴望挺入他体内。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着强烈动人，几乎令人难以承受，我的胯下因渴求而阵阵搏动。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，那美景让我因欲望而绷紧，我的勃起绷得发疼。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并在我体内勾起深沉肉欲，为他而在我下身燃起熊熊烈焰。</li>
@@ -2529,12 +2519,12 @@
     <li>作为一个私密部位，{PAWN_nameShort}的紧致的肛门……出奇地紧实。还不算太碍眼。</li>
     <li>肛门很紧。好，我说出来了。我又不是在欣赏它，只是陈述一个关于{PAWN_nameShort}的事实。</li>
     <li>确实是个紧致的肛门。倒不是我在看，但那份明显缺乏的……松弛，实在让人没法忽略。</li>
-    <li>人观察着 {PAWN_nameShort}的 的臀部。肛门很紧致。我想，它算实用。没什么好说的了。</li>
+    <li>有人观察着 {PAWN_nameShort}臀部。肛门很紧致。我想，它算实用。没什么好说的了。</li>
     <li>嗯，作为一个肛门来说，倒不算难看。那份紧致……从医学上讲很健康。</li>
     <li>{PAWN_nameShort}的肛门很紧。这总比相反的情况好。算是小小的恩赐。</li>
     <li>我想{PAWN_nameShort}的肛门的紧致值得称赞。它暗示着一种……一种秩序感，大概吧。</li>
     <li>肛门……很紧。非常紧。紧得几乎带着攻击性，这……也算是个特点吧。</li>
-    <li>人无法忽视 {PAWN_nameShort}的 肛门那……明显的紧致。我想，那是个引人注目的特征。</li>
+    <li>人无法忽视 {PAWN_nameShort}的肛门那……明显的紧致。我想，那是个引人注目的特征。</li>
     <li>{PAWN_nameShort}的紧致的肛门相当显眼。可以说，这是一种颇为*整洁*的臀部呈现。</li>
     <li>嗯。没错，{PAWN_nameShort}的肛门确实紧致。麻烦少一点，大概吧。</li>
     <li>它很紧。非常紧。甚至可以说……紧得惊人。但我不会这么说。</li>
@@ -2571,11 +2561,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，吸引着我执拗的目光。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美，一幅值得珍惜的景象。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人看得彻底着迷。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，令人着迷的景致。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，一份私人迷恋。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人的景象。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着强烈动人。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，真是一幅美景。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并勾起深沉的迷恋。</li>
@@ -2603,11 +2593,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，吸引着我执拗而渴慕的目光。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美，这景象点燃了我自己的幻想。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人看得彻底着迷，我心中涌起深深的渴望。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，撩起我身为女性的好奇。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，撩起我身为女性的好奇。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，令人着迷的景致点起我自身的肉欲。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，一份让我脸红的私人迷恋。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人而情色的景象，撩动了我体内的燥热。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，把我的欲望点燃。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，把我的欲望点燃。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着强烈动人，几乎到了压倒性的地步。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，那美景让我微微颤抖。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并在我体内勾起深沉的亲密欲望。</li>
@@ -2635,11 +2625,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，吸引着我执拗而渴慕的目光，我的女性之处也随之回应。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅男性优雅与无瑕之美，这景象深深唤起了我，我渴望着这样的亲密。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人看得彻底着迷，一股强烈的暖意流遍全身。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，让我的血脉因一阵刺激而奔涌。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，让我的血脉因一阵刺激而奔涌。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，令人着迷的景致撩动我的感官，唤起一份私密的渴望。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，一份让我充满欲望的私人迷恋。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人而情色的景象。我对他的欲望愈发强烈。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，用亲密的念头把我的身体点燃。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，用亲密的念头把我的身体点燃。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着强烈动人，几乎到了压倒性的地步。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，那美景让我因期待而微微颤抖。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并在我体内勾起深沉的亲密欲望。</li>
@@ -2667,11 +2657,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，吸引着我执拗而饥渴的目光。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美，这景象深深唤起了我。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人看得彻底着迷，我感觉到一股炽热。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，让我血脉偾张。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，让我血脉偾张。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，令人着迷的景致撩动我的核心。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，一份让我充满情欲的私人迷恋。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人而情色的景象。我的欲望滋长。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，把我的身体点燃。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，把我的身体点燃。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着强烈动人，几乎令人难以承受。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，那美景让我绷紧了身体。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并在我体内勾起深沉的肉欲。</li>
@@ -2699,11 +2689,11 @@
     <li>{PAWN_nameShort}的肛门那精巧的紧绷不过是个几乎难以察觉的特征，却完善了{PAWN_possessive}精致的形体，吸引着我执拗而饥渴的目光，我自己的胯间沉甸甸的。</li>
     <li>{PAWN_nameShort}的紧致小巧的肛门和线条优美的臀部，构成一幅青春优雅与无瑕之美，这景象深深唤起了我，我渴望着靠得更近。</li>
     <li>好一个紧致得惊人的肛门；它含蓄的存在更衬托出{PAWN_nameShort}的臀部的天然弧线，让人看得彻底着迷，我感觉到一股强烈的热意从身体深处散发。</li>
-    <li>{PAWN_nameShort}的 浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，让我的血脉因肉欲而奔涌。</li>
+    <li>{PAWN_nameShort}的浑圆的臀部上那紧致讨喜的肛门，几乎像一个隐秘的笑窝，相当诱人，一颗隐秘的珍宝，让我的血脉因肉欲而奔涌。</li>
     <li>{PAWN_nameShort}的紧实小巧的肛门位置整齐，与{PAWN_possessive}纤细的腰肢和曲线优美的臀部完美相衬，令人着迷的景致撩动我的核心，点燃我的饥渴。</li>
     <li>真是一个整洁而紧致的肛门，藏得很好，为{PAWN_nameShort}健康动人的外表增色，一份让我充满情欲与强烈冲动的私人迷恋。</li>
     <li>我忍不住注意到那个妙不可言的紧致肛门，几乎被{PAWN_nameShort}的臀部讨喜的隆起藏住，真是迷人而情色的景象。我的心每跳一下，欲望就更盛一分。</li>
-    <li>{PAWN_nameShort}的 曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，用男性的渴望把我的身体点燃。</li>
+    <li>{PAWN_nameShort}的曲线优美的臀部上那紧凑、几乎看不见的肛门，道出一副精致纤巧的体态，看上去无比诱人，用男性的渴望把我的身体点燃。</li>
     <li>{PAWN_nameShort}的雕琢精美的臀部，由那紧致含蓄的美妙肛门补全，我觉得它看着强烈动人，那完美几乎令人难以承受。</li>
     <li>如此洁净而紧实的肛门，小巧紧致，真正衬托出{PAWN_nameShort}的身体的优雅线条，那美景让我因欲望和一股强烈的冲动而绷紧。</li>
     <li>我觉得{PAWN_nameShort}的紧致得几乎难以察觉的肛门相当惹人喜爱，为{PAWN_possessive}青春的魅力增色不少，并在我体内勾起深沉肉欲，在我下身燃起熊熊烈焰。</li>
@@ -2788,7 +2778,7 @@
     <li>早就见惯了；那对乳房不过是中等大小，而且上了年纪。</li>
     <li>又一对被时间重重刻下痕迹的乳房，彻底乏善可陈。</li>
     <li>晃动全无，形态也相当呆板干瘪。</li>
-    <li>如今 {PAWN_nameShort}的 的乳房毫无出众之处。</li>
+    <li>如今 {PAWN_nameShort}乳房毫无出众之处。</li>
     <li>非常常见、激不起兴趣又令人扫兴的成熟展示。</li>
     <li>它们不过是乳房，再没什么可称道的了。</li>
     <li>看到那对衰老的中等乳房，我毫不意外。</li>
@@ -2832,7 +2822,7 @@
     <li>{PAWN_pronoun}根本不该炫耀那对可怜的乳房。</li>
     <li>让我想要展示自己的，让{PAWN_objective}看看什么才叫本事。</li>
     <li>如此乏味的展示；{PAWN_pronoun}就该把它们遮起来。</li>
-    <li>{PAWN_nameShort}的 那中等的、暴露的胸部实在没什么“劲儿”。</li>
+    <li>{PAWN_nameShort}的那中等的、暴露的胸部实在没什么“劲儿”。</li>
     <li>光是露在外面，还不足以让它们变得有趣。</li>
     <li>这胸部白露了；一点冲击力都没有。</li>
     <li>老实说，我自己的那对远更值得关注。</li>
@@ -2847,12 +2837,12 @@
     <li>看着那对衰老的中等乳房，我毫无感觉。不过是两团肉而已，毫无情色吸引力。</li>
     <li>真令人失望。{PAWN_nameShort}的乳房挑不起任何肉欲的念头。它们只是……干瘪了。</li>
     <li>它们的形态毫无吸引力，乳晕太苍白、太松弛。{PAWN_nameShort}的乳房实在没有一点让我兴奋的地方。</li>
-    <li>观察了 {PAWN_nameShort}的 的胸部，毫无触动。那对乳房平淡无奇，给不了任何快感的承诺。</li>
+    <li>观察了 {PAWN_nameShort}胸部，毫无触动。那对乳房平淡无奇，给不了任何快感的承诺。</li>
     <li>老实说，这对衰老的中等乳房就是浪费皮肉。完全激不起我这慕男狂的冲动。</li>
     <li>真是一幅毫无灵感的景象。{PAWN_nameShort}的乳房没有任何能让我渴望{PAWN_objective}的特质。</li>
     <li>它们只是……上了年纪的乳房。没什么能吸引我目光的。</li>
     <li>完全索然无味，那对乳房无聊透顶。</li>
-    <li>{PAWN_nameShort}的 苍老的胸部带不来半点情欲。</li>
+    <li>{PAWN_nameShort}的苍老的胸部带不来半点情欲。</li>
     <li>那对毫无吸引力的乳房，未能挑动我的欲望。</li>
     <li>真是乏味的景象，毫无刺激可言。</li>
     <li>{PAWN_pronoun}的乳房完全令人记不住，而且已经老了。</li>
@@ -2985,12 +2975,12 @@
     <li>一瞥之下只见一幕可悲的下垂景象。</li>
     <li>那对干枯的乳房没什么值得观察的。</li>
     <li>谈不上刺激；那对老年乳房完全让人过目即忘。</li>
-    <li>观察了 {PAWN_nameShort}的 的乳房，只感到遗憾。</li>
+    <li>观察了 {PAWN_nameShort}乳房，只感到遗憾。</li>
     <li>它们的形态，哪怕对我这样好奇的眼光来说也毫无趣味。</li>
     <li>匆匆一瞥，已经恶心了。简直超乎寻常。</li>
     <li>不值得费那个劲；只是两团乏味而毫无魅力的肉块。</li>
     <li>那对可见的乳房毫无兴奋感，只是平平无奇却又令人不安的一幕。</li>
-    <li>一次糟糕的呈现；那对乳房就那样垂着，毫无生气。</li>
+    <li>一次糟糕的姿态；那对乳房就那样垂着，毫无生气。</li>
     <li>如此老迈、毫无刺激的展示。</li>
   </Opinion_Breasts_Negative_Average_ElderFemale_observed_by_voyer.opinionTexts>
   <Opinion_Breasts_Negative_Average_Elderly_Female_opinion.opinionTexts>
@@ -3062,7 +3052,7 @@
     <li>{PAWN_nameShort}的乳房提醒着昔日一切多么简单；毫不出奇。</li>
     <li>呸，又是一对毫无灵气的乳房。我见过的粮袋都比这气派。</li>
     <li>{PAWN_nameShort}的胸部像田间的普通石头一样让人过目即忘。</li>
-    <li>没有特色，没有分量。{PAWN_nameShort}的 的乳房只是……在那儿。</li>
+    <li>没有特色，没有分量。{PAWN_nameShort}乳房只是……在那儿。</li>
     <li>青春的懵懂，展示着如此平淡的形态。{PAWN_nameShort}的乳房真是乏味。</li>
     <li>我记得从前的乳房有形有韵。而这一对只是中等水平。</li>
     <li>平淡的展示。{PAWN_nameShort}的乳头毫无看头。</li>
@@ -3084,7 +3074,7 @@
     <li>{PAWN_nameShort}的乳头毫无特色；完全留不下记忆。</li>
     <li>这对年轻的乳房在平庸之中完美得过分，几乎像人造的。</li>
     <li>它们缺少历史，缺少真正乳房所讲述的故事。只是平淡。</li>
-    <li>人看过 {PAWN_nameShort}的 的乳房后转眼就会忘掉。</li>
+    <li>人看过 {PAWN_nameShort}乳房后转眼就会忘掉。</li>
     <li>真是一对毫无灵感的乳房，{PAWN_nameShort}的乳房吸引不了任何注意。</li>
     <li>我在{PAWN_nameShort}的形态中看不到艺术，只有一副标准而毫无吸引力的形状。</li>
     <li>{PAWN_nameShort}的乳房是庸俗审美标准的一个可悲写照。</li>
@@ -3190,7 +3180,7 @@
     <li>早就见惯了；那对乳房不过是中等大小。</li>
     <li>又一对被时间刻下痕迹的乳房，乏善可陈。</li>
     <li>晃动全无，形态也相当呆板。</li>
-    <li>{PAWN_nameShort}的 的乳房毫无出众之处。</li>
+    <li>{PAWN_nameShort}乳房毫无出众之处。</li>
     <li>非常常见、激不起兴趣的成熟展示。</li>
     <li>它们不过是乳房，没什么可称道的。</li>
     <li>看到那对中等的乳房，我毫不意外。</li>
@@ -3234,7 +3224,7 @@
     <li>{PAWN_pronoun}根本不该炫耀那对乏味的乳房。</li>
     <li>让我想要展示自己的，让{PAWN_objective}看看什么才叫本事。</li>
     <li>如此乏味的展示；{PAWN_pronoun}就该把它们遮起来。</li>
-    <li>{PAWN_nameShort}的 那中等的、暴露的胸部实在没什么“劲儿”。</li>
+    <li>{PAWN_nameShort}的那中等的、暴露的胸部实在没什么“劲儿”。</li>
     <li>光是露在外面，还不足以让它们变得有趣。</li>
     <li>这胸部白露了；一点冲击力都没有。</li>
     <li>老实说，我自己的那对远更值得关注。</li>
@@ -3249,12 +3239,12 @@
     <li>看着那对中等的乳房，我毫无感觉。不过是两团肉而已，毫无情色吸引力。</li>
     <li>真令人失望。{PAWN_nameShort}的乳房挑不起任何肉欲的念头。它们只是……存在着。</li>
     <li>它们的形态毫无吸引力，乳晕太苍白。{PAWN_nameShort}的乳房实在没有一点让我兴奋的地方。</li>
-    <li>观察了 {PAWN_nameShort}的 的胸部，毫无触动。那对乳房平淡无奇，给不了任何快感的承诺。</li>
+    <li>观察了 {PAWN_nameShort}胸部，毫无触动。那对乳房平淡无奇，给不了任何快感的承诺。</li>
     <li>老实说，这对中等的乳房就是浪费皮肉。完全激不起我这慕男狂的冲动。</li>
     <li>真是一幅毫无灵感的景象。{PAWN_nameShort}的乳房没有任何能让我渴望{PAWN_objective}的特质。</li>
     <li>它们只是……乳房。没什么能吸引我目光的。</li>
     <li>完全索然无味，那对乳房无聊透顶。</li>
-    <li>{PAWN_nameShort}的 中等的胸部带不来半点情欲。</li>
+    <li>{PAWN_nameShort}的中等的胸部带不来半点情欲。</li>
     <li>那对毫无吸引力的乳房，未能挑动我的欲望。</li>
     <li>真是乏味的景象，毫无刺激可言。</li>
     <li>{PAWN_pronoun}的乳房完全令人记不住。</li>

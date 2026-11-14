@@ -1,40 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!--
-    ═══════════════════════════════════════════════════════════════
-    情境看法·正文 简体中文汉化
-    ═══════════════════════════════════════════════════════════════
-    这是什么？
-      这是《边缘世界》的翻译文件。作用是把游戏里的英文文本换成中文。
-
-    每一行长这样：
-        <某条目的名字.opinionTexts.序号>中文译文</某条目的名字.opinionTexts.序号>
-      前半截尖括号里的东西叫「键名」，是游戏用来查找的索引；
-      后半截是实际显示给玩家看的中文。
-
-    为什么一条条写，而不是整个列表一起写？
-      因为游戏规定：这种「列表」类型的文本，只允许逐条替换，
-      不允许改变列表长度。所以必须一条原文对应一条译文。
-
-    ★ 修改时请务必注意：
-      1. 尖括号里的键名一个字都不能改，改了游戏就找不到了。
-      2. 译文里的 {...} 是游戏占位符（会自动变成人名、性别等），必须保留。
-      3. 译文里的方括号 [...] 同理，也是游戏要替换的内容，必须保留。
-      4. 键盘上的 & < > 三个符号如果出现在译文里，必须写成
-         &amp; &lt; &gt;，否则文件会损坏、整个文件失效。
-      5. 本文件共 2993 条。
-    ═══════════════════════════════════════════════════════════════
-  -->
+  
   <IwasSeen_realtions_inPublic_Spouse_Female_Negative.opinionTexts>
     <li>{OBSERVER_nameShort}看到我赤裸。我真希望{OBSERVER_pronoun}没有看到。感觉像是隐私被侵犯，即便对方是{OBSERVER_objective}。</li>
     <li>{OBSERVER_nameShort}看到我那副样子，我羞愧难当。我以为自己更懂得分寸，哪怕是在{OBSERVER_objective}面前。</li>
@@ -742,7 +708,7 @@
     <li>{PAWN_subjective}走过时，我瞥见了{PAWN_nameShort}的乳房，{PAWN_possessive}那小小的隆起几乎看不出来，我继续想自己的事，毫不在意。</li>
     <li>我朝{PAWN_nameShort}的方向望去，看见{PAWN_possessive}乳房袒露着，{PAWN_possessive}小巧的乳头清晰可见，但那并不显得有什么不寻常。</li>
     <li>我望向{PAWN_nameShort}，把{PAWN_possessive}衣衫半解的模样尽收眼底，包括{PAWN_possessive}暴露的乳房，但这并没在我心中激起任何强烈的情绪或反应，只是一件稀松平常的事。</li>
-    <li>注意到 {PAWN_nameShort}的 半褪衣衫的样子，我随意一瞥，看清了 {PAWN_possessive} 露在外面的小巧乳房。</li>
+    <li>注意到 {PAWN_nameShort}的半褪衣衫的样子，我随意一瞥，看清了 {PAWN_possessive} 露在外面的小巧乳房。</li>
     <li>当{PAWN_subjective}闲步走过时，我观察着{PAWN_nameShort}的小巧赤裸的乳房，可它并未在我心中激起任何情绪反应。</li>
     <li>看着{PAWN_nameShort}时，我不由注意到{PAWN_possessive}露出的乳房之小，但我很快把目光移开了。</li>
     <li>我随意打量了一下{PAWN_nameShort}的衣着状况，留意到{PAWN_possessive}小巧而未遮挡的乳房，却仍保持着疏离与无动于衷。</li>
@@ -775,7 +741,7 @@
     <li>{PAWN_nameShort}的外露的乳房是我懒得应付的干扰，就像鞋里的一颗小石子。</li>
     <li>我忍不住盯着{PAWN_nameShort}的赤裸的胸部，一阵恶心涌上来，像是无意中尝到了苦东西。</li>
     <li>我的目光被{PAWN_nameShort}的裸露的乳房吸引，但那只让我觉得尴尬，像是无意间撞见了别人的私事。</li>
-    <li>看见 {PAWN_nameShort}的 赤裸的胸部，让我感到不适，像是在侵犯某种私密而个人的东西。</li>
+    <li>看见 {PAWN_nameShort}的赤裸的胸部，让我感到不适，像是在侵犯某种私密而个人的东西。</li>
   </Saw_female_breasts_NTTC_breasts_focus_nipples_tiny_small_Prude_Negative.opinionTexts>
   <Saw_female_breasts_NTTC_breasts_focus_nipples_tiny_small_Voyer_Positive.opinionTexts>
     <li>我偶然撞见{PAWN_nameShort}，{PAWN_subjective}从拐角后走出来，露出{PAWN_possessive}迷人的赤裸胸口。看到{PAWN_possessive}小巧的乳房，我呼吸一滞，{PAWN_possessive}妩媚是一份令人愉快的惊喜。</li>
@@ -918,7 +884,7 @@
     <li>{PAWN_nameShort}的敞露的胸口让我吃了一惊——我看到{PAWN_possessive}正用胳膊去遮那对巨乳，可凭那副体积和形状，这努力根本徒劳。</li>
   </Saw_female_breasts_TTC_breasts_focus_large_huge_enormous_Prude_Negative.opinionTexts>
   <Saw_female_breasts_TTC_breasts_focus_large_huge_enormous_Voyer_Positive.opinionTexts>
-    <li>我色眯眯地盯着{PAWN_nameShort}的胸部，目光锁定在那对仿佛就要挣出{PAWN_possessive}掌心的巨大乳房上。{PAWN_possessive}那对硕大、乳白的圆球随着每一步颤动摇晃，看着这景象我不由得一阵兴奋。{PAWN_possessive}巨大的乳头从{PAWN_possessive}指缝间探出，以自身的存在撩拨着我。</li>
+    <li>我色眯眯地盯着{PAWN_nameShort}的胸部，目光锁定在那对仿佛就要挣出{PAWN_possessive}掌心的巨大乳房上。{PAWN_possessive}那对硕大、乳白的圆球随着每一步颤动摇晃，看着这景象我不由得一阵兴奋。{PAWN_possessive}巨大的乳头从{PAWN_possessive}指缝间探出，光是露在那儿就撩得我心痒。</li>
     <li>我看着{PAWN_nameShort}的裸露的胸部时，一阵性唤起涌了上来。{PAWN_possessive}乳房实在巨大，随时都要从{PAWN_possessive}双手间溢出来。我出神地看着{PAWN_subjective}费力地遮掩，{PAWN_possessive}硕大的浑圆随着每一步跳动摇晃。</li>
     <li>我被{PAWN_nameShort}的那对巨乳的景象迷住了，它们仿佛在挣抗{PAWN_possessive}遮掩。{PAWN_possessive}那两团硕大的圆球看似随时要从{PAWN_possessive}掌中迸出，我看得入神。{PAWN_possessive}乳头从{PAWN_possessive}指缝间探出来，像在邀我凑近细看。</li>
     <li>我贪婪地饱览{PAWN_nameShort}的袒露的胸部，目光在那一对仿佛要从{PAWN_possessive}掌中溢出的巨乳上游移。{PAWN_possessive}那对硕大乳白的圆球随着每一步颤动摇摆，看着看着，一股欲望涌了上来。{PAWN_possessive}巨大的乳头像灯塔般闪耀，以自身的诱惑把我牢牢吸住。</li>
@@ -1668,11 +1634,11 @@
     <li>朝 {PAWN_nameShort} 那边张望，我看见 {PAWN_possessive} 用手捂着自己暴露的下体，努力想遮住那惊人的尺寸。说真的，那景象挺滑稽。</li>
     <li>我偷瞄了{PAWN_nameShort}一眼，{PAWN_possessive}一只手敷衍地遮着那处醒目的大阴道。{PAWN_possessive}想维持体面的努力完全徒劳，让我又怜悯又好笑。</li>
     <li>当{PAWN_nameShort}走近我，{PAWN_possessive}费力地想用{PAWN_possessive}手遮住{PAWN_possessive}突出的阴道，这一幕没能逃过我的眼睛。那开口之大，根本不是{PAWN_subjective}一个简单动作就能遮得住的。</li>
-    <li>{PAWN_nameShort}的 走近并没有逃过我的注意，{PAWN_subjective} 遮住 {PAWN_possessive} 过大的阴道，想维持几分体面。可 {PAWN_possessive} 那份羞怯，显然被 {PAWN_possessive} 生殖器那逼人的尺寸彻底出卖了。</li>
+    <li>{PAWN_nameShort}的走近并没有逃过我的注意，{PAWN_subjective} 遮住 {PAWN_possessive} 过大的阴道，想维持几分体面。可 {PAWN_possessive} 那份羞怯，显然被 {PAWN_possessive} 生殖器那逼人的尺寸彻底出卖了。</li>
     <li>我偷偷瞄了{PAWN_nameShort}一眼，{PAWN_subjective}正想用双手挡住自己那大张的阴道，可它尺寸相当可观，{PAWN_possessive}努力只是徒劳。</li>
     <li>我的目光游向{PAWN_nameShort}——正笨拙地试图遮住{PAWN_possessive}裸露的阴道，{PAWN_possessive}手几乎盖不住{PAWN_possessive}阴唇上那片晕色。</li>
     <li>{PAWN_subjective}朝我走来时挪动重心，{PAWN_nameShort}的想遮住{PAWN_possessive}硕大阴道的徒劳尝试并没有逃过我的眼睛。</li>
-    <li>张望过去，我看见 {PAWN_nameShort}的 双手未能完全遮住 {PAWN_possessive} 那鼓胀的阴道，{PAWN_subjective} 朝我走来，浑身散发着尴尬的气息。</li>
+    <li>张望过去，我看见 {PAWN_nameShort}的双手未能完全遮住 {PAWN_possessive} 那鼓胀的阴道，{PAWN_subjective} 朝我走来，浑身散发着尴尬的气息。</li>
     <li>我的目光锁定在{PAWN_nameShort}身上，{PAWN_subjective}正努力用颤抖的手指掩住{PAWN_possessive}宽阔的阴道，可每走一步，露出的都比遮住的多。</li>
     <li>我发现{PAWN_nameShort}有气无力地单手遮着那巨大的阴道，可它实在太庞大，仍旧露在外面，{PAWN_possessive}努力全是徒劳。</li>
     <li>{PAWN_subjective}走近时，{PAWN_nameShort}的双手软弱无力地遮着{PAWN_possessive}充血肿胀的阴道，可那庞大的体积还是从指缝间露了出来。</li>
@@ -1916,7 +1882,7 @@
     <li>{PAWN_nameShort}的裸体真是赏心悦目，我的目光忍不住停留在{PAWN_possessive}双腿间那突出的形状上，一阵欲望涌遍全身。</li>
     <li>看到{PAWN_nameShort}的阴茎，我一阵兴奋——它中等的大小与比例在我心里激起好奇与兴趣。</li>
     <li>我看着{PAWN_nameShort}的，看到{PAWN_possessive}赤裸的身体，不由得生出一种惊叹——{PAWN_possessive}阴茎在{PAWN_possessive}光滑的皮肤上显得那样醒目。</li>
-    <li>当我凝视 {PAWN_nameShort}的 的阴茎，它中等的尺寸和温和的形状让我充满性唤起与渴望，我的呼吸卡在了喉咙里。</li>
+    <li>当我凝视 {PAWN_nameShort}阴茎，它中等的尺寸和温和的形状让我充满性唤起与渴望，我的呼吸卡在了喉咙里。</li>
     <li>当我瞥见{PAWN_nameShort}的赤裸的身形时，一簇吸引的火花在我心中点燃，我的目光被{PAWN_possessive}双腿间那迷人的形状所牵引。</li>
     <li>当我凝视{PAWN_nameShort}的阴茎时，我感到脉搏加快，其中等的尺寸与比例让一阵战栗传遍我全身。</li>
     <li>{PAWN_nameShort}的裸体是一幅男性美的景象，我的目光忍不住停留在{PAWN_possessive}双腿间那诱人的形状上，让我充满欲望。</li>
@@ -1949,7 +1915,7 @@
     <li>我从隐蔽的观察点看着{PAWN_nameShort}赤身裸体地走来走去，{PAWN_possessive}阴茎随着每一步轻轻晃动，一阵战栗掠过我的全身。</li>
     <li>我偷看{PAWN_nameShort}，目光定在{PAWN_possessive}双腿间那迷人的形状上——它似乎成了我注意力的中心——我一阵兴奋。</li>
     <li>我暗中观察着{PAWN_nameShort}，不由得注意到{PAWN_possessive}阴茎仿佛天生就是{PAWN_possessive}身体的一部分，随着{PAWN_possessive}每一个步伐与动作一同摆动。</li>
-    <li>我这偷窥的目光牢牢钉在 {PAWN_nameShort}的 的裸体上，尤其是 {PAWN_possessive} 双腿之间那诱人的形状，仿佛在招手让我凑近细看。</li>
+    <li>我这偷窥的目光牢牢钉在 {PAWN_nameShort}裸体上，尤其是 {PAWN_possessive} 双腿之间那诱人的形状，仿佛在招手让我凑近细看。</li>
     <li>看着{PAWN_nameShort}赤身裸体地走动，我涌起一阵禁忌的兴奋，眼睛饱览着{PAWN_possessive}阴茎——它仿佛是男性美的极致。</li>
   </Saw_male_naked_NTTC_penis_focus_average_Voyer_Positive.opinionTexts>
   <Saw_male_naked_NTTC_penis_focus_large_huge_Negative.opinionTexts>
@@ -1980,7 +1946,7 @@
     <li>我观察着{PAWN_nameShort}的赤裸的身体，目光落在{PAWN_possessive}颇为可观的阴茎上，它似乎不过是{PAWN_possessive}整体构造中的一部分，我只是以抽离的观察心态记下了这一点。</li>
     <li>我看着{PAWN_nameShort}的裸露的模样，目光落在{PAWN_possessive}阴茎上——那尺寸明显相当可观，是一个似乎只属于{PAWN_subjective}本身的生理特征，不带任何特别的情感含义或共鸣。</li>
     <li>我看到{PAWN_nameShort}赤身裸体，注意到{PAWN_possessive}颇为可观的阴茎，却毫无感觉。</li>
-    <li>注意到 {PAWN_nameShort}的 硕大的阴茎，我冷眼旁观 {PAWN_possessive} 赤身走动的样子。</li>
+    <li>注意到 {PAWN_nameShort}的硕大的阴茎，我冷眼旁观 {PAWN_possessive} 赤身走动的样子。</li>
     <li>我打量着{PAWN_nameShort}的裸露的身体，目光落在{PAWN_possessive}中等尺寸的阴茎上，带着淡淡的兴趣。</li>
     <li>我瞥了一眼{PAWN_nameShort}的身体，承认{PAWN_possessive}那阳具确实可观，但我并不怎么在意。</li>
     <li>我看见{PAWN_nameShort}的赤裸的身体，留意到{PAWN_possessive}颇为可观的男根，并不在意。</li>
@@ -1998,7 +1964,7 @@
     <li>看着{PAWN_nameShort}的雄壮的身躯，{PAWN_possessive}巨大的鸡巴像旗杆一样向上挺立，我眼眶发酸，头晕目眩。</li>
     <li>我把{PAWN_nameShort}的赤裸的身体收入眼底，不由艰难地咽了口口水；{PAWN_possessive}布满筋络的茎身仿佛自有生命般搏动着，让我不由自主地直流口水。</li>
     <li>当我看着{PAWN_nameShort}赤身裸体地踱来踱去，{PAWN_possessive}巨大的阴茎随着每一步摇来晃去，活像一只打着节拍的节拍器时，一阵寒颤沿着我的脊背滑下。</li>
-    <li>当我看到 {PAWN_nameShort}的 天赋异禀的身形，{PAWN_possessive} 阴茎像个闪亮、不可屈服的存有，仿佛在命令我的注意与赞叹，我的呼吸卡在了喉咙里。</li>
+    <li>当我看到 {PAWN_nameShort}的天赋异禀的身形，{PAWN_possessive} 阴茎像个闪亮、不可屈服的存有，仿佛在命令我的注意与赞叹，我的呼吸卡在了喉咙里。</li>
   </Saw_male_naked_NTTC_penis_focus_large_huge_Positive.opinionTexts>
   <Saw_male_naked_NTTC_penis_focus_large_huge_Prude_Negative.opinionTexts>
     <li>我瞥见了{PAWN_nameShort}的赤裸的身躯，目光不由自主地被那过大的附肢吸引，它似乎要求过多的关注，却只让我觉得乏善可陈。</li>
@@ -2320,7 +2286,7 @@
   <Saw_male_penis_NTTC_penis_focus_average_Neutral.opinionTexts>
     <li>我观察着信步走过的{PAWN_nameShort}，{PAWN_possessive}下半身赤裸，露出{PAWN_possessive}中等尺寸的阴茎，尽显其不起眼的风采，其曲线与褶皱短暂地吸引了我的注意。</li>
     <li>我度过这一天时，我的目光落在{PAWN_nameShort}身上，{PAWN_subjective}半裸着，若无其事地展示{PAWN_possessive}平淡却分明的阴茎，那柔和的形状短暂地俘获了我的目光。</li>
-    <li>我随意的一瞥扫过 {PAWN_nameShort}的 的身形，看到 {PAWN_possessive} 未遮掩的阴茎，它中等的尺寸和不起眼的外表，一切都只是一次短暂、中性的观察。</li>
+    <li>我随意的一瞥扫过 {PAWN_nameShort}身形，看到 {PAWN_possessive} 未遮掩的阴茎，它中等的尺寸和不起眼的外表，一切都只是一次短暂、中性的观察。</li>
     <li>我偶然撞见{PAWN_nameShort}处于{PAWN_possessive}半遮半掩的状态，注意到{PAWN_possessive}暴露的阴茎——一个完全普通的器官，有着柔和的曲线与柔软的皮肤，它出现在我视野里并未引起我任何特别的反应。</li>
     <li>我在空间里走动时，碰巧看到{PAWN_nameShort}，{PAWN_possessive}身体半裸，露出{PAWN_possessive}中等大小的阴茎，那轮廓与自然的形状，只是我视野中一个平淡无奇的细节。</li>
     <li>我留意到{PAWN_nameShort}没穿下装四处走动，{PAWN_possessive}毫不遮掩的阴茎不大也不小，只是存在于我的视野中，其形态与尺寸对我毫无影响。</li>
@@ -2757,7 +2723,7 @@
     <li>看到{PAWN_nameShort}不着寸缕，{PAWN_possessive}曲线日渐丰满，点燃了我想探索每一寸的欲望。</li>
     <li>我发觉自己看得出神，望着{PAWN_nameShort}的迷人的身形，{PAWN_possessive}孕中期的肚子微微隆起，乳房更加饱满；{PAWN_subjective}赤裸着、毫无羞耻地从我身边悠闲走过，{PAWN_possessive}孕态散发着既淫靡又无法抗拒的魅力。</li>
     <li>我毫无防备地瞥见{PAWN_nameShort}，{PAWN_possessive}赤裸着身子，{PAWN_possessive}中期孕肚沉沉，我不由赞叹{PAWN_possessive}那份原始、本能的美丽；{PAWN_possessive}乳房轻柔摆动的样子，小腹恰好挺出到足以撩动我最肉欲的渴望。</li>
-    <li>注意到 {PAWN_nameShort}的 孕中期的身姿毫不迟疑地坦露出来，让我涌起一阵淫靡的渴望；{PAWN_possessive} 更加丰满的胸脯与微微隆起的小腹，搅动了我深处的某样东西，唤醒了一种几乎压不住的迷恋。</li>
+    <li>注意到 {PAWN_nameShort}的孕中期的身姿毫不迟疑地坦露出来，让我涌起一阵淫靡的渴望；{PAWN_possessive} 更加丰满的胸脯与微微隆起的小腹，搅动了我深处的某样东西，唤醒了一种几乎压不住的迷恋。</li>
     <li>我注视着{PAWN_nameShort}的未着衣物的身形，{PAWN_possessive}肚子愈发圆润、乳房愈发饱满，如今已进入{PAWN_possessive}孕中期；我带着淫荡的欣赏，无法把目光从{PAWN_subjective}如此坦然地在{PAWN_possessive}自己的肌肤中活动时所散发的原始之美上移开。</li>
     <li>{PAWN_nameShort}的孕期已进入中期，{PAWN_subjective}自信地走着，{PAWN_possessive}赤裸的身形在我心中点燃了一股淫荡的好奇——那日渐隆起的小腹和丰满的乳房，构成一幅醉人的画面，久久盘桓在我脑海里。</li>
     <li>一股淫靡的热意从体内升起，我望着{PAWN_nameShort}——毫不羞怯，骄傲地挺着{PAWN_possessive}孕中期的身子，{PAWN_possessive}曲线比以往更加明显，那赤裸身体的美丽让人无法忽视——一幕震撼得让我屏住呼吸的景象。</li>
@@ -2811,7 +2777,7 @@
     <li>遇到赤裸的{PAWN_nameShort}时，我注意到怀孕初期的迹象；这不过是个有趣的变化，仅此而已。</li>
     <li>我撞见{PAWN_nameShort}赤身裸体，{PAWN_possessive}腹部那道细微的弧线虽然明显，我却无动于衷。</li>
     <li>我偶然撞见{PAWN_nameShort}，{PAWN_possessive}赤裸的身体勉强被怀孕初期遮住，{PAWN_possessive}乳房还不显丰盈，{PAWN_possessive}肚子也几乎没鼓起来。我只是挑了挑眉，对{PAWN_possessive}赤裸并不在意。</li>
-    <li>注意到 {PAWN_nameShort}的 的裸体，我忍不住观察 {PAWN_possessive} 孕早期带来的细微变化——小腹微微隆起，乳房略微饱满。我只是笑了笑，对 {PAWN_possessive} 没穿衣服毫不在意。</li>
+    <li>注意到 {PAWN_nameShort}裸体，我忍不住观察 {PAWN_possessive} 孕早期带来的细微变化——小腹微微隆起，乳房略微饱满。我只是笑了笑，对 {PAWN_possessive} 没穿衣服毫不在意。</li>
     <li>当着我的面，{PAWN_nameShort}赤身裸体地走来走去，{PAWN_possessive}身体已因孕早期的影响开始变化。{PAWN_possessive}乳房虽然丰满了些，但还没有明显变大，小腹也仍然相当平坦。我面不改色，情绪平稳。</li>
     <li>我瞥见{PAWN_nameShort}的赤裸的身体，留意到{PAWN_possessive}小而圆的小腹，以及{PAWN_possessive}乳房略微增大的尺寸。我保持着无动于衷，情绪里看不出惊讶或担忧。</li>
     <li>{PAWN_nameShort}从我面前走过，毫无羞耻地赤裸着，身上已有了初孕的迹象。{PAWN_possessive}乳房开始变得饱满，小腹也隐隐有了弧度。我不过是眨了眨眼，反应淡然。</li>
@@ -3279,7 +3245,7 @@
     <li>看着{OBSERVED_nameShort}的昏迷的身体，我涌起一种奇特的着迷——{OBSERVED_possessive}阴茎柔软静止地躺着，却静默地许诺着力量。</li>
     <li>{OBSERVED_nameShort}袒露着{OBSERVED_possessive}男根，那份脆弱是强烈而出人意料地诱人的景象。</li>
     <li>{OBSERVED_nameShort}躺在那儿，{OBSERVED_pronoun}把{OBSERVED_possessive}生殖器那么坦然地露着，我忍不住赞叹那副充满男性气概的身形。</li>
-    <li>在 {OBSERVED_pronoun} 失去意识时如此坦然地看见 {OBSERVED_nameShort}的 的阴茎，是一幅原始男性气概的亲密而有力的画面。</li>
+    <li>在 {OBSERVED_pronoun} 失去意识时如此坦然地看见 {OBSERVED_nameShort}阴茎，是一幅原始男性气概的亲密而有力的画面。</li>
     <li>看着{OBSERVED_nameShort}，一种敬畏感席卷了我。{OBSERVED_possessive}暴露的生殖器是男性形体的明证。</li>
     <li>{OBSERVED_nameShort}静静躺着，而{OBSERVED_possessive}赤裸的下身、那结实的臀部曲线，透着一种粗犷之美。</li>
     <li>这是个令人震惊的发现，但当{OBSERVED_pronoun}昏过去时，我竟发现自己欣赏起{OBSERVED_nameShort}的男性器官那充满力量而私密的景象。</li>
@@ -3345,7 +3311,7 @@
     <li>看着{OBSERVED_nameShort}的昏迷的身体，我涌起一种奇特的着迷——{OBSERVED_possessive}性器如此静止、毫无防备，是一幅深沉的景象。</li>
     <li>{OBSERVED_nameShort}袒露着{OBSERVED_possessive}最私密的部位，那份脆弱是动人而出人意料地美丽的景象。</li>
     <li>{OBSERVED_nameShort}躺在那儿，{OBSERVED_pronoun}把{OBSERVED_possessive}生殖器那么坦然地露着，我忍不住赞叹那副自然的形体。</li>
-    <li>在 {OBSERVED_pronoun} 失去意识时如此坦然地看见 {OBSERVED_nameShort}的 的生殖器，是一幅纯粹人性的亲密而有力的画面。</li>
+    <li>在 {OBSERVED_pronoun} 失去意识时如此坦然地看见 {OBSERVED_nameShort}生殖器，是一幅纯粹人性的亲密而有力的画面。</li>
     <li>看着{OBSERVED_nameShort}，一种敬畏感席卷了我。{OBSERVED_possessive}暴露的性器是身体之美的明证。</li>
     <li>{OBSERVED_nameShort}静静躺着，而{OBSERVED_possessive}赤裸的下身透着一种静谧而动人的美。</li>
     <li>这是个令人震惊的发现，但当{OBSERVED_pronoun}昏过去时，我竟发现自己欣赏起{OBSERVED_nameShort}的性器那私密的景象。</li>
@@ -3411,7 +3377,7 @@
     <li>看着{OBSERVED_nameShort}的昏迷的身体，我涌起一种奇特的着迷——{OBSERVED_possessive}性器那黑暗神秘的三角地带自有一种静默的力量。</li>
     <li>{OBSERVED_nameShort}袒露着{OBSERVED_possessive}最私密的部位，那份脆弱深深动人，又诱人至极。</li>
     <li>{OBSERVED_nameShort}躺在那儿，{OBSERVED_pronoun}把{OBSERVED_possessive}性器那么坦然地露着，我忍不住赞叹那完美的女性曲线。</li>
-    <li>在 {OBSERVED_pronoun} 失去意识时如此坦然地看见 {OBSERVED_nameShort}的 的阴道，是一幅几乎令人感到神圣的亲密而有力的画面。</li>
+    <li>在 {OBSERVED_pronoun} 失去意识时如此坦然地看见 {OBSERVED_nameShort}阴道，是一幅几乎令人感到神圣的亲密而有力的画面。</li>
     <li>当我看着{OBSERVED_nameShort}时，一股惊叹之情涌上心头。{OBSERVED_possessive}外露的外阴，正是造物之美的明证。</li>
     <li>{OBSERVED_nameShort}静静躺着，而{OBSERVED_possessive}赤裸的下身、那阴阜柔和的隆起，透着一种静谧而动人的美。</li>
     <li>这是个令人震惊的发现，但当{OBSERVED_pronoun}昏过去时，我竟发现自己欣赏起{OBSERVED_nameShort}的性器那美好而私密的景象。</li>

@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 18/39 · 共 2979 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Breasts_Positive_Tiny_trait_Nymphomaniac_male.opinionTexts>
     <li>{PAWN_nameShort}的极小的乳房让我的阴茎硬如岩石，精致的乳头带来难以忍受的疼痛，渴望被吮吸。</li>
     <li>我止不住盯着{PAWN_nameShort}的那对小巧紧实的乳房。我的阴茎搏动着，想埋进它们之间，霸占那份温暖与柔软。</li>
@@ -56,7 +46,7 @@
     <li>{PAWN_nameShort}的娇小乳房那精妙的景象，配着迷人的乳头，让我脊背发麻。如此精致的美点燃了一股强烈而急切的冲动，我的私处阵阵悸动。</li>
     <li>{PAWN_nameShort}的小巧紧实的乳房极其诱人。那微微的颤动与完美成形的乳晕撩人至极，是一场真正激动人心的景象，把我逼得欲火发狂。</li>
     <li>一幅迷人的景象，{PAWN_nameShort}的极小的乳房，对称完美，乳头迷人。我的想象在私密的细节间飞驰，感到一股强烈而急迫的释放需求。</li>
-    <li>观察着 {PAWN_nameShort}的 极小、形态完美的乳房，那光滑的触感与精致的轮廓真是令人陶醉。一股强烈的暖意涌遍全身，冲垮了我的理智，让我硬了起来。</li>
+    <li>观察着 {PAWN_nameShort}的极小、形态完美的乳房，那光滑的触感与精致的轮廓真是令人陶醉。一股强烈的暖意涌遍全身，冲垮了我的理智，让我硬了起来。</li>
     <li>{PAWN_nameShort}的那可爱娇小的乳房，晃动得令人愉悦，是能唤醒沉睡激情的一幕。我的双眼贪婪地吞噬着那精致的形态，渴望着即刻的满足。</li>
     <li>意外看见{PAWN_nameShort}的那对小巧紧实的乳房，无可否认地撩人。它们优雅的轮廓与诱人的乳头纯然是一种刺激，让我那永不知足的本性更加大胆。</li>
     <li>看到{PAWN_nameShort}的极小的乳房，天真得恰到好处，却又诱人得难以置信，我的感官被淹没。一股深沉的原始冲动在我心中翻腾，渴求满足。</li>
@@ -113,26 +103,26 @@
     <li>{PAWN_nameShort}那对极小的乳房确实……紧凑。人们倒可以欣赏它没有多余的形状。相当不惹眼。</li>
     <li>{PAWN_nameShort}的乳房朴素的尺寸至少无可指摘。因为小巧，它们保持着体面的外观。</li>
     <li>一如所料，{PAWN_nameShort}的乳房很小。它们并不粗俗，这已是最正面的评价了。</li>
-    <li>对，{PAWN_nameShort}的 乳房很小。它们与 {PAWN_possessive} 身形相衬，不会引来多余的关注，这颇为得体。</li>
+    <li>对，{PAWN_nameShort}的乳房很小。它们与 {PAWN_possessive} 身形相衬，不会引来多余的关注，这颇为得体。</li>
     <li>{PAWN_nameShort}的极小的乳房相当……无害。小巧的尺寸保证了外观上某种得体的分寸，这一点值得赞赏。</li>
     <li>匆匆打量一下{PAWN_nameShort}的极小的乳房，没什么可说的。只是很小，因此也就能忍受。</li>
     <li>观察着{PAWN_nameShort}的极小的乳房，人注意到它们并不突出。对某些人来说这是种宽慰，让一切井然有序。</li>
-    <li>人几乎不会为 {PAWN_nameShort}的 小巧的乳房费心。它们小巧的尺寸让人很容易无视，谢天谢地。</li>
+    <li>人几乎不会为 {PAWN_nameShort}的小巧的乳房费心。它们小巧的尺寸让人很容易无视，谢天谢地。</li>
     <li>{PAWN_nameShort}的极小的乳房。它们带着某种……内敛的特质，使它们不至于过分挑逗。</li>
     <li>{PAWN_nameShort}的极小乳房的形态小得无可否认。这样大概最好，省去了一切不必要的麻烦。</li>
-    <li>可以说 {PAWN_nameShort}的 小巧的乳房还算内敛得体。它们不具压迫感的尺寸，是个讨喜的特点。</li>
+    <li>可以说 {PAWN_nameShort}的小巧的乳房还算内敛得体。它们不具压迫感的尺寸，是个讨喜的特点。</li>
     <li>确实，{PAWN_nameShort}的有一对极小的乳房。它们并不冒犯人的审美，反倒不怎么引人注意。</li>
     <li>{PAWN_nameShort}的极小乳房的形状相当端庄。这助长了一种整体的得体感，令人愉快。</li>
     <li>是的，{PAWN_nameShort}的乳房极小。小巧。若有人喜欢不显山不露水，那也算过得去吧。</li>
     <li>{PAWN_nameShort}的极小的乳房如人所料地毫不起眼。那微小的存在本身几乎就是一种美德。</li>
     <li>草草一瞥{PAWN_nameShort}的极小的乳房，确认了它们的小尺寸。至少不算低俗。</li>
     <li>{PAWN_nameShort}的极小的乳房没什么特别值得一提的。它们融入其中，就像乳房本该的那样。</li>
-    <li>不得不承认，{PAWN_nameShort}的 小巧的乳房幸运地毫无刺激感。它们不索取关注，这值得称赞。</li>
+    <li>不得不承认，{PAWN_nameShort}的小巧的乳房幸运地毫无刺激感。它们不索取关注，这值得称赞。</li>
     <li>{PAWN_nameShort}的极小的乳房。那不起眼的尺寸是件好事，因为这样就不会让人分心。</li>
     <li>我注意到{PAWN_nameShort}的那对极小乳房。它们很小，因而恰当地低调。</li>
     <li>至于{PAWN_nameShort}的极小的乳房，它们是小巧的。不吵不闹，毫无麻烦。完全可以接受。</li>
     <li>{PAWN_nameShort}的极小的乳房没什么可评论的，这样也好。它们小巧而不张扬。</li>
-    <li>人观察着 {PAWN_nameShort} 小巧的乳房。它们不显眼，因而避免了任何失礼，倒也合宜。</li>
+    <li>有人观察着 {PAWN_nameShort} 小巧的乳房。它们不显眼，因而避免了任何失礼，倒也合宜。</li>
     <li>{PAWN_nameShort}身上那对细小的乳房。确实偏小，也就是说没那么……显眼。</li>
   </Opinion_Breasts_Positive_Tiny_trait_Prude.opinionTexts>
   <Opinion_Breasts_Positive_Tiny_trait_Voyeur.opinionTexts>
@@ -180,7 +170,7 @@
     <li>{PAWN_nameShort}的娇小乳房那精妙的景象，配着迷人的乳头，让我脊背发麻。如此精致的美点燃了一股强烈的冲动。</li>
     <li>{PAWN_nameShort}的小巧紧实的乳房极其诱人。那微微的颤动与完美成形的乳晕撩人至极，是一场真正激动人心的景象。</li>
     <li>一幅迷人的景象，{PAWN_nameShort}的极小的乳房，对称完美，乳头迷人。我的想象在私密的细节间飞驰。</li>
-    <li>观察着 {PAWN_nameShort}的 极小、形态完美的乳房，那光滑的触感与精致的轮廓真是令人陶醉。一股强烈的暖意涌遍全身。</li>
+    <li>观察着 {PAWN_nameShort}的极小、形态完美的乳房，那光滑的触感与精致的轮廓真是令人陶醉。一股强烈的暖意涌遍全身。</li>
     <li>{PAWN_nameShort}的那可爱娇小的乳房，晃动得令人愉悦，是能唤醒沉睡激情的一幕。我的双眼贪婪地吞噬着那精致的形态。</li>
     <li>意外看见{PAWN_nameShort}的那对小巧紧实的乳房，无可否认地撩人。它们优雅的轮廓与诱人的乳头纯然是一种刺激。</li>
     <li>看到{PAWN_nameShort}的极小的乳房，天真得恰到好处，却又诱人得难以置信，我的感官被淹没。一股深沉的原始冲动在我心中翻腾。</li>
@@ -283,7 +273,7 @@
     <li>{PAWN_nameShort}的小巧的乳房是令我热血沸腾的景象，青春的挺翘令人沉醉，极度诱人。</li>
     <li>看着{PAWN_nameShort}的极小的乳房，我涌起无法否认的冲动，我的阴茎硬挺着，渴望把脸埋进去，品尝那份甜美。</li>
     <li>{PAWN_nameShort}的小巧乳房藏着种种奇妙的隐秘，等待我用急切的手和嘴去揭开。</li>
-    <li>看到 {PAWN_nameShort}的 小巧精致的乳房，我的身体反应强烈，那娇柔的形状点燃了我想占有与探索的欲望。</li>
+    <li>看到 {PAWN_nameShort}的小巧精致的乳房，我的身体反应强烈，那娇柔的形状点燃了我想占有与探索的欲望。</li>
     <li>{PAWN_nameShort}的极小的乳房让我极度渴望，完美的尺寸让它们看起来如此可握，如此等待我的触碰。</li>
     <li>多么诱人的景象，{PAWN_nameShort}的乳房让我想向{PAWN_objective}暴露自己，共享这份原始的亲密，感受那份自由。</li>
     <li>{PAWN_nameShort}的小巧乳房那私密的展露吸引着我，那柔嫩、未被触碰过的样子让我的欲望汹涌。</li>
@@ -378,7 +368,7 @@
     <li>{PAWN_nameShort}的那根猫类阳具粗细平平、尖刺也平平，普通得令人震惊。</li>
     <li>我觉得{PAWN_nameShort}的猫阴茎无聊至极。它的尖刺和典型形状让我毫无感觉。</li>
     <li>没错，是猫类阴茎，但{PAWN_nameShort}的这根平庸得惊人。尖刺也平平无奇。</li>
-    <li>{PAWN_nameShort}的 猫阴茎的构造平淡无奇，毫无趣味。那些尖刺也不过是寻常之物。</li>
+    <li>{PAWN_nameShort}的猫阴茎的构造平淡无奇，毫无趣味。那些尖刺也不过是寻常之物。</li>
     <li>我观察到{PAWN_nameShort}的猫类阴茎。其平庸的长度与乏味的尖刺实在毫无特别之处。</li>
     <li>{PAWN_nameShort}的猫类阴茎正是绝佳例证：再奇特的构造也能无聊透顶。</li>
     <li>{PAWN_nameShort}的那根猫阴茎的十足可预测，配上那些倒刺，令人失望。</li>
@@ -410,7 +400,7 @@
     <li>{PAWN_nameShort}的那根鳄类阳具粗细平平，作为爬行类的东西，普通得令人震惊。</li>
     <li>我觉得{PAWN_nameShort}的鳄类阴茎无聊至极。它那典型的形状让我毫无感觉。</li>
     <li>没错，是鳄类阴茎，但{PAWN_nameShort}的这根平庸得惊人。平淡，毫无爬行类的样子。</li>
-    <li>{PAWN_nameShort}的 鳄类阴茎的构造平淡无奇，毫无趣味。</li>
+    <li>{PAWN_nameShort}的鳄类阴茎的构造平淡无奇，毫无趣味。</li>
     <li>我观察到{PAWN_nameShort}的鳄类阴茎。其平庸的长度与乏味的形态实在毫无特别之处。</li>
     <li>{PAWN_nameShort}的鳄类阴茎正是个绝佳例证：再异域的构造也能无聊透顶。</li>
     <li>{PAWN_nameShort}的那根鳄类阴茎的十足可预测，对一件据说如此独特的东西来说，真是令人失望。</li>
@@ -442,7 +432,7 @@
     <li>{PAWN_nameShort}的那根恶魔阳具粗细平平，作为地狱之物，普通得令人震惊。</li>
     <li>我觉得{PAWN_nameShort}的恶魔阴茎无聊至极。它那典型的形状让我毫无感觉。</li>
     <li>没错，是恶魔阴茎，但{PAWN_nameShort}的这根平庸得惊人。平淡，毫无恶魔的样子。</li>
-    <li>{PAWN_nameShort}的 恶魔阴茎的构造平淡无奇，毫无趣味。</li>
+    <li>{PAWN_nameShort}的恶魔阴茎的构造平淡无奇，毫无趣味。</li>
     <li>我观察到{PAWN_nameShort}的恶魔阴茎。其平庸的长度与乏味的形态实在毫无特别之处。</li>
     <li>{PAWN_nameShort}的恶魔阴茎正是个绝佳例证：再异域的构造也能无聊透顶。</li>
     <li>{PAWN_nameShort}的那根恶魔阴茎的十足可预测，对一件据说如此黑暗的东西来说，真是令人失望。</li>
@@ -474,7 +464,7 @@
     <li>{PAWN_nameShort}的那根恶魔触手粗细平平、诡异程度也平平，普通得令人震惊。</li>
     <li>我觉得{PAWN_nameShort}的恶魔触手无聊至极。它的动作和典型形状让我毫无感觉。</li>
     <li>没错，是恶魔触手，但{PAWN_nameShort}的这根平庸得惊人。连渗人都渗得毫无特色。</li>
-    <li>{PAWN_nameShort}的 恶魔触手的构造平淡无奇，毫无趣味。它的自主运动也不过是寻常之物。</li>
+    <li>{PAWN_nameShort}的恶魔触手的构造平淡无奇，毫无趣味。它的自主运动也不过是寻常之物。</li>
     <li>我观察到{PAWN_nameShort}的恶魔触手。其平庸的长度与乏味的诡异实在毫无特别之处。</li>
     <li>{PAWN_nameShort}的恶魔触手正是个绝佳例证：再异域的构造也能无聊透顶。</li>
     <li>{PAWN_nameShort}的那只恶魔触手十足可预测，配上它那些动作，令人失望。</li>
@@ -506,7 +496,7 @@
     <li>{PAWN_nameShort}的那根犬类阳具粗细平平、那个结也平平，普通得令人震惊。</li>
     <li>我觉得{PAWN_nameShort}的犬类阴茎无聊至极。它的结和典型形状让我毫无感觉。</li>
     <li>没错，是犬类阴茎，但{PAWN_nameShort}的这根平庸得惊人。锁结也平平无奇。</li>
-    <li>{PAWN_nameShort}的 犬阴茎的构造平淡无奇，毫无趣味。那个结也不过是寻常之物。</li>
+    <li>{PAWN_nameShort}的犬阴茎的构造平淡无奇，毫无趣味。那个结也不过是寻常之物。</li>
     <li>我观察到{PAWN_nameShort}的犬类阴茎。其平庸的长度与乏味的结实在毫无特别之处。</li>
     <li>{PAWN_nameShort}的犬类阴茎正是个绝佳例证：再异域的构造也能无聊透顶。</li>
     <li>{PAWN_nameShort}的那根犬类阴茎十足可预测，配上那个结，令人失望。</li>
@@ -538,7 +528,7 @@
     <li>{PAWN_nameShort}的那根龙类阳具粗细平平、鳞片也平平，普通得令人震惊。</li>
     <li>我觉得{PAWN_nameShort}的龙类阴茎无聊至极。它的鳞片和典型形状让我毫无感觉。</li>
     <li>没错，是龙类阴茎，但{PAWN_nameShort}的这根平庸得惊人。箭头状的头部也平平无奇。</li>
-    <li>{PAWN_nameShort}的 龙阴茎的构造平淡无奇，毫无趣味。那些鳞片也不过是寻常之物。</li>
+    <li>{PAWN_nameShort}的龙阴茎的构造平淡无奇，毫无趣味。那些鳞片也不过是寻常之物。</li>
     <li>我观察到{PAWN_nameShort}的龙类阴茎。其平庸的长度与乏味的箭头状龟头实在毫无特别之处。</li>
     <li>{PAWN_nameShort}的龙类阴茎正是个绝佳例证：再异域的构造也能无聊透顶。</li>
     <li>{PAWN_nameShort}的那根龙族阴茎十足可预测，配上那些鳞片，令人失望。</li>
@@ -565,7 +555,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的器官，几乎认不出是那么回事。</li>
     <li>匆匆一瞥已绰绰有余。茎身像枯萎的细枝，睾丸像干瘪的豌豆。那是一幕凄惨、苍老的景象。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的灰。它让我胃里翻搅，泛起极度的鄙夷。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。他是个行尸走肉。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。他是个行尸走肉。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。一座失败的纪念碑。</li>
   </Opinion_Penis_Negative_Average_ElderMale.opinionTexts>
   <Opinion_Penis_Negative_Average_ElderMale_observed_by_Elder_female.opinionTexts>
@@ -587,7 +577,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的、老旧器官，毫无男性魅力或活力，是其与生俱来的失败的明证。</li>
     <li>匆匆一瞥已绰绰有余。茎身像枯萎的细枝，睾丸像陈年的干梅。那是一幕凄惨、苍老的景象，不堪入目、令人作呕，正如预料。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的灰。它让我胃里翻搅，对它本身的存在、乃至对男性这一存在，涌起压倒性的鄙夷。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说激起我的任何反应。他还能活着就是个奇迹，更别提还把它亮出来。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说激起我的任何反应。他还能活着就是个奇迹，更别提还把它亮出来。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。真是可悲，跟其他人一样，但若可能的话，还要糟糕无数倍。</li>
   </Opinion_Penis_Negative_Average_ElderMale_observed_by_Elder_female.opinionTexts>
   <Opinion_Penis_Negative_Average_ElderMale_observed_by_Elder_male.opinionTexts>
@@ -609,7 +599,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的、老旧器官。</li>
     <li>匆匆一瞥已绰绰有余。茎身像枯萎的细枝，睾丸像干瘪的豌豆。那是一幕凄惨、苍老的景象，日后照镜子都会缠着我。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的灰。它让我胃里翻搅，满是对衰老与无可避免之事的鄙夷。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。他是个行尸走肉，我也好不到哪去。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。他是个行尸走肉，我也好不到哪去。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。一座共同的失败与岁月侵蚀的纪念碑。</li>
   </Opinion_Penis_Negative_Average_ElderMale_observed_by_Elder_male.opinionTexts>
   <Opinion_Penis_Negative_Average_ElderMale_observed_by_Exhibitionist.opinionTexts>
@@ -697,7 +687,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的、老旧器官，毫无男性魅力或活力。</li>
     <li>匆匆一瞥已绰绰有余。茎身像枯萎的细枝，睾丸像陈年的干梅。那是一幕凄惨、苍老的景象，不堪入目、令人作呕。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的灰。它让我胃里翻搅，对它本身的存在涌起压倒性的鄙夷。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说激起我的任何反应。他还能活着就是个奇迹。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说激起我的任何反应。他还能活着就是个奇迹。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。真是可悲，跟其他人一样，但更糟。</li>
   </Opinion_Penis_Negative_Average_ElderMale_observed_by_Young_female.opinionTexts>
   <Opinion_Penis_Negative_Average_ElderMale_observed_by_Young_male.opinionTexts>
@@ -719,7 +709,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的、老旧器官。</li>
     <li>匆匆一瞥已绰绰有余。茎身像枯萎的细枝，睾丸像陈年的干梅。那是一幕凄惨、苍老的景象，也是我漫长、缓慢衰败的骇人预演。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的灰。它让我胃里翻搅，满是对衰老与死亡的鄙夷。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。我担心自己也逃不过同样的衰败。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。我担心自己也逃不过同样的衰败。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。像是生命最后阶段令人沮丧的一瞥。</li>
   </Opinion_Penis_Negative_Average_ElderMale_observed_by_Young_male.opinionTexts>
   <Opinion_Penis_Negative_Average_ElderMale_observed_by_middle_aged_Female.opinionTexts>
@@ -741,7 +731,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的、老旧器官，毫无男性魅力或活力。</li>
     <li>匆匆一瞥已绰绰有余。茎身像枯萎的细枝，睾丸像陈年的干梅。那是一幕凄惨、苍老的景象，不堪入目、令人作呕。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的灰。它让我胃里翻搅，对它本身的存在涌起压倒性的鄙夷。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说激起我的任何反应。他还能活着就是个奇迹，更别提还把它亮出来。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说激起我的任何反应。他还能活着就是个奇迹，更别提还把它亮出来。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。真是可悲，跟其他人一样，却还要糟糕无数倍。</li>
   </Opinion_Penis_Negative_Average_ElderMale_observed_by_middle_aged_Female.opinionTexts>
   <Opinion_Penis_Negative_Average_ElderMale_observed_by_middle_aged_male.opinionTexts>
@@ -763,7 +753,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的、老旧器官。</li>
     <li>匆匆一瞥已绰绰有余。茎身像枯萎的细枝，睾丸像陈年的干梅。那是一幕凄惨、苍老的景象，也是我漫长、缓慢地走向虚无的骇人预演。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的灰。它让我胃里翻搅，满是对自己衰老皮肉的自我厌恶。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。我担心自己也逃不过同样的衰败，甚至更糟。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。我担心自己也逃不过同样的衰败，甚至更糟。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。像是生命最后阶段令人沮丧的一瞥，也是我自己的。</li>
   </Opinion_Penis_Negative_Average_ElderMale_observed_by_middle_aged_male.opinionTexts>
   <Opinion_Penis_Negative_Average_ElderMale_observed_by_voyer.opinionTexts>
@@ -847,7 +837,7 @@
     <li>我的目光落在{PAWN_nameShort}的阴茎上。它乏味的构造与平庸的尺寸，让我自己的身体毫无反应。</li>
     <li>{PAWN_nameShort}的阴茎在我眼中出现又消失。我自己那更富经验的自我，无声地报以一声了然的嗤笑。</li>
     <li>我见过更令人兴奋的东西。{PAWN_nameShort}的阴茎只是普通。我自己的身体只感到平静的漠然。</li>
-    <li>{PAWN_nameShort}的 阴茎的平庸让我毫无触动。我自己的身体也仿佛发出一声不屑的叹息。</li>
+    <li>{PAWN_nameShort}的阴茎的平庸让我毫无触动。我自己的身体也仿佛发出一声不屑的叹息。</li>
     <li>{PAWN_nameShort}的阴茎。如此平庸，如此中等。我这更懂行情的身体丝毫未被触动。</li>
     <li>真是一幅毫无灵感的景象，{PAWN_nameShort}的阴茎无法满足偷窥者的任何欲望。我的身体依旧毫无动静。</li>
     <li>我的目光扫过{PAWN_nameShort}的阴茎。不过是又一截毫不出奇的肉。我自己的部位几乎毫无反应。</li>
@@ -911,7 +901,7 @@
     <li>我的目光落在{PAWN_nameShort}的阴茎上。它乏味的构造与平庸的尺寸，让我自己的身体毫无反应。</li>
     <li>{PAWN_nameShort}的阴茎在我眼中出现又消失。我自己那更富经验的阳具，无声地报以一声了然的嗤笑。</li>
     <li>我见过更令人兴奋的东西。{PAWN_nameShort}的阴茎只是普通。我自己的部位只感到平静的漠然。</li>
-    <li>{PAWN_nameShort}的 阴茎的平庸让我毫无触动。我自己的身体也仿佛发出一声不屑的叹息。</li>
+    <li>{PAWN_nameShort}的阴茎的平庸让我毫无触动。我自己的身体也仿佛发出一声不屑的叹息。</li>
     <li>{PAWN_nameShort}的阴茎。如此平庸，如此中等。我那些更识货的部位丝毫未被触动。</li>
     <li>真是一幅毫无灵感的景象，{PAWN_nameShort}的阴茎无法满足偷窥者的任何欲望。我自己的依旧疲软。</li>
     <li>我的目光扫过{PAWN_nameShort}的阴茎。不过是又一截毫不出奇的肉。我自己的部位几乎没抽动一下。</li>
@@ -972,7 +962,7 @@
     <li>{PAWN_nameShort}的那根爬行类半阴茎粗细平平，作为爬行类的东西，普通得令人震惊。</li>
     <li>我觉得{PAWN_nameShort}的爬行类半阴茎无聊至极。它那典型的形状让我毫无感觉。</li>
     <li>没错，是爬行类的半阴茎，但{PAWN_nameShort}的这根平庸得惊人。平淡，毫无爬行类的样子。</li>
-    <li>{PAWN_nameShort}的 爬行类半阴茎的构造平淡无奇，毫无趣味。</li>
+    <li>{PAWN_nameShort}的爬行类半阴茎的构造平淡无奇，毫无趣味。</li>
     <li>我观察着{PAWN_nameShort}的爬行类半阴茎。其平庸的长度和乏味的形态毫无可取之处。</li>
     <li>{PAWN_nameShort}的爬行类半阴茎堪称典型例子，说明再奇异的构造也能无聊透顶。</li>
     <li>{PAWN_nameShort}的那根爬行类半阴茎十足可预测，对一件据说如此独特的东西来说，真是令人失望。</li>
@@ -1004,7 +994,7 @@
     <li>{PAWN_nameShort}的马阴茎扁平的龟头与相当标准的粗细，使它平庸得令人吃惊。</li>
     <li>我觉得{PAWN_nameShort}的马类阴茎无聊至极。它那对硕大的睾丸和典型形状让我毫无感觉。</li>
     <li>没错，是马类阴茎，但{PAWN_nameShort}的这根平庸得惊人。扁平的头部也平平无奇。</li>
-    <li>{PAWN_nameShort}的 马阴茎的构造平淡无奇，毫无趣味。那对大球也不过是寻常之物。</li>
+    <li>{PAWN_nameShort}的马阴茎的构造平淡无奇，毫无趣味。那对大球也不过是寻常之物。</li>
     <li>我观察到{PAWN_nameShort}的马类阴茎。其平庸的长度与乏味的扁平龟头实在毫无特别之处。</li>
     <li>{PAWN_nameShort}的马阴茎是绝佳例证：再异国情调的构造也可能无聊透顶。</li>
     <li>{PAWN_nameShort}的那根马类阴茎十足可预测，配上扁平的头和大睾丸，令人失望。</li>
@@ -1013,7 +1003,7 @@
     <li>{PAWN_nameShort}的马阴茎不过是又一个千篇一律的马科附肢。构造毫无刺激可言。</li>
   </Opinion_Penis_Negative_Average_HorsePenis.opinionTexts>
   <Opinion_Penis_Negative_Average_MaleOpinion.opinionTexts>
-    <li>哦，{PAWN_nameShort}的 阴茎……和别人的没什么两样。肯定没什么好炫耀的。</li>
+    <li>哦，{PAWN_nameShort}的阴茎……和别人的没什么两样。肯定没什么好炫耀的。</li>
     <li>我看到{PAWN_nameShort}的阴茎。它完全中等，这几乎比差劲还糟。就是……一般。</li>
     <li>嗯，{PAWN_nameShort}的阴茎没什么特别的。标准的茎身，正常的睾丸，毫无记忆点。</li>
     <li>我迅速把目光从{PAWN_nameShort}的阴茎上移开。它太平常了，几乎有些无聊。</li>
@@ -1041,7 +1031,7 @@
     <li>{PAWN_nameShort}的阴茎的睾丸与茎身实在毫无新意，真令人失望。</li>
     <li>我得强迫自己把注意力放在{PAWN_nameShort}的阴茎上。它实在太无趣，太模式化了。</li>
     <li>不过是根阴茎，{PAWN_nameShort}的阴茎。没什么可看的。走吧。</li>
-    <li>{PAWN_nameShort}的 阴茎的平庸几乎是一种冒犯。我期待的可不是仅仅“标准”。</li>
+    <li>{PAWN_nameShort}的阴茎的平庸几乎是一种冒犯。我期待的可不是仅仅“标准”。</li>
     <li>我多希望能把{PAWN_nameShort}的阴茎忘掉。中等得令人难受，让人觉得不是滋味。</li>
   </Opinion_Penis_Negative_Average_MaleOpinion.opinionTexts>
   <Opinion_Penis_Negative_Average_MatureMale.opinionTexts>
@@ -1063,7 +1053,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的器官。</li>
     <li>匆匆一瞥已绰绰有余。茎身像干瘪的虫子，睾丸像陈年的干梅。那是一幕凄惨的景象。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的。让我胃里翻搅，一阵鄙夷。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。</li>
   </Opinion_Penis_Negative_Average_MatureMale.opinionTexts>
   <Opinion_Penis_Negative_Average_MatureMale_observed_by_Elder_female.opinionTexts>
@@ -1085,7 +1075,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的器官，毫无男性魅力或活力。</li>
     <li>匆匆一瞥已绰绰有余。茎身像干瘪的虫子，睾丸像陈年的干梅。那是一幕凄惨的景象，不堪入目，毫无悬念。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的。它让我胃里翻搅，对它本身的存在的不屑。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说激起我的任何反应。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说激起我的任何反应。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。真是可悲，跟其他人一样。</li>
   </Opinion_Penis_Negative_Average_MatureMale_observed_by_Elder_female.opinionTexts>
   <Opinion_Penis_Negative_Average_MatureMale_observed_by_Elder_male.opinionTexts>
@@ -1107,7 +1097,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的器官。</li>
     <li>匆匆一瞥已绰绰有余。茎身像干瘪的虫子，睾丸像陈年的干梅。那是一幕凄惨的景象，而他甚至还没老到能拿年纪当借口。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的。它让我胃里翻搅，满是对他无能的不屑。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。他显然已经不行了。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。他显然已经不行了。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。像是中年令人沮丧的一瞥。</li>
   </Opinion_Penis_Negative_Average_MatureMale_observed_by_Elder_male.opinionTexts>
   <Opinion_Penis_Negative_Average_MatureMale_observed_by_Exhibitionist.opinionTexts>
@@ -1195,7 +1185,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的器官，毫无男性魅力。</li>
     <li>匆匆一瞥已绰绰有余。茎身像干瘪的虫子，睾丸像陈年的干梅。那是一幕凄惨的景象，不堪入目。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的。它让我胃里翻搅，对它本身的存在的不屑。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说激起我的任何反应。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说激起我的任何反应。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。真是可悲。</li>
   </Opinion_Penis_Negative_Average_MatureMale_observed_by_Young_female.opinionTexts>
   <Opinion_Penis_Negative_Average_MatureMale_observed_by_Young_male.opinionTexts>
@@ -1217,7 +1207,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的器官。</li>
     <li>匆匆一瞥已绰绰有余。茎身像干瘪的虫子，睾丸像陈年的干梅。那是一幕凄惨的景象，也是对未来等待着什么的无情提醒。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的。它让我胃里翻搅，满是对衰老的鄙夷。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。像是未来令人沮丧的一瞥。</li>
   </Opinion_Penis_Negative_Average_MatureMale_observed_by_Young_male.opinionTexts>
   <Opinion_Penis_Negative_Average_MatureMale_observed_by_middle_aged_Female.opinionTexts>
@@ -1239,7 +1229,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的器官，毫无男性魅力。</li>
     <li>匆匆一瞥已绰绰有余。茎身像干瘪的虫子，睾丸像陈年的干梅。那是一幕凄惨的景象，不堪入目，又再熟悉不过。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的。它让我胃里翻搅，对它本身的存在的不屑。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说激起我的任何反应。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说激起我的任何反应。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。真是可悲，跟其他人一样。</li>
   </Opinion_Penis_Negative_Average_MatureMale_observed_by_middle_aged_Female.opinionTexts>
   <Opinion_Penis_Negative_Average_MatureMale_observed_by_middle_aged_male.opinionTexts>
@@ -1261,7 +1251,7 @@
     <li>它的外观如此乏味，让我怀疑自己究竟有没有看到什么。一件真正缺乏灵感的器官。</li>
     <li>匆匆一瞥已绰绰有余。茎身像干瘪的虫子，睾丸像陈年的干梅。那是一幕凄惨的景象，也是对我未来的骇人预演。</li>
     <li>那疲软无趣的阴茎就那么垂着。质地看着粗糙，颜色是病态的。让我胃里翻搅，一阵自我厌恶。</li>
-    <li>难怪 {PAWN_nameShort}的 这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。我担心自己也一样。</li>
+    <li>难怪 {PAWN_nameShort}的这么刻薄。那玩意儿连一潭死水都搅不起涟漪，更别说别的了。我担心自己也一样。</li>
     <li>多么疲软、多么死气沉沉的景象。龟头似乎都没长成型，整个东西毫无半点活力或吸引力可言。是衰老无情的一个冷峻提醒。</li>
   </Opinion_Penis_Negative_Average_MatureMale_observed_by_middle_aged_male.opinionTexts>
   <Opinion_Penis_Negative_Average_MatureMale_observed_by_voyer.opinionTexts>
@@ -1274,7 +1264,7 @@
     <li>那根阴茎所谓“中等”的样貌是个残酷的玩笑。我冒着风险瞥一眼，就为了看这个？那平淡几乎冒犯了我。</li>
     <li>真是一幅毫无灵感的景象，即便对我这样的品味也是如此。{PAWN_possessive}阴茎垂着的样子，毫无个性，看着就令人压抑。</li>
     <li>真让人失望。我本有所期待，可这只是一根普通而乏味的阴茎。龟头和茎身一样毫无灵气。</li>
-    <li>我这偷窥的癖好把我引到这里，我后悔了。{PAWN_nameShort}的 那根松垮而毫无魅力的器官，实在令人精神崩溃。</li>
+    <li>我这偷窥的癖好把我引到这里，我后悔了。{PAWN_nameShort}的那根松垮而毫无魅力的器官，实在令人精神崩溃。</li>
     <li>我看着，指望能看到点火花，可出现的只有一副乏味、毫无意外的形态。包皮松松垮垮地垂着，更添了几分无聊。</li>
     <li>那形状毫无引人之处，尺寸也毫无新意。这根中等阴茎赤裸裸地提醒着人生平庸的现实。</li>
     <li>一次糟糕的构造展示。睾丸低垂，茎身细瘦得毫无印象。正像你能想象的那样毫无看头。</li>
@@ -1310,7 +1300,7 @@
     <li>{PAWN_nameShort}的那根针状阳具粗细平平，作为带刺之物，普通得令人震惊。</li>
     <li>我觉得{PAWN_nameShort}的针状阴茎无聊至极。它那典型的形状让我毫无感觉。</li>
     <li>没错，是针状阴茎，但{PAWN_nameShort}的这根平庸得惊人。平淡，毫无尖刺的样子。</li>
-    <li>{PAWN_nameShort}的 针状阴茎的构造平淡无奇，毫无趣味。</li>
+    <li>{PAWN_nameShort}的针状阴茎的构造平淡无奇，毫无趣味。</li>
     <li>我观察着{PAWN_nameShort}的针状阴茎。其平庸的长度和乏味的形态毫无可取之处。</li>
     <li>{PAWN_nameShort}的针形阴茎是绝佳例证，说明即便是异域的构造也能无聊透顶。</li>
     <li>{PAWN_nameShort}的那根针状阴茎十足可预测，对一件据说如此独特的东西来说，真是令人失望。</li>
@@ -1342,7 +1332,7 @@
     <li>{PAWN_nameShort}的那根虫类产卵管粗细平平，作为虫类之物，普通得令人震惊。</li>
     <li>我觉得{PAWN_nameShort}的虫族产卵器无聊至极。它那典型的形状让我毫无感觉。</li>
     <li>没错，是虫类产卵管，但{PAWN_nameShort}的这根平庸得惊人。平淡，毫无虫类的样子。</li>
-    <li>{PAWN_nameShort}的 虫族产卵管的构造平淡无奇，毫无趣味。</li>
+    <li>{PAWN_nameShort}的虫族产卵管的构造平淡无奇，毫无趣味。</li>
     <li>我观察着{PAWN_nameShort}的昆虫产卵管。其平庸的长度和乏味的形态毫无可取之处。</li>
     <li>{PAWN_nameShort}的虫类产卵管正是再奇异的构造也能无聊透顶的绝佳例证。</li>
     <li>{PAWN_nameShort}的那根昆虫产卵管十足可预测，对一件据说如此独特的东西来说，真是令人失望。</li>
@@ -1374,7 +1364,7 @@
     <li>{PAWN_nameShort}的那根浣熊阳具粗细平平，作为野兽之物，普通得令人震惊。</li>
     <li>我觉得{PAWN_nameShort}的浣熊阴茎无聊至极。它那典型的形状让我毫无感觉。</li>
     <li>没错，是浣熊阴茎，但{PAWN_nameShort}的这根平庸得惊人。平淡，毫无野性的样子。</li>
-    <li>{PAWN_nameShort}的 浣熊阴茎的构造平淡无奇，毫无趣味。</li>
+    <li>{PAWN_nameShort}的浣熊阴茎的构造平淡无奇，毫无趣味。</li>
     <li>我观察着{PAWN_nameShort}的浣熊阴茎。其平庸的长度和乏味的形态毫无可取之处。</li>
     <li>{PAWN_nameShort}的浣熊阴茎堪称典型例子，说明再奇特的构造也能无聊透顶。</li>
     <li>{PAWN_nameShort}的那根浣熊阴茎十足可预测，对一件据说如此独特的东西来说，真是令人失望。</li>
@@ -1406,7 +1396,7 @@
     <li>{PAWN_nameShort}的那根黏液触手粗细平平、黏滑也平平，普通得令人震惊。</li>
     <li>我觉得{PAWN_nameShort}的黏液触手无聊至极。它的动作和典型形状让我毫无感觉。</li>
     <li>没错，是史莱姆触手，但{PAWN_nameShort}的这根平庸得惊人。连黏滑都黏得毫无特色。</li>
-    <li>{PAWN_nameShort}的 史莱姆触手的构造平淡无奇，毫无趣味。它的自主运动也不过是寻常之物。</li>
+    <li>{PAWN_nameShort}的史莱姆触手的构造平淡无奇，毫无趣味。它的自主运动也不过是寻常之物。</li>
     <li>我观察着{PAWN_nameShort}的黏液触手。其平庸的长度和乏味的黏腻毫无可取之处。</li>
     <li>{PAWN_nameShort}的史莱姆触手堪称典型例子，说明再奇异的构造也能无聊透顶。</li>
     <li>{PAWN_nameShort}的那只黏液触手十足可预测，配上它那些动作，令人失望。</li>
@@ -1415,7 +1405,7 @@
     <li>{PAWN_nameShort}的史莱姆触手不过是又一个平平无奇的软泥附属物。它的构造毫无惊喜。</li>
   </Opinion_Penis_Negative_Average_SlimeTentacles.opinionTexts>
   <Opinion_Penis_Negative_Average_trait_Kind.opinionTexts>
-    <li>哦，{PAWN_nameShort}的 阴茎。它……确实在那儿。非常普通，但我相信对 {PAWN_objective} 来说够用了。</li>
+    <li>哦，{PAWN_nameShort}的阴茎。它……确实在那儿。非常普通，但我相信对 {PAWN_objective} 来说够用了。</li>
     <li>我相信{PAWN_nameShort}的阴茎完全够用，虽然不可否认很平庸。没什么好盯着的。</li>
     <li>虽然{PAWN_nameShort}的阴茎相当普通，但我可不想盯着它的平庸看，伤了{PAWN_objective}的心。</li>
     <li>我观察着{PAWN_nameShort}的阴茎。非常标准的样本。或许它能用，而这才是真正重要的。</li>
@@ -1468,7 +1458,7 @@
     <li>看到{PAWN_nameShort}的那平庸得令人难堪的阴茎，我的暴露癖精神被浇灭。</li>
     <li>不过是根普通的阴茎。{PAWN_nameShort}的阴茎激不起我被人看见或赞美的欲望。</li>
     <li>我想被人注意到，可{PAWN_nameShort}的阴茎实在太过普通，反而拖累了我的存在感。</li>
-    <li>{PAWN_nameShort}的 阴茎的平庸让它完全令人记不住，即便配上我自己宏伟的展示也是如此。</li>
+    <li>{PAWN_nameShort}的阴茎的平庸让它完全令人记不住，即便配上我自己宏伟的展示也是如此。</li>
     <li>我那些想让人震惊或赞叹的努力，全都被{PAWN_nameShort}的那平庸至极的阴茎抵消了。</li>
     <li>{PAWN_nameShort}的阴茎是视觉镇静剂。它对我暴露癖的倾向提供不了任何刺激。</li>
     <li>我沉醉于自己的裸体，可{PAWN_nameShort}的阴茎只提供了一个平淡乏味的对照。</li>
@@ -1614,7 +1604,7 @@
     <li>{PAWN_nameShort}的阴茎寡淡至极，几乎无法引人注意。一场毫无魅力、索然无味的展示。</li>
     <li>我看着{PAWN_nameShort}的阴茎，说真的，纯粹浪费我的时间。完全中等，毫无刺激可言。</li>
     <li>如此平平无奇的隆起。{PAWN_nameShort}的阴茎毫无特色，不值得多看一眼。</li>
-    <li>我这偷窥者对新鲜感的渴求在 {PAWN_nameShort}的 中等的阴茎上毫无满足。多么寻常又乏味的一幕。</li>
+    <li>我这偷窥者对新鲜感的渴求在 {PAWN_nameShort}的中等的阴茎上毫无满足。多么寻常又乏味的一幕。</li>
     <li>我观察着{PAWN_nameShort}的阴茎。其平平无奇的茎身和龟头对我毫无吸引力。完全不值一提。</li>
     <li>{PAWN_nameShort}的阴茎，实在平平无奇的样本。我渴望壮丽景象的心愿完全落空。</li>
     <li>{PAWN_nameShort}的阴茎的平庸简直冒犯人。我对自己的偷窥可是有更高期待的。</li>
@@ -1629,14 +1619,14 @@
     <li>我不敢相信{PAWN_nameShort}的阴茎竟如此无趣。我偷窥者的一面大失所望。</li>
     <li>{PAWN_nameShort}的阴茎的比例平平无奇，实在扫兴。我追求的是与众不同，不是千篇一律。</li>
     <li>我几乎立刻就把{PAWN_nameShort}的阴茎抛到了脑后。它太平常了，根本记不住。</li>
-    <li>看到 {PAWN_nameShort}的 那根平淡的阴茎，我这偷窥的好奇心被彻底碾碎。</li>
+    <li>看到 {PAWN_nameShort}的那根平淡的阴茎，我这偷窥的好奇心被彻底碾碎。</li>
     <li>{PAWN_nameShort}的阴茎。它堪称生理构造乏味的精髓。没什么可看的。</li>
     <li>{PAWN_nameShort}的阴茎那平庸的构造，没有任何能吸引或撩拨我目光之处。</li>
     <li>我带着彻底的徒劳感观察着{PAWN_nameShort}的阴茎。多么寻常的景象。</li>
     <li>看到{PAWN_nameShort}的阴茎，视觉上毫无收获。完美得令人心烦的平庸。</li>
     <li>{PAWN_nameShort}的阴茎无法激起我偷窥本性的任何反应。它就是……乏味。</li>
     <li>看着{PAWN_nameShort}的阴茎，感觉像一种惩罚。那么平平无奇，那么毫无新意。</li>
-    <li>{PAWN_nameShort}的 的阴茎让我这偷窥的希望落了空。那份寻常让我彻底无聊。</li>
+    <li>{PAWN_nameShort}阴茎让我这偷窥的希望落了空。那份寻常让我彻底无聊。</li>
   </Opinion_Penis_Negative_Average_trait_Voyeur.opinionTexts>
   <Opinion_Penis_Negative_Average_trait_Voyeur_F.opinionTexts>
     <li>{PAWN_nameShort}的中等隆起。真让人失望。这种寻常货色丝毫没能搅动我自己的欲望。</li>
@@ -1665,7 +1655,7 @@
     <li>我的目光落在{PAWN_nameShort}的阴茎上。它乏味的构造与平庸的尺寸，让我自己的身体毫无反应。</li>
     <li>{PAWN_nameShort}的阴茎在我眼中出现又消失。我自己那更富经验的自我，无声地报以一声了然的嗤笑。</li>
     <li>我见过更令人兴奋的东西。{PAWN_nameShort}的阴茎只是普通。我自己的身体只感到平静的漠然。</li>
-    <li>{PAWN_nameShort}的 阴茎的平庸让我毫无触动。我自己的身体也仿佛发出一声不屑的叹息。</li>
+    <li>{PAWN_nameShort}的阴茎的平庸让我毫无触动。我自己的身体也仿佛发出一声不屑的叹息。</li>
     <li>{PAWN_nameShort}的阴茎。如此平庸，如此中等。我那些更识货的部位丝毫未被触动。</li>
     <li>真是一幅毫无灵感的景象，{PAWN_nameShort}的阴茎无法满足偷窥者的任何欲望。我的身体依旧毫无动静。</li>
     <li>我的目光扫过{PAWN_nameShort}的阴茎。不过是又一截毫不出奇的肉。我自己的部位几乎毫无反应。</li>
@@ -1697,7 +1687,7 @@
     <li>我的目光落在{PAWN_nameShort}的阴茎上。它乏味的构造与平庸的尺寸，让我自己的身体毫无反应。</li>
     <li>{PAWN_nameShort}的阴茎在我眼中出现又消失。我自己那更富经验的阳具，无声地报以一声了然的嗤笑。</li>
     <li>我见过更令人兴奋的东西。{PAWN_nameShort}的阴茎只是普通。我自己的身体只感到平静的漠然。</li>
-    <li>{PAWN_nameShort}的 阴茎的平庸让我毫无触动。我自己的身体也仿佛发出一声不屑的叹息。</li>
+    <li>{PAWN_nameShort}的阴茎的平庸让我毫无触动。我自己的身体也仿佛发出一声不屑的叹息。</li>
     <li>{PAWN_nameShort}的阴茎。如此平庸，如此中等。我那些更识货的部位丝毫未被触动。</li>
     <li>真是一幅毫无灵感的景象，{PAWN_nameShort}的阴茎无法满足偷窥者的任何欲望。我自己的依旧疲软。</li>
     <li>我的目光扫过{PAWN_nameShort}的阴茎。不过是又一截毫不出奇的肉。我自己的部位几乎没抽动一下。</li>
@@ -2781,7 +2771,7 @@
     <li>{PAWN_nameShort}的巨大的史莱姆触手，那持续不断、令人不适的蠕动，呈现出一种不讨喜、有些扰人的轮廓，是件渗着黏液的骇人附肢。</li>
   </Opinion_Penis_Negative_Huge_SlimeTentacles.opinionTexts>
   <Opinion_Penis_Negative_Huge_trait_Kind.opinionTexts>
-    <li>哦，{PAWN_nameShort}的 巨大的阴茎看起来相当不适；我希望 {PAWN_pronoun} 能应付得来这么……惹眼的特征。</li>
+    <li>哦，{PAWN_nameShort}的巨大的阴茎看起来相当不适；我希望 {PAWN_pronoun} 能应付得来这么……惹眼的特征。</li>
     <li>我观察着{PAWN_nameShort}的巨大的茎身，感到一阵尴尬；这尺寸似乎相当笨重，对{PAWN_objective}来说或许还是个负担。</li>
     <li>{PAWN_nameShort}的身上那根真正巨大的阴茎让我有点为{PAWN_objective}感到难过；看起来很难优雅地驾驭。</li>
     <li>{PAWN_nameShort}的茎身的硕大体积确实……很显眼；我希望{PAWN_pronoun}别为它那可观的存在感太过难为情。</li>

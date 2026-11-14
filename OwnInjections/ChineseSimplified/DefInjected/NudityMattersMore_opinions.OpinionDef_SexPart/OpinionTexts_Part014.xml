@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 14/39 · 共 2935 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Breasts_Neutral_Small_trait_NMM_Exhibitionist_male.opinionTexts>
     <li>{PAWN_nameShort}的小巧的乳房露在外面。让我想炫耀一下自己那套家伙。</li>
     <li>看着{PAWN_nameShort}的展露的小巧乳房，我自己的阳具也急切地想要展示。</li>
@@ -22,7 +12,7 @@
     <li>它们小巧，但关键在于那份袒露。我自己的身体也渴望着被看见。</li>
     <li>我欣赏{PAWN_nameShort}的展示{PAWN_possessive}小巧乳房的胆量。这激励了我。</li>
     <li>{PAWN_nameShort}的小巧的乳房赤裸着任所有人观看。太好了。我也该加入这场展示。</li>
-    <li>{PAWN_nameShort}的 随意露出的小巧乳房令人十分解放。我的裤子感觉更紧了。</li>
+    <li>{PAWN_nameShort}的随意露出的小巧乳房令人十分解放。我的裤子感觉更紧了。</li>
     <li>看到{PAWN_nameShort}的小巧的乳房坦露在外，真好。让我也想把一切都放开来。</li>
     <li>{PAWN_nameShort}的小巧的乳房露了出来。愉悦而坦然的展示。我考虑把裤子脱了。</li>
     <li>看到{PAWN_nameShort}的小巧的乳房，鼓励我更大胆……地展露自己的裸体。</li>
@@ -46,7 +36,7 @@
   <Opinion_Breasts_Neutral_Small_trait_Nymphomaniac.opinionTexts>
     <li>{PAWN_nameShort}的小巧乳房。一阵微妙却无法否认的欲望。</li>
     <li>看到{PAWN_nameShort}的小巧的乳房，让我感到一阵躁动难安的冲动。</li>
-    <li>看着 {PAWN_nameShort}的 小巧的乳房，我的身体以不断增长的渴求回应。</li>
+    <li>看着 {PAWN_nameShort}的小巧的乳房，我的身体以不断增长的渴求回应。</li>
     <li>小巧，却袒露在外。分明是一种邀请。我的核心因期待而隐隐作痛。</li>
     <li>我观察着{PAWN_nameShort}的小巧的乳房，我的思绪飘向亲密之事。</li>
     <li>看见{PAWN_nameShort}的小乳房，一阵愉悦的燥热在我体内蔓延。</li>
@@ -78,7 +68,7 @@
   <Opinion_Breasts_Neutral_Small_trait_Nymphomaniac_Female.opinionTexts>
     <li>{PAWN_nameShort}的小巧乳房。我自己的身体里涌起一阵微妙却无法否认的欲望。</li>
     <li>看到{PAWN_nameShort}的小巧的乳房，让我在体内深处感到一阵躁动难安的冲动。</li>
-    <li>看着 {PAWN_nameShort}的 小巧的乳房，我的身体以不断增长的渴求回应。我的阴蒂发麻。</li>
+    <li>看着 {PAWN_nameShort}的小巧的乳房，我的身体以不断增长的渴求回应。我的阴蒂发麻。</li>
     <li>小巧，却袒露在外。分明是一种邀请。我的核心因期待与女性的亲密而隐隐作痛。</li>
     <li>我观察着{PAWN_nameShort}的小巧的乳房，我的思绪飘向抚摸它们。</li>
     <li>看见{PAWN_nameShort}的小乳房，一阵愉悦的燥热在我体内蔓延。我自己的乳房感觉更胀了。</li>
@@ -110,7 +100,7 @@
   <Opinion_Breasts_Neutral_Small_trait_Nymphomaniac_male.opinionTexts>
     <li>{PAWN_nameShort}的小巧乳房。一阵微妙却无法否认的欲望让我的鸡巴硬了起来。</li>
     <li>看到{PAWN_nameShort}的小巧的乳房，让我下腹涌起一阵躁动难安的冲动。</li>
-    <li>看着 {PAWN_nameShort}的 小巧的乳房，我的身体以不断增长的渴求回应。我的茎身变硬。</li>
+    <li>看着 {PAWN_nameShort}的小巧的乳房，我的身体以不断增长的渴求回应。我的茎身变硬。</li>
     <li>小巧，却袒露在外。分明是一种邀请。我的核心因期待亲密而隐隐作痛。</li>
     <li>我观察着{PAWN_nameShort}的小巧的乳房，我的思绪飘向触碰{PAWN_objective}会是什么感觉。</li>
     <li>看见{PAWN_nameShort}的小乳房，一阵愉悦的燥热在我体内蔓延。我的睾丸收紧了。</li>
@@ -187,7 +177,7 @@
     <li>{PAWN_nameShort}的乳房的含蓄，在赤裸时并不减损它们的吸引力。</li>
     <li>一种隐约的诱惑从{PAWN_nameShort}的裸露的小巧乳房散发出来。</li>
     <li>我发现自己被{PAWN_nameShort}的小巧乳房那纯真的轮廓所吸引。</li>
-    <li>{PAWN_nameShort}的小巧乳房这样朴素的呈现，就相当令人愉悦。</li>
+    <li>{PAWN_nameShort}的小巧乳房这样朴素的姿态，就相当令人愉悦。</li>
     <li>我的眼睛定在{PAWN_nameShort}的小巧而裸露的乳房上。</li>
     <li>{PAWN_nameShort}的小巧乳房，一瞥天然的形态。</li>
     <li>{PAWN_nameShort}的小巧乳房轻微的动作引起了我的注意。</li>
@@ -268,7 +258,7 @@
     <li>我观察着，内心升起一种沉静的强烈感受。</li>
   </Opinion_Breasts_Neutral_Small_trait_Voyeur_M.opinionTexts>
   <Opinion_Breasts_Neutral_Tiny.opinionTexts>
-    <li>注意到 {PAWN_nameShort}的 极小的乳房，它们有种柔和的可爱，但也没什么值得大书特书的。</li>
+    <li>注意到 {PAWN_nameShort}的极小的乳房，它们有种柔和的可爱，但也没什么值得大书特书的。</li>
     <li>我凝视着{PAWN_nameShort}的极小的乳房，在皮肤下几乎看不出来，像两颗小石子。</li>
     <li>我看到{PAWN_nameShort}的那极小的乳房，精致得仿佛瓷器雕成。</li>
     <li>我细看{PAWN_nameShort}的小巧的乳房，乳头几乎看不见。</li>
@@ -321,7 +311,7 @@
     <li>{PAWN_nameShort}的极小乳房的形态极为低调，带着一点近乎锥形的轮廓。</li>
     <li>{PAWN_nameShort}的极小乳房上的乳晕小巧而浅淡，与{PAWN_possessive}娇弱的身形相配。</li>
     <li>我在一些殖民者身上见过更大的胸肌；{PAWN_nameShort}的乳房相当小巧。</li>
-    <li>{PAWN_nameShort}的极小的乳房毫无晃动，只有一种固定而柔软的存在感。</li>
+    <li>{PAWN_nameShort}的极小的乳房毫无晃动，只是软软地定在那儿。</li>
     <li>它们极小的形态让{PAWN_nameShort}的乳房显得相当天真，几乎像孩童。</li>
     <li>{PAWN_nameShort}的乳房如此小巧，得看上一会儿才能认出那是乳房。</li>
     <li>{PAWN_nameShort}的极小的乳房几乎没有凸起，与{PAWN_possessive}整体轮廓融为一体。</li>
@@ -404,7 +394,7 @@
     <li>那女性的娇小乳房坦然地露着，朴素的形态与小乳晕都清晰可见。</li>
     <li>{PAWN_possessive}极小的乳房相当明显，清楚表明其自然而不张扬的形态。</li>
     <li>那小巧而坚挺的乳房完全展露着，它们微微的隆起呈现出一幅坦率的景象。</li>
-    <li>我内心的暴露癖承认这对极小乳房含蓄的呈现，其轮廓清晰分明。</li>
+    <li>我内心的暴露癖承认这对极小乳房含蓄的姿态，其轮廓清晰分明。</li>
     <li>{PAWN_nameShort}的小巧紧实的乳房坦然地呈现着，一场中性的展示，只有形态，没有起伏。</li>
     <li>那极小的乳房，连着小得几乎看不出的乳头，清清楚楚地露着。</li>
     <li>这对娇小的乳房清晰可见，形状整洁紧凑，正适合大方展示。</li>
@@ -629,7 +619,7 @@
     <li>看着{PAWN_nameShort}的小巧紧实的乳房，我忆起自己年轻时的悸动。</li>
     <li>{PAWN_nameShort}的乳房鲜明地提醒着蓬勃的青春与绽放的性。</li>
     <li>我觉得{PAWN_nameShort}的极小乳房那含蓄的性感相当有力。</li>
-    <li>看到 {PAWN_nameShort}的 青春的裸体，我的身体以一阵无声的隐痛回应。</li>
+    <li>看到 {PAWN_nameShort}的青春的裸体，我的身体以一阵无声的隐痛回应。</li>
     <li>{PAWN_nameShort}的极小乳房上那紧致而年轻的乳头，是一处令人愉悦的细节。</li>
     <li>我喜欢看{PAWN_nameShort}的未加修饰的胸部，欣赏{PAWN_possessive}乳房天然的形态。</li>
     <li>{PAWN_nameShort}的极小的乳房以自己安静的方式相当动人。</li>
@@ -645,7 +635,7 @@
     <li>这对乳房才刚刚开始发育。这是自然的阶段，仅此而已。</li>
     <li>我注意到{PAWN_nameShort}的小巧紧实的乳房。一幅青春景象，并无特别之处。</li>
     <li>嗯，{PAWN_nameShort}的乳房确实偏小巧。让我想起更单纯的年代。</li>
-    <li>那儿也没多少东西，对吧？{PAWN_nameShort}的 极小的乳房乏善可陈。</li>
+    <li>那儿也没多少东西，对吧？{PAWN_nameShort}的极小的乳房乏善可陈。</li>
     <li>{PAWN_nameShort}的乳房相当微不足道。我在男性殖民者身上见过更大的。</li>
     <li>如此细小的乳房，毫无真正的形态或特色。只是随口一句。</li>
     <li>我想{PAWN_nameShort}的乳房与{PAWN_possessive}身形比例相称。不过还是偏小。</li>
@@ -659,7 +649,7 @@
     <li>这儿没什么可看的，只是极小的乳房。相当平庸。</li>
     <li>我早就不再为这种未发育的形体惊叹了。{PAWN_nameShort}的乳房极小。</li>
     <li>{PAWN_nameShort}的极小的乳房看起来相当天真。让人想起青春。</li>
-    <li>那儿没多少肉。{PAWN_nameShort}的 的乳房非常有限。</li>
+    <li>那儿没多少肉。{PAWN_nameShort}乳房非常有限。</li>
     <li>它们缺少我一向欣赏的饱满。{PAWN_nameShort}的乳房确实是极小的。</li>
     <li>我注意到{PAWN_nameShort}的小巧的乳头与乳晕，与那对极小的乳房很是相称。</li>
     <li>{PAWN_nameShort}的乳房看着几乎尚未发育，肯定还没长成。</li>
@@ -715,7 +705,7 @@
     <li>它们确实小巧。并非全无魅力，但不是我的偏好。</li>
     <li>{PAWN_nameShort}的极小的乳房如此不起眼。是一副非常天真的模样。</li>
     <li>我看到{PAWN_nameShort}的胸部，那对极小的乳房几乎像是顺带长出来的。</li>
-    <li>{PAWN_nameShort}的 极小的乳房没什么弹动或颤动。相当含蓄。</li>
+    <li>{PAWN_nameShort}的极小的乳房没什么弹动或颤动。相当含蓄。</li>
     <li>{PAWN_nameShort}的乳房确实微微隆起，但并不突出。</li>
     <li>我承认，我的目光没在{PAWN_nameShort}的那极小的乳房上停留多久。</li>
     <li>它们确实小巧，但终究是乳房。我的注意力转向了别的部位。</li>
@@ -806,7 +796,7 @@
     <li>那女性的娇小乳房坦然地露着，朴素的形态与小乳晕都清晰可见。</li>
     <li>{PAWN_possessive}极小的乳房相当明显，清楚表明其自然而不张扬的形态。</li>
     <li>那小巧而坚挺的乳房完全展露着，它们微微的隆起呈现出一幅坦率的景象。</li>
-    <li>我内心的暴露癖承认这对极小乳房含蓄的呈现，其轮廓清晰分明。</li>
+    <li>我内心的暴露癖承认这对极小乳房含蓄的姿态，其轮廓清晰分明。</li>
     <li>{PAWN_nameShort}的小巧紧实的乳房坦然地呈现着，一场中性的展示，只有形态，没有起伏。</li>
     <li>那极小的乳房，连着小得几乎看不出的乳头，清清楚楚地露着。</li>
     <li>这对娇小的乳房清晰可见，形状整洁紧凑，正适合大方展示。</li>
@@ -981,7 +971,7 @@
     <li>这对乳房紧凑，衬托着{PAWN_possessive}身形轮廓，却不引人注目，也不需要细加审视。</li>
     <li>那轻微的弧度暗示着体积极小，与小型史莱姆乳腺组织应有的样子相符。</li>
     <li>它们作为胸部实用的部分存在着，小巧的体量既不减分，也算不上特别诱人。</li>
-    <li>人注意到它们只是微不足道的解剖细节，既未增添也未减损 {PAWN_nameShort}的 的外在呈现。</li>
+    <li>有人注意到它们只是微不足道的解剖细节，既未增添也未减损 {PAWN_nameShort}外在呈现。</li>
     <li>它们的尺寸落在极小乳房的正常范围内，给人标准的视觉印象，没有什么独特的美感特征。</li>
     <li>这质地对典型的史莱姆而言，光滑而有弹性，符合对这种生理结构的预期。</li>
     <li>作为一项身体特征，这对极小的史莱姆乳房只是占着它们既定的空间，既不引人注目，也不存在缺陷。</li>
@@ -1079,7 +1069,7 @@
     <li>{PAWN_nameShort}的极小乳房那含蓄的魅力，点燃了我想要展露一切、包括私处的欲望。</li>
     <li>{PAWN_nameShort}的极小的乳房是为我自己盛大揭幕所做的绝妙前奏。</li>
     <li>{PAWN_nameShort}的开放鼓舞了我。我自己的身体也想要被看见。</li>
-    <li>{PAWN_nameShort}的 随意展露的小巧乳房，是对我自己暴露癖的一份许可。</li>
+    <li>{PAWN_nameShort}的随意展露的小巧乳房，是对我自己暴露癖的一份许可。</li>
     <li>看着{PAWN_nameShort}的极小的乳房，真是件美事。我越来越想把自己的也展示出来。</li>
     <li>我很欣赏{PAWN_nameShort}展示{PAWN_possessive}极小乳房。这印证了我自己展露的需求。</li>
     <li>看到{PAWN_nameShort}的极小的乳房，让我充满大胆的自信，想展现真实的自己。</li>
@@ -1111,7 +1101,7 @@
     <li>{PAWN_nameShort}的极小乳房那含蓄的魅力，点燃了我想要展露一切的欲望。</li>
     <li>{PAWN_nameShort}的极小的乳房是为我自己盛大展露所做的绝妙前奏。</li>
     <li>{PAWN_nameShort}的开放鼓舞了我。我自己的身体也想要被看见。</li>
-    <li>{PAWN_nameShort}的 随意展露的小巧乳房，是对我自己暴露癖的一份许可。</li>
+    <li>{PAWN_nameShort}的随意展露的小巧乳房，是对我自己暴露癖的一份许可。</li>
     <li>看着{PAWN_nameShort}的极小的乳房，真是件美事。我越来越想把自己的也展示出来。</li>
     <li>我很欣赏{PAWN_nameShort}展示{PAWN_possessive}极小乳房。这印证了我自己展露的需求。</li>
     <li>看到{PAWN_nameShort}的极小的乳房，让我充满大胆的自信，想展现真实的自己。</li>
@@ -1135,7 +1125,7 @@
     <li>我想感受那对小乳房贴着我，探索{PAWN_nameShort}的年轻身体的每一寸。</li>
     <li>{PAWN_nameShort}的极小乳房的天真，反倒助长了我贪得无厌的欲火。</li>
     <li>我几乎尝到了{PAWN_nameShort}的赤裸身体散发的原始肉感，连同那对极小乳房在内。</li>
-    <li>看到 {PAWN_nameShort}的 极小的乳房，我的身体因强烈的渴望而震颤。</li>
+    <li>看到 {PAWN_nameShort}的极小的乳房，我的身体因强烈的渴望而震颤。</li>
     <li>我执着于{PAWN_nameShort}的胸部，想象触碰{PAWN_possessive}小巧曲线的美味感受。</li>
     <li>{PAWN_nameShort}的极小乳房那份年轻的紧实，对我的感官刺激至极。</li>
     <li>我觉得{PAWN_nameShort}的极小乳房那不起眼的样子完全令人着迷。</li>
@@ -1167,10 +1157,10 @@
     <li>我对{PAWN_nameShort}与{PAWN_possessive}未经触碰的身体怀有压倒性的欲望。我的小穴在发麻。</li>
     <li>我几乎能感觉到{PAWN_nameShort}的年轻身形散发出的原始肉感。我全身都因渴求而苏醒。</li>
     <li>{PAWN_nameShort}的极小乳房含蓄的轮廓极具刺激性。我需要找到满足。</li>
-    <li>看着 {PAWN_nameShort}的 小巧的乳房，我血脉偾张，渴求得难以忍受。</li>
+    <li>看着 {PAWN_nameShort}的小巧的乳房，我血脉偾张，渴求得难以忍受。</li>
     <li>我想象着自己贴上{PAWN_nameShort}，感受{PAWN_possessive}肌肤柔软的质地。</li>
     <li>{PAWN_nameShort}的极小乳房那番天真的诱惑，对我而言是强烈的春药。</li>
-    <li>看到 {PAWN_nameShort}的 的裸体，我的身体立刻做出急切的性唤起反应。</li>
+    <li>看到 {PAWN_nameShort}裸体，我的身体立刻做出急切的性唤起反应。</li>
     <li>我迷醉于{PAWN_nameShort}的精致的乳晕，我的欲望愈发强烈。</li>
     <li>我一定要得到{PAWN_nameShort}。{PAWN_possessive}极小的乳房唤醒了我体内的野兽。</li>
     <li>一看到{PAWN_nameShort}的极小的乳房，我的阴蒂就兴奋得几乎在震颤。</li>
@@ -1199,10 +1189,10 @@
     <li>对{PAWN_nameShort}和{PAWN_possessive}那未被触碰过的身体的渴望把我彻底吞噬。我的阴茎完全充血肿胀。</li>
     <li>我几乎尝到了{PAWN_nameShort}的极小乳房的青春肉体。我的性唤起无法控制。</li>
     <li>{PAWN_nameShort}的极小乳房含蓄的轮廓极具刺激性。我需要给自己解解压。</li>
-    <li>看着 {PAWN_nameShort}的 小巧的乳房，我血脉偾张，渴求得难以忍受。</li>
+    <li>看着 {PAWN_nameShort}的小巧的乳房，我血脉偾张，渴求得难以忍受。</li>
     <li>我想象着自己贴上{PAWN_nameShort}，感受{PAWN_possessive}小巧乳房的柔软。</li>
     <li>{PAWN_nameShort}的极小乳房那番天真的诱惑，对我而言是强烈的春药。</li>
-    <li>看到 {PAWN_nameShort}的 的裸体，我的身体立刻勃起。</li>
+    <li>看到 {PAWN_nameShort}裸体，我的身体立刻勃起。</li>
     <li>我迷醉于{PAWN_nameShort}的精致的乳晕，我的欲望愈发强烈。</li>
     <li>我一定要得到{PAWN_nameShort}。{PAWN_possessive}极小的乳房已注定我的命运。</li>
     <li>一看到{PAWN_nameShort}的极小的乳房，我的鸡巴简直要从裤子里蹦出来。</li>
@@ -1264,7 +1254,7 @@
     <li>{PAWN_nameShort}的极小乳房那光洁无损的皮肤与紧致的形态，看着相当可人。</li>
     <li>{PAWN_nameShort}的极小的乳房有种私密的美，让观察它们变得更加令人满足。</li>
     <li>我很欣赏{PAWN_nameShort}的胸部的精致比例，包括她那对极小的乳房。</li>
-    <li>{PAWN_nameShort}的 身体那份朴素自然的展现，让我这偷窥的本性颇感愉悦。</li>
+    <li>{PAWN_nameShort}的身体那份朴素自然的展现，让我这偷窥的本性颇感愉悦。</li>
     <li>{PAWN_nameShort}的极小乳房轻柔的起伏是幅令人神魂颠倒的景象。</li>
     <li>我发现自己正在研究{PAWN_nameShort}的小巧乳房的质地与轮廓。</li>
     <li>{PAWN_nameShort}的那对极小乳房原始而未发育的魅力，值得细细欣赏。</li>
@@ -1352,7 +1342,7 @@
   <Opinion_Breasts_Positive_Average.opinionTexts>
     <li>真想看{PAWN_nameShort}的乳房在我眼前晃荡。</li>
     <li>看着{PAWN_nameShort}的乳房抖动的样子，正合我的胃口。</li>
-    <li>看见 {PAWN_nameShort}的 的乳房，现在我想揉捏它们。</li>
+    <li>看见 {PAWN_nameShort}乳房，现在我想揉捏它们。</li>
     <li>我看到{PAWN_nameShort}的乳房，正好一手可握，那饱满丰盈的形状让我无法抗拒。</li>
     <li>我细看{PAWN_nameShort}的乳房，小巧与丰满之间平衡得恰到好处，饱满程度正合适。</li>
     <li>我注视着{PAWN_nameShort}的乳房，那是美丽而撩人的景象，乳头仿佛回应着我的每一次注视。</li>
@@ -1402,7 +1392,7 @@
     <li>真是一对和谐的乳房，比例悦目，晃动优雅。中等大小恰到好处。</li>
     <li>如此可爱、天然的一对乳房。它们无瑕的肌肤与柔和的曲线格外吸引人。看着真是一种享受。</li>
     <li>{PAWN_nameShort}的乳房形状完美、比例精致，是一种纯粹而朴素的美。绝对迷人。</li>
-    <li>这对乳房轻柔的起伏令人着迷，自然的形态与不大的尺寸成就了一种优雅的呈现。</li>
+    <li>这对乳房轻柔的起伏令人着迷，自然的形态与不大的尺寸成就了一种优雅的姿态。</li>
     <li>显然这对乳房形态良好、柔软得动人。它们的存在增添了{PAWN_pronoun}天然的优雅与女性的魅力。</li>
     <li>真是一幅可爱的景象，{PAWN_nameShort}的乳房有着悦目的圆润与奇妙的柔滑质感。它们的魅力无可否认。</li>
     <li>这对乳房优雅的曲线，加上它们含蓄的紧实感，构成真正悦目的景象。它们就是美。</li>
@@ -1493,7 +1483,7 @@
     <li>{PAWN_nameShort}的晃动的乳房是对自然之美的欢欣肯定。我爱看{PAWN_objective}如此不为岁月所累。</li>
     <li>{PAWN_nameShort}的乳房移动的样子如此毫无拘束；它真正唤醒了我自己想要被看见的欲望。</li>
     <li>看着{PAWN_nameShort}的如此毫无拘束的老年乳房，我心中涌起自由之感，也想那样敞露。</li>
-    <li>{PAWN_nameShort}的 中等而年迈的乳房那自信的展示，配上自然的轮廓，实在妙不可言。</li>
+    <li>{PAWN_nameShort}的中等而年迈的乳房那自信的展示，配上自然的轮廓，实在妙不可言。</li>
     <li>{PAWN_nameShort}的乳头隐约可见，为{PAWN_possessive}本已诱人的裸露乳房添上一丝俏皮。</li>
     <li>看着{PAWN_nameShort}的中等的乳房轻晃，我涌起一阵正能量。{PAWN_pronoun}确实对自己的身体很自在。</li>
     <li>{PAWN_nameShort}展现{PAWN_possessive}乳房时那份天然的妩媚与从容，极具刺激性。</li>
@@ -1505,7 +1495,7 @@
   <Opinion_Breasts_Positive_Average_ElderFemale_observed_by_Nymphomaniac.opinionTexts>
     <li>{PAWN_nameShort}的中等大小的老年乳房，微微晃动地袒露着，在我心中点燃了一股炽热的欲望。我几乎能感受到它们的智慧。</li>
     <li>哦，若能感受那对成熟中等乳房贴着我时的柔软！光是这番景象就让我脊背发麻。</li>
-    <li>{PAWN_nameShort}的 乳房那舒适的饱满精致地诱人。我的身体渴望着触碰如此自然的形状。</li>
+    <li>{PAWN_nameShort}的乳房那舒适的饱满精致地诱人。我的身体渴望着触碰如此自然的形状。</li>
     <li>{PAWN_nameShort}的乳头即便上了年纪也微微突出，让我发狂。这乳房满载许诺。</li>
     <li>赏心悦目的一幕！{PAWN_nameShort}的胸前那对中等的老迈乳房，让我的念头变得彻底肉欲。</li>
     <li>我几乎尝到了{PAWN_nameShort}的那对成熟、中等乳房所承诺的激情。我的本能在大声尖叫。</li>
@@ -1525,7 +1515,7 @@
     <li>我有股原始的冲动，想把脸埋进{PAWN_nameShort}的柔软的中等乳房里。那份饥渴令人无法招架。</li>
   </Opinion_Breasts_Positive_Average_ElderFemale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Breasts_Positive_Average_ElderFemale_observed_by_Prude.opinionTexts>
-    <li>私处确实该被遮起来。虽然 {PAWN_nameShort}的 年长的乳房只是中等，但如此公然展示实在有失体统。</li>
+    <li>私处确实该被遮起来。虽然 {PAWN_nameShort}的年长的乳房只是中等，但如此公然展示实在有失体统。</li>
     <li>{PAWN_nameShort}的赤裸的胸部突然映入眼帘，相当令人吃惊。那对乳房……姑且算是存在吧，但说真的，太不知羞耻了！</li>
     <li>{PAWN_nameShort}的乳房虽然尺寸算不上多惊世骇俗，却依然相当袒露。这让我颇为不适。</li>
     <li>这样展示私密部位实在没有必要。{PAWN_nameShort}的中等大小的年长乳房露在外面，这可……不太妙。</li>
@@ -1749,7 +1739,7 @@
     <li>{PAWN_nameShort}的乳房形状完美、比例精致，是一种纯粹而朴素的美。</li>
   </Opinion_Breasts_Positive_Average_Elderly_Female_opinion.opinionTexts>
   <Opinion_Breasts_Positive_Average_Elderly_Female_voyer_opinion.opinionTexts>
-    <li>哦，若能再拥有 {PAWN_nameShort}的 年轻坚挺的乳房；{PAWN_possessive} 中等尺寸简直是天赐。</li>
+    <li>哦，若能再拥有 {PAWN_nameShort}的年轻坚挺的乳房；{PAWN_possessive} 中等尺寸简直是天赐。</li>
     <li>{PAWN_nameShort}的乳房晃颤摆动的样子，让我自己的乳房因渴望青春而沉重。</li>
     <li>{PAWN_nameShort}的中等乳房是美丽的一景，让我想起年轻身体所能享受的欢愉。</li>
     <li>我发现自己欣赏着{PAWN_nameShort}的柔嫩的乳房，希望自己能再一次感受那样的紧实。</li>
@@ -1759,7 +1749,7 @@
     <li>我可以看{PAWN_nameShort}的乳房看一整天，它们的青春与活力实在迷人。</li>
     <li>{PAWN_nameShort}的乳房简直精致极了，让我想起自己的也曾这般挺翘。</li>
     <li>{PAWN_nameShort}的中等乳房上的乳头如此诱人，真是叫人垂涎的景象。</li>
-    <li>哎哟，我的天，{PAWN_nameShort}的 的乳房活现出青春的肉感，确实相当刺激。</li>
+    <li>哎哟，我的天，{PAWN_nameShort}乳房活现出青春的肉感，确实相当刺激。</li>
     <li>看着{PAWN_nameShort}的那对完美的中等乳房，我涌起强烈的渴望，一种源自本能的深沉吸引。</li>
     <li>{PAWN_nameShort}的乳房是野性之美的见证，让我自己的身体也渴求起来。</li>
     <li>{PAWN_nameShort}的乳房的柔软与丰满真是诱人，是一幅有力的景象。</li>
@@ -1780,7 +1770,7 @@
     <li>看到{PAWN_nameShort}的中等的乳房，对我而言既美丽又极为刺激。</li>
     <li>{PAWN_nameShort}的乳房有种原始而不驯的吸引力，让我意外地觉得自己活了过来。</li>
     <li>{PAWN_nameShort}的中等乳房如此饱满迷人，让我自己的身体因一种久违的渴望而嗡鸣。</li>
-    <li>哦，若能再拥有那年轻的坚挺与弹动！{PAWN_nameShort}的 乳房真是令人亢奋的景象。</li>
+    <li>哦，若能再拥有那年轻的坚挺与弹动！{PAWN_nameShort}的乳房真是令人亢奋的景象。</li>
     <li>{PAWN_nameShort}的乳房极其细微地晃颤着……它唤醒我内心某种暖意，我自己的乳头也硬了起来。</li>
     <li>多么丰美的中等乳房！让我想起自己的全盛时期，激起一股强烈的兴奋。</li>
     <li>我觉得{PAWN_nameShort}的乳房完全性感。对我这双懂得欣赏的眼睛来说，是真正的盛宴。</li>
@@ -1810,7 +1800,7 @@
     <li>{PAWN_nameShort}的乳房的丰腴对我来说是强效的春药。我被渴求淹没。</li>
     <li>观赏{PAWN_nameShort}的乳房就是目睹纯粹而无杂的美，唤醒我最原始的冲动。</li>
     <li>突然映入眼帘，令人着迷！这对年轻乳房如此饱满柔嫩，激起一阵鲜活的渴望。我自己的肌肤也随之刺痒起来。</li>
-    <li>哦，多么甘美的景象！{PAWN_nameShort}的 乳房，如此自然的坚挺，让我自己的也因共鸣的快感而胀痛。无比愉悦。</li>
+    <li>哦，多么甘美的景象！{PAWN_nameShort}的乳房，如此自然的坚挺，让我自己的也因共鸣的快感而胀痛。无比愉悦。</li>
     <li>那对精致乳房意外映入眼帘，一阵战栗窜过我全身。它们轻柔的晃动与精致的乳头令人彻底着迷。</li>
     <li>这对乳房如此清新诱人，唤起了深沉而原始的欣赏。一股愉悦的暖意在我胯下蔓延，一阵醉人的胀痛。</li>
     <li>如此迷人的乳房，饱满诱人，柔软的隆起令人神魂颠倒。它们让我想起自己的青春。</li>
@@ -1864,7 +1854,7 @@
     <li>我觉得{PAWN_nameShort}的中等乳房完美均衡，是{PAWN_possessive}身材和谐的一部分。</li>
     <li>{PAWN_nameShort}的乳房上精巧的乳头更添其魅惑，是个迷人的细节。</li>
     <li>{PAWN_nameShort}的乳房是令人欣喜的景象，它们自然的形状相当勾人。</li>
-    <li>观察 {PAWN_nameShort}的 中等的乳房，我看到一种安静的美，不加修饰而纯粹。</li>
+    <li>观察 {PAWN_nameShort}的中等的乳房，我看到一种安静的美，不加修饰而纯粹。</li>
     <li>{PAWN_nameShort}的乳房呈现的方式有种含蓄的优雅，非常得体。</li>
     <li>{PAWN_nameShort}的乳房，那柔和的饱满相当吸引人，是个令人愉快的观察。</li>
     <li>{PAWN_nameShort}的乳房那自然的形状相当动人，让人想起更简单的岁月。</li>
@@ -1933,13 +1923,13 @@
     <li>真是一幅愉悦的景象。这对乳房有着自然无瑕的美，是青春女性形态的一幅温柔景致。</li>
   </Opinion_Breasts_Positive_Average_Elderly_Male_opinion.opinionTexts>
   <Opinion_Breasts_Positive_Average_Elderly_Male_voyer_opinion.opinionTexts>
-    <li>哦，若能看见 {PAWN_nameShort}的 年轻的乳房……让一个老男人又觉得自己活了过来，你懂我的意思。</li>
+    <li>哦，若能看见 {PAWN_nameShort}的年轻的乳房……让一个老男人又觉得自己活了过来，你懂我的意思。</li>
     <li>{PAWN_nameShort}的那中等的乳房随每个轻微动作晃颤的样子完全令人迷醉，在我深处搅动起什么。</li>
     <li>{PAWN_nameShort}的那对完美的中等乳房让我血脉加速；多么值得一看的景象，实在迷人！</li>
     <li>{PAWN_nameShort}的柔韧、中等大小的乳房是我双眼的盛宴，说实在的，我苍老的部位也注意到了。</li>
     <li>{PAWN_nameShort}身上那对可人的中等乳房，饱满而成熟，我几乎能感到它们在我手中。</li>
     <li>光是看到{PAWN_nameShort}的裸露的乳房，一阵酥麻便沿着我的脊背而下，那是青春般的愉悦。</li>
-    <li>哎哟，我的天，{PAWN_nameShort}的 的乳房简直精美绝伦，让我这把年纪也觉得心痒难耐。</li>
+    <li>哎哟，我的天，{PAWN_nameShort}乳房简直精美绝伦，让我这把年纪也觉得心痒难耐。</li>
     <li>我可以整天看着{PAWN_nameShort}的那对中等乳房，它们轻柔的弹动实在迷人，是令人振奋的景象。</li>
     <li>{PAWN_nameShort}的乳房形状极美，那柔软的外表相当刺激，容我这么说。</li>
     <li>{PAWN_nameShort}的中等尺寸的乳房上那对玫红色的乳头格外诱人，让我浑身燥热。</li>
@@ -1951,7 +1941,7 @@
     <li>{PAWN_nameShort}的乳房，完美地中等却完全令人着迷，对我这样阅历的男人来说，真是一道好风景。</li>
     <li>望着{PAWN_nameShort}的饱满的中等乳房，我明显感到一阵悸动；效果相当强烈。</li>
     <li>{PAWN_nameShort}的中等乳房上那乳头简直在乞求被挑逗，真是令人愉悦的念头。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此坦然，是给我这偷窥灵魂的真正馈赠。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此坦然，是给我这偷窥灵魂的真正馈赠。</li>
     <li>{PAWN_nameShort}的中等乳房是种美丽的干扰，把我的思绪拉向更肉欲的事情。</li>
     <li>光是看着{PAWN_nameShort}的中等大小的乳房，就让我年迈的下身泛起暖意，一种愉悦的感觉。</li>
     <li>我必须坦白，{PAWN_nameShort}的乳房那细微的晃动，让我性欲高涨得不可思议。</li>
@@ -1994,7 +1984,7 @@
     <li>{PAWN_nameShort}的乳房的丰腴对我来说是强效的春药。</li>
     <li>观赏{PAWN_nameShort}的乳房就是目睹纯粹而无杂的美，唤醒我最深的欲望。</li>
     <li>迷人的一瞥！这对柔软年轻的乳房，弧线诱人，点燃了一股熟悉的暖意。我的下身躁动起来。</li>
-    <li>哦，多么美味的景象！{PAWN_nameShort}的 乳房，形态完美而柔嫩，激起旧日的欲望。真是种享受。</li>
+    <li>哦，多么美味的景象！{PAWN_nameShort}的乳房，形态完美而柔嫩，激起旧日的欲望。真是种享受。</li>
     <li>那对精致乳房突然映入眼帘，让我一阵兴奋。它们轻柔的摇摆透出鲜活的女人味；一次愉悦的体验。</li>
     <li>这对乳房如此清新诱人，唤起了原始的欣赏。一股愉悦的激流贯穿我全身，一阵渴慕的胀痛。</li>
     <li>如此迷人的乳房，饱满诱人，柔软的隆起令人神魂颠倒。我的身体本能地对这般美景起了反应。</li>
@@ -2183,7 +2173,7 @@
     <li>{PAWN_nameShort}的中等乳房简直美妙，那饱满浑圆的形状许诺着舒适与温暖。</li>
   </Opinion_Breasts_Positive_Average_MatureFemale_observed_by_Elder_male.opinionTexts>
   <Opinion_Breasts_Positive_Average_MatureFemale_observed_by_Exhibitionist.opinionTexts>
-    <li>看见 {PAWN_nameShort}的 中等的乳房骄傲地展示着，让我涌起一阵兴奋的冲动，也想炫耀自己的。多么自信！</li>
+    <li>看见 {PAWN_nameShort}的中等的乳房骄傲地展示着，让我涌起一阵兴奋的冲动，也想炫耀自己的。多么自信！</li>
     <li>{PAWN_nameShort}的胸部配上那对恰到好处的中等大小、却又诱人的乳房，激励了我。能这样毫无拘束，真是太好了！</li>
     <li>一场迷人的展示，{PAWN_nameShort}的天然的乳房，轻柔的晃动引人注目。我自己现在也感觉好自由！</li>
     <li>{PAWN_nameShort}的成熟乳房那毫不羞怯的可见度真是一种解放。如此绚丽的景象，也鼓励着我的暴露癖。</li>
@@ -2195,7 +2185,7 @@
     <li>{PAWN_nameShort}的晃动的乳房是对自然之美的欢欣肯定。我爱看{PAWN_objective}如此无拘无束。</li>
     <li>{PAWN_nameShort}的乳房移动的样子如此毫无拘束；它真正唤醒了我自己想要被看见的欲望。</li>
     <li>看着{PAWN_nameShort}的如此毫无拘束的成熟乳房，我心中涌起自由之感，也想那样敞露。</li>
-    <li>{PAWN_nameShort}的 中等乳房那自信的展示，配上自然的轮廓，实在妙不可言。</li>
+    <li>{PAWN_nameShort}的中等乳房那自信的展示，配上自然的轮廓，实在妙不可言。</li>
     <li>{PAWN_nameShort}的乳头隐约可见，为{PAWN_possessive}本已诱人的裸露乳房添上一丝俏皮。</li>
     <li>看着{PAWN_nameShort}的中等的乳房轻晃，我涌起一阵正能量。{PAWN_pronoun}确实对自己的身体很自在。</li>
     <li>{PAWN_nameShort}展现{PAWN_possessive}乳房时那份天然的妩媚与从容，极具刺激性。</li>
@@ -2227,7 +2217,7 @@
     <li>我有股原始的冲动，想把脸埋进{PAWN_nameShort}的柔软的中等乳房里。那份饥渴令人无法招架。</li>
   </Opinion_Breasts_Positive_Average_MatureFemale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Breasts_Positive_Average_MatureFemale_observed_by_Prude.opinionTexts>
-    <li>私处确实该被遮起来。虽然 {PAWN_nameShort}的 乳房只是中等，但如此公然展示实在有失体统。</li>
+    <li>私处确实该被遮起来。虽然 {PAWN_nameShort}的乳房只是中等，但如此公然展示实在有失体统。</li>
     <li>{PAWN_nameShort}的赤裸的胸部突然映入眼帘，相当令人吃惊。那对乳房……姑且算是存在吧，但说真的，太不知羞耻了！</li>
     <li>{PAWN_nameShort}的乳房虽然尺寸算不上多惊世骇俗，却依然相当袒露。这让我颇为不适。</li>
     <li>这样展示私密部位实在没有必要。{PAWN_nameShort}的中等大小的乳房露在外面，这可……不太妙。</li>
@@ -2402,7 +2392,7 @@
     <li>这对史莱姆乳房简直摄人心魄，吸引着所有目光。能共享如此异域之美的时刻，令我兴奋不已。</li>
     <li>{PAWN_nameShort}的黏液乳房展露的样子，真是精致。它们就该被看见，就该因其独特的形态而被欣赏。</li>
     <li>光辉的启示！这对史莱姆乳房美极了，我对它们那无拘无束、粼粼闪光的展示感到深深的共鸣。</li>
-    <li>多么自信又美丽！这对黏液乳房真是个奇迹，它们坦然的呈现带着异界的魅力，让我深受鼓舞。</li>
+    <li>多么自信又美丽！这对黏液乳房真是个奇迹，它们坦然的姿态带着异界的魅力，让我深受鼓舞。</li>
     <li>这对乳房柔和的曲线与那自然却流转的晃动令人着迷。好一幅令人愉悦、毫无羞耻、流光溢彩的景象。</li>
     <li>真是绝妙的景象！这对史莱姆乳房是独特自我表达的明证，我强烈地被它们那异星的优雅所吸引。</li>
     <li>这对史莱姆乳房撩人至极，公开展露更是一份厚礼。我钟爱这种毫不掩饰的异域之美。</li>
@@ -2512,7 +2502,7 @@
     <li>{PAWN_nameShort} 展示 {PAWN_possessive} 乳房的随意模样太棒了；我也强烈地想露出自己。</li>
     <li>中等大小的乳房展示得多么美好；它鼓励我接纳自己的身体，并与世界分享它。</li>
     <li>{PAWN_nameShort}的乳房相当动人，看到它们让我想亮出我自己的私密部位。</li>
-    <li>{PAWN_nameShort}的 裸体中的那份自信，尤其是 {PAWN_possessive} 中等的乳房，实在迷人，且极具感染力。</li>
+    <li>{PAWN_nameShort}的裸体中的那份自信，尤其是 {PAWN_possessive} 中等的乳房，实在迷人，且极具感染力。</li>
     <li>我觉得{PAWN_nameShort}的乳房很有吸引力，这加强了我想要以自己自然状态被人看见的欲望。</li>
     <li>{PAWN_nameShort}的乳房相当可爱，那份毫不遮掩让我渴望把自己的身体也展示出来。</li>
     <li>{PAWN_nameShort}展示{PAWN_possessive}乳房的那份大胆真令人振奋；我感到一股暴露癖的冲动涌起。</li>
@@ -2537,7 +2527,7 @@
     <li>多么可人的中等乳房！让我想把自己的一切都展示出来。</li>
     <li>{PAWN_nameShort}的乳房那匀称的尺寸颇为动人。也许{PAWN_pronoun}也会欣赏我的暴露。</li>
     <li>我欣赏{PAWN_nameShort}的饱满挺翘的乳房。这也让我因被看见而兴奋。</li>
-    <li>观察 {PAWN_nameShort}的 中等的乳房，让我涌起想抛开自己的拘束、自由展示身体的冲动。</li>
+    <li>观察 {PAWN_nameShort}的中等的乳房，让我涌起想抛开自己的拘束、自由展示身体的冲动。</li>
     <li>{PAWN_nameShort}的乳房轻柔的摇摆与颤动令人振奋。我现在就想把自己展示出来。</li>
     <li>{PAWN_nameShort}的中等大小的乳房挺立得令人愉悦，让我十分心动。我在想{PAWN_objective}会不会喜欢我这样展示。</li>
     <li>{PAWN_nameShort}的乳房，那温柔的形态与诱人的饱满，是一道令人愉快的景象。让我想来一场表演。</li>
@@ -2557,7 +2547,7 @@
     <li>我可以花上好几个小时观察{PAWN_nameShort}的那对形状完美的乳房，品味每一处细节。这让我有底气展示我自己的。</li>
     <li>{PAWN_nameShort}的乳房那微微的紧绷与细微的动感，暗示着它们诱人的活力。这正是展露我自身之美的绝佳时机。</li>
     <li>{PAWN_nameShort}的乳房那含蓄而动人的美，有着强烈的吸引力。我必须炫耀一下我自己的天赋本钱。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此自然、毫不费力，简直精妙。我感到一场盛大的登场即将到来。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此自然、毫不费力，简直精妙。我感到一场盛大的登场即将到来。</li>
     <li>我迷醉于{PAWN_nameShort}的乳房上光影的细腻交错，那是真正的视觉诗篇。我的展示欲无比强烈。</li>
     <li>{PAWN_nameShort}的乳房的优雅十足，堪称视觉杰作。它激励我也来一场公开展示。</li>
     <li>我在{PAWN_nameShort}的乳房那简单而完美的形态中发现无尽的美，那是自然完美的明证。我想被欣赏的渴望汹涌而起。</li>
@@ -2575,9 +2565,9 @@
     <li>{PAWN_nameShort}的这般毫不遮掩的展示太美妙了。这对乳房是艺术品，生来就该被欣赏。</li>
     <li>如此诱人的乳房，如此坦然地分享！看着真是刺激，也激起我自己被注视的渴望。</li>
     <li>这对乳房简直令人着迷，吸引着所有目光。能共享这样一个公开的美丽时刻令人振奋。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式简直精妙。它们本就该被看见、被欣赏。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式简直精妙。它们本就该被看见、被欣赏。</li>
     <li>光辉的启示！这对乳房美极了，我对它们那无拘无束的展示感到深深的共鸣。</li>
-    <li>多么自信又美丽！这对乳房真是个奇迹，它们坦然的呈现让我深受鼓舞。</li>
+    <li>多么自信又美丽！这对乳房真是个奇迹，它们坦然的姿态让我深受鼓舞。</li>
     <li>这对乳房柔和的曲线与自然的晃动令人着迷。好一幅令人愉悦、毫无羞耻的景象。</li>
     <li>真是绝妙的景象！这对乳房是自我表达的明证，我也强烈地想要同样袒露自己。</li>
     <li>这对乳房诱人得妙不可言，它们公开亮相真是一份厚礼。我钟爱这样坦荡的展示。</li>
@@ -2604,11 +2594,11 @@
     <li>{PAWN_nameShort} 展示 {PAWN_possessive} 乳房的随意模样太棒了；我也强烈地想露出我的私处。</li>
     <li>中等大小的乳房展示得多么美好；它鼓励我接纳自己的身体，让人看见我的女性魅力。</li>
     <li>{PAWN_nameShort}的乳房相当动人，看到它们让我想亮出我自己饱满的阴唇。</li>
-    <li>{PAWN_nameShort}的 裸体中的那份自信，尤其是 {PAWN_possessive} 中等的乳房，实在迷人，让我的阴蒂搏动。</li>
+    <li>{PAWN_nameShort}的裸体中的那份自信，尤其是 {PAWN_possessive} 中等的乳房，实在迷人，让我的阴蒂搏动。</li>
     <li>我觉得{PAWN_nameShort}的乳房很有吸引力，这加强了我想要以自己原始、袒露的状态被人看见的欲望。</li>
     <li>{PAWN_nameShort}的乳房相当可爱，那份毫不遮掩让我渴望把自己诱人的乳沟也展示出来。</li>
     <li>{PAWN_nameShort}展示{PAWN_possessive}乳房的那份大胆真令人振奋；我感到一股暴露癖的冲动从核心涌起。</li>
-    <li>看见 {PAWN_nameShort}的 的乳房让我充满自由感；我也想要脱光，展示自己柔软的身体。</li>
+    <li>看见 {PAWN_nameShort}乳房让我充满自由感；我也想要脱光，展示自己柔软的身体。</li>
     <li>{PAWN_nameShort}的中等乳房很美，让我想毫不犹豫地分享自己的裸体，尤其是自己柔软的曲线。</li>
     <li>{PAWN_nameShort}拥抱自己裸体的样子，尤其是{PAWN_possessive}乳房，真是壮丽，让我的私处发热。</li>
     <li>{PAWN_nameShort}的乳房把我彻底迷倒；让我想露出自己、露出我这撩人的胸脯，供大家欣赏。</li>
@@ -2629,7 +2619,7 @@
     <li>多么可人的中等乳房！让我想展示自己的女性魅力。</li>
     <li>{PAWN_nameShort}的乳房那匀称的尺寸颇为动人。也许{PAWN_pronoun}会想看一眼我自豪的胸膛。</li>
     <li>我欣赏{PAWN_nameShort}的饱满挺翘的乳房。这也让我因展示自己而兴奋。</li>
-    <li>观察 {PAWN_nameShort}的 中等的乳房，让我涌起想抛开自己的拘束、自由展示身体的冲动。</li>
+    <li>观察 {PAWN_nameShort}的中等的乳房，让我涌起想抛开自己的拘束、自由展示身体的冲动。</li>
     <li>{PAWN_nameShort}的乳房轻柔的摇摆与颤动令人振奋。我现在就想敞开胸口。</li>
     <li>{PAWN_nameShort}的中等大小的乳房挺立得令人愉悦，让我十分心动。我在想{PAWN_objective}会不会喜欢我自己展露的样子。</li>
     <li>{PAWN_nameShort}的乳房，那温柔的形态与诱人的饱满，是一道令人愉快的景象。让我想用自己的乳沟来一场表演。</li>
@@ -2649,7 +2639,7 @@
     <li>我可以花上好几个小时观察{PAWN_nameShort}的那对形状完美的乳房，品味每一处细节。这让我有底气炫耀我自己这副荣耀的身体。</li>
     <li>{PAWN_nameShort}的乳房那微微的紧绷与细微的动感，暗示着它们诱人的活力。这正是展露我自身的美、以及我坚挺乳房的绝佳时机。</li>
     <li>{PAWN_nameShort}的乳房那含蓄而动人的美，有着强烈的吸引力。我必须炫耀一下我自己那对傲人的乳房。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此自然、毫不费力，简直精妙。我感到一场盛大的登场即将到来，由我赤裸的胸膛开路。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此自然、毫不费力，简直精妙。我感到一场盛大的登场即将到来，由我赤裸的胸膛开路。</li>
     <li>我迷醉于{PAWN_nameShort}的乳房上光影的细腻交错，那是真正的视觉诗篇。我想要展示自己那强健身体的欲望无比强烈。</li>
     <li>{PAWN_nameShort}的乳房的优雅十足，堪称视觉杰作。它激励我公开展示自己的女性魅力。</li>
     <li>我在{PAWN_nameShort}的乳房那简单而完美的形态中发现无尽的美，那是自然完美的明证。我想被欣赏的渴望，连同我自己美丽的身体，一同汹涌而起。</li>
@@ -2667,9 +2657,9 @@
     <li>{PAWN_nameShort}的这般毫不遮掩的展示太美妙了。这对乳房是艺术品，生来就该被欣赏，正如我希望自己那对也是。</li>
     <li>如此诱人的乳房，如此坦然地分享！看着真是刺激，也激起我自己被注视的渴望，一股美妙的暖意在蔓延。</li>
     <li>这对乳房简直令人着迷，吸引着所有目光。能共享这样一个公开的美丽时刻令人振奋，也激励了我自己也去展露。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式简直精妙。它们本就该被看见、被欣赏，这激起了我的暴露癖冲动。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式简直精妙。它们本就该被看见、被欣赏，这激起了我的暴露癖冲动。</li>
     <li>光辉的启示！这对乳房美极了，我对它们那无拘无束的展示感到深深的共鸣，想要与之相配。</li>
-    <li>多么自信又美丽！这对乳房真是个奇迹，它们坦然的呈现让我深受鼓舞，觉得自己也准备好一览无余了。</li>
+    <li>多么自信又美丽！这对乳房真是个奇迹，它们坦然的姿态让我深受鼓舞，觉得自己也准备好一览无余了。</li>
     <li>这对乳房柔和的曲线与自然的晃动令人着迷。好一幅令人愉悦、毫无羞耻的景象，也激励我大胆地展露自己。</li>
     <li>真是绝妙的景象！这对乳房是自我表达的明证，我也强烈地想要同样袒露自己，欲念不断升起。</li>
     <li>这对乳房诱人得妙不可言，它们公开亮相真是一份厚礼。我钟爱这样坦荡的展示，也让我想展示自己的。</li>
@@ -2696,11 +2686,11 @@
     <li>{PAWN_nameShort} 展示 {PAWN_possessive} 乳房的随意模样太棒了；我也强烈地想露出我的热棒。</li>
     <li>中等大小的乳房展示得多么美好；它鼓励我接纳自己的身体，让人看见我勃起的样子。</li>
     <li>{PAWN_nameShort}的乳房相当动人，看到它们让我想亮出自己充血肿胀的家伙。</li>
-    <li>{PAWN_nameShort}的 裸体中的那份自信，尤其是 {PAWN_possessive} 中等的乳房，实在迷人，让我的鸡巴抽动。</li>
+    <li>{PAWN_nameShort}的裸体中的那份自信，尤其是 {PAWN_possessive} 中等的乳房，实在迷人，让我的鸡巴抽动。</li>
     <li>我觉得{PAWN_nameShort}的乳房很有吸引力，这加强了我想要以自己原始、袒露的状态被人看见的欲望。</li>
     <li>{PAWN_nameShort}的乳房相当可爱，那份毫不遮掩让我渴望把自己搏动的阴茎也展示出来。</li>
     <li>{PAWN_nameShort}展示{PAWN_possessive}乳房的那份大胆真令人振奋；我感到一股暴露癖的冲动在裤裆里涌起。</li>
-    <li>看见 {PAWN_nameShort}的 的乳房让我充满自由感；我也想要脱光，展示自己挺立的勃起。</li>
+    <li>看见 {PAWN_nameShort}乳房让我充满自由感；我也想要脱光，展示自己挺立的勃起。</li>
     <li>{PAWN_nameShort}的中等乳房很美，让我想毫不犹豫地分享自己的裸体，尤其是自己那条硬挺的茎身。</li>
     <li>{PAWN_nameShort}拥抱自己裸体的样子，尤其是{PAWN_possessive}乳房，真是壮丽，让我的肉棒胀起。</li>
     <li>{PAWN_nameShort}的乳房把我彻底迷倒；让我想露出自己、露出我硬挺的勃起，供大家欣赏。</li>
@@ -2721,7 +2711,7 @@
     <li>多么可人的中等乳房！让我想把那话儿解放出来。</li>
     <li>{PAWN_nameShort}的乳房那匀称的尺寸颇为动人。也许{PAWN_pronoun}会想看一眼我搏动的茎身。</li>
     <li>我欣赏{PAWN_nameShort}的饱满挺翘的乳房。这也让我因展示自己那一套而兴奋。</li>
-    <li>观察 {PAWN_nameShort}的 中等的乳房，让我涌起想展露自己强悍男性气概的冲动。</li>
+    <li>观察 {PAWN_nameShort}的中等的乳房，让我涌起想展露自己强悍男性气概的冲动。</li>
     <li>{PAWN_nameShort}的乳房轻柔的摇摆与颤动令人振奋。我现在就想脱下裤子。</li>
     <li>{PAWN_nameShort}的中等大小的乳房挺立得令人愉悦，让我十分心动。我在想{PAWN_objective}会不会喜欢看我勃起的样子。</li>
     <li>{PAWN_nameShort}的乳房，那温柔的形态与诱人的饱满，是一道令人愉快的景象。让我想掏出阴茎来一场表演。</li>
@@ -2741,7 +2731,7 @@
     <li>我可以花上好几个小时观察{PAWN_nameShort}的那对形状完美的乳房，品味每一处细节。这让我有底气炫耀我那硕大的鸡巴。</li>
     <li>{PAWN_nameShort}的乳房那微微的紧绷与细微的动感，暗示着它们诱人的活力。这正是展露我自身的美、以及我硬挺阴茎的绝佳时机。</li>
     <li>{PAWN_nameShort}的乳房那含蓄而动人的美，有着强烈的吸引力。我必须炫耀一下我自己那根傲人的家伙。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此自然、毫不费力，简直精妙。我感到一场盛大的登场即将到来，由我的阴茎开路。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此自然、毫不费力，简直精妙。我感到一场盛大的登场即将到来，由我的阴茎开路。</li>
     <li>我迷醉于{PAWN_nameShort}的乳房上光影的细腻交错，那是真正的视觉诗篇。我想要展示自己那强有力的阴茎的欲望无比强烈。</li>
     <li>{PAWN_nameShort}的乳房的优雅十足，堪称视觉杰作。它激励我公开展示自己的勃起。</li>
     <li>我在{PAWN_nameShort}的乳房那简单而完美的形态中发现无尽的美，那是自然完美的明证。我想被欣赏的渴望，连同我搏动的阴茎，一同汹涌而起。</li>
@@ -2759,9 +2749,9 @@
     <li>{PAWN_nameShort}的这般毫不遮掩的展示太美妙了。这对乳房是艺术品，生来就该被欣赏，正如我希望自己那对也是。</li>
     <li>如此诱人的乳房，如此坦然地分享！看着真是刺激，也激起我自己被注视的渴望，我的下身一阵酥麻。</li>
     <li>这对乳房简直令人着迷，吸引着所有目光。能共享这样一个公开的美丽时刻令人振奋，也激励了我自己也去展露。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式简直精妙。它们本就该被看见、被欣赏，这激起了我的暴露癖冲动。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式简直精妙。它们本就该被看见、被欣赏，这激起了我的暴露癖冲动。</li>
     <li>光辉的启示！这对乳房美极了，我对它们那无拘无束的展示感到深深的共鸣，想要与之相配。</li>
-    <li>多么自信又美丽！这对乳房真是个奇迹，它们坦然的呈现让我深受鼓舞，觉得自己也准备好袒露了。</li>
+    <li>多么自信又美丽！这对乳房真是个奇迹，它们坦然的姿态让我深受鼓舞，觉得自己也准备好袒露了。</li>
     <li>这对乳房柔和的曲线与自然的晃动令人着迷。好一幅令人愉悦、毫无羞耻的景象，也激励我大胆地展露自己。</li>
     <li>真是绝妙的景象！这对乳房是自我表达的明证，我也强烈地想要同样袒露自己，欲念渐渐升起。</li>
     <li>这对乳房诱人得妙不可言，它们公开亮相真是一份厚礼。我钟爱这样坦荡的展示，也让我想展示自己的。</li>
@@ -2797,7 +2787,7 @@
     <li>{PAWN_nameShort}的乳房，完美地中等却完全令人着迷，是一道让我颤抖着渴望的景象。</li>
     <li>观察{PAWN_nameShort}的那饱满的中等乳房时，我感受到难以忍受的紧绷；我的身体要求释放。</li>
     <li>{PAWN_nameShort}的中等乳房上那乳头简直令人发疯，承诺着层层快感。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此坦然，是对我自制力的直接挑战。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此坦然，是对我自制力的直接挑战。</li>
     <li>{PAWN_nameShort}的中等乳房是种美丽的执念，让我的思绪除了交欢之外别无他念。</li>
     <li>光是看着{PAWN_nameShort}的中等大小的乳房，就让一波波原始的热意流过全身。</li>
     <li>我必须坦白，{PAWN_nameShort}的乳房那细微的晃动，让我渴望接触渴望得发狂。</li>
@@ -2813,7 +2803,7 @@
     <li>盯着那对完美的中等乳房，我被欲望攫住。我的身体着了火。</li>
     <li>{PAWN_nameShort}的乳房那匀称的尺寸让它们极度撩人。我几乎按捺不住。</li>
     <li>{PAWN_nameShort}的乳房那精致而饱满的形态把我彻底吞噬。我需要被人抚摸。</li>
-    <li>观察 {PAWN_nameShort}的 中等的乳房，让我充满无法满足的饥渴。</li>
+    <li>观察 {PAWN_nameShort}的中等的乳房，让我充满无法满足的饥渴。</li>
     <li>{PAWN_nameShort}的乳房轻柔的摇摆与颤动把我逼得彻底发狂。</li>
     <li>{PAWN_nameShort}的中等大小的乳房挺立得令人愉悦，让我着迷到发狂。</li>
     <li>{PAWN_nameShort}的乳房，那温柔的形态与诱人的饱满，是一道令人愉快的景象，让我疼得渴望亲密。</li>
@@ -2833,14 +2823,14 @@
     <li>我可以花上好几个小时观察{PAWN_nameShort}的那对形状完美的乳房，品味每一处细节，身体因欲望而扭动。</li>
     <li>{PAWN_nameShort}的乳房那微微的紧绷与细微的动感，暗示着它们诱人的活力。我迫切地渴望接触。</li>
     <li>{PAWN_nameShort}的乳房那含蓄而动人的美，有着强烈的吸引力。我整个身心都在嘶喊着渴求满足。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此自然、毫不费力，简直精妙。我面颊发烫，浑身难耐。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此自然、毫不费力，简直精妙。我面颊发烫，浑身难耐。</li>
     <li>我迷醉于{PAWN_nameShort}的乳房上光影的细腻交错，那是真正的视觉诗篇，我彻底被欲望吞噬。</li>
     <li>{PAWN_nameShort}的乳房的优雅十足，堪称视觉杰作，把我全部注意力都吸了过去，我已准备好扑上去。</li>
     <li>我在{PAWN_nameShort}的乳房那简单而完美的形态中发现无尽的美，那是自然完美的明证。我的欲望无边无际。</li>
     <li>{PAWN_nameShort}的乳房，那含蓄的轮廓与柔软的曲线，真正令人着迷。我感到一股压倒性的需求。</li>
     <li>{PAWN_nameShort}的乳房安放得如此完美，和谐地成为{PAWN_possessive}身形的一部分，观赏起来是种享受，让我脑中满是肉欲的念头。</li>
     <li>突然映入眼帘，令人着迷！这对乳房形态完美，点燃了我强烈的渴求。我想触摸，想感受。</li>
-    <li>哦，多么美味的乳房！{PAWN_nameShort}的 柔和的曲线在我心底激起强烈的饥渴。我的身体因欲望而胀痛。</li>
+    <li>哦，多么美味的乳房！{PAWN_nameShort}的柔和的曲线在我心底激起强烈的饥渴。我的身体因欲望而胀痛。</li>
     <li>那对精致乳房忽然出现，让我脊背一阵发麻。它们轻柔的晃动与诱人的形状令人彻底沉醉。</li>
     <li>这对乳房如此清新诱人，唤起了无法满足的色欲。一股愉悦的激流贯穿我全身，一份绝望的渴慕。</li>
     <li>如此迷人的乳房，饱满诱人，柔软的隆起令人神魂颠倒。我感受到一股无法否认的强烈冲动。</li>
@@ -2889,7 +2879,7 @@
     <li>{PAWN_nameShort}的乳房，完美地中等却完全令人着迷，是一道让我为{PAWN_objective}颤抖着渴望的景象。</li>
     <li>观察{PAWN_nameShort}的那饱满的中等乳房时，我感受到难以忍受的紧绷；我的私处要求得到关注。</li>
     <li>{PAWN_nameShort}的中等乳房上那乳头简直令人发疯，承诺着我的嘴能得到的层层快感。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此坦然，是对我自制力的直接挑战，也挑战着我升腾的热意。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此坦然，是对我自制力的直接挑战，也挑战着我升腾的热意。</li>
     <li>{PAWN_nameShort}的中等乳房是种美丽的执念，让我的思绪除了与{PAWN_objective}交欢之外别无他念。</li>
     <li>光是看着{PAWN_nameShort}的中等大小的乳房，就让一波波原始的热意流过全身，尤其是我的核心。</li>
     <li>我必须坦白，{PAWN_nameShort}的乳房那细微的晃动，让我极度渴望与{PAWN_objective}交缠在一起。</li>
@@ -2905,7 +2895,7 @@
     <li>盯着那对完美的中等乳房，我被肉欲攫住。我的阴蒂在搏动。</li>
     <li>{PAWN_nameShort}的乳房那匀称的尺寸让它们极度撩人。光看着我就湿了。</li>
     <li>{PAWN_nameShort}的乳房那精致而饱满的形态把我彻底吞噬。我的小穴在酥麻。</li>
-    <li>观察 {PAWN_nameShort}的 中等的乳房，让我充满无法满足的饥渴。我想抚摸自己。</li>
+    <li>观察 {PAWN_nameShort}的中等的乳房，让我充满无法满足的饥渴。我想抚摸自己。</li>
     <li>{PAWN_nameShort}的乳房轻柔的摇摆与颤动把我逼得彻底发狂。我的乳头硬了。</li>
     <li>{PAWN_nameShort}的中等大小的乳房挺立得令人愉悦，让我着迷到发狂。我的下身深处在搏动。</li>
     <li>{PAWN_nameShort}的乳房，那温柔的形态与诱人的饱满，是一道令人愉快的景象，让我疼得渴望亲密接触。</li>
@@ -2925,14 +2915,14 @@
     <li>我可以花上好几个小时观察{PAWN_nameShort}的那对形状完美的乳房，品味每一处细节，身体因欲望而扭动。我的手指抽动着。</li>
     <li>{PAWN_nameShort}的乳房那微微的紧绷与细微的动感，暗示着它们诱人的活力。我迫切地渴望亲密的接触。</li>
     <li>{PAWN_nameShort}的乳房那含蓄而动人的美，有着强烈的吸引力。我整个身心都在嘶喊着渴求满足。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此自然、毫不费力，简直精妙。我面颊发烫，渴望着一个深深的拥抱。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此自然、毫不费力，简直精妙。我面颊发烫，渴望着一个深深的拥抱。</li>
     <li>我迷醉于{PAWN_nameShort}的乳房上光影的细腻交错，那是真正的视觉诗篇，我彻底被欲望吞噬。我的腰肢摇摆起来。</li>
     <li>{PAWN_nameShort}的乳房的优雅十足，堪称视觉杰作，把我全部注意力都吸了过去，我为它们而搏动。</li>
     <li>我在{PAWN_nameShort}的乳房那简单而完美的形态中发现无尽的美，那是自然完美的明证。我的欲望无边无际，我的身体在渴求。</li>
     <li>{PAWN_nameShort}的乳房，那含蓄的轮廓与柔软的曲线，真正令人着迷。我感到一股压倒性的需求，想要融为一体。</li>
     <li>{PAWN_nameShort}的乳房安放得如此完美，和谐地成为{PAWN_possessive}身形的一部分，观赏起来是种享受，让我脑中满是肉欲而柔媚的念头。</li>
     <li>突然映入眼帘，令人着迷！这对乳房形态完美，点燃了我强烈的渴求。我自己的乳头也随之硬了起来。</li>
-    <li>哦，多么美味的乳房！{PAWN_nameShort}的 柔和的曲线在我心底激起强烈的饥渴。我的下腹因共鸣的欲望而胀痛。</li>
+    <li>哦，多么美味的乳房！{PAWN_nameShort}的柔和的曲线在我心底激起强烈的饥渴。我的下腹因共鸣的欲望而胀痛。</li>
     <li>那对精致乳房忽然出现，让我脊背一阵发麻。它们轻柔的晃动与诱人的形状令人彻底沉醉。我深处搏动不已。</li>
     <li>这对乳房如此清新诱人，唤起了无法满足的色欲。一股愉悦的激流贯穿我全身，一份对亲密触碰的绝望渴慕。</li>
     <li>如此迷人的乳房，饱满诱人，柔软的隆起令人神魂颠倒。我感受到一股无法否认的强烈冲动，我自己的阴蒂搏动着。</li>
@@ -2981,7 +2971,7 @@
     <li>{PAWN_nameShort}的乳房，完美地中等却完全令人着迷，是一道让我的阴茎骄傲挺立的景象。</li>
     <li>观察{PAWN_nameShort}的那饱满的中等乳房时，我感受到难以忍受的紧绷；我的身体要求宣泄。</li>
     <li>{PAWN_nameShort}的中等乳房上那乳头简直令人发疯，承诺着当我蹂躏{PAWN_objective}时的层层快感。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此坦然，是对我自制力的直接挑战，也挑战着我那勃发的硬挺。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此坦然，是对我自制力的直接挑战，也挑战着我那勃发的硬挺。</li>
     <li>{PAWN_nameShort}的中等乳房是种美丽的执念，让我的思绪除了占有{PAWN_objective}之外别无他念。</li>
     <li>光是看着{PAWN_nameShort}的中等大小的乳房，就让一波波原始的热意直冲我搏动的胯下。</li>
     <li>我必须坦白，{PAWN_nameShort}的乳房那细微的晃动，让我极度渴望贯穿{PAWN_objective}。</li>
@@ -2997,7 +2987,7 @@
     <li>盯着那对完美的中等乳房，我被欲望攫住。我得把自己插进谁的身体里。</li>
     <li>{PAWN_nameShort}的乳房那匀称的尺寸让它们极度撩人。我硬得发疼。</li>
     <li>{PAWN_nameShort}的乳房那精致而饱满的形态把我彻底吞噬。我的睾丸在发痛。</li>
-    <li>观察 {PAWN_nameShort}的 中等的乳房，让我充满无法满足的饥渴。我准备好交配了。</li>
+    <li>观察 {PAWN_nameShort}的中等的乳房，让我充满无法满足的饥渴。我准备好交配了。</li>
     <li>{PAWN_nameShort}的乳房轻柔的摇摆与颤动把我逼得彻底发狂。我的阴茎硬如磐石。</li>
     <li>{PAWN_nameShort}的中等大小的乳房挺立得令人愉悦，让我着迷到发狂。我的茎身在抽动。</li>
     <li>{PAWN_nameShort}的乳房，那温柔的形态与诱人的饱满，是一道令人愉快的景象，让我疼得想立刻释放。</li>
@@ -3017,14 +3007,14 @@
     <li>我可以花上好几个小时观察{PAWN_nameShort}的那对形状完美的乳房，品味每一处细节，身体因欲望而颤抖。我的鸡巴需要一个归宿。</li>
     <li>{PAWN_nameShort}的乳房那微微的紧绷与细微的动感，暗示着它们诱人的活力。我迫切地渴望性方面的接触。</li>
     <li>{PAWN_nameShort}的乳房那含蓄而动人的美，有着强烈的吸引力。我整个身心都在嘶喊着渴求肉欲的满足。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此自然、毫不费力，简直精妙。我面颊发烫，渴望着一次深深的顶入。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此自然、毫不费力，简直精妙。我面颊发烫，渴望着一次深深的顶入。</li>
     <li>我迷醉于{PAWN_nameShort}的乳房上光影的细腻交错，那是真正的视觉诗篇，我彻底被欲望吞噬。我的胯下正在搏动。</li>
     <li>{PAWN_nameShort}的乳房的优雅十足，堪称视觉杰作，把我全部注意力都吸了过去，我已准备好狠狠撞击。</li>
     <li>我在{PAWN_nameShort}的乳房那简单而完美的形态中发现无尽的美，那是自然完美的明证。我对性释放的渴望无边无际。</li>
     <li>{PAWN_nameShort}的乳房，那含蓄的轮廓与柔软的曲线，真正令人着迷。我感到一股压倒性的需求，想要挺入。</li>
     <li>{PAWN_nameShort}的乳房安放得如此完美，和谐地成为{PAWN_possessive}身形的一部分，观赏起来是种享受，让我脑中满是原始而粗粝的冲动，以及爆发的需要。</li>
     <li>突然映入眼帘，令人着迷！这对乳房形态完美，点燃了我强烈的渴求。我的下体因欲望而搏动。</li>
-    <li>哦，多么美味的乳房！{PAWN_nameShort}的 柔和的曲线在我心底激起强烈的饥渴。我的勃起已无可否认。</li>
+    <li>哦，多么美味的乳房！{PAWN_nameShort}的柔和的曲线在我心底激起强烈的饥渴。我的勃起已无可否认。</li>
     <li>那对精致乳房忽然出现，让我脊背一阵发麻。它们轻柔的晃动与诱人的形状令人彻底沉醉。</li>
     <li>这对乳房如此清新诱人，唤起了无法满足的色欲。一股愉悦的激流贯穿我全身，一份对释放的绝望渴慕。</li>
     <li>如此迷人的乳房，饱满诱人，柔软的隆起令人神魂颠倒。我感受到一股无法否认的强烈冲动，我的鸡巴硬了起来。</li>
@@ -3066,7 +3056,7 @@
     <li>就是一对中等的乳房。不碍眼，但依我浅见，也绝没什么可炫耀的。</li>
     <li>{PAWN_nameShort}的乳房完全普通，其实没什么必要公开亮相。</li>
     <li>就中等大小的乳房而言，我想{PAWN_nameShort}的算是……勉强合格。不过说真的，还是遮上吧。</li>
-    <li>人无法否认 {PAWN_nameShort}的 乳房确实存在，而且确实中等。这是事实，而非赞赏。</li>
+    <li>人无法否认 {PAWN_nameShort}的乳房确实存在，而且确实中等。这是事实，而非赞赏。</li>
     <li>{PAWN_nameShort}的乳房正是人对中等尺寸的预期。别盯着看。</li>
     <li>{PAWN_nameShort}的乳房的形状很典型。老实说，没什么特别值得赞叹的。</li>
     <li>{PAWN_nameShort}的乳房尺寸只算尚可，不过我倒希望它们别这样公开炫耀。</li>
@@ -3113,6 +3103,6 @@
     <li>真是一对乏味的乳房，比例难看，晃动笨拙。中等大小正好让人提不起兴趣。</li>
     <li>真是乏味而自然的一对乳房。那无瑕的肌肤和含蓄的曲线实在毫无吸引力。看着简直是件苦差。</li>
     <li>{PAWN_nameShort}的乳房形状完美却精致地乏味，是一种纯粹、朴素的沉闷。毫无魅力可言。</li>
-    <li>这对乳房轻柔的起伏毫不迷人，自然的形态与不大的尺寸只成就了一种乏味的呈现。</li>
+    <li>这对乳房轻柔的起伏毫不迷人，自然的形态与不大的尺寸只成就了一种乏味的姿态。</li>
     <li>显然这对乳房形态良好，却软得乏味。它们的存在削弱了{PAWN_pronoun}天然的优雅与女性的魅力。</li>
   </Opinion_Breasts_Positive_Average_trait_Prude.opinionTexts></LanguageData>

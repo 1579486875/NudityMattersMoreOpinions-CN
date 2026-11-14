@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 21/39 · 共 2978 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Penis_Neutral_Huge_trait_Kind.opinionTexts>
     <li>{PAWN_nameShort}的巨大的阴茎相当醒目；希望{PAWN_pronoun}对这尺寸还适应。</li>
     <li>如此厚实的器官。希望{PAWN_nameShort}的不会因它那显眼的存在而自觉尴尬。</li>
@@ -215,7 +205,7 @@
     <li>{PAWN_nameShort}的硕大的阴茎是无可否认的关注点，一种壮丽的形态。</li>
     <li>{PAWN_nameShort}的阴茎那惊人的尺寸，对我这偷窥的天性相当刺激。</li>
     <li>能见到{PAWN_nameShort}的阴茎这般雄伟的器官，是难得而愉悦的体验。</li>
-    <li>{PAWN_nameShort}的 阴茎那令人心动的比例，实在是赏心悦目。</li>
+    <li>{PAWN_nameShort}的阴茎那令人心动的比例，实在是赏心悦目。</li>
     <li>我被{PAWN_nameShort}的那形态优美的阴茎的庞大存在感所吸引。</li>
     <li>{PAWN_nameShort}的阴茎那粗壮的茎身与突出的龟头相当引人入胜。</li>
     <li>{PAWN_nameShort}的阴茎，尽显其巨大的荣光，令人深深着迷。</li>
@@ -232,7 +222,7 @@
     <li>目睹{PAWN_nameShort}的巨大的阴茎，便是目睹真正解剖学意义上的壮丽。</li>
     <li>它突出的尺寸与引人注目的形态让{PAWN_nameShort}的阴茎极具观赏性。</li>
     <li>{PAWN_nameShort}的阴茎是幅巍峨的景象；每一道曲线与每一处尺寸都令人着迷。</li>
-    <li>{PAWN_nameShort}的 硕大的器官如此勾人，令我深感满足。</li>
+    <li>{PAWN_nameShort}的硕大的器官如此勾人，令我深感满足。</li>
     <li>我发现自己完全沉浸于{PAWN_nameShort}的令人赞叹的阴茎那惊人的尺度。</li>
   </Opinion_Penis_Neutral_Huge_trait_Voyeur.opinionTexts>
   <Opinion_Penis_Neutral_Huge_trait_Voyeur_F.opinionTexts>
@@ -591,7 +581,7 @@
   <Opinion_Penis_Neutral_Large_ElderMale_observed_by_Young_male.opinionTexts>
     <li>{PAWN_nameShort}的硕大而年迈的阴茎显出明显的年迈迹象，茎身与睾丸饱经风霜却仍然可观。</li>
     <li>{PAWN_nameShort}的年老的生殖器尺寸清晰而可观。龟头颇为突出，阴囊相当下垂。</li>
-    <li>注意到 {PAWN_nameShort}的 那年长而显眼的男性器官。其规模与岁月留下的明显痕迹都一目了然。</li>
+    <li>注意到 {PAWN_nameShort}的那年长而显眼的男性器官。其规模与岁月留下的明显痕迹都一目了然。</li>
     <li>看着{PAWN_nameShort}的硕大而年长的阴茎，这只是一次客观的观察：一副成熟、饱经使用的男性身体构造。</li>
     <li>{PAWN_nameShort}的年迈男性的器官展现出可观的尺寸，茎身明显而松弛，睾丸沉沉下垂。</li>
   </Opinion_Penis_Neutral_Large_ElderMale_observed_by_Young_male.opinionTexts>
@@ -635,7 +625,7 @@
     <li>我注意到{PAWN_nameShort}的硕大阴茎惊人的长度与粗细。</li>
     <li>一根不错的大阴茎，结实有力，分量十足。</li>
     <li>我看到{PAWN_nameShort}的硕大的阴茎；它轮廓分明、丰盈充沛。</li>
-    <li>{PAWN_nameShort}的 硕大阴茎那可观的尺寸一目了然。</li>
+    <li>{PAWN_nameShort}的硕大阴茎那可观的尺寸一目了然。</li>
     <li>{PAWN_nameShort}的有着一根确实硕大的阴茎，是相当醒目的特征。</li>
     <li>{PAWN_nameShort}的硕大阴茎的可观尺寸与健康外观一目了然。</li>
     <li>我观察着{PAWN_nameShort}的硕大的阴茎；那强健发达的样貌。</li>
@@ -661,7 +651,7 @@
     <li>{PAWN_nameShort}的那根硕大阴茎的饱满雄壮之姿，颇为引人入胜。</li>
     <li>一根不错的大阴茎，结实有力，分量十足，我能盯着看上一阵。</li>
     <li>我看到{PAWN_nameShort}的硕大的阴茎；它轮廓分明、丰盈充沛，看着令人愉悦。</li>
-    <li>{PAWN_nameShort}的 硕大阴茎那可观的尺寸一目了然，是相当令人满足的一幕。</li>
+    <li>{PAWN_nameShort}的硕大阴茎那可观的尺寸一目了然，是相当令人满足的一幕。</li>
     <li>{PAWN_nameShort}的有着一根确实硕大的阴茎，这醒目的特征让我大感兴趣。</li>
     <li>{PAWN_nameShort}的硕大阴茎的可观尺寸与健康外观一目了然，真是赏心悦目。</li>
     <li>我观察着{PAWN_nameShort}的硕大的阴茎；那强健发达的样貌相当迷人。</li>
@@ -699,7 +689,7 @@
     <li>我注意到{PAWN_nameShort}的硕大阴茎惊人的长度与粗细。</li>
     <li>一根不错的大阴茎，结实有力，分量十足。</li>
     <li>我看到{PAWN_nameShort}的硕大的阴茎；它轮廓分明、丰盈充沛。</li>
-    <li>{PAWN_nameShort}的 硕大阴茎那可观的尺寸一目了然。</li>
+    <li>{PAWN_nameShort}的硕大阴茎那可观的尺寸一目了然。</li>
     <li>{PAWN_nameShort}的有着一根确实硕大的阴茎，是相当醒目的特征。</li>
     <li>{PAWN_nameShort}的硕大阴茎的可观尺寸与健康外观一目了然。</li>
     <li>我观察着{PAWN_nameShort}的硕大的阴茎；那强健发达的样貌。</li>
@@ -725,7 +715,7 @@
     <li>{PAWN_nameShort}的那根硕大阴茎的饱满雄壮之姿，颇为引人入胜。</li>
     <li>一根不错的大阴茎，结实有力，分量十足，让我回想起年轻时的日子。</li>
     <li>我看到{PAWN_nameShort}的硕大的阴茎；它轮廓分明、丰盈充沛，看着令人愉悦。</li>
-    <li>{PAWN_nameShort}的 硕大阴茎那可观的尺寸一目了然，是相当可观的一幕。</li>
+    <li>{PAWN_nameShort}的硕大阴茎那可观的尺寸一目了然，是相当可观的一幕。</li>
     <li>{PAWN_nameShort}的有着一根确实硕大的阴茎，这醒目的特征吸引了我的注意。</li>
     <li>{PAWN_nameShort}的硕大阴茎的可观尺寸与健康外观一目了然，是生命力的体现。</li>
     <li>我观察着{PAWN_nameShort}的硕大的阴茎；那强健发达的样貌相当撩人。</li>
@@ -747,7 +737,7 @@
   <Opinion_Penis_Neutral_Large_FemaleOpinion.opinionTexts>
     <li>{PAWN_nameShort}的硕大的阴茎相当显眼；那尺寸确实抓住了我的目光。</li>
     <li>我注意到{PAWN_nameShort}的硕大的阴茎，它相当可观，视觉上颇为醒目。</li>
-    <li>看见 {PAWN_nameShort}的 硕大的阴茎；那宽裕的尺寸让人难以忽视。</li>
+    <li>看见 {PAWN_nameShort}的硕大的阴茎；那宽裕的尺寸让人难以忽视。</li>
     <li>{PAWN_nameShort}那根阴茎相当可观；真是令人印象深刻的景象。</li>
     <li>我瞥见{PAWN_nameShort}的硕大的阴茎，注意到它的粗度与可观的长度。</li>
     <li>{PAWN_nameShort}的硕大的阴茎丰满得无法否认，是强健而形态良好的附属物。</li>
@@ -755,7 +745,7 @@
     <li>我观察着{PAWN_nameShort}的硕大的阴茎，注意到其健壮的茎身和突出的龟头。</li>
     <li>{PAWN_nameShort}长着根明显硕大的阴茎；相当惹眼。</li>
     <li>{PAWN_nameShort}的硕大的阴茎，嗯，确实以它的尺寸留下了印象。</li>
-    <li>看见 {PAWN_nameShort}的 硕大阴茎那令人印象深刻的长度与粗细，相当诱人。</li>
+    <li>看见 {PAWN_nameShort}的硕大阴茎那令人印象深刻的长度与粗细，相当诱人。</li>
     <li>是根硕大的阴茎；比例完美，相当迷人。</li>
     <li>{PAWN_nameShort}的硕大的阴茎是好大一块肉，看着相当刺激。</li>
     <li>刚注意到{PAWN_nameShort}的那根大阴茎的尺寸；它无可否认地令人印象深刻。</li>
@@ -843,7 +833,7 @@
   <Opinion_Penis_Neutral_Large_MaleOpinion.opinionTexts>
     <li>{PAWN_nameShort}的硕大的阴茎，尺寸尚可，不多不少。</li>
     <li>嗯，我注意到{PAWN_nameShort}的有根大的，看着挺正常的。</li>
-    <li>看见 {PAWN_nameShort}的 硕大的阴茎，相当可观，这一点无可争辩。</li>
+    <li>看见 {PAWN_nameShort}的硕大的阴茎，相当可观，这一点无可争辩。</li>
     <li>确实是根大阴茎，{PAWN_nameShort}的天赋异禀。</li>
     <li>就是根硕大的阴茎，记下尺寸了，没什么大不了。</li>
     <li>{PAWN_nameShort}的硕大的阴茎，相当强健，是男性的标准配置。</li>
@@ -851,7 +841,7 @@
     <li>我观察着{PAWN_nameShort}的硕大的阴茎，茎身粗壮、龟头饱满，很不错。</li>
     <li>尺寸硕大，是件像样的男性器官。</li>
     <li>{PAWN_nameShort}的硕大的阴茎，嗯，确实不小。</li>
-    <li>看见 {PAWN_nameShort}的 硕大阴茎的长度与粗细，相当可观。</li>
+    <li>看见 {PAWN_nameShort}的硕大阴茎的长度与粗细，相当可观。</li>
     <li>是根硕大的阴茎；比例完美。</li>
     <li>{PAWN_nameShort}的硕大的阴茎是好大一块肉，一如所料。</li>
     <li>刚注意到{PAWN_nameShort}的那根大阴茎的尺寸；确实令人印象深刻。</li>
@@ -876,7 +866,7 @@
     <li>{PAWN_nameShort}的身上那粗大突出的茎身与成熟的形态格外醒目，是{PAWN_possessive}苍老身体里无可否认的一部分。</li>
     <li>{PAWN_nameShort}的生殖器尺寸颇为可观，茎身发育良好，阴囊饱满，对{PAWN_pronoun}这个年纪的人来说是常见景象。</li>
     <li>{PAWN_nameShort}的成熟的生殖器颇具长度与粗度，再配上因年岁而略显松弛的睾丸。</li>
-    <li>观察 {PAWN_nameShort}的 阴茎那份饱满而沉甸的份量，连同分明的龟头与悬垂的阴囊；对 {PAWN_pronoun} 来说相当普通。</li>
+    <li>观察 {PAWN_nameShort}的阴茎那份饱满而沉甸的份量，连同分明的龟头与悬垂的阴囊；对 {PAWN_pronoun} 来说相当普通。</li>
     <li>{PAWN_nameShort}的硕大的阴茎呈现出可观的体量，茎身与包皮（若有）展现出典型的成熟特征，还有沉甸甸的阴囊。</li>
   </Opinion_Penis_Neutral_Large_MatureMale.opinionTexts>
   <Opinion_Penis_Neutral_Large_MatureMale_observed_by_Elder_female.opinionTexts>
@@ -924,7 +914,7 @@
   <Opinion_Penis_Neutral_Large_MatureMale_observed_by_Young_male.opinionTexts>
     <li>{PAWN_nameShort}的硕大的阴茎对{PAWN_possessive}年纪而言发育得相当充分，茎身与睾丸展现出典型的成熟男性构造。</li>
     <li>{PAWN_nameShort}的生殖器尺寸清晰而可观。龟头与茎身都长得周正，阴囊饱满。</li>
-    <li>注意到 {PAWN_nameShort}的 那显眼的男性器官。其规模与各部分分明的轮廓都一目了然。</li>
+    <li>注意到 {PAWN_nameShort}的那显眼的男性器官。其规模与各部分分明的轮廓都一目了然。</li>
     <li>看着{PAWN_nameShort}的硕大的阴茎，这只是一次客观的观察：一副成熟、比例匀称的男性身体构造。</li>
     <li>{PAWN_nameShort}的男性构造展现出可观的尺寸，显眼的茎身与下垂的睾丸，与年长男性相符。</li>
   </Opinion_Penis_Neutral_Large_MatureMale_observed_by_Young_male.opinionTexts>
@@ -1088,7 +1078,7 @@
     <li>我观察着{PAWN_nameShort}的硕大的阴茎，茎身粗壮、龟头饱满；但愿这不会给其带来不适。</li>
     <li>尺寸硕大，是件像样的男性器官；我希望对方对它满意。</li>
     <li>{PAWN_nameShort}的硕大的阴茎，嗯，确实不小，我希望它对他们运作良好。</li>
-    <li>看见 {PAWN_nameShort}的 硕大阴茎的长度与粗细，相当可观，我希望他们能坦然接受它。</li>
+    <li>看见 {PAWN_nameShort}的硕大阴茎的长度与粗细，相当可观，我希望他们能坦然接受它。</li>
     <li>是根硕大的阴茎；比例完美，祝他们一切顺利。</li>
     <li>{PAWN_nameShort}的硕大的阴茎是好大一块肉，我希望它不会不舒服。</li>
     <li>刚注意到{PAWN_nameShort}的那根大阴茎的尺寸；确实令人印象深刻，我希望对方也为此感到自豪。</li>
@@ -1240,7 +1230,7 @@
   <Opinion_Penis_Neutral_Large_trait_Prude.opinionTexts>
     <li>{PAWN_nameShort}的硕大的阴茎。它……很大。大得没必要。</li>
     <li>我注意到{PAWN_nameShort}的硕大的阴茎。挺扎眼的，不是吗？</li>
-    <li>看见 {PAWN_nameShort}的 硕大的阴茎。坦白说，有点让人难以消化。</li>
+    <li>看见 {PAWN_nameShort}的硕大的阴茎。坦白说，有点让人难以消化。</li>
     <li>确实是根硕大的阴茎。不过也没必要到处炫耀。</li>
     <li>我瞥见{PAWN_nameShort}的硕大的阴茎。老实说，我不想对它的尺寸发表评论。</li>
     <li>{PAWN_nameShort}的硕大的阴茎。它确实……在那里。</li>
@@ -1248,7 +1238,7 @@
     <li>我观察着{PAWN_nameShort}的硕大的阴茎，一场颇为招摇的展示。</li>
     <li>确实硕大。可有必要这么显眼吗？</li>
     <li>{PAWN_nameShort}的硕大的阴茎，嗯，只是有点让人吃不消。</li>
-    <li>看见 {PAWN_nameShort}的 硕大阴茎的长度与粗细。有失体统。</li>
+    <li>看见 {PAWN_nameShort}的硕大阴茎的长度与粗细。有失体统。</li>
     <li>是根硕大的阴茎；比例完美，但终究相当张扬。</li>
     <li>{PAWN_nameShort}的硕大的阴茎是好大一块肉。信息量太大了。</li>
     <li>刚注意到{PAWN_nameShort}的那根大阴茎的尺寸；说实话有点粗俗。</li>
@@ -1314,7 +1304,7 @@
     <li>{PAWN_nameShort}的那根硕大阴茎的饱满雄壮之姿，颇为引人入胜。</li>
     <li>一根不错的大阴茎，结实有力，分量十足，我能盯着看上一阵。</li>
     <li>我看到{PAWN_nameShort}的硕大的阴茎；它轮廓分明、丰盈充沛，看着令人愉悦。</li>
-    <li>{PAWN_nameShort}的 硕大阴茎那可观的尺寸一目了然，是相当令人满足的一幕。</li>
+    <li>{PAWN_nameShort}的硕大阴茎那可观的尺寸一目了然，是相当令人满足的一幕。</li>
     <li>{PAWN_nameShort}的有着一根确实硕大的阴茎，这醒目的特征让我大感兴趣。</li>
     <li>{PAWN_nameShort}的硕大阴茎的可观尺寸与健康外观一目了然，真是赏心悦目。</li>
     <li>我观察着{PAWN_nameShort}的硕大的阴茎；那强健发达的样貌相当迷人。</li>
@@ -1346,7 +1336,7 @@
     <li>{PAWN_nameShort}的那根硕大阴茎的饱满雄壮之姿，颇为引人入胜。</li>
     <li>一根不错的大阴茎，结实有力，分量十足，让我回想起年轻时的日子。</li>
     <li>我看到{PAWN_nameShort}的硕大的阴茎；它轮廓分明、丰盈充沛，看着令人愉悦。</li>
-    <li>{PAWN_nameShort}的 硕大阴茎那可观的尺寸一目了然，是相当可观的一幕。</li>
+    <li>{PAWN_nameShort}的硕大阴茎那可观的尺寸一目了然，是相当可观的一幕。</li>
     <li>{PAWN_nameShort}的有着一根确实硕大的阴茎，这醒目的特征吸引了我的注意。</li>
     <li>{PAWN_nameShort}的硕大阴茎的可观尺寸与健康外观一目了然，是生命力的体现。</li>
     <li>我观察着{PAWN_nameShort}的硕大的阴茎；那强健发达的样貌相当撩人。</li>
@@ -1851,7 +1841,7 @@
     <li>我观察着{PAWN_nameShort}的相当小的阳具；尺寸适中。</li>
     <li>{PAWN_nameShort}的身体露出小巧的茎身与龟头，相当常见的一景。</li>
     <li>一副极小的形态，没什么特别。不过是又一个男性器官罢了。</li>
-    <li>看见 {PAWN_nameShort}的 小巧的阴茎，茎身与龟头都紧致。</li>
+    <li>看见 {PAWN_nameShort}的小巧的阴茎，茎身与龟头都紧致。</li>
     <li>那小东西几乎不见踪影；睾丸小，茎身细。</li>
     <li>他的小男子汉相当小；相当不张扬。</li>
     <li>{PAWN_nameShort}的含蓄的尺寸确实……存在着。</li>
@@ -1915,7 +1905,7 @@
     <li>我观察着{PAWN_nameShort}的相当小的阳具；尺寸适中，相当常见。</li>
     <li>{PAWN_nameShort}的身体露出小巧的茎身与龟头，就{PAWN_possessive}年纪而言并无异常。</li>
     <li>一副极小的形态，让我想起单纯的时光。相当朴实的附器。</li>
-    <li>看见 {PAWN_nameShort}的 小巧的阴茎，茎身与龟头都紧致，非常内敛。</li>
+    <li>看见 {PAWN_nameShort}的小巧的阴茎，茎身与龟头都紧致，非常内敛。</li>
     <li>那小东西几乎不见踪影；睾丸小，茎身细。日子还得过。</li>
     <li>他的小男子汉相当小；一幅熟悉、甚至有点古雅的景象。</li>
     <li>{PAWN_nameShort}的含蓄的尺寸确实……相当显眼。就是这样。</li>
@@ -2072,15 +2062,15 @@
     <li>即便形态微小，马阴茎那扁平龟头的构造也无可否认地存在。</li>
   </Opinion_Penis_Neutral_Micro_HorsePenis.opinionTexts>
   <Opinion_Penis_Neutral_Micro_MaleOpinion.opinionTexts>
-    <li>看见 {PAWN_nameShort}的 的那话儿；相当小巧，但轮得到我评判吗？</li>
+    <li>看见 {PAWN_nameShort}那话儿；相当小巧，但轮得到我评判吗？</li>
     <li>嗯，{PAWN_possessive}茎身极小。说真的，没什么看头。</li>
     <li>他的小家伙几乎看不见。运气不好啊，兄弟。</li>
-    <li>注意到 {PAWN_nameShort}的 的阴茎。确实偏小。</li>
+    <li>注意到 {PAWN_nameShort}阴茎。确实偏小。</li>
     <li>天，那可真是微观级别。这份坦诚，我姑且尊重吧。</li>
     <li>只是一瞥。非常小，几乎注意不到。</li>
     <li>就是个小东西。没什么可炫耀的。</li>
     <li>他的家伙相当小。希望{PAWN_possessive}不太在意。</li>
-    <li>看见 {PAWN_nameShort}的 的龟头。它极小，勉强算个尖端。</li>
+    <li>看见 {PAWN_nameShort}龟头。它极小，勉强算个尖端。</li>
     <li>睾丸也很小。总体而言，是一套紧凑的配置。</li>
     <li>嗯，{PAWN_possessive}那话儿绝对属于微缩级别。</li>
     <li>一根极小的茎身，几乎融入背景。不算理想，但也无所谓。</li>
@@ -2477,7 +2467,7 @@
     <li>我看到{PAWN_nameShort}的那小巧的阳物。相当低调，{PAWN_possessive}隐私得到了尊重。</li>
     <li>{PAWN_nameShort}的身体露出小巧的茎身与龟头。它只是{PAWN_possessive}独特的形态而已。</li>
     <li>如此微小的形态。这是自然的差异，没什么可指摘的。</li>
-    <li>观察了 {PAWN_nameShort}的 极小的阴茎。它谦逊的尺寸并未减损 {PAWN_possessive} 的价值。</li>
+    <li>观察了 {PAWN_nameShort}的极小的阴茎。它谦逊的尺寸并未减损 {PAWN_possessive} 的价值。</li>
     <li>细细的茎身上一个小小的龟头。每个身体都是独一无二的，都值得尊重。</li>
     <li>我看到了{PAWN_nameShort}的生殖器那微小的规模。那不过是{PAWN_possessive}身体的一部分。</li>
     <li>中等的长度，纤细的茎身。那是个人细节，不该拿来评判。</li>
@@ -2509,7 +2499,7 @@
     <li>我观察着{PAWN_nameShort}的小巧的阴茎。一场适度的展示，没什么可比较的。</li>
     <li>{PAWN_nameShort}的身体露出一根小巧的茎身。它是在那儿，但毫无冲击力。</li>
     <li>如此微小的形态。我更偏爱宏大些的躯体呈现。</li>
-    <li>看见 {PAWN_nameShort}的 小巧的阴茎，龟头紧致。我自己的可威风多了。</li>
+    <li>看见 {PAWN_nameShort}的小巧的阴茎，龟头紧致。我自己的可威风多了。</li>
     <li>那小东西几乎不见踪影；睾丸小。幸好，算不上什么对手。</li>
     <li>{PAWN_possessive}男根相当微小，与我自己的形成鲜明对比。</li>
     <li>{PAWN_nameShort}的含蓄的尺寸确实……很有限。我完全不怕被比下去。</li>
@@ -2541,7 +2531,7 @@
     <li>我看到{PAWN_nameShort}的那小巧的阳物。它……在那儿。可用的不多，但我可以试试。</li>
     <li>{PAWN_nameShort}的身体露出一根小巧的茎身。或许是个挑战？</li>
     <li>如此微小的形态。它几乎激不起什么，但那股冲动仍在。</li>
-    <li>观察了 {PAWN_nameShort}的 极小的阴茎。几乎毫无存在感，可宣泄的需求很强烈。</li>
+    <li>观察了 {PAWN_nameShort}的极小的阴茎。几乎毫无存在感，可宣泄的需求很强烈。</li>
     <li>细细的茎身上一个小小的龟头。算不上理想，但终归是个机会。</li>
     <li>我看到了{PAWN_nameShort}的生殖器那微小的规模。有点失望。</li>
     <li>中等的长度，纤细的茎身。感觉像是浪费了潜力，可我却觉得躁动不安。</li>
@@ -2573,7 +2563,7 @@
     <li>我看到{PAWN_nameShort}的那小巧的阳物。它……在那儿。我的核心因一种奇特的饥渴而发疼。</li>
     <li>{PAWN_nameShort}的身体露出一根小巧的茎身。或许是个挑战？我的胯下起了动静。</li>
     <li>如此微小的形态。它几乎激不起什么，但想要结合的冲动仍在。我体内的燥热升腾。</li>
-    <li>观察了 {PAWN_nameShort}的 极小的阴茎。几乎毫无存在感，可我体内宣泄的需求很强烈。</li>
+    <li>观察了 {PAWN_nameShort}的极小的阴茎。几乎毫无存在感，可我体内宣泄的需求很强烈。</li>
     <li>细细的茎身上一个小小的龟头。算不上理想，但终归是个机会。我的深处在渴求。</li>
     <li>我看到了{PAWN_nameShort}的生殖器那微小的规模。有点失望，可我又觉得坐立不安。</li>
     <li>中等的长度，纤细的茎身。感觉像是浪费了潜力，可我却感到欲望渐涨。我的阴蒂一阵刺痒。</li>
@@ -2605,7 +2595,7 @@
     <li>我看到{PAWN_nameShort}的那小巧的阳物。它……在那儿。我自己的部位因一种奇特的饥渴而搏动。</li>
     <li>{PAWN_nameShort}的身体露出一根小巧的茎身。或许是个挑战？我的血热了起来。</li>
     <li>如此微小的形态。它几乎激不起什么，但想要结合的冲动仍在。我的胯下收紧。</li>
-    <li>观察了 {PAWN_nameShort}的 极小的阴茎。几乎毫无存在感，可我体内宣泄的需求很强烈。</li>
+    <li>观察了 {PAWN_nameShort}的极小的阴茎。几乎毫无存在感，可我体内宣泄的需求很强烈。</li>
     <li>细细的茎身上一个小小的龟头。算不上理想，但终归是个机会。我的性器抽动了一下。</li>
     <li>我看到了{PAWN_nameShort}的生殖器那微小的规模。有点失望，可我又觉得坐立不安。</li>
     <li>中等的长度，纤细的茎身。感觉像是浪费了潜力，可我却感到欲望渐涨。我的睾丸发胀。</li>
@@ -2637,7 +2627,7 @@
     <li>我看到{PAWN_nameShort}的那小巧的阳物。它几乎不存在，多么可悲。</li>
     <li>{PAWN_nameShort}的身体露出一根小巧的茎身。小得令人作呕。</li>
     <li>如此微小的形态。不得不看着这么贫瘠的东西，实在令人不快。</li>
-    <li>观察了 {PAWN_nameShort}的 极小的阴茎。真是丢人现眼。</li>
+    <li>观察了 {PAWN_nameShort}的极小的阴茎。真是丢人现眼。</li>
     <li>细细的茎身上一个小小的龟头。真是件可笑的器官。</li>
     <li>我看到了{PAWN_nameShort}的生殖器那微小的规模。几乎小得有失体统。</li>
     <li>中等的长度，纤细的茎身。完全提不起兴致，还令人作呕。</li>
@@ -2669,7 +2659,7 @@
     <li>我看到{PAWN_nameShort}的那小巧的阳物。它那份纯粹的含蓄颇为有趣。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那微小的构造。每一个细节都引人入胜。</li>
     <li>它的小巧，几乎藏而不见。我在那景象上流连了许久。</li>
-    <li>观察了 {PAWN_nameShort}的 极小的阴茎。它不起眼的存在感颇为说明问题。</li>
+    <li>观察了 {PAWN_nameShort}的极小的阴茎。它不起眼的存在感颇为说明问题。</li>
     <li>如此微小的茎身与龟头。留意它的比例倒颇有意思。</li>
     <li>我看到了{PAWN_nameShort}的生殖器那微小的规模。一个私密的细节。</li>
     <li>中等的长度，纤细的茎身。这都是那片独特风景的一部分。</li>
@@ -2683,7 +2673,7 @@
     <li>睾丸看起来相当小，与那不大的尺寸倒也相称。我观察着整体。</li>
     <li>我看到了；小巧，谈不上壮观，但它就在那里，供人观看。</li>
     <li>一份谦卑的献礼，形状平平无奇。然而，它留住了我的目光。</li>
-    <li>这构造十分简陋，小小的龟头，细细的茎身。一种独特的呈现。</li>
+    <li>这构造十分简陋，小小的龟头，细细的茎身。一种独特的姿态。</li>
     <li>我注意到它那微小的存在，几乎融入其中。一次安静的发现。</li>
     <li>匆匆一瞥，它相当小巧。那含蓄的曲线，那质感。</li>
     <li>尺寸极小，是{PAWN_possessive}身体上一处不起眼的部分。全都只归我的眼睛。</li>
@@ -2762,7 +2752,7 @@
     <li>稍作观察，那小巧的尺寸有种奇特的吸引力。我的思绪飘远，自己的身体也随之呼应。</li>
   </Opinion_Penis_Neutral_Micro_trait_Voyeur_M.opinionTexts>
   <Opinion_Penis_Neutral_Small.opinionTexts>
-    <li>注意到 {PAWN_nameShort}的 小巧的阴茎，它也算有点存在感，虽说算不上什么。</li>
+    <li>注意到 {PAWN_nameShort}的小巧的阴茎，它也算有点存在感，虽说算不上什么。</li>
     <li>我注意到{PAWN_nameShort}的小巧的阴茎，它紧实而毫不起眼。</li>
     <li>我看到{PAWN_nameShort}的小阴茎，偏小一些，但仍属正常尺寸。</li>
     <li>我打量着{PAWN_nameShort}的小巧的阴茎，对那适中的尺寸做出中性评价。</li>
@@ -2798,7 +2788,7 @@
     <li>{PAWN_nameShort}的小巧阴茎的睾丸同样偏小，但尚属典型尺寸。</li>
     <li>{PAWN_nameShort}的小巧的阴茎毫不张扬，整体外观相当朴素。</li>
     <li>不过是一根小巧的阴茎；它的解剖特征一应俱全，只是全部缩小了。</li>
-    <li>{PAWN_nameShort}的 小巧阴茎的色泽均匀，与周围的皮肤融为一体。</li>
+    <li>{PAWN_nameShort}的小巧阴茎的色泽均匀，与周围的皮肤融为一体。</li>
     <li>{PAWN_nameShort}的小巧的阴茎纤细紧凑，既谈不上出众，也算不上欠缺。</li>
     <li>{PAWN_nameShort}的小巧阴茎的根部很窄，沿长度延伸则是均匀的宽度。</li>
     <li>它整体尺寸虽小，但{PAWN_nameShort}的阴茎拥有典型的——虽是小巧的——身体构造。</li>
@@ -3029,7 +3019,7 @@
     <li>突然瞥见一根小得惊人的年迈阴茎，包皮勉强盖住顶端。岁月之下，也就这样罢了。</li>
     <li>被观察的阴茎无疑又小又老，睾丸紧贴其下，明显下垂。这种样子见得多了。</li>
     <li>一根相当短的茎身与苍老而不算大的龟头。外观平淡，毫无特色，许多人都变成这样。</li>
-    <li>看见 {PAWN_nameShort}的 的身体部位，相当小巧，略显苍白，显出了年纪。睾丸的比例还算相称。</li>
+    <li>看见 {PAWN_nameShort}身体部位，相当小巧，略显苍白，显出了年纪。睾丸的比例还算相称。</li>
     <li>{PAWN_nameShort}的阴茎的小巧显而易见，茎身纤细，龟头紧凑而苍老。到了老年，这也没什么特别。</li>
     <li>一副小得出人意料的年迈器官映入眼帘，整体构造显得内敛而陈旧。再没什么值得大书特书的了。</li>
     <li>这根阴茎龟头浅、茎身细，确实显得小巧，还有几分干瘪。当然是熟悉的类型。</li>
@@ -3139,7 +3129,7 @@
     <li>突然瞥见一根小得惊人的年迈阴茎，包皮勉强盖住顶端。就是……又老又小。</li>
     <li>被观察的阴茎无疑又小又老，睾丸紧贴其下，明显下垂。实在谈不上壮观。</li>
     <li>一根相当短的茎身与苍老而不算大的龟头。外观平淡，毫无特色，因年岁而几乎让人记不住。</li>
-    <li>看见 {PAWN_nameShort}的 的身体部位，相当小巧，略显苍白，显出了年纪。至少睾丸的比例还算相称。</li>
+    <li>看见 {PAWN_nameShort}身体部位，相当小巧，略显苍白，显出了年纪。至少睾丸的比例还算相称。</li>
     <li>{PAWN_nameShort}的阴茎的小巧显而易见，茎身纤细，龟头紧凑而苍老。</li>
     <li>一副小得出人意料的年迈器官映入眼帘，整体构造显得内敛而陈旧。相当小巧，没什么可兴奋的。</li>
     <li>这根阴茎龟头浅、茎身细，确实显得小巧，还有几分干瘪。不怎么吸引人，也不怎么惊人。</li>
@@ -3183,7 +3173,7 @@
     <li>突然瞥见一根小得惊人的年迈阴茎，包皮勉强盖住顶端。就是……又小又老。</li>
     <li>被观察的阴茎无疑又小又老，睾丸紧贴其下，明显下垂。没什么特别引人注目的。</li>
     <li>一根相当短的茎身与苍老而不算大的龟头。外观平淡，毫无特色，因年岁而几乎微不足道。</li>
-    <li>看见 {PAWN_nameShort}的 的身体部位，相当小巧，略显苍白，显出了年纪。至少睾丸的比例还算相称。</li>
+    <li>看见 {PAWN_nameShort}身体部位，相当小巧，略显苍白，显出了年纪。至少睾丸的比例还算相称。</li>
     <li>{PAWN_nameShort}的阴茎的小巧显而易见，茎身纤细，龟头紧凑而苍老。</li>
     <li>一副小得出人意料的年迈器官映入眼帘，整体构造显得内敛而陈旧。相当小巧，不是我期望的那样。</li>
     <li>这根阴茎龟头浅、茎身细，确实显得小巧，还有几分干瘪。不怎么吸引人，也不怎么惊人。</li>
@@ -3228,7 +3218,7 @@
     <li>匆匆看了一眼那小巧、苍老的阴茎，睾丸收在下面。确实偏小，而且苍老。</li>
     <li>尺寸小巧显而易见；茎身短，龟头紧凑而显老。一副朴素、近乎害羞的模样。</li>
     <li>{PAWN_nameShort}的阴茎小巧而上了年纪，只短暂地露了一下。纤细的茎身与适中的龟头没什么细节可看。</li>
-    <li>偷看着 {PAWN_nameShort}的 阴茎，证实了它的小巧，还有岁月的痕迹。茎身纤细。</li>
+    <li>偷看着 {PAWN_nameShort}的阴茎，证实了它的小巧，还有岁月的痕迹。茎身纤细。</li>
     <li>含蓄地观察一根明显偏小的年老阴茎。它整体的构造显得内敛，是一个安静的发现。</li>
     <li>我的目光落在一根小巧而年迈的阴茎上，浅浅的龟头与细嫩的茎身。没什么特别迷人的地方。</li>
     <li>就是根小巧的老年阴茎，茎身与龟头。出现了，又消失了。</li>

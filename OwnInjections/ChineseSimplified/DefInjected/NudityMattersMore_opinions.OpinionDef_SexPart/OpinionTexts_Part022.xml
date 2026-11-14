@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 22/39 · 共 2990 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Penis_Neutral_Small_Elderly_Female_opinion.opinionTexts>
     <li>{PAWN_nameShort}的小巧的阴茎。尺寸不大，对某些年轻男人来说相当典型。</li>
     <li>一根小巧的阴茎。这样的东西我见过很多次了，没什么了不起。</li>
@@ -295,7 +285,7 @@
     <li>突然瞥见一根小得惊人的阴茎，包皮勉强盖住顶端。就这样而已。</li>
     <li>被观察的阴茎无疑很小，睾丸紧贴其下。这种见得多了。</li>
     <li>一根相当短的茎身与不算大的龟头。外观平淡，毫无特色，和许多人一样。</li>
-    <li>看见 {PAWN_nameShort}的 的身体部位，相当小巧，略显苍白。睾丸的比例还算相称。</li>
+    <li>看见 {PAWN_nameShort}身体部位，相当小巧，略显苍白。睾丸的比例还算相称。</li>
     <li>{PAWN_nameShort}的阴茎的小巧显而易见，茎身纤细，龟头紧凑。没什么特别的。</li>
     <li>一副小得出人意料的器官映入眼帘，整体构造显得内敛。没什么值得大书特书的。</li>
     <li>这根阴茎龟头浅、茎身细，确实显得小巧。熟悉的类型。</li>
@@ -405,7 +395,7 @@
     <li>突然瞥见一根小得惊人的阴茎，包皮勉强盖住顶端。就是……在那儿罢了。</li>
     <li>被观察的阴茎无疑很小，睾丸紧贴其下。实在谈不上壮观。</li>
     <li>一根相当短的茎身与不算大的龟头。外观平淡，毫无特色，几乎让人记不住。</li>
-    <li>看见 {PAWN_nameShort}的 的身体部位，相当小巧，略显苍白。至少睾丸的比例还算相称。</li>
+    <li>看见 {PAWN_nameShort}身体部位，相当小巧，略显苍白。至少睾丸的比例还算相称。</li>
     <li>{PAWN_nameShort}的阴茎的小巧显而易见，茎身纤细，龟头紧凑。</li>
     <li>一副小得出人意料的器官映入眼帘，整体构造显得内敛。相当小巧，没什么可兴奋的。</li>
     <li>这根阴茎龟头浅、茎身细，确实显得小巧。不怎么醒目，也不怎么吸引人。</li>
@@ -449,7 +439,7 @@
     <li>突然瞥见一根小得惊人的阴茎，包皮勉强盖住顶端。就是……小巧而已。</li>
     <li>被观察的阴茎无疑很小，睾丸紧贴其下。没什么特别引人注目的。</li>
     <li>一根相当短的茎身与不算大的龟头。外观平淡，毫无特色，几乎微不足道。</li>
-    <li>看见 {PAWN_nameShort}的 的身体部位，相当小巧，略显苍白。至少睾丸的比例还算相称。</li>
+    <li>看见 {PAWN_nameShort}身体部位，相当小巧，略显苍白。至少睾丸的比例还算相称。</li>
     <li>{PAWN_nameShort}的阴茎的小巧显而易见，茎身纤细，龟头紧凑。</li>
     <li>一副小得出人意料的器官映入眼帘，整体构造显得内敛。相当小巧，不是我期望的那样。</li>
     <li>这根阴茎龟头浅、茎身细，确实显得小巧。不怎么吸引人，也不怎么惊人。</li>
@@ -494,7 +484,7 @@
     <li>匆匆看了一眼那小巧的阴茎，睾丸收在下面。确实偏小。</li>
     <li>尺寸小巧显而易见；茎身短，龟头紧凑。一副朴素、近乎害羞的模样。</li>
     <li>{PAWN_nameShort}的阴茎小巧，只短暂地露了一下。纤细的茎身与适中的龟头没什么细节可看。</li>
-    <li>偷看着 {PAWN_nameShort}的 阴茎，证实了它的小巧。茎身纤细，其构造对这样的大小来说相当典型。</li>
+    <li>偷看着 {PAWN_nameShort}的阴茎，证实了它的小巧。茎身纤细，其构造对这样的大小来说相当典型。</li>
     <li>含蓄地观察一根明显偏小的阴茎。它整体的构造显得内敛，是一个安静的发现。</li>
     <li>我的目光落在一根小巧的阴茎上，浅浅的龟头与细嫩的茎身。没什么特别迷人的地方。</li>
     <li>就是根小阴茎，茎身与龟头。出现了，又消失了。</li>
@@ -1169,7 +1159,7 @@
     <li>{PAWN_nameShort}的阴茎的形状与{PAWN_possessive}身体似乎完美平衡。是个匀称的中等样本，看起来相当诱人。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从结实的茎身到饱满的睾丸都轮廓分明。相当引人注目的一幕。</li>
     <li>它突然出现了，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身与龟头构造相当健全，给人留下了不错的印象。</li>
-    <li>总体而言，是悦目的景象。{PAWN_nameShort}的 的阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
+    <li>总体而言，是悦目的景象。{PAWN_nameShort}阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
     <li>我忍不住注意到{PAWN_nameShort}的中等的阴茎；茎身结实，龟头看起来十分诱人。尺寸恰到好处。</li>
     <li>{PAWN_nameShort}的茎身自然的弧度与{PAWN_possessive}龟头微微的隆起，构成一件颇具吸引力的中等样本。真是一道风景。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，茎身却硬挺宜人，龟头形态良好。绝对诱人。</li>
@@ -1191,7 +1181,7 @@
     <li>{PAWN_nameShort}的阴茎的形状与{PAWN_possessive}身体似乎完美平衡。是个匀称的中等样本，看起来相当诱人。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从结实的茎身到饱满的睾丸都轮廓分明。相当引人注目的一幕。</li>
     <li>它突然出现了，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身与龟头构造相当健全，给人留下了不错的印象。</li>
-    <li>总体而言，是悦目的景象。{PAWN_nameShort}的 的阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
+    <li>总体而言，是悦目的景象。{PAWN_nameShort}阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
     <li>我忍不住注意到{PAWN_nameShort}的中等的阴茎；茎身结实，龟头看起来十分诱人。尺寸恰到好处。</li>
     <li>{PAWN_nameShort}的茎身自然的弧度与{PAWN_possessive}龟头微微的隆起，构成一件颇具吸引力的中等样本。真是一道风景。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，茎身却硬挺宜人，龟头形态良好。绝对诱人。</li>
@@ -1200,7 +1190,7 @@
   </Opinion_Penis_Positive_Average_ElderMale_observed_by_Elder_female.opinionTexts>
   <Opinion_Penis_Positive_Average_ElderMale_observed_by_Elder_male.opinionTexts>
     <li>{PAWN_nameShort}的中等大小的阴茎，那久经世故的茎身与饱经风霜的睾丸，勾起了同为男人的共鸣。</li>
-    <li>看见 {PAWN_nameShort}的 中等的男性象征突然露出来，其比例看起来相当典型。一个结实而实用的例子。</li>
+    <li>看见 {PAWN_nameShort}的中等的男性象征突然露出来，其比例看起来相当典型。一个结实而实用的例子。</li>
     <li>{PAWN_nameShort}的阴茎的形状似乎与{PAWN_possessive}成熟的身体很相称。看起来相当中等，却经久不衰。</li>
     <li>中等的尺寸，但{PAWN_nameShort}阴茎的发育看起来强健，且就其年岁而言保养得当。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎与包皮，在经历过岁月的男人身上，这是常见而令人安心的一幕。</li>
@@ -1213,7 +1203,7 @@
     <li>{PAWN_nameShort}的阴茎的形状看起来相当中等而发育良好。确实是个成熟的范例。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从茎身到龟头都清晰可见。是标准的成年男性特征。</li>
     <li>它就那么在那儿，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身和龟头，以{PAWN_possessive}年纪来说完全正常。</li>
-    <li>总体而言，是一根非常中等的阴茎。{PAWN_nameShort}的 茎身与睾丸的样子显示出健康而典型的男性体格。</li>
+    <li>总体而言，是一根非常中等的阴茎。{PAWN_nameShort}的茎身与睾丸的样子显示出健康而典型的男性体格。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎。没什么出奇的，但看着结实、保养得不错。一个正常的样本。</li>
     <li>{PAWN_nameShort}的中等阴茎那自然的外观，从根部到顶端，都透出一生使用过的痕迹。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，外观却可靠。茎身与龟头看上去相当坚韧。</li>
@@ -1229,13 +1219,13 @@
     <li>我自己的中等阴茎正暴露在外；看到{PAWN_nameShort}的那根相似的家伙，我反而更自在、更自豪。</li>
     <li>{PAWN_nameShort}的中等阴茎露在外面时，突然意识到自己正被看着，让我感觉自己活着，兴奋不已。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎是道美景，一想到它露在外面时正被人注视着，就让我无比愉悦。</li>
-    <li>我爱{PAWN_nameShort}的中等尺寸的阴茎所吸引的目光。它自信的呈现让我充满一种大胆的自由感。</li>
+    <li>我爱{PAWN_nameShort}的中等尺寸的阴茎所吸引的目光。它自信的姿态让我充满一种大胆的自由感。</li>
     <li>{PAWN_nameShort}的中等阴茎外露的茎身与龟头是绝妙的景致，而我就爱这样被人看着。</li>
     <li>知道{PAWN_nameShort}正看着{PAWN_nameShort}的中等大小的阴茎，我感受到一种自我表达与坦荡带来的振奋。</li>
     <li>我中等的阴茎就在这儿供所有人看，{PAWN_nameShort}的对它的反应带给我如此多的喜悦和认可。</li>
     <li>{PAWN_nameShort}的中等阴茎坦然呈现，是一种大胆的宣言，能与它共享这份自由让我感觉妙极了。</li>
     <li>在展示中被逮个正着，{PAWN_nameShort}的中等的阴茎，茎身与睾丸清晰可见，带给我无与伦比的刺激。</li>
-    <li>{PAWN_nameShort}的那根中等的阴茎被展露出来，让我感到充满力量。那是自然而诚实的呈现，我很喜欢那种回应。</li>
+    <li>{PAWN_nameShort}的那根中等的阴茎被展露出来，让我感到充满力量。那是自然而诚实的姿态，我很喜欢那种回应。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎就是供人欣赏的。我享受每一刻坦然在场、毫无拘束的感觉。</li>
     <li>{PAWN_nameShort}的那中等的阴茎自信地展示出来的样子，让我觉得自己更加大胆、更加无所顾忌。</li>
     <li>{PAWN_nameShort}的这样公开展现中等的阴茎，让我充满难以置信的自由感与一种调皮的愉悦。</li>
@@ -1252,8 +1242,8 @@
     <li>匆匆一瞥{PAWN_nameShort}的阳物，我整个身心都在尖叫着渴求解脱。那中等的尺寸里蕴藏着巨大的许诺。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎，那粗壮的茎身与诱人的睾丸，点燃了我的感官。我得摸一摸它。</li>
     <li>看着{PAWN_nameShort}的阴茎，在我心里搅起永不满足的淫欲。那中等的身形，正是完美的邀约。</li>
-    <li>光是看着 {PAWN_nameShort}的 中等的阴茎，我的身体就发麻。茎身那光滑的曲线诱人至极。</li>
-    <li>哦，若能感受 {PAWN_nameShort}的 中等的阴茎进入我体内！那健康的龟头与饱满的睾丸，光是看着就令人难以自持。</li>
+    <li>光是看着 {PAWN_nameShort}的中等的阴茎，我的身体就发麻。茎身那光滑的曲线诱人至极。</li>
+    <li>哦，若能感受 {PAWN_nameShort}的中等的阴茎进入我体内！那健康的龟头与饱满的睾丸，光是看着就令人难以自持。</li>
     <li>光是{PAWN_nameShort}的那根纯粹未经修饰的中等阴茎，就足以让我浑身泛起无法自控的欲望战栗。</li>
     <li>我对{PAWN_nameShort}的那根中等的阴茎产生了强烈而即时的共鸣。它自然的样子预示着深切的满足。</li>
     <li>{PAWN_nameShort}的那颗中等的阴茎，从坚挺的茎身到诱人的龟头，每一寸都在助长我压倒性的肉欲渴求。</li>
@@ -1266,10 +1256,10 @@
   </Opinion_Penis_Positive_Average_ElderMale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Penis_Positive_Average_ElderMale_observed_by_Prude.opinionTexts>
     <li>天哪，{PAWN_nameShort}的那根中等大小的阴茎倒是相当……显眼。不过我想，作为这么私密的部位，尺寸算挺克制的。</li>
-    <li>哦，天哪！{PAWN_nameShort}的 中等的男性象征突然露了出来。它……确实在那儿，茎身与睾丸一览无余。</li>
+    <li>哦，天哪！{PAWN_nameShort}的中等的男性象征突然露了出来。它……确实在那儿，茎身与睾丸一览无余。</li>
     <li>{PAWN_nameShort}的中等阴茎那自然的形状，嗯，就是解剖学意义上的。它与{PAWN_possessive}身体相称，一如所料。</li>
     <li>确实中等的尺寸。我能看出{PAWN_nameShort}的器官完全正常，尽管我不愿细想这些细节。</li>
-    <li>哎哟，一根阴茎。{PAWN_nameShort}的 中等的茎身与龟头确实相当显眼。但愿能稍微收敛一点。</li>
+    <li>哎哟，一根阴茎。{PAWN_nameShort}的中等的茎身与龟头确实相当显眼。但愿能稍微收敛一点。</li>
     <li>我无意中瞥见了{PAWN_nameShort}的那根中等大小的阴茎。它……大概就是造物主本来的意思吧。</li>
     <li>{PAWN_nameShort}的中等的阴茎突然出现，着实令人震惊。遗憾的是，它的轮廓相当分明。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎。人只好试着把目光移开，可它明晃晃地摆在那儿，实在很难做到。</li>
@@ -1278,13 +1268,13 @@
     <li>意外看到{PAWN_nameShort}的那根中等大小的阴茎，让我的矜持颇为不安。那是很有男性特征的部位。</li>
     <li>一根中等的阴茎，仅此而已。但它就这样出现的方式……人得让自己镇定下来。</li>
     <li>我发现自己被{PAWN_nameShort}的中等大小的阴茎弄得相当慌乱。那的确是个非常显眼的解剖细节。</li>
-    <li>哦，天哪。{PAWN_nameShort}的 中等的阴茎。它的存在无法忽视，让我相当不自在。</li>
+    <li>哦，天哪。{PAWN_nameShort}的中等的阴茎。它的存在无法忽视，让我相当不自在。</li>
     <li>如此普通的阴茎，可它的显而易见却让我有些难受。我还是更喜欢什么都遮着。</li>
     <li>看到{PAWN_nameShort}的中等大小的阴茎，我颇感意外。那真是相当……大胆的展示。</li>
     <li>{PAWN_nameShort}的中等尺寸阴茎的茎身与龟头相当醒目。希望我能快点忘掉这一幕。</li>
     <li>确实是一根中等的阴茎。老实说，有点让人难以承受。我的脸发烫。</li>
     <li>我真没必要看到{PAWN_nameShort}的中等的阴茎。我猜这完全自然，可还是相当不合体统。</li>
-    <li>面对 {PAWN_nameShort}的 中等的阴茎，人努力保持镇定。那真是值得一看的景象，无论好坏。</li>
+    <li>面对 {PAWN_nameShort}的中等的阴茎，人努力保持镇定。那真是值得一看的景象，无论好坏。</li>
   </Opinion_Penis_Positive_Average_ElderMale_observed_by_Prude.opinionTexts>
   <Opinion_Penis_Positive_Average_ElderMale_observed_by_Young_female.opinionTexts>
     <li>{PAWN_nameShort}的中等大小的阴茎，那光滑的茎身与上了年岁的龟头，自有一种历练过的魅力。颇为耐人寻味。</li>
@@ -1301,7 +1291,7 @@
     <li>{PAWN_nameShort}的阴茎的形状与{PAWN_possessive}身体似乎完美平衡。是个匀称的中等样本，看起来相当诱人。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从结实的茎身到饱满的睾丸都轮廓分明。相当引人注目的一幕。</li>
     <li>它突然出现了，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身与龟头构造相当健全，给我留下了不错的印象。</li>
-    <li>总体而言，是悦目的景象。{PAWN_nameShort}的 的阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
+    <li>总体而言，是悦目的景象。{PAWN_nameShort}阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
     <li>我忍不住注意到{PAWN_nameShort}的中等的阴茎；茎身结实，龟头看起来十分诱人。尺寸恰到好处。</li>
     <li>{PAWN_nameShort}的茎身自然的弧度与{PAWN_possessive}龟头微微的隆起，构成一件颇具吸引力的中等样本。真是一道风景。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，茎身却硬挺宜人，龟头形态良好。绝对诱人。</li>
@@ -1310,7 +1300,7 @@
   </Opinion_Penis_Positive_Average_ElderMale_observed_by_Young_female.opinionTexts>
   <Opinion_Penis_Positive_Average_ElderMale_observed_by_Young_male.opinionTexts>
     <li>{PAWN_nameShort}的中等大小的阴茎，那结实的茎身与成熟的睾丸，或许正好可以当作前路的一处参照。</li>
-    <li>看见 {PAWN_nameShort}的 中等的男性象征突然露出来，对一位长者来说其比例看起来相当正常。一个标准而健康的例子。</li>
+    <li>看见 {PAWN_nameShort}的中等的男性象征突然露出来，对一位长者来说其比例看起来相当正常。一个标准而健康的例子。</li>
     <li>{PAWN_nameShort}的阴茎的形状似乎与{PAWN_possessive}成熟的身体很相称。看起来相当中等，就它的年纪而言却很强健。</li>
     <li>中等的尺寸，但{PAWN_nameShort}阴茎的发育看起来完整而健康。没什么意外的。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎与包皮，大概这就是老年人成熟的样子吧。一个规整而匀称的样本。</li>
@@ -1323,7 +1313,7 @@
     <li>{PAWN_nameShort}的阴茎的形状看起来相当中等而发育良好。确实是个经久不衰的范例。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从茎身到龟头都清晰可见。是标准的成年男性特征。</li>
     <li>它就那么在那儿，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身和龟头，以{PAWN_possessive}年纪来说完全正常。</li>
-    <li>总体而言，是一根非常中等的阴茎。{PAWN_nameShort}的 茎身与睾丸的样子显示出健康而典型的男性体格。</li>
+    <li>总体而言，是一根非常中等的阴茎。{PAWN_nameShort}的茎身与睾丸的样子显示出健康而典型的男性体格。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎。没什么出奇的，但看着结实、保养得不错。一个正常的样本。</li>
     <li>{PAWN_nameShort}的中等阴茎那自然的外观，从根部到顶端，都透出一生使用过的痕迹。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，外观却可靠。茎身与龟头看上去相当坚韧。</li>
@@ -1345,7 +1335,7 @@
     <li>{PAWN_nameShort}的阴茎的形状与{PAWN_possessive}身体似乎完美平衡。是个匀称的中等样本，看起来相当诱人。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从结实的茎身到饱满的睾丸都轮廓分明。相当引人注目的一幕。</li>
     <li>它突然出现了，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身与龟头构造相当健全，给人留下了不错的印象。</li>
-    <li>总体而言，是悦目的景象。{PAWN_nameShort}的 的阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
+    <li>总体而言，是悦目的景象。{PAWN_nameShort}阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
     <li>我忍不住注意到{PAWN_nameShort}的中等的阴茎；茎身结实，龟头看起来十分诱人。尺寸恰到好处。</li>
     <li>{PAWN_nameShort}的茎身自然的弧度与{PAWN_possessive}龟头微微的隆起，构成一件颇具吸引力的中等样本。真是一道风景。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，茎身却硬挺宜人，龟头形态良好。绝对诱人。</li>
@@ -1354,7 +1344,7 @@
   </Opinion_Penis_Positive_Average_ElderMale_observed_by_middle_aged_Female.opinionTexts>
   <Opinion_Penis_Positive_Average_ElderMale_observed_by_middle_aged_male.opinionTexts>
     <li>{PAWN_nameShort}的中等大小的阴茎，那粗壮的茎身与成熟的睾丸，看着似曾相识。结实而老练。</li>
-    <li>看见 {PAWN_nameShort}的 中等的男性象征突然露出来，对一位长者来说相当典型。一个标准而上了年头的好例子。</li>
+    <li>看见 {PAWN_nameShort}的中等的男性象征突然露出来，对一位长者来说相当典型。一个标准而上了年头的好例子。</li>
     <li>{PAWN_nameShort}的阴茎的形状似乎与{PAWN_possessive}身体很相称。看起来相当中等，却富有韧性。</li>
     <li>中等的尺寸，但{PAWN_nameShort}阴茎的发育看起来结实而功能正常。就其年岁而言没什么不寻常的。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎与包皮，在我们这个年纪的男人身上很常见。一个规整且保养得当的样本。</li>
@@ -1367,7 +1357,7 @@
     <li>{PAWN_nameShort}的阴茎的形状看起来相当中等而发育良好。确实是个成熟的范例。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从茎身到龟头都清晰可见。是标准的成年男性特征。</li>
     <li>它就那么在那儿，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身和龟头，以{PAWN_possessive}年纪来说完全正常。</li>
-    <li>总体而言，是一根非常中等的阴茎。{PAWN_nameShort}的 茎身与睾丸的样子显示出健康而典型的男性体格。</li>
+    <li>总体而言，是一根非常中等的阴茎。{PAWN_nameShort}的茎身与睾丸的样子显示出健康而典型的男性体格。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎。没什么出奇的，但看着结实、保养得不错。一个正常的样本。</li>
     <li>{PAWN_nameShort}的中等阴茎那自然的外观，从根部到顶端，都透出一生使用过的痕迹。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，外观却可靠。茎身与龟头看上去相当坚韧。</li>
@@ -1389,8 +1379,8 @@
     <li>心满意足地偷瞄一眼{PAWN_nameShort}的阳物。那中等却悦目的形状让我满心兴奋。</li>
     <li>{PAWN_nameShort}的阴茎泛着光泽，茎身与龟头比例完美，那景象真叫我目不转睛。</li>
     <li>发现{PAWN_nameShort}的那颗中等的阴茎，实在是件令人愉快的事。它坚挺的茎身和轮廓分明的睾丸，堪称一大享受。</li>
-    <li>哦，能不经意间瞥见 {PAWN_nameShort}的 阴茎！那中等长度与健康的样子，是我私下的一份愉悦。</li>
-    <li>这一幕让我这偷窥的癖好得到彻底满足。{PAWN_nameShort}的 那根中等的阴茎正是完美诱人的景致。</li>
+    <li>哦，能不经意间瞥见 {PAWN_nameShort}的阴茎！那中等长度与健康的样子，是我私下的一份愉悦。</li>
+    <li>这一幕让我这偷窥的癖好得到彻底满足。{PAWN_nameShort}的那根中等的阴茎正是完美诱人的景致。</li>
     <li>{PAWN_nameShort}的中等阴茎的亲昵细节，从茎身到圆润的龟头，看着完全令人着迷。</li>
     <li>{PAWN_nameShort}的中等性器的一幅绝妙景象，如此自然而诱人。对我这隐秘的目光而言是一种享受。</li>
     <li>只是一瞬间，却足以欣赏{PAWN_nameShort}的那根中等的阴茎。它有力的茎身与饱满的睾丸清晰可见，十分赏心悦目。</li>
@@ -1438,7 +1428,7 @@
     <li>一瞥{PAWN_nameShort}的那收拾得整整齐齐的睾丸与优雅的包皮，让我脊背发麻。</li>
     <li>{PAWN_nameShort}的阴茎，带着青春洋溢的中等荣光，散发着诱人的性感，令我着迷。</li>
     <li>{PAWN_nameShort}身上那根中等大小的阴茎，看着真令人兴奋。多么健康而充满活力的构造！</li>
-    <li>哦，若能更年轻些！{PAWN_nameShort}的 那根出色的中等阴茎，让我觉得自己颇有生气。</li>
+    <li>哦，若能更年轻些！{PAWN_nameShort}的那根出色的中等阴茎，让我觉得自己颇有生气。</li>
     <li>{PAWN_nameShort}的阴茎有着迷人的存在感；那中等的尺寸与健康的形态相当催情。</li>
     <li>我的目光被{PAWN_nameShort}的阴茎吸引，不得不说，它激起了一份愉悦而深沉的欣赏。</li>
     <li>{PAWN_nameShort}那根中等阴茎看着就令人愉悦。让我颇为……跃跃欲试。</li>
@@ -1493,7 +1483,7 @@
     <li>{PAWN_nameShort}的中等尺寸的阴茎，那强健的形态相当吸引人。</li>
   </Opinion_Penis_Positive_Average_Elderly_Male_opinion.opinionTexts>
   <Opinion_Penis_Positive_Average_Elderly_Male_voyer_opinion.opinionTexts>
-    <li>哎哟，我的天！{PAWN_nameShort}的 那根中等的阴茎真是迷人的景致，勾起我心中旧日的情愫。</li>
+    <li>哎哟，我的天！{PAWN_nameShort}的那根中等的阴茎真是迷人的景致，勾起我心中旧日的情愫。</li>
     <li>{PAWN_nameShort}那根年轻人的阴茎可真好看，让我下身一阵躁动，你懂我的意思。</li>
     <li>瞥了一眼{PAWN_nameShort}的那中等大小的阴茎，激起一阵熟悉的暖意；看着总是令人愉快。</li>
     <li>{PAWN_nameShort}身上如此发育良好的阴茎！看着它让我感到相当……精神焕发。</li>
@@ -1502,7 +1492,7 @@
     <li>一瞥{PAWN_nameShort}的包皮与圆润饱满的睾丸，让我浑身一震；真是养眼的景象。</li>
     <li>{PAWN_nameShort}的阴茎，带着青春洋溢的中等荣光，散发着诱人的光泽，让我渴望触碰。</li>
     <li>在{PAWN_nameShort}身上看到那根中等阴茎，真让我血脉贲张。多么新鲜、充满活力的身体！</li>
-    <li>哦，若能再年轻一回！{PAWN_nameShort}的 那根出色的中等阴茎，让我这颗老心怦怦直跳。</li>
+    <li>哦，若能再年轻一回！{PAWN_nameShort}的那根出色的中等阴茎，让我这颗老心怦怦直跳。</li>
     <li>{PAWN_nameShort}的阴茎有着迷人的存在感；那中等的尺寸与健康的形态相当刺激。</li>
     <li>我的目光被{PAWN_nameShort}的阴茎吸引，不得不说，它激起了一份愉悦而深沉的欣赏。</li>
     <li>{PAWN_nameShort}那根中等阴茎看着就令人愉悦。让我觉得自己很有生气。</li>
@@ -1525,7 +1515,7 @@
     <li>{PAWN_nameShort}的阴茎，健康的包皮与结实的形态，对我这双老眼来说真是赏心悦目。</li>
   </Opinion_Penis_Positive_Average_Elderly_Male_voyer_opinion.opinionTexts>
   <Opinion_Penis_Positive_Average_FemaleOpinion.opinionTexts>
-    <li>哦，{PAWN_nameShort}的 阴茎相当可爱。确实是诱人的中等尺寸。</li>
+    <li>哦，{PAWN_nameShort}的阴茎相当可爱。确实是诱人的中等尺寸。</li>
     <li>{PAWN_nameShort}的阴茎如此诱人，比例完美，极具吸引力。</li>
     <li>一瞥{PAWN_nameShort}的阴茎。中等尺寸，可哦，多么迷人！</li>
     <li>{PAWN_nameShort}那根阴茎形状相当不错。看起来遇上了会很愉快。</li>
@@ -1621,11 +1611,11 @@
     <li>{PAWN_nameShort}的马类阴茎让我由衷赞叹；那独特的构造实在诱人。</li>
   </Opinion_Penis_Positive_Average_HorsePenis.opinionTexts>
   <Opinion_Penis_Positive_Average_MaleOpinion.opinionTexts>
-    <li>不错！{PAWN_nameShort}的 的阴茎看着挺扎实，尺寸正常，很好。</li>
+    <li>不错！{PAWN_nameShort}阴茎看着挺扎实，尺寸正常，很好。</li>
     <li>嗯，{PAWN_nameShort}的阴茎绝对是中等大小，但是往好的方向。看着挺健康。</li>
     <li>我看到{PAWN_nameShort}的阴茎；形状还不错，没什么特别之处，这样也挺好。</li>
     <li>{PAWN_nameShort}的阴茎看着挺不错。经典、可靠的构造。</li>
-    <li>体面。{PAWN_nameShort}的 的阴茎正如你所料，而这是件好事。</li>
+    <li>体面。{PAWN_nameShort}阴茎正如你所料，而这是件好事。</li>
     <li>一瞥{PAWN_nameShort}的阴茎。相当标准、干净、比例匀称。</li>
     <li>{PAWN_nameShort}的阴茎看起来相当强健，茎身与龟头都不错。扎实。</li>
     <li>{PAWN_nameShort}的那根看起来是健康的中等尺寸阴茎。看着不错。</li>
@@ -1633,7 +1623,7 @@
     <li>我注意到{PAWN_nameShort}的阴茎；尺寸不错，与{PAWN_possessive}身体很相称。</li>
     <li>{PAWN_nameShort}的阴茎的形状相当典型，但看起来保养得很好，颇为诱人。</li>
     <li>{PAWN_nameShort}的阴茎绝对是良好的中等水平。看起来结实，随时可以派上用场。</li>
-    <li>不错，{PAWN_nameShort}的 的阴茎是件扎实的样品。茎身好，睾丸也好。</li>
+    <li>不错，{PAWN_nameShort}阴茎是件扎实的样品。茎身好，睾丸也好。</li>
     <li>{PAWN_nameShort}身上就是根中等的阴茎，但看起来相当能干、健康。</li>
     <li>匆匆一看{PAWN_nameShort}的阴茎。比例不错，看来运转良好。</li>
     <li>我打量了{PAWN_nameShort}的阴茎；是一根不错、结实、尺寸中等的家伙。没什么可羞愧的。</li>
@@ -1667,7 +1657,7 @@
     <li>{PAWN_nameShort}的阴茎的形状与{PAWN_possessive}身体似乎完美平衡。是个匀称的中等样本，看起来相当诱人。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从结实的茎身到饱满的睾丸都轮廓分明。相当引人注目的一幕。</li>
     <li>它突然出现了，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身与龟头构造相当健全，给人留下了不错的印象。</li>
-    <li>总体而言，是悦目的景象。{PAWN_nameShort}的 的阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
+    <li>总体而言，是悦目的景象。{PAWN_nameShort}阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
     <li>我忍不住注意到{PAWN_nameShort}的中等的阴茎；茎身结实，龟头看起来十分诱人。尺寸恰到好处。</li>
     <li>{PAWN_nameShort}的茎身自然的弧度与{PAWN_possessive}龟头微微的隆起，构成一件颇具吸引力的中等样本。真是一道风景。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，茎身却硬挺宜人，龟头形态良好。绝对诱人。</li>
@@ -1689,7 +1679,7 @@
     <li>{PAWN_nameShort}的阴茎的形状与{PAWN_possessive}身体似乎完美平衡。是个匀称的中等样本，看起来相当诱人。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从结实的茎身到饱满的睾丸都轮廓分明。相当引人注目的一幕。</li>
     <li>它突然出现了，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身与龟头构造相当健全，给人留下了不错的印象。</li>
-    <li>总体而言，是悦目的景象。{PAWN_nameShort}的 的阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
+    <li>总体而言，是悦目的景象。{PAWN_nameShort}阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
     <li>我忍不住注意到{PAWN_nameShort}的中等的阴茎；茎身结实，龟头看起来十分诱人。尺寸恰到好处。</li>
     <li>{PAWN_nameShort}的茎身自然的弧度与{PAWN_possessive}龟头微微的隆起，构成一件颇具吸引力的中等样本。真是一道风景。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，茎身却硬挺宜人，龟头形态良好。绝对诱人。</li>
@@ -1698,7 +1688,7 @@
   </Opinion_Penis_Positive_Average_MatureMale_observed_by_Elder_female.opinionTexts>
   <Opinion_Penis_Positive_Average_MatureMale_observed_by_Elder_male.opinionTexts>
     <li>{PAWN_nameShort}的中等大小的阴茎，那老练的茎身与成熟的睾丸，勾起了同为男人的共鸣。</li>
-    <li>看见 {PAWN_nameShort}的 中等的男性象征突然露出来，其比例看起来相当典型。一个结实而实用的例子。</li>
+    <li>看见 {PAWN_nameShort}的中等的男性象征突然露出来，其比例看起来相当典型。一个结实而实用的例子。</li>
     <li>{PAWN_nameShort}的阴茎的形状似乎与{PAWN_possessive}成熟的身体很相称。看起来相当中等，却经久不衰。</li>
     <li>中等的尺寸，但{PAWN_nameShort}阴茎的发育看起来强健，且就其年岁而言保养得当。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎与包皮，在经历过岁月的男人身上，这是常见而令人安心的一幕。</li>
@@ -1711,7 +1701,7 @@
     <li>{PAWN_nameShort}的阴茎的形状看起来相当中等而发育良好。确实是个成熟的范例。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从茎身到龟头都清晰可见。是标准的成年男性特征。</li>
     <li>它就那么在那儿，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身和龟头，以{PAWN_possessive}年纪来说完全正常。</li>
-    <li>总体而言，是一根非常中等的阴茎。{PAWN_nameShort}的 茎身与睾丸的样子显示出健康而典型的男性体格。</li>
+    <li>总体而言，是一根非常中等的阴茎。{PAWN_nameShort}的茎身与睾丸的样子显示出健康而典型的男性体格。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎。没什么出奇的，但看着结实、保养得不错。一个正常的样本。</li>
     <li>{PAWN_nameShort}的中等阴茎那自然的外观，从根部到顶端，都透出一生使用过的痕迹。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，外观却可靠。茎身与龟头看上去相当坚韧。</li>
@@ -1727,13 +1717,13 @@
     <li>我自己的中等阴茎正暴露在外；看到{PAWN_nameShort}的那根相似的家伙，我反而更自在、更自豪。</li>
     <li>{PAWN_nameShort}的中等阴茎露在外面时，突然意识到自己正被看着，让我感觉自己活着，兴奋不已。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎是道美景，一想到它露在外面时正被人注视着，就让我无比愉悦。</li>
-    <li>我爱{PAWN_nameShort}的中等尺寸的阴茎所吸引的目光。它自信的呈现让我充满一种大胆的自由感。</li>
+    <li>我爱{PAWN_nameShort}的中等尺寸的阴茎所吸引的目光。它自信的姿态让我充满一种大胆的自由感。</li>
     <li>{PAWN_nameShort}的中等阴茎外露的茎身与龟头是绝妙的景致，而我就爱这样被人看着。</li>
     <li>知道{PAWN_nameShort}正看着{PAWN_nameShort}的中等大小的阴茎，我感受到一种自我表达与坦荡带来的振奋。</li>
     <li>我中等的阴茎就在这儿供所有人看，{PAWN_nameShort}的对它的反应带给我如此多的喜悦和认可。</li>
     <li>{PAWN_nameShort}的中等阴茎坦然呈现，是一种大胆的宣言，能与它共享这份自由让我感觉妙极了。</li>
     <li>在展示中被逮个正着，{PAWN_nameShort}的中等的阴茎，茎身与睾丸清晰可见，带给我无与伦比的刺激。</li>
-    <li>{PAWN_nameShort}的那根中等的阴茎被展露出来，让我感到充满力量。那是自然而诚实的呈现，我很喜欢那种回应。</li>
+    <li>{PAWN_nameShort}的那根中等的阴茎被展露出来，让我感到充满力量。那是自然而诚实的姿态，我很喜欢那种回应。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎就是供人欣赏的。我享受每一刻坦然在场、毫无拘束的感觉。</li>
     <li>{PAWN_nameShort}的那中等的阴茎自信地展示出来的样子，让我觉得自己更加大胆、更加无所顾忌。</li>
     <li>{PAWN_nameShort}的这样公开展现中等的阴茎，让我充满难以置信的自由感与一种调皮的愉悦。</li>
@@ -1750,8 +1740,8 @@
     <li>匆匆一瞥{PAWN_nameShort}的阳物，我整个身心都在尖叫着渴求解脱。那中等的尺寸里蕴藏着巨大的许诺。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎，那粗壮的茎身与诱人的睾丸，点燃了我的感官。我得摸一摸它。</li>
     <li>看着{PAWN_nameShort}的阴茎，在我心里搅起永不满足的淫欲。那中等的身形，正是完美的邀约。</li>
-    <li>光是看着 {PAWN_nameShort}的 中等的阴茎，我的身体就发麻。茎身那光滑的曲线诱人至极。</li>
-    <li>哦，若能感受 {PAWN_nameShort}的 中等的阴茎进入我体内！那健康的龟头与饱满的睾丸，光是看着就令人难以自持。</li>
+    <li>光是看着 {PAWN_nameShort}的中等的阴茎，我的身体就发麻。茎身那光滑的曲线诱人至极。</li>
+    <li>哦，若能感受 {PAWN_nameShort}的中等的阴茎进入我体内！那健康的龟头与饱满的睾丸，光是看着就令人难以自持。</li>
     <li>光是{PAWN_nameShort}的那根纯粹未经修饰的中等阴茎，就足以让我浑身泛起无法自控的欲望战栗。</li>
     <li>我对{PAWN_nameShort}的那根中等的阴茎产生了强烈而即时的共鸣。它自然的样子预示着深切的满足。</li>
     <li>{PAWN_nameShort}的那颗中等的阴茎，从坚挺的茎身到诱人的龟头，每一寸都在助长我压倒性的肉欲渴求。</li>
@@ -1764,10 +1754,10 @@
   </Opinion_Penis_Positive_Average_MatureMale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Penis_Positive_Average_MatureMale_observed_by_Prude.opinionTexts>
     <li>天哪，{PAWN_nameShort}的那根中等大小的阴茎倒是相当……显眼。不过我想，作为这么私密的部位，尺寸算挺克制的。</li>
-    <li>哦，天哪！{PAWN_nameShort}的 中等的男性象征突然露了出来。它……确实在那儿，茎身与睾丸一览无余。</li>
+    <li>哦，天哪！{PAWN_nameShort}的中等的男性象征突然露了出来。它……确实在那儿，茎身与睾丸一览无余。</li>
     <li>{PAWN_nameShort}的中等阴茎那自然的形状，嗯，就是解剖学意义上的。它与{PAWN_possessive}身体相称，一如所料。</li>
     <li>确实中等的尺寸。我能看出{PAWN_nameShort}的器官完全正常，尽管我不愿细想这些细节。</li>
-    <li>哎哟，一根阴茎。{PAWN_nameShort}的 中等的茎身与龟头确实相当显眼。但愿能稍微收敛一点。</li>
+    <li>哎哟，一根阴茎。{PAWN_nameShort}的中等的茎身与龟头确实相当显眼。但愿能稍微收敛一点。</li>
     <li>我无意中瞥见了{PAWN_nameShort}的那根中等大小的阴茎。它……大概就是造物主本来的意思吧。</li>
     <li>{PAWN_nameShort}的中等的阴茎突然出现，着实令人震惊。遗憾的是，它的轮廓相当分明。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎。人只好试着把目光移开，可它明晃晃地摆在那儿，实在很难做到。</li>
@@ -1776,13 +1766,13 @@
     <li>意外看到{PAWN_nameShort}的那根中等大小的阴茎，让我的矜持颇为不安。那是很有男性特征的部位。</li>
     <li>一根中等的阴茎，仅此而已。但它就这样出现的方式……人得让自己镇定下来。</li>
     <li>我发现自己被{PAWN_nameShort}的中等大小的阴茎弄得相当慌乱。那的确是个非常显眼的解剖细节。</li>
-    <li>哦，天哪。{PAWN_nameShort}的 中等的阴茎。它的存在无法忽视，让我相当不自在。</li>
+    <li>哦，天哪。{PAWN_nameShort}的中等的阴茎。它的存在无法忽视，让我相当不自在。</li>
     <li>如此普通的阴茎，可它的显而易见却让我有些难受。我还是更喜欢什么都遮着。</li>
     <li>看到{PAWN_nameShort}的中等大小的阴茎，我颇感意外。那真是相当……大胆的展示。</li>
     <li>{PAWN_nameShort}的中等尺寸阴茎的茎身与龟头相当醒目。希望我能快点忘掉这一幕。</li>
     <li>确实是一根中等的阴茎。老实说，有点让人难以承受。我的脸发烫。</li>
     <li>我真没必要看到{PAWN_nameShort}的中等的阴茎。我猜这完全自然，可还是相当不合体统。</li>
-    <li>面对 {PAWN_nameShort}的 中等的阴茎，人努力保持镇定。那真是值得一看的景象，无论好坏。</li>
+    <li>面对 {PAWN_nameShort}的中等的阴茎，人努力保持镇定。那真是值得一看的景象，无论好坏。</li>
   </Opinion_Penis_Positive_Average_MatureMale_observed_by_Prude.opinionTexts>
   <Opinion_Penis_Positive_Average_MatureMale_observed_by_Young_female.opinionTexts>
     <li>{PAWN_nameShort}的中等大小的阴茎，那光滑的茎身与成熟的龟头，看着相当老练。颇为耐人寻味。</li>
@@ -1799,7 +1789,7 @@
     <li>{PAWN_nameShort}的阴茎的形状与{PAWN_possessive}身体似乎完美平衡。是个匀称的中等样本，看起来相当诱人。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从结实的茎身到饱满的睾丸都轮廓分明。相当引人注目的一幕。</li>
     <li>它突然出现了，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身与龟头构造相当健全，给我留下了不错的印象。</li>
-    <li>总体而言，是悦目的景象。{PAWN_nameShort}的 的阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
+    <li>总体而言，是悦目的景象。{PAWN_nameShort}阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
     <li>我忍不住注意到{PAWN_nameShort}的中等的阴茎；茎身结实，龟头看起来十分诱人。尺寸恰到好处。</li>
     <li>{PAWN_nameShort}的茎身自然的弧度与{PAWN_possessive}龟头微微的隆起，构成一件颇具吸引力的中等样本。真是一道风景。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，茎身却硬挺宜人，龟头形态良好。绝对诱人。</li>
@@ -1808,7 +1798,7 @@
   </Opinion_Penis_Positive_Average_MatureMale_observed_by_Young_female.opinionTexts>
   <Opinion_Penis_Positive_Average_MatureMale_observed_by_Young_male.opinionTexts>
     <li>{PAWN_nameShort}的中等大小的阴茎，那结实的茎身与成熟的睾丸，正好可以当作前路的一处参照。</li>
-    <li>看见 {PAWN_nameShort}的 中等的男性象征突然露出来，其比例看起来相当正常。一个标准而健康的例子。</li>
+    <li>看见 {PAWN_nameShort}的中等的男性象征突然露出来，其比例看起来相当正常。一个标准而健康的例子。</li>
     <li>{PAWN_nameShort}的阴茎的形状似乎与{PAWN_possessive}成熟的身体很相称。看起来相当中等，却很强健。</li>
     <li>中等的尺寸，但{PAWN_nameShort}阴茎的发育看起来完整而健康。没什么意外的。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎与包皮，大概这就是成熟的样子吧。一个规整而匀称的样本。</li>
@@ -1821,7 +1811,7 @@
     <li>{PAWN_nameShort}的阴茎的形状看起来相当中等而发育良好。确实是个成熟的范例。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从茎身到龟头都清晰可见。是标准的成年男性特征。</li>
     <li>它就那么在那儿，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身和龟头，以{PAWN_possessive}年纪来说完全正常。</li>
-    <li>总体而言，是一根非常中等的阴茎。{PAWN_nameShort}的 茎身与睾丸的样子显示出健康而典型的男性体格。</li>
+    <li>总体而言，是一根非常中等的阴茎。{PAWN_nameShort}的茎身与睾丸的样子显示出健康而典型的男性体格。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎。没什么出奇的，但看着结实、保养得不错。一个正常的样本。</li>
     <li>{PAWN_nameShort}的中等阴茎那自然的外观，从根部到顶端，都透出一生使用过的痕迹。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，外观却可靠。茎身与龟头看上去相当坚韧。</li>
@@ -1843,7 +1833,7 @@
     <li>{PAWN_nameShort}的阴茎的形状与{PAWN_possessive}身体似乎完美平衡。是个匀称的中等样本，看起来相当诱人。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从结实的茎身到饱满的睾丸都轮廓分明。相当引人注目的一幕。</li>
     <li>它突然出现了，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身与龟头构造相当健全，给人留下了不错的印象。</li>
-    <li>总体而言，是悦目的景象。{PAWN_nameShort}的 的阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
+    <li>总体而言，是悦目的景象。{PAWN_nameShort}阴茎，从茎身到包皮，都相当令人满意，而且意外地吸引人。</li>
     <li>我忍不住注意到{PAWN_nameShort}的中等的阴茎；茎身结实，龟头看起来十分诱人。尺寸恰到好处。</li>
     <li>{PAWN_nameShort}的茎身自然的弧度与{PAWN_possessive}龟头微微的隆起，构成一件颇具吸引力的中等样本。真是一道风景。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，茎身却硬挺宜人，龟头形态良好。绝对诱人。</li>
@@ -1852,7 +1842,7 @@
   </Opinion_Penis_Positive_Average_MatureMale_observed_by_middle_aged_Female.opinionTexts>
   <Opinion_Penis_Positive_Average_MatureMale_observed_by_middle_aged_male.opinionTexts>
     <li>{PAWN_nameShort}的中等大小的阴茎，那粗壮的茎身与成熟的睾丸，看着似曾相识。结实。</li>
-    <li>看见 {PAWN_nameShort}的 中等的男性象征突然露出来，其比例看起来相当典型。一个标准而上了年头的好例子。</li>
+    <li>看见 {PAWN_nameShort}的中等的男性象征突然露出来，其比例看起来相当典型。一个标准而上了年头的好例子。</li>
     <li>{PAWN_nameShort}的阴茎的形状似乎与{PAWN_possessive}身体很相称。看起来相当中等，却富有韧性。</li>
     <li>中等的尺寸，但{PAWN_nameShort}阴茎的发育看起来结实而功能正常。没什么不寻常的。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎与包皮，在我们这个年纪的男人身上很常见。一个规整且保养得当的样本。</li>
@@ -1865,7 +1855,7 @@
     <li>{PAWN_nameShort}的阴茎的形状看起来相当中等而发育良好。确实是个成熟的范例。</li>
     <li>{PAWN_nameShort}的构造尺寸中等，从茎身到龟头都清晰可见。是标准的成年男性特征。</li>
     <li>它就那么在那儿，{PAWN_nameShort}的中等大小的阴茎。那清晰可见的茎身和龟头，以{PAWN_possessive}年纪来说完全正常。</li>
-    <li>总体而言，是一根非常中等的阴茎。{PAWN_nameShort}的 茎身与睾丸的样子显示出健康而典型的男性体格。</li>
+    <li>总体而言，是一根非常中等的阴茎。{PAWN_nameShort}的茎身与睾丸的样子显示出健康而典型的男性体格。</li>
     <li>{PAWN_nameShort}的中等大小的阴茎。没什么出奇的，但看着结实、保养得不错。一个正常的样本。</li>
     <li>{PAWN_nameShort}的中等阴茎那自然的外观，从根部到顶端，都透出一生使用过的痕迹。</li>
     <li>{PAWN_nameShort}的阴茎虽属中等，外观却可靠。茎身与龟头看上去相当坚韧。</li>
@@ -1887,8 +1877,8 @@
     <li>心满意足地偷瞄一眼{PAWN_nameShort}的阳物。那中等却悦目的形状让我满心兴奋。</li>
     <li>{PAWN_nameShort}的阴茎泛着光泽，茎身与龟头比例完美，那景象真叫我目不转睛。</li>
     <li>发现{PAWN_nameShort}的那颗中等的阴茎，实在是件令人愉快的事。它坚挺的茎身和轮廓分明的睾丸，堪称一大享受。</li>
-    <li>哦，能不经意间瞥见 {PAWN_nameShort}的 阴茎！那中等长度与健康的样子，是我私下的一份愉悦。</li>
-    <li>这一幕让我这偷窥的癖好得到彻底满足。{PAWN_nameShort}的 那根中等的阴茎正是完美诱人的景致。</li>
+    <li>哦，能不经意间瞥见 {PAWN_nameShort}的阴茎！那中等长度与健康的样子，是我私下的一份愉悦。</li>
+    <li>这一幕让我这偷窥的癖好得到彻底满足。{PAWN_nameShort}的那根中等的阴茎正是完美诱人的景致。</li>
     <li>{PAWN_nameShort}的中等阴茎的亲昵细节，从茎身到圆润的龟头，看着完全令人着迷。</li>
     <li>{PAWN_nameShort}的中等性器的一幅绝妙景象，如此自然而诱人。对我这隐秘的目光而言是一种享受。</li>
     <li>只是一瞬间，却足以欣赏{PAWN_nameShort}的那根中等的阴茎。它有力的茎身与饱满的睾丸清晰可见，十分赏心悦目。</li>
@@ -2087,7 +2077,7 @@
     <li>{PAWN_nameShort}的阴茎看着太棒了。它鼓励我大方地赞美自己的形体。</li>
   </Opinion_Penis_Positive_Average_trait_NMM_Exhibitionist.opinionTexts>
   <Opinion_Penis_Positive_Average_trait_Nymphomaniac.opinionTexts>
-    <li>哦，{PAWN_nameShort}的 中等的阴茎！我的身体已经在渴望它的拥抱。</li>
+    <li>哦，{PAWN_nameShort}的中等的阴茎！我的身体已经在渴望它的拥抱。</li>
     <li>看着{PAWN_nameShort}的阴茎，在我心里点燃一股炽烈的欲望。太诱人了！</li>
     <li>我现在一定要得到{PAWN_nameShort}的中等尺寸的阴茎；我的渴求压倒一切！</li>
     <li>{PAWN_nameShort}的阴茎简直令人无法抗拒。我整个人都在渴求感受它的触碰。</li>
@@ -2107,7 +2097,7 @@
     <li>对{PAWN_nameShort}的阴茎的渴望把我彻底吞噬。我满脑子只有这个。</li>
     <li>{PAWN_nameShort}那根中等阴茎把我身体深处点着了。我渴望得发疯。</li>
     <li>{PAWN_nameShort}的阴茎。光是看着它，就让我腰胯因渴望而发酸。</li>
-    <li>看到 {PAWN_nameShort}的 的阴茎，我的身体反应如此强烈。我要靠近它。</li>
+    <li>看到 {PAWN_nameShort}阴茎，我的身体反应如此强烈。我要靠近它。</li>
     <li>{PAWN_nameShort}的那根中等阴茎原始的吸引力几乎让人招架不住。</li>
     <li>我能感觉到{PAWN_nameShort}的阴茎的牵引。它在呼唤我，索求满足。</li>
     <li>{PAWN_nameShort}的阴茎令人完全着迷。我的双手已经蠢蠢欲动，想要探索它的轮廓。</li>
@@ -2119,7 +2109,7 @@
     <li>看到{PAWN_nameShort}的那根中等大小的阴茎，我慕男狂的冲动被彻底唤醒。</li>
   </Opinion_Penis_Positive_Average_trait_Nymphomaniac.opinionTexts>
   <Opinion_Penis_Positive_Average_trait_Nymphomaniac_Female.opinionTexts>
-    <li>哦，{PAWN_nameShort}的 中等的阴茎！我的身体已经在渴望它的拥抱，一阵愉悦的搏动开始了。</li>
+    <li>哦，{PAWN_nameShort}的中等的阴茎！我的身体已经在渴望它的拥抱，一阵愉悦的搏动开始了。</li>
     <li>看着{PAWN_nameShort}的阴茎，在我心里点燃一股炽烈的欲望。太诱人了，我都能感到自己湿了！</li>
     <li>我现在一定要得到{PAWN_nameShort}的中等尺寸的阴茎；我的渴求压倒一切，我的核心正在紧缩！</li>
     <li>{PAWN_nameShort}的阴茎简直令人无法抗拒。我整个人都在渴求感受它的触碰，我的深处一阵酥麻。</li>
@@ -2139,7 +2129,7 @@
     <li>对{PAWN_nameShort}的阴茎的渴望把我彻底吞噬。我满脑子只有这个，脉搏加快。</li>
     <li>{PAWN_nameShort}那根中等阴茎把我身体深处点着了。我渴望得发疯，身体渴求着触碰。</li>
     <li>{PAWN_nameShort}的阴茎。光是看着它，就让我腰胯因渴望而发酸，小腹深处一阵钝痛。</li>
-    <li>看到 {PAWN_nameShort}的 的阴茎，我的身体反应如此强烈。我要靠近它，我的皮肤发麻。</li>
+    <li>看到 {PAWN_nameShort}阴茎，我的身体反应如此强烈。我要靠近它，我的皮肤发麻。</li>
     <li>{PAWN_nameShort}的那根中等阴茎原始的吸引力几乎让人招架不住，我的大腿内侧阵阵收紧。</li>
     <li>我能感觉到{PAWN_nameShort}的阴茎的牵引。它在呼唤我，索求满足，我的身体随之摇摆。</li>
     <li>{PAWN_nameShort}的阴茎令人完全着迷。我的双手已经蠢蠢欲动，想要探索它的轮廓，手指微微抽动。</li>
@@ -2171,7 +2161,7 @@
     <li>对{PAWN_nameShort}的阴茎的渴望把我彻底吞噬。我满脑子只有这个，性唤起攀升到顶点。</li>
     <li>{PAWN_nameShort}那根中等阴茎把我身体深处点着了。我渴望得发疯，我那话儿硬得笔挺。</li>
     <li>{PAWN_nameShort}的阴茎。光是看着它，就让我腰胯因渴望而发酸，我的搏动清晰可感。</li>
-    <li>看到 {PAWN_nameShort}的 的阴茎，我的身体反应如此强烈。我要靠近它，我的鸡巴硬着。</li>
+    <li>看到 {PAWN_nameShort}阴茎，我的身体反应如此强烈。我要靠近它，我的鸡巴硬着。</li>
     <li>{PAWN_nameShort}的那根中等阴茎原始的吸引力几乎让人招架不住，我的胯下绷得发紧。</li>
     <li>我能感觉到{PAWN_nameShort}的阴茎的牵引。它在呼唤我，索求满足，我自己的也充血肿胀。</li>
     <li>{PAWN_nameShort}的阴茎令人完全着迷。我的双手已经蠢蠢欲动，想要探索它的轮廓，血液也随之奔涌。</li>
@@ -2189,7 +2179,7 @@
     <li>不过是根中等的阴茎。我们为什么要讨论这个？</li>
     <li>{PAWN_nameShort}的阴茎？是的，那是一根阴茎。极其典型的那种。</li>
     <li>一根毫无趣味的阴茎。大概算是够用吧。</li>
-    <li>哦，{PAWN_nameShort}的 阴茎。和预想的一模一样，这可不是夸赞。</li>
+    <li>哦，{PAWN_nameShort}的阴茎。和预想的一模一样，这可不是夸赞。</li>
     <li>嗯，确实是根阴茎。没什么特别的，就是……中等。</li>
     <li>{PAWN_nameShort}的阴茎确实不冒犯人。这点我承认。</li>
     <li>我想{PAWN_nameShort}的阴茎自有其用处。它就是……在那儿。</li>
@@ -2256,7 +2246,7 @@
     <li>一瞥{PAWN_nameShort}的那收拾得整整齐齐的睾丸与优雅的包皮，让我脊背发麻。</li>
     <li>{PAWN_nameShort}的阴茎，带着青春洋溢的中等荣光，散发着诱人的性感，令我着迷。</li>
     <li>{PAWN_nameShort}身上那根中等大小的阴茎，看着真令人兴奋。多么健康而充满活力的构造！</li>
-    <li>哦，若能更年轻些！{PAWN_nameShort}的 那根出色的中等阴茎，让我觉得自己颇有生气。</li>
+    <li>哦，若能更年轻些！{PAWN_nameShort}的那根出色的中等阴茎，让我觉得自己颇有生气。</li>
     <li>{PAWN_nameShort}的阴茎有着迷人的存在感；那中等的尺寸与健康的形态相当催情。</li>
     <li>我的目光被{PAWN_nameShort}的阴茎吸引，不得不说，它激起了一份愉悦而深沉的欣赏。</li>
     <li>{PAWN_nameShort}那根中等阴茎看着就令人愉悦。让我颇为……跃跃欲试。</li>
@@ -2279,7 +2269,7 @@
     <li>{PAWN_nameShort}的阴茎，健康的茎身与可爱的龟头，对我这样的观察者来说是一幅美丽的图景。</li>
   </Opinion_Penis_Positive_Average_trait_Voyeur_F.opinionTexts>
   <Opinion_Penis_Positive_Average_trait_Voyeur_M.opinionTexts>
-    <li>哎哟，我的天！{PAWN_nameShort}的 那根中等的阴茎真是迷人的景致，搅动了我心中的某些东西。</li>
+    <li>哎哟，我的天！{PAWN_nameShort}的那根中等的阴茎真是迷人的景致，搅动了我心中的某些东西。</li>
     <li>{PAWN_nameShort}那根年轻人的阴茎可真好看，让我下身一阵躁动。</li>
     <li>瞥了一眼{PAWN_nameShort}的那中等大小的阴茎，激起一阵熟悉的暖意；看着总是令人愉快。</li>
     <li>{PAWN_nameShort}身上如此发育良好的阴茎！看着它让我感到相当……精神焕发。</li>
@@ -2288,7 +2278,7 @@
     <li>一瞥{PAWN_nameShort}的包皮与圆润饱满的睾丸，让我浑身一震；真是养眼的景象。</li>
     <li>{PAWN_nameShort}的阴茎，带着青春洋溢的中等荣光，散发着诱人的光泽，让我渴望触碰。</li>
     <li>在{PAWN_nameShort}身上看到那根中等阴茎，真让我血脉贲张。多么新鲜、充满活力的身体！</li>
-    <li>哦，若能再年轻一回！{PAWN_nameShort}的 那根出色的中等阴茎，让我这颗老心怦怦直跳。</li>
+    <li>哦，若能再年轻一回！{PAWN_nameShort}的那根出色的中等阴茎，让我这颗老心怦怦直跳。</li>
     <li>{PAWN_nameShort}的阴茎有着迷人的存在感；那中等的尺寸与健康的形态相当刺激。</li>
     <li>我的目光被{PAWN_nameShort}的阴茎吸引，不得不说，它激起了一份愉悦而深沉的欣赏。</li>
     <li>{PAWN_nameShort}那根中等阴茎看着就令人愉悦。让我觉得自己很有生气。</li>
@@ -2329,7 +2319,7 @@
   </Opinion_Penis_Positive_Huge.opinionTexts>
   <Opinion_Penis_Positive_Huge_CatPenis.opinionTexts>
     <li>{PAWN_nameShort}的巨大的猫科阴茎带着那些引人入胜的倒刺，是真正迷人而有力的景象。</li>
-    <li>{PAWN_nameShort}的 猫科茎身那巨大的尺寸，以及它分明的尖刺，实在令人着迷。</li>
+    <li>{PAWN_nameShort}的猫科茎身那巨大的尺寸，以及它分明的尖刺，实在令人着迷。</li>
     <li>{PAWN_nameShort}的猫阴茎上那些巨大而引人入胜的尖刺如此独特，大得漂亮。</li>
     <li>一场巨大猫科解剖的惊艳展示；{PAWN_nameShort}的真是一个壮丽的标本。</li>
     <li>{PAWN_nameShort}的猫阴茎那惊人的长度与强健的粗度，连倒刺算上，实在不止是令人印象深刻。</li>
@@ -2341,12 +2331,12 @@
     <li>真是一幅宏大而罕见的美景，{PAWN_nameShort}的猫科阴茎是自然造物的壮丽明证。</li>
     <li>{PAWN_nameShort}的猫类阴茎那独特的尖刺与惊人的体积，大得迷人又强悍。</li>
     <li>{PAWN_nameShort}的强有力的猫型阳具，巨大的尺寸与独特的倒刺，堪称奇观。</li>
-    <li>{PAWN_nameShort}的 猫阴茎那巨大的比例，其美与力量几乎堪称神话。</li>
+    <li>{PAWN_nameShort}的猫阴茎那巨大的比例，其美与力量几乎堪称神话。</li>
     <li>我惊叹于{PAWN_nameShort}的猫阴茎；那壮观的小刺与整体的粗度令人震撼。</li>
     <li>如此惊人的睾丸完美衬托{PAWN_nameShort}的粗大的猫科茎身，真是货真价实的猛兽。</li>
     <li>{PAWN_nameShort}的那猫科阴茎威严的尺寸与独特的构造实在迷人，尤其是那些倒刺。</li>
     <li>真是一派宏大而强劲的猫科雄风，{PAWN_nameShort}的简直令人屏息。</li>
-    <li>{PAWN_nameShort}的 猫阴茎那巨硕、布满倒刺的形态，威风凛凛，令人无法抗拒。</li>
+    <li>{PAWN_nameShort}的猫阴茎那巨硕、布满倒刺的形态，威风凛凛，令人无法抗拒。</li>
     <li>{PAWN_nameShort}的壮丽的猫类器官，巨大的尺寸与独特的倒刺，是大自然的奇迹。</li>
     <li>{PAWN_nameShort}的猫科阴茎那压倒性的存在感与独特的构造，彻底摄人心魄。</li>
     <li>显然{PAWN_nameShort}的怀着一份传奇的天赋，壮丽的猫科形态，带着引人遐想的倒刺。</li>
@@ -2361,7 +2351,7 @@
   </Opinion_Penis_Positive_Huge_CatPenis.opinionTexts>
   <Opinion_Penis_Positive_Huge_CrocodilianPenis.opinionTexts>
     <li>{PAWN_nameShort}的巨大的鳄类阴茎是原始力量的景象，粗粝而壮丽，真正摄人心魄。</li>
-    <li>{PAWN_nameShort}的 爬行类茎身那巨大的尺寸，以及它带纹理的表面，实在诱人，别具一格地令人赞叹。</li>
+    <li>{PAWN_nameShort}的爬行类茎身那巨大的尺寸，以及它带纹理的表面，实在诱人，别具一格地令人赞叹。</li>
     <li>{PAWN_nameShort}的鳄类阴茎上那硕大、覆满鳞片的龟头如此独特、美得壮观，气势十足。</li>
     <li>一场巨大爬行类解剖的惊艳展示；{PAWN_nameShort}的真是一个壮丽而古老的标本。</li>
     <li>{PAWN_nameShort}的鳄类阴茎那惊人的长度与强健的粗度，实在不止是令人印象深刻，是原始之美。</li>
@@ -2373,12 +2363,12 @@
     <li>真是一幅宏大而罕见的美景，{PAWN_nameShort}的鳄鱼阴茎是古老自然造物的壮丽明证。</li>
     <li>{PAWN_nameShort}的鳄类阴茎那独特的特征与惊人的体积，大得迷人又强悍。</li>
     <li>{PAWN_nameShort}的强有力的爬行类阳具，巨大的尺寸与独特的质感，堪称奇观。</li>
-    <li>{PAWN_nameShort}的 鳄类阴茎那巨大的比例，其美与力量几乎堪称神话。</li>
+    <li>{PAWN_nameShort}的鳄类阴茎那巨大的比例，其美与力量几乎堪称神话。</li>
     <li>我惊叹于{PAWN_nameShort}的鳄鱼阴茎；那壮观的质感与整体的粗度震撼得原始。</li>
     <li>如此惊人的睾丸完美衬托{PAWN_nameShort}的粗大的爬行类茎身，真是远古的猛兽。</li>
     <li>{PAWN_nameShort}的那鳄类阴茎威严的尺寸与独特的构造实在迷人，古老至极却又迷人。</li>
     <li>真是一派宏大而强劲的爬行类雄风，{PAWN_nameShort}的简直令人屏息，且好得令人惊叹。</li>
-    <li>{PAWN_nameShort}的 鳄类阴茎那巨硕、带纹理的形态，威风凛凛，粗野得令人无法抗拒。</li>
+    <li>{PAWN_nameShort}的鳄类阴茎那巨硕、带纹理的形态，威风凛凛，粗野得令人无法抗拒。</li>
     <li>{PAWN_nameShort}的壮丽的鳄类器官，巨大的尺寸与独特的形状，是原始的自然奇迹。</li>
     <li>{PAWN_nameShort}的鳄类阴茎那压倒性的存在感与独特的构造，彻底摄人心魄，把我拉入它凶猛的诱惑之中。</li>
     <li>显然{PAWN_nameShort}的怀着一份传奇而强大的天赋，壮丽的爬行类形态。</li>
@@ -2393,7 +2383,7 @@
   </Opinion_Penis_Positive_Huge_CrocodilianPenis.opinionTexts>
   <Opinion_Penis_Positive_Huge_DemonPenis.opinionTexts>
     <li>{PAWN_nameShort}的巨大的魔族阴茎是亵渎神明的宏伟景象，强有力地摄人魂魄，怪物般的壮丽。</li>
-    <li>{PAWN_nameShort}的 地狱般的茎身那巨大的尺寸实在诱人，带着一种无可否认的黑暗魅力。</li>
+    <li>{PAWN_nameShort}的地狱般的茎身那巨大的尺寸实在诱人，带着一种无可否认的黑暗魅力。</li>
     <li>{PAWN_nameShort}的恶魔阴茎上那硕大而异形的龟头如此独特、美得壮观，却又骇人地诱人。</li>
     <li>一场巨大恶魔解剖的惊艳展示；{PAWN_nameShort}的真是一个壮丽而地狱般的标本。</li>
     <li>{PAWN_nameShort}的恶魔阴茎那惊人的长度与强健的粗度，实在不止是令人印象深刻，是禁忌之美。</li>
@@ -2405,12 +2395,12 @@
     <li>真是一幅宏大而罕见的美景，{PAWN_nameShort}的恶魔阴茎是被禁自然造物的壮丽明证。</li>
     <li>{PAWN_nameShort}的恶魔阴茎那独特的特征与惊人的体积，大得迷人又强悍。</li>
     <li>{PAWN_nameShort}的强有力的恶魔阳具，巨大的尺寸与独特的形态，堪称奇观。</li>
-    <li>{PAWN_nameShort}的 恶魔阴茎那巨大的比例，其幽暗的美与力量几乎堪称神话。</li>
+    <li>{PAWN_nameShort}的恶魔阴茎那巨大的比例，其幽暗的美与力量几乎堪称神话。</li>
     <li>我惊叹于{PAWN_nameShort}的恶魔阴茎；那壮观的形态与整体的粗度震撼得犹如地狱。</li>
     <li>如此惊人的睾丸完美衬托{PAWN_nameShort}的粗大的恶魔茎身，真是地狱般的猛兽。</li>
     <li>{PAWN_nameShort}的那恶魔阴茎威严的尺寸与独特的构造实在迷人，异类至极却又迷人。</li>
     <li>真是一派宏大而强劲的恶魔雄风，{PAWN_nameShort}的简直令人屏息，且好得令人不安。</li>
-    <li>{PAWN_nameShort}的 恶魔阴茎那巨硕、亵渎的形态，威风凛凛，幽暗得令人无法抗拒。</li>
+    <li>{PAWN_nameShort}的恶魔阴茎那巨硕、亵渎的形态，威风凛凛，幽暗得令人无法抗拒。</li>
     <li>{PAWN_nameShort}的壮丽的恶魔器官，巨大的尺寸与独特的形状，是黑暗的自然奇迹。</li>
     <li>{PAWN_nameShort}的恶魔阴茎那压倒性的存在感与独特的构造，彻底摄人心魄，把我拉入它邪恶的诱惑之中。</li>
     <li>显然{PAWN_nameShort}的怀着一份传奇而被禁忌的天赋，壮丽的炼狱形态。</li>
@@ -2425,7 +2415,7 @@
   </Opinion_Penis_Positive_Huge_DemonPenis.opinionTexts>
   <Opinion_Penis_Positive_Huge_DemonTentaclePenis.opinionTexts>
     <li>{PAWN_nameShort}的巨大的魔族触手阴茎盘绕抽动着，是怪诞而迷人、壮丽的景象。</li>
-    <li>{PAWN_nameShort}的 地狱般的附肢那巨大的尺寸，以及它自主的动作，实在诱人，却又令人不安。</li>
+    <li>{PAWN_nameShort}的地狱般的附肢那巨大的尺寸，以及它自主的动作，实在诱人，却又令人不安。</li>
     <li>{PAWN_nameShort}的恶魔触手阴茎上那硕大、蜿蜒的形态如此独特、美得壮观，却又骇人地迷人。</li>
     <li>一场巨大邪异解剖的惊艳展示；{PAWN_nameShort}的真是一个壮丽而可怖的标本。</li>
     <li>{PAWN_nameShort}的恶魔触手阴茎那惊人的长度与强健的粗度，实在不止是令人印象深刻，是扭曲之美。</li>
@@ -2437,12 +2427,12 @@
     <li>真是一幅宏大而罕见的美景，{PAWN_nameShort}的恶魔触手阴茎是被禁自然造物的壮丽明证。</li>
     <li>{PAWN_nameShort}的恶魔触手阴茎那独特的特征与惊人的体积，大得迷人又强悍，却令人恐惧。</li>
     <li>{PAWN_nameShort}的强有力的诡秘阳具，巨大的尺寸与独特的形态，堪称奇观。</li>
-    <li>{PAWN_nameShort}的 恶魔触手阴茎那巨大的比例，其怪诞的美与力量几乎堪称神话。</li>
+    <li>{PAWN_nameShort}的恶魔触手阴茎那巨大的比例，其怪诞的美与力量几乎堪称神话。</li>
     <li>我惊叹于{PAWN_nameShort}的恶魔触手阴茎；那壮观的律动与整体的粗度震撼得犹如地狱。</li>
     <li>如此惊人的睾丸完美衬托{PAWN_nameShort}的粗大的恶魔触手茎身，真是扭动不止的猛兽。</li>
     <li>{PAWN_nameShort}的那恶魔触手阴茎威严的尺寸与独特的构造实在迷人，怪异至极却又迷人。</li>
     <li>真是一派宏大而强劲的邪异雄风，{PAWN_nameShort}的简直令人屏息，且好得令人不安。</li>
-    <li>{PAWN_nameShort}的 恶魔触手阴茎那巨硕、扭动的形态，威风凛凛，令人不安得无法抗拒。</li>
+    <li>{PAWN_nameShort}的恶魔触手阴茎那巨硕、扭动的形态，威风凛凛，令人不安得无法抗拒。</li>
     <li>{PAWN_nameShort}的壮丽的恶魔触手器官，巨大的尺寸与独特的形状，是黑暗的自然奇迹。</li>
     <li>{PAWN_nameShort}的恶魔触手阴茎那压倒性的存在感与独特的构造，彻底摄人心魄，把我拉入它邪恶的诱惑之中。</li>
     <li>显然{PAWN_nameShort}的怀着一份传奇而奇异的天赋，壮丽的异界形态。</li>
@@ -2457,7 +2447,7 @@
   </Opinion_Penis_Positive_Huge_DemonTentaclePenis.opinionTexts>
   <Opinion_Penis_Positive_Huge_DogPenis.opinionTexts>
     <li>{PAWN_nameShort}的巨大的狗阴茎带着可观的结，是真正迷人而有力的景象。</li>
-    <li>{PAWN_nameShort}的 犬类茎身那巨大的尺寸，以及它分明的结，实在令人着迷。</li>
+    <li>{PAWN_nameShort}的犬类茎身那巨大的尺寸，以及它分明的结，实在令人着迷。</li>
     <li>{PAWN_nameShort}的狗阴茎上那硕大、突出的结如此独特、美得壮观。</li>
     <li>一场巨大犬类解剖的惊艳展示；{PAWN_nameShort}的真是一个壮丽的标本。</li>
     <li>{PAWN_nameShort}的犬类阴茎那惊人的长度与强健的粗度，连那枚结算上，实在不止是令人印象深刻。</li>
@@ -2469,12 +2459,12 @@
     <li>真是一幅宏大而罕见的美景，{PAWN_nameShort}的狗阴茎是自然造物的壮丽明证。</li>
     <li>{PAWN_nameShort}的犬类阴茎那独特的结与惊人的体积，大得迷人又强悍。</li>
     <li>{PAWN_nameShort}的强有力的犬型阳具，巨大的尺寸与独特的结节，堪称奇观。</li>
-    <li>{PAWN_nameShort}的 犬类阴茎那巨大的比例，其美与力量几乎堪称神话。</li>
+    <li>{PAWN_nameShort}的犬类阴茎那巨大的比例，其美与力量几乎堪称神话。</li>
     <li>我惊叹于{PAWN_nameShort}的犬阴茎；那壮观的结与整体的粗度令人震撼。</li>
     <li>如此惊人的睾丸完美衬托{PAWN_nameShort}的粗大的犬类茎身，真是货真价实的猛兽。</li>
     <li>{PAWN_nameShort}的那犬类阴茎威严的尺寸与独特的构造实在迷人，尤其是那个结。</li>
     <li>真是一派宏大而强劲的犬类雄风，{PAWN_nameShort}的简直令人屏息。</li>
-    <li>{PAWN_nameShort}的 犬阴茎那巨硕、带结的形态，威风凛凛，令人无法抗拒。</li>
+    <li>{PAWN_nameShort}的犬阴茎那巨硕、带结的形态，威风凛凛，令人无法抗拒。</li>
     <li>{PAWN_nameShort}的壮丽的犬类器官，巨大的尺寸与独特的结，是大自然的奇迹。</li>
     <li>{PAWN_nameShort}的犬类阴茎那压倒性的存在感与独特的构造，彻底摄人心魄。</li>
     <li>显然{PAWN_nameShort}的怀着一份传奇的天赋，壮丽的犬类形态，配着巨大的结。</li>
@@ -2489,7 +2479,7 @@
   </Opinion_Penis_Positive_Huge_DogPenis.opinionTexts>
   <Opinion_Penis_Positive_Huge_DragonPenis.opinionTexts>
     <li>{PAWN_nameShort}的巨大的龙阴茎有着箭簇般的龟头与覆鳞的质感，是真正神话般美丽的景象。</li>
-    <li>{PAWN_nameShort}的 龙族茎身那巨大的尺寸，以及它壮丽覆鳞的表面，实在令人着迷。</li>
+    <li>{PAWN_nameShort}的龙族茎身那巨大的尺寸，以及它壮丽覆鳞的表面，实在令人着迷。</li>
     <li>{PAWN_nameShort}的龙阴茎上那硕大、尖突的龟头如此独特、美得壮观，雕琢得完美无瑕。</li>
     <li>一场巨龙解剖的惊艳展示；{PAWN_nameShort}的真是一个壮丽而传奇的标本。</li>
     <li>{PAWN_nameShort}的龙类阴茎那惊人的长度与强健的粗度，连鳞片在内，实在不止是令人印象深刻。</li>
@@ -2501,12 +2491,12 @@
     <li>真是一幅宏大而罕见的美景，{PAWN_nameShort}的龙类阴茎是古老自然造物的壮丽明证。</li>
     <li>{PAWN_nameShort}的龙类阴茎那独特的箭头形龟头与惊人的体积，大得迷人又强悍。</li>
     <li>{PAWN_nameShort}的强有力的龙型阳具，巨大的尺寸与独特的鳞片，堪称奇观。</li>
-    <li>{PAWN_nameShort}的 龙族阴茎那巨大的比例，其美与力量几乎堪称神话。</li>
+    <li>{PAWN_nameShort}的龙族阴茎那巨大的比例，其美与力量几乎堪称神话。</li>
     <li>我惊叹于{PAWN_nameShort}的龙阴茎；那壮观的鳞片与整体的粗度震撼得恢弘。</li>
     <li>如此惊人的睾丸完美衬托{PAWN_nameShort}的粗大的龙类茎身，真是传说级的猛兽。</li>
     <li>{PAWN_nameShort}的那巨龙阴茎威严的尺寸与独特的构造实在迷人，古老至极却又迷人。</li>
     <li>真是一派宏大而强劲的龙类雄风，{PAWN_nameShort}的简直令人屏息，且好得令人惊叹。</li>
-    <li>{PAWN_nameShort}的 龙阴茎那巨硕、覆鳞的形态，威风凛凛，原始得令人无法抗拒。</li>
+    <li>{PAWN_nameShort}的龙阴茎那巨硕、覆鳞的形态，威风凛凛，原始得令人无法抗拒。</li>
     <li>{PAWN_nameShort}的壮丽的龙类器官，巨大的尺寸与独特的形状，是原始的自然奇迹。</li>
     <li>{PAWN_nameShort}的龙族阴茎那压倒性的存在感与独特的构造，彻底摄人心魄，把我拉入它凶猛的诱惑之中。</li>
     <li>显然{PAWN_nameShort}的怀着一份传奇而强大的天赋，壮丽的龙族形态。</li>
@@ -2534,7 +2524,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是年长雄性资本的壮丽范例。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，是超越时间的奇观。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量，依旧强健。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量，依旧强健。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻引来注目与赞叹。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信又强健有力。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真正是不老活力的明证。</li>
@@ -2542,7 +2532,7 @@
     <li>{PAWN_nameShort}的巨大阴茎所展现的成熟力量，配上惊人的粗度与威风凛凛的龟头，无可否认，而且格外诱人，即便上了年纪也一样。</li>
   </Opinion_Penis_Positive_Huge_ElderMale.opinionTexts>
   <Opinion_Penis_Positive_Huge_ElderMale_observed_by_Elder_female.opinionTexts>
-    <li>哦，天哪！{PAWN_nameShort}的 茎身真是巨大！那对年长而饱满的睾丸看起来依旧美味无比。真是个雄伟而持久的男人。</li>
+    <li>哦，天哪！{PAWN_nameShort}的茎身真是巨大！那对年长而饱满的睾丸看起来依旧美味无比。真是个雄伟而持久的男人。</li>
     <li>绝美一瞥{PAWN_nameShort}的那根老练粗壮的器官；突出的龟头与青筋盘绕的茎身许诺着刺激而老到的激情，依旧如此雄健。</li>
     <li>{PAWN_nameShort}的令人赞叹的男子气概，沉甸甸的一对睾丸与暗示着原始力量的包皮，真让女人觉得自己又年轻了。</li>
     <li>{PAWN_nameShort}的阴茎那惊人的尺寸，根部粗壮、越向顶端越显昂扬，实在令人着迷，即便到了这个年纪，也勾起了久已遗忘的欲望。</li>
@@ -2556,7 +2546,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，极具诱惑，让我想要伸出手去。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是年长雄性资本的壮丽范例，吸引着我的目光与我持久不衰的欲望。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，对一位阅历丰富的女人而言相当刺激。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；它承诺纯粹的欢愉，无惧岁月。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；它承诺纯粹的欢愉，无惧岁月。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻引来注目，在我心中撩起对他老练拥抱的深切渴望。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信，即便到了现在也非常非常诱人。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真是一桩奇迹，勾起我深藏已久的爱慕。</li>
@@ -2578,7 +2568,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，依然十分活跃而威武。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是年长雄性资本的壮丽范例；真正的灵感之源。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，即便以我这般阅历来看也是如此。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量。确实宝刀未老。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量。确实宝刀未老。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻赢得敬意与会心的点头。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信又强健有力，是长寿的明证。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。男性体格中一件永恒不朽的奇迹。</li>
@@ -2600,7 +2590,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，辉煌地展露着，依然引人注目。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是年长雄性资本的壮丽范例，骄傲地展示着，彻底令人着迷。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，尤其当{PAWN_pronoun}毫不遮掩的时候。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量，公然展示以供欣赏。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量，公然展示以供欣赏。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻引来注目，即便远观也引人爱慕。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，当它被展示出来时诱人得难以置信，是岁月的见证。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真是一桩奇迹，本就该让所有人瞻仰。</li>
@@ -2622,7 +2612,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，我非要不可。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是年长雄性资本的壮丽范例，助燃着我灼热而无可否认的情欲。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，唤醒了每一根情欲的神经。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；我的身体因欲望而颤抖。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；我的身体因欲望而颤抖。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻在我体内唤醒一股强烈、搏动的需求。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信，让我心神不宁。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。我的下身为他的阅历而灼烧。</li>
@@ -2630,7 +2620,7 @@
     <li>{PAWN_nameShort}的巨大阴茎所展现的成熟力量，配上惊人的粗度与威风凛凛的龟头，无可否认，而且格外诱人，让我饥渴地渴望着他。</li>
   </Opinion_Penis_Positive_Huge_ElderMale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Penis_Positive_Huge_ElderMale_observed_by_Prude.opinionTexts>
-    <li>哎呀，好……可观的尺寸！即便他年事已高，只要我移开目光，{PAWN_nameShort}的 那话儿也实在硕大。</li>
+    <li>哎呀，好……可观的尺寸！即便他年事已高，只要我移开目光，{PAWN_nameShort}的那话儿也实在硕大。</li>
     <li>一场令人不适的宏大展示。{PAWN_nameShort}的硕大的茎身与突出的龟头确实惹眼，虽然我真希望它们别这么惹眼，即便长在年迈者身上也一样。</li>
     <li>如此巨大，呃，的器官。{PAWN_nameShort}的男根，连同沉甸甸的睾丸，确凿地存在着，令人难以招架，无论年纪多大。</li>
     <li>{PAWN_nameShort}的阴茎的尺寸真是……让人一时消化不了。对一位老先生来说，无论怎么看都相当巨大。</li>
@@ -2644,7 +2634,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，实在让人有些难以消化，尤其是在一位长者身上。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是雄性构造相当大胆的范例，经受住了时间的流逝。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，真是相当……可观，即便到了他的晚年。</li>
-    <li>人不禁承认 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量，依旧醒目。</li>
+    <li>人不禁承认 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量，依旧醒目。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头确实醒目，即便在他这把年纪。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，无疑十分惹眼，依然充满活力。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。相当硕大，历久不衰。</li>
@@ -2666,7 +2656,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，极具诱惑。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是年长雄性资本的壮丽范例，吸引着我年轻的目光。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，对他这个年纪的人来说相当刺激。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；那是相当壮观的景象，出人意料。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；那是相当壮观的景象，出人意料。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻引来注目，在我心中撩起想听故事的渴望。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信，非常非常令人好奇。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真是一桩奇迹，勾起我对年长男人的好奇。</li>
@@ -2675,7 +2665,7 @@
   </Opinion_Penis_Positive_Huge_ElderMale_observed_by_Young_female.opinionTexts>
   <Opinion_Penis_Positive_Huge_ElderMale_observed_by_Young_male.opinionTexts>
     <li>该死，{PAWN_nameShort}的茎身真够大的，就算是位老家伙也毫不逊色！那睾丸依旧饱满。真是鼓舞人心。</li>
-    <li>看见 {PAWN_nameShort}的 年长而粗壮的那话儿；突出的龟头与青筋盘绕的茎身令人向往，证明宝刀未老。了不起！</li>
+    <li>看见 {PAWN_nameShort}的年长而粗壮的那话儿；突出的龟头与青筋盘绕的茎身令人向往，证明宝刀未老。了不起！</li>
     <li>{PAWN_nameShort}的令人赞叹的男子气概，沉甸甸的一对睾丸与包皮，让我想到经久不衰的雄风。</li>
     <li>那真是件像样的装备！{PAWN_nameShort}的阴茎根部粗壮、龟头威武，这才叫真正持久的男人味。</li>
     <li>偷瞄一眼，{PAWN_nameShort}的结实的茎身与轮廓分明的龟头，即便年迈也绝对是值得追求的目标。</li>
@@ -2688,7 +2678,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息。对他这把年纪的敬意。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是年长雄性资本的壮丽范例；真正的榜样。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，对年轻小伙子而言实在令人敬畏，让人看到了什么叫可能。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；那是持久的坚挺。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；那是持久的坚挺。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻让我觉得自己有需要看齐的目标。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信，即便过了这么多年依旧充满阳刚之气。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真正是持久不衰的男子气概的奇迹。</li>
@@ -2696,7 +2686,7 @@
     <li>{PAWN_nameShort}的巨大阴茎所展现的成熟力量，配上惊人的粗度与威风凛凛的龟头，无可否认，对年轻人而言令人由衷钦佩，堪称持久力的化身。</li>
   </Opinion_Penis_Positive_Huge_ElderMale_observed_by_Young_male.opinionTexts>
   <Opinion_Penis_Positive_Huge_ElderMale_observed_by_middle_aged_Female.opinionTexts>
-    <li>哎哟，我的天，{PAWN_nameShort}的 的茎身真是巨大！那对苍老饱满的睾丸看着实在可口。多么雄壮持久的男人。</li>
+    <li>哎哟，我的天，{PAWN_nameShort}茎身真是巨大！那对苍老饱满的睾丸看着实在可口。多么雄壮持久的男人。</li>
     <li>绝美一瞥{PAWN_nameShort}的那根老练粗壮的器官；突出的龟头与青筋盘绕的茎身许诺着刺激而老到的激情，依旧如此雄健。</li>
     <li>{PAWN_nameShort}的令人赞叹的男子气概，沉甸甸的一对睾丸与暗示着原始力量的包皮，真让女人双膝发软，即便到了现在。</li>
     <li>{PAWN_nameShort}的阴茎那惊人的尺寸，根部粗壮、越向顶端越显昂扬，实在令人着迷，让我心中浮起关于他智慧的邪念。</li>
@@ -2710,7 +2700,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，极具诱惑，让我想要伸出手去。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是年长雄性资本的壮丽范例，吸引着我的目光与欲望。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，对一位阅历丰富的女人而言相当刺激。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；它承诺纯粹的欢愉，持久不衰。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；它承诺纯粹的欢愉，持久不衰。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻引来注目，在我心中撩起对他拥抱的深切渴望。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信，非常非常诱人。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真是一桩奇迹，勾起我最深的爱慕。</li>
@@ -2718,7 +2708,7 @@
     <li>{PAWN_nameShort}的巨大阴茎所展现的成熟力量，配上惊人的粗度与威风凛凛的龟头，无可否认，而且格外诱人，让我想靠得更近。</li>
   </Opinion_Penis_Positive_Huge_ElderMale_observed_by_middle_aged_Female.opinionTexts>
   <Opinion_Penis_Positive_Huge_ElderMale_observed_by_middle_aged_male.opinionTexts>
-    <li>向 {PAWN_nameShort}的 的茎身致敬！那东西真的巨大，那对饱满的睾丸充分说明了他持久的雄风。真是个老将。</li>
+    <li>向 {PAWN_nameShort}茎身致敬！那东西真的巨大，那对饱满的睾丸充分说明了他持久的雄风。真是个老将。</li>
     <li>一件坚实而年迈的家伙。{PAWN_nameShort}的粗壮的性器、突出的龟头与青筋盘结的茎身，正是他那令人惊叹、历久不衰的雄力之明证。</li>
     <li>{PAWN_nameShort}的令人赞叹的男子气概，沉甸甸的一对睾丸与包皮，展现出经得起时间考验的真正男性力量。</li>
     <li>{PAWN_nameShort}的阴茎根部粗壮、龟头傲然，无可否认地迷人。一个出色而历练丰富的男人样本。</li>
@@ -2732,7 +2722,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，依然充满生机。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是年长雄性资本的壮丽范例；真正的岁月奇迹。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，即便在阅历丰富的男人之间也是如此。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量。宝刀未老，甚至更胜一筹。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量。宝刀未老，甚至更胜一筹。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻赢得男性赞许与敬意的点头。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信又强健有力，全然不惧岁月。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真正是男性不老体格的奇迹。</li>
@@ -2754,7 +2744,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，令我这偷窥者的灵魂为之颤栗。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是年长雄性资本的壮丽范例，被完美地观察到。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，无意间瞥见时实在令人敬畏，全然不服岁月。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量，一份秘密的愉悦。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量，一份秘密的愉悦。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻引来注目，并点燃我偷窥者的本能。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，在我观察的目光下诱人得难以置信。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。即使在暮年，也值得偷偷赞叹的奇迹。</li>
@@ -2762,7 +2752,7 @@
     <li>{PAWN_nameShort}的巨大阴茎所展现的成熟力量，配上惊人的粗度与威风凛凛的龟头，无可否认，而且格外诱人，尤其是在无人注意的时候。</li>
   </Opinion_Penis_Positive_Huge_ElderMale_observed_by_voyer.opinionTexts>
   <Opinion_Penis_Positive_Huge_Elderly_Female_opinion.opinionTexts>
-    <li>哎哟，{PAWN_nameShort}的 展示的这副身架真是雄伟！真是值得一看的景象。</li>
+    <li>哎哟，{PAWN_nameShort}的展示的这副身架真是雄伟！真是值得一看的景象。</li>
     <li>{PAWN_nameShort}的阴茎那令人赞叹的围度与长度相当了得；让我怀念地笑了。</li>
     <li>{PAWN_nameShort}的硕大的形体确实引人注目，一副发育得极好的构造。</li>
     <li>我好一阵子没见过这么壮观的家伙了；{PAWN_nameShort}的那根真是个巨物。</li>
@@ -2772,7 +2762,7 @@
     <li>它以不容否认的力量占据了整个空间，{PAWN_nameShort}的真是好一幅景象。</li>
     <li>真是一副慷慨的天赋，{PAWN_nameShort}的解剖构造既硕大又匀称。</li>
     <li>{PAWN_nameShort}的硕大沉重的睾丸完美地垂着，补全了这幅令人赞叹的画面。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那雄伟器官的纯粹尺度。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那雄伟器官的纯粹尺度。</li>
     <li>真是一片强健而威严的存在，{PAWN_nameShort}的是雄性雄风的绝佳范例。</li>
     <li>{PAWN_nameShort}的阴茎那惊人的尺寸，实在是值得一看的非凡之物。</li>
     <li>如此壮观的茎身与惊人的龟头；{PAWN_nameShort}的是一幅宏大的景象。</li>
@@ -2794,7 +2784,7 @@
     <li>{PAWN_nameShort}的巨大的阴茎体现着一种有力而不朽的男性之美。</li>
   </Opinion_Penis_Positive_Huge_Elderly_Female_opinion.opinionTexts>
   <Opinion_Penis_Positive_Huge_Elderly_Female_voyer_opinion.opinionTexts>
-    <li>哦，{PAWN_nameShort}的 巨大年轻的茎身！它在我体内唤醒了沉睡已久的酥麻。</li>
+    <li>哦，{PAWN_nameShort}的巨大年轻的茎身！它在我体内唤醒了沉睡已久的酥麻。</li>
     <li>{PAWN_nameShort}的巨大阴茎那股原始的生命力看着实在令人兴奋，让我颤抖。</li>
     <li>{PAWN_nameShort}的硕大搏动的睾丸与雄伟的龟头，是种伤风败俗的享受，唤起了陈旧的欲望。</li>
     <li>看着{PAWN_nameShort}的巨大而坚挺的勃起，我不禁脸颊发烫，心头意外地一阵悸动。</li>
@@ -2890,7 +2880,7 @@
     <li>真是一派令人印象深刻的原始雄性活力，{PAWN_nameShort}的巨大的形态令人难忘。</li>
   </Opinion_Penis_Positive_Huge_Elderly_Male_voyer_opinion.opinionTexts>
   <Opinion_Penis_Positive_Huge_FemaleOpinion.opinionTexts>
-    <li>哎呀，{PAWN_nameShort}的 简直大得离谱！让我喘不过气来。</li>
+    <li>哎呀，{PAWN_nameShort}的简直大得离谱！让我喘不过气来。</li>
     <li>{PAWN_nameShort}的阴茎那围度与长度简直惊人，实在令人着迷。</li>
     <li>哇，{PAWN_nameShort}的那话儿真了不得；如此强壮又迷人。</li>
     <li>我止不住盯着{PAWN_nameShort}的那巨大的茎身和饱满完美的龟头。太撩人了。</li>
@@ -2923,7 +2913,7 @@
   </Opinion_Penis_Positive_Huge_FemaleOpinion.opinionTexts>
   <Opinion_Penis_Positive_Huge_HemiPenis.opinionTexts>
     <li>{PAWN_nameShort}的巨大的半阴茎是双重力量的景象，迷人而壮丽，真正摄人心魄。</li>
-    <li>{PAWN_nameShort}的 爬行类茎身们那巨大的尺寸，以及它们独特的形态，实在诱人，别具一格地令人赞叹。</li>
+    <li>{PAWN_nameShort}的爬行类茎身们那巨大的尺寸，以及它们独特的形态，实在诱人，别具一格地令人赞叹。</li>
     <li>{PAWN_nameShort}的半阴茎上那巨大的双头如此独特，大得漂亮，气势逼人。</li>
     <li>一场巨大双重解剖的惊艳展示；{PAWN_nameShort}的真是一个壮丽而古老的标本。</li>
     <li>{PAWN_nameShort}的爬行类半阴茎那惊人的长度与强健的粗度，实在不止是令人印象深刻，是双重之美。</li>
@@ -2935,12 +2925,12 @@
     <li>真是一幅宏大而罕见的美景，{PAWN_nameShort}的半阴茎是古老自然造物的壮丽明证。</li>
     <li>{PAWN_nameShort}的半阴茎那独特的特征与惊人的体积，大得迷人又强悍。</li>
     <li>{PAWN_nameShort}的强有力的爬行类阳具，巨大的尺寸与独特的形态，堪称奇观。</li>
-    <li>{PAWN_nameShort}的 半阴茎那巨大的比例，其美与力量几乎堪称神话。</li>
+    <li>{PAWN_nameShort}的半阴茎那巨大的比例，其美与力量几乎堪称神话。</li>
     <li>我惊叹于{PAWN_nameShort}的半阴茎；那壮观的形态与整体的粗度震撼得原始。</li>
     <li>如此惊人的睾丸完美衬托{PAWN_nameShort}的粗大的爬行类双茎，真是远古的猛兽。</li>
     <li>{PAWN_nameShort}的那半阴茎威严的尺寸与独特的构造实在迷人，古老至极却又迷人。</li>
     <li>真是一派宏大而强劲的爬行类雄风，{PAWN_nameShort}的简直令人屏息，且好得令人惊叹。</li>
-    <li>{PAWN_nameShort}的 半阴茎那巨硕、带纹理的形态，威风凛凛，粗野得令人无法抗拒。</li>
+    <li>{PAWN_nameShort}的半阴茎那巨硕、带纹理的形态，威风凛凛，粗野得令人无法抗拒。</li>
     <li>{PAWN_nameShort}的壮丽的爬虫类器官，巨大的尺寸与独特的形状，是原始的自然奇迹。</li>
     <li>{PAWN_nameShort}的半阴茎那压倒性的存在感与独特的构造，彻底摄人心魄，把我拉入它凶猛的诱惑之中。</li>
     <li>显然{PAWN_nameShort}的怀着一份传奇而强大的天赋，壮丽的二重形态。</li>
@@ -2955,7 +2945,7 @@
   </Opinion_Penis_Positive_Huge_HemiPenis.opinionTexts>
   <Opinion_Penis_Positive_Huge_HorsePenis.opinionTexts>
     <li>{PAWN_nameShort}的巨大的马阴茎是纯粹力量的景象，有着壮丽的扁平龟头与可观的粗度。</li>
-    <li>{PAWN_nameShort}的 马类茎身那巨大的尺寸，配上那对雄伟的球，实在令人着迷。</li>
+    <li>{PAWN_nameShort}的马类茎身那巨大的尺寸，配上那对雄伟的球，实在令人着迷。</li>
     <li>{PAWN_nameShort}的马阴茎上那硕大、扁平的龟头如此独特、美得壮观。</li>
     <li>一场巨大马类解剖的惊艳展示；{PAWN_nameShort}的真是一匹壮丽的种马。</li>
     <li>{PAWN_nameShort}的马类阴茎那惊人的长度与强健的粗度，实在不止是令人印象深刻，是狂野之美。</li>
@@ -2967,12 +2957,12 @@
     <li>真是一幅宏大而罕见的美景，{PAWN_nameShort}的马类阴茎是自然造物的壮丽明证。</li>
     <li>{PAWN_nameShort}的马类阴茎那独特的扁平龟头与惊人的体积，大得迷人。</li>
     <li>{PAWN_nameShort}的强有力的马型阳具，巨大的尺寸与独特的龟头，堪称奇观。</li>
-    <li>{PAWN_nameShort}的 马类阴茎那巨大的比例，其美与力量几乎堪称神话。</li>
+    <li>{PAWN_nameShort}的马类阴茎那巨大的比例，其美与力量几乎堪称神话。</li>
     <li>我惊叹于{PAWN_nameShort}的马阴茎；那壮观扁平的龟头与整体的粗度令人震撼。</li>
     <li>如此惊人的睾丸完美衬托{PAWN_nameShort}的粗大的马类茎身，真是货真价实的猛兽。</li>
     <li>{PAWN_nameShort}的那马类阴茎威严的尺寸与独特的构造实在迷人。</li>
     <li>真是一派宏大而强劲的马类雄风，{PAWN_nameShort}的简直令人屏息。</li>
-    <li>{PAWN_nameShort}的 马阴茎那巨硕、平头的形态，威风凛凛。</li>
+    <li>{PAWN_nameShort}的马阴茎那巨硕、平头的形态，威风凛凛。</li>
     <li>{PAWN_nameShort}的壮丽的马类器官，巨大的尺寸与独特的形状，是大自然的奇迹。</li>
     <li>{PAWN_nameShort}的马族阴茎那压倒性的存在感与独特的构造，彻底摄人心魄。</li>
     <li>显然{PAWN_nameShort}的怀着一份传奇的天赋，壮丽的马类形态。</li>
@@ -2988,7 +2978,7 @@
   <Opinion_Penis_Positive_Huge_MaleOpinion.opinionTexts>
     <li>天，{PAWN_nameShort}的真是硕大！这景象绝对能让任何男人都心生敬畏。</li>
     <li>{PAWN_nameShort}那话儿可真是件像样的装备；长度和粗度都惊人。</li>
-    <li>致敬，{PAWN_nameShort}的 的阴茎真是雄伟壮观，一场结实而有力的展示。</li>
+    <li>致敬，{PAWN_nameShort}阴茎真是雄伟壮观，一场结实而有力的展示。</li>
     <li>该死，{PAWN_nameShort}的那话儿真是个大怪物！那茎身和龟头大得吓人。</li>
     <li>看着{PAWN_nameShort}的硕大的阳具，你就会明白{PAWN_pronoun}是认真的。</li>
     <li>{PAWN_nameShort}的硕大的尺寸确实非同凡响，这一点我很欣赏。</li>
@@ -3032,7 +3022,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是成熟雄性资本的壮丽范例。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻引来注目。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真是一桩奇迹。</li>
@@ -3040,7 +3030,7 @@
     <li>{PAWN_nameShort}的巨大阴茎所展现的成熟力量，配上惊人的粗度与威风凛凛的龟头，无可否认，而且格外诱人。</li>
   </Opinion_Penis_Positive_Huge_MatureMale.opinionTexts>
   <Opinion_Penis_Positive_Huge_MatureMale_observed_by_Elder_female.opinionTexts>
-    <li>哦，天哪！{PAWN_nameShort}的 茎身真是巨大！那对成熟而饱满的睾丸看起来美味无比。依旧是个不折不扣的男人。</li>
+    <li>哦，天哪！{PAWN_nameShort}的茎身真是巨大！那对成熟而饱满的睾丸看起来美味无比。依旧是个不折不扣的男人。</li>
     <li>绝美一瞥{PAWN_nameShort}的那根老练粗壮的器官；突出的龟头与青筋盘绕的茎身许诺着刺激而老到的激情。</li>
     <li>{PAWN_nameShort}的令人赞叹的男子气概，沉甸甸的一对睾丸与暗示着原始力量的包皮，真让女人觉得自己又年轻了。</li>
     <li>{PAWN_nameShort}的阴茎那惊人的尺寸，根部粗壮、越向顶端越显昂扬，实在令人着迷，勾起了久已遗忘的欲望。</li>
@@ -3054,7 +3044,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，极具诱惑，让我想要伸出手去。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是成熟雄性资本的壮丽范例，吸引着我的目光与欲望。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，对一位阅历丰富的女人而言相当刺激。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；它承诺纯粹的欢愉。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；它承诺纯粹的欢愉。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻引来注目，在我心中撩起对他拥抱的深切渴望。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信，非常非常诱人。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真是一桩奇迹，勾起我最深的爱慕。</li>
@@ -3076,7 +3066,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，依然十分活跃。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是成熟雄性资本的壮丽范例，真正地鼓舞人心。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，即便以我这般阅历来看也是如此。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻赢得敬意。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信又强健有力。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。一件永恒不朽的奇迹。</li>
@@ -3098,7 +3088,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，壮丽地展露着。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是成熟雄性资本的壮丽范例，骄傲地展示着。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，尤其当{PAWN_pronoun}毫不遮掩的时候。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量，公然展示着。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量，公然展示着。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻引来注目，引人爱慕。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，当它被展示出来时诱人得难以置信。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真是一桩奇迹，本就该让所有人看。</li>
@@ -3120,7 +3110,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，我非要不可。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是成熟雄性资本的壮丽范例，助燃着我灼热的情欲。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，唤醒了每一根情欲的神经。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；我的身体在颤抖。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；我的身体在颤抖。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻在我体内唤醒一股强烈、搏动的需求。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信，让我心神不宁。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。我的下身为之灼烧。</li>
@@ -3128,7 +3118,7 @@
     <li>{PAWN_nameShort}的巨大阴茎所展现的成熟力量，配上惊人的粗度与威风凛凛的龟头，无可否认，而且格外诱人，让我饥渴难耐。</li>
   </Opinion_Penis_Positive_Huge_MatureMale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Penis_Positive_Huge_MatureMale_observed_by_Prude.opinionTexts>
-    <li>哎呀，好……可观的尺寸！即便我移开目光，{PAWN_nameShort}的 那话儿也实在硕大。</li>
+    <li>哎呀，好……可观的尺寸！即便我移开目光，{PAWN_nameShort}的那话儿也实在硕大。</li>
     <li>一场令人不适的宏大展示。{PAWN_nameShort}的硕大的茎身与突出的龟头确实惹眼，虽然我真希望它们别这么惹眼。</li>
     <li>如此巨大，呃，的器官。{PAWN_nameShort}的男根，连同沉甸甸的睾丸，确凿地存在着，令人难以招架。</li>
     <li>{PAWN_nameShort}的阴茎的尺寸真是……让人一时消化不了。无论怎么看都相当巨大。</li>
@@ -3142,7 +3132,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，实在让人有些难以消化。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是雄性构造相当大胆的范例。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，真是相当……可观。</li>
-    <li>人不禁承认 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量。</li>
+    <li>人不禁承认 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头确实醒目。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，无疑十分惹眼。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。相当硕大。</li>
@@ -3164,7 +3154,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，极具诱惑。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是成熟雄性资本的壮丽范例，吸引着我的目光。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，也相当刺激。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；那是相当壮观的景象。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；那是相当壮观的景象。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻引来注目，在我心中撩起一阵渴望。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信，非常催情。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真是一桩奇迹，勾起我的好奇。</li>
@@ -3186,7 +3176,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息。敬意。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是成熟雄性资本的壮丽范例；真正的榜样。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，对年轻小伙子而言实在令人敬畏。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；那是真正的力量。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；那是真正的力量。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻让我觉得自己有需要看齐的目标。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信，充满阳刚之气。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真正是成熟男子气概的奇迹。</li>
@@ -3194,7 +3184,7 @@
     <li>{PAWN_nameShort}的巨大阴茎所展现的成熟力量，配上惊人的粗度与威风凛凛的龟头，无可否认，对年轻人而言令人由衷钦佩。</li>
   </Opinion_Penis_Positive_Huge_MatureMale_observed_by_Young_male.opinionTexts>
   <Opinion_Penis_Positive_Huge_MatureMale_observed_by_middle_aged_Female.opinionTexts>
-    <li>哎哟，我的天，{PAWN_nameShort}的 的茎身真是巨大！那对成熟饱满的睾丸实在诱人。多么雄壮的男人。</li>
+    <li>哎哟，我的天，{PAWN_nameShort}茎身真是巨大！那对成熟饱满的睾丸实在诱人。多么雄壮的男人。</li>
     <li>绝美一瞥{PAWN_nameShort}的那根老练粗壮的器官；突出的龟头与青筋盘绕的茎身许诺着刺激而老到的激情。</li>
     <li>{PAWN_nameShort}的令人赞叹的男子气概，沉甸甸的一对睾丸与暗示着原始力量的包皮，真让女人双膝发软。</li>
     <li>{PAWN_nameShort}的阴茎那惊人的尺寸，根部粗壮、越向顶端越显昂扬，实在令人着迷，让我心中浮起邪念。</li>
@@ -3208,7 +3198,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，极具诱惑，让我想要伸出手去。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是成熟雄性资本的壮丽范例，吸引着我的目光与欲望。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，对一位阅历丰富的女人而言相当刺激。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；它承诺纯粹的欢愉。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量；它承诺纯粹的欢愉。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻引来注目，在我心中撩起对他拥抱的深切渴望。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信，非常非常诱人。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真是一桩奇迹，勾起我最深的爱慕。</li>
@@ -3216,7 +3206,7 @@
     <li>{PAWN_nameShort}的巨大阴茎所展现的成熟力量，配上惊人的粗度与威风凛凛的龟头，无可否认，而且格外诱人，让我想靠得更近。</li>
   </Opinion_Penis_Positive_Huge_MatureMale_observed_by_middle_aged_Female.opinionTexts>
   <Opinion_Penis_Positive_Huge_MatureMale_observed_by_middle_aged_male.opinionTexts>
-    <li>向 {PAWN_nameShort}的 的茎身致敬！那东西真的巨大，那对饱满的睾丸充分说明了他老练的雄风。</li>
+    <li>向 {PAWN_nameShort}茎身致敬！那东西真的巨大，那对饱满的睾丸充分说明了他老练的雄风。</li>
     <li>一件坚实而成熟的家伙。{PAWN_nameShort}的粗壮的性器、突出的龟头与青筋盘结的茎身，正是他持久雄力的明证。</li>
     <li>{PAWN_nameShort}的令人赞叹的男子气概，沉甸甸的一对睾丸与包皮，展现出真正的男性力量，正值壮年依旧强劲。</li>
     <li>{PAWN_nameShort}的阴茎根部粗壮、龟头傲然，无可否认地迷人。一个出色的男人样本。</li>
@@ -3230,7 +3220,7 @@
     <li>如此粗大的茎身，血管贲张，包皮恰到好处，散发着一种强悍而历练的雄性气息，依然充满生机。</li>
     <li>真是一根宏大的阴茎！它粗壮的龟头与饱满沉重的睾丸，是成熟雄性资本的壮丽范例；真正的奇迹。</li>
     <li>{PAWN_nameShort}的阳具，宽阔的龟头与可观的长度，实在令人敬畏，即便在阅历丰富的男人之间也是如此。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量。宝刀未老。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的那令人印象深刻的茎身与沉甸饱满的睾丸所散发的纯粹力量。宝刀未老。</li>
     <li>突然一眼看见{PAWN_nameShort}的雄伟的家伙；那粗壮的茎身与诱人的龟头立刻赢得男性赞许的点头。</li>
     <li>{PAWN_nameShort}的阴茎那浓郁的色泽与可观的粗细，配上成熟的包皮，诱人得令人难以置信又强健有力。</li>
     <li>多么比例优美、尺寸慷慨的阳具，从粗壮的根部到形态完美的龟头。真正是成熟男性体格的奇迹。</li>

@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 16/39 · 共 2997 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Breasts_Positive_Huge_trait_Nymphomaniac_male.opinionTexts>
     <li>{PAWN_nameShort}的巨大的乳房让我的鸡巴硬如磐石、不停地搏动，我要感受它们、触摸它们、占有它们！</li>
     <li>{PAWN_nameShort}的丰盈、宏伟的胸脯让一道电流穿过我全身，我的鸡巴痛苦而无可否认地搏动着。</li>
@@ -43,7 +33,7 @@
     <li>我几乎站不住，双腿发软颤抖，因{PAWN_nameShort}的乳房在我体内点燃的无法控制的欲望；我需要释放，现在。</li>
     <li>{PAWN_nameShort}的乳房那醉人的气息彻底填满了我的感官，以一股无法抗拒的磁力把我的阴茎拉近，索求着满足。</li>
     <li>看到{PAWN_nameShort}的壮观的乳房，饱满而诱人，我的鸡巴立刻搏动起来，激起一阵强烈而无可否认的勃起。</li>
-    <li>{PAWN_nameShort}的 胸部那巨大的曲线，配着迷人的摇摆，在我胯下点燃一股强烈而无法否认的渴望。</li>
+    <li>{PAWN_nameShort}的胸部那巨大的曲线，配着迷人的摇摆，在我胯下点燃一股强烈而无法否认的渴望。</li>
     <li>好一场壮观的展示！{PAWN_nameShort}的丰满的乳房与那醒目的乳头，在我裤裆里激起无法餍足的饥渴。</li>
     <li>突然，{PAWN_nameShort}的丰满的胸部露了出来。那纯粹的尺寸与诱人的柔软极度刺激，深深撩动了我的那话儿。</li>
     <li>我的眼睛吞噬着{PAWN_nameShort}的壮观的乳房，那沉甸甸的重量与诱人的形态唤起一股急切而发自肺腑的释放需求。</li>
@@ -62,7 +52,7 @@
     <li>突然，{PAWN_nameShort}的乳房丰盈的轮廓显现出来，那惊人的尺寸瞬间激起一股强烈而难以抵挡的接触需求。</li>
     <li>多么摄人的景象！{PAWN_nameShort}的乳房那壮观的体量与此等诱人的柔软，唤醒了我胯下一份战栗、不可否认、贪婪无度的饥渴。</li>
     <li>我的注意力固定在{PAWN_nameShort}的丰盈的胸部上，那令人愉悦的晃动与突出的特征激起一股强烈、发自本能、难以压制的勃起。</li>
-    <li>{PAWN_nameShort}的 巨大乳房那不可抗拒的存在感，浑圆完美而诱人，在我下身深处激起一阵精致的战栗，要求我的阴茎释放出来。</li>
+    <li>{PAWN_nameShort}的巨大乳房那不可抗拒的存在感，浑圆完美而诱人，在我下身深处激起一阵精致的战栗，要求我的阴茎释放出来。</li>
     <li>{PAWN_nameShort}的壮丽的乳房，丰盈的曲线与迷人的弹跳，是我眼中令人陶醉的盛宴，把我撩到欲望的狂热顶点。</li>
     <li>真是一幅宏伟诱人的景象！{PAWN_nameShort}的乳房饱满有型，激起一阵愉悦而强烈的向往，几乎是对亲密的绝望渴求。</li>
     <li>{PAWN_nameShort}的胸部那惊人的规模与柔软的形态无可否认地诱人，激起一阵深沉搏动的兴奋，许诺着深沉肉欲的快感。</li>
@@ -79,7 +69,7 @@
     <li>老实说，{PAWN_pronoun}为什么非得这么公开地展示这么丰满得夸张的乳房？老实说，又俗气又没品味。</li>
     <li>它们确实浩瀚，可谈不上品味或优雅。有点过了，几乎算得上下流，你说呢？</li>
     <li>{PAWN_nameShort}的乳房确实大得惊人，如果你喜欢那种……毫不遮掩的暴露癖的话。</li>
-    <li>人几乎无法避开 {PAWN_nameShort}的 那真正可观的胸脯。说实话，实在太多了。</li>
+    <li>人几乎无法避开 {PAWN_nameShort}的那真正可观的胸脯。说实话，实在太多了。</li>
     <li>{PAWN_nameShort}的乳房的硕大无朋令人极度分心。我觉得这相当不成体统、很不妥当。</li>
     <li>它们……就在那儿。而且简直巨大。如此招摇的景象，还有什么可说？</li>
     <li>{PAWN_nameShort}的乳房相当丰满，几乎大得滑稽。有点令人吃不消，而且兜都兜不住。</li>
@@ -87,7 +77,7 @@
     <li>如此硕大的胸部，完全没给想象力留任何余地。我更偏爱含蓄与收敛。</li>
     <li>{PAWN_nameShort}的乳房确实相当显眼，几乎扎眼得冒犯。对体面的场合来说或许太显眼了点。</li>
     <li>{PAWN_nameShort}的胸部的尺寸相当突出，简直咄咄逼人。真快要算是不成体统了。</li>
-    <li>人无法否认 {PAWN_nameShort}的 乳房丰满到了极致。倒不是说那是什么讨喜的特点。</li>
+    <li>人无法否认 {PAWN_nameShort}的乳房丰满到了极致。倒不是说那是什么讨喜的特点。</li>
     <li>它们确实巨大。要我说，对任何体面社会而言都太大了。</li>
     <li>我觉得{PAWN_nameShort}的乳房在尺寸上相当……令人震惊地不端庄，纯粹、毫不妥协的尺寸。</li>
     <li>{PAWN_nameShort}的胸部那粗俗的规模有些粗野，毫无品味。</li>
@@ -108,7 +98,7 @@
     <li>哼。{PAWN_nameShort}的胸部确实……很可观。就算我更喜欢少些展示，也没法否认它庞大的尺寸。</li>
     <li>如此*巨大*的乳房。大得几乎算是一种冒犯，却又无可否认地吸引目光。说实话，有点过了。</li>
     <li>{PAWN_nameShort}的乳房的尺寸过大……无可避免。它们当然就在那儿，这点我承认。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 胸部的纯粹*分量*。那是相当招摇的展示，但形态很好。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的胸部的纯粹*分量*。那是相当招摇的展示，但形态很好。</li>
     <li>虽然我觉得这种展示有失体统，但{PAWN_nameShort}的乳房实在硕大而形美。真是一副让人难以招架的景象。</li>
     <li>我的老天，{PAWN_nameShort}的乳房真可谓*巨大*。不管好坏，它们确实很能表达存在感。</li>
     <li>它们的尺寸坦白说……够大胆。可{PAWN_nameShort}的丰满的胸前确实有一种无可否认的存在感。</li>
@@ -127,7 +117,7 @@
     <li>我不想在这上面多纠缠，可{PAWN_nameShort}的胸脯实在壮观，甚至有点咄咄逼人。</li>
     <li>这样的尺寸让我的矜持略受冒犯，但{PAWN_nameShort}的乳房确实硕大饱满。</li>
     <li>说白了不好听：{PAWN_nameShort}的乳房相当庞大。对我来说有点过头，但确实显眼。</li>
-    <li>人实在无法从 {PAWN_nameShort}的 那惊人丰满的胸部上移开视线。真是……躲都躲不掉。</li>
+    <li>人实在无法从 {PAWN_nameShort}的那惊人丰满的胸部上移开视线。真是……躲都躲不掉。</li>
     <li>{PAWN_nameShort}的乳房的胆量令人惊叹。那巨大的尺寸与完美的浑圆相当醒目。</li>
     <li>尽管我有所保留，{PAWN_nameShort}的胸部凭其纯粹的规模与分明的形态，无可否认地令人印象深刻。</li>
     <li>天哪，{PAWN_nameShort}的乳房大得慷慨，甚至近乎丑闻。那无法否认的存在感，谁也无法忽视。</li>
@@ -151,7 +141,7 @@
     <li>能目睹{PAWN_nameShort}的乳房如此自然、毫无拘束、堪称丰碑的美，是莫大的殊荣。</li>
     <li>{PAWN_nameShort}的乳房上突出肿胀的乳头与宽大深色的乳晕，在我这偷窥的目光里相当迷人。</li>
     <li>观察{PAWN_nameShort}的那对巨大乳房既轻柔又有力的颤动与庄严的弹跳，我喜不自胜。</li>
-    <li>{PAWN_nameShort}的胸部的整体形态与威严的呈现，实在是一幕令人难忘的景象。</li>
+    <li>{PAWN_nameShort}的胸部的整体形态与威严的姿态，实在是一幕令人难忘的景象。</li>
     <li>我可以整天看着{PAWN_nameShort}的乳房，无尽地欣赏它们丰盈、诱人又气势逼人的形状。</li>
     <li>{PAWN_nameShort}的巨大乳房彰显强大存在感的方式，有着无可否认、压倒一切的魅力。</li>
     <li>我的目光不可逆转地被{PAWN_nameShort}的胸前那肉欲而绵延的景致吸引，真是壮丽而深远的景象。</li>
@@ -174,15 +164,15 @@
     <li>我的目光流连在{PAWN_nameShort}的丰满的乳房上，那完美的圆润与柔和的轮廓令人百看不厌。</li>
     <li>{PAWN_nameShort}的胸部丰盈的形态，带着诱人的存在感，构成了真正令人着迷的观察。</li>
     <li>多么巨大的乳房！{PAWN_nameShort}的饱满、紧实、展示得如此美好的胸部，是一幕值得细细品味的美景。</li>
-    <li>{PAWN_nameShort}的 硕大乳房晃动的样子令人着迷，那惊人的尺寸和诱人的柔软是极致的享受。</li>
+    <li>{PAWN_nameShort}的硕大乳房晃动的样子令人着迷，那惊人的尺寸和诱人的柔软是极致的享受。</li>
     <li>{PAWN_nameShort}的那荣耀的胸部，我无法把眼睛移开；它甘美的曲线与天然的优雅美得惊人。</li>
     <li>真是一幅令人着迷的景象！{PAWN_nameShort}的乳房有着令人赞赏的丰满与精致迷人的形状。</li>
     <li>{PAWN_nameShort}的那对完美浑圆的巨大乳房无可否认地占满我的视野，让我满心欢喜。</li>
-    <li>看到 {PAWN_nameShort}的 丰满的胸部，比例如此优美、如此热情，我这偷窥的冲动得到了彻底满足。</li>
+    <li>看到 {PAWN_nameShort}的丰满的胸部，比例如此优美、如此热情，我这偷窥的冲动得到了彻底满足。</li>
     <li>{PAWN_nameShort}的乳房那惊人的规模与优美的形态实在令人赞叹，极为出色地增添了{PAWN_possessive}魅力。</li>
     <li>如此令人愉悦的饱满！{PAWN_nameShort}的乳房形态精致，轻柔的摇曳透着自然迷人的诱惑。</li>
     <li>{PAWN_nameShort}的胸部天赋傲人，悦目的曲线与丰盈的体积构成一幅真正迷人而难忘的画面。</li>
-    <li>{PAWN_nameShort}的 丰满的乳房如此勾人，浑圆完美，单是欣赏便已是乐事。</li>
+    <li>{PAWN_nameShort}的丰满的乳房如此勾人，浑圆完美，单是欣赏便已是乐事。</li>
     <li>{PAWN_nameShort}那对无比饱满的乳房散发着年轻的活力，它们天然的形态与柔软的触感无比诱人。</li>
     <li>真是自然之美的出色展现！{PAWN_nameShort}的乳房壮丽非凡，丰满又塑形完美。</li>
     <li>{PAWN_nameShort}那丰满而匀称的乳房是令人愉快的特征，优雅而迷人地衬托着{PAWN_possessive}身形。</li>
@@ -236,15 +226,15 @@
     <li>我的目光流连在{PAWN_nameShort}的丰满的乳房上，那完美的圆润与柔和的轮廓令人百看不厌，我自己的乳房也随之胀起。</li>
     <li>{PAWN_nameShort}的胸部丰盈的形态，带着诱人的存在感，构成了真正令人着迷的观察，在我阴道内激起一阵向往。</li>
     <li>多么巨大的乳房！{PAWN_nameShort}的饱满、紧实、展示得如此美好的胸部，是一幕值得细细品味的美景，让我微微颤抖。</li>
-    <li>{PAWN_nameShort}的 硕大乳房晃动的样子令人着迷，那惊人的尺寸和诱人的柔软是极致的享受，让我愉悦地搏动。</li>
+    <li>{PAWN_nameShort}的硕大乳房晃动的样子令人着迷，那惊人的尺寸和诱人的柔软是极致的享受，让我愉悦地搏动。</li>
     <li>{PAWN_nameShort}的那荣耀的胸部，我无法把眼睛移开；它甘美的曲线与天然的优雅美得惊人，让我一阵阵战栗。</li>
     <li>真是一幅令人着迷的景象！{PAWN_nameShort}的乳房有着令人赞赏的丰满与精致迷人的形状，让我自己的身体也感到鲜活起来。</li>
     <li>{PAWN_nameShort}的那对完美浑圆的巨大乳房无可否认地占满我的视野，让我满心欢喜，让我的乳头硬了起来。</li>
-    <li>看到 {PAWN_nameShort}的 丰满的胸部，比例如此优美、如此热情，我这偷窥的冲动得到了彻底满足，我的阴蒂微微发麻。</li>
+    <li>看到 {PAWN_nameShort}的丰满的胸部，比例如此优美、如此热情，我这偷窥的冲动得到了彻底满足，我的阴蒂微微发麻。</li>
     <li>{PAWN_nameShort}的乳房那惊人的规模与优美的形态实在令人赞叹，极为出色地增添了{PAWN_possessive}魅力，让我体内嗡嗡作响。</li>
     <li>如此令人愉悦的饱满！{PAWN_nameShort}的乳房形态精致，轻柔的摇曳透着自然迷人的诱惑，激起我自己的欲望。</li>
     <li>{PAWN_nameShort}的胸部天赋傲人，悦目的曲线与丰盈的体积构成一幅真正迷人而难忘的画面，我体内深处阵阵搏动。</li>
-    <li>{PAWN_nameShort}的 丰满的乳房如此勾人，浑圆完美，单是欣赏与向往便已是乐事。</li>
+    <li>{PAWN_nameShort}的丰满的乳房如此勾人，浑圆完美，单是欣赏与向往便已是乐事。</li>
     <li>{PAWN_nameShort}那对无比饱满的乳房散发着年轻的活力，它们天然的形态与柔软的触感无比诱人，唤醒了我的淫欲。</li>
     <li>真是自然之美的出色展现！{PAWN_nameShort}的乳房壮丽非凡，丰满又塑形完美，点燃了强烈的饥渴。</li>
     <li>{PAWN_nameShort}那丰满而匀称的乳房是令人愉快的特征，优雅而迷人地衬托着{PAWN_possessive}身形，让我的阴道一阵紧缩。</li>
@@ -278,7 +268,7 @@
     <li>那不只是乳房，那是感官享受的宏巨纪念碑，我整个身体都在剧烈反应。</li>
     <li>{PAWN_nameShort}的乳沟深得诱人，那股引力几乎让人从生理上无法抗拒。</li>
     <li>{PAWN_nameShort}的那对巨乳强烈而令人沉醉的诱惑，把我彻底压垮。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此骄傲、饱满又毫无歉意，让我因欲望而作痛。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此骄傲、饱满又毫无歉意，让我因欲望而作痛。</li>
     <li>我只能想象把自己贴向{PAWN_nameShort}的那丰盈柔顺的胸部会带来怎样无边的快感。</li>
     <li>看着{PAWN_nameShort}的巨大的乳房，我体内燃起灼人的烈火，那是一份深沉、灼热、吞噬一切的饥渴。</li>
     <li>我全身发麻，被彻底探索{PAWN_nameShort}的迷人胸脯的急切欲望所吞噬。</li>
@@ -298,15 +288,15 @@
     <li>我的目光锁定在{PAWN_nameShort}的那丰腴的乳房上；它们柔软的饱满与自然的下垂，彻底令人陶醉。</li>
     <li>{PAWN_nameShort}的胸部丰盈的形态，带着诱人的分量，激起一阵强烈、无法否认的性唤起。</li>
     <li>多么宏伟的乳房！{PAWN_nameShort}的饱满、紧实、展示得如此美好的胸部，是一幕值得尽情攫取的美景，我的身体反应敏锐。</li>
-    <li>{PAWN_nameShort}的 硕大乳房晃动的样子令人着迷，那惊人的尺寸和诱人的柔软激起一阵愉悦的酸胀。</li>
+    <li>{PAWN_nameShort}的硕大乳房晃动的样子令人着迷，那惊人的尺寸和诱人的柔软激起一阵愉悦的酸胀。</li>
     <li>{PAWN_nameShort}的那荣耀的胸部，我无法把眼睛移开；它甘美的曲线与天然的优雅美得惊人，让我全身紧绷。</li>
     <li>真是一幅令人着迷的景象！{PAWN_nameShort}的乳房有着令人赞赏的丰满与精致迷人的形状，让我脉搏加快。</li>
     <li>{PAWN_nameShort}的那对完美浑圆的巨大乳房无可否认地占满我的视野，让我满心欢喜，以及清晰可感的欲望。</li>
-    <li>看到 {PAWN_nameShort}的 丰满的胸部，比例如此优美、如此热情，我这偷窥的冲动得到了彻底满足，我的阴茎动了起来。</li>
+    <li>看到 {PAWN_nameShort}的丰满的胸部，比例如此优美、如此热情，我这偷窥的冲动得到了彻底满足，我的阴茎动了起来。</li>
     <li>{PAWN_nameShort}的乳房那惊人的规模与优美的形态实在令人赞叹，极为出色地增添了{PAWN_possessive}魅力，也让我兴奋起来。</li>
     <li>如此令人愉悦的饱满！{PAWN_nameShort}的乳房形态精致，轻柔的摇曳透着自然迷人的诱惑，引起一阵美妙的搏动。</li>
     <li>{PAWN_nameShort}的胸部天赋傲人，悦目的曲线与丰盈的体积构成一幅真正迷人而难忘的画面，深深撩动了我。</li>
-    <li>{PAWN_nameShort}的 丰满的乳房如此勾人，浑圆完美，单是欣赏与渴望便已是乐事。</li>
+    <li>{PAWN_nameShort}的丰满的乳房如此勾人，浑圆完美，单是欣赏与渴望便已是乐事。</li>
     <li>{PAWN_nameShort}那对无比饱满的乳房散发着年轻的活力，它们天然的形态与柔软的触感无比诱人、令人兴奋。</li>
     <li>真是自然之美的出色展现！{PAWN_nameShort}的乳房壮丽非凡，丰满又塑形完美，点燃了我的热情。</li>
     <li>{PAWN_nameShort}那丰满而匀称的乳房是令人愉快的特征，优雅而迷人地衬托着{PAWN_possessive}身形，唤醒了我内心的野兽。</li>
@@ -414,7 +404,7 @@
     <li>{PAWN_nameShort}有着多么可爱而丰满的胸部！它们挺立得如此完美，真是十分动人的特征。</li>
     <li>{PAWN_nameShort}的乳房那成熟的饱满令人着迷。它们的形状如此柔软而诱人。</li>
     <li>{PAWN_nameShort}的乳头与乳晕虽不显眼，却完美地衬托着{PAWN_possessive}令人惊叹的成熟乳房。</li>
-    <li>我很欣赏{PAWN_nameShort}的那对硕大成熟乳房的天然重量与自信的呈现。</li>
+    <li>我很欣赏{PAWN_nameShort}的那对硕大成熟乳房的天然重量与自信的姿态。</li>
     <li>{PAWN_nameShort}的乳房是成熟女性气质的绝佳范例。如此饱满，承载得如此优雅。</li>
     <li>它们纯粹的尺寸与柔软诱人的曲线，在{PAWN_nameShort}的这个年纪的女人身上，真值得好好欣赏。</li>
     <li>{PAWN_nameShort}的乳房那轻柔的颤动感，诉说着舒适与自然之美。</li>
@@ -424,7 +414,7 @@
     <li>{PAWN_nameShort}的那丰盈胸部成熟的优雅颇为惊人。</li>
     <li>以{PAWN_possessive}年纪来说，这对乳房真是壮丽！它们确实让{PAWN_nameShort}的整体的气场增色不少。</li>
     <li>{PAWN_nameShort}的乳晕为{PAWN_possessive}本已令人赞叹的丰乳添上一笔雅致的点缀。</li>
-    <li>{PAWN_nameShort}的 成熟而硕大的乳房那自信的展示，既令人赞叹又富有吸引力。</li>
+    <li>{PAWN_nameShort}的成熟而硕大的乳房那自信的展示，既令人赞叹又富有吸引力。</li>
     <li>{PAWN_nameShort}的乳房饱满柔软得恰到好处，令人欣喜的一幕。</li>
     <li>她的胸部确实丰盈，是成熟女性体态的美丽典范。</li>
     <li>{PAWN_nameShort}的乳房那自然的轮廓与可观的体量相当诱人。</li>
@@ -454,10 +444,10 @@
   </Opinion_Breasts_Positive_Large_ElderFemale_observed_by_Elder_male.opinionTexts>
   <Opinion_Breasts_Positive_Large_ElderFemale_observed_by_Exhibitionist.opinionTexts>
     <li>{PAWN_nameShort}的壮丽而年迈的乳房让所有人都能看见！对{PAWN_possessive}苍老之美的如此自信。</li>
-    <li>她在炫耀{PAWN_possessive}那华丽、丰盈、历经岁月的胸部！慷慨的曲线和骄傲的呈现美妙绝伦。</li>
+    <li>她在炫耀{PAWN_possessive}那华丽、丰盈、历经岁月的胸部！慷慨的曲线和骄傲的姿态美妙绝伦。</li>
     <li>多么大胆的展示！{PAWN_nameShort}的成熟而饱满的乳房辉煌地展露着，真是摄人的景象。</li>
     <li>{PAWN_nameShort}懂得如何炫耀{PAWN_possessive}资本。那对硕大丰腴的乳房让人无法忽视。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此坦然而自信，让它们更加令人向往。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此坦然而自信，让它们更加令人向往。</li>
     <li>多么自由！{PAWN_nameShort}的硕大而年迈的乳房，那颤动的模样与清晰的乳头，成了公开的景象。</li>
     <li>{PAWN_nameShort}的饱满骄傲的乳房真是一件艺术品，勇敢地展示出来供人赞叹。</li>
     <li>{PAWN_nameShort}如此坦然地展示{PAWN_possessive}宏大丰盈的胸部，刺激得令人难以置信。</li>
@@ -476,7 +466,7 @@
   </Opinion_Breasts_Positive_Large_ElderFemale_observed_by_Exhibitionist.opinionTexts>
   <Opinion_Breasts_Positive_Large_ElderFemale_observed_by_Nymphomaniac.opinionTexts>
     <li>{PAWN_nameShort}的硕大而年迈的乳房让我发狂！纯粹的尺寸与性感的下垂令人陶醉。</li>
-    <li>我的身体渴望着 {PAWN_nameShort}的 饱满诱人、上了年纪的乳房的触感。它们看起来那么柔软，随时等着被抚摸。</li>
+    <li>我的身体渴望着 {PAWN_nameShort}的饱满诱人、上了年纪的乳房的触感。它们看起来那么柔软，随时等着被抚摸。</li>
     <li>光是看着{PAWN_nameShort}的那辉煌饱满、历经岁月的胸脯，我就被欲望攫住。那对乳头……我需要它们。</li>
     <li>{PAWN_nameShort}的乳房摇摆安顿的样子让我的脉搏飞驰。我再也想不到别的。</li>
     <li>{PAWN_nameShort}的饱满的乳晕和突出的乳头是一份无从抗拒的邀请。我想去挑逗它们、品尝它们。</li>
@@ -498,7 +488,7 @@
   </Opinion_Breasts_Positive_Large_ElderFemale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Breasts_Positive_Large_ElderFemale_observed_by_Prude.opinionTexts>
     <li>{PAWN_nameShort}的乳房以她的年纪来说相当……突出。绝对算得上惹眼。</li>
-    <li>人不禁观察起 {PAWN_nameShort}的 年长的胸部那可观的尺寸。非常……丰满。</li>
+    <li>人不禁观察起 {PAWN_nameShort}的年长的胸部那可观的尺寸。非常……丰满。</li>
     <li>{PAWN_nameShort}显然身形极为丰腴。她的乳房无可否认地大，叫人不看都不行。</li>
     <li>虽然我更偏好含蓄些的展示，但{PAWN_nameShort}的成熟硕大的乳房确实形美。</li>
     <li>{PAWN_nameShort}的胸脯的庞大相当明显。还真是……份厚实的家当。</li>
@@ -509,7 +499,7 @@
     <li>我觉得{PAWN_nameShort}的成熟的乳房相当宏伟，只是展示得略嫌太过直白。</li>
     <li>{PAWN_nameShort}的胸部的饱满相当惹眼，不过我倒希望能含蓄一点。</li>
     <li>{PAWN_nameShort}的丰满的乳房想不注意到都难。它们确实很有存在感。</li>
-    <li>人观察着 {PAWN_nameShort}的 成熟胸脯那可观的曲线。它们可谓尽显无遗。</li>
+    <li>有人观察着 {PAWN_nameShort}的成熟胸脯那可观的曲线。它们可谓尽显无遗。</li>
     <li>{PAWN_nameShort}的乳房的尺寸相当……张扬。能少露一点就更理想了。</li>
     <li>尽管我天性内敛，{PAWN_nameShort}的硕大而形态良好的乳房真是一番景象。</li>
     <li>{PAWN_nameShort}的乳房上突出的乳头与乳晕颇为暴露，几乎不给人留任何想象空间。</li>
@@ -537,7 +527,7 @@
     <li>她那硕大的乳房长在{PAWN_objective}身上显得那么舒适自然。与她再相配不过。</li>
     <li>我由衷欣赏{PAWN_nameShort}的饱满成熟乳房的美丽形态。</li>
     <li>好一个惊艳的胸部！{PAWN_nameShort}的乳房真是一件天然美的杰作。</li>
-    <li>{PAWN_nameShort}的乳房的尺寸与自信的呈现，令人振奋。</li>
+    <li>{PAWN_nameShort}的乳房的尺寸与自信的姿态，令人振奋。</li>
     <li>{PAWN_nameShort}的饱满成熟的乳房简直太美了。希望我到{PAWN_possessive}这个年纪也能这么好看。</li>
   </Opinion_Breasts_Positive_Large_ElderFemale_observed_by_Young_female.opinionTexts>
   <Opinion_Breasts_Positive_Large_ElderFemale_observed_by_Young_male.opinionTexts>
@@ -568,7 +558,7 @@
     <li>{PAWN_nameShort}有着多么可爱而丰满的胸部！它们挺立得如此完美，真是十分动人的特征。</li>
     <li>{PAWN_nameShort}的乳房那成熟的饱满令人着迷。它们的形状如此柔软而诱人。</li>
     <li>{PAWN_nameShort}的乳头与乳晕虽不显眼，却完美地衬托着{PAWN_possessive}令人惊叹的成熟乳房。</li>
-    <li>我很欣赏{PAWN_nameShort}的那对硕大成熟乳房的天然重量与自信的呈现。</li>
+    <li>我很欣赏{PAWN_nameShort}的那对硕大成熟乳房的天然重量与自信的姿态。</li>
     <li>{PAWN_nameShort}的乳房是成熟女性气质的绝佳范例。如此饱满，承载得如此优雅。</li>
     <li>它们纯粹的尺寸与柔软诱人的曲线，在{PAWN_nameShort}的这个年纪的女人身上，真值得好好欣赏。</li>
     <li>{PAWN_nameShort}的乳房那轻柔的颤动感，诉说着舒适与自然之美。</li>
@@ -578,7 +568,7 @@
     <li>{PAWN_nameShort}的那丰盈胸部成熟的优雅颇为惊人。</li>
     <li>以{PAWN_possessive}年纪来说，这对乳房真是壮丽！它们确实让{PAWN_nameShort}的整体的气场增色不少。</li>
     <li>{PAWN_nameShort}的乳晕为{PAWN_possessive}本已令人赞叹的丰乳添上一笔雅致的点缀。</li>
-    <li>{PAWN_nameShort}的 成熟而硕大的乳房那自信的展示，既令人赞叹又富有吸引力。</li>
+    <li>{PAWN_nameShort}的成熟而硕大的乳房那自信的展示，既令人赞叹又富有吸引力。</li>
     <li>{PAWN_nameShort}的乳房饱满柔软得恰到好处，令人欣喜的一幕。</li>
     <li>她的胸部确实丰盈，是成熟女性体态的美丽典范。</li>
     <li>{PAWN_nameShort}的乳房那自然的轮廓与可观的体量相当诱人。</li>
@@ -648,7 +638,7 @@
     <li>{PAWN_nameShort}的乳房撑满{PAWN_possessive}身形的方式相当和谐。</li>
     <li>{PAWN_nameShort}的硕大的乳房有着内在的美，朴素而深刻。</li>
     <li>{PAWN_nameShort}的乳房那丰饶的形态中有种含蓄的力量。</li>
-    <li>人不禁欣赏 {PAWN_nameShort}的 胸中显露的天然丰饶。</li>
+    <li>人不禁欣赏 {PAWN_nameShort}的胸中显露的天然丰饶。</li>
     <li>如此丰满而骄傲的一对乳房，{PAWN_nameShort}的看起来美极了。</li>
     <li>{PAWN_nameShort}的乳房那强健健康的外观令人相当安心。</li>
     <li>{PAWN_nameShort}的乳房柔软得令人愉快，却又带着明显的紧实。</li>
@@ -659,7 +649,7 @@
     <li>{PAWN_nameShort}的胸部那宽宏的比例相当惹眼。</li>
     <li>一对绝妙而厚实的乳房，{PAWN_nameShort}带着它们很得体。</li>
     <li>显然{PAWN_nameShort}的乳房是天然之美与魅力的来源。</li>
-    <li>哎哟，那对乳房可真丰满！它们丰盈的青春感与轻柔的晃动，把 {PAWN_nameShort}的 的身材衬得美极了。</li>
+    <li>哎哟，那对乳房可真丰满！它们丰盈的青春感与轻柔的晃动，把 {PAWN_nameShort}身材衬得美极了。</li>
     <li>{PAWN_nameShort}的拥有一对相当傲人的胸脯，饱满圆润，带着迷人的自然挺翘。真是美丽的景象。</li>
     <li>多么壮丽的乳房！它们有着可爱柔软的外表，弹动得令人愉悦。以{PAWN_possessive}年纪来说，形态相当不错。</li>
     <li>{PAWN_nameShort}的乳房的宽宏体量相当惹眼。它们以自信而悦目的分量托着自身。</li>
@@ -668,7 +658,7 @@
     <li>{PAWN_nameShort}的乳房相当丰满，却仍保有迷人的挺翘和自然动人的姿态。非常惊艳。</li>
     <li>好一对绝妙的乳房！{PAWN_nameShort}的硕大的乳房饱满得令人欢喜，外观柔软又给人安慰。比例真是恰到好处。</li>
     <li>{PAWN_nameShort}的丰满的乳房相当动人，轮廓优美，手感柔软得令人安心。真正经典的女性形态。</li>
-    <li>真是一对充实的乳房。{PAWN_nameShort}的胸脯拥有悦目的丰满与温柔自然的呈现。</li>
+    <li>真是一对充实的乳房。{PAWN_nameShort}的胸脯拥有悦目的丰满与温柔自然的姿态。</li>
     <li>如此惊人的份量。{PAWN_nameShort}的乳房形态迷人，优雅地晃动着，柔软诱人地颤着。</li>
     <li>{PAWN_nameShort}的饱满优美的乳房十分可观，漂亮地垂在{PAWN_possessive}胸前，是一幅自然优雅的画。</li>
     <li>{PAWN_nameShort}的乳房那奢华的饱满实在令人赞叹，是健康青春与鲜活体态的明证。</li>
@@ -682,17 +672,17 @@
     <li>{PAWN_nameShort}的乳房有着惊人的饱满，那自然的形状与轻柔的起伏真是迷人的特征。</li>
     <li>{PAWN_nameShort}的丰盈的乳房颇为悦目，那讨喜的分量与柔软安心的模样。</li>
     <li>她那硕大的乳房优美地垂着，可观的尺寸透出成熟的优雅与充分的安适。</li>
-    <li>{PAWN_nameShort}的 乳房那迷人的弹跳与饱满轮廓令人赏心悦目，彰显着青春活力。</li>
+    <li>{PAWN_nameShort}的乳房那迷人的弹跳与饱满轮廓令人赏心悦目，彰显着青春活力。</li>
     <li>{PAWN_nameShort}的丰腴的酥胸看着真是种享受，那份丰腴配上优雅自然的晃动。</li>
     <li>如此精致的展示！{PAWN_nameShort}的硕大的乳房浑圆完美，展现出悦人的对称与柔软诱人的外观。</li>
     <li>{PAWN_nameShort}的胸部那宽宏的比例相当惹眼，乳房看起来柔韧而丰盈优美。</li>
-    <li>{PAWN_nameShort}的乳房是绝妙的景象，那令人欣喜的尺寸与优雅的形态，更因自然诱人的呈现而增色。</li>
+    <li>{PAWN_nameShort}的乳房是绝妙的景象，那令人欣喜的尺寸与优雅的形态，更因自然诱人的姿态而增色。</li>
     <li>真正诱人的一幕，{PAWN_nameShort}的丰满的乳房饱满得恰到好处，自然的颤动令人愉悦，曲线诱人。</li>
     <li>{PAWN_nameShort}的壮丽的乳房展现出迷人的饱满与柔软诱人的外观，是自然之美的真正画面。</li>
   </Opinion_Breasts_Positive_Large_Elderly_Female_opinion.opinionTexts>
   <Opinion_Breasts_Positive_Large_Elderly_Female_voyer_opinion.opinionTexts>
     <li>{PAWN_nameShort}的硕大的乳房……真让人满怀美妙的渴望。我从前也是那样。</li>
-    <li>哦，若能再次感受如此丰满双峰的分量！{PAWN_nameShort}的 胸脯真是精致。</li>
+    <li>哦，若能再次感受如此丰满双峰的分量！{PAWN_nameShort}的胸脯真是精致。</li>
     <li>看着{PAWN_nameShort}的丰腴的胸部，我自己的身体也因一阵熟悉的燥热而酥麻。</li>
     <li>那对饱满年轻的乳房是幅辉煌的景象，唤起了我以为早已沉睡的欲望。</li>
     <li>{PAWN_nameShort}的那硕大柔顺的乳房把我彻底钉住，我几乎能想象它们在我手中。</li>
@@ -717,22 +707,22 @@
     <li>{PAWN_nameShort}的乳房的丰盈让我着迷，那景象真令人性起。</li>
     <li>{PAWN_nameShort}的乳房像一剂强效的灵药，让我因渴望而活了过来。</li>
     <li>看着{PAWN_nameShort}的饱满丰腴的乳房，让我呼吸一滞。</li>
-    <li>哦，若能玩弄如此完美的双峰！{PAWN_nameShort}的 乳房简直在乞求关注。</li>
+    <li>哦，若能玩弄如此完美的双峰！{PAWN_nameShort}的乳房简直在乞求关注。</li>
     <li>{PAWN_nameShort}的那硕大乳房如此骄傲地呈现着，撩人至极。</li>
     <li>每当我看着{PAWN_nameShort}的那对绝妙的乳房，就感到一阵深切、几乎疼痛的欲望。</li>
     <li>那乳晕如此深色而诱人，让{PAWN_nameShort}的乳房更加迷人。</li>
-    <li>哦，看看 {PAWN_nameShort}的 丰满的乳房！它们摇晃得如此撩人。让我回想起自己年轻时更丰满的日子。真是刺激的景象。</li>
+    <li>哦，看看 {PAWN_nameShort}的丰满的乳房！它们摇晃得如此撩人。让我回想起自己年轻时更丰满的日子。真是刺激的景象。</li>
     <li>{PAWN_nameShort}的有一对多么丰美、饱满的乳房！它们的晃动实在迷人，在我自己的身体里激起一阵熟悉的温热与欣赏。</li>
     <li>她那壮丽硕大的乳房是壮美的景象！那么柔软顺从，让我想起自己曾经拥有的青春丰盈。</li>
     <li>{PAWN_nameShort}的胸部那宽宏的隆起简直神圣。它们自然的颤动令人着迷，我感到一阵愉悦的酥麻。</li>
     <li>如此华美、丰满的胸部！{PAWN_nameShort}的乳房是柔美之美的化身，我几乎能感受到那悦人的重量。</li>
     <li>{PAWN_nameShort}的丰满的乳房实在令人着迷，以诱人的优雅轻轻摇晃。是真正女性形态的愉悦提醒。</li>
-    <li>哎哟，那可真是惊人！{PAWN_nameShort}的 硕大的乳房柔软地晃动，那模样实在可爱，勾起我体内的一股暖意。</li>
+    <li>哎哟，那可真是惊人！{PAWN_nameShort}的硕大的乳房柔软地晃动，那模样实在可爱，勾起我体内的一股暖意。</li>
     <li>看到{PAWN_nameShort}的美丽丰满的乳房颇为撩人，那是青春丰饶的荣耀典范。</li>
     <li>她那壮丽饱满的乳房是件艺术品。它们随{PAWN_possessive}身体晃动的样子实在迷人，让我满怀赞叹。</li>
     <li>{PAWN_nameShort}的丰盈的胸部简直惊艳。那柔软而顺从的质感深深打动着我的感官。</li>
     <li>多么好的一对！{PAWN_nameShort}的硕大的乳房形状完美，优雅的晃动在深处激起一阵共鸣般的悸动。</li>
-    <li>{PAWN_nameShort}的 乳房的丰满体量真令人赞叹。它们是女性魅力的绝佳证明。</li>
+    <li>{PAWN_nameShort}的乳房的丰满体量真令人赞叹。它们是女性魅力的绝佳证明。</li>
     <li>她那醒目的饱满乳房是赏心悦目的壮丽景象。它们带着令人安心的分量与诱人的摇晃。</li>
     <li>{PAWN_nameShort}的丰腴的胸部实在令人愉悦，她那柔软浑圆的乳房曲线百看不厌。</li>
     <li>多么壮丽的大乳房！它们以迷人的节奏移动，在我自己体内唤起一阵愉悦而熟悉的感觉。</li>
@@ -744,23 +734,23 @@
     <li>{PAWN_nameShort}的乳房有着惊人的饱满，那自然的形状与轻柔的起伏真是迷人的特征。</li>
     <li>{PAWN_nameShort}的丰盈的乳房颇为悦目，那讨喜的分量与柔软安心的模样。</li>
     <li>她那硕大的乳房优美地垂着，可观的尺寸透出成熟的优雅与充分的安适。</li>
-    <li>{PAWN_nameShort}的 乳房那迷人的弹跳与饱满轮廓令人赏心悦目，彰显着青春活力。</li>
+    <li>{PAWN_nameShort}的乳房那迷人的弹跳与饱满轮廓令人赏心悦目，彰显着青春活力。</li>
     <li>{PAWN_nameShort}的丰腴的酥胸看着真是种享受，那份丰腴配上优雅自然的晃动。</li>
     <li>如此精致的展示！{PAWN_nameShort}的硕大的乳房浑圆完美，展现出悦人的对称与柔软诱人的外观。</li>
     <li>{PAWN_nameShort}的胸部那宽宏的比例相当惹眼，乳房看起来柔韧而丰盈优美。</li>
-    <li>{PAWN_nameShort}的乳房是绝妙的景象，那令人欣喜的尺寸与优雅的形态，更因自然诱人的呈现而增色。</li>
+    <li>{PAWN_nameShort}的乳房是绝妙的景象，那令人欣喜的尺寸与优雅的形态，更因自然诱人的姿态而增色。</li>
     <li>真正诱人的一幕，{PAWN_nameShort}的丰满的乳房饱满得恰到好处，自然的颤动令人愉悦，曲线诱人。</li>
     <li>{PAWN_nameShort}的壮丽的乳房展现出迷人的饱满与柔软诱人的外观，是自然之美的真正画面。</li>
   </Opinion_Breasts_Positive_Large_Elderly_Female_voyer_opinion.opinionTexts>
   <Opinion_Breasts_Positive_Large_Elderly_Male_opinion.opinionTexts>
     <li>啊，{PAWN_nameShort}拥有的身材实在出色，{PAWN_possessive}硕大的胸脯中蕴含着恒久的美。</li>
-    <li>让我想起黄金岁月，{PAWN_nameShort}的 乳房那宽裕的曲线。</li>
+    <li>让我想起黄金岁月，{PAWN_nameShort}的乳房那宽裕的曲线。</li>
     <li>如此丰满充裕的胸部，在年轻女子身上真是迷人的景象。</li>
     <li>年轻的紧实配上这样的尺寸，是种罕见而令人愉悦的组合。</li>
     <li>{PAWN_nameShort}的乳房带着一种优雅，一种如今难得见到的古典美。</li>
     <li>真是绝美的一对，{PAWN_nameShort}的那对硕大的乳房相当醒目。</li>
     <li>{PAWN_nameShort}的身形中那天然的优雅，被{PAWN_possessive}突出的胸部衬托得更加出色。</li>
-    <li>人不禁欣赏 {PAWN_nameShort}的 乳房那结实饱满的形态，确实是可爱的景象。</li>
+    <li>人不禁欣赏 {PAWN_nameShort}的乳房那结实饱满的形态，确实是可爱的景象。</li>
     <li>{PAWN_nameShort}的硕大的乳房呈现自身的方式有种含蓄的魅力，颇为悦人。</li>
     <li>一种成熟的欣赏，为了{PAWN_nameShort}的乳房这般匀称的线条。</li>
     <li>那可真是令人赞叹，{PAWN_nameShort}的乳房以纯粹的体量赢得注目。</li>
@@ -772,7 +762,7 @@
     <li>如此壮丽的隆起，{PAWN_nameShort}的乳房正是大自然慷慨的证明。</li>
     <li>我喜欢{PAWN_nameShort}的胸部圆润的轮廓，相当悦目。</li>
     <li>{PAWN_nameShort}的硕大乳房的饱满中，有着令人着迷的魅力。</li>
-    <li>人不禁赞叹 {PAWN_nameShort}的 胸脯那明显的隆起。</li>
+    <li>人不禁赞叹 {PAWN_nameShort}的胸脯那明显的隆起。</li>
     <li>{PAWN_nameShort}的乳房是丰饶身姿的完美写照，着实非凡。</li>
     <li>{PAWN_nameShort}的乳房气势威严，是视觉上的享受。</li>
     <li>实在肉感十足的景象，{PAWN_nameShort}的胸部相当令人印象深刻。</li>
@@ -806,11 +796,11 @@
     <li>{PAWN_nameShort}的乳房有着惊人的饱满，那自然的形状与轻柔的起伏真是迷人的特征。</li>
     <li>{PAWN_nameShort}的丰盈的乳房颇为悦目，那讨喜的分量与柔软安心的模样。</li>
     <li>她那硕大的乳房优美地垂着，可观的尺寸透出成熟的优雅与充分的安适。</li>
-    <li>{PAWN_nameShort}的 乳房那迷人的弹跳与饱满轮廓令人赏心悦目，彰显着青春活力。</li>
+    <li>{PAWN_nameShort}的乳房那迷人的弹跳与饱满轮廓令人赏心悦目，彰显着青春活力。</li>
     <li>{PAWN_nameShort}的丰腴的酥胸看着真是种享受，那份丰腴配上优雅自然的晃动。</li>
     <li>如此精致的展示！{PAWN_nameShort}的硕大的乳房浑圆完美，展现出悦人的对称与柔软诱人的外观。</li>
     <li>{PAWN_nameShort}的胸部那宽宏的比例相当惹眼，乳房看起来柔韧而丰盈优美。</li>
-    <li>{PAWN_nameShort}的乳房是绝妙的景象，那令人欣喜的尺寸与优雅的形态，更因自然诱人的呈现而增色。</li>
+    <li>{PAWN_nameShort}的乳房是绝妙的景象，那令人欣喜的尺寸与优雅的形态，更因自然诱人的姿态而增色。</li>
     <li>真正诱人的一幕，{PAWN_nameShort}的丰满的乳房饱满得恰到好处，自然的颤动令人愉悦，曲线诱人。</li>
     <li>{PAWN_nameShort}的壮丽的乳房展现出迷人的饱满与柔软诱人的外观，是自然之美的真正画面。</li>
   </Opinion_Breasts_Positive_Large_Elderly_Male_opinion.opinionTexts>
@@ -851,7 +841,7 @@
     <li>她硕大的乳房浑圆诱人，催眠般地摇晃着。一股暖流骤然漫过全身，是无可否认的、原始的欣赏。</li>
     <li>观察着{PAWN_nameShort}的令人愉悦的硕大乳房，我感到一阵熟悉而撩动的暖意。它们撩人的晃动许诺着纯粹的极乐。</li>
     <li>真是一幅刺激的景象。{PAWN_nameShort}的丰盈的乳房壮丽非凡，它们柔软的晃动在下方引起一阵愉悦的搏动。</li>
-    <li>{PAWN_nameShort}的 乳房的丰满体量令人神魂颠倒；它们随节奏摇摆，妖娆动人。我这颗老心脏狂跳不止。</li>
+    <li>{PAWN_nameShort}的乳房的丰满体量令人神魂颠倒；它们随节奏摇摆，妖娆动人。我这颗老心脏狂跳不止。</li>
     <li>{PAWN_nameShort}的那对无比硕大的乳房真是令人亢奋的奇观。我的感官因欣赏它们丰饶的饱满而阵阵发麻。</li>
     <li>多么壮丽丰盈的乳房！它们以撩人的诱惑摇曳着，在我这具渐老的身躯里唤醒一股强烈而无法否认的欲望。</li>
     <li>{PAWN_nameShort}的饱满醒目的乳房简直令人目眩神迷，它们的晃动唤起一阵深层而原始的悸动，让人无法忽视。</li>
@@ -865,7 +855,7 @@
     <li>她那壮丽饱满的乳房是非凡的一幕。那肉体的细微颤动，在我身心深处激起一股熟悉而无法否认的冲动。</li>
     <li>{PAWN_nameShort}的丰满的酥胸令人完全着迷，那柔软诱人的曲线预示着说不尽的欢愉。一种深沉而愉悦的酸胀在我体内回响。</li>
     <li>多么壮丽而丰满的一对！{PAWN_nameShort}的乳房正是精致形态的明证，激起一股强烈而不可否认的反应。</li>
-    <li>{PAWN_nameShort}的 硕大乳房的身影撩起一阵深沉而炽热的渴望。它们的每一次晃动都是一支诱人的舞蹈。</li>
+    <li>{PAWN_nameShort}的硕大乳房的身影撩起一阵深沉而炽热的渴望。它们的每一次晃动都是一支诱人的舞蹈。</li>
     <li>多么诱人的景象！{PAWN_nameShort}的饱满的乳房带着令人沉醉的魅力晃动，唤起一股原始而执拗的饥渴。</li>
     <li>她硕大的乳房浑圆诱人，在我体内激起一股难以抗拒的、熟悉的燥热。我的目光再也移不开。</li>
     <li>观察着{PAWN_nameShort}的壮丽丰盈的乳房，一股原始、不羁的欲望在我血管中奔涌。</li>
@@ -943,7 +933,7 @@
     <li>{PAWN_nameShort}的胸部那成熟的饱满无可否认，是一片柔软的丘陵与诱人曲线构成的丰茂风景。简直妙极了。</li>
     <li>多么辉煌的景象！{PAWN_nameShort}的硕大的乳房吸引着所有注意，轻柔的弹动暗示着它们奢华的重量。</li>
     <li>{PAWN_nameShort}的乳房撑满她上衣的样子令人惊叹，是其丰饶尺寸与诱人圆润的明证。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 乳沟那纯粹的丰盈，一处欢迎的谷地，暗示着说不尽的欢愉。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的乳沟那纯粹的丰盈，一处欢迎的谷地，暗示着说不尽的欢愉。</li>
     <li>{PAWN_nameShort}的乳房的分量与体积与{PAWN_objective}成熟的身形完美相称，实在是和谐悦目的景象。</li>
     <li>{PAWN_nameShort}的丰满的胸怀有种成熟动人的魅力，每一道曲线都许诺着一个令人安心的拥抱。</li>
     <li>{PAWN_nameShort}的乳房饱满而柔软，有着无法抗拒的柔软。那存在感强烈地诱惑着人。</li>
@@ -966,7 +956,7 @@
     <li>{PAWN_nameShort}有着多么可爱而丰满的胸部！它们挺立得如此完美，真是十分动人的特征。</li>
     <li>{PAWN_nameShort}的乳房那成熟的饱满令人着迷。它们的形状如此柔软而诱人。</li>
     <li>{PAWN_nameShort}的乳头与乳晕虽不显眼，却完美地衬托着{PAWN_possessive}令人惊叹的成熟乳房。</li>
-    <li>我很欣赏{PAWN_nameShort}的那对硕大成熟乳房的天然重量与自信的呈现。</li>
+    <li>我很欣赏{PAWN_nameShort}的那对硕大成熟乳房的天然重量与自信的姿态。</li>
     <li>{PAWN_nameShort}的乳房是成熟女性气质的绝佳范例。如此饱满，承载得如此优雅。</li>
     <li>它们纯粹的尺寸与柔软诱人的曲线，在{PAWN_nameShort}的这个年纪的女人身上，真值得好好欣赏。</li>
     <li>{PAWN_nameShort}的乳房那轻柔的颤动感，诉说着舒适与自然之美。</li>
@@ -976,7 +966,7 @@
     <li>{PAWN_nameShort}的那丰盈胸部成熟的优雅颇为惊人。</li>
     <li>以{PAWN_possessive}年纪来说，这对乳房真是壮丽！它们确实让{PAWN_nameShort}的整体的气场增色不少。</li>
     <li>{PAWN_nameShort}的乳晕为{PAWN_possessive}本已令人赞叹的丰乳添上一笔雅致的点缀。</li>
-    <li>{PAWN_nameShort}的 成熟而硕大的乳房那自信的展示，既令人赞叹又富有吸引力。</li>
+    <li>{PAWN_nameShort}的成熟而硕大的乳房那自信的展示，既令人赞叹又富有吸引力。</li>
     <li>{PAWN_nameShort}的乳房饱满柔软得恰到好处，令人欣喜的一幕。</li>
     <li>她的胸部确实丰盈，是成熟女性体态的美丽典范。</li>
     <li>{PAWN_nameShort}的乳房那自然的轮廓与可观的体量相当诱人。</li>
@@ -1006,10 +996,10 @@
   </Opinion_Breasts_Positive_Large_MatureFemale_observed_by_Elder_male.opinionTexts>
   <Opinion_Breasts_Positive_Large_MatureFemale_observed_by_Exhibitionist.opinionTexts>
     <li>{PAWN_nameShort}的壮丽的硕大乳房让所有人都能看见！对{PAWN_possessive}成熟之美的如此自信。</li>
-    <li>她在炫耀{PAWN_possessive}那华丽的丰盈胸部！慷慨的曲线和骄傲的呈现简直美妙绝伦。</li>
+    <li>她在炫耀{PAWN_possessive}那华丽的丰盈胸部！慷慨的曲线和骄傲的姿态简直美妙绝伦。</li>
     <li>多么大胆的展示！{PAWN_nameShort}的成熟而饱满的乳房辉煌地展露着，真是摄人的景象。</li>
     <li>{PAWN_nameShort}懂得如何炫耀{PAWN_possessive}资本。那对硕大丰腴的乳房让人无法忽视。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此坦然而自信，让它们更加令人向往。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此坦然而自信，让它们更加令人向往。</li>
     <li>多么自由！{PAWN_nameShort}的硕大而成熟的乳房，那颤动的模样与清晰的乳头，成了公开的景象。</li>
     <li>{PAWN_nameShort}的饱满骄傲的乳房真是一件艺术品，勇敢地展示出来供人赞叹。</li>
     <li>{PAWN_nameShort}如此坦然地展示{PAWN_possessive}宏大丰盈的胸部，刺激得令人难以置信。</li>
@@ -1028,7 +1018,7 @@
   </Opinion_Breasts_Positive_Large_MatureFemale_observed_by_Exhibitionist.opinionTexts>
   <Opinion_Breasts_Positive_Large_MatureFemale_observed_by_Nymphomaniac.opinionTexts>
     <li>{PAWN_nameShort}的硕大成熟的乳房让我发狂！纯粹的尺寸与性感的晃动令人陶醉。</li>
-    <li>我的身体渴望着 {PAWN_nameShort}的 饱满诱人的乳房的触感。它们看起来那么柔软，随时等着被抚摸。</li>
+    <li>我的身体渴望着 {PAWN_nameShort}的饱满诱人的乳房的触感。它们看起来那么柔软，随时等着被抚摸。</li>
     <li>光是看着{PAWN_nameShort}的那辉煌饱满的胸脯，我就被欲望攫住。那对乳头……我需要它们。</li>
     <li>{PAWN_nameShort}的乳房弹跳摆动的样子让我的脉搏飞驰。我再也想不到别的。</li>
     <li>{PAWN_nameShort}的饱满的乳晕和突出的乳头是一份无从抗拒的邀请。我想去挑逗它们、品尝它们。</li>
@@ -1050,7 +1040,7 @@
   </Opinion_Breasts_Positive_Large_MatureFemale_observed_by_Nymphomaniac.opinionTexts>
   <Opinion_Breasts_Positive_Large_MatureFemale_observed_by_Prude.opinionTexts>
     <li>{PAWN_nameShort}的乳房相当……突出。确实惹眼，不过也许太过了些。</li>
-    <li>人不禁观察起 {PAWN_nameShort}的 胸部那可观的尺寸。非常……丰满。</li>
+    <li>人不禁观察起 {PAWN_nameShort}的胸部那可观的尺寸。非常……丰满。</li>
     <li>{PAWN_nameShort}显然身形极为丰腴。她的乳房无可否认地大，叫人不看都不行。</li>
     <li>虽然我更偏好含蓄些的展示，但{PAWN_nameShort}的成熟硕大的乳房确实形美。</li>
     <li>{PAWN_nameShort}的胸脯的庞大相当明显。还真是……份厚实的家当。</li>
@@ -1061,7 +1051,7 @@
     <li>我觉得{PAWN_nameShort}的成熟的乳房相当宏伟，只是展示得略嫌太过直白。</li>
     <li>{PAWN_nameShort}的胸部的饱满相当惹眼，不过我倒希望能含蓄一点。</li>
     <li>{PAWN_nameShort}的丰满的乳房想不注意到都难。它们确实很有存在感。</li>
-    <li>人观察着 {PAWN_nameShort}的 成熟胸脯那可观的曲线。它们可谓尽显无遗。</li>
+    <li>有人观察着 {PAWN_nameShort}的成熟胸脯那可观的曲线。它们可谓尽显无遗。</li>
     <li>{PAWN_nameShort}的乳房的尺寸相当……张扬。能少露一点就更理想了。</li>
     <li>尽管我天性内敛，{PAWN_nameShort}的硕大而形态良好的乳房真是一番景象。</li>
     <li>{PAWN_nameShort}的乳房上突出的乳头与乳晕颇为暴露，几乎不给人留任何想象空间。</li>
@@ -1089,7 +1079,7 @@
     <li>她那硕大的乳房长在{PAWN_objective}身上显得那么舒适自然。与她再相配不过。</li>
     <li>我由衷欣赏{PAWN_nameShort}的饱满成熟乳房的美丽形态。</li>
     <li>好一个惊艳的胸部！{PAWN_nameShort}的乳房真是一件天然美的杰作。</li>
-    <li>{PAWN_nameShort}的乳房的尺寸与自信的呈现，令人振奋。</li>
+    <li>{PAWN_nameShort}的乳房的尺寸与自信的姿态，令人振奋。</li>
     <li>{PAWN_nameShort}的饱满成熟的乳房简直太美了。希望我到{PAWN_possessive}这个年纪也能这么好看。</li>
   </Opinion_Breasts_Positive_Large_MatureFemale_observed_by_Young_female.opinionTexts>
   <Opinion_Breasts_Positive_Large_MatureFemale_observed_by_Young_male.opinionTexts>
@@ -1120,7 +1110,7 @@
     <li>{PAWN_nameShort}有着多么可爱而丰满的胸部！它们挺立得如此完美，真是十分动人的特征。</li>
     <li>{PAWN_nameShort}的乳房那成熟的饱满令人着迷。它们的形状如此柔软而诱人。</li>
     <li>{PAWN_nameShort}的乳头与乳晕虽不显眼，却完美地衬托着{PAWN_possessive}令人惊叹的成熟乳房。</li>
-    <li>我很欣赏{PAWN_nameShort}的那对硕大成熟乳房的天然重量与自信的呈现。</li>
+    <li>我很欣赏{PAWN_nameShort}的那对硕大成熟乳房的天然重量与自信的姿态。</li>
     <li>{PAWN_nameShort}的乳房是成熟女性气质的绝佳范例。如此饱满，承载得如此优雅。</li>
     <li>它们纯粹的尺寸与柔软诱人的曲线，在{PAWN_nameShort}的这个年纪的女人身上，真值得好好欣赏。</li>
     <li>{PAWN_nameShort}的乳房那轻柔的颤动感，诉说着舒适与自然之美。</li>
@@ -1130,7 +1120,7 @@
     <li>{PAWN_nameShort}的那丰盈胸部成熟的优雅颇为惊人。</li>
     <li>以{PAWN_possessive}年纪来说，这对乳房真是壮丽！它们确实让{PAWN_nameShort}的整体的气场增色不少。</li>
     <li>{PAWN_nameShort}的乳晕为{PAWN_possessive}本已令人赞叹的丰乳添上一笔雅致的点缀。</li>
-    <li>{PAWN_nameShort}的 成熟而硕大的乳房那自信的展示，既令人赞叹又富有吸引力。</li>
+    <li>{PAWN_nameShort}的成熟而硕大的乳房那自信的展示，既令人赞叹又富有吸引力。</li>
     <li>{PAWN_nameShort}的乳房饱满柔软得恰到好处，令人欣喜的一幕。</li>
     <li>她的胸部确实丰盈，是成熟女性体态的美丽典范。</li>
     <li>{PAWN_nameShort}的乳房那自然的轮廓与可观的体量相当诱人。</li>
@@ -1210,7 +1200,7 @@
     <li>{PAWN_nameShort}的史莱姆乳房相当丰盈，却仍保持着迷人的流体质感与可爱的粼粼光泽。极为动人。</li>
     <li>好一对绝妙的乳房！{PAWN_nameShort}的硕大的黏液乳房饱满得令人欢喜，外观柔软得几乎能捏出吱声。真是独一无二。</li>
     <li>{PAWN_nameShort}的丰盈的史莱姆乳房相当动人，有着可爱而无定形的轮廓，触感柔软柔韧得令人安心。真正异域的女性形态。</li>
-    <li>真是一对充实的黏液乳房。{PAWN_nameShort}的胸脯拥有悦目的丰满与温柔自然的呈现，美妙地闪着光。</li>
+    <li>真是一对充实的黏液乳房。{PAWN_nameShort}的胸脯拥有悦目的丰满与温柔自然的姿态，美妙地闪着光。</li>
     <li>如此惊人的份量。{PAWN_nameShort}的黏液乳房形态迷人、变幻不定，优雅地晃动着，柔软诱人地荡漾着。</li>
     <li>{PAWN_nameShort}的饱满优美的史莱姆乳房十分可观，漂亮地垂在{PAWN_possessive}胸前，是一幅空灵优雅的画。</li>
     <li>{PAWN_nameShort}的那史莱姆乳房那份奢华的饱满实在令人赞叹，是其独特生理与鲜活体态的明证。</li>
@@ -1224,11 +1214,11 @@
     <li>{PAWN_nameShort}的史莱姆乳房有着惊人的饱满，那天然无定形的轮廓与轻柔的起伏，实在是动人的特征。</li>
     <li>{PAWN_nameShort}的丰盈的黏液乳房颇为悦目，那讨喜的分量与柔软安心、流动的模样。</li>
     <li>她那硕大的史莱姆乳房优美地垂着，可观的尺寸透出成熟的优雅与充分的安适，还泛着令人着迷的微光。</li>
-    <li>{PAWN_nameShort}的 史莱姆乳房那迷人的弹跳与饱满轮廓令人赏心悦目，彰显着它们独特的活力与温柔魅力。</li>
+    <li>{PAWN_nameShort}的史莱姆乳房那迷人的弹跳与饱满轮廓令人赏心悦目，彰显着它们独特的活力与温柔魅力。</li>
     <li>{PAWN_nameShort}的丰腴的史莱姆胸部看着真是种享受，那份丰腴配上优雅、自然、流动的晃荡。</li>
     <li>如此精致的展示！{PAWN_nameShort}的硕大的史莱姆乳房浑圆完美，展现出悦人的对称与柔软诱人、波光粼粼的外观。</li>
     <li>{PAWN_nameShort}的由活体史莱姆构成的胸部那宽宏的比例相当惹眼，乳房看起来柔韧而丰盈优美。</li>
-    <li>{PAWN_nameShort}的史莱姆乳房是壮丽的景象，可人的尺寸与优雅的形态，因那天然、动人而半透明的呈现更显出色。</li>
+    <li>{PAWN_nameShort}的史莱姆乳房是壮丽的景象，可人的尺寸与优雅的形态，因那天然、动人而半透明的姿态更显出色。</li>
     <li>真正诱人的一幕，{PAWN_nameShort}的丰满的史莱姆乳房饱满得恰到好处，自然的颤动令人愉悦，曲线诱人而流动。</li>
     <li>{PAWN_nameShort}的壮丽的史莱姆乳房展现出迷人的饱满与柔软诱人、泛着微光的外观，是自然而异世界之美的真正画面。</li>
   </Opinion_Breasts_Positive_Large_SlimeBreasts.opinionTexts>
@@ -1272,7 +1262,7 @@
     <li>{PAWN_nameShort}的乳房相当丰满，却仍保有迷人的柔软和自然动人的姿态。非常惊艳，也令人安心。</li>
     <li>好一对绝妙的乳房！{PAWN_nameShort}的硕大的乳房饱满得令人欢喜，外观柔软又给人安慰。比例真是恰到好处，又温暖。</li>
     <li>{PAWN_nameShort}的丰满的乳房相当动人，轮廓优美，手感柔软得令人安心。真正经典而温厚的女性形态。</li>
-    <li>真是一对充实的乳房。{PAWN_nameShort}的胸脯拥有悦目的丰满与温柔自然的呈现，邀请着温暖。</li>
+    <li>真是一对充实的乳房。{PAWN_nameShort}的胸脯拥有悦目的丰满与温柔自然的姿态，邀请着温暖。</li>
     <li>如此惊人的份量。{PAWN_nameShort}的乳房形态迷人，优雅地晃动着，柔软诱人的颤动让人感到亲切。</li>
     <li>{PAWN_nameShort}的饱满优美的乳房十分可观，漂亮地垂在{PAWN_possessive}胸前，是一幅自然优雅而温柔的画。</li>
     <li>{PAWN_nameShort}的乳房那奢华的饱满实在令人赞叹，是健康青春与鲜活而娇柔体态的明证。</li>
@@ -1286,11 +1276,11 @@
     <li>{PAWN_nameShort}的乳房有着惊人的饱满，那自然的形状与轻柔的起伏真是迷人的特征，柔软而诱人。</li>
     <li>{PAWN_nameShort}的丰盈的乳房颇为悦目，那讨喜的分量与柔软安心的模样，让人感到安心。</li>
     <li>她那硕大的乳房优美地垂着，可观的尺寸透出成熟的优雅与充分的安适，散发着温柔的暖意。</li>
-    <li>{PAWN_nameShort}的 乳房那迷人的弹跳与饱满轮廓令人赏心悦目，彰显着青春活力与温柔魅力。</li>
+    <li>{PAWN_nameShort}的乳房那迷人的弹跳与饱满轮廓令人赏心悦目，彰显着青春活力与温柔魅力。</li>
     <li>{PAWN_nameShort}的丰腴的酥胸看着真是种享受，那份丰腴配上优雅自然的晃动，唤起一阵暖意。</li>
     <li>如此精致的展示！{PAWN_nameShort}的硕大的乳房浑圆完美，展现出悦人的对称，以及柔软诱人的外观，充满温柔。</li>
     <li>{PAWN_nameShort}的胸部那宽宏的比例相当惹眼，乳房看起来柔韧而丰盈优美，带来一种令人安心的存在感。</li>
-    <li>{PAWN_nameShort}的乳房是绝妙的景象，那令人欣喜的尺寸与优雅的形态，更因自然诱人的呈现而增色，散发着温柔之美。</li>
+    <li>{PAWN_nameShort}的乳房是绝妙的景象，那令人欣喜的尺寸与优雅的形态，更因自然诱人的姿态而增色，散发着温柔之美。</li>
     <li>真正诱人的一幕，{PAWN_nameShort}的丰满的乳房饱满得恰到好处，自然的颤动令人愉悦，曲线诱人，给人以慰藉。</li>
     <li>{PAWN_nameShort}的壮丽的乳房展现出迷人的饱满与柔软诱人的外观，是自然之美与温暖的真正画面。</li>
   </Opinion_Breasts_Positive_Large_trait_Kind.opinionTexts>
@@ -1300,7 +1290,7 @@
     <li>{PAWN_nameShort}的挺着{PAWN_possessive}硕大乳房时那份十足的自信令人振奋，我想分享我自己的身体。</li>
     <li>{PAWN_nameShort}的胸脯如此丰盛，让我忍不住想脱光衣服加入进去。</li>
     <li>真正引人入胜的一幕，{PAWN_nameShort}的乳房让我急切地想暴露自己。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此坦然，是对展露自己的一份有力邀请。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此坦然，是对展露自己的一份有力邀请。</li>
     <li>看到{PAWN_nameShort}的硕大的胸部，我心中涌起强烈的冲动，想展露自己的身体。</li>
     <li>{PAWN_nameShort}的乳房简直神圣，让我觉得大胆，准备好展示一切。</li>
     <li>这景象刺激至极，我需要分享自己那壮丽的身体。</li>
@@ -1328,7 +1318,7 @@
     <li>{PAWN_nameShort}的硕大的乳房真是壮丽的展示！如此自信地炫耀着丰满而令人愉悦的曲线。</li>
     <li>{PAWN_nameShort}的胸部那宽宏的隆起简直惊艳。看到如此华丽的乳房骄傲地展现出来，令人兴奋不已。</li>
     <li>多么辉煌的一场表演！{PAWN_nameShort}的壮丽而饱满的乳房被完美地展示出来，邀请所有目光前来赞叹。</li>
-    <li>{PAWN_nameShort}的乳房大得令人叹服，展示得也美。看到这样大胆而诱人的呈现真叫人兴奋。</li>
+    <li>{PAWN_nameShort}的乳房大得令人叹服，展示得也美。看到这样大胆而诱人的姿态真叫人兴奋。</li>
     <li>{PAWN_nameShort}的乳房如此坦然地展现，令人着迷。那柔软丰腴的形态是众人的乐事。</li>
     <li>真是一幅壮观的景象！{PAWN_nameShort}的丰盈的乳房以如此奔放的优雅移动。一场大胆而美丽的展示。</li>
     <li>{PAWN_nameShort}的傲人的乳房，如此自信地展现出来，深深吸引着我。它们迷人的颤动令人赏心悦目。</li>
@@ -1363,7 +1353,7 @@
     <li>光是看着{PAWN_nameShort}的乳房我就欲火高涨；我想露出自己肿胀的外阴。</li>
     <li>这景象令人彻底触电，让我想让自己的乳房自由而诱人地垂着。</li>
     <li>{PAWN_nameShort}的丰腴的乳房是一座灯塔，催促我炫耀自己的女性力量。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此毫无羞惭，让我想要袒露自己的身体。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此毫无羞惭，让我想要袒露自己的身体。</li>
     <li>看到{PAWN_nameShort}的壮观的胸脯，我的阴蒂因期待而搏动。我也想把自己的拿出来炫耀。</li>
     <li>看到{PAWN_nameShort}的硕大的乳房后，一股冲动攫住了我，让我想展露自己美丽的裸体。</li>
     <li>多么好的一对！它让我想昂首挺胸、自豪地展示自己的本钱。</li>
@@ -1372,8 +1362,8 @@
     <li>这真让人兴奋！{PAWN_nameShort}的胸部让我想要炫耀自己美丽的乳沟，还有更多。</li>
     <li>{PAWN_nameShort}的硕大乳房那无拘无束的美，让我急切地想亮出自己湿漉漉的地方。</li>
     <li>当我想象自己袒露身体时，我几乎能感觉到那些目光落在我身上，这都是被{PAWN_nameShort}的展示所启发。</li>
-    <li>看着 {PAWN_nameShort}的 的乳房，我热血奔涌。我得让所有人看看我自己的身体。</li>
-    <li>{PAWN_nameShort}的 硕大乳房那自信的展示，是我暴露癖欲望的强大动力。</li>
+    <li>看着 {PAWN_nameShort}乳房，我热血奔涌。我得让所有人看看我自己的身体。</li>
+    <li>{PAWN_nameShort}的硕大乳房那自信的展示，是我暴露癖欲望的强大动力。</li>
     <li>我深切渴望被看见，就像{PAWN_nameShort}正被看见那样，也许还该把我的外阴露出来。</li>
     <li>{PAWN_nameShort}的乳房如此撩人，唤醒了我内心原始的需求，要露出我的私密部位。</li>
     <li>如此迷人的景象，让我的阴道紧缩，生出一股渴望被欣赏的强烈欲望。</li>
@@ -1425,7 +1415,7 @@
     <li>光是看着{PAWN_nameShort}的乳房我就硬了，我得炫耀一下自己的勃起。</li>
     <li>这景象令人触电般兴奋，让我想脱下裤子，加入这场展示。</li>
     <li>{PAWN_nameShort}的丰腴的乳房是一座灯塔，催促我炫耀自己坚硬的阴茎。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此毫无羞惭，让我想要展露自己的裸体。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此毫无羞惭，让我想要展露自己的裸体。</li>
     <li>看到{PAWN_nameShort}的壮观的胸脯，我的鸡巴因期待而抽动。我也想把自己的拿出来炫耀。</li>
     <li>看到{PAWN_nameShort}的硕大的乳房后，一股冲动攫住了我，让我想展露自己雄健的男性气概。</li>
     <li>多么好的一对！它让我想昂首挺胸、自豪地展示自己的本钱。</li>
@@ -1434,8 +1424,8 @@
     <li>这真让人兴奋！{PAWN_nameShort}的胸部让我想要炫耀自己搏动的茎身。</li>
     <li>{PAWN_nameShort}的硕大乳房那无拘无束的美，让我急切地想亮出自己硬挺的阴茎。</li>
     <li>当我想象自己袒露身体时，我几乎能感觉到那些目光落在我身上，这都是被{PAWN_nameShort}的展示所启发。</li>
-    <li>看着 {PAWN_nameShort}的 的乳房，我热血奔涌。我得让所有人看看我的本钱。</li>
-    <li>{PAWN_nameShort}的 硕大乳房那自信的展示，是我暴露癖欲望的强大动力。</li>
+    <li>看着 {PAWN_nameShort}乳房，我热血奔涌。我得让所有人看看我的本钱。</li>
+    <li>{PAWN_nameShort}的硕大乳房那自信的展示，是我暴露癖欲望的强大动力。</li>
     <li>我深切渴望被看见，就像{PAWN_nameShort}正被看见那样，也许还该把我的鸡巴掏出来。</li>
     <li>{PAWN_nameShort}的乳房如此撩人，唤醒了我内心原始的需求，要露出我的生殖器。</li>
     <li>如此迷人的景象，让我的鸡巴胀起，生出一股渴望被欣赏的强烈欲望。</li>
@@ -1485,7 +1475,7 @@
     <li>{PAWN_nameShort}的丰盈的胸脯在我心中激起强烈的饥渴。</li>
     <li>{PAWN_nameShort}的胸脯那纯粹的性感把我彻底压垮，我一定要得到它们。</li>
     <li>那对撩人的乳房让我因欲望而酸胀，我满脑子再想不了别的。</li>
-    <li>我全身发麻，被 {PAWN_nameShort}的 硕大乳房的强大诱惑所吞噬。</li>
+    <li>我全身发麻，被 {PAWN_nameShort}的硕大乳房的强大诱惑所吞噬。</li>
     <li>光是看着{PAWN_nameShort}的那壮丽的乳沟，我就因需要而全身发颤。</li>
     <li>{PAWN_nameShort}的乳房胀起弹跳的样子让我心神不定，我需要感受它们。</li>
     <li>{PAWN_nameShort}的那无比淫靡的胸部让我性唤起达到沸点。</li>
@@ -1672,7 +1662,7 @@
     <li>老实说，{PAWN_pronoun}为什么非得这么公开地展示这么丰腴的乳房？真够俗气的。</li>
     <li>它们确实大，可谈不上有品味。有点过了，你说呢？</li>
     <li>{PAWN_nameShort}的乳房确实很大，如果你喜欢那种……展示的话。</li>
-    <li>人几乎无法避开 {PAWN_nameShort}的 那可观的胸脯。说实话，太多了。</li>
+    <li>人几乎无法避开 {PAWN_nameShort}的那可观的胸脯。说实话，太多了。</li>
     <li>{PAWN_nameShort}的乳房的尺寸令人分心。我觉得相当不得体。</li>
     <li>它们……就在那儿。而且挺硕大。还有什么可说？</li>
     <li>{PAWN_nameShort}的乳房相当丰满。有点令人吃不消。</li>
@@ -1680,7 +1670,7 @@
     <li>如此硕大的胸部，几乎不给人留任何想象余地。我更喜欢含蓄些的。</li>
     <li>{PAWN_nameShort}的乳房确实相当显眼。或许有点太显眼了。</li>
     <li>{PAWN_nameShort}的胸部的尺寸相当突出。真快要算是不成体统了。</li>
-    <li>人无法否认 {PAWN_nameShort}的 乳房相当丰满。倒不是说这是件好事。</li>
+    <li>人无法否认 {PAWN_nameShort}的乳房相当丰满。倒不是说这是件好事。</li>
     <li>它们确实硕大。要我说，对体面社会而言太大了。</li>
     <li>我觉得{PAWN_nameShort}的乳房在尺寸上相当……不端庄。</li>
     <li>{PAWN_nameShort}的胸部的规模有点粗俗。</li>
@@ -1821,18 +1811,18 @@
     <li>我忍不住凝视，心中满是赞叹与一股强烈而女性化的渴望。</li>
     <li>{PAWN_nameShort}的乳房是形态上绝对的胜利，让我感到难以言喻的火热。</li>
     <li>看着{PAWN_nameShort}的硕大的乳房，我的外阴因愉悦的期待而抽动。</li>
-    <li>哦，{PAWN_nameShort}的 硕大的乳房简直惊艳！它们摆动的样子如此迷人，我感到一股愉悦的暖意在自己胸中蔓延。</li>
+    <li>哦，{PAWN_nameShort}的硕大的乳房简直惊艳！它们摆动的样子如此迷人，我感到一股愉悦的暖意在自己胸中蔓延。</li>
     <li>多么辉煌的景象！{PAWN_nameShort}的丰满的胸部如此饱满圆润，让我自己的乳房也泛起一阵共鸣般的酥麻。真令人振奋。</li>
     <li>她那壮丽饱满的乳房是件艺术品！柔软顺从的曲线令人神迷，我感到体内深处一阵愉悦的悸动。</li>
     <li>{PAWN_nameShort}的胸部那宽宏的隆起简直神圣。它们自然的颤动令人着迷，我感到双腿间一阵愉悦的酸胀。</li>
     <li>如此华美、丰满的胸部！{PAWN_nameShort}的乳房是柔美之美的化身，我几乎能感受到那悦人的重量，实在令人兴奋。</li>
     <li>{PAWN_nameShort}的丰满的乳房实在令人着迷，以诱人的优雅轻轻摇晃。那是真正女性形态的愉悦提醒，在我体内点燃一阵暖意。</li>
-    <li>哎哟，那可真是惊人！{PAWN_nameShort}的 硕大的乳房柔软地晃动，那模样实在可爱，勾起我体内的一股暖意，还有一丝湿润。</li>
+    <li>哎哟，那可真是惊人！{PAWN_nameShort}的硕大的乳房柔软地晃动，那模样实在可爱，勾起我体内的一股暖意，还有一丝湿润。</li>
     <li>看到{PAWN_nameShort}的美丽丰满的乳房颇为撩人，那是青春丰饶的荣耀典范，激起了我最深处的欲望。</li>
     <li>她那壮丽饱满的乳房是件艺术品。它们随{PAWN_possessive}身体晃动的样子实在迷人，让我满怀赞叹，浑身一阵酥麻。</li>
     <li>{PAWN_nameShort}的丰盈的胸部简直惊艳。那柔软而顺从的质感深深打动着我的感官，让我阵阵发胀。</li>
     <li>多么好的一对！{PAWN_nameShort}的硕大的乳房形状完美，优雅的晃动在我自己女性深处激起一阵共鸣般的悸动。</li>
-    <li>{PAWN_nameShort}的 乳房的丰满体量真令人赞叹。它们是女性魅力的绝佳证明，我能感到自己的身体在回应。</li>
+    <li>{PAWN_nameShort}的乳房的丰满体量真令人赞叹。它们是女性魅力的绝佳证明，我能感到自己的身体在回应。</li>
     <li>她那醒目的饱满乳房是赏心悦目的壮丽景象。它们带着令人安心的分量与诱人的摇晃，让我渴望自己的也能有那种感觉。</li>
     <li>{PAWN_nameShort}的丰腴的胸部实在令人愉悦，她那柔软浑圆的乳房曲线百看不厌，对我这女性的目光而言极其挑动情欲。</li>
     <li>多么壮丽的大乳房！它们以迷人的节奏移动，在我自己体内唤起一阵愉悦而熟悉的感觉，一种无法否认的渴望。</li>
@@ -1844,11 +1834,11 @@
     <li>{PAWN_nameShort}的乳房有着惊人的饱满，那自然的形状与轻柔的起伏真是迷人的特征，激起深切的赞赏与欲望。</li>
     <li>{PAWN_nameShort}的丰盈的乳房颇为悦目，那讨喜的分量与柔软安心的模样，让一阵美妙的暖意蔓延开来。</li>
     <li>她那硕大的乳房优美地垂着，可观的尺寸透出成熟的优雅与充分的安适，让我感到一种深沉的、情欲的联结。</li>
-    <li>{PAWN_nameShort}的 乳房那迷人的弹跳与饱满轮廓令人赏心悦目，彰显着青春活力，也撩起一阵美妙的酸胀。</li>
+    <li>{PAWN_nameShort}的乳房那迷人的弹跳与饱满轮廓令人赏心悦目，彰显着青春活力，也撩起一阵美妙的酸胀。</li>
     <li>{PAWN_nameShort}的丰腴的酥胸看着真是种享受，那份丰腴配上优雅自然的晃动，唤起一种深沉的、属于女性的性唤起。</li>
     <li>如此精致的展示！{PAWN_nameShort}的硕大的乳房浑圆完美，展现出悦人的对称，以及柔软诱人的外观，让我私密之处阵阵酥麻。</li>
     <li>{PAWN_nameShort}的胸部那宽宏的比例相当惹眼，乳房看起来柔韧而丰盈优美，点燃了一股强烈而充满欣赏的渴望。</li>
-    <li>{PAWN_nameShort}的乳房是绝妙的景象，那令人欣喜的尺寸与优雅的形态，更因自然诱人的呈现而增色，激起深沉的女性欲望。</li>
+    <li>{PAWN_nameShort}的乳房是绝妙的景象，那令人欣喜的尺寸与优雅的形态，更因自然诱人的姿态而增色，激起深沉的女性欲望。</li>
     <li>真正诱人的一幕，{PAWN_nameShort}的丰满的乳房饱满得恰到好处，自然的颤动令人愉悦，曲线诱人，激起强烈的反应。</li>
     <li>{PAWN_nameShort}的壮丽的乳房展现出迷人的饱满与柔软诱人的外观，是自然之美的真正画面，让我自己的身体也随之渴求。</li>
   </Opinion_Breasts_Positive_Large_trait_Voyeur_F.opinionTexts>
@@ -1871,7 +1861,7 @@
     <li>那不只是乳房，那是感官享受的纪念碑，我的身体在剧烈反应。</li>
     <li>{PAWN_nameShort}的乳沟深得如此诱人，几乎令人无法抗拒。</li>
     <li>{PAWN_nameShort}的那对大乳房强烈的诱惑把我彻底压垮。</li>
-    <li>{PAWN_nameShort}的乳房的呈现方式如此骄傲而饱满，让我隐隐作痛。</li>
+    <li>{PAWN_nameShort}的乳房的姿态方式如此骄傲而饱满，让我隐隐作痛。</li>
     <li>我只能想象把自己贴向{PAWN_nameShort}的那丰盈胸部时的快感。</li>
     <li>看着{PAWN_nameShort}的硕大的乳房，我体内燃起一把火，一份深沉灼热的饥渴。</li>
     <li>我全身发麻，被探索{PAWN_nameShort}的迷人胸脯的欲望所吞噬。</li>
@@ -1974,7 +1964,7 @@
     <li>突然，{PAWN_nameShort}的赤裸的胸部。相当自然，带着多年养成的沉静韧性。</li>
     <li>了然的一瞥投向她的平坦胸部。乳头分明；一个与自己身体和解的女人，老得优雅。</li>
     <li>她那平坦的乳房和轮廓分明的乳头相当普通，映出一种从容而自然的成熟。</li>
-    <li>我观察着{PAWN_nameShort}的外露的平坦胸部；乳头突出，一副直白的呈现。</li>
+    <li>我观察着{PAWN_nameShort}的外露的平坦胸部；乳头突出，一副直白的姿态。</li>
     <li>看着{PAWN_nameShort}的露出的平坦胸部，我看到一个熟悉的形状，乳头就那样在那里。</li>
     <li>她那隐约可见的平坦乳房配上硬挺的乳头，拥有一种安静而朴素的力量。</li>
     <li>{PAWN_nameShort}的胸口那片平坦的画布，配着醒目的乳头，是一份清晰而成熟的展示。</li>
@@ -2060,7 +2050,7 @@
     <li>她那平坦的胸部虽然露在外面，即便上了年纪也有一种干净的美感；乳头就那样坦然地在那儿。不过，还是有几分伤风败俗。</li>
     <li>{PAWN_nameShort}的平坦的乳房露在外面。乳头当然看得一清二楚。这相当……直接，即便她这年纪也是如此。</li>
     <li>突然，{PAWN_nameShort}的身体露了出来。虽然她平坦的胸部与乳头都算含蓄，这仍是一幕相当令人震惊的展示。</li>
-    <li>意外的一幕，她平坦的胸部。乳头相当明显。对年迈者而言，这是非常坦率的呈现。</li>
+    <li>意外的一幕，她平坦的胸部。乳头相当明显。对年迈者而言，这是非常坦率的姿态。</li>
     <li>她那平坦的乳房和轮廓分明的乳头确实引人注目。我想，对这么一把年纪的人来说，这算是一种宣言——虽说毫无保留。</li>
     <li>我承认{PAWN_nameShort}的裸露的平坦胸部；那乳头相当显眼。即便在她这高龄，也……颇为突出。</li>
     <li>看着{PAWN_nameShort}的露出的平坦胸部，我注意到乳头确实存在。或许不如别人的那么显眼。</li>
@@ -2073,7 +2063,7 @@
     <li>平坦胸部的直白视角，可见的乳头相当显眼。颇为大胆。</li>
     <li>多么意外的景象，这位年长女人平坦的胸部。那尖挺的乳头和紧致的乳晕确实……毫不遮掩。</li>
     <li>{PAWN_nameShort}的平坦的胸部有种坦白的直露感。说实话，她的乳头露在外面，这一点无可否认。</li>
-    <li>她那平坦的乳房相当朴素，乳头轮廓分明。这是一种毫无保留的呈现。</li>
+    <li>她那平坦的乳房相当朴素，乳头轮廓分明。这是一种毫无保留的姿态。</li>
     <li>瞥见{PAWN_nameShort}的平坦的胸部，我注意到它毫无装饰，而乳头却格外醒目。</li>
     <li>她那平坦的胸部与突出的乳头无可否认地一览无余。真是毫无悬念可言。</li>
     <li>{PAWN_nameShort}的平坦的胸部除了那对醒目的乳头别无装饰，无可否认地暴露在外。</li>
@@ -2084,7 +2074,7 @@
     <li>突然，{PAWN_nameShort}的赤裸的胸部。相当含蓄，但乳头的轮廓清晰而永恒。</li>
     <li>有趣的一幕：年迈女性的平坦胸部。乳头分明；也许有朝一日我也能这般从容。</li>
     <li>她那平坦的乳房和轮廓分明的乳头相当普通，却也十分自然、毫不做作。</li>
-    <li>我观察着{PAWN_nameShort}的外露的平坦胸部；乳头突出，是自然衰老最直白的呈现。</li>
+    <li>我观察着{PAWN_nameShort}的外露的平坦胸部；乳头突出，是自然衰老最直白的姿态。</li>
     <li>看着{PAWN_nameShort}的露出的平坦胸部，我看到那份不张扬。乳头就那样在那里，优雅地老去。</li>
     <li>她那隐约可见的平坦乳房配上硬挺的乳头，就是……很正常。没什么特别，只是活过。</li>
     <li>{PAWN_nameShort}的胸口那片平坦的画布，配着醒目的乳头，是一份清晰、不加修饰的成熟展示。</li>
@@ -2128,7 +2118,7 @@
     <li>突然，{PAWN_nameShort}的赤裸的胸部。相当普通，却以她这个年纪的女人来说带着一份沉静的自信。</li>
     <li>了然的一瞥投向她的平坦胸部。乳头分明；一个连年迈时也拥抱自己自然身形的女人。</li>
     <li>她那平坦的乳房和轮廓分明的乳头相当普通，映出一种从容而自然的成熟。</li>
-    <li>我观察着{PAWN_nameShort}的外露的平坦胸部；乳头突出，一副直白的呈现。</li>
+    <li>我观察着{PAWN_nameShort}的外露的平坦胸部；乳头突出，一副直白的姿态。</li>
     <li>看着{PAWN_nameShort}的露出的平坦胸部，我看到一个熟悉的形状，乳头就那样在那里。</li>
     <li>她那隐约可见的平坦乳房配上硬挺的乳头，拥有一种安静而朴素的力量。</li>
     <li>{PAWN_nameShort}的胸口那片平坦的画布，配着醒目的乳头，是一份清晰而成熟的展示。</li>
@@ -2376,7 +2366,7 @@
     <li>突然，{PAWN_nameShort}的赤裸的胸部。相当自然，以她这个年纪的女人来说，带着一份沉静的韧性。</li>
     <li>了然的一瞥投向她的平坦胸部。乳头分明；一个与自己身体和解的女人。</li>
     <li>她那平坦的乳房和轮廓分明的乳头相当普通，映出一种从容而自然的成熟。</li>
-    <li>我观察着{PAWN_nameShort}的外露的平坦胸部；乳头突出，一副直白的呈现。</li>
+    <li>我观察着{PAWN_nameShort}的外露的平坦胸部；乳头突出，一副直白的姿态。</li>
     <li>看着{PAWN_nameShort}的露出的平坦胸部，我看到一个熟悉的形状，乳头就那样在那里。</li>
     <li>她那隐约可见的平坦乳房配上硬挺的乳头，拥有一种安静而朴素的力量。</li>
     <li>{PAWN_nameShort}的胸口那片平坦的画布，配着醒目的乳头，是一份清晰而成熟的展示。</li>
@@ -2462,7 +2452,7 @@
     <li>她那平坦的胸部虽然露在外面，却有一种干净的美感；乳头就那样坦然地在那儿。不过，还是有几分伤风败俗。</li>
     <li>{PAWN_nameShort}的平坦的乳房露在外面。乳头当然看得一清二楚。这相当……直接，不过我想也算自然。</li>
     <li>突然，{PAWN_nameShort}的身体露了出来。虽然她平坦的胸部与乳头都算含蓄，这仍是一幕相当令人震惊的展示。</li>
-    <li>意外的一幕，她平坦的胸部。乳头相当明显。这是非常坦率的呈现。</li>
+    <li>意外的一幕，她平坦的胸部。乳头相当明显。这是非常坦率的姿态。</li>
     <li>她那平坦的乳房和轮廓分明的乳头确实引人注目。我想，这算是一种宣言——虽说毫无保留。</li>
     <li>我承认{PAWN_nameShort}的裸露的平坦胸部；那乳头相当显眼。颇为突出。</li>
     <li>看着{PAWN_nameShort}的露出的平坦胸部，我注意到乳头确实存在。或许不如别人的那么显眼。</li>
@@ -2475,7 +2465,7 @@
     <li>平坦胸部的直白视角，可见的乳头相当显眼。颇为大胆。</li>
     <li>多么意外的景象，这位成熟女人平坦的胸部。那尖挺的乳头和紧致的乳晕确实……毫不遮掩。</li>
     <li>{PAWN_nameShort}的平坦的胸部有种坦白的直露感。说实话，她的乳头露在外面，这一点无可否认。</li>
-    <li>她那平坦的乳房相当朴素，乳头轮廓分明。这是一种毫无保留的呈现。</li>
+    <li>她那平坦的乳房相当朴素，乳头轮廓分明。这是一种毫无保留的姿态。</li>
     <li>瞥见{PAWN_nameShort}的平坦的胸部，我注意到它毫无装饰，而乳头却格外醒目。</li>
     <li>她那平坦的胸部与突出的乳头无可否认地一览无余。真是毫无悬念可言。</li>
     <li>{PAWN_nameShort}的平坦的胸部除了那对醒目的乳头别无装饰，无可否认地暴露在外。</li>
@@ -2486,7 +2476,7 @@
     <li>突然，{PAWN_nameShort}的赤裸的胸部。相当含蓄，但乳头的轮廓清晰。</li>
     <li>有趣的一幕：成熟女性的平坦胸部。乳头分明；也许有朝一日我也会变成那样。</li>
     <li>她那平坦的乳房和轮廓分明的乳头相当普通，却也十分自然。</li>
-    <li>我观察着{PAWN_nameShort}的外露的平坦胸部；乳头突出，一副直白的呈现。</li>
+    <li>我观察着{PAWN_nameShort}的外露的平坦胸部；乳头突出，一副直白的姿态。</li>
     <li>看着{PAWN_nameShort}的露出的平坦胸部，我看到那份不张扬。乳头就那样在那里。</li>
     <li>她那隐约可见的平坦乳房配上硬挺的乳头，就是……很正常。没什么特别。</li>
     <li>{PAWN_nameShort}的胸口那片平坦的画布，配着醒目的乳头，是一份清晰、不加修饰的展示。</li>
@@ -2530,7 +2520,7 @@
     <li>突然，{PAWN_nameShort}的赤裸的胸部。相当普通，却以她这个年纪的女人来说带着一份沉静的自信。</li>
     <li>了然的一瞥投向她的平坦胸部。乳头分明；一个拥抱自己自然身形的女人。</li>
     <li>她那平坦的乳房和轮廓分明的乳头相当普通，映出一种从容的成熟。</li>
-    <li>我观察着{PAWN_nameShort}的外露的平坦胸部；乳头突出，一副直白的呈现。</li>
+    <li>我观察着{PAWN_nameShort}的外露的平坦胸部；乳头突出，一副直白的姿态。</li>
     <li>看着{PAWN_nameShort}的露出的平坦胸部，我看到一个熟悉的形状，乳头就那样在那里。</li>
     <li>她那隐约可见的平坦乳房配上硬挺的乳头，拥有一种安静而朴素的力量。</li>
     <li>{PAWN_nameShort}的胸口那片平坦的画布，配着醒目的乳头，是一份清晰而成熟的展示。</li>
@@ -2687,7 +2677,7 @@
     <li>那乳头如此诱人，让我也想亮出自己的曲线。</li>
     <li>{PAWN_nameShort}的身体是一件艺术品，而我也在添上自己这块活生生的画布。</li>
     <li>多亏{PAWN_nameShort}的大胆的展示，我也来秀一秀自己引以为傲的宝贝。</li>
-    <li>{PAWN_nameShort}的 胸部散发出的自信令人惊叹，我也用自己的胸部与之一较高下。</li>
+    <li>{PAWN_nameShort}的胸部散发出的自信令人惊叹，我也用自己的胸部与之一较高下。</li>
     <li>{PAWN_nameShort}的乳头是一座灯塔，呼唤着彼此的展示。</li>
     <li>我有一股强烈的冲动，想脱光衣服，和{PAWN_nameShort}一起庆祝这一刻。</li>
     <li>{PAWN_nameShort}的裸体令人沉醉；我准备好袒露我自己身体的全部。</li>
@@ -2699,7 +2689,7 @@
     <li>这才是精髓所在！{PAWN_nameShort}的胸部和我自己的，一起绽放荣光。</li>
     <li>我爱这种因{PAWN_nameShort}的坦然的展露而袒露自己的刺激感。</li>
     <li>{PAWN_nameShort}的胸部如此诱人，让我也想炫耀自己的本钱。</li>
-    <li>我的乳房向 {PAWN_nameShort}的 惊人的乳头致敬。</li>
+    <li>我的乳房向 {PAWN_nameShort}的惊人的乳头致敬。</li>
     <li>{PAWN_nameShort}的那份毫不掩饰的自信让我着迷，那种气场会传染。</li>
     <li>{PAWN_nameShort}的乳头是自爱的明证，我也在分享自己的。</li>
     <li>多亏了{PAWN_nameShort}，这一刻是纯粹而不掺水的暴露癖。</li>
@@ -2719,7 +2709,7 @@
     <li>那乳头如此诱人，让我也想炫耀自己的本钱。</li>
     <li>{PAWN_nameShort}的身体是一件艺术品，而我也在为画廊添一笔。</li>
     <li>多亏{PAWN_nameShort}的大胆的展示，我也来秀一秀自己引以为傲的宝贝。</li>
-    <li>{PAWN_nameShort}的 胸部散发出的自信令人惊叹，我也与之一较高下。</li>
+    <li>{PAWN_nameShort}的胸部散发出的自信令人惊叹，我也与之一较高下。</li>
     <li>{PAWN_nameShort}的乳头是一座灯塔，呼唤着彼此的展示。</li>
     <li>我有一股强烈的冲动，想脱光衣服，和{PAWN_nameShort}一起庆祝这一刻。</li>
     <li>{PAWN_nameShort}的裸体令人沉醉；我准备好袒露一切。</li>
@@ -2758,7 +2748,7 @@
     <li>{PAWN_nameShort}的平坦的胸部竟是我一整天见过最色情的东西。</li>
     <li>看到{PAWN_nameShort}的乳房时我无法控制自己的冲动。</li>
     <li>{PAWN_nameShort}的胸部的每一寸都在尖叫着纯粹无杂的性感。</li>
-    <li>我的身体为 {PAWN_nameShort}的 的乳头而灼烧。</li>
+    <li>我的身体为 {PAWN_nameShort}乳头而灼烧。</li>
     <li>我对{PAWN_nameShort}的身体升起无法满足的渴求。</li>
     <li>{PAWN_nameShort}的乳头是纯粹的诱惑，让我心神不宁。</li>
     <li>{PAWN_nameShort}的胸部周围的空气弥漫着性唤起的气息。</li>
@@ -2790,7 +2780,7 @@
     <li>{PAWN_nameShort}的平坦的胸部竟是最色情的东西，我的身体渴望着触碰。</li>
     <li>看到{PAWN_nameShort}的乳房时我无法控制自己的冲动，我的大腿在颤抖。</li>
     <li>{PAWN_nameShort}的胸部的每一寸都在尖叫着纯粹无杂的性感，我整个人都起了反应。</li>
-    <li>我的身体为 {PAWN_nameShort}的 的乳头而灼烧，我的下身也在燃烧。</li>
+    <li>我的身体为 {PAWN_nameShort}乳头而灼烧，我的下身也在燃烧。</li>
     <li>我对{PAWN_nameShort}的身体升起无法满足的渴求，我自己的需求高于一切。</li>
     <li>{PAWN_nameShort}的乳头是纯粹的诱惑，让我心神不宁、深处隐痛。</li>
     <li>{PAWN_nameShort}的胸部周围的空气弥漫着性唤起的气息，我的感官也随之变得敏锐。</li>
@@ -2822,7 +2812,7 @@
     <li>{PAWN_nameShort}的平坦的胸部竟是最色情的东西，我的鸡巴要人伺候。</li>
     <li>看到{PAWN_nameShort}的乳房时我无法控制自己的冲动，我的勃起根本无法遮掩。</li>
     <li>{PAWN_nameShort}的胸部的每一寸都在尖叫着纯粹无杂的性感，我的鸡巴就是证明。</li>
-    <li>我的身体为 {PAWN_nameShort}的 的乳头而灼烧，我的鸡巴一马当先。</li>
+    <li>我的身体为 {PAWN_nameShort}乳头而灼烧，我的鸡巴一马当先。</li>
     <li>我对{PAWN_nameShort}的身体升起无法满足的渴求，我的裤子绷得紧紧的。</li>
     <li>{PAWN_nameShort}的乳头是纯粹的诱惑，让我心神不宁、并带来痛苦的勃起。</li>
     <li>{PAWN_nameShort}的胸部周围的空气弥漫着性唤起的气息，我的鸡巴对此心知肚明。</li>
@@ -2891,7 +2881,7 @@
     <li>{PAWN_nameShort}的乳头每一次细微的动作，都是一点小小的启示。</li>
     <li>仅仅是看着{PAWN_nameShort}的胸部，我获得巨大的快感。</li>
     <li>{PAWN_nameShort}的乳头轮廓如此优美，真是一场视觉盛宴。</li>
-    <li>{PAWN_nameShort}的胸部的呈现方式完全迷人。</li>
+    <li>{PAWN_nameShort}的胸部的姿态方式完全迷人。</li>
     <li>我可以花上一整天观察{PAWN_nameShort}的乳头上那些细微的变化。</li>
     <li>{PAWN_nameShort}的裸体是献给懂得欣赏真正之美的人的礼物。</li>
     <li>看着{PAWN_nameShort}的乳头，让我心跳加快了几分。</li>
@@ -3024,7 +3014,7 @@
     <li>真是一幅可爱的景象：{PAWN_nameShort}的小巧的乳房散发着天真无邪的魅力。它们紧实的结构与微妙的细节令人赞赏。</li>
     <li>{PAWN_nameShort}的胸部小巧优雅，完美衬托出{PAWN_possessive}身形。乳头轮廓精致。</li>
     <li>{PAWN_nameShort}的小巧乳房那含蓄的美无可否认。它们被雕琢得完美无瑕，勾勒出和谐诱人的轮廓。</li>
-    <li>{PAWN_nameShort}的 小巧的乳房整齐有形，有着令人愉悦的紧实。它们是 {PAWN_possessive} 纤细身材上优雅的点缀。</li>
+    <li>{PAWN_nameShort}的小巧的乳房整齐有形，有着令人愉悦的紧实。它们是 {PAWN_possessive} 纤细身材上优雅的点缀。</li>
     <li>看到{PAWN_nameShort}的小巧优雅的乳房，我心中充满默默的欣赏。那挺翘的形状透着青春的朝气。</li>
     <li>{PAWN_nameShort}的小巧乳房的精致优雅令人惊叹。它们与{PAWN_possessive}身体契合无间，完美衬托{PAWN_possessive}身形。</li>
     <li>{PAWN_nameShort}的小巧的乳房挺翘而线条优美，妙不可言。那光滑柔嫩的肌肤暗示着温柔的触感。</li>
@@ -3111,7 +3101,7 @@
     <li>看着{PAWN_nameShort}的含蓄却诱人的胸部，让我也想炫耀自己的。多么精巧的一对小巧优雅的乳房！</li>
     <li>看着{PAWN_nameShort}的小巧的乳房，那份迷人的优雅，实在振奋人心。我涌起一股想袒露自己的欲望。</li>
     <li>{PAWN_nameShort}的小巧有型的乳房是迷人的景致。那优雅的起伏与诱人的静默，让我想沉浸在{PAWN_pronoun}所受到的注视之中。</li>
-    <li>哦，{PAWN_nameShort}的 精致的胸脯！{PAWN_pronoun} 挺着 {PAWN_possessive} 小巧柔和的胸部的样子如此迷人；这助长了我自己的暴露癖冲动。</li>
+    <li>哦，{PAWN_nameShort}的精致的胸脯！{PAWN_pronoun} 挺着 {PAWN_possessive} 小巧柔和的胸部的样子如此迷人；这助长了我自己的暴露癖冲动。</li>
     <li>{PAWN_nameShort}的小巧的乳房相当可爱。它们精致的美让我真想多展露一些自己，与{PAWN_pronoun}一同参与这场愉悦的展示。</li>
     <li>看着{PAWN_nameShort}的含蓄却塑形完美的乳房，令人兴奋。它点燃了一股原始的冲动：脱光衣服，与{PAWN_objective}一起展示自己的身姿。</li>
     <li>{PAWN_nameShort}的小巧乳房那动人的简约，配上那诱人而苍老的乳头，真是值得一看的景象。我感到有必要也分享自己的身形。</li>
@@ -3121,7 +3111,7 @@
     <li>{PAWN_nameShort}的小巧却诱人的乳房，透着引人靠近的宁静，是幅令人愉悦的景象。它在我心中激起一股想要彻底袒露、去感受那注视的冲动。</li>
     <li>{PAWN_nameShort}的小巧乳房那优雅的轮廓真令人着迷。它让我渴望被注视，渴望公开展示自己的身体。</li>
     <li>{PAWN_nameShort}的小巧柔和的胸部是一幅含蓄之美的景致。它驱使着我袒露自己，纵情享受那份纯粹无拘的快感。</li>
-    <li>{PAWN_nameShort}的 精巧的乳房被岁月打磨得比例完美，这动人的景象鼓舞了我。我想脱掉衣服，与人共享这份自由。</li>
+    <li>{PAWN_nameShort}的精巧的乳房被岁月打磨得比例完美，这动人的景象鼓舞了我。我想脱掉衣服，与人共享这份自由。</li>
     <li>{PAWN_nameShort}的高挺柔和的乳房实在精致。它们让我变得大胆，渴望展示自己的身体，享受暴露的战栗。</li>
     <li>{PAWN_nameShort}的小巧而匀称的乳房那美妙的存在让我充满一种解放感。我渴望脱去衣物，让我自己的身形被人看见。</li>
     <li>{PAWN_nameShort}的小巧迷人的胸部是幅美丽的景象。它强化了我想要无拘无束、自由展示裸体的欲望。</li>
@@ -3146,7 +3136,7 @@
     <li>撩人的画面！{PAWN_nameShort}的乳房虽小巧而年长，却有着无可否认的力量，能点燃我最深处的欲望。那乳头……哦，那乳头。</li>
     <li>{PAWN_nameShort}的小巧而高挺的乳房美得令人发狂。我想沉溺在它们完美而成熟的形态里。</li>
     <li>{PAWN_nameShort}的胸部，小巧而被岁月打磨得轮廓完美，是吸引我情欲的磁石。每一次瞥见都助长着我对肉体交合那永不满足的饥渴。</li>
-    <li>{PAWN_nameShort}的 乳房那份含蓄的矜持反倒让它们更加诱人。那柔美迷人的形状，无时无刻不在令人愉悦地分我心。</li>
+    <li>{PAWN_nameShort}的乳房那份含蓄的矜持反倒让它们更加诱人。那柔美迷人的形状，无时无刻不在令人愉悦地分我心。</li>
     <li>{PAWN_nameShort}小巧的乳房，被生活打磨出绝妙的比例，是恒久的诱惑之源。我的脑中满是关于它们的淫念。</li>
     <li>{PAWN_nameShort}的小巧的乳房是肉欲优雅的美丽范例，那诱人而苍老的乳头几乎在尖叫着要我的关注。我已准备好回应它们的召唤。</li>
   </Opinion_Breasts_Positive_Small_ElderFemale_observed_by_Nymphomaniac.opinionTexts>
@@ -3157,7 +3147,7 @@
     <li>{PAWN_nameShort}的小巧乳房那内敛的存在感带来一种令人安心的无侵犯感。对年长者来说，是一种得体而不夸张的形态。</li>
     <li>{PAWN_nameShort}一副含蓄的身形，{PAWN_possessive}小巧的乳房并未引来不当的注目，在我看来再好不过。端庄而得体。</li>
     <li>{PAWN_nameShort}的乳房相当小巧，因此并无多余的展示。对一位上了年纪的人来说，这尺寸确实非常得体、毫不起眼。</li>
-    <li>人不禁欣赏 {PAWN_nameShort}的 胸部的适中比例。不必面对任何过分的东西，尤其到了 {PAWN_possessive} 这个年纪，实在让人松一口气。</li>
+    <li>人不禁欣赏 {PAWN_nameShort}的胸部的适中比例。不必面对任何过分的东西，尤其到了 {PAWN_possessive} 这个年纪，实在让人松一口气。</li>
     <li>{PAWN_nameShort}的乳房保持着适度的尺寸，这很好；确实不会招来不恰当的注视。对长者而言非常得体。</li>
     <li>{PAWN_nameShort}小巧的胸脯值得称赞。它不沾一丝粗俗，在这艰难的年头里着实令人耳目一新，对上了年纪的人尤其如此。</li>
     <li>{PAWN_nameShort}的乳房的小巧颇为得体，保持着端庄的轮廓，不招引任何多余的目光。</li>
@@ -3167,9 +3157,9 @@
     <li>她小巧而收敛的乳房完全说得过去。它们没有越过任何体统的界限，这对年长者来说很重要。</li>
     <li>保守而悦目的尺寸，{PAWN_nameShort}的小巧的乳房低调得令人耳目一新，即便高龄也保持着得体。</li>
     <li>{PAWN_nameShort}的胸脯相当小，真是谢天谢地。这省去了尴尬，也维持了体面的形象。</li>
-    <li>{PAWN_nameShort}的胸部的小巧保证了端庄的呈现。这个尺寸诉说着谦逊与成熟。</li>
+    <li>{PAWN_nameShort}的胸部的小巧保证了端庄的姿态。这个尺寸诉说着谦逊与成熟。</li>
     <li>{PAWN_nameShort}的乳房相当不起眼，这是件好事。对长者不该有什么不正经的念头。</li>
-    <li>人必须欣赏 {PAWN_nameShort}的 小巧乳房那合理的尺寸；对 {PAWN_possessive} 这个年纪来说完全不成问题。</li>
+    <li>人必须欣赏 {PAWN_nameShort}的小巧乳房那合理的尺寸；对 {PAWN_possessive} 这个年纪来说完全不成问题。</li>
     <li>至少{PAWN_nameShort}的乳房小巧，不太惹眼。对于一位长者而言，这样含蓄而得体的身形正合适。</li>
   </Opinion_Breasts_Positive_Small_ElderFemale_observed_by_Prude.opinionTexts>
   <Opinion_Breasts_Positive_Small_ElderFemale_observed_by_Young_female.opinionTexts>

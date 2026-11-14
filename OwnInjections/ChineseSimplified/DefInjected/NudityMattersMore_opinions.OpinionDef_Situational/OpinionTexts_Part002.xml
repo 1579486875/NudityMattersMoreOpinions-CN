@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 情境看法·正文 2/3 · 共 2995 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <iSaw_Unconscious_Topless_Unisex_Positive.opinionTexts>
     <li>我发现{OBSERVED_nameShort}失去意识，{OBSERVED_possessive}胸膛赤裸。{OBSERVED_possessive}静止的身形透着某种原始的力量。</li>
     <li>看见 {OBSERVED_nameShort} 昏睡过去，{OBSERVED_possessive} 胸部的肌肉或柔和曲线裸露着，是一幅人类脆弱与力量并存的有力画面。</li>
@@ -29,7 +19,7 @@
     <li>即便倒下，{OBSERVED_nameShort}身上的存在感仍让我印象深刻。{OBSERVED_possessive}赤裸的胸膛透出一股内蕴的力量。</li>
     <li>看到{OBSERVED_nameShort}的赤裸的躯干，如此静止而脆弱，令人心酸，也格外有人味。</li>
     <li>我对{OBSERVED_nameShort}的身体涌起一份钦佩。{OBSERVED_possessive}胸部是{OBSERVED_possessive}一生挣扎与力量的明证。</li>
-    <li>看见 {OBSERVED_nameShort}的 的胸部那样暴露着，让我想起陨落英雄的古代雕塑。</li>
+    <li>看见 {OBSERVED_nameShort}胸部那样暴露着，让我想起陨落英雄的古代雕塑。</li>
     <li>那是意外美丽的景象。{OBSERVED_nameShort}的胸膛那原始的构造令人着迷。</li>
     <li>我看着{OBSERVED_nameShort}的那静止的赤裸胸膛，看到的不是软弱，而是一种安静而坚韧的美。</li>
   </iSaw_Unconscious_Topless_Unisex_Positive.opinionTexts>
@@ -86,7 +76,7 @@
     <li>看着{OBSERVED_nameShort}的昏迷的身形，我涌起一种奇特的吸引——{OBSERVED_possessive}乳房那柔软的隆起宛如画家的杰作。</li>
     <li>{OBSERVED_nameShort}在昏迷中袒露着{OBSERVED_possessive}乳房，那份脆弱深深动人，又奇异地吸引人。</li>
     <li>{OBSERVED_pronoun}躺在那儿，毫无防备地裸露着，{OBSERVED_nameShort}的那对乳房的完美让我忍不住赞叹。</li>
-    <li>看见 {OBSERVED_nameShort}的 在 {OBSERVED_possessive} 失去意识时如此坦白地展露乳房，是一幅亲密而有力的画面，我不会很快忘记。</li>
+    <li>看见 {OBSERVED_nameShort}的在 {OBSERVED_possessive} 失去意识时如此坦白地展露乳房，是一幅亲密而有力的画面，我不会很快忘记。</li>
     <li>看着{OBSERVED_nameShort}，一种敬畏感席卷了我。{OBSERVED_possessive}乳房那柔和的隆起，是这严酷处境中生命与美的灯塔。</li>
     <li>{OBSERVED_nameShort}静静躺着，而{OBSERVED_possessive}赤裸的胸膛与映衬出乳房轮廓的柔和阴影，透着一种静谧而动人的美。</li>
     <li>这景象令人震惊，但即便{OBSERVED_pronoun}昏了过去，我竟发现自己欣赏起{OBSERVED_nameShort}的乳房那优美的形状。</li>
@@ -854,7 +844,7 @@
     <li>我穿过屋子，碰巧遇上{PAWN_nameShort}在淋浴。玻璃几乎挡不住什么，透过丝丝蒸汽，我瞥见了{PAWN_possessive}阴茎和臀部。我平静而漠然地接受了这一幕。</li>
   </iSaw_showering_naked_Male_Neutral.opinionTexts>
   <iSaw_showering_naked_Male_Positive.opinionTexts>
-    <li>透过雾气弥漫的淋浴间门张望，我不由得注意到 {PAWN_nameShort}的 的身形，{PAWN_possessive} 阴茎与屁股一览无余，一阵欲望的浪潮向我涌来。</li>
+    <li>透过雾气弥漫的淋浴间门张望，我不由得注意到 {PAWN_nameShort}身形，{PAWN_possessive} 阴茎与屁股一览无余，一阵欲望的浪潮向我涌来。</li>
     <li>我路过浴室，瞥见{PAWN_nameShort}在淋浴，{PAWN_possessive}紧实的臀部与阳物露在外面，在我心里点燃了一簇欲火。</li>
     <li>我透过门缝偷看{PAWN_nameShort}的淋浴，越看越兴奋，把{PAWN_possessive}紧实的臀部和勃起的阴茎尽收眼底。</li>
     <li>我兴致盎然，盯着淋浴中的{PAWN_nameShort}出神，欣赏着{PAWN_possessive}体格，以及{PAWN_possessive}臀部和男性器官那清晰可见的轮廓，心底涌起一股深切的渴望。</li>
@@ -905,7 +895,7 @@
     <li>淋浴中的{PAWN_nameShort}，{PAWN_possessive}乳房与阴道就那样敞开在我眼前，却只在我心里激起一片漠然的无趣。</li>
     <li>撞见{PAWN_nameShort}在淋浴，我把{PAWN_possessive}身体那毫不掩饰的展示收入眼底，{PAWN_possessive}饱满的乳房与敞露的性器都暴露在外，可我依旧不为所动、毫不在意。</li>
     <li>我看见{PAWN_nameShort}在淋浴，{PAWN_possessive}湿漉漉的裸体、{PAWN_possessive}乳房与阴道都露在外面，我却只觉抽离，维持着一副不受干扰的镇定。</li>
-    <li>淋浴时注意到 {PAWN_nameShort}的 裸露的身体，{PAWN_possessive} 乳房与阴道闪着水光，我只是看着，对眼前这一幕既不惊讶也不困扰。</li>
+    <li>淋浴时注意到 {PAWN_nameShort}的裸露的身体，{PAWN_possessive} 乳房与阴道闪着水光，我只是看着，对眼前这一幕既不惊讶也不困扰。</li>
     <li>我路过浴室，偶然撞见{PAWN_nameShort}在淋浴，{PAWN_possessive}乳房和阴道被水流遮得有些模糊，却看得足够清楚，让我不由停了片刻，全然不顾这是什么场合。</li>
     <li>我发觉自己隔着淋浴间的磨砂玻璃观察{PAWN_nameShort}，{PAWN_possessive}乳房与阴道只有模糊的轮廓，却足以勾起我的好奇，而不牵动任何情绪。</li>
     <li>我闯入了{PAWN_nameShort}的私密空间，看见{PAWN_possessive}正在淋浴，{PAWN_possessive}胸膛和下半身都露在外面，我却依旧淡然，毫无评判地看着这一幕。</li>
@@ -1109,10 +1099,10 @@
     <li>我僵在原地，目光不可抗拒地被{OBSERVED_nameShort}的乳房柔嫩的轮廓、{OBSERVED_possessive}髋部柔和的隆起，以及{OBSERVED_possessive}阴道与肛门那些隐秘的褶皱吸引过去——{OBSERVED_possessive}在裸睡中把它们毫无羞怯地全然展示着。</li>
     <li>当我瞥见{OBSERVED_nameShort}的赤裸的身体，我的心跳漏了一拍——{OBSERVED_possessive}乳房像熟透的果实般挺立，{OBSERVED_possessive}髋部以一种无意识放浪的姿势张开，把我那好色的目光引向{OBSERVED_possessive}阴道与肛门幽暗的秘密。</li>
     <li>打量着{OBSERVED_nameShort}的赤裸身形的风采，我一阵颤栗沿脊背而下——{OBSERVED_possessive}乳房如两轮苍白的月亮般隆起，{OBSERVED_possessive}阴道与肛门泛着柔和诱人的微光，仿佛在召唤我靠近。</li>
-    <li>当我看到 {OBSERVED_nameShort}的 赤裸的身体摊在我面前，一副毫无自觉的脆弱画卷，{OBSERVED_possessive} 乳房、阴道和肛门全都敞开在我的目光下，像一颗熟透待摘的禁果，我的呼吸卡在了喉咙里。</li>
+    <li>当我看到 {OBSERVED_nameShort}的赤裸的身体摊在我面前，一副毫无自觉的脆弱画卷，{OBSERVED_possessive} 乳房、阴道和肛门全都敞开在我的目光下，像一颗熟透待摘的禁果，我的呼吸卡在了喉咙里。</li>
     <li>看到{OBSERVED_nameShort}裸睡着，是自然的一件杰作。{OBSERVED_possessive}乳房柔和的曲线、{OBSERVED_possessive}臀部温和的外扩、以及{OBSERVED_possessive}外阴那隐在阴影中的缝隙，构成完美的构图。</li>
     <li>{OBSERVED_pronoun}就在那里，沉入梦乡，{OBSERVED_possessive}整个身体都是女性之美的明证。我的目光不由自主地从{OBSERVED_possessive}柔软的乳房一路游移到{OBSERVED_possessive}双腿之间那片诱人的暗处。</li>
-    <li>一幅宁静与诱惑的景象。{OBSERVED_nameShort}赤裸的身体沐浴在柔光中，凸显出{OBSERVED_possessive}乳房每一道诱人的曲线，以及{OBSERVED_possessive}裸露下体那脆弱而诱人的呈现。</li>
+    <li>一幅宁静与诱惑的景象。{OBSERVED_nameShort}赤裸的身体沐浴在柔光中，凸显出{OBSERVED_possessive}乳房每一道诱人的曲线，以及{OBSERVED_possessive}裸露下体那脆弱而诱人的姿态。</li>
     <li>看到{OBSERVED_nameShort}如此安详地睡着、如此彻底地赤裸，我心头一暖。{OBSERVED_possessive}身体是一本摊开的书，我想读完每一页——从{OBSERVED_possessive}挺翘的乳头，到{OBSERVED_possessive}肛门那道隐秘的褶皱。</li>
     <li>能目睹这样毫无防备的美，是一种荣幸。{OBSERVED_nameShort}的乳房柔软地贴着{OBSERVED_possessive}肋侧，{OBSERVED_possessive}双腿分开的姿态，让人得以撩人地窥见{OBSERVED_possessive}湿润的秘密。</li>
     <li>我的目光被{OBSERVED_nameShort}的睡姿那纯粹的完美所俘获。{OBSERVED_objective}的每一处——从{OBSERVED_possessive}乳房的隆起，到{OBSERVED_possessive}肛门精致的收拢——都赏心悦目。</li>
@@ -1216,7 +1206,7 @@
   <iSaw_taking_Bath_naked_female_Positive.opinionTexts>
     <li>我忍不住偷瞄{PAWN_nameShort}，{PAWN_possessive}丰腴的乳房浮出水面，{PAWN_possessive}双腿微微分开，让我瞥见了{PAWN_possessive}那女性化的曲线。</li>
     <li>我进浴室时，发现{PAWN_nameShort}泡在浴缸里，{PAWN_possessive}乳头挺立着，{PAWN_possessive}阴道的模糊轮廓在肥皂水下若隐若现，{PAWN_possessive}整个人散发出一种诱人的气息。</li>
-    <li>透过磨砂玻璃注意到 {PAWN_nameShort}的 的轮廓，我悄悄推开门，只见 {PAWN_possessive} 乳房轻轻浮在水面，{PAWN_possessive} 大腿微微分开，暗示着其间藏着的珍宝。</li>
+    <li>透过磨砂玻璃注意到 {PAWN_nameShort}轮廓，我悄悄推开门，只见 {PAWN_possessive} 乳房轻轻浮在水面，{PAWN_possessive} 大腿微微分开，暗示着其间藏着的珍宝。</li>
     <li>我路过浴室时，瞥见{PAWN_nameShort}正在泡澡，{PAWN_possessive}乳沟展露在外，水面刚好停在{PAWN_possessive}肚脐下方，{PAWN_possessive}身体散发着无法抗拒的魅力。</li>
     <li>我偶然撞见{PAWN_nameShort}在洗澡，{PAWN_possessive}乳房随每一次呼吸起伏，{PAWN_possessive}阴道在泡沫翻滚的水下勉强遮住，{PAWN_possessive}存在在我心中点燃了一把火。</li>
     <li>我不经意间盯着浴缸里的{PAWN_nameShort}出神，{PAWN_possessive}饱满的乳房挂着晶莹的水珠闪闪发亮，{PAWN_possessive}女性的褶皱从泡沫下若隐若现，那份魅惑让人无法抗拒。</li>
@@ -2816,12 +2806,12 @@
   <iWasSeen_taking_Bath_naked_female_Neutral.opinionTexts>
     <li>我正泡在浴缸里，赤裸的皮肤在柔光下泛着水光，这时{OBSERVER_nameShort}走进了房间。我的目光始终停留在泡沫上，对{OBSERVER_possessive}在场和我自己的裸体都毫不在意。</li>
     <li>我斜靠在浴缸里，乳房几乎未没入水中，边继续洗头发，{OBSERVER_nameShort} 走了进来。我与 {OBSERVER_possessive} 对视了一瞬，随后又回到手上的事，对 {OBSERVER_possessive} 的闯入毫不在意。</li>
-    <li>我赤裸地泡在浴池里，漫不经心地朝 {OBSERVER_nameShort}的 的方向泼了泼水，毫不遮掩地示意知道 {OBSERVER_possessive} 在场。我的身体松弛自在，依旧不加遮掩、毫无羞耻。</li>
+    <li>我赤裸地泡在浴池里，漫不经心地朝 {OBSERVER_nameShort}方向泼了泼水，毫不遮掩地示意知道 {OBSERVER_possessive} 在场。我的身体松弛自在，依旧不加遮掩、毫无羞耻。</li>
     <li>我背对着{OBSERVER_nameShort}洗脚，感觉到{OBSERVER_possessive}目光落在我裸露的身体上。我没放在心上，只管专心做手头的事，身心都很放松。</li>
     <li>泡在浴缸里，我心不在焉地用脚趾搅着水，对{OBSERVER_possessive}到来毫不在意。我的身体完整地展露着，那是个事实，不需要担心。</li>
     <li>我泡在浴缸里，陷入沉思，只是偶尔用手划破水面。{OBSERVER_nameShort}的存在我注意到了，但我的舒适与宁静丝毫未被打扰。</li>
     <li>我泡在浴缸里，对自己的赤裸毫不在意。{OBSERVER_nameShort}进了房间，我以那副放松的姿态，难免注意到{OBSERVER_possessive}目光正收下我赤裸的乳房，以及水流对私密部位的轻柔抚弄。</li>
-    <li>我闭着眼斜靠在浴缸里，被 {OBSERVER_nameShort}的 的到来吓了一跳。我保持镇定，连四肢都没调整，任由 {OBSERVER_pronoun} 瞥见我乳房与泡沫水下隐约可见的臀部曲线。</li>
+    <li>我闭着眼斜靠在浴缸里，被 {OBSERVER_nameShort}到来吓了一跳。我保持镇定，连四肢都没调整，任由 {OBSERVER_pronoun} 瞥见我乳房与泡沫水下隐约可见的臀部曲线。</li>
     <li>我正洗着头发，一阵气流让我察觉到{OBSERVER_nameShort}的存在。我神色如常，继续揉搓着泡沫，对自己赤裸的胸膛和水下若隐若现的下半身毫不在意。</li>
     <li>我整个人泡在浴缸里，一边洗腿一边享受着让乳房浮在水面上的奢侈。{OBSERVER_nameShort}的到来几乎没影响到我，虽说在{OBSERVER_pronoun}进屋时，我注意到{OBSERVER_objective}偷偷往我身上瞟。</li>
     <li>我坐在浴缸里享受着温暖，感受着水如何触碰我赤裸的肌肤，尤其是胸口和大腿。我察觉到{OBSERVER_nameShort}的进来，却依旧懒洋洋地继续着自我照料的动作。</li>
@@ -2905,7 +2895,7 @@
   <iWasSeen_using_HotTub_naked_female_Negative.opinionTexts>
     <li>我泡在热水浴缸里，赤裸的身体又暴露又脆弱，{OBSERVER_nameShort}走进来时，我被这闯入惹得一阵恼火——水在乳房和阴道周围拍打的样子，只是让我的不适更加明显。我把双臂交叉抱在胸前想遮住自己，这是为了夺回已被侵犯的隐私而做的徒劳努力。</li>
     <li>我泡在浴缸里，水没到脖子，乳房和阴道都浸在温水中；{OBSERVER_pronoun}进来时，我瞪着{OBSERVER_nameShort}，{OBSERVER_possessive}存在让我觉得自己像显微镜下的标本。我不自在地挪了挪，浴缸的喷流打在身上，力道让人不适。</li>
-    <li>我把头靠在浴缸边，裸露的乳房随每一次呼吸起伏，对 {OBSERVER_nameShort}的 的突然出现，我心里越发烦躁——{OBSERVER_pronoun} 就不能让我一个人待着吗？腿间水流的暖意似乎只让我的恼怒更甚。</li>
+    <li>我把头靠在浴缸边，裸露的乳房随每一次呼吸起伏，对 {OBSERVER_nameShort}突然出现，我心里越发烦躁——{OBSERVER_pronoun} 就不能让我一个人待着吗？腿间水流的暖意似乎只让我的恼怒更甚。</li>
     <li>我斜靠在浴缸里，乳房在水面上浮动，阴道对浴缸喷出的水流格外敏感；我朝{OBSERVER_nameShort}投去一个不赞同的眼神，巴不得{OBSERVER_pronoun}转身就走——{OBSERVER_pronoun}难道看不出我正想放松一下吗？可{OBSERVER_pronoun}就那么站着，让我越来越不自在。</li>
     <li>我无精打采地漂在浴缸里，赤裸的身体就这么展览给{OBSERVER_nameShort}的看，一阵不适的寒颤沿着脊背划过——{OBSERVER_pronoun}怎么就偏偏这时候撞进来了呢？在我竭力维持一副镇定的样子时，水似乎越来越凉，空气也越来越沉重。</li>
     <li>我躺在热水浴缸里，乳房和阴道赤裸无遮、毫无防备。{OBSERVER_nameShort}进来时，我感到脸颊一阵发烫——我最恨这样猝不及防地被人撞见。我急忙把膝盖抱到胸前，想挡住{OBSERVER_possessive}窥探的目光，可这反而让我觉得自己被困得更紧。</li>
@@ -3247,7 +3237,7 @@
   </iWas_female_breasts_NTTC_breasts_focus_large_huge_enormous_Negative.opinionTexts>
   <iWas_female_breasts_NTTC_breasts_focus_large_huge_enormous_Neutral.opinionTexts>
     <li>我路过时被{OBSERVER_nameShort}看见了，硕大的乳房暴露在{OBSERVER_possessive}视野里。我心里没有半点波澜，只是如实地意识到自己正被人看着。</li>
-    <li>我的乳房很大，我闲步走过时 {OBSERVER_nameShort}的 目光落在上面，但我没有退缩也没有反应，只是记下 {OBSERVER_possessive} 注视这一事实，既不执着也不在意。</li>
+    <li>我的乳房很大，我闲步走过时 {OBSERVER_nameShort}的目光落在上面，但我没有退缩也没有反应，只是记下 {OBSERVER_possessive} 注视这一事实，既不执着也不在意。</li>
     <li>我行走时，注意到{OBSERVER_nameShort}的目光朝我巨大的乳房瞟来，我有一丝抽离感，仿佛从自己身体之外观察这一幕，对{OBSERVER_possessive}注目毫不在意。</li>
     <li>我经过时察觉到{OBSERVER_nameShort}的目光落在我裸露的硕大乳房上，却没有一丝尴尬或难为情，只是中性承认了这个事实。</li>
     <li>我走动时，{OBSERVER_nameShort}的目光在我巨大的乳房上流连，但我没有兴奋或性唤起的感觉，只是平静而毫无波澜地接受着这一切。</li>

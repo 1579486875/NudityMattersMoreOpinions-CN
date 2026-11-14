@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 33/39 · 共 2996 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Vagina_Negative_Accommodating_ElderFemale.opinionTexts>
     <li>她那苍老的外阴，一团怪诞的枯萎血肉，是令人骇然的景象。</li>
     <li>她阴唇极度松弛、阴蒂干瘪，暗示着彻底的衰败。真恶心。</li>
@@ -259,7 +249,7 @@
     <li>{PAWN_nameShort}身上那宽阔、几乎被撑开的模样，诉说着过早、过度的放纵。</li>
     <li>她的阴蒂外露而突出，像是在尖叫着求关注，令人不快的一幕。</li>
     <li>我观察着{PAWN_nameShort}的不合体统的深度，一个毫无天真魅力的虚空。</li>
-    <li>{PAWN_nameShort}的身形比例显得过于夸张，实在是不幸的呈现。</li>
+    <li>{PAWN_nameShort}的身形比例显得过于夸张，实在是不幸的姿态。</li>
     <li>{PAWN_nameShort}身上如此包容的形态，显示出一种我觉得颇为失体的松弛。</li>
     <li>{PAWN_nameShort}的那硕大而毫无弹性的样子，让我想起磨破的旧布，而不是青春的血肉。</li>
     <li>我可怜{PAWN_nameShort}，竟长了这么一个宽大外露的开口，毫无娇柔的魅力。</li>
@@ -297,7 +287,7 @@
     <li>观察着{PAWN_nameShort}的松弛的穴口，我不由心生怜悯；它看起来被用得彻底。</li>
     <li>{PAWN_nameShort}的阴唇大张着，显露出缺乏张力，暗示着漫长而疲惫的过往。</li>
     <li>看着{PAWN_nameShort}的外露的深处，颇为粗鄙，毫无想象余地。</li>
-    <li>只看 {PAWN_nameShort}的 松弛的褶皱一眼，我就感到一阵不适；太过开放了。</li>
+    <li>只看 {PAWN_nameShort}的松弛的褶皱一眼，我就感到一阵不适；太过开放了。</li>
     <li>{PAWN_nameShort}的身体被如此坦然地展示出来，在我看来既粗俗又过于宽绰。</li>
     <li>{PAWN_nameShort}的那又大又松软的入口，让我不快地想起一只用旧撑坏的钱袋。</li>
     <li>她的阴蒂虽然存在，却像是几乎被{PAWN_possessive}那宽容辽阔的结构吞没了。</li>
@@ -431,7 +421,7 @@
     <li>{PAWN_nameShort}身上那深张的深处毫无神秘可言，只有一片广袤、乏味的虚空。</li>
     <li>她的身体似乎太轻易就屈服了；我更喜欢有点挑战。</li>
     <li>{PAWN_nameShort}的阴蒂虽然可见，却毫无灵气；缺少那种诱人的饱满。</li>
-    <li>{PAWN_nameShort}的整体的呈现是一种疲惫、过度拉伸的慷慨。</li>
+    <li>{PAWN_nameShort}的整体的姿态是一种疲惫、过度拉伸的慷慨。</li>
     <li>看着{PAWN_nameShort}的那无边的无形，我自己的阴茎生出一股恐惧。</li>
     <li>{PAWN_nameShort}的那处没有紧实的轮廓，对我来说绝对是免谈。</li>
     <li>{PAWN_nameShort}的似乎摊开着，给得太多，却毫无价值。</li>
@@ -1011,7 +1001,7 @@
     <li>我观察着{PAWN_nameShort}的宽大松弛的阴唇；过度敞开的一幕令人沮丧。</li>
     <li>{PAWN_nameShort}的那开阔的深度公开展示着，缺乏任何诱人的神秘感。</li>
     <li>{PAWN_nameShort}的随和宽容的身体露得太过，一点想象空间都不给偷窥者留。</li>
-    <li>阴蒂虽然可见，却被 {PAWN_nameShort}的 身体的辽阔压得微不足道。</li>
+    <li>阴蒂虽然可见，却被 {PAWN_nameShort}的身体的辽阔压得微不足道。</li>
     <li>{PAWN_nameShort}身上那毫不抵抗的孔洞没有半点禁忌的刺激，只有平庸的一幕。</li>
     <li>我看着{PAWN_nameShort}的那松弛下垂的样子，缺少那种让秘密值得一窥的紧绷感。</li>
     <li>{PAWN_nameShort}的只是大张着，而非诱人地展露，一场粗劣的展示。</li>
@@ -1130,7 +1120,7 @@
     <li>{PAWN_nameShort}的黯淡多肉的褶皱就那样垂着，完全没有任何独特之处。</li>
     <li>一个尽在意料之中的入口，{PAWN_nameShort}的阴道构造没有什么能激起我的兴致。</li>
     <li>{PAWN_nameShort}的阴蒂几乎不见踪影，消失在其平平无奇的阴唇那片漠然的风景里。</li>
-    <li>观察 {PAWN_nameShort}的 的构造，像盯着一堵白墙；彻底乏味，过目即忘。</li>
+    <li>观察 {PAWN_nameShort}构造，像盯着一堵白墙；彻底乏味，过目即忘。</li>
     <li>{PAWN_nameShort}的阴道的形状如此寻常，感觉像是对女性气质的廉价模仿。</li>
     <li>目睹{PAWN_nameShort}的那完全标准的女性身体，我心里只有一片漠然。</li>
     <li>{PAWN_nameShort}的阴部区域看起来如此邋遢，中等的尺寸只让它的凌乱更加显眼。</li>
@@ -1143,7 +1133,7 @@
     <li>{PAWN_nameShort}的阴道给人的整体印象是一种彻底的平庸，留下一股苦涩的余味。</li>
     <li>那是中等女性身体的展示，实在提不起半点兴致，是我恨不得忘掉的画面。</li>
     <li>{PAWN_nameShort}的不起眼的开口看起来毫无秘密，只有平庸的空虚。</li>
-    <li>我打了个寒颤，注意到{PAWN_nameShort}的阴道那寻常的尺寸；如此乏味、毫无生气的呈现。</li>
+    <li>我打了个寒颤，注意到{PAWN_nameShort}的阴道那寻常的尺寸；如此乏味、毫无生气的姿态。</li>
     <li>{PAWN_nameShort}的生殖器的可见构造没什么值得欣赏，只有一种刺眼的平庸。</li>
     <li>一阵明显的失望涌上心头；{PAWN_nameShort}的那中等的阴道毫无可取之处。</li>
     <li>{PAWN_nameShort}的阴蒂模糊得令人失望，消失在阴唇那些寻常的褶皱里。</li>
@@ -1167,7 +1157,7 @@
     <li>如此粗糙的开口，就算按猫类的标准也算不上精致。真是令人失望。</li>
     <li>那可见的构造太粗糙、太凌乱，谈不上诱人。</li>
     <li>我一阵厌恶，就因为它那纯粹乏味的猫类本性。</li>
-    <li>{PAWN_nameShort}的 猫族阴道那寻常的形状，是一幕刺眼的景象。</li>
+    <li>{PAWN_nameShort}的猫族阴道那寻常的形状，是一幕刺眼的景象。</li>
     <li>我希望这基因生成的家伙别那么……野，能更诱人些。</li>
     <li>它中等的深度，除了实用的粗糙之外说明不了什么。</li>
     <li>这条猫科阴道的轮廓千篇一律，看着实在无聊。</li>
@@ -1199,7 +1189,7 @@
     <li>如此粗糙的开口，就算按恶魔的标准也算不上精致。真是令人失望。</li>
     <li>那可见的构造太粗糙、太凌乱，谈不上诱人。</li>
     <li>我一阵厌恶，就因为它那纯粹乏味的恶魔类本性。</li>
-    <li>{PAWN_nameShort}的 恶魔阴道那寻常的形状，是一幕刺眼的景象。</li>
+    <li>{PAWN_nameShort}的恶魔阴道那寻常的形状，是一幕刺眼的景象。</li>
     <li>我希望这基因生成的家伙别那么……平淡，能更可怖些。</li>
     <li>它中等的深度，除了实用的粗糙之外说明不了什么。</li>
     <li>这条恶魔阴道的轮廓千篇一律，看着实在无聊。</li>
@@ -1231,7 +1221,7 @@
     <li>如此粗糙的开口，就算按犬类的标准也算不上精致。真是令人失望。</li>
     <li>那可见的构造太粗糙、太凌乱，谈不上诱人。</li>
     <li>我一阵厌恶，就因为它那纯粹乏味的犬类本性。</li>
-    <li>{PAWN_nameShort}的 犬族阴道那寻常的形状，是一幕刺眼的景象。</li>
+    <li>{PAWN_nameShort}的犬族阴道那寻常的形状，是一幕刺眼的景象。</li>
     <li>我希望这基因生成的家伙别那么……粗野，能更诱人些。</li>
     <li>它中等的深度，除了实用的粗糙之外说明不了什么。</li>
     <li>这条犬科阴道的轮廓千篇一律，看着实在无聊。</li>
@@ -1263,7 +1253,7 @@
     <li>如此粗糙的开口，就算按龙类的标准也算不上精致。真是令人失望。</li>
     <li>那可见的构造太粗糙、太凌乱，谈不上诱人。</li>
     <li>我一阵厌恶，就因为它那纯粹乏味的龙类本性。</li>
-    <li>{PAWN_nameShort}的 龙族阴道那寻常的形状，是一幕刺眼的景象。</li>
+    <li>{PAWN_nameShort}的龙族阴道那寻常的形状，是一幕刺眼的景象。</li>
     <li>我希望这基因生成的家伙别那么……平庸，能更可怖些。</li>
     <li>它中等的深度，除了实用的粗糙之外说明不了什么。</li>
     <li>这条龙科阴道的轮廓千篇一律，看着实在无聊。</li>
@@ -1300,8 +1290,8 @@
     <li>{PAWN_nameShort}的这片私密风景，暗示着平庸的一生。褪色而平淡的景象让我感到彻底的无趣与深深的厌恶。</li>
   </Opinion_Vagina_Negative_Average_ElderFemale.opinionTexts>
   <Opinion_Vagina_Negative_Average_ElderFemale_observed_by_Elder_female.opinionTexts>
-    <li>哦，{PAWN_nameShort}的 那处。如此老迈而平庸。{PAWN_possessive} 阴唇下垂的样子实在乏味，不过是我在自己镜子里见过的东西。毫无生气，衰朽不堪。</li>
-    <li>不怎么好看。{PAWN_nameShort}的 那褪色的、中等模样的开口简直在喊“美到头了”。实在毫无魅力，赤裸裸地提醒人衰老无情的必然，真凄凉。</li>
+    <li>哦，{PAWN_nameShort}的那处。如此老迈而平庸。{PAWN_possessive} 阴唇下垂的样子实在乏味，不过是我在自己镜子里见过的东西。毫无生气，衰朽不堪。</li>
+    <li>不怎么好看。{PAWN_nameShort}的那褪色的、中等模样的开口简直在喊“美到头了”。实在毫无魅力，赤裸裸地提醒人衰老无情的必然，真凄凉。</li>
     <li>瞥见了{PAWN_nameShort}的磨损、干枯的深处。没什么特别，只是一幅疲惫而乏味的景象，毫无意外。真是平淡无奇、腐朽的一幕。</li>
     <li>那松弛平庸、苍老的一块。{PAWN_possessive}疲惫的皮肉暗示着一段平凡的过去。毫无神秘感，只是寻常又提不起兴致的景象。它只是……一个可悲的现实。</li>
     <li>匆匆一看印证了我本就不高的期待：{PAWN_nameShort}的那乏味、暗淡、正在衰败的入口看起来正如我所料的那么中等。真是一幕令人沮丧、平庸、老朽的景象。</li>
@@ -1323,7 +1313,7 @@
   </Opinion_Vagina_Negative_Average_ElderFemale_observed_by_Elder_female.opinionTexts>
   <Opinion_Vagina_Negative_Average_ElderFemale_observed_by_Elder_male.opinionTexts>
     <li>天啊，{PAWN_nameShort}的那副苍老的部位。一成不变，彻底干瘪。{PAWN_possessive}阴唇下垂的样子真是恶心，几十年来我见得还少吗。实在乏味的景象。</li>
-    <li>算不上什么新发现。{PAWN_nameShort}的 那褪色的、中等模样的开口简直在喊“准备进坟了”。对见多识广的眼睛来说实在毫无魅力，衰败见得太多。</li>
+    <li>算不上什么新发现。{PAWN_nameShort}的那褪色的、中等模样的开口简直在喊“准备进坟了”。对见多识广的眼睛来说实在毫无魅力，衰败见得太多。</li>
     <li>瞥见了{PAWN_nameShort}的磨损、腐朽的深处。没什么特别，只是一幅疲惫而乏味的景象，只让人感到深深的厌倦与厌恶。又是平平无奇的一幕。</li>
     <li>那松弛平庸、苍老的一块。{PAWN_possessive}疲惫的皮肉看起来毫无生气。毫无神秘感，只是寻常、提不起兴致、干瘪的景象，完全让人记不住又令人反感。</li>
     <li>匆匆一看印证了我本就不高的期待：{PAWN_nameShort}的那乏味、暗淡、正在衰败的入口看起来正如我所料的那么中等。真是一幕令人沮丧、平庸、老朽的景象。</li>
@@ -1347,7 +1337,7 @@
     <li>多么可悲而老朽的展示。{PAWN_nameShort}的露出的部位毫无看头，只是一副乏味、干枯、毫无灵气的模样。真是对公开露体的一种侮辱。</li>
     <li>{PAWN_nameShort}的阴唇下垂的样子，{PAWN_pronoun}显然毫无展露的意识。真是一副提不起兴致、苍老的景象，在公众场合连瞥一眼都不值。</li>
     <li>观察着{PAWN_nameShort}的平淡无奇、苍老的穴口，我只感到轻蔑。{PAWN_possessive}身体构造毫无亮点，看在眼里实在难堪。</li>
-    <li>{PAWN_possessive}私密部位如此胆怯、毫无灵气的呈现。{PAWN_nameShort}的平庸、干瘪的形状与疲惫的深处，对公开展示而言毫无刺激可言。</li>
+    <li>{PAWN_possessive}私密部位如此胆怯、毫无灵气的姿态。{PAWN_nameShort}的平庸、干瘪的形状与疲惫的深处，对公开展示而言毫无刺激可言。</li>
     <li>如果{PAWN_nameShort}的指望给人留下印象，{PAWN_pronoun}彻底失败了。这中等、倒胃口、上了年纪的景象是缺乏灵感的生理构造的明证，完全让人记不住，且令人羞耻。</li>
     <li>看看这场毫无新意、老气横秋的展示。{PAWN_nameShort}的黯淡的内侧褶皱和平平无奇的阴蒂，简直是对真正暴露癖的嘲弄。无聊又可怜至极。</li>
     <li>即便裸露出来，{PAWN_nameShort}的部位也毫无观赏性。那毫不出众的深度和形态，分明在喊“平庸又老气”，而不是“看我啊！”，真是一败涂地。</li>
@@ -1368,7 +1358,7 @@
   <Opinion_Vagina_Negative_Average_ElderFemale_observed_by_Nymphomaniac.opinionTexts>
     <li>真是寡淡干瘪的景象。{PAWN_nameShort}的袒露的部位带不来任何刺激，只有一副疲惫破旧的苍老躯体。对激起欲望完全无用，令人作呕。</li>
     <li>{PAWN_nameShort}的阴唇垂着的样子，显然已风光不再，如今激不起半点兴奋。一场沉闷而毫无美感的景象，全然不见情欲，简直是种诅咒。</li>
-    <li>观察着 {PAWN_nameShort}的 毫不起眼、上了年纪的入口，一阵深深的失望席卷了我。它平庸的外表只预示着乏味、无法满足、干枯衰败的交合。</li>
+    <li>观察着 {PAWN_nameShort}的毫不起眼、上了年纪的入口，一阵深深的失望席卷了我。它平庸的外表只预示着乏味、无法满足、干枯衰败的交合。</li>
     <li>那松弛平庸的一块。{PAWN_possessive}疲惫苍老的皮肉暗示着一段平凡的过去。毫无神秘感，只是寻常又提不起兴致的景象。对引发性唤起毫无用处，真恶心。</li>
     <li>匆匆一看印证了我的担忧：{PAWN_nameShort}的那乏味、暗淡、干缩的入口除了乏味的交合之外什么也承诺不了。真是一幕令人沮丧、毫无高潮的景象。</li>
     <li>{PAWN_nameShort}的开口那严重下垂的阴唇与褪去的色泽，呈现出一幕颇为寡淡的景象。它用每一道疲惫、古老的褶皱尖叫着‘毫无乐趣，从来如此’。</li>
@@ -1410,8 +1400,8 @@
     <li>{PAWN_nameShort}的这片私密风景，暗示着低俗的一生。褪色而平淡的景象让我感到彻底的愤慨与深深的厌恶，这是道德上的罪过。</li>
   </Opinion_Vagina_Negative_Average_ElderFemale_observed_by_Prude.opinionTexts>
   <Opinion_Vagina_Negative_Average_ElderFemale_observed_by_Young_female.opinionTexts>
-    <li>天哪，{PAWN_nameShort}的 那老迈的器官。{PAWN_possessive} 阴唇下垂的样子简直令人作呕，绝对不是我希望自己未来变成的样子。一个深刻的警世故事。</li>
-    <li>谈不上鼓舞人心。{PAWN_nameShort}的 那褪色的、中等模样的开口简直在喊“末日将至”。实在毫无魅力，赤裸裸地提醒着无可避免的衰败，令人彻底沮丧。</li>
+    <li>天哪，{PAWN_nameShort}的那老迈的器官。{PAWN_possessive} 阴唇下垂的样子简直令人作呕，绝对不是我希望自己未来变成的样子。一个深刻的警世故事。</li>
+    <li>谈不上鼓舞人心。{PAWN_nameShort}的那褪色的、中等模样的开口简直在喊“末日将至”。实在毫无魅力，赤裸裸地提醒着无可避免的衰败，令人彻底沮丧。</li>
     <li>瞥见了{PAWN_nameShort}的磨损、干枯的深处。没什么特别，只是一幅疲惫、乏味、腐朽的景象，让我恐惧衰老。真叫人扫兴。</li>
     <li>那松弛平庸的一块。{PAWN_possessive}苍老疲惫的皮肉暗示着一段平凡的过去和黯淡的未来。毫无神秘感，只是寻常又提不起兴致的景象。我希望自己永远不要变成那样。</li>
     <li>匆匆一看印证了我最坏的担忧：{PAWN_nameShort}的那乏味、暗淡、干缩的入口看起来干瘪而阴沉。真是一幕令人沮丧、平庸、写满悔恨的景象。</li>
@@ -1432,8 +1422,8 @@
     <li>{PAWN_nameShort}的这片私密风景，暗示着平庸与衰败的一生。褪色而平淡的景象让我感到彻底的无趣，以及一股立刻移开视线的强烈冲动。</li>
   </Opinion_Vagina_Negative_Average_ElderFemale_observed_by_Young_female.opinionTexts>
   <Opinion_Vagina_Negative_Average_ElderFemale_observed_by_Young_male.opinionTexts>
-    <li>天哪，{PAWN_nameShort}的 那老迈的器官。{PAWN_possessive} 阴唇下垂的样子简直令人作呕，绝对不是我想要看到的东西。彻底的倒胃口。</li>
-    <li>完全算不上好景致。{PAWN_nameShort}的 那褪色的、中等模样的开口简直在喊“墓穴”。对年轻人的眼睛来说实在毫无魅力，令人彻底作呕。</li>
+    <li>天哪，{PAWN_nameShort}的那老迈的器官。{PAWN_possessive} 阴唇下垂的样子简直令人作呕，绝对不是我想要看到的东西。彻底的倒胃口。</li>
+    <li>完全算不上好景致。{PAWN_nameShort}的那褪色的、中等模样的开口简直在喊“墓穴”。对年轻人的眼睛来说实在毫无魅力，令人彻底作呕。</li>
     <li>瞥见了{PAWN_nameShort}的磨损、干枯的深处。没什么特别，只是一幅疲惫、乏味、腐朽的景象，让我想吐。绝对不是我的菜。</li>
     <li>那松弛平庸的一块。{PAWN_possessive}苍老疲惫的皮肉看起来已经腐烂了几十年。不管怎样，我都敬而远之，实在骇人。</li>
     <li>匆匆一看印证了我最坏的担忧：{PAWN_nameShort}的那乏味、暗淡的入口看起来像干掉的梅脯。真是一幕令人沮丧、平庸、正在衰败的景象，本该被埋进土里。</li>
@@ -1499,18 +1489,18 @@
   </Opinion_Vagina_Negative_Average_ElderFemale_observed_by_middle_aged_male.opinionTexts>
   <Opinion_Vagina_Negative_Average_ElderFemale_observed_by_voyer.opinionTexts>
     <li>尽管偷看本身带来禁忌的刺激，{PAWN_nameShort}的那干瘪的深处却没露出任何值得一看的东西。对偷窥者而言，也是十足平淡、令人失望的一幕。</li>
-    <li>偷瞄 {PAWN_nameShort}的 私处毫无兴奋可言。那平庸而衰老的形状令人失望，对一双挑剔的眼睛来说毫无刺激。</li>
+    <li>偷瞄 {PAWN_nameShort}的私处毫无兴奋可言。那平庸而衰老的形状令人失望，对一双挑剔的眼睛来说毫无刺激。</li>
     <li>我看着{PAWN_nameShort}的裸露的私处，本想获得刺激，却只看到衰老。那中等大小又干瘪的轮廓实在无趣，白白浪费了一次偷窥的机会。</li>
-    <li>偷看着 {PAWN_nameShort}的 的私处，我只觉得极其无聊。那平凡的形状与疲态尽显的样子，对我这偷窥的胃口来说是大失所望。</li>
-    <li>{PAWN_nameShort}的 那副平庸苍老的模样让我这偷窥的欲望落空。中等的尺寸与毫无魅力的阴唇，半点撩人的东西都没有。</li>
+    <li>偷看着 {PAWN_nameShort}私处，我只觉得极其无聊。那平凡的形状与疲态尽显的样子，对我这偷窥的胃口来说是大失所望。</li>
+    <li>{PAWN_nameShort}的那副平庸苍老的模样让我这偷窥的欲望落空。中等的尺寸与毫无魅力的阴唇，半点撩人的东西都没有。</li>
     <li>即便对偷窥者而言，{PAWN_nameShort}的那乏味、磨损严重的穴口也令人扫兴。那隐约的阴蒂轮廓带不来真正的视觉回报，只有一副残酷的现实。</li>
     <li>我期待一份禁忌的快感，可{PAWN_nameShort}的那乏味无趣、苍老松弛的部位只奉上了沉闷的现实。一幅彻底平庸、无聊至极的景象。</li>
     <li>{PAWN_nameShort}的外露的内部毫无撩人之意。那平平无奇的深度和有些松软、干瘪的阴唇，是偷窥者最糟糕的噩梦：乏味至极。</li>
     <li>对一个暗中的仰慕者来说多么失望。{PAWN_nameShort}的那寻常而老旧的洞口和中等程度下垂的阴唇，暗示着一种毫无真正迷人奥秘可言的人生。</li>
     <li>望着{PAWN_nameShort}的中等、衰败的身形，哪怕是偷偷看，也觉得是浪费时间。没有什么禁忌之美，只有一副疲惫、乏味、老迈的身体。</li>
-    <li>偷瞄 {PAWN_nameShort}的 私密部位毫无趣味，只是一个疲惫、乏味而干瘪的形状。我的偷窥冲动在这上面彻底白费了。</li>
+    <li>偷瞄 {PAWN_nameShort}的私密部位毫无趣味，只是一个疲惫、乏味而干瘪的形状。我的偷窥冲动在这上面彻底白费了。</li>
     <li>偷偷一看证实了我的猜测：{PAWN_nameShort}的那部位完全寻常又古老。那呆滞的显露程度与平平无奇的阴蒂让我深感索然无味。</li>
-    <li>我这番偷窥的努力换来的只有极度的平庸。{PAWN_nameShort}的 阴唇就那样摆着，毫无刺激，整体形状也完全过目即忘，又显出老态。</li>
+    <li>我这番偷窥的努力换来的只有极度的平庸。{PAWN_nameShort}的阴唇就那样摆着，毫无刺激，整体形状也完全过目即忘，又显出老态。</li>
     <li>这次偷看{PAWN_nameShort}的没能激起任何兴奋。平平的深度和寡淡干瘪的阴唇，辜负了我隐秘的渴求。</li>
     <li>{PAWN_nameShort}的袒露的部位那种中等而朴素的性质，真让人失望。我本期待某种禁忌之感，结果只看到极度乏味的生理构造与衰老。</li>
     <li>从我所在的角度，{PAWN_nameShort}的那个开口平淡萎缩得叫人沮丧。那普通的大小和毫无灵气的轮廓，把偷窥的乐趣抽得一干二净，只剩下恶心。</li>
@@ -1560,7 +1550,7 @@
     <li>它就是……在那儿。没有突出之处，没有引人探究的深度。</li>
     <li>寻常的一幕，{PAWN_nameShort}的构造对我这双老眼毫无吸引力。</li>
     <li>它的平淡几乎冒犯人，与青春所谓的活力形成鲜明对比。</li>
-    <li>{PAWN_nameShort}的 的部位没什么值得记住的，连稍稍欣赏一下都谈不上。</li>
+    <li>{PAWN_nameShort}部位没什么值得记住的，连稍稍欣赏一下都谈不上。</li>
     <li>我本以为年轻的身体会更有看头，可{PAWN_nameShort}的阴道乏味得令人失望。</li>
     <li>真是令人厌倦的一幕，{PAWN_nameShort}的中等的体态给不了任何慰藉。</li>
     <li>在那难看的褶皱衬托下，她的阴蒂显得很小，几乎看不见。</li>
@@ -1633,7 +1623,7 @@
     <li>如此粗糙的开口，就算按马类的标准也算不上精致。真是令人失望。</li>
     <li>那可见的构造太粗糙、太凌乱，谈不上诱人。</li>
     <li>我一阵厌恶，就因为它那纯粹乏味的马类本性。</li>
-    <li>{PAWN_nameShort}的 马族阴道那寻常的形状，是一幕刺眼的景象。</li>
+    <li>{PAWN_nameShort}的马族阴道那寻常的形状，是一幕刺眼的景象。</li>
     <li>我希望这基因生成的家伙别那么……土气，能更诱人些。</li>
     <li>它中等的深度，除了实用的粗糙之外说明不了什么。</li>
     <li>这条马科阴道的轮廓千篇一律，看着实在无聊。</li>
@@ -1665,7 +1655,7 @@
     <li>如此粗糙的开口，就算按虫类的标准也算不上精致。真是令人失望。</li>
     <li>那可见的构造太粗糙、太凌乱，谈不上诱人。</li>
     <li>我一阵厌恶，就因为它那纯粹乏味的虫类本性。</li>
-    <li>{PAWN_nameShort}的 产卵管那寻常的形状，是一幕刺眼的景象。</li>
+    <li>{PAWN_nameShort}的产卵管那寻常的形状，是一幕刺眼的景象。</li>
     <li>我希望这基因生成的家伙别那么……虫里虫气，能更可怖些。</li>
     <li>它中等的深度，除了实用的粗糙之外说明不了什么。</li>
     <li>这条产卵管的轮廓千篇一律，看着实在无聊。</li>
@@ -1715,7 +1705,7 @@
     <li>一瞥之下看见了{PAWN_nameShort}的暴露的部位；一副呆滞无生气的模样，毫无撩人的魅力可言。不过是一幕疲惫而寻常的景象。</li>
     <li>{PAWN_nameShort}的那疲倦而平平无奇的褶皱，暗示着一段毫无激情的过往。它平庸的形态只呈现出一幅沉闷、毫无生气的景象。</li>
     <li>盯着{PAWN_nameShort}的那平淡的开口，一阵漠然向我袭来。那毫无吸引力的形态透着例行公事，完全没有一丝刺激。</li>
-    <li>{PAWN_nameShort}的 那疲惫平淡的外表毫无诱人之处。衰老的组织与平庸的轮廓，只给出了一眼陈旧乏味的皮肉内部。</li>
+    <li>{PAWN_nameShort}的那疲惫平淡的外表毫无诱人之处。衰老的组织与平庸的轮廓，只给出了一眼陈旧乏味的皮肉内部。</li>
     <li>{PAWN_nameShort}的身上那块乏善可陈的皮肉毫无刺激可言。它平平无奇的外表，只是证实了一段充满乏味时刻的过往。</li>
     <li>{PAWN_nameShort}的穴口那微微下垂的阴唇与黯淡的色泽，呈现出一幅相当令人提不起兴致的景象。它分明在诉说“平庸”，还透着一丝被荒废的意味。</li>
     <li>目睹{PAWN_nameShort}的毫无看点的展示，我不禁感到一阵失望。那平平无奇的深度与形态，正昭示着一段乏味的存在。</li>
@@ -1734,8 +1724,8 @@
     <li>{PAWN_nameShort}的这片私密风景，暗示着平庸的一生。褪色而平淡的景象让我感到彻底的漠然。</li>
   </Opinion_Vagina_Negative_Average_MatureFemale.opinionTexts>
   <Opinion_Vagina_Negative_Average_MatureFemale_observed_by_Elder_female.opinionTexts>
-    <li>哦，{PAWN_nameShort}的 那处。对 {PAWN_possessive} 这个年纪来说相当平庸。{PAWN_possessive} 阴唇下垂的样子实在乏味，不过是我见过千百遍的东西。毫无生气。</li>
-    <li>不怎么好看。{PAWN_nameShort}的 那褪色的、中等模样的开口简直在喊“中年危机”。实在毫无魅力，赤裸裸地提醒人衰老无可避免。</li>
+    <li>哦，{PAWN_nameShort}的那处。对 {PAWN_possessive} 这个年纪来说相当平庸。{PAWN_possessive} 阴唇下垂的样子实在乏味，不过是我见过千百遍的东西。毫无生气。</li>
+    <li>不怎么好看。{PAWN_nameShort}的那褪色的、中等模样的开口简直在喊“中年危机”。实在毫无魅力，赤裸裸地提醒人衰老无可避免。</li>
     <li>瞥见了{PAWN_nameShort}的磨损的深处。没什么特别，只是一幅疲惫而乏味的景象，毫无意外。真是平淡无奇的一幕。</li>
     <li>那松弛平庸的一块。{PAWN_possessive}疲惫的皮肉暗示着一段平凡的过去。毫无神秘感，只是寻常又提不起兴致的景象。它只是……在那儿而已。</li>
     <li>匆匆一看印证了我本就不高的期待：{PAWN_nameShort}的那乏味、暗淡的入口看起来正如我所料的那么中等。真是一幕令人沮丧、平庸的景象。</li>
@@ -1757,7 +1747,7 @@
   </Opinion_Vagina_Negative_Average_MatureFemale_observed_by_Elder_female.opinionTexts>
   <Opinion_Vagina_Negative_Average_MatureFemale_observed_by_Elder_male.opinionTexts>
     <li>啊，{PAWN_nameShort}中年人的部位。预料之中。{PAWN_possessive}阴唇下垂的样子只是中等程度，没什么值得大书特书的。乏味的景象。</li>
-    <li>算不上什么新发现。{PAWN_nameShort}的 那褪色的、中等模样的开口简直在喊“二手货”。对见多识广的眼睛来说实在毫无魅力，早就看惯了。</li>
+    <li>算不上什么新发现。{PAWN_nameShort}的那褪色的、中等模样的开口简直在喊“二手货”。对见多识广的眼睛来说实在毫无魅力，早就看惯了。</li>
     <li>瞥见了{PAWN_nameShort}的磨损的深处。没什么特别，只是一幅疲惫而乏味的景象，只让人感到无聊。又是平平无奇的一幕。</li>
     <li>那松弛平庸的一块。{PAWN_possessive}疲惫的皮肉暗示着一段平凡的过去。毫无神秘感，只是寻常又提不起兴致的景象，完全让人记不住。</li>
     <li>匆匆一看印证了我本就不高的期待：{PAWN_nameShort}的那乏味、暗淡的入口看起来正如我所料的那么中等。真是一幕令人沮丧、平庸的景象。</li>
@@ -1781,7 +1771,7 @@
     <li>多么可悲的展示。{PAWN_nameShort}的露出的部位毫无看头，只是一副乏味而无灵气的模样。真是对公开露体的一种侮辱。</li>
     <li>{PAWN_nameShort}的阴唇下垂的样子，{PAWN_pronoun}显然毫无展露的意识。真是一副提不起兴致的景象，连瞥一眼都不值。</li>
     <li>观察着{PAWN_nameShort}的平淡无奇的穴口，我只感到轻蔑。{PAWN_possessive}身体构造毫无亮点，坦白说令人难堪。</li>
-    <li>{PAWN_possessive}私密部位如此胆怯、毫无灵气的呈现。{PAWN_nameShort}的平庸的形状与疲惫的深处，对展示而言毫无刺激可言。</li>
+    <li>{PAWN_possessive}私密部位如此胆怯、毫无灵气的姿态。{PAWN_nameShort}的平庸的形状与疲惫的深处，对展示而言毫无刺激可言。</li>
     <li>如果{PAWN_nameShort}的指望给人留下印象，{PAWN_pronoun}彻底失败了。这中等、倒胃口的景象是缺乏灵感的生理构造的明证，完全让人记不住。</li>
     <li>看看这场毫无新意的展示。{PAWN_nameShort}的黯淡的内侧褶皱和平平无奇的阴蒂，简直是对真正暴露癖的嘲弄。无聊至极。</li>
     <li>即便裸露出来，{PAWN_nameShort}的部位也毫无观赏性。那毫不出众的深度和形态，分明在喊“稀松平常”，而不是“看我啊！”</li>
@@ -1802,7 +1792,7 @@
   <Opinion_Vagina_Negative_Average_MatureFemale_observed_by_Nymphomaniac.opinionTexts>
     <li>真是寡淡无趣的景象。{PAWN_nameShort}的袒露的部位带不来任何刺激，只有一副疲惫破旧的躯体。对激起欲望完全无用。</li>
     <li>{PAWN_nameShort}的阴唇垂着的样子，显然已风光不再，激不起半点兴奋。一场沉闷而毫无美感的景象，全然不见情欲。</li>
-    <li>观察着 {PAWN_nameShort}的 毫不起眼的入口，一阵深深的失望席卷了我。它平庸的外表只预示着乏味、无法满足的交合。</li>
+    <li>观察着 {PAWN_nameShort}的毫不起眼的入口，一阵深深的失望席卷了我。它平庸的外表只预示着乏味、无法满足的交合。</li>
     <li>那松弛平庸的一块。{PAWN_possessive}疲惫的皮肉暗示着一段平凡的过去。毫无神秘感，只是寻常又提不起兴致的景象。对引发性唤起毫无用处。</li>
     <li>匆匆一看印证了我的担忧：{PAWN_nameShort}的那乏味、暗淡的入口除了乏味的交合之外什么也承诺不了。真是一幕令人沮丧、毫无高潮的景象。</li>
     <li>{PAWN_nameShort}的穴口那微微下垂的阴唇与黯淡的色泽，呈现出一幅相当令人提不起兴致的景象。每一道疲惫的褶皱都在喊着“毫无乐趣”。</li>
@@ -1845,7 +1835,7 @@
   </Opinion_Vagina_Negative_Average_MatureFemale_observed_by_Prude.opinionTexts>
   <Opinion_Vagina_Negative_Average_MatureFemale_observed_by_Young_female.opinionTexts>
     <li>呃，{PAWN_nameShort}的那副老态的部位。{PAWN_possessive}阴唇下垂的样子真让人沮丧，绝对不是我想要的模样。一个真实的警示。</li>
-    <li>谈不上鼓舞人心。{PAWN_nameShort}的 那褪色的、中等模样的开口活像一张错误选择的路线图。实在毫无魅力，是未来的预兆。</li>
+    <li>谈不上鼓舞人心。{PAWN_nameShort}的那褪色的、中等模样的开口活像一张错误选择的路线图。实在毫无魅力，是未来的预兆。</li>
     <li>瞥见了{PAWN_nameShort}的磨损的深处。没什么特别，只是一幅疲惫而乏味的景象，让我庆幸自己还年轻。真叫人扫兴。</li>
     <li>那松弛平庸的一块。{PAWN_possessive}疲惫的皮肉暗示着一段平凡的过去。毫无神秘感，只是寻常又提不起兴致的景象。我希望自己永远不要变成那样。</li>
     <li>匆匆一看印证了我的担忧：{PAWN_nameShort}的那乏味、暗淡的入口看起来干瘪而凄凉。真是令人沮丧、平庸的一幕，本该留在私密之处。</li>
@@ -1867,7 +1857,7 @@
   </Opinion_Vagina_Negative_Average_MatureFemale_observed_by_Young_female.opinionTexts>
   <Opinion_Vagina_Negative_Average_MatureFemale_observed_by_Young_male.opinionTexts>
     <li>呃，{PAWN_nameShort}的那些看着老气的部位。{PAWN_possessive}阴唇下垂的样子真恶心，绝对不是我愿意看到的。真是倒胃口。</li>
-    <li>算不上什么好景致。{PAWN_nameShort}的 那褪色的、中等模样的开口简直在喊“奶奶的地下室”。对年轻人的眼睛来说实在毫无魅力。</li>
+    <li>算不上什么好景致。{PAWN_nameShort}的那褪色的、中等模样的开口简直在喊“奶奶的地下室”。对年轻人的眼睛来说实在毫无魅力。</li>
     <li>瞥见了{PAWN_nameShort}的磨损的深处。没什么特别，只是一幅疲惫而乏味的景象，让我直皱眉。绝对不是我的菜。</li>
     <li>那松弛平庸的一块。{PAWN_possessive}疲惫的皮肉看起来经历得太多，或者没经历过什么刺激的。不管怎样，我都不感兴趣。</li>
     <li>匆匆一看印证了我的担忧：{PAWN_nameShort}的那乏味、暗淡的入口看起来像泄了气的气球。真是令人沮丧、平庸的一幕，本就该被遮住。</li>
@@ -1933,18 +1923,18 @@
   </Opinion_Vagina_Negative_Average_MatureFemale_observed_by_middle_aged_male.opinionTexts>
   <Opinion_Vagina_Negative_Average_MatureFemale_observed_by_voyer.opinionTexts>
     <li>尽管偷看本身带来禁忌的刺激，{PAWN_nameShort}的那乏味的深处却没露出任何值得一看的东西。对偷窥者而言，也是十足平淡、令人失望的一幕。</li>
-    <li>偷瞄 {PAWN_nameShort}的 私处毫无兴奋可言。那平庸的形状令人失望，对一双挑剔的眼睛来说毫无刺激。</li>
+    <li>偷瞄 {PAWN_nameShort}的私处毫无兴奋可言。那平庸的形状令人失望，对一双挑剔的眼睛来说毫无刺激。</li>
     <li>我看着{PAWN_nameShort}的裸露的私处，本想获得刺激，却只觉得乏味。那中等大小的轮廓实在无趣，白白浪费了一次偷窥的机会。</li>
-    <li>偷看着 {PAWN_nameShort}的 的私处，我只觉得无聊。那平凡的形状与疲态尽显的样子，对我这偷窥的胃口来说是大失所望。</li>
-    <li>{PAWN_nameShort}的 那副平庸的模样让我这偷窥的欲望落空。中等的尺寸与毫无魅力的阴唇，半点撩人的东西都没有。</li>
+    <li>偷看着 {PAWN_nameShort}私处，我只觉得无聊。那平凡的形状与疲态尽显的样子，对我这偷窥的胃口来说是大失所望。</li>
+    <li>{PAWN_nameShort}的那副平庸的模样让我这偷窥的欲望落空。中等的尺寸与毫无魅力的阴唇，半点撩人的东西都没有。</li>
     <li>即便对偷窥者而言，{PAWN_nameShort}的那乏味、略有磨损的穴口也令人扫兴。那隐约的阴蒂轮廓带不来真正的视觉回报。</li>
     <li>我期待一份禁忌的快感，可{PAWN_nameShort}的那乏味无趣的部位只奉上了沉闷的现实。一幅彻底平庸、无聊至极的景象。</li>
     <li>{PAWN_nameShort}的外露的内部毫无撩人之意。那平平无奇的深度和有些松软的阴唇，是偷窥者最糟糕的噩梦：乏味。</li>
     <li>对一个暗中的仰慕者来说多么失望。{PAWN_nameShort}的那寻常的洞口和中等程度下垂的阴唇，暗示着一种毫无真正迷人奥秘可言的人生。</li>
     <li>望着{PAWN_nameShort}的中等的身形，哪怕是偷偷看，也觉得是浪费时间。没有什么禁忌之美，只有一副疲惫而乏味的身体。</li>
-    <li>偷瞄 {PAWN_nameShort}的 私密部位毫无趣味，只是一个疲惫而乏味的形状。我的偷窥冲动在这上面彻底白费了。</li>
+    <li>偷瞄 {PAWN_nameShort}的私密部位毫无趣味，只是一个疲惫而乏味的形状。我的偷窥冲动在这上面彻底白费了。</li>
     <li>偷偷一看证实了我的猜测：{PAWN_nameShort}的那部位完全寻常。那呆滞的显露程度与平平无奇的阴蒂让我深感索然无味。</li>
-    <li>我这番偷窥的努力换来的只有平庸。{PAWN_nameShort}的 阴唇就那样摆着，毫无刺激，整体形状也完全令人过目即忘。</li>
+    <li>我这番偷窥的努力换来的只有平庸。{PAWN_nameShort}的阴唇就那样摆着，毫无刺激，整体形状也完全令人过目即忘。</li>
     <li>这次偷看{PAWN_nameShort}的没能激起任何兴奋。平平的深度和寡淡的阴唇，辜负了我隐秘的渴求。</li>
     <li>{PAWN_nameShort}的袒露的部位那种中等而朴素的性质，真让人失望。我本期待某种禁忌之感，结果只看到极度乏味的生理构造。</li>
     <li>从我所在的角度，{PAWN_nameShort}的那个开口平淡得叫人沮丧。那普通的大小和毫无灵气的轮廓，把偷窥的乐趣抽得一干二净。</li>
@@ -1971,7 +1961,7 @@
     <li>如此粗糙的开口，就算按猪类的标准也算不上精致。真是令人失望。</li>
     <li>那可见的构造太粗糙、太凌乱，谈不上诱人。</li>
     <li>我一阵厌恶，就因为它那纯粹乏味的猪类本性。</li>
-    <li>{PAWN_nameShort}的 猪族阴道那寻常的形状，是一幕刺眼的景象。</li>
+    <li>{PAWN_nameShort}的猪族阴道那寻常的形状，是一幕刺眼的景象。</li>
     <li>我希望这基因生成的家伙别那么……脏，能更诱人些。</li>
     <li>它中等的深度，除了实用的粗糙之外说明不了什么。</li>
     <li>这条猪科阴道的轮廓千篇一律，看着实在无聊。</li>
@@ -2003,7 +1993,7 @@
     <li>如此粗糙的开口，就算按黏液的标准也算不上精致。真是令人失望。</li>
     <li>那可见的构造太粗糙、太凌乱，谈不上诱人。</li>
     <li>我一阵厌恶，就因为它那纯粹乏味的黏液类本性。</li>
-    <li>{PAWN_nameShort}的 史莱姆阴道那寻常的形状，是一幕刺眼的景象。</li>
+    <li>{PAWN_nameShort}的史莱姆阴道那寻常的形状，是一幕刺眼的景象。</li>
     <li>我希望这基因生成的家伙别那么……滑腻，能更可怖些。</li>
     <li>它中等的深度，除了实用的粗糙之外说明不了什么。</li>
     <li>这条史莱姆阴道的轮廓千篇一律，看着实在无聊。</li>
@@ -2162,7 +2152,7 @@
     <li>{PAWN_nameShort}的阴道那千篇一律的轮廓，勾不起一丝悸动。</li>
     <li>我的目光飘移着，实在无法在如此无趣的东西上聚焦。</li>
     <li>真是一份毫无吸引力的揭示，这副中等的构造是一种诅咒。</li>
-    <li>{PAWN_nameShort}的 生殖器那寻常的形状，对我而言实在倒胃口。</li>
+    <li>{PAWN_nameShort}的生殖器那寻常的形状，对我而言实在倒胃口。</li>
     <li>我寻求强烈的快感，可{PAWN_nameShort}的阴道平庸得令人沮丧。</li>
     <li>那可见的构造太过平淡，扑灭了任何一丝欲望。</li>
     <li>看到这般中规中矩的女性部位，我这享乐主义者的内心打了个哈欠。</li>
@@ -2227,7 +2217,7 @@
     <li>不过是个洞，无趣、激不起兴致。我的心思飘远了。</li>
     <li>她平淡无趣的样子，令我自己的部位厌恶地缩回去。</li>
     <li>一看到那样毫无新意的部件，我的欲望就悄无声息地悲惨死去。</li>
-    <li>{PAWN_nameShort}的 阴道那寻常的轮廓，是慕男狂的噩梦。</li>
+    <li>{PAWN_nameShort}的阴道那寻常的轮廓，是慕男狂的噩梦。</li>
     <li>我专注地凝视，希望找到什么变态的细节，却只看到彻底的平庸。</li>
     <li>真是一份毫无吸引力的揭示，我的性唤起被彻底拒绝。</li>
     <li>我的目光停留，却只是出于对它毫无吸引力这一点的猎奇好奇。</li>
@@ -2293,7 +2283,7 @@
     <li>{PAWN_nameShort}的阴道那千篇一律的轮廓，没有任何值得观赏的旅程。</li>
     <li>我的目光飘移着，实在无法在如此无趣的景象上聚焦。</li>
     <li>真是一份毫无灵感的揭示，这副中等的构造是偷窥者的祸害。</li>
-    <li>{PAWN_nameShort}的 生殖器那寻常的形状，对我而言实在倒胃口。</li>
+    <li>{PAWN_nameShort}的生殖器那寻常的形状，对我而言实在倒胃口。</li>
     <li>我想找点独特之处，可{PAWN_nameShort}的阴道平庸得令人沮丧。</li>
     <li>那可见的构造太过平淡，扑灭了任何一丝好奇。</li>
     <li>看到这般中规中矩的女性部位，我这色胚的内心打了个哈欠。</li>
@@ -2355,7 +2345,7 @@
     <li>不过是个洞，无趣、激不起兴致。我的思绪飘远了。</li>
     <li>她平淡无趣的样子，令我自己的部位抗拒地缩回去。</li>
     <li>一看到那样毫无新意的女性部件，我的欲望就悄无声息地死掉了。</li>
-    <li>{PAWN_nameShort}的 阴道那寻常的轮廓，是偷窥者的噩梦。</li>
+    <li>{PAWN_nameShort}的阴道那寻常的轮廓，是偷窥者的噩梦。</li>
     <li>我专注地凝视，希望找到什么变态的细节，却只看到平庸。</li>
     <li>真是一份毫无吸引力的揭示，我的性唤起被彻底拒绝。</li>
     <li>我的目光停留，却只是出于困惑——它毫无吸引力可言。</li>
@@ -2416,7 +2406,7 @@
   <Opinion_Vagina_Negative_Cavernous_CatVagina.opinionTexts>
     <li>{PAWN_nameShort}的空洞的猫类阴道看着令人不安；那宽阔湿滑的样子透着令人不适的猫科气息。</li>
     <li>{PAWN_nameShort}的那猫科身体上巨大松垮的样子令人作呕，是一处真正非自然、拒人千里的大张。</li>
-    <li>观察着 {PAWN_nameShort}的 宽广如猫的虚空，我感到一阵深深的不安。它宽得惊人，粗野不堪。</li>
+    <li>观察着 {PAWN_nameShort}的宽广如猫的虚空，我感到一阵深深的不安。它宽得惊人，粗野不堪。</li>
     <li>{PAWN_nameShort}的身上那硕大、兽性的开口，老实说令人不安。对人类来说实在太空洞、太兽类了。</li>
     <li>{PAWN_nameShort}的猫科阴道那骇人的比例，是一场令人作呕的解剖恐怖展示。</li>
     <li>我看到{PAWN_nameShort}的那宽阔的猫类深处就退避。那是个可憎、非自然的洞穴。</li>
@@ -2448,7 +2438,7 @@
   <Opinion_Vagina_Negative_Cavernous_DemonVagina.opinionTexts>
     <li>{PAWN_nameShort}的空洞的恶魔阴道看着骇人；那地狱般的深度只承诺了沉沦。</li>
     <li>{PAWN_nameShort}的那恶魔身体上巨大而充满恶意的大张，令人作呕，是一处亵渎、拒人千里的深渊。</li>
-    <li>观察着 {PAWN_nameShort}的 宽广如地狱的虚空，我感到一阵深深的恐惧。它宽得惊人，充满了邪恶。</li>
+    <li>观察着 {PAWN_nameShort}的宽广如地狱的虚空，我感到一阵深深的恐惧。它宽得惊人，充满了邪恶。</li>
     <li>{PAWN_nameShort}的身上那硕大、怪异的开口，老实说令人心灰意冷。实在太空洞、太邪异了。</li>
     <li>{PAWN_nameShort}的恶魔阴道骇人的尺寸，是魔界力量的恶心展示。</li>
     <li>我看到{PAWN_nameShort}的那宽阔的腐化深处就退避。那是个可憎、非自然的诅咒洞穴。</li>
@@ -2480,7 +2470,7 @@
   <Opinion_Vagina_Negative_Cavernous_DogVagina.opinionTexts>
     <li>{PAWN_nameShort}的空洞的犬类阴道看着怪诞；那赤裸外露的宽度透着令人不安的兽性。</li>
     <li>{PAWN_nameShort}的那犬类身体上巨大松垮的样子令人作呕，是一处真正非自然、拒人千里的大张。</li>
-    <li>观察着 {PAWN_nameShort}的 宽广如犬的虚空，我感到一阵深深的厌恶。它宽得惊人，粗野不堪。</li>
+    <li>观察着 {PAWN_nameShort}的宽广如犬的虚空，我感到一阵深深的厌恶。它宽得惊人，粗野不堪。</li>
     <li>{PAWN_nameShort}的身上那硕大、兽性的开口，老实说令人不安。对人类来说实在太空洞、太兽类了。</li>
     <li>{PAWN_nameShort}的犬类阴道那骇人的比例，是一场令人作呕的解剖恐怖展示。</li>
     <li>我看到{PAWN_nameShort}的那宽阔的犬类深处就退避。那是个可憎、非自然的洞穴。</li>
@@ -2512,7 +2502,7 @@
   <Opinion_Vagina_Negative_Cavernous_DragonVagina.opinionTexts>
     <li>{PAWN_nameShort}的空洞的龙类阴道看着骇人；那覆鳞的深处只承诺了怪物的拥抱。</li>
     <li>{PAWN_nameShort}的那巨龙身体上巨大而爬虫般的大张，令人作呕，是一处亵渎、拒人千里的深渊。</li>
-    <li>观察着 {PAWN_nameShort}的 宽广覆鳞的虚空，我感到一阵深深的恐惧。它宽得惊人，散发着原始的恐惧。</li>
+    <li>观察着 {PAWN_nameShort}的宽广覆鳞的虚空，我感到一阵深深的恐惧。它宽得惊人，散发着原始的恐惧。</li>
     <li>{PAWN_nameShort}的身上那硕大、怪异的开口，老实说令人心灰意冷。实在太空洞、太龙类了。</li>
     <li>{PAWN_nameShort}的龙阴道骇人的尺寸，是远古力量的恶心展示。</li>
     <li>我看到{PAWN_nameShort}的那宽阔的腐化深处就退避。那是个可憎、非自然的原始恐惧洞穴。</li>
@@ -2564,7 +2554,7 @@
     <li>那深不见底的空洞与极度的下垂让我深感绝望。真是令人沮丧的景象。</li>
   </Opinion_Vagina_Negative_Cavernous_ElderFemale.opinionTexts>
   <Opinion_Vagina_Negative_Cavernous_ElderFemale_observed_by_Elder_female.opinionTexts>
-    <li>哦，{PAWN_nameShort}的 那处看起来如此疲软、空洞而老迈。即便对我来说，也是令人极度沮丧的景象。</li>
+    <li>哦，{PAWN_nameShort}的那处看起来如此疲软、空洞而老迈。即便对我来说，也是令人极度沮丧的景象。</li>
     <li>那被撑开、干瘪的阴唇与显而易见的深邃，是对青春彻底衰败的一记阴沉注视。真是悲惨。</li>
     <li>她的部位是地心引力那无情而残酷的拉扯的凄惨明证。又宽又乏味，真叫人惋惜。</li>
     <li>那可见的极度磨损让我叹气。它没有一丝昔日荣光的痕迹，只有一片辽阔而古老的空荡。</li>
@@ -2622,7 +2612,7 @@
     <li>她那拒人千里的深度与疲惫的形体，让我因失望而脊背发凉。不适合公开展示。</li>
     <li>再多的暴露癖逞强也救不了那道宽大苍老的开口。真正的视觉恐怖。</li>
     <li>阴蒂在铺展空洞的阴唇之间几乎看不出来。真是拙劣的一幕。</li>
-    <li>观察 {PAWN_nameShort}的 的构造让我想把自己裹起来，这完全违背我的本性。太糟糕了。</li>
+    <li>观察 {PAWN_nameShort}构造让我想把自己裹起来，这完全违背我的本性。太糟糕了。</li>
     <li>她那部位疲倦而松垮的模样，充分说明了过往的过度使用，谈不上诱人的展示。</li>
     <li>这是个警示故事：一个空洞的虚空，剥夺了身体一切情欲魅力，哪怕对我而言也是如此。</li>
     <li>她那大敞而毫无美感的模样让我不由退缩。没有喜悦，没有骄傲，只有令人沮丧的暴露。</li>
@@ -2767,7 +2757,7 @@
     <li>{PAWN_nameShort}的那些部位张得那么开，神秘感荡然无存，取而代之的是衰朽之感。</li>
     <li>那古老而大张的广阔让我无动于衷。没有含蓄的展现，只有一番疲惫、磨损的展示。</li>
     <li>我这偷窥的好奇心迎来的是一副泄了气的景象；她的阴唇像被丢弃的干枯破布。</li>
-    <li>紧实感的完全缺失刺眼至极。即便隔着距离，{PAWN_nameShort}的 的部位也像是历经了太多风霜。</li>
+    <li>紧实感的完全缺失刺眼至极。即便隔着距离，{PAWN_nameShort}部位也像是历经了太多风霜。</li>
     <li>我渴望禁忌之物，可这只让人觉得……沮丧失落。她那宽大空洞的形态给不了任何刺激。</li>
     <li>那可见的深度令人吃惊，却不是什么好方向。它看着只是被用旧了、老旧不堪，毫无吸引力。</li>
     <li>我偏爱些许神秘感；{PAWN_nameShort}的空洞的入口什么也没留给想象。无聊。</li>
@@ -2780,7 +2770,7 @@
     <li>我观察着，却在那宽大、倦怠的开口中找不到半点快感。它只诉说着一段早已过度消耗的过往。</li>
     <li>那可见的深度与其说引人好奇，不如说令人不安；它看起来只像一片虚空。</li>
     <li>她那过分宽阔大张的入口，只让我这偷窥的目光感到无聊。没有张力，没有兴奋。</li>
-    <li>在 {PAWN_nameShort}的 那辽阔空洞的身体背景下，阴蒂显得又小又无足轻重。</li>
+    <li>在 {PAWN_nameShort}的那辽阔空洞的身体背景下，阴蒂显得又小又无足轻重。</li>
     <li>这正是某些东西最好别去看的绝佳例证——哪怕对偷窥者而言。真叫人泄气。</li>
   </Opinion_Vagina_Negative_Cavernous_ElderFemale_observed_by_voyer.opinionTexts>
   <Opinion_Vagina_Negative_Cavernous_Elderly_Female_opinion.opinionTexts>
@@ -2796,7 +2786,7 @@
     <li>年纪这么轻，{PAWN_nameShort}的却空洞得惊人。完全没有什么精巧的结构。</li>
     <li>{PAWN_nameShort}的身上那大张的沟壑，是糟糕选择的见证。相当不吸引人。</li>
     <li>{PAWN_nameShort}的阴唇那被撑开的模样说实在的令人不适。它看起来松弛而不修边幅。</li>
-    <li>人本希望看到更保守的呈现。{PAWN_nameShort}的 实在又宽又粗俗。</li>
+    <li>人本希望看到更保守的姿态。{PAWN_nameShort}的实在又宽又粗俗。</li>
     <li>{PAWN_nameShort}的显得实在太过辽阔。简直在尖叫着缺乏青春的新鲜。</li>
     <li>我观察着{PAWN_nameShort}的巨大的张大。它大得令人不安，也相当不淑女。</li>
     <li>{PAWN_nameShort}的身上如此过度的开口。它彻底毁掉了任何女性的优雅感。</li>
@@ -2812,23 +2802,23 @@
     <li>{PAWN_nameShort}的那大张的构造坦白说令人不安，毫无魅力可言。</li>
     <li>粗陋得令人不安。{PAWN_nameShort}的那空洞的状态相当显眼，令人不适。</li>
     <li>对年轻女性来说这几乎有失体统。{PAWN_nameShort}的竟出奇地辽阔而暴露。</li>
-    <li>人本希望看到更精致的呈现。{PAWN_nameShort}的 却是一处非常突出而不优雅的空洞。</li>
+    <li>人本希望看到更精致的姿态。{PAWN_nameShort}的却是一处非常突出而不优雅的空洞。</li>
     <li>如此开阔的开口绝非美的标志。{PAWN_nameShort}的不幸地既宽阔又毫无吸引力。</li>
   </Opinion_Vagina_Negative_Cavernous_Elderly_Female_opinion.opinionTexts>
   <Opinion_Vagina_Negative_Cavernous_Elderly_Male_opinion.opinionTexts>
     <li>我的老天，{PAWN_nameShort}的那个开口看着都吞得下一头班萨。里头太空了。</li>
-    <li>看见 {PAWN_nameShort}的 那空洞的缝隙；不太像年轻姑娘该有的娇嫩花朵。相当难看。</li>
+    <li>看见 {PAWN_nameShort}的那空洞的缝隙；不太像年轻姑娘该有的娇嫩花朵。相当难看。</li>
     <li>{PAWN_nameShort}的那方面十足的毫无紧致感，相当……令人失望。那就是一张大张的巨口。</li>
     <li>{PAWN_nameShort}的那下面实在太过敞开。以{PAWN_possessive}这个年纪的女人该保有点矜持，当然也该保有些紧致。</li>
     <li>像{PAWN_nameShort}这样的年轻女子却有如此空洞的一片。这说明的是纵欲过度，而非青春魅力。</li>
-    <li>我的天，{PAWN_nameShort}的 看起来经历过的次数可不少。一道宽广而毫无魅力的深壑。</li>
+    <li>我的天，{PAWN_nameShort}的看起来经历过的次数可不少。一道宽广而毫无魅力的深壑。</li>
     <li>说实话，{PAWN_nameShort}的下体看上去……有点磨损过度。像我这等阅历的男人可不觉得这有什么吸引力。</li>
     <li>{PAWN_nameShort}的开口的尺寸相当骇人。那是个宽得令人不安的入口，谈不上诱人。</li>
     <li>我目睹了{PAWN_nameShort}的那令人心惊的空洞。确实宽敞得让人没法舒服。一场糟糕的展示。</li>
     <li>对一个年轻姑娘来说，说实话，{PAWN_nameShort}的深度叫人心里发毛。看上去……空荡荡的。</li>
     <li>{PAWN_nameShort}的身上那大张的虚空就是不雅。它实在毫无形态与优雅可言。</li>
     <li>{PAWN_nameShort}的阴唇松软的模样，加上那彻头彻尾的空洞深度，实在令人兴致全无。</li>
-    <li>人本期待更多年轻的坚挺。{PAWN_nameShort}的 那空洞的状态实在令人失望。</li>
+    <li>人本期待更多年轻的坚挺。{PAWN_nameShort}的那空洞的状态实在令人失望。</li>
     <li>{PAWN_nameShort}的显得实在太过敞开，几乎荒凉。对这么年轻的人来说真是可惜。</li>
     <li>我观察着{PAWN_nameShort}的可观的张大。它大得令人不安，说明缺乏节制。</li>
     <li>{PAWN_nameShort}的身上如此过度的开口。它破坏了女性形体天然的精致。</li>
@@ -2844,7 +2834,7 @@
     <li>{PAWN_nameShort}的那大张的构造坦白说令人不安，毫无神秘感可言。</li>
     <li>形态缺失得令人不安。{PAWN_nameShort}的那空洞的状态相当显眼，令人不适。</li>
     <li>对年轻女性来说这几乎不自然。{PAWN_nameShort}的竟出奇地辽阔。</li>
-    <li>人本希望看到更精致的呈现。{PAWN_nameShort}的 却是一处非常突出的空洞。</li>
+    <li>人本希望看到更精致的姿态。{PAWN_nameShort}的却是一处非常突出的空洞。</li>
     <li>如此开阔的开口绝非美的标志。{PAWN_nameShort}的不幸地过于宽阔。</li>
   </Opinion_Vagina_Negative_Cavernous_Elderly_Male_opinion.opinionTexts>
   <Opinion_Vagina_Negative_Cavernous_Elderly_Male_voyer_opinion.opinionTexts>
@@ -2874,7 +2864,7 @@
     <li>{PAWN_nameShort}的那空洞露骨的样子，直接把我可能生出的任何兴趣都泄了气。</li>
     <li>{PAWN_nameShort}的是令人遗憾的景象，实在太过敞开。我苍老的阳具因毫无兴趣而颤抖。</li>
     <li>{PAWN_nameShort}的这副过度敞开的样子透出一种疲态，我可不想碰上。</li>
-    <li>我这偷窥的兴奋荡然无存。{PAWN_nameShort}的 空洞的本质令人倒胃，毫无诱惑力。</li>
+    <li>我这偷窥的兴奋荡然无存。{PAWN_nameShort}的空洞的本质令人倒胃，毫无诱惑力。</li>
     <li>一次相当缺乏灵感的展示，{PAWN_nameShort}的。我这见多识广的目光在这样一个深洞里找不到多少可欣赏之处。</li>
     <li>{PAWN_nameShort}的广阔中显现的空虚，让我自己的构造感觉……提不起劲。</li>
     <li>我见过比{PAWN_nameShort}的更诱人的洞穴。我的兴趣完全蒸发。</li>
@@ -2882,7 +2872,7 @@
   <Opinion_Vagina_Negative_Cavernous_HorseVagina.opinionTexts>
     <li>{PAWN_nameShort}的空洞的马类阴道看着令人不安；那惊人的宽度兽性得叫人发毛。</li>
     <li>{PAWN_nameShort}的那马类身体又巨大又被撑开的样子令人不安，是一处真正非自然的大张。</li>
-    <li>观察着 {PAWN_nameShort}的 宽广如马的虚空，我感到一阵深深的不安。它宽得怪诞。</li>
+    <li>观察着 {PAWN_nameShort}的宽广如马的虚空，我感到一阵深深的不安。它宽得怪诞。</li>
     <li>{PAWN_nameShort}的身上那硕大、兽性的开口，老实说令人作呕。对人类来说实在太空洞了。</li>
     <li>{PAWN_nameShort}的马类阴道那骇人的比例，是一场令人震惊的解剖畸变展示。</li>
     <li>我看到{PAWN_nameShort}的那宽阔的马类深处就退避。那是个可憎、非自然的洞穴。</li>
@@ -2914,7 +2904,7 @@
   <Opinion_Vagina_Negative_Cavernous_Insect_OvipositorF.opinionTexts>
     <li>{PAWN_nameShort}的空洞的虫类产卵管看着令人作呕；那分节的深度透着令人不安的异星气息。</li>
     <li>{PAWN_nameShort}的那虫族身体上巨大而甲壳质的大张，令人作呕，是一处真正非自然、拒人千里的深渊。</li>
-    <li>观察着 {PAWN_nameShort}的 宽广如虫的虚空，我感到一阵深深的厌恶。它宽得惊人，令人不适。</li>
+    <li>观察着 {PAWN_nameShort}的宽广如虫的虚空，我感到一阵深深的厌恶。它宽得惊人，令人不适。</li>
     <li>{PAWN_nameShort}的身上那硕大、分节的开口，老实说令人反胃。实在太空洞、太异形了。</li>
     <li>{PAWN_nameShort}的虫族产卵管骇人的尺寸，是生物学恐怖的恶心展示。</li>
     <li>我看到{PAWN_nameShort}的那宽阔的几丁质深处就退避。那是个可憎、非自然的洞穴。</li>
@@ -2945,7 +2935,7 @@
   </Opinion_Vagina_Negative_Cavernous_Insect_OvipositorF.opinionTexts>
   <Opinion_Vagina_Negative_Cavernous_MaleOpinion.opinionTexts>
     <li>该死，{PAWN_nameShort}的那地方空洞得很。看起来被用得太狠，不合我口味，毫无挑战性。</li>
-    <li>看见 {PAWN_nameShort}的 那大张的洞。说实话，太大了。要是不紧，还有什么乐趣？</li>
+    <li>看见 {PAWN_nameShort}的那大张的洞。说实话，太大了。要是不紧，还有什么乐趣？</li>
     <li>{PAWN_nameShort}的如此宽阔，简直……毫无吸引力。让我不由想知道那里进过多少人。</li>
     <li>确实是个空洞。但对我而言完全扼杀了兴奋。太空旷了。</li>
     <li>我的目光落在{PAWN_nameShort}的那片空旷上。它看起来已被用过、磨损了。可算不上什么催情之物。</li>
@@ -2998,7 +2988,7 @@
     <li>真正令人沮丧的一幕；那空洞的洞口似乎吞噬了任何一丝年轻的活力。</li>
   </Opinion_Vagina_Negative_Cavernous_MatureFemale.opinionTexts>
   <Opinion_Vagina_Negative_Cavernous_MatureFemale_observed_by_Elder_female.opinionTexts>
-    <li>哦，{PAWN_nameShort}的 那处看起来如此疲软空洞。即便对我来说，也是令人沮丧的景象。</li>
+    <li>哦，{PAWN_nameShort}的那处看起来如此疲软空洞。即便对我来说，也是令人沮丧的景象。</li>
     <li>那被撑开的阴唇与显而易见的深度，是对青春衰败的一记阴沉注视。真是悲惨。</li>
     <li>她的部位是地心引力拉扯的凄惨明证。又宽又乏味，真叫人惋惜。</li>
     <li>那可见的磨损让我叹息。它毫无昔日风采的痕迹，只剩一片空旷。</li>
@@ -3056,7 +3046,7 @@
     <li>她那拒人千里的深度与疲惫的形体，让我因失望而脊背发凉。不适合公开展示。</li>
     <li>再多的暴露癖逞强也救不了那道宽大苍老的开口。真正的视觉恐怖。</li>
     <li>阴蒂在铺展空洞的阴唇之间几乎看不出来。真是拙劣的一幕。</li>
-    <li>观察 {PAWN_nameShort}的 的构造让我想把自己裹起来，这完全违背我的本性。太糟糕了。</li>
+    <li>观察 {PAWN_nameShort}构造让我想把自己裹起来，这完全违背我的本性。太糟糕了。</li>
     <li>她那部位疲倦而松垮的模样，充分说明了过往的过度使用，谈不上诱人的展示。</li>
     <li>这是个警示故事：一个空洞的虚空，剥夺了身体一切情欲魅力，哪怕对我而言也是如此。</li>
     <li>她那大敞而毫无美感的模样让我不由退缩。没有喜悦，没有骄傲，只有令人沮丧的暴露。</li>
@@ -3214,13 +3204,13 @@
     <li>我观察着，却在那宽大、倦怠的开口中找不到半点快感。它只诉说着一段早已过度消耗的过往。</li>
     <li>那可见的深度与其说引人好奇，不如说令人不安；它看起来只像一片虚空。</li>
     <li>她那过分宽阔大张的入口，只让我这偷窥的目光感到无聊。没有张力，没有兴奋。</li>
-    <li>在 {PAWN_nameShort}的 那辽阔空洞的身体背景下，阴蒂显得又小又无足轻重。</li>
+    <li>在 {PAWN_nameShort}的那辽阔空洞的身体背景下，阴蒂显得又小又无足轻重。</li>
     <li>这正是某些东西最好别去看的绝佳例证——哪怕对偷窥者而言。真叫人泄气。</li>
   </Opinion_Vagina_Negative_Cavernous_MatureFemale_observed_by_voyer.opinionTexts>
   <Opinion_Vagina_Negative_Cavernous_PigNarrowVagina.opinionTexts>
     <li>{PAWN_nameShort}的异常空洞的猪类阴道是幅令人不安的景象；那粗放的宽度兽性得令人发毛。</li>
     <li>{PAWN_nameShort}的那猪类身体上巨大松垮的样子令人作呕，是一处真正非自然、拒人千里的大张。</li>
-    <li>观察着 {PAWN_nameShort}的 宽广如猪的虚空，我感到一阵深深的厌恶。它宽得惊人，粗野不堪。</li>
+    <li>观察着 {PAWN_nameShort}的宽广如猪的虚空，我感到一阵深深的厌恶。它宽得惊人，粗野不堪。</li>
     <li>{PAWN_nameShort}的身上那硕大、兽性的开口，老实说令人不安。对人类来说实在太空洞、太兽类了。</li>
     <li>{PAWN_nameShort}的猪类阴道那骇人的比例，是一场令人作呕的解剖恐怖展示。</li>
     <li>我看到{PAWN_nameShort}的那宽阔的猪类深处就退避。那是个可憎、非自然的洞穴。</li>

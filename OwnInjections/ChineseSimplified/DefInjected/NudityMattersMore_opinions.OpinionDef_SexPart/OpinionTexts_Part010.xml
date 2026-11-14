@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 10/39 · 共 2985 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Breasts_Negative_Average_MatureFemale_observed_by_Prude.opinionTexts>
     <li>那对中等乳房有那么一瞬露了出来，真是相当粗鄙的展示。如此不知羞耻，实在可叹。</li>
     <li>我看见{PAWN_nameShort}的胸部，露出的乳房平庸得令人失望。为什么有些人非要这样炫耀自己？</li>
@@ -135,12 +125,12 @@
     <li>它们突然出现，却只给人平庸的观感。毫无刺激。</li>
     <li>匆匆一看只看到一对中等、毫无灵感可言的乳房。</li>
     <li>谈不上刺激；那对乳房完全让人过目即忘。</li>
-    <li>观察了 {PAWN_nameShort}的 的乳房，老实说，让人失望。</li>
+    <li>观察了 {PAWN_nameShort}乳房，老实说，让人失望。</li>
     <li>它们的形态，对像我这样敏锐的眼光来说毫无趣味。</li>
     <li>匆匆一瞥，已经无聊了。充其量也就中等。</li>
     <li>不值得费那个劲；只是两只乏味而平庸的乳房。</li>
     <li>那对可见的乳房毫无兴奋感，只是平平无奇的一幕。</li>
-    <li>一次糟糕的呈现；那对乳房就那样毫无生气地垂着。</li>
+    <li>一次糟糕的姿态；那对乳房就那样毫无生气地垂着。</li>
     <li>如此中等的展示，几乎激不起偷窥者的兴趣。</li>
   </Opinion_Breasts_Negative_Average_MatureFemale_observed_by_voyer.opinionTexts>
   <Opinion_Breasts_Negative_Average_SlimeBreasts.opinionTexts>
@@ -149,7 +139,7 @@
     <li>这对乳房呈现出中等程度的隆起，与其分类相符，却没有任何值得正面关注的独特之处。</li>
     <li>那弧度既不悦目也不含蓄，反光暗淡，正是平平无奇的黏液组织的特征。</li>
     <li>它们看起来不过是实用之物，尺寸既无明显优劣，只有满眼的平淡。</li>
-    <li>人观察着它们，作为 {PAWN_nameShort}的 胸中一个乏味的组成部分，既未增添也未减损 {PAWN_possessive} 的外在呈现。</li>
+    <li>有人观察着它们，作为 {PAWN_nameShort}的胸中一个乏味的组成部分，既未增添也未减损 {PAWN_possessive} 的外在呈现。</li>
     <li>它们的规模符合对中等乳房的平庸预期，呈现出一幅完全普通、无需再想的景象。</li>
     <li>这质地与史莱姆一致，有弹性，却毫无独特或诱人的触感。</li>
     <li>作为一项身体特征，这对中等大小的史莱姆乳房只是占着空间，履行着自己的职责，既无美感也无明显缺陷，只是平庸。</li>
@@ -166,11 +156,11 @@
     <li>它们构成了整体的协调，那平平无奇的样子既谈不上好看，也谈不上难看。</li>
   </Opinion_Breasts_Negative_Average_SlimeBreasts.opinionTexts>
   <Opinion_Breasts_Negative_Average_trait_Kind.opinionTexts>
-    <li>哎呀，{PAWN_nameShort}的 乳房相当平凡。我真希望 {PAWN_pronoun} 不至于太自卑。</li>
+    <li>哎呀，{PAWN_nameShort}的乳房相当平凡。我真希望 {PAWN_pronoun} 不至于太自卑。</li>
     <li>可怜{PAWN_nameShort}的一片真心，可{PAWN_nameShort}的乳房就是……中等。</li>
     <li>{PAWN_nameShort}没能拥有更……出众的形体，真是遗憾。</li>
     <li>希望{PAWN_nameShort}不会因为{PAWN_nameShort}的那对非常普通的乳房而被人过苛评判。</li>
-    <li>人应当礼貌，但 {PAWN_nameShort}的 的胸部实在毫无特别之处。</li>
+    <li>人应当礼貌，但 {PAWN_nameShort}胸部实在毫无特别之处。</li>
     <li>{PAWN_nameShort}的乳房实在太过平淡，让我有点替其惋惜。</li>
     <li>也许 {PAWN_nameShort} 为自己那毫不出彩的乳头感到自卑。</li>
     <li>这么中等的身体，我不忍心让任何人拥有，愿{PAWN_objective}安好吧。</li>
@@ -179,7 +169,7 @@
     <li>希望{PAWN_pronoun}不会因这么一场毫无看头的展示而觉得太暴露。</li>
     <li>这对乳房相当乏味，但我绝不会说出口。</li>
     <li>我试着友善些，但{PAWN_nameShort}的胸部就是平平无奇。</li>
-    <li>人本希望有些别的，但 {PAWN_nameShort}的 乳房只是勉强够看。</li>
+    <li>人本希望有些别的，但 {PAWN_nameShort}的乳房只是勉强够看。</li>
     <li>如此普通的景象。我希望{PAWN_nameShort}别对{PAWN_pronoun}自己太失望。</li>
     <li>这话不太好说，但{PAWN_nameShort}的乳房实在乏善可陈。</li>
     <li>我不想伤了{PAWN_nameShort}的心，可它们只是……中等而已。</li>
@@ -188,7 +178,7 @@
     <li>我看到了它们，却没留下任何印象，愿{PAWN_objective}安好。</li>
     <li>我本不想评论，可{PAWN_nameShort}的乳房实在谈不上是什么美景。</li>
     <li>那形状相当普通，我想……也还行吧。</li>
-    <li>人努力想往好处看，但 {PAWN_nameShort}的 的乳房实在是对耐心的考验。</li>
+    <li>人努力想往好处看，但 {PAWN_nameShort}乳房实在是对耐心的考验。</li>
     <li>希望{PAWN_nameShort}即便有着那样毫无气势的胸部，也能找到自信。</li>
     <li>它们就是它们本来的样子，我想，也就是说，非常平淡。</li>
     <li>我这讲究礼数的性子，对着这份全无特色有点吃不消。</li>
@@ -794,7 +784,7 @@
     <li>那对怪诞的奶子就那样垂着，毫无生气、干瘪而庞大。偷窥者绝对的噩梦。</li>
     <li>一次偷窥的机会，却毁在她那对古老乳房令人作呕的巨大与松弛上。真恶心。</li>
     <li>她那巨大、下垂、干瘪的胸部毫无遮掩地展示着。我的偷窥兴趣迅速转为深深的厌恶。</li>
-    <li>{PAWN_nameShort}的 乳房的巨大规模令人窒息，即便对阅人无数的偷窥者也是如此。毫无吸引力可言，实在令人作呕。</li>
+    <li>{PAWN_nameShort}的乳房的巨大规模令人窒息，即便对阅人无数的偷窥者也是如此。毫无吸引力可言，实在令人作呕。</li>
     <li>我观察着她那对巨大、年迈而干瘪的乳房。那是一团无形、颤动的肉块，几乎谈不上刺激，彻底令人厌恶。</li>
     <li>从我隐蔽的观察点看去，她那对庞大、松垮又上了年纪的乳房显得更加怪诞。真是叫人倒胃口、反胃的景象。</li>
     <li>偷窥的好奇心让我看到了她那对巨大、疲惫而衰败的乳房。现实令人遗憾地乏善可陈，且令人彻底厌恶。</li>
@@ -825,7 +815,7 @@
     <li>那对乳房简直算是畸形，远远超出了任何合理或诱人的尺寸。</li>
     <li>我觉得这几乎是一种冒犯；如此公然、如此不优雅的解剖展示。</li>
     <li>那对乳房毫无精致的女人味；只有原始而逼人的体积。</li>
-    <li>从 {PAWN_nameShort}的 的举止就能看出，那对巨大的乳房是个长期的累赘。</li>
+    <li>从 {PAWN_nameShort}举止就能看出，那对巨大的乳房是个长期的累赘。</li>
     <li>那对乳房真是刺眼；它们看起来像是属于一个年长得多、也胖得多的女人。</li>
     <li>她的青春，完全被{PAWN_possessive}胸部那纯粹而压倒性的尺寸所掩盖。</li>
     <li>皮肤绷在{PAWN_nameShort}的乳房上的样子看起来几乎令人作痛；这不是健康的外观。</li>
@@ -892,7 +882,7 @@
     <li>它们看着不像乳房，更像超大的增生物，说实话这景象令人警觉。</li>
     <li>我觉得{PAWN_nameShort}的乳房的巨大对于{PAWN_possessive}这个年纪的人来说相当不得体。</li>
     <li>那对乳房真是生理上的过度奇观；多得让我的眼睛难以舒适地承受。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 整个姿态都受 {PAWN_possessive} 巨大胸部重量的影响。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的整个姿态都受 {PAWN_possessive} 巨大胸部重量的影响。</li>
     <li>那对巨大晃动的乳房的画面，恐怕会久久不散，正好证明了什么叫真正难看。</li>
     <li>真是一幅可悲的景象，那对乳房；它们是不幸比例的纪念碑。</li>
   </Opinion_Breasts_Negative_Enormous_Elderly_Male_opinion.opinionTexts>
@@ -1196,7 +1186,7 @@
     <li>那对怪诞的奶子就那样垂着，毫无生气又庞大无比。偷窥者最糟的噩梦。</li>
     <li>一次偷窥的机会，却毁在她那对成熟乳房令人作呕的巨大与松弛上。</li>
     <li>她那巨大下垂的胸部毫无遮掩地展示着。我的偷窥兴趣迅速转为厌恶。</li>
-    <li>{PAWN_nameShort}的 乳房的巨大规模令人窒息，即便对阅人无数的偷窥者也是如此。毫无吸引力可言。</li>
+    <li>{PAWN_nameShort}的乳房的巨大规模令人窒息，即便对阅人无数的偷窥者也是如此。毫无吸引力可言。</li>
     <li>我观察着她那对巨大而年迈的乳房。那是一团无形、颤动的肉块，几乎谈不上刺激。</li>
     <li>从我隐蔽的观察点看去，她那对庞大松垮的乳房显得更加怪诞。真是叫人倒胃口的景象。</li>
     <li>偷窥的好奇心让我看到了她那对巨大而疲惫的乳房。现实令人遗憾地乏善可陈，甚至令人厌恶。</li>
@@ -1274,7 +1264,7 @@
     <li>{PAWN_nameShort}的巨大乳房的沉重摇摆，与其说是迷人的晃动，不如说更像一股引力。</li>
     <li>我期待看到的是一场力量或诱惑的演出，可{PAWN_nameShort}的乳房传达的只有不适与失控。</li>
     <li>与其说是诱人的展露，不如说是生理负担的印证；实在难以入目。</li>
-    <li>{PAWN_nameShort}的 乳房完全没有含蓄可言，它们的展示对我挑剔的品味来说几乎是种冒犯。</li>
+    <li>{PAWN_nameShort}的乳房完全没有含蓄可言，它们的展示对我挑剔的品味来说几乎是种冒犯。</li>
     <li>我欣赏这种毫无遮掩的暴露，但{PAWN_nameShort}的胸部那令人不安的巨大实在令人反感。</li>
     <li>这样的展示让我怀疑起自己的暴露欲望；这种负担可一点都不诱人。</li>
     <li>那乳头几乎看不见，淹没在压倒性的体量里，让这场展示显得残缺而不尽兴。</li>
@@ -1312,7 +1302,7 @@
     <li>真可惜，长了这么个压倒性的特征，盖过了{PAWN_pronoun}可能拥有的其他任何魅力。</li>
     <li>光是想象{PAWN_nameShort}的那对巨型乳房的重担，我自己的身体就泛起幻痛。</li>
     <li>我偏爱透出活力与欢愉的展露，而不是那对乳房显而易见的吃力。</li>
-    <li>{PAWN_nameShort}的 乳房完全缺乏精致的形状，让它们成为不值得观赏的对象。</li>
+    <li>{PAWN_nameShort}的乳房完全缺乏精致的形状，让它们成为不值得观赏的对象。</li>
     <li>对我这样的暴露癖来说，这景象是种挑战，而非享受。</li>
     <li>我欣赏自信的展示，可{PAWN_nameShort}的乳房似乎只传达出不适。</li>
     <li>{PAWN_nameShort}的胸部的硕大体积，是一种充满攻击性的视觉，而非诱人的那种。</li>
@@ -1498,7 +1488,7 @@
     <li>那晃动过度，几乎称得上剧烈；与其说是自然的动作，不如说是一场挣扎。</li>
     <li>我想从中领悟人体的奥妙，可{PAWN_nameShort}的乳房把它扭曲得面目全非。</li>
     <li>真可惜，长了这么个压倒性的特征，把{PAWN_possessive}其余的身体都拖累了。</li>
-    <li>{PAWN_nameShort}的 乳房那毫不优雅的巨大体积，几乎把我这偷窥的癖好生生憋死。</li>
+    <li>{PAWN_nameShort}的乳房那毫不优雅的巨大体积，几乎把我这偷窥的癖好生生憋死。</li>
     <li>它们是生理过剩的印证，对我细致的审视而言几乎毫无美感可言。</li>
     <li>绷在{PAWN_nameShort}的庞然乳房上的皮肤几乎显得半透明，是个令人不安的细节。</li>
     <li>我在这种展示中看不到艺术，只有一种钝重、压倒性的存在，掩盖了精致。</li>
@@ -1540,7 +1530,7 @@
     <li>看着它们几乎令人沮丧；它们似乎削弱了{PAWN_nameShort}的整个人的存在感。</li>
     <li>我以挑剔的目光观察着；这样的尺寸简直是审美上的失足。</li>
     <li>它们垂坠的方式毫无柔软可言，只有一种无可否认、令人不适的沉重。</li>
-    <li>我对女性形体的迷恋，在这副极端而笨拙的呈现面前深感不满。</li>
+    <li>我对女性形体的迷恋，在这副极端而笨拙的姿态面前深感不满。</li>
     <li>那对乳房对{PAWN_nameShort}简直是种损害；它们减损了{PAWN_possessive}青春与活力。</li>
     <li>我觉得它们在视觉上令人疲惫；要接收的东西太多，而其中没有一样真正令人愉悦。</li>
   </Opinion_Breasts_Negative_Enormous_trait_Voyeur_F.opinionTexts>
@@ -1842,7 +1832,7 @@
     <li>{PAWN_nameShort}的过度膨胀的乳房，斑驳着老年斑、布满青筋，显露的是衰败而非美丽的残酷现实。</li>
     <li>她那巨大的胸部一旦露出，是让我胃里翻腾、而不是下半身兴奋的景象。垂得那么厉害，那么老。</li>
     <li>她那对巨大乳房的晃动令人作呕，是岁月那残酷而毫不留情的手笔的见证，带不来一丝兴奋。</li>
-    <li>我这偷窥的目光从 {PAWN_nameShort}的 摊开而破败的乳房上退缩。一幅令人不适的衰老景象。</li>
+    <li>我这偷窥的目光从 {PAWN_nameShort}的摊开而破败的乳房上退缩。一幅令人不适的衰老景象。</li>
     <li>这对巨大松垮的乳房，乳头角度怪异而颜色暗沉，是毫无魅力的可怕景象。</li>
     <li>她那巨乳毫不优雅的晃动极其令人反感，对任何观察者来说都是一幕无形无状、不受欢迎的景象。</li>
     <li>她那巨大松软的乳房如此显眼，立刻让人退避。偷窥者追求的是美，不是身体的衰败。</li>
@@ -1865,7 +1855,7 @@
     <li>我一直不懂这种巨大圆丘有什么好。老实说，挺倒胃口的。</li>
     <li>{PAWN_nameShort}的乳房看着就疼。那份重量一定是个天大的麻烦。</li>
     <li>{PAWN_nameShort}的乳头被拉扯的样子，看着相当不舒服。</li>
-    <li>毫无优雅可言。{PAWN_nameShort}的 的乳房完全颠覆了一切关于体面的想象。</li>
+    <li>毫无优雅可言。{PAWN_nameShort}乳房完全颠覆了一切关于体面的想象。</li>
     <li>我可怜{PAWN_nameShort}，竟得忍受这么累赘的胸部。</li>
     <li>显然{PAWN_nameShort}毫无品味，竟允许这样夸张的乳房展示。</li>
     <li>那对乳房谈不上美，更像是……纯粹的体积。令人骇然。</li>
@@ -2244,7 +2234,7 @@
     <li>{PAWN_nameShort}的过度膨胀的乳房，皮肤斑驳、乳头晕色，呈现的是令人不安而非情色的景象。</li>
     <li>我试着从她硕大下垂的乳房中找出些刺激，却只看到一幅令人沮丧的衰老景象。</li>
     <li>她那对巨大乳房的晃动谈不上诱人，更像是重力的一纸可悲证词。真是一场毫无吸引力的表演。</li>
-    <li>我这偷窥的欲望在 {PAWN_nameShort}的 摊开而破败的乳房上找不到半点乐趣。只有一副令人沮丧的沉重景象。</li>
+    <li>我这偷窥的欲望在 {PAWN_nameShort}的摊开而破败的乳房上找不到半点乐趣。只有一副令人沮丧的沉重景象。</li>
     <li>这对巨大的青筋乳房，乳头形状怪异，远称不上真正的美。失望层层累积。</li>
     <li>她那巨乳毫不优雅的晃动非但不迷人，反而令人反感，是衰败的刺眼写照。</li>
     <li>作为一个偷窥者，我寻求刺激，但{PAWN_nameShort}的那对巨大、毫无生气的乳房和它们暗淡的乳晕只带来了沮丧。</li>
@@ -2280,9 +2270,9 @@
     <li>这对乳房体现着原始而压倒一切的怪诞，见证着那要求所有注视者屈服的、毫无节制的肉欲。</li>
   </Opinion_Breasts_Negative_Huge_SlimeBreasts.opinionTexts>
   <Opinion_Breasts_Negative_Huge_trait_Kind.opinionTexts>
-    <li>哎呀，{PAWN_nameShort}的 乳房看起来相当不适。我希望 {PAWN_pronoun} 没有太疼。</li>
+    <li>哎呀，{PAWN_nameShort}的乳房看起来相当不适。我希望 {PAWN_pronoun} 没有太疼。</li>
     <li>我为{PAWN_nameShort}不得不背负这样的负担感到一阵同情。那对乳房实在很大。</li>
-    <li>人只能想象 {PAWN_nameShort}的 背部承受的压力。它们看起来如此笨重。</li>
+    <li>人只能想象 {PAWN_nameShort}的背部承受的压力。它们看起来如此笨重。</li>
     <li>希望{PAWN_nameShort}能为那对硕大的乳房找到舒适的衣物。</li>
     <li>它们看着相当沉重。希望{PAWN_nameShort}活动时没有不便。</li>
     <li>我打心底同情{PAWN_nameShort}；那对乳房看起来就是不小的拖累。</li>
@@ -2650,7 +2640,7 @@
     <li>我注视着{PAWN_nameShort}的硕大的乳房，觉得它们大得荒唐，像两团没揉成型的面团。它们似乎毫无可辨的形状或结构，我不由得对那纯粹的尺寸生出厌恶。</li>
     <li>{PAWN_nameShort}的乳房巨大而比例失调，以一种令人不安的惯性晃动，重量沉沉地往下坠。</li>
     <li>{PAWN_nameShort}的乳房的硕大令人分心，那无形无状的一团印证了糟糕的解剖设计。</li>
-    <li>人很难忽视 {PAWN_nameShort}的 的乳房；它们低垂着，几乎成了负担，乳晕大而扁平。</li>
+    <li>人很难忽视 {PAWN_nameShort}乳房；它们低垂着，几乎成了负担，乳晕大而扁平。</li>
     <li>{PAWN_nameShort}的巨大乳房随着每一个轻微的动作晃荡，那怪诞的景象几乎不给人留任何想象余地。</li>
     <li>{PAWN_nameShort}的乳房下垂的样子，配上被拉长的乳头与变色的乳晕，说实话令人不适。</li>
     <li>我忍不住盯着{PAWN_nameShort}的那巨大得近乎卡通化的乳房，它们看起来实在太不自然了。</li>
@@ -2838,7 +2828,7 @@
     <li>她那巨大、疲惫、古老的乳房仿佛与一切青春魅力为敌，看上去几近耗损殆尽、濒临塌陷。</li>
     <li>她那夸张过头的乳房尺寸，只让那不幸而怪诞的下垂与濒临崩塌更加显眼。</li>
     <li>她的乳房虽然丰满，却早已过了鼎盛期，明显透出彻底腐朽的可怕迹象。</li>
-    <li>{PAWN_nameShort}的 乳房那巨硕而邋遢的外观令人大为失望，令人作呕。</li>
+    <li>{PAWN_nameShort}的乳房那巨硕而邋遢的外观令人大为失望，令人作呕。</li>
   </Opinion_Breasts_Negative_Large_ElderFemale_observed_by_Young_male.opinionTexts>
   <Opinion_Breasts_Negative_Large_ElderFemale_observed_by_middle_aged_Female.opinionTexts>
     <li>她的乳房虽然硕大，却像泄了气、布满皱纹的口袋，令人沮丧又恐惧地瞥见了未来。</li>
@@ -2898,7 +2888,7 @@
     <li>那乳头在那对庞大苍老的球体上，露得太过显眼，令人憎恶。</li>
     <li>她的乳房无比巨大，早已过了鼎盛期，让这场偷窥变得丑得难以言说。</li>
     <li>那对巨大、瘪塌又干枯的乳房令人不适地存在着，看着真是糟糕到了极点。</li>
-    <li>观察 {PAWN_nameShort}的 乳房的庞大体积，我感到一阵明显的、绞胃般的恶心。</li>
+    <li>观察 {PAWN_nameShort}的乳房的庞大体积，我感到一阵明显的、绞胃般的恶心。</li>
     <li>她那巨大而年迈的胸部极度下垂、不受控地摇荡，一览无余，暴露出岁月残酷的流逝。</li>
     <li>一份沉重而累赘、老实说还令人反感的负担，她的乳房让人无法忽视，却给不了任何刺激，只带来绝望。</li>
     <li>那对硕大、疲惫而古老的乳房似乎带着抗拒而可悲地屈服于引力，就那样垂着。</li>
@@ -2908,14 +2898,14 @@
   </Opinion_Breasts_Negative_Large_ElderFemale_observed_by_voyer.opinionTexts>
   <Opinion_Breasts_Negative_Large_Elderly_Female_opinion.opinionTexts>
     <li>{PAWN_nameShort}的乳房对{PAWN_possessive}这个年纪的人来说几乎大得难受。我想，那是副沉重的负担。</li>
-    <li>哎呀，{PAWN_nameShort}的 乳房简直巨大。它们似乎缺乏支撑，晃得也太厉害了。</li>
+    <li>哎呀，{PAWN_nameShort}的乳房简直巨大。它们似乎缺乏支撑，晃得也太厉害了。</li>
     <li>我忆起那个不推崇这般过剩的年代。{PAWN_nameShort}的乳房真是多得难以招架，字面意义上的。</li>
     <li>老实说，{PAWN_nameShort}的乳房看着相当笨拙。一定给{PAWN_objective}带来不少不适。</li>
     <li>像{PAWN_nameShort}这样的年轻女子长着如此硕大的乳房，显得极不实用，说白了也不好看。</li>
     <li>{PAWN_nameShort}的乳房那十足的下垂令人吃惊；它们看着疲惫又过度牵拉。</li>
     <li>我无法想象带着{PAWN_nameShort}的那样巨大的乳房生活。它们似乎把{PAWN_objective}往下坠。</li>
     <li>{PAWN_nameShort}的乳房太突出了，几乎俗气。它们盖过了{PAWN_possessive}整个胸部。</li>
-    <li>人本期待更多优雅。{PAWN_nameShort}的 的乳房只是大而已，乳晕又大又扁，乳头也模糊不清。</li>
+    <li>人本期待更多优雅。{PAWN_nameShort}乳房只是大而已，乳晕又大又扁，乳头也模糊不清。</li>
     <li>它们似乎没有像样的形状，只是两只巨硕的袋子。{PAWN_nameShort}的乳房是一幅可悲的景象。</li>
     <li>可怜的 {PAWN_nameShort}。那对乳房看起来是个永久的累赘，又沉又没形。</li>
     <li>她的乳房实在大得过分。我同情{PAWN_objective}扛着这么沉的负担。</li>
@@ -2931,7 +2921,7 @@
     <li>如此硕大的乳房与其说是恩赐，不如说是身体负担；它们毫无真正的吸引力。</li>
     <li>我觉得{PAWN_nameShort}的乳房在尺寸上相当怪诞；它们似乎主宰了她整个上半身。</li>
     <li>{PAWN_nameShort}的乳房如此庞大，几乎要撑破出来，却毫无动人的轮廓，这一点令人不安。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 乳房，原因却全是负面的；它们实在太大太重了。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的乳房，原因却全是负面的；它们实在太大太重了。</li>
     <li>{PAWN_nameShort}的乳房的形态透出不适，它们的重量似乎在拉扯皮肤。</li>
     <li>{PAWN_nameShort}的乳房是相当不幸的一幕；过大的尺寸折损了她的青春气息。</li>
     <li>我真心同情{PAWN_nameShort}；带着那样一对大乳房一定是巨大的负担，身体上如此，也许心理上也是。</li>
@@ -2950,7 +2940,7 @@
     <li>{PAWN_nameShort}的乳房溢出的样子令人极度不安，可我却感到一股可耻的肉欲向往在我年迈的身躯里骚动。</li>
     <li>它们实在大得过分，可我却发现自己被{PAWN_nameShort}的乳房那纯粹而不体面的体积所俘获，那是我青春时代令人不安的回响。</li>
     <li>{PAWN_nameShort}的乳房如此笨拙、比例失调，却仍对我这衰老而变态的心智有一种扭曲的吸引力。</li>
-    <li>令人厌恶，却又令人沉醉。{PAWN_nameShort}的 巨大的乳房是一场粗俗的奇观，激起了我自己沉睡的欲望。</li>
+    <li>令人厌恶，却又令人沉醉。{PAWN_nameShort}的巨大的乳房是一场粗俗的奇观，激起了我自己沉睡的欲望。</li>
     <li>看着{PAWN_nameShort}的乳房那令人作呕的巨硕，我干枯的皮肉记起了什么。一股羞耻的热意升起。</li>
     <li>光是看到{PAWN_nameShort}的乳房，就让我充满一种自我厌恶的渴望，一种我以为早已摆脱的卑劣感觉。</li>
     <li>它们是{PAWN_objective}的负担，对我而言却是一种变态的欢愉。{PAWN_nameShort}的超大的乳房唤醒了一种卑下的本能。</li>
@@ -3240,5 +3230,5 @@
     <li>她那巨大疲惫的乳房仿佛与一切青春魅力为敌，看上去几近耗损殆尽。</li>
     <li>她那夸张过头的乳房尺寸，只让那不幸的下垂更加显眼。</li>
     <li>她的乳房虽然丰满，却已过了鼎盛期，明显透出腐朽的迹象。</li>
-    <li>{PAWN_nameShort}的 乳房那巨硕而邋遢的外观令人大失所望。</li>
+    <li>{PAWN_nameShort}的乳房那巨硕而邋遢的外观令人大失所望。</li>
   </Opinion_Breasts_Negative_Large_MatureFemale_observed_by_Young_male.opinionTexts></LanguageData>

@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 情境看法·正文 3/3 · 共 1680 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <iWas_female_breasts_TTC_breasts_focus_average_Prude_Negative.opinionTexts>
     <li>我慌忙用手臂遮住自己那中等尺寸的乳房，感觉到{OBSERVER_nameShort}的目光在我身上流连，{OBSERVER_possessive}眼睛看到的东西比我原本打算露出的更多——我的脸烧得发烫，羞耻与愤怒交织。想到{OBSERVER_pronoun}竟那样看过我，我简直无地自容，哪怕只是一瞬间。</li>
     <li>我的双手本能地飞起遮住乳房，但在此之前我已瞥见{OBSERVER_nameShort}的惊讶地睁大了眼睛——{OBSERVER_possessive}目光早已在我半露的躯干上游走过。我对自己这份疏忽恼怒不已。那份难堪的刺痛挥之不去，让我皮肤阵阵发麻。</li>
@@ -110,7 +100,7 @@
     <li>我俏皮地眨了眨眼，从{OBSERVER_nameShort}身旁摇曳走过，挺立的乳头从我的指缝间探出，享受着{OBSERVER_possessive}目光停留在我小巧胸部上的样子。</li>
     <li>当感到{OBSERVER_nameShort}的目光落在我身上，我的心狂跳——我娇小的乳房裸露着，我慌忙去遮掩，我们之间就此生出一种共同分享的亲密一刻。</li>
     <li>我察觉{OBSERVER_nameShort}的目光游移到我极小的胸口上，我的乳头在凉空气中挺立，我朝{OBSERVER_objective}娇羞一笑，把上衣拉上去，把我们的互动变成一场调情的游戏。</li>
-    <li>我慌忙遮掩时，我的乳房几乎没被注意到，可 {OBSERVER_nameShort}的 目光仍捕捉到每一个细节，那一刻我们之间传过一个共享的秘密。</li>
+    <li>我慌忙遮掩时，我的乳房几乎没被注意到，可 {OBSERVER_nameShort}的目光仍捕捉到每一个细节，那一刻我们之间传过一个共享的秘密。</li>
   </iWas_female_breasts_TTC_breasts_focus_nipples_tiny_small_Exhibitionist_Positive.opinionTexts>
   <iWas_female_breasts_TTC_breasts_focus_nipples_tiny_small_Negative.opinionTexts>
     <li>我从{OBSERVER_objective}身旁走过时，{OBSERVER_nameShort}的目光落在我身上，我光着的乳房被手臂遮住了一部分，那注视的重量只让我更加烦躁。</li>
@@ -541,7 +531,7 @@
   </iWas_female_naked_TTC_breasts_focus_nipples_tiny_small_Negative.opinionTexts>
   <iWas_female_naked_TTC_breasts_focus_nipples_tiny_small_Neutral.opinionTexts>
     <li>我走过时捕捉到{OBSERVER_nameShort}的凝视，我极小的乳房在小心遮掩下未被看见。尽管被人看到，我依然成功守住了体面，这让我感到一种平静的安宁。</li>
-    <li>察觉 {OBSERVER_nameShort}的 流连的目光，我用手遮住小巧的乳房，继续往前走。成功遮住自己后，一股自信涌上心头——除了底下的一点端倪，什么都没露出来。</li>
+    <li>察觉 {OBSERVER_nameShort}的流连的目光，我用手遮住小巧的乳房，继续往前走。成功遮住自己后，一股自信涌上心头——除了底下的一点端倪，什么都没露出来。</li>
     <li>我从{OBSERVER_nameShort}身旁走过，我小巧的乳房被稳稳藏住，身体也遮着，感到一阵安心。我知道{OBSERVER_pronoun}只能看到一个保守的轮廓，这让我得以维持一份不受打扰的体面。</li>
     <li>我自信地从{OBSERVER_nameShort}的面前走过，刻意护住自己极小的乳房，把私密部位挡在{OBSERVER_possessive}视线之外。一种无言的默契就此建立——我感到自己被人看见，却完全掌控着分享出去的尺度。</li>
     <li>我带着安静而淡然的神气从{OBSERVER_nameShort}身旁走过，遮住自己的小乳房，不让{OBSERVER_nameShort}的目光看到，保持着得体的遮掩。知道自己被看到却又被遮住，让我在这一刻感到一种掌控感。</li>
@@ -743,7 +733,7 @@
     <li>我从{OBSERVER_nameShort}身旁走过，一想到{OBSERVER_pronoun}正盯着我那极小的阴道，就一阵不悦；那份曾让我自信的紧致，如今成了{OBSERVER_possessive}不受欢迎的审视焦点。</li>
     <li>我走过时捕捉到{OBSERVER_nameShort}的目光，我那紧致的小巧阴道一览无余，{OBSERVER_pronoun}看我的方式让我怒火中烧，把本该自信的一刻变成了不适。</li>
     <li>我从{OBSERVER_nameShort}身旁走过，心里升起一股脆弱感，我小巧的阴道就那么暴露在{OBSERVER_possessive}目光下；{OBSERVER_pronoun}盯着看的样子，让我既局促又恼火。</li>
-    <li>注意到 {OBSERVER_nameShort}的 打量我裸露身体时那好奇的目光，让我想起自己的阴道究竟多么小巧娇弱，{OBSERVER_possessive} 的关注让我又尴尬又恼火。</li>
+    <li>注意到 {OBSERVER_nameShort}的打量我裸露身体时那好奇的目光，让我想起自己的阴道究竟多么小巧娇弱，{OBSERVER_possessive} 的关注让我又尴尬又恼火。</li>
     <li>我发现{OBSERVER_nameShort}的目光直直盯着我极小的紧致阴道，气得脸颊发红；我真希望它别惹得旁人这般反应，却又逃不开他们的评判。</li>
     <li>我在{OBSERVER_nameShort}面前不着一缕地走过，知道我那脆弱而紧致的阴道成了{OBSERVER_possessive}注意力的焦点，心里的恼火止不住地往上冒，让我觉得自己渺小又暴露。</li>
     <li>看见 {OBSERVER_nameShort} 瞥了一眼我那极小紧致的阴道，我嘴里泛起一阵苦涩，愤怒于 {OBSERVER_possessive} 对我女性气质的无声批判竟有能耐让我如此羞耻，也让我质疑自己如此大胆展示的决定。</li>
@@ -827,7 +817,7 @@
     <li>{OBSERVER_nameShort}的目光与我对上，我知道{OBSERVER_pronoun}看到了我光着的屁股，那没遮严实的阴道引来了{OBSERVER_possessive}注意——我的手指只挡住了我相当硕大的阴唇的一部分。我在心里耸了耸肩，对{OBSERVER_possessive}看法毫无兴趣，继续走我的路，毫不在意。</li>
     <li>{OBSERVER_nameShort}瞥见了我，我光着的屁股露在外面，我试着遮住自己丰盈的阴道，却仍摆出一副无所谓的样子。</li>
     <li>那一刻，我手忙脚乱地遮掩自己，却能感觉到{OBSERVER_nameShort}的目光，正把我裸露的身躯和那片硕大的阴部尽收眼底。</li>
-    <li>察觉 {OBSERVER_nameShort}的 的目光，我回头一瞥，正看见 {OBSERVER_objective} 盯着我裸露的臀部——我徒劳地想遮住自己丰腴的阴道，那份努力显而易见。</li>
+    <li>察觉 {OBSERVER_nameShort}目光，我回头一瞥，正看见 {OBSERVER_objective} 盯着我裸露的臀部——我徒劳地想遮住自己丰腴的阴道，那份努力显而易见。</li>
     <li>我行走时，察觉到{OBSERVER_nameShort}的流连的目光，把我光裸的屁股收入眼中，我试图遮住那硕大阴道的努力显得微不足道。</li>
     <li>当我意识到{OBSERVER_nameShort}看见了我——没遮住的屁股和颇为可观的阴部全都露着——我忍不住觉得无所遁形。</li>
     <li>我带着几分镇定继续往前走，矜持只保住了一部分——{OBSERVER_nameShort}看着我毫无束缚的下半身，我丰满的阴道被双手遮住了一部分。</li>
@@ -1259,7 +1249,7 @@
     <li>{OBSERVER_nameShort}看到了我，我赤裸的身体完全暴露，我脸颊涨红，本能地伸手去遮住中等大小的阴茎——但在那之前，我已经瞥见{OBSERVER_possessive}眼中一闪而过的兴趣。</li>
     <li>当{OBSERVER_nameShort}的视线扫过我，我强烈意识到自己的裸体，我的手移过去遮住阴茎，它正迅速胀大，我的身体回应着被看见、被欣赏的刺激。</li>
     <li>我措手不及，赤裸的身体暴露在{OBSERVER_nameShort}的视野中，我慌忙去遮，手握住中等尺寸的肉棒，但在此之前，一想到被看见，一股兴奋的电流已贯过全身。</li>
-    <li>当 {OBSERVER_nameShort}的 的目光与我相遇、{OBSERVER_possessive} 视线在我的胯间徘徊时，我的身体绷紧了；当我想遮住逐渐勃起、中等大小的阴茎在掌下顶起时，我涌起一阵性唤起。</li>
+    <li>当 {OBSERVER_nameShort}目光与我相遇、{OBSERVER_possessive} 视线在我的胯间徘徊时，我的身体绷紧了；当我想遮住逐渐勃起、中等大小的阴茎在掌下顶起时，我涌起一阵性唤起。</li>
     <li>我注意到{OBSERVER_nameShort}的目光闪向我的胯下，一想到{OBSERVER_pronoun}可能会被我那中等尺寸的鸡巴撩起欲望，我就涌起一阵兴奋，身体也为这种被渴望的可能作出了回应，我发现自己调整了站姿，手仍旧遮着自己。</li>
     <li>当{OBSERVER_nameShort}把我赤裸的身形收入眼底，我忍不住涌起一阵自豪，我的身体回应着被看见的刺激，我发现自己微妙地把胯部向前挺，手仍遮着中等的阴茎，但肢体语言却在尖叫着“看我”。</li>
   </iWas_male_naked_TTC_penis_focus_average_Positive.opinionTexts>

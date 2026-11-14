@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 13/39 · 共 2990 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Breasts_Neutral_Huge_trait_NMM_Exhibitionist.opinionTexts>
     <li>{PAWN_nameShort}的巨大的乳房确实展示在外。让我也想一起炫耀。</li>
     <li>我观察着{PAWN_nameShort}的巨大的乳房；它们确实很吸引眼球。我也喜欢被人看。</li>
@@ -208,7 +198,7 @@
     <li>{PAWN_nameShort}的乳房上的乳晕宽得令人作呕。</li>
     <li>我觉得{PAWN_nameShort}的乳房过大，看起来有点过头。</li>
     <li>{PAWN_nameShort}的乳房颤动的样子，相当粗俗。</li>
-    <li>说真的，{PAWN_nameShort}的 的乳房实在大得毫无必要。</li>
+    <li>说真的，{PAWN_nameShort}乳房实在大得毫无必要。</li>
     <li>{PAWN_nameShort}的胸部那惊人的尺寸让我相当反感。</li>
     <li>{PAWN_nameShort}的乳房太过招摇，这种展示我并不欣赏。</li>
     <li>{PAWN_nameShort}的乳房上那对突出的乳头，实在颇为大胆。</li>
@@ -359,7 +349,7 @@
     <li>那是一对硕大的乳房，如此而已。</li>
     <li>{PAWN_nameShort}的乳房相当可观，绝对算不上小。</li>
     <li>{PAWN_nameShort}的胸部尺寸相当可观，这不过是简单的观察。</li>
-    <li>人不禁记下 {PAWN_nameShort}的 乳房那纯粹的尺寸。</li>
+    <li>人不禁记下 {PAWN_nameShort}的乳房那纯粹的尺寸。</li>
     <li>这对乳房硕大。还有什么好留意的？</li>
     <li>{PAWN_nameShort}的硕大的乳房确实存在，是其整体体格的一部分。</li>
     <li>那对乳房看着相当饱满。</li>
@@ -398,7 +388,7 @@
     <li>{PAWN_nameShort}那丰盈而年迈的胸部相当惹眼。{PAWN_pronoun}注视着漫长时光带来的深刻变化，那是共同的现实。</li>
     <li>一对丰盈的乳房，透着相当的年岁与时间沉重的痕迹。{PAWN_pronoun}理解女性形体那自然却又深刻的演变。</li>
     <li>{PAWN_nameShort}的硕大而苍老的胸部暴露在外，就只是现实。{PAWN_pronoun}承认它们的存在，这是极其自然的生命进程。</li>
-    <li>观察 {PAWN_nameShort}的 丰满苍老的乳房，那深深松弛的形态一目了然。{PAWN_pronoun} 以一种对衰老了然、中性而共情的眼光看待它们。</li>
+    <li>观察 {PAWN_nameShort}的丰满苍老的乳房，那深深松弛的形态一目了然。{PAWN_pronoun} 以一种对衰老了然、中性而共情的眼光看待它们。</li>
     <li>看着{PAWN_nameShort}的硕大而年迈的乳房，不过是个直观的事实。{PAWN_pronoun}记下那沉甸甸、饱经磨损的存在，也读懂了它们的历程。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，确实又大又十分松弛。{PAWN_pronoun}注意到它们柔化的轮廓，那是共同而深切可见的时间记录。</li>
     <li>{PAWN_nameShort}那饱满而苍老的胸部坦露在外。{PAWN_pronoun}觉得它们相当丰满，不过是个承认并理解就好的事实，因为懂那种感觉。</li>
@@ -420,7 +410,7 @@
     <li>{PAWN_nameShort}那丰盈而年迈的胸部相当惹眼。在{PAWN_possessive}极其漫长的一生中，{PAWN_pronoun}见过太多这样的形态，已几乎没有什么能再带来惊讶。</li>
     <li>一对丰盈的乳房，透着相当的年岁与时间沉重的痕迹。{PAWN_pronoun}承认它们的存在，是非常常见的景象。</li>
     <li>{PAWN_nameShort}的硕大而苍老的胸部暴露在外，对{PAWN_objective}而言毫无新奇。不过是又一具苍老的人类躯体。</li>
-    <li>观察 {PAWN_nameShort}的 丰满苍老的乳房，那深深松弛的形态一目了然。{PAWN_pronoun} 以一种历练、中性、近乎疲惫的眼光看待它们。</li>
+    <li>观察 {PAWN_nameShort}的丰满苍老的乳房，那深深松弛的形态一目了然。{PAWN_pronoun} 以一种历练、中性、近乎疲惫的眼光看待它们。</li>
     <li>看着{PAWN_nameShort}的硕大而年迈的乳房，不过是个直观的事实。{PAWN_pronoun}不带强烈情绪地记下那沉甸甸、饱经磨损的存在。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，确实又大又十分松弛。{PAWN_pronoun}注意到它们的形状，在这把年纪毫不稀奇。</li>
     <li>{PAWN_nameShort}那饱满而苍老的胸部坦露在外。{PAWN_pronoun}觉得它们相当丰满，不过是个承认并不予理会就好的事实。</li>
@@ -442,7 +432,7 @@
     <li>{PAWN_nameShort}那年迈而醒目的胸部相当显眼。{PAWN_pronoun}暗自欣赏这般暴露中那份持久的自信。</li>
     <li>一对丰盈的苍老乳房坦露在外。{PAWN_pronoun}对这种厚颜的展示感到一丝亲近，欣赏这份持久的自由。</li>
     <li>{PAWN_nameShort}的硕大而苍老的胸部不容否认。{PAWN_pronoun}在想，自己晚年能否让{PAWN_possessive}也显得如此自然而不受拘束。</li>
-    <li>观察 {PAWN_nameShort}的 丰满苍老的乳房，{PAWN_pronoun} 对 {PAWN_possessive} 自己未来那些大胆的穿着选择生出一点灵感，无论年纪。</li>
+    <li>观察 {PAWN_nameShort}的丰满苍老的乳房，{PAWN_pronoun} 对 {PAWN_possessive} 自己未来那些大胆的穿着选择生出一点灵感，无论年纪。</li>
     <li>看着{PAWN_nameShort}的硕大而年长的乳房，颇为大胆。{PAWN_pronoun}在两人共有的、超越时光的毫无顾忌中找到一份含蓄的愉悦。</li>
     <li>{PAWN_nameShort}的乳房年岁已高却依然宏大而袒露，是一种宣言。{PAWN_pronoun}尊重{PAWN_possessive}毫不遮掩的身体展示。</li>
     <li>{PAWN_nameShort}那饱满而苍老的胸部坦露在外。{PAWN_pronoun}沉思着这般醒目展示的持久诱惑。</li>
@@ -455,7 +445,7 @@
     <li>观察着{PAWN_nameShort}的胸部，那对醒目、年老的乳房是明晃晃的展示。{PAWN_pronoun}感到一阵无声的共鸣。</li>
     <li>{PAWN_nameShort}那对硕大而年老的乳房坦然地可供观看。{PAWN_pronoun}在那份大胆的暴露中看到了同类的灵魂。</li>
     <li>一对颇为可观的年迈乳房，自信地展示着。{PAWN_pronoun}思量着这样毫无修饰的形态所具有的自然之美，哪怕年岁已高。</li>
-    <li>{PAWN_nameShort}的胸部尽管上了年纪，却仍旧丰满，还这样毫无顾忌地展露着。{PAWN_pronoun}觉得这自然的呈现颇为动人。</li>
+    <li>{PAWN_nameShort}的胸部尽管上了年纪，却仍旧丰满，还这样毫无顾忌地展露着。{PAWN_pronoun}觉得这自然的姿态颇为动人。</li>
     <li>{PAWN_nameShort}那对硕大而苍老的乳房相当显眼。{PAWN_pronoun}从那份随意而毫不羞耻的暴露中得到了灵感，无关岁月。</li>
     <li>年迈的胸部，饱满而坦露。{PAWN_pronoun}欣赏着{PAWN_possessive}坦然展示中蕴含的自由，超然于岁月，大胆张扬。</li>
   </Opinion_Breasts_Neutral_Large_ElderFemale_observed_by_Exhibitionist.opinionTexts>
@@ -464,7 +454,7 @@
     <li>{PAWN_nameShort}的硕大而年老的胸部引人注目。{PAWN_pronoun}发现{PAWN_objective}自己在思索那尺寸与松弛所暗示的种种原始可能。</li>
     <li>一对丰盈的老年乳房，天然柔软。{PAWN_pronoun}的思绪飘向那沉甸甸的分量与柔软带来的触感。</li>
     <li>{PAWN_nameShort}的硕大而苍老的胸部坦然地展示着，点燃一丝隐晦而原始的渴望。{PAWN_pronoun}想象着那成熟历练的形态的触感。</li>
-    <li>观察 {PAWN_nameShort}的 丰满苍老的乳房，一阵欲望涌过 {PAWN_objective}。那可见的颤动实在迷人。</li>
+    <li>观察 {PAWN_nameShort}的丰满苍老的乳房，一阵欲望涌过 {PAWN_objective}。那可见的颤动实在迷人。</li>
     <li>看着{PAWN_nameShort}的硕大而年长的乳房，无可否认地刺激。{PAWN_pronoun}感到一股强烈、几乎急切的吸引力。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，激起一股即刻而深沉的饥渴。{PAWN_pronoun}想探索它们的丰腴。</li>
     <li>{PAWN_nameShort}那饱满而苍老的胸部坦露在外。{PAWN_pronoun}幻想着那成熟而饱经使用形态的手感。</li>
@@ -486,7 +476,7 @@
     <li>{PAWN_nameShort}那年迈而醒目的胸部对{PAWN_possessive}而言过于显眼。如此不知检点，尤其在那把年纪。</li>
     <li>一对丰盈的苍老乳房坦露在外。{PAWN_pronoun}移开{PAWN_possessive}目光，感到羞耻的红晕爬上{PAWN_possessive}脸颊。</li>
     <li>{PAWN_nameShort}的硕大而苍老的胸部不容否认，也不成体统。{PAWN_pronoun}希望{PAWN_pronoun}立刻把{PAWN_objective}自己遮起来。</li>
-    <li>观察 {PAWN_nameShort}的 丰满苍老的乳房让 {PAWN_objective} 相当尴尬又反感。这种私密之事就该永远保持私密。</li>
+    <li>观察 {PAWN_nameShort}的丰满苍老的乳房让 {PAWN_objective} 相当尴尬又反感。这种私密之事就该永远保持私密。</li>
     <li>看着{PAWN_nameShort}的硕大而年长的乳房，颇为惊人与令人反感。{PAWN_pronoun}觉得极不得体，也很粗俗。</li>
     <li>{PAWN_nameShort}的乳房年岁已高却依然宏大而袒露，是一种失礼的景象。{PAWN_pronoun}真被这种放肆吓到了。</li>
     <li>{PAWN_nameShort}那饱满而苍老的胸部坦露在外。{PAWN_pronoun}涌起一阵保守者的不以为然与深深的被冒犯感。</li>
@@ -508,7 +498,7 @@
     <li>{PAWN_nameShort}那丰盈而年迈的胸部相当惹眼。{PAWN_pronoun}注视着它们下垂的样子，那是高龄的明显特征。</li>
     <li>一对丰盈的乳房，透着相当的成熟。{PAWN_pronoun}把它们看作一个活过几十年的女人的鲜明标志。</li>
     <li>{PAWN_nameShort}的硕大而苍老的胸部暴露在外，让{PAWN_objective}想到时间不可避免的作用。在年迈女性中很常见。</li>
-    <li>观察 {PAWN_nameShort}的 丰满苍老的乳房，那深深松弛的形态一目了然。{PAWN_pronoun} 只觉得它们是漫长衰老过程的一部分。</li>
+    <li>观察 {PAWN_nameShort}的丰满苍老的乳房，那深深松弛的形态一目了然。{PAWN_pronoun} 只觉得它们是漫长衰老过程的一部分。</li>
     <li>看着{PAWN_nameShort}的硕大而年迈的乳房，像是一则关于遥远未来的提醒。{PAWN_pronoun}默默记下那沉甸甸、饱经磨损的存在。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，确实又大又垂。{PAWN_pronoun}注意到它们柔化的轮廓和漫长一生留下的深深拉伸纹。</li>
     <li>{PAWN_nameShort}那饱满而苍老的胸部坦露在外。{PAWN_pronoun}觉得它们相当丰满，不过是个承认并接受就好的事实。</li>
@@ -530,7 +520,7 @@
     <li>{PAWN_nameShort}那丰盈而年迈的胸部相当惹眼。{PAWN_pronoun}打量着它们的尺寸与下垂，这对{PAWN_objective}来说是全新的体验。</li>
     <li>一对丰盈的乳房，透着明显的年岁。{PAWN_pronoun}带着好奇与中立交织的心情注视着，留意到与年轻时的变化。</li>
     <li>{PAWN_nameShort}的硕大而苍老的胸部暴露在外，让{PAWN_objective}短暂停顿。与{PAWN_pronoun}习惯看到的截然不同。</li>
-    <li>观察 {PAWN_nameShort}的 丰满苍老的乳房，那深深松弛的形态一目了然。{PAWN_pronoun} 记下这一幕，没什么强烈反应，只是观察。</li>
+    <li>观察 {PAWN_nameShort}的丰满苍老的乳房，那深深松弛的形态一目了然。{PAWN_pronoun} 记下这一幕，没什么强烈反应，只是观察。</li>
     <li>看着{PAWN_nameShort}的硕大而年迈的乳房，是一次全新的观察。{PAWN_pronoun}细细消化着那沉甸甸的、苍老的存在感。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，确实又大又松。{PAWN_pronoun}注意到它们的形状，与年轻形态迥然不同。</li>
     <li>{PAWN_nameShort}那饱满而苍老的胸部坦露在外。{PAWN_pronoun}觉得它们相当丰满，不过是个承认并归类就好的事实。</li>
@@ -552,7 +542,7 @@
     <li>{PAWN_nameShort}那丰盈而年迈的胸部相当惹眼。{PAWN_pronoun}注视着漫长时光带来的变化，那或许是未来的模样。</li>
     <li>一对丰盈的乳房，透着相当的成熟。{PAWN_pronoun}把它们看作镜子，映照着女性形体前方漫长的道路。</li>
     <li>{PAWN_nameShort}的硕大而苍老的胸部暴露在外，就只是现实。{PAWN_pronoun}承认它们的存在，这是生命的自然进程。</li>
-    <li>观察 {PAWN_nameShort}的 丰满苍老的乳房，那深深松弛的形态一目了然。{PAWN_pronoun} 以一种对衰老了然、略带肃穆的眼光看待它们。</li>
+    <li>观察 {PAWN_nameShort}的丰满苍老的乳房，那深深松弛的形态一目了然。{PAWN_pronoun} 以一种对衰老了然、略带肃穆的眼光看待它们。</li>
     <li>看着{PAWN_nameShort}的硕大而年迈的乳房，不过是个直观的事实。{PAWN_pronoun}记下那沉甸甸、饱经磨损的存在。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，确实又大又松。{PAWN_pronoun}注意到它们柔化的轮廓，那是时间可见的记录。</li>
     <li>{PAWN_nameShort}那饱满而苍老的胸部坦露在外。{PAWN_pronoun}觉得它们相当丰满，不过是个承认并理解就好的事实。</li>
@@ -574,7 +564,7 @@
     <li>{PAWN_nameShort}那丰盈而年迈的胸部相当惹眼。{PAWN_pronoun}注视着它们，认可那饱经风霜、历久使用的形态。</li>
     <li>一对丰盈的乳房，透着相当的成熟与时间的痕迹。{PAWN_pronoun}认出了漫长而充实人生的迹象。</li>
     <li>{PAWN_nameShort}的硕大而苍老的胸部暴露在外，就只是在那里。{PAWN_pronoun}以前见过许多这样的形态，是衰老熟悉的一面。</li>
-    <li>观察 {PAWN_nameShort}的 丰满苍老的乳房，那深深松弛的形态一目了然。{PAWN_pronoun} 把它们当作衰老中自然而深刻的一部分接受。</li>
+    <li>观察 {PAWN_nameShort}的丰满苍老的乳房，那深深松弛的形态一目了然。{PAWN_pronoun} 把它们当作衰老中自然而深刻的一部分接受。</li>
     <li>看着{PAWN_nameShort}的硕大而年迈的乳房，既不令人惊讶，也谈不上多兴奋，不过是年龄的必然。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，确实又大又垂。{PAWN_pronoun}注意到它们的形状，是典型的老态轮廓。</li>
     <li>{PAWN_nameShort}那饱满而苍老的胸部坦露在外。{PAWN_pronoun}觉得它们相当丰满，不过是个承认并理解就好的事实。</li>
@@ -621,7 +611,7 @@
     <li>它们确实硕大。我想，大概是基因彩票吧。</li>
     <li>{PAWN_nameShort}的乳房的尺寸相当明显，尤其是到了这个年纪。</li>
     <li>{PAWN_nameShort}的胸部非常饱满，是个显著特征。</li>
-    <li>人不会错过 {PAWN_nameShort}的 乳房的丰盈宽绰。</li>
+    <li>人不会错过 {PAWN_nameShort}的乳房的丰盈宽绰。</li>
     <li>那对乳房，确实够丰满。</li>
     <li>她的乳房硕大，而且位置相当高。</li>
     <li>{PAWN_nameShort}身上那对醒目的乳房，真是惹眼。</li>
@@ -647,7 +637,7 @@
   </Opinion_Breasts_Neutral_Large_Elderly_Female_opinion.opinionTexts>
   <Opinion_Breasts_Neutral_Large_Elderly_Female_voyer_opinion.opinionTexts>
     <li>{PAWN_nameShort}的硕大的乳房真是引人注目，青春与形体的真切奇观。</li>
-    <li>哦，若能再拥有如此坚挺硕大的乳房！{PAWN_nameShort}的 相当可观。</li>
+    <li>哦，若能再拥有如此坚挺硕大的乳房！{PAWN_nameShort}的相当可观。</li>
     <li>{PAWN_nameShort}的那硕大乳房随每个动作弹跳晃颤的样子相当迷人。</li>
     <li>从这里我几乎就能感觉到它们的重量，{PAWN_nameShort}那对宏伟的乳房。</li>
     <li>{PAWN_nameShort}的硕大乳房上那对突出的乳头；相当诱人。</li>
@@ -686,7 +676,7 @@
     <li>{PAWN_nameShort}的乳房丰盈的尺寸是引人注目的特征，很难忽视。</li>
     <li>一副年轻女性的丰满身形，包括那对可观的乳房。</li>
     <li>以他们的年纪来说，胸部相当可观，发育得很好。</li>
-    <li>人无法否认 {PAWN_nameShort}的 乳房的显著尺寸。</li>
+    <li>人无法否认 {PAWN_nameShort}的乳房的显著尺寸。</li>
     <li>一对结实的乳房，明确的女性标志。</li>
     <li>{PAWN_nameShort}的年轻，让那对硕大乳房更加醒目。</li>
     <li>那对乳房挺硕大的，我想，大概正如自然所愿。</li>
@@ -702,7 +692,7 @@
     <li>我观察到{PAWN_nameShort}的乳房；它们的尺寸相当明显。</li>
     <li>{PAWN_nameShort}胸前的硕大乳房是个显眼的特征。</li>
     <li>以他们的年纪来说，这对乳房确实相当丰满。</li>
-    <li>绝不算小，{PAWN_nameShort}的 的乳房。</li>
+    <li>绝不算小，{PAWN_nameShort}乳房。</li>
     <li>对年轻女子来说非常饱满的胸部。</li>
     <li>我注意到{PAWN_nameShort}的硕大的乳房；它们就只是在那儿。</li>
     <li>{PAWN_nameShort}的乳房的尺寸相当明显。</li>
@@ -800,7 +790,7 @@
     <li>{PAWN_nameShort}丰满的胸部相当惹眼。{PAWN_pronoun}注视着岁月带来的变化，那是共同的经历。</li>
     <li>一对丰盈的乳房，透着几分成熟。{PAWN_pronoun}理解女性形体自然的演变。</li>
     <li>{PAWN_nameShort}的硕大的胸部暴露在外，就只是现实。{PAWN_pronoun}以前见过许多这样的形态。</li>
-    <li>观察 {PAWN_nameShort}的 丰满的乳房，那松弛的形态一目了然。{PAWN_pronoun} 以一种了然而中性的眼光看待它们。</li>
+    <li>观察 {PAWN_nameShort}的丰满的乳房，那松弛的形态一目了然。{PAWN_pronoun} 以一种了然而中性的眼光看待它们。</li>
     <li>看着{PAWN_nameShort}的硕大成熟的乳房，不过是个直观的事实。{PAWN_pronoun}记下那沉甸甸的存在。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，确实很大。{PAWN_pronoun}注意到它们柔化的轮廓，那是一段共同的旅程。</li>
     <li>{PAWN_nameShort}那饱满的胸部坦露在外。{PAWN_pronoun}觉得它们相当丰满，不过是个承认就好的事实。</li>
@@ -822,7 +812,7 @@
     <li>{PAWN_nameShort}丰满的胸部相当惹眼。在{PAWN_possessive}漫长的一生中，{PAWN_pronoun}见过太多这样的形态。</li>
     <li>一对丰盈的乳房，透着几分成熟。{PAWN_pronoun}承认它们的存在，是常见的景象。</li>
     <li>{PAWN_nameShort}的硕大的胸部暴露在外，对{PAWN_objective}而言毫无新奇。不过是又一具人类躯体。</li>
-    <li>观察 {PAWN_nameShort}的 丰满的乳房，那松弛的形态一目了然。{PAWN_pronoun} 以一种历练而中性的眼光看待它们。</li>
+    <li>观察 {PAWN_nameShort}的丰满的乳房，那松弛的形态一目了然。{PAWN_pronoun} 以一种历练而中性的眼光看待它们。</li>
     <li>看着{PAWN_nameShort}的硕大成熟的乳房，不过是个直观的事实。{PAWN_pronoun}记下那沉甸甸的存在。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，确实很大。{PAWN_pronoun}注意到它们的形状，在这年纪毫不稀奇。</li>
     <li>{PAWN_nameShort}那饱满的胸部坦露在外。{PAWN_pronoun}觉得它们相当丰满，不过是个承认就好的事实。</li>
@@ -844,7 +834,7 @@
     <li>{PAWN_nameShort}成熟而突出的胸部相当显眼。{PAWN_pronoun}私下里很欣赏这种坦然的自信。</li>
     <li>一对丰盈的乳房坦露在外。{PAWN_pronoun}对这种厚颜的展示感到一丝亲近，欣赏这份自由。</li>
     <li>{PAWN_nameShort}的硕大的胸部不容否认。{PAWN_pronoun}在想，自己能否让{PAWN_possessive}也显得如此自然而不受拘束。</li>
-    <li>观察 {PAWN_nameShort}的 丰满的乳房，{PAWN_pronoun} 对 {PAWN_possessive} 自己未来那些大胆的穿着选择生出一点灵感。</li>
+    <li>观察 {PAWN_nameShort}的丰满的乳房，{PAWN_pronoun} 对 {PAWN_possessive} 自己未来那些大胆的穿着选择生出一点灵感。</li>
     <li>看着{PAWN_nameShort}的硕大成熟的乳房，颇为大胆。{PAWN_pronoun}在两人共有的毫无顾忌中找到一份含蓄的愉悦。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，是一种宣言。{PAWN_pronoun}尊重{PAWN_possessive}毫不遮掩的身体展示。</li>
     <li>{PAWN_nameShort}那饱满的胸部坦露在外。{PAWN_pronoun}沉思着这般醒目展示的诱惑。</li>
@@ -857,7 +847,7 @@
     <li>观察着{PAWN_nameShort}的胸部，那对醒目的乳房是明晃晃的展示。{PAWN_pronoun}感到一阵无声的共鸣。</li>
     <li>{PAWN_nameShort}那对硕大的乳房坦然地可供观看。{PAWN_pronoun}在那份大胆的暴露中看到了同类的灵魂。</li>
     <li>一对颇为可观的乳房，自信地展示着。{PAWN_pronoun}思量着这样毫无修饰的形态所具有的自然之美。</li>
-    <li>{PAWN_nameShort}的胸部尽管上了年纪，却仍旧丰满，还这样毫无顾忌地展露着。{PAWN_pronoun}觉得这自然的呈现颇为动人。</li>
+    <li>{PAWN_nameShort}的胸部尽管上了年纪，却仍旧丰满，还这样毫无顾忌地展露着。{PAWN_pronoun}觉得这自然的姿态颇为动人。</li>
     <li>{PAWN_nameShort}胸前的硕大乳房相当显眼。{PAWN_pronoun}从那份随意而毫不羞耻的暴露中得到了灵感。</li>
     <li>一副成熟的胸部，饱满丰盈、敞露人前。{PAWN_pronoun}欣赏{PAWN_possessive}展示中体现的那份自由。</li>
   </Opinion_Breasts_Neutral_Large_MatureFemale_observed_by_Exhibitionist.opinionTexts>
@@ -866,7 +856,7 @@
     <li>{PAWN_nameShort}的硕大的胸部引人注目。{PAWN_pronoun}发现{PAWN_objective}自己在思索那尺寸与饱满所暗示的种种可能。</li>
     <li>一对丰盈的乳房，天然柔软。{PAWN_pronoun}的思绪飘向那分量与柔软带来的触感。</li>
     <li>{PAWN_nameShort}的硕大的胸部坦然地展示着，点燃一丝隐晦的渴望。{PAWN_pronoun}想象着那成熟形态的触感。</li>
-    <li>观察 {PAWN_nameShort}的 丰满的乳房，一阵欲望涌过 {PAWN_objective}。那可见的颤动实在迷人。</li>
+    <li>观察 {PAWN_nameShort}的丰满的乳房，一阵欲望涌过 {PAWN_objective}。那可见的颤动实在迷人。</li>
     <li>看着{PAWN_nameShort}的硕大成熟的乳房，无可否认地刺激。{PAWN_pronoun}感到一股强烈的吸引力。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，激起一股即刻的饥渴。{PAWN_pronoun}想探索它们的丰腴。</li>
     <li>{PAWN_nameShort}那饱满的胸部坦露在外。{PAWN_pronoun}幻想着那成熟形态的手感。</li>
@@ -888,7 +878,7 @@
     <li>{PAWN_nameShort}成熟而突出的胸部露得太多，{PAWN_possessive}自己也不喜欢。太不检点了。</li>
     <li>一对丰盈的乳房坦露在外。{PAWN_pronoun}移开{PAWN_possessive}目光，感到红晕爬上{PAWN_possessive}脸颊。</li>
     <li>{PAWN_nameShort}的硕大的胸部不容否认，也不成体统。{PAWN_pronoun}希望{PAWN_pronoun}能把{PAWN_objective}自己遮起来。</li>
-    <li>观察 {PAWN_nameShort}的 丰满的乳房让 {PAWN_objective} 相当尴尬。这种私密之事就该保持私密。</li>
+    <li>观察 {PAWN_nameShort}的丰满的乳房让 {PAWN_objective} 相当尴尬。这种私密之事就该保持私密。</li>
     <li>看着{PAWN_nameShort}的硕大成熟的乳房，颇为惊人。{PAWN_pronoun}觉得极不得体。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，是一种失礼的景象。{PAWN_pronoun}真是被惊呆了。</li>
     <li>{PAWN_nameShort}那饱满的胸部坦露在外。{PAWN_pronoun}涌起一阵保守者的不以为然。</li>
@@ -910,7 +900,7 @@
     <li>{PAWN_nameShort}丰满的胸部相当惹眼。{PAWN_pronoun}注视着它们下垂的样子，那是年岁的特征。</li>
     <li>一对丰盈的乳房，透着几分成熟。{PAWN_pronoun}把它们看作一个活过的女人的标志。</li>
     <li>{PAWN_nameShort}的硕大的胸部暴露在外，让{PAWN_objective}想到岁月的作用。在年长女性中很常见。</li>
-    <li>观察 {PAWN_nameShort}的 丰满的乳房，那松弛的形态一目了然。{PAWN_pronoun} 只觉得它们是衰老过程的一部分。</li>
+    <li>观察 {PAWN_nameShort}的丰满的乳房，那松弛的形态一目了然。{PAWN_pronoun} 只觉得它们是衰老过程的一部分。</li>
     <li>看着{PAWN_nameShort}的硕大成熟的乳房，像是一则关于未来的提醒。{PAWN_pronoun}默默记下那沉甸甸的存在。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，确实很大。{PAWN_pronoun}注意到它们柔化的轮廓与细微的拉伸纹。</li>
     <li>{PAWN_nameShort}那饱满的胸部坦露在外。{PAWN_pronoun}觉得它们相当丰满，不过是个承认就好的事实。</li>
@@ -932,7 +922,7 @@
     <li>{PAWN_nameShort}丰满的胸部相当惹眼。{PAWN_pronoun}打量着它们的尺寸，这对{PAWN_objective}来说是全新的体验。</li>
     <li>一对丰盈的乳房，透着几分成熟。{PAWN_pronoun}带着好奇与中立交织的心情注视着。</li>
     <li>{PAWN_nameShort}的硕大的胸部暴露在外，让{PAWN_objective}短暂停顿。是与{PAWN_pronoun}所习惯的不一样的形态。</li>
-    <li>观察 {PAWN_nameShort}的 丰满的乳房，那松弛的形态一目了然。{PAWN_pronoun} 记下这一幕，没什么强烈反应。</li>
+    <li>观察 {PAWN_nameShort}的丰满的乳房，那松弛的形态一目了然。{PAWN_pronoun} 记下这一幕，没什么强烈反应。</li>
     <li>看着{PAWN_nameShort}的硕大成熟的乳房，是一次全新的观察。{PAWN_pronoun}细细消化着那沉甸甸的存在感。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，确实很大。{PAWN_pronoun}注意到它们的形状，与年轻形态不同。</li>
     <li>{PAWN_nameShort}那饱满的胸部坦露在外。{PAWN_pronoun}觉得它们相当丰满，不过是个承认就好的事实。</li>
@@ -954,7 +944,7 @@
     <li>{PAWN_nameShort}丰满的胸部相当惹眼。{PAWN_pronoun}明白时光带来的变化。</li>
     <li>一对丰盈的乳房，透着几分成熟。{PAWN_pronoun}把它们看作一面镜子，映照着共同的经历。</li>
     <li>{PAWN_nameShort}的硕大的胸部暴露在外，是常见的景象。{PAWN_pronoun}没多想便承认了它们的存在。</li>
-    <li>观察 {PAWN_nameShort}的 丰满的乳房，那松弛的形态一目了然。{PAWN_pronoun} 对重力的自然作用感同身受。</li>
+    <li>观察 {PAWN_nameShort}的丰满的乳房，那松弛的形态一目了然。{PAWN_pronoun} 对重力的自然作用感同身受。</li>
     <li>看着{PAWN_nameShort}的硕大成熟的乳房，不过是中年的必然现实。{PAWN_pronoun}记下那沉甸甸的存在。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，确实很大。{PAWN_pronoun}注意到它们柔化的轮廓，那是一段共同的旅程。</li>
     <li>{PAWN_nameShort}那饱满的胸部坦露在外。{PAWN_pronoun}觉得它们相当丰满，不过是个承认就好的事实。</li>
@@ -976,7 +966,7 @@
     <li>{PAWN_nameShort}丰满的胸部相当惹眼。{PAWN_pronoun}注视着它们，认可那历经风霜的形态。</li>
     <li>一对丰盈的乳房，透着几分成熟。{PAWN_pronoun}认出了那过得充实的岁月的痕迹。</li>
     <li>{PAWN_nameShort}的硕大的胸部暴露在外，就只是在那里。{PAWN_pronoun}以前见过许多这样的形态。</li>
-    <li>观察 {PAWN_nameShort}的 丰满的乳房，那松弛的形态一目了然。{PAWN_pronoun} 把它们当作衰老的自然一部分接受。</li>
+    <li>观察 {PAWN_nameShort}的丰满的乳房，那松弛的形态一目了然。{PAWN_pronoun} 把它们当作衰老的自然一部分接受。</li>
     <li>看着{PAWN_nameShort}的硕大成熟的乳房，既不令人惊讶，也谈不上多兴奋。</li>
     <li>{PAWN_nameShort}的乳房宏大而袒露，确实很大。{PAWN_pronoun}注意到它们的形状，是典型的成熟轮廓。</li>
     <li>{PAWN_nameShort}那饱满的胸部坦露在外。{PAWN_pronoun}觉得它们相当丰满，不过是个承认就好的事实。</li>
@@ -1021,7 +1011,7 @@
     <li>这对乳房呈现出明显的隆起，与其分类相符，除了尺寸之外没有独特之处。</li>
     <li>那突出的弧度以黏液组织特有的方式反着光，并无异常或迷人之处。</li>
     <li>它们看起来功能上还算够用，尺寸既没有明显优势，也没有显著的生理劣势。</li>
-    <li>人观察着它们，作为 {PAWN_nameShort}的 胸中一个显著的部分，既未增添也未减损 {PAWN_possessive} 的外表。</li>
+    <li>有人观察着它们，作为 {PAWN_nameShort}的胸中一个显著的部分，既未增添也未减损 {PAWN_possessive} 的外表。</li>
     <li>它们的规模符合对硕大乳房的常见预期，在同类中呈现出毫不出奇的景象。</li>
     <li>这质地与其他史莱姆器官一致，光滑而有弹性，正如预期。</li>
     <li>作为一项身体特征，这对硕大的史莱姆乳房只是存在着，履行着自己的职责，既没有引人注目的特点，也没有明显的缺陷。</li>
@@ -1081,10 +1071,10 @@
     <li>{PAWN_nameShort}的那对硕大乳房上突出的乳头是点睛之笔，和我的一样吸引目光。</li>
     <li>我看到{PAWN_nameShort}的硕大的乳房，对那份毫无歉意的袒露生出一种亲近感。</li>
     <li>如此厚实的乳房，是一句明确的宣言。让我也想发表自己的宣言。</li>
-    <li>{PAWN_nameShort}的 硕大乳房散发出的自信几乎具有传染性。</li>
+    <li>{PAWN_nameShort}的硕大乳房散发出的自信几乎具有传染性。</li>
     <li>它们很硕大，我尊重这种坦然展露的态度。</li>
     <li>我喜欢看别人展露身体，尤其是像{PAWN_nameShort}的这对硕大乳房这般惊人的时候。</li>
-    <li>{PAWN_nameShort}的那硕大乳房的呈现方式颇具艺术感。</li>
+    <li>{PAWN_nameShort}的那硕大乳房的姿态方式颇具艺术感。</li>
     <li>天然暴露癖的上佳范例，那对硕大的乳房。</li>
     <li>她们硕大的乳房不过是供人观察的画布，这个角色我十分明白。</li>
     <li>我只是在观察{PAWN_nameShort}的硕大的乳房，欣赏这公开的展示。</li>
@@ -1104,19 +1094,19 @@
   <Opinion_Breasts_Neutral_Large_trait_NMM_Exhibitionist_Female.opinionTexts>
     <li>{PAWN_nameShort}的硕大的乳房真是壮丽的展示；让我想露出自己的。</li>
     <li>看见如此丰满而外露的乳房，让我自己的也感到一阵同袍般的悸动。</li>
-    <li>{PAWN_nameShort}的那硕大乳房的呈现方式如此大胆而坦然，正如我偏爱的那样。</li>
+    <li>{PAWN_nameShort}的那硕大乳房的姿态方式如此大胆而坦然，正如我偏爱的那样。</li>
     <li>真是一场慷慨乳房的公开展示；让我自己的乳头因兴奋而硬挺。</li>
     <li>我很欣赏展示如此丰硕乳房的自信。这映照出我自己渴望被看见与欣赏的欲望。</li>
     <li>{PAWN_nameShort}的那对硕大乳房上突出的乳头精致极了，让我自己也涌起一阵悸动。</li>
     <li>这场展示硕大乳房的宏大场面，让我也想炫耀自己的，感受那份自由。</li>
     <li>我觉得{PAWN_nameShort}的硕大乳房的敞开相当令人解放，我自己也感到核心一阵酥麻。</li>
     <li>它们硕大而毫无羞惭，正是我认为美、并渴望效仿的完美范例。</li>
-    <li>看到 {PAWN_nameShort}的 硕大的乳房，我自己的暴露癖冲动愈发强烈，身体也随之嗡鸣。</li>
+    <li>看到 {PAWN_nameShort}的硕大的乳房，我自己的暴露癖冲动愈发强烈，身体也随之嗡鸣。</li>
     <li>如此饱满圆润的乳房。这绝妙的展示让我想把自己的也露出来给所有人看。</li>
-    <li>{PAWN_nameShort}的 硕大乳房散发出的自信令人鼓舞，我感到一阵兴奋的热意。</li>
+    <li>{PAWN_nameShort}的硕大乳房散发出的自信令人鼓舞，我感到一阵兴奋的热意。</li>
     <li>它们很硕大，一想到它们就那样敞开任人观看，我就一阵亢奋——正如我希望自己的那样。</li>
     <li>我喜欢看别人展露身体，尤其是像{PAWN_nameShort}的这对硕大乳房这般惊人的时候；这让我更有胆量做出更放肆的举动。</li>
-    <li>{PAWN_nameShort}的那硕大乳房的呈现方式是一件艺术品，一场我迫不及待想加入的表演。</li>
+    <li>{PAWN_nameShort}的那硕大乳房的姿态方式是一件艺术品，一场我迫不及待想加入的表演。</li>
     <li>天然暴露癖的上佳范例，那对硕大的乳房，让我为自己的身体感到骄傲。</li>
     <li>她们硕大的乳房不过是供人观察的画布，这个角色我自己也乐于承担，并为此兴奋。</li>
     <li>我只是在观察{PAWN_nameShort}的硕大的乳房，欣赏这公开的展示，心里涌起一股想同样裸露的欲望。</li>
@@ -1136,19 +1126,19 @@
   <Opinion_Breasts_Neutral_Large_trait_NMM_Exhibitionist_male.opinionTexts>
     <li>{PAWN_nameShort}的硕大的乳房真是场好戏，让我也想露出自己。</li>
     <li>看见如此丰满的乳房，让我涌起一股强烈的冲动，想要展露自己的男性象征。</li>
-    <li>{PAWN_nameShort}的那硕大乳房的呈现方式是大胆的，正如我喜欢的那样。</li>
+    <li>{PAWN_nameShort}的那硕大乳房的姿态方式是大胆的，正如我喜欢的那样。</li>
     <li>真是一场慷慨乳房的公开展示，让我自己的器物立正敬礼。</li>
     <li>我很欣赏展示如此丰硕乳房的自信。这映照出我自己渴望被看见的欲望。</li>
     <li>{PAWN_nameShort}的那对硕大乳房上突出的乳头是真正的亮点，正如我暴露时那样。</li>
     <li>这场展示硕大乳房的宏大场面，也让我想炫耀炫耀自己的本钱。</li>
     <li>我觉得{PAWN_nameShort}的硕大乳房的敞开相当刺激，我自己的部位也作出回应。</li>
     <li>它们硕大而毫无羞惭，正是我所欣赏的完美范例。</li>
-    <li>看到 {PAWN_nameShort}的 硕大的乳房，我自己的暴露癖冲动愈发强烈。</li>
+    <li>看到 {PAWN_nameShort}的硕大的乳房，我自己的暴露癖冲动愈发强烈。</li>
     <li>如此饱满圆润的乳房。这绝妙的展示让我想起自己的。</li>
-    <li>{PAWN_nameShort}的 硕大乳房散发出的自信令人鼓舞。</li>
+    <li>{PAWN_nameShort}的硕大乳房散发出的自信令人鼓舞。</li>
     <li>它们很硕大，一想到它们就那样敞开任人观看，我就一阵亢奋。</li>
     <li>我喜欢看别人展露身体，尤其是像{PAWN_nameShort}的这对硕大乳房这般惊人的时候；这让我壮了胆。</li>
-    <li>{PAWN_nameShort}的那硕大乳房的呈现方式是一件艺术品，正如我展露自己的方式。</li>
+    <li>{PAWN_nameShort}的那硕大乳房的姿态方式是一件艺术品，正如我展露自己的方式。</li>
     <li>天然暴露癖的上佳范例，那对硕大的乳房，让我为自己感到骄傲。</li>
     <li>她们硕大的乳房不过是供人观察的画布，这个角色我自己也乐于承担。</li>
     <li>我只是在观察{PAWN_nameShort}的硕大的乳房，欣赏这公开的展示，心里涌起一股想加入的欲望。</li>
@@ -1184,7 +1174,7 @@
     <li>看到{PAWN_nameShort}的丰满的乳房，我燃起一股灼热的欲望。</li>
     <li>{PAWN_nameShort}的硕大的乳房只是存在于此，就让我渴望亲密。</li>
     <li>我对{PAWN_nameShort}的那对硕大丰腴的乳房生出一种强烈的情色牵引。</li>
-    <li>{PAWN_nameShort}的 硕大乳房的迷人起伏让我因欲念而窒息。</li>
+    <li>{PAWN_nameShort}的硕大乳房的迷人起伏让我因欲念而窒息。</li>
     <li>那对硕大而形状完美的乳房在我体内点燃了一团火。</li>
     <li>我觉得{PAWN_nameShort}的硕大的乳房强烈有吸引力。</li>
     <li>{PAWN_nameShort}的那硕大乳房移动的样子是支纯粹性唤起的舞蹈。</li>
@@ -1216,7 +1206,7 @@
     <li>看到{PAWN_nameShort}的丰满的乳房，我燃起一股灼热的欲望，那感觉把我彻底接管。</li>
     <li>{PAWN_nameShort}的硕大的乳房只是存在于此，就让我渴望亲密，一份绝望而压倒一切的需要。</li>
     <li>我对{PAWN_nameShort}的那对硕大丰腴的乳房生出一种强烈的情色牵引，一份美妙的紧绷。</li>
-    <li>{PAWN_nameShort}的 硕大乳房的迷人起伏让我因欲念而窒息，我下身深处泛起一阵愉悦的压迫感。</li>
+    <li>{PAWN_nameShort}的硕大乳房的迷人起伏让我因欲念而窒息，我下身深处泛起一阵愉悦的压迫感。</li>
     <li>那对硕大而形状完美的乳房在我体内点燃一团火，一团尖叫着要释放的火。</li>
     <li>我觉得{PAWN_nameShort}的硕大的乳房强烈有吸引力，那份美几乎令人无法承受。</li>
     <li>{PAWN_nameShort}的那硕大乳房移动的样子是支纯粹性唤起的舞蹈，让我的脉搏加快。</li>
@@ -1248,7 +1238,7 @@
     <li>看到{PAWN_nameShort}的丰满的乳房，我燃起一股灼热的欲望，我的家伙昂然挺立。</li>
     <li>{PAWN_nameShort}的硕大的乳房只是存在于此，就让我渴望亲密，渴望一场绝望的释放。</li>
     <li>我对{PAWN_nameShort}的那对硕大丰腴的乳房生出一种强烈的情色牵引，一种贯穿我整个身心的感受。</li>
-    <li>{PAWN_nameShort}的 硕大乳房的迷人起伏让我因欲念而窒息，胯下不受控地搏动。</li>
+    <li>{PAWN_nameShort}的硕大乳房的迷人起伏让我因欲念而窒息，胯下不受控地搏动。</li>
     <li>那对硕大而形状完美的乳房在我体内点燃一团火，一团要求满足的火。</li>
     <li>我觉得{PAWN_nameShort}的硕大的乳房强烈有吸引力，那份诱惑几乎令人无法承受。</li>
     <li>{PAWN_nameShort}的那硕大乳房移动的样子是支纯粹性唤起的舞蹈，把我推得更接近高潮。</li>
@@ -1297,7 +1287,7 @@
     <li>{PAWN_nameShort}的硕大的乳房蔚为壮观，是慷慨的形态展示。</li>
     <li>我发现自己被{PAWN_nameShort}的硕大乳房的体量与形状所吸引。</li>
     <li>{PAWN_nameShort}的那硕大乳房移动的样子，即便只是微微一动，也相当迷人。</li>
-    <li>人不禁欣赏 {PAWN_nameShort}的 乳房那令人印象深刻的尺寸与饱满。</li>
+    <li>人不禁欣赏 {PAWN_nameShort}的乳房那令人印象深刻的尺寸与饱满。</li>
     <li>{PAWN_nameShort}的那对硕大乳房上突出的乳头与乳晕，是个有趣的细节。</li>
     <li>观察{PAWN_nameShort}的硕大乳房自然的摆动，自有一种魅力。</li>
     <li>我喜欢{PAWN_nameShort}的硕大乳房在视觉上的效果；真是相当抢眼。</li>
@@ -1315,7 +1305,7 @@
     <li>那对硕大的乳房，一场天然的奇观。</li>
     <li>{PAWN_nameShort}的乳房那十足的分量，真是幅景象。</li>
     <li>真是一对饱满而圆润的乳房。</li>
-    <li>{PAWN_nameShort}的那硕大乳房的呈现方式相当诱人。</li>
+    <li>{PAWN_nameShort}的那硕大乳房的姿态方式相当诱人。</li>
     <li>我正欣赏着{PAWN_nameShort}的硕大乳房这道风景。</li>
     <li>它们很硕大，我觉得看着很养眼。</li>
     <li>{PAWN_nameShort}的硕大乳房上的乳头相当分明。</li>
@@ -1327,7 +1317,7 @@
   </Opinion_Breasts_Neutral_Large_trait_Voyeur.opinionTexts>
   <Opinion_Breasts_Neutral_Large_trait_Voyeur_F.opinionTexts>
     <li>{PAWN_nameShort}的硕大的乳房无比惊艳；让我浑身一阵酥麻。</li>
-    <li>哦，若能拥有如此丰满充盈的乳房！{PAWN_nameShort}的 真是壮丽的景象。</li>
+    <li>哦，若能拥有如此丰满充盈的乳房！{PAWN_nameShort}的真是壮丽的景象。</li>
     <li>{PAWN_nameShort}的那硕大乳房晃颤摆动的样子迷人至极，我自己的乳房也感到一阵共鸣的牵引。</li>
     <li>如此完美的硕大乳头与乳晕！太诱人了，我几乎感到自己湿了。</li>
     <li>{PAWN_nameShort}的硕大乳房那丰腴的曲线让我着迷。</li>
@@ -1344,7 +1334,7 @@
     <li>那对乳房的形状完美而饱满，足以让我渴望触碰。</li>
     <li>那尺寸，加上它们挂在{PAWN_nameShort}身上的样子，深深撩动我自己的女性冲动。</li>
     <li>我忍不住幻想那对丰满乳房贴在我胸前的触感。</li>
-    <li>{PAWN_nameShort}的 硕大乳房的乳沟简直令人着迷，把我的目光一路引向下方。</li>
+    <li>{PAWN_nameShort}的硕大乳房的乳沟简直令人着迷，把我的目光一路引向下方。</li>
     <li>那对硕大突出的乳房真是杰作，让我的核心阵阵发麻。</li>
     <li>我觉得{PAWN_nameShort}的硕大的乳房异常有吸引力，鼓舞人心。</li>
     <li>{PAWN_nameShort}的那硕大乳房移动的样子……是让我喘息不止、渴望更多的景象。</li>
@@ -1376,7 +1366,7 @@
     <li>那对乳房的形状完美而饱满，足以让任何男人隐隐作痛。</li>
     <li>那尺寸，加上它们挂在{PAWN_nameShort}身上的样子，深深刺激着我。</li>
     <li>我忍不住幻想那对丰满乳房的手感。</li>
-    <li>{PAWN_nameShort}的 硕大乳房的乳沟简直令人着迷。</li>
+    <li>{PAWN_nameShort}的硕大乳房的乳沟简直令人着迷。</li>
     <li>那对硕大突出的乳房真是件艺术品。</li>
     <li>我觉得{PAWN_nameShort}的硕大的乳房异常有吸引力。</li>
     <li>{PAWN_nameShort}的那硕大乳房移动的样子……是我不会很快忘记的景象。</li>
@@ -1718,7 +1708,7 @@
     <li>它裸露在外，但{PAWN_nameShort}的平坦的胸部实在没什么能刺激我的地方。</li>
     <li>一块扁平的画布，上面是简单的乳头。对我这样的女人来说，满足不了偷窥的幻想。</li>
     <li>我的目光扫过{PAWN_nameShort}的平坦的胸部。没什么值得记住的，也没什么能点燃我自己的感官。</li>
-    <li>那平坦的胸膛无法激起兴致。只是一片光秃的表面，我自己的欲望依旧平静。</li>
+    <li>那平坦的胸膛无法激起兴致。光秃秃一片，什么都没有，我自己的欲望依旧平静。</li>
     <li>我观察着{PAWN_nameShort}的平坦胸部上的乳头。它们不过是在那里，激不起半点火花。</li>
     <li>她的胸部平坦，没给我的想象留下什么空间，给性唤起留的就更少了。</li>
     <li>对一个偷窥者来说，这平坦的胸膛实在乏善可陈，给不了刺激。</li>
@@ -1782,7 +1772,7 @@
     <li>它裸露在外，但{PAWN_nameShort}的平坦的胸部实在没什么可看的。</li>
     <li>一块扁平的画布，上面是简单的乳头。满足不了偷窥的幻想。</li>
     <li>我的目光扫过{PAWN_nameShort}的平坦的胸部。没什么值得记住的。</li>
-    <li>那平坦的胸膛无法激起兴致。只是一片光秃的表面。</li>
+    <li>那平坦的胸膛无法激起兴致。光秃秃一片，什么都没有。</li>
     <li>我观察着{PAWN_nameShort}的平坦胸部上的乳头。它们不过是在那里而已。</li>
     <li>她的胸部平坦，没给我的想象留下什么空间。</li>
     <li>对一个偷窥者来说，这平坦的胸膛实在乏善可陈。</li>
@@ -1808,7 +1798,7 @@
     <li>它很平坦。它身上没有任何东西能让我产生感觉。</li>
     <li>一副带乳头的平坦胸部。就……在那儿罢了。</li>
     <li>她的胸部平坦，也就是说毫无曲线可欣赏。</li>
-    <li>那儿没什么可抓的，只是一片平坦的表面。</li>
+    <li>那儿没什么可抓的，平得像块板，没一点起伏。</li>
     <li>{PAWN_nameShort}的平坦的胸部激不起我任何欲望。</li>
     <li>乳头极小。胸膛平坦。毫无冲击。</li>
     <li>我注意到那份平坦。没什么特别的印象。</li>
@@ -2142,7 +2132,7 @@
     <li>是袒露了，但并不是能激起我暴露癖的那种。</li>
     <li>我的目光落在{PAWN_nameShort}的平坦的胸部上。我的身体依旧放松。</li>
     <li>{PAWN_nameShort}的胸部那平淡无奇，提不起我展露的兴致。</li>
-    <li>{PAWN_nameShort}的 平坦的胸部丝毫没让我想展示自己的。</li>
+    <li>{PAWN_nameShort}的平坦的胸部丝毫没让我想展示自己的。</li>
     <li>她的胸部平坦，不过是一片裸皮。对于暴露，毫无艺术上的灵感。</li>
     <li>一片带乳头的平坦表面。它露着，但不是为我而设的舞台。</li>
     <li>那片平坦，对暴露癖来说提供不了多少东西。</li>
@@ -2174,7 +2164,7 @@
     <li>是袒露了，但并不是能激起我这女性暴露癖的那种，毫无刺激。</li>
     <li>我的目光落在{PAWN_nameShort}的平坦的胸部上。我的身体依旧放松，我自己的乳房也很松弛。</li>
     <li>{PAWN_nameShort}的胸部那平淡无奇，提不起我展露身形的兴致。</li>
-    <li>{PAWN_nameShort}的 平坦的胸部丝毫没让我想展示自己的。</li>
+    <li>{PAWN_nameShort}的平坦的胸部丝毫没让我想展示自己的。</li>
     <li>她的胸部平坦，不过是一片裸皮。对于女性暴露，毫无艺术上的灵感。</li>
     <li>一片带乳头的平坦表面。它露着，但不是我的身体表演的舞台。</li>
     <li>那片平坦，对女性暴露癖来说提供不了多少东西。</li>
@@ -2206,7 +2196,7 @@
     <li>是袒露了，但并不是能激起我这男性暴露癖的那种，毫无刺激。</li>
     <li>我的目光落在{PAWN_nameShort}的平坦的胸部上。我的身体依旧放松，鸡巴也软着。</li>
     <li>{PAWN_nameShort}的胸部那平淡无奇，提不起我亮出胯下之物的兴致。</li>
-    <li>{PAWN_nameShort}的 平坦的胸部丝毫没让我想展示自己的。</li>
+    <li>{PAWN_nameShort}的平坦的胸部丝毫没让我想展示自己的。</li>
     <li>她的胸部平坦，不过是一片裸皮。对于男性暴露，毫无艺术上的灵感。</li>
     <li>一片带乳头的平坦表面。它露着，但不是我的阴茎表演的舞台。</li>
     <li>那片平坦，对男性暴露癖来说提供不了多少东西。</li>
@@ -2366,7 +2356,7 @@
     <li>它裸露在外，但{PAWN_nameShort}的平坦的胸部实在没什么能留住偷窥者目光的东西。</li>
     <li>一块扁平的画布，上面是简单的乳头。满足不了偷窥的幻想。</li>
     <li>我的目光扫过{PAWN_nameShort}的平坦的胸部。对一个偷窥者而言毫无值得记住的东西。</li>
-    <li>那平坦的胸膛无法激起我心中的偷窥欲。只是一片光秃的表面。</li>
+    <li>那平坦的胸膛无法激起我心中的偷窥欲。光秃秃一片，什么都没有。</li>
     <li>我观察着{PAWN_nameShort}的平坦胸部上的乳头。它们不过是为偷窥者的目光而存在。</li>
     <li>她的胸部平坦，给偷窥者留下的想象空间少得可怜。</li>
     <li>对一个偷窥者来说，这平坦的胸膛实在乏善可陈。</li>
@@ -2398,7 +2388,7 @@
     <li>它裸露在外，但{PAWN_nameShort}的平坦的胸部实在没什么能刺激我的地方。</li>
     <li>一块扁平的画布，上面是简单的乳头。对我这样的女人来说，满足不了偷窥的幻想。</li>
     <li>我的目光扫过{PAWN_nameShort}的平坦的胸部。没什么值得记住的，没什么能点燃我的感官，也没有酥麻。</li>
-    <li>那平坦的胸膛无法激起兴致。只是一片光秃的表面，我的欲望依旧平静。</li>
+    <li>那平坦的胸膛无法激起兴致。光秃秃一片，什么都没有，我的欲望依旧平静。</li>
     <li>我观察着{PAWN_nameShort}的平坦胸部上的乳头。它们不过是在那里，激不起火花，也带不来快感。</li>
     <li>她的胸部平坦，没给我的想象留下什么空间，给性唤起留的就更少了。</li>
     <li>对一个偷窥者来说，这平坦的胸膛实在乏善可陈，给不了刺激，也给不了满足。</li>
@@ -2430,7 +2420,7 @@
     <li>它裸露在外，但{PAWN_nameShort}的平坦的胸部实在没什么能刺激我的地方。</li>
     <li>一块扁平的画布，上面是简单的乳头。对我这样的男人来说，满足不了偷窥的幻想。</li>
     <li>我的目光扫过{PAWN_nameShort}的平坦的胸部。没什么值得记住的，没什么能点燃我的感官，也没有勃起。</li>
-    <li>那平坦的胸膛无法激起兴致。只是一片光秃的表面，我的欲望依旧平静。</li>
+    <li>那平坦的胸膛无法激起兴致。光秃秃一片，什么都没有，我的欲望依旧平静。</li>
     <li>我观察着{PAWN_nameShort}的平坦胸部上的乳头。它们不过是在那里，激不起火花，也引不起勃起。</li>
     <li>她的胸部平坦，没给我的想象留下什么空间，给性唤起留的就更少了。</li>
     <li>对一个偷窥者来说，这平坦的胸膛实在乏善可陈，给不了刺激，也给不了快感。</li>
@@ -2495,7 +2485,7 @@
     <li>它们就那样在那儿，一对小巧、略显平坦的乳房，谈不上分明或出众，映照着漫长的岁月。</li>
     <li>这对乳房小巧、平平无奇。形态朴素，乳头无缝地融在其中，是时光的明证。</li>
     <li>{PAWN_nameShort}的胸部露出小巧而不起眼的乳房，透出的不是活力，而是自然的衰退。</li>
-    <li>并不特别惹眼，{PAWN_nameShort}的 小巧的乳房显得相当紧凑，被岁月压得有些扁。</li>
+    <li>并不特别惹眼，{PAWN_nameShort}的小巧的乳房显得相当紧凑，被岁月压得有些扁。</li>
     <li>{PAWN_nameShort}的小巧乳房的轮廓柔缓，几乎难以分辨，乳晕淡淡，乳头极小且内陷。</li>
     <li>一种年老的美感，{PAWN_nameShort}的小乳房似乎已沉淀成自然而不太突出的形状。</li>
     <li>它们并不显眼；{PAWN_nameShort}的小巧的乳房是{PAWN_possessive}身形上一个安静而苍老的细节。</li>
@@ -2507,7 +2497,7 @@
   </Opinion_Breasts_Neutral_Small_ElderFemale.opinionTexts>
   <Opinion_Breasts_Neutral_Small_ElderFemale_observed_by_Elder_female.opinionTexts>
     <li>{PAWN_nameShort}的小巧而年迈的乳房清晰可见，对{PAWN_possessive}年纪的人来说是熟悉的形态。适度而自然，明显带着时间的痕迹。</li>
-    <li>观察 {PAWN_nameShort}的 苍老小巧的乳房，可见一副极其常见的形状，被时间深深定型，特征黯淡，布满皱纹。</li>
+    <li>观察 {PAWN_nameShort}的苍老小巧的乳房，可见一副极其常见的形状，被时间深深定型，特征黯淡，布满皱纹。</li>
     <li>{PAWN_nameShort}的那对小巧而衰老的乳房柔和的坡度，配上那不张扬的乳头，是极为成熟、年迈女性形体的典型特征。</li>
     <li>{PAWN_nameShort}的小巧而年老的乳房只是静静地在那里，见证着许多许多年的自然流逝。没什么特别值得称道的。</li>
     <li>对{PAWN_possessive}这般高龄的人来说，这对小巧的乳房相当普通，谈不上特别的紧实或出众，只有生活留下的磨损。</li>
@@ -2536,7 +2526,7 @@
     <li>看到{PAWN_nameShort}的小巧而苍老的乳房，谈不上兴奋；它们完整地显出时间自然的推移。</li>
     <li>{PAWN_nameShort}的小巧而年迈的乳房就在那里，在年长者中十分常见。形态毫不张扬，与{PAWN_possessive}饱经风霜的身体融为一体。</li>
     <li>不置可否地看一眼{PAWN_nameShort}的小巧而年老的乳房。它们不大，带着明显而深刻的自然衰老痕迹。</li>
-    <li>并不特别动人，{PAWN_nameShort}的 小巧苍老的乳房只是 {PAWN_possessive} 身体的一部分。形状平淡，皱纹不少。</li>
+    <li>并不特别动人，{PAWN_nameShort}的小巧苍老的乳房只是 {PAWN_possessive} 身体的一部分。形状平淡，皱纹不少。</li>
     <li>{PAWN_nameShort}的小巧而年老的乳房清晰可见，正是{PAWN_possessive}高龄所应有的样子。</li>
     <li>{PAWN_nameShort}的小巧而见老的乳房给人的整体印象是一种安静、端庄的老去，再没有任何引人注目的特征留存。</li>
     <li>随意观察{PAWN_nameShort}的小巧而年老的乳房，形态典型，非常松弛且严重下垂。</li>
@@ -2552,14 +2542,14 @@
   <Opinion_Breasts_Neutral_Small_ElderFemale_observed_by_Exhibitionist.opinionTexts>
     <li>{PAWN_nameShort}的小巧而年迈的乳房清晰可见，而{PAWN_pronoun}毫无羞耻地承载着{PAWN_possessive}身体。目睹这份自然与对年龄的接纳，令人感到解放。</li>
     <li>{PAWN_nameShort}的小巧而见老的乳房坦然展露，感觉完全自然、毫不做作。即便留下了岁月的痕迹，这份毫无拘束仍令人耳目一新。</li>
-    <li>{PAWN_nameShort}的 小巧苍老的乳房毫无遮掩之意，那份中性而磨损的模样更添一种无拘无束的自由气息。</li>
+    <li>{PAWN_nameShort}的小巧苍老的乳房毫无遮掩之意，那份中性而磨损的模样更添一种无拘无束的自由气息。</li>
     <li>看到{PAWN_nameShort}的小巧而苍老的乳房裸露在外，这是明摆着的事实。它也鼓励人以同样的坦然面对时光流逝。</li>
     <li>{PAWN_nameShort}的小巧而年迈的乳房只是素净地在那里。这份随意的展示颇为动人，是历经岁月后接纳自我的静静宣言。</li>
     <li>清楚地看见{PAWN_nameShort}的小巧而年老的乳房；{PAWN_pronoun}似乎对{PAWN_possessive}身体很自在，连皱纹也坦然接受。</li>
     <li>{PAWN_nameShort}的小巧年迈的乳房那不加掩饰的可见令人欣慰，带来一种自然的舒适与尊严。</li>
     <li>{PAWN_nameShort}的小巧而年老的乳房只是坦然地呈现着，其天然的形态默默见证着一种不因年龄而羞怯的存在。</li>
     <li>显然{PAWN_nameShort}对{PAWN_possessive}小巧、年迈的乳房毫不掩饰；它们就那么摆着让所有人看，原原本本。</li>
-    <li>{PAWN_nameShort}的 随意露出的小巧而衰老的乳房，线条含蓄而疲惫，是一幕令人愉快而无负担的景象。</li>
+    <li>{PAWN_nameShort}的随意露出的小巧而衰老的乳房，线条含蓄而疲惫，是一幕令人愉快而无负担的景象。</li>
     <li>{PAWN_nameShort}的年长的小巧乳房朴素的形态坦然裸露。这是对自身身体自信的证明，无论什么年纪都一样。</li>
     <li>{PAWN_nameShort}的小巧而年老的乳房展示在外，毫不畏惧被人审视。这份坦然的态度相当令人钦佩。</li>
     <li>{PAWN_nameShort}的那对小巧而年迈的乳房毫不遮掩地存在，更添几分自由与自然的气息。</li>
@@ -2568,7 +2558,7 @@
     <li>看到{PAWN_nameShort}的小巧的年长乳房毫无遮掩，印证了对裸体与衰老过程的普遍坦然。</li>
     <li>{PAWN_nameShort}的那小巧而年迈的乳房展示在外时那不加张扬的样子，营造出一种随性的开放感。</li>
     <li>{PAWN_nameShort}似乎毫不介意展示{PAWN_possessive}小巧而年长的乳房，这份自在令人欣赏。</li>
-    <li>这是{PAWN_nameShort}的小巧、年迈乳房简单、朴素的呈现，即便时光拥抱过，也依然是毫无拘束的表达的明证。</li>
+    <li>这是{PAWN_nameShort}的小巧、年迈乳房简单、朴素的姿态，即便时光拥抱过，也依然是毫无拘束的表达的明证。</li>
     <li>{PAWN_nameShort}展示{PAWN_possessive}苍老的小巧乳房时那份安静的自信，隐隐鼓舞人心，映照出一段坦荡的人生。</li>
   </Opinion_Breasts_Neutral_Small_ElderFemale_observed_by_Exhibitionist.opinionTexts>
   <Opinion_Breasts_Neutral_Small_ElderFemale_observed_by_Nymphomaniac.opinionTexts>
@@ -2576,7 +2566,7 @@
     <li>看着{PAWN_nameShort}的年迈小巧的乳房，那柔软顺从的曲线，唤起一种原始的欲望——岁月也无法触及。</li>
     <li>{PAWN_nameShort}的小巧而年老的乳房虽然不大，却带着内敛的性感，是通往更深层、超越时间的好奇心的起点。</li>
     <li>观察着{PAWN_nameShort}的小巧苍老的乳房，一丝对亲密的渴望被唤醒。它们自然的形状是对温柔激情无声的催促。</li>
-    <li>{PAWN_nameShort}的小巧苍老乳房这样朴素的呈现，就足以点燃一簇原始的兴趣。它们许诺着温柔的触感，无论年纪多大。</li>
+    <li>{PAWN_nameShort}的小巧苍老乳房这样朴素的姿态，就足以点燃一簇原始的兴趣。它们许诺着温柔的触感，无论年纪多大。</li>
     <li>尽管尺寸和年纪都不占优势，{PAWN_nameShort}的乳房仍暗示着某种深沉而未言说的潜能。一种无声却强烈的吸引力依然存在。</li>
     <li>{PAWN_nameShort}的小巧而年迈的乳房线条柔和，乳头精致内缩，静静撩动着那份依旧存续的本源欲望。</li>
     <li>瞥了一眼{PAWN_nameShort}的那对小巧苍老的乳房，思绪便飘向无法言说的快感与紧密的拥抱，超越了岁月。</li>
@@ -2617,7 +2607,7 @@
   </Opinion_Breasts_Neutral_Small_ElderFemale_observed_by_Prude.opinionTexts>
   <Opinion_Breasts_Neutral_Small_ElderFemale_observed_by_Young_female.opinionTexts>
     <li>{PAWN_nameShort}的小巧而年迈的乳房清晰可见，在年长女性身上是常见景象。它们看着自然，虽说不太紧实，受着岁月的磨蚀。</li>
-    <li>观察 {PAWN_nameShort}的 苍老小巧的乳房，可见一副熟悉的形状，被数十年悄悄改变，除此之外平平无奇。</li>
+    <li>观察 {PAWN_nameShort}的苍老小巧的乳房，可见一副熟悉的形状，被数十年悄悄改变，除此之外平平无奇。</li>
     <li>{PAWN_nameShort}的那对小巧而衰老的乳房柔和的坡度，配上那不张扬的乳头，是十分成熟女性形体的典型特征。</li>
     <li>{PAWN_nameShort}的小巧而年老的乳房只是静静地在那里，显出许多年的自然流逝。没什么特别值得称道的。</li>
     <li>它们和那个高龄女性身上任何一对小巧的乳房没两样，不事张扬，被时间悄然雕琢。</li>
@@ -2646,7 +2636,7 @@
     <li>它们小巧，但终究是乳房。{PAWN_nameShort}是位年长女性，这不过是{PAWN_possessive}上了年纪的胸部。</li>
     <li>匆匆打量一下{PAWN_nameShort}的小巧、年迈的乳房。它们不大，缺乏紧致感，除此之外毫无特色，只见深深的皱纹。</li>
     <li>{PAWN_nameShort}的小巧而年老的乳房显得有些扁平、极为松垂，在上了年纪的人身上是常见景象。</li>
-    <li>并不特别惹眼，{PAWN_nameShort}的 小巧苍老的乳房微微下垂，乳晕几乎看不见，还常常变色。</li>
+    <li>并不特别惹眼，{PAWN_nameShort}的小巧苍老的乳房微微下垂，乳晕几乎看不见，还常常变色。</li>
     <li>{PAWN_nameShort}的小巧、年迈的乳房形态平平无奇，是{PAWN_possessive}胸口一道简单的弧线，年长女性的典型样貌。</li>
     <li>{PAWN_nameShort}的小巧而年迈的乳房只是一次中性的观察。它们与{PAWN_possessive}身架倒还相称，尽管明显苍老。</li>
     <li>随意瞥一眼{PAWN_nameShort}的小巧而年老的乳房；它们呈现出一种自然、不加修饰的存在感，带着岁月的磨痕。</li>
@@ -2690,7 +2680,7 @@
     <li>看到{PAWN_nameShort}的小巧而苍老的乳房，谈不上兴奋；它们完整地显出时间留下的自然痕迹，没有什么特别之处。</li>
     <li>{PAWN_nameShort}的小巧而年迈的乳房就在那里，是常见的景象。形态毫不张扬，与{PAWN_possessive}苍老的身体融为一体。</li>
     <li>不置可否地看一眼{PAWN_nameShort}的小巧而年老的乳房。它们不大，带着明显的自然衰老痕迹。</li>
-    <li>并不特别动人，{PAWN_nameShort}的 小巧苍老的乳房只是 {PAWN_possessive} 身体的一部分。形状平淡，带着皱纹。</li>
+    <li>并不特别动人，{PAWN_nameShort}的小巧苍老的乳房只是 {PAWN_possessive} 身体的一部分。形状平淡，带着皱纹。</li>
     <li>{PAWN_nameShort}的小巧而年老的乳房清晰可见，正是{PAWN_possessive}高龄所应有的样子。</li>
     <li>{PAWN_nameShort}的小巧而见老的乳房给人的整体印象是一种安静、端庄的老去，毫无任何引人注目的特征。</li>
     <li>随意观察{PAWN_nameShort}的小巧而年老的乳房，形态典型，非常松弛且明显下垂。</li>
@@ -2729,7 +2719,7 @@
     <li>{PAWN_nameShort}的小巧乳房。是啊，我记得自己也曾有过那样的乳房。</li>
     <li>{PAWN_nameShort}那对乳房小巧。相当年轻。</li>
     <li>{PAWN_nameShort}的乳房小巧。在年轻女子身上够常见的尺寸。</li>
-    <li>{PAWN_nameShort}的 小巧的乳房没什么特别，完全够格。</li>
+    <li>{PAWN_nameShort}的小巧的乳房没什么特别，完全够格。</li>
     <li>我注意到{PAWN_nameShort}的小巧的乳房。看起来很坚挺，那个年纪本该如此。</li>
     <li>啊，小乳房。我们许多人都经历过这个阶段。{PAWN_possessive}形状不错。</li>
     <li>{PAWN_nameShort}的乳房相当娴静，与{PAWN_objective}很相配。</li>
@@ -2744,7 +2734,7 @@
     <li>各种各样的乳房我都见过。{PAWN_nameShort}的只是小而已。</li>
     <li>{PAWN_nameShort}的小巧乳房相当普通。</li>
     <li>{PAWN_nameShort}的乳房小巧，坡度相当平缓。</li>
-    <li>人能看到 {PAWN_nameShort}的 小巧的乳房。一派青春气象。</li>
+    <li>人能看到 {PAWN_nameShort}的小巧的乳房。一派青春气象。</li>
     <li>它们小巧，这也没什么。不是每个人都需要硕大的乳房。</li>
     <li>我注意到{PAWN_nameShort}的小巧乳房的那份含蓄。</li>
     <li>{PAWN_nameShort}的小巧的乳房毫无修饰，简简单单。</li>
@@ -2792,24 +2782,24 @@
   <Opinion_Breasts_Neutral_Small_Elderly_Male_opinion.opinionTexts>
     <li>{PAWN_nameShort}的小巧乳房。它们……很小。</li>
     <li>我想{PAWN_nameShort}的乳房就是你所谓的“娇小”。</li>
-    <li>{PAWN_nameShort}的 的乳房没什么好说的，相当保守。</li>
+    <li>{PAWN_nameShort}乳房没什么好说的，相当保守。</li>
     <li>{PAWN_nameShort}的乳房看起来不算特别大也不算特别小，就那么存在着。</li>
     <li>{PAWN_nameShort}的胸前那对小巧乳房静默地存在着。</li>
     <li>我见过更大的，也见过更小的。{PAWN_nameShort}的乳房就是小。</li>
     <li>{PAWN_nameShort}的乳房就尺寸而言朴实无华。</li>
-    <li>人注意到 {PAWN_nameShort}的 小巧的乳房，确实毫不招摇。</li>
+    <li>有人注意到 {PAWN_nameShort}的小巧的乳房，确实毫不招摇。</li>
     <li>{PAWN_nameShort}的身形包括这对小乳房。一个细节罢了。</li>
     <li>{PAWN_nameShort}的小巧乳房的形状颇为含蓄。</li>
     <li>{PAWN_nameShort}的乳房若细看，相当精致。</li>
     <li>它们小巧，形状整洁。</li>
     <li>{PAWN_nameShort}的乳房的小巧显而易见，却毫不出奇。</li>
-    <li>{PAWN_nameShort}的 小巧的乳房没什么壮观可言。就是朴素。</li>
+    <li>{PAWN_nameShort}的小巧的乳房没什么壮观可言。就是朴素。</li>
     <li>我注意到{PAWN_nameShort}的小巧乳房毫不张扬的形状。</li>
     <li>{PAWN_nameShort}的乳房小巧，模样相当清纯。</li>
     <li>{PAWN_nameShort}的身架上一对不算起眼的小乳房。</li>
     <li>{PAWN_nameShort}的小巧乳房。干净、简单，没什么可指摘的。</li>
     <li>它们小巧的尺寸让{PAWN_nameShort}的乳房相当不碍眼。</li>
-    <li>由于尺寸，人或许会用“精致”来形容 {PAWN_nameShort}的 的乳房。</li>
+    <li>由于尺寸，人或许会用“精致”来形容 {PAWN_nameShort}乳房。</li>
     <li>那小巧的乳房在{PAWN_nameShort}的胸部勾勒出含蓄的轮廓。</li>
     <li>{PAWN_nameShort}的乳房虽然小巧，却正合{PAWN_possessive}体格。</li>
     <li>它们小巧，就这样。不必大惊小怪。</li>
@@ -2849,7 +2839,7 @@
     <li>{PAWN_nameShort}的乳房朴素的尺寸只让它们更值得细细打量。</li>
     <li>{PAWN_nameShort}的赤裸的胸部配上那小巧的乳房，真是值得一看的景象。</li>
     <li>我的目光落在{PAWN_nameShort}的那小巧的乳房上，是一份令人愉悦的分心。</li>
-    <li>{PAWN_nameShort}的小巧乳房这样朴素的呈现，含蓄地邀人亲近。</li>
+    <li>{PAWN_nameShort}的小巧乳房这样朴素的姿态，含蓄地邀人亲近。</li>
     <li>我注意到{PAWN_nameShort}的乳房上小巧坚挺的乳头。</li>
     <li>那小巧整齐的乳晕，为{PAWN_nameShort}的含蓄的乳房补全了画面。</li>
   </Opinion_Breasts_Neutral_Small_Elderly_Male_voyer_opinion.opinionTexts>
@@ -2867,7 +2857,7 @@
     <li>它们小巧，但我仍能欣赏{PAWN_possessive}身形。</li>
     <li>{PAWN_nameShort}的小巧的乳房含蓄，却不容忽视。</li>
     <li>{PAWN_nameShort}外露的小巧乳房吸引了我的目光。</li>
-    <li>不算巨大，但 {PAWN_nameShort}的 小巧的乳房有种青春的可爱。</li>
+    <li>不算巨大，但 {PAWN_nameShort}的小巧的乳房有种青春的可爱。</li>
     <li>我觉得{PAWN_nameShort}的小巧的乳房在朴素中相当吸引人。</li>
     <li>看到{PAWN_nameShort}的小巧的乳房，出乎意料地令人愉悦。</li>
     <li>{PAWN_nameShort}的小巧的乳房紧实而线条优美。</li>
@@ -2897,7 +2887,7 @@
     <li>它们就那样在那儿，一对小巧、略显平坦的乳房，谈不上分明或出众。</li>
     <li>这对乳房小巧、平平无奇。形态朴素，乳头无缝地融在其中。</li>
     <li>{PAWN_nameShort}的胸部露出小巧而不起眼的乳房，透出的不是活力，而是自然的衰退。</li>
-    <li>并不特别惹眼，{PAWN_nameShort}的 小巧的乳房显得相当紧凑，有些扁平。</li>
+    <li>并不特别惹眼，{PAWN_nameShort}的小巧的乳房显得相当紧凑，有些扁平。</li>
     <li>{PAWN_nameShort}的小巧乳房的轮廓柔缓，几乎难以分辨，乳晕淡淡，乳头极小。</li>
     <li>一种成熟的美感，{PAWN_nameShort}的小巧的乳房似乎已沉淀成自然、不那么突出的形状。</li>
     <li>它们并不显眼；{PAWN_nameShort}的小巧的乳房是{PAWN_possessive}身形上一个安静的细节。</li>
@@ -2938,7 +2928,7 @@
     <li>看到{PAWN_nameShort}的小巧的乳房，谈不上兴奋；它们显出时间自然的推移。</li>
     <li>{PAWN_nameShort}的小巧的乳房就在那里，是常见的景象。形状不张扬，与{PAWN_possessive}成熟的体态融为一体。</li>
     <li>不置可否地看一眼{PAWN_nameShort}的小巧的乳房。它们不大，带着自然衰老的痕迹。</li>
-    <li>并不特别动人，{PAWN_nameShort}的 小巧的乳房只是 {PAWN_possessive} 身体的一部分。形状平淡。</li>
+    <li>并不特别动人，{PAWN_nameShort}的小巧的乳房只是 {PAWN_possessive} 身体的一部分。形状平淡。</li>
     <li>{PAWN_nameShort}的小巧的乳房露在外面，正如{PAWN_possessive}这个年纪该有的样子。</li>
     <li>{PAWN_nameShort}的小巧乳房给人的整体印象是一种安静的成熟，毫无引人注目的特征。</li>
     <li>随意观察{PAWN_nameShort}的小巧的乳房，形态典型，略有松弛。</li>
@@ -2954,14 +2944,14 @@
   <Opinion_Breasts_Neutral_Small_MatureFemale_observed_by_Exhibitionist.opinionTexts>
     <li>{PAWN_nameShort}的小巧的乳房露在外面，可{PAWN_pronoun}毫不羞赧地带着{PAWN_possessive}身体。目睹这份自然，令人感到自由。</li>
     <li>{PAWN_nameShort}的小巧的乳房坦然展露，感觉完全自然、毫不做作。这份毫无拘束令人耳目一新。</li>
-    <li>{PAWN_nameShort}的 小巧的乳房毫无遮掩之意，那份中性的模样更添一种无拘无束的自由气息。</li>
+    <li>{PAWN_nameShort}的小巧的乳房毫无遮掩之意，那份中性的模样更添一种无拘无束的自由气息。</li>
     <li>看到{PAWN_nameShort}的小巧的乳房裸露在外，这是明摆着的事实。它也鼓励自己拥有一份同样的开放。</li>
     <li>{PAWN_nameShort}的小巧的乳房就那么坦然地摆着，毫无修饰。这般随性的展露倒颇吸引人，是一句自我接纳的安静宣言。</li>
     <li>清楚地看见{PAWN_nameShort}的小巧而成熟的乳房；{PAWN_pronoun}似乎对{PAWN_possessive}身体很自在。</li>
     <li>{PAWN_nameShort}的小巧乳房那不加掩饰的可见令人欣慰，带来一种自然的舒适感。</li>
     <li>{PAWN_nameShort}的小巧的乳房就那么呈现着，天然的形态是对坦荡存在的一句安静见证。</li>
     <li>显然{PAWN_nameShort}对{PAWN_possessive}小巧的乳房毫不掩饰；它们就那么摆着让所有人看。</li>
-    <li>{PAWN_nameShort}的 随意露出的小巧乳房线条含蓄，是一幕令人愉快而无负担的景象。</li>
+    <li>{PAWN_nameShort}的随意露出的小巧乳房线条含蓄，是一幕令人愉快而无负担的景象。</li>
     <li>{PAWN_nameShort}的小巧乳房朴素的形态坦然裸露，这是对自身身体自信的证明。</li>
     <li>{PAWN_nameShort}的小巧的乳房展示在外，毫不畏惧审视。这份坦荡相当令人钦佩。</li>
     <li>{PAWN_nameShort}的那对小巧乳房毫不遮掩地存在，更添几分自由与自然的气息。</li>
@@ -2970,7 +2960,7 @@
     <li>看到{PAWN_nameShort}的小巧的成熟乳房毫无遮掩，印证了对裸体的普遍坦然。</li>
     <li>{PAWN_nameShort}的小巧乳房展示在外时那不加张扬的样子，营造出一种随性的开放感。</li>
     <li>{PAWN_nameShort}似乎毫不介意展示{PAWN_possessive}小巧乳房，这份自在令人欣赏。</li>
-    <li>这是{PAWN_nameShort}的小巧乳房简单、朴素的呈现，是毫无拘束的表达的明证。</li>
+    <li>这是{PAWN_nameShort}的小巧乳房简单、朴素的姿态，是毫无拘束的表达的明证。</li>
     <li>{PAWN_nameShort}展示{PAWN_possessive}小巧乳房时那份安静的自信，隐隐鼓舞人心。</li>
   </Opinion_Breasts_Neutral_Small_MatureFemale_observed_by_Exhibitionist.opinionTexts>
   <Opinion_Breasts_Neutral_Small_MatureFemale_observed_by_Nymphomaniac.opinionTexts>
@@ -2978,7 +2968,7 @@
     <li>看到{PAWN_nameShort}的小巧的成熟乳房，那柔软顺从的曲线，在心底唤起一种根本的欲望。</li>
     <li>{PAWN_nameShort}的小巧乳房虽然不大，却带着内敛的性感，是通往更深层好奇的起点。</li>
     <li>观察着{PAWN_nameShort}的小巧的乳房，一丝对亲密的渴望被唤醒。它们自然的形状是对激情无声的催促。</li>
-    <li>{PAWN_nameShort}的小巧乳房这样朴素的呈现，就足以点燃一簇原始的兴趣。它们许诺着温柔的触感。</li>
+    <li>{PAWN_nameShort}的小巧乳房这样朴素的姿态，就足以点燃一簇原始的兴趣。它们许诺着温柔的触感。</li>
     <li>尽管尺寸如此，{PAWN_nameShort}的乳房仍暗示着某种深沉而未言说的潜能。一种无声却强烈的吸引力。</li>
     <li>{PAWN_nameShort}的小巧乳房线条柔和、乳头精致，静静撩动着最本源的欲望。</li>
     <li>瞥了一眼{PAWN_nameShort}的那对小巧的乳房，思绪便飘向无法言说的快感与紧密的拥抱。</li>
@@ -3012,7 +3002,7 @@
     <li>{PAWN_nameShort}的那对小巧乳房裸露在外，隐隐透出一丝不合体统。</li>
     <li>{PAWN_nameShort}的小巧的乳房露在外面，带来一丝不安。这样的暴露似乎没有必要。</li>
     <li>看到{PAWN_nameShort}的小巧的乳房这样大方露出，有点刺眼。含蓄地遮一遮会更得体。</li>
-    <li>{PAWN_nameShort}外露的小巧乳房有些令人反感。我更喜欢含蓄些的呈现。</li>
+    <li>{PAWN_nameShort}外露的小巧乳房有些令人反感。我更喜欢含蓄些的姿态。</li>
     <li>{PAWN_nameShort}的小巧的乳房实在显眼得让人不适。看着挺尴尬。</li>
     <li>一瞬间令人不适地意识到{PAWN_nameShort}的那对裸露的小乳房。最好还是别去注意。</li>
     <li>看到{PAWN_nameShort}的小巧的乳房裸露在外，透着一种不合时宜的毫无顾忌。</li>
@@ -3041,14 +3031,14 @@
   </Opinion_Breasts_Neutral_Small_MatureFemale_observed_by_Young_female.opinionTexts>
   <Opinion_Breasts_Neutral_Small_MatureFemale_observed_by_Young_male.opinionTexts>
     <li>{PAWN_nameShort}的小巧的乳房露了出来，并不特别令人兴奋，却是女性形体上一个有用的部位。一丝淡淡的好奇。</li>
-    <li>看着{PAWN_nameShort}的成熟小巧的乳房。并不引人注目，却算得上是个基本的呈现。</li>
+    <li>看着{PAWN_nameShort}的成熟小巧的乳房。并不引人注目，却算得上是个基本的姿态。</li>
     <li>{PAWN_nameShort}的小巧的乳房就在那里，一对略有下垂的乳房。引不起什么想法，只是中性的观察。</li>
     <li>瞥了一眼{PAWN_nameShort}的那对小巧的乳房。它们自然无饰，没什么特别。</li>
     <li>{PAWN_nameShort}的小巧的乳房在{PAWN_possessive}这个年纪是典型景象。形态内敛，乳头不大。</li>
     <li>它们小巧，但终究是乳房。{PAWN_nameShort}是位成熟女性，这不过是{PAWN_possessive}胸部。</li>
     <li>匆匆打量一下{PAWN_nameShort}的小巧的乳房。它们不大，缺乏紧致感，除此之外毫无特色。</li>
     <li>{PAWN_nameShort}的小巧的乳房看上去有些扁平，在成熟年纪的人身上很常见。</li>
-    <li>并不特别惹眼，{PAWN_nameShort}的 小巧的乳房微微下垂，乳晕几乎看不见。</li>
+    <li>并不特别惹眼，{PAWN_nameShort}的小巧的乳房微微下垂，乳晕几乎看不见。</li>
     <li>{PAWN_nameShort}的小巧乳房的形态平平无奇，是{PAWN_possessive}胸口一道简单的弧线，年长女性的典型样貌。</li>
     <li>{PAWN_nameShort}的小巧的乳房是中性的观察对象。它们与{PAWN_possessive}身形比例相称，只是上了年纪。</li>
     <li>随意瞥一眼{PAWN_nameShort}的小巧的乳房；它们呈现出一种自然、不加修饰的存在感。</li>
@@ -3092,7 +3082,7 @@
     <li>看到{PAWN_nameShort}的小巧的乳房，谈不上兴奋；它们显出时间留下的自然痕迹，没有什么特别之处。</li>
     <li>{PAWN_nameShort}的小巧的乳房就在那里，是常见的景象。形状不张扬，与{PAWN_possessive}成熟的体态融为一体。</li>
     <li>不置可否地看一眼{PAWN_nameShort}的小巧的乳房。它们不大，带着自然衰老的痕迹。</li>
-    <li>并不特别动人，{PAWN_nameShort}的 小巧的乳房只是 {PAWN_possessive} 身体的一部分。形状平淡。</li>
+    <li>并不特别动人，{PAWN_nameShort}的小巧的乳房只是 {PAWN_possessive} 身体的一部分。形状平淡。</li>
     <li>{PAWN_nameShort}的小巧的乳房露在外面，正如{PAWN_possessive}这个年纪该有的样子。</li>
     <li>{PAWN_nameShort}的小巧乳房给人的整体印象是一种安静的成熟，毫无引人注目的特征。</li>
     <li>随意观察{PAWN_nameShort}的小巧的乳房，形态典型，略有松弛。</li>
@@ -3133,7 +3123,7 @@
     <li>这对乳房呈现出标准的小巧隆起，与其分类相符，没有明显的特色。</li>
     <li>那弧度柔和，与它们的尺寸相称，反光的样子正是黏液组织常见的模样。</li>
     <li>它们看起来在功能上正常，尺寸在生理存在感上既无利也无弊。</li>
-    <li>人观察着它们，作为 {PAWN_nameShort}的 胸中一个常规的部分，既未增添也未减损 {PAWN_possessive} 的外表。</li>
+    <li>有人观察着它们，作为 {PAWN_nameShort}的胸中一个常规的部分，既未增添也未减损 {PAWN_possessive} 的外表。</li>
     <li>它们的规模符合对小巧乳房的预期，呈现出无需多言的普通景象。</li>
     <li>这质地与其他史莱姆器官一致，光滑而有弹性，正如预料。</li>
     <li>作为一项身体特征，这对小巧的史莱姆乳房仅仅存在着，履行着自己的职责，没有任何引人注目的特点。</li>
@@ -3192,7 +3182,7 @@
     <li>它们小巧，但{PAWN_nameShort}的乳房就那样亮在外面。{PAWN_objective}做得不错。</li>
     <li>我欣赏{PAWN_nameShort}的展示{PAWN_possessive}小巧乳房的胆量。</li>
     <li>{PAWN_nameShort}的小巧的乳房赤裸着任所有人观看。太好了。</li>
-    <li>{PAWN_nameShort}的 随意露出的小巧乳房令人十分解放。</li>
+    <li>{PAWN_nameShort}的随意露出的小巧乳房令人十分解放。</li>
     <li>看到{PAWN_nameShort}的小巧的乳房坦露在外，真好。</li>
     <li>{PAWN_nameShort}的小巧的乳房露了出来。愉悦而坦然的展示。</li>
     <li>看到{PAWN_nameShort}的小巧的乳房，鼓励我更……开放。</li>
@@ -3224,7 +3214,7 @@
     <li>它们小巧，但关键在于那份袒露。我自己的身体也渴望着被看见。</li>
     <li>我欣赏{PAWN_nameShort}的展示{PAWN_possessive}小巧乳房的胆量。这激励了我。</li>
     <li>{PAWN_nameShort}的小巧的乳房赤裸着任所有人观看。太好了。我也该加入这场展示。</li>
-    <li>{PAWN_nameShort}的 随意露出的小巧乳房令人十分解放。我自己的胸口感到一阵温暖。</li>
+    <li>{PAWN_nameShort}的随意露出的小巧乳房令人十分解放。我自己的胸口感到一阵温暖。</li>
     <li>看到{PAWN_nameShort}的小巧的乳房坦露在外，真好。让我也想把一切都放开来。</li>
     <li>{PAWN_nameShort}的小巧的乳房露了出来。愉悦而坦然的展示。我考虑解开自己的上衣。</li>
     <li>看到{PAWN_nameShort}的小巧的乳房，鼓励我更大胆……地展露自己的裸体。</li>

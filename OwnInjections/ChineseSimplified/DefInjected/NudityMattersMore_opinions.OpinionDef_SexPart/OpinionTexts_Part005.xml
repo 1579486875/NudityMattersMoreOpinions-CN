@@ -1,20 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 5/39 · 共 2973 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Anus_Neutral_Average_MatureMale_observed_by_middle_aged_Female.opinionTexts>
     <li>{PAWN_nameShort}的臀部是成熟的男性形态，相当中等。一种含蓄而熟悉的吸引力。</li>
     <li>{PAWN_nameShort}的臀部普普通通，却带着一位老练男性那种安静的韵味。</li>
-    <li>观察着{PAWN_nameShort}的臀部，形状寻常，在成熟的呈现中透着不易察觉的吸引。</li>
+    <li>观察着{PAWN_nameShort}的臀部，形状寻常，在成熟的姿态中透着不易察觉的吸引。</li>
     <li>一位成熟男性的臀部，既不出众也不令人失望。是种安稳、熟悉的景象。</li>
     <li>{PAWN_nameShort}那可见的臀部算是中等。它透出一种沉稳、历练过的男子气概。</li>
     <li>{PAWN_nameShort}的后臀，典型的成熟男性形态。它有着静默的存在感，不被青春期的躁动所累。</li>
@@ -90,7 +80,7 @@
     <li>{PAWN_nameShort}的臀部的整体形状传统。肛门开口就是中规中矩，却带着一丝微弱、令人不安的黏滑气息。</li>
     <li>{PAWN_nameShort}的臀瓣区域呈现常见的景象，但肛门湿得古怪，轮廓隐隐透着非人类。</li>
     <li>打量{PAWN_nameShort}的臀部，不过是普通的屁股，唯有那肛门带着一种古怪、几乎黏稠般的气质。</li>
-    <li>人能看到 {PAWN_nameShort}的 臀部，呈现出中等的形态。肛门尺寸普通，没有人类特有的特异之处。</li>
+    <li>人能看到 {PAWN_nameShort}的臀部，呈现出中等的形态。肛门尺寸普通，没有人类特有的特异之处。</li>
     <li>一瞥{PAWN_nameShort}的臀部，显出典型的体型，可那肛门却融进了一种令人不安的黏滑质感。</li>
     <li>{PAWN_nameShort}的臀部的形状平平无奇，但那肛门看起来完全如人对史莱姆生物所料。</li>
     <li>{PAWN_nameShort}的臀部呈现出相当平淡的景象。肛门孔径中等大小，却光滑湿润得不自然。</li>
@@ -122,7 +112,7 @@
     <li>{PAWN_nameShort}的臀部的整体形状传统而不张扬。肛门开口就是中规中矩。</li>
     <li>{PAWN_nameShort}的臀瓣区域呈现非常常见、毫无问题的景象。肛门是中等尺寸，轮廓含蓄。</li>
     <li>打量{PAWN_nameShort}的臀部，不过是一个普通、标准、不张扬的屁股。那肛口既不诱人，也没有遮掩。</li>
-    <li>人能看到 {PAWN_nameShort}的 臀部，呈现出中等而自然的形态。肛门尺寸普通，没有特异之处。</li>
+    <li>人能看到 {PAWN_nameShort}的臀部，呈现出中等而自然的形态。肛门尺寸普通，没有特异之处。</li>
     <li>一瞥{PAWN_nameShort}的臀部，显出典型、不起眼而健康的体型。那肛门与构造融为一体。</li>
     <li>{PAWN_nameShort}的臀部的形状平平无奇，是一幕寻常而天真的景象。肛门看起来完全如人所料。</li>
     <li>{PAWN_nameShort}的臀部呈现出相当平淡却完全正常的景象。肛门孔径中等大小，并不引人注意。</li>
@@ -160,7 +150,7 @@
     <li>观察着{PAWN_nameShort}的中等大小的后部，我认出了它的形状，坦然地共享着。肛门虽无特别之处，却依旧留住目光。</li>
     <li>{PAWN_nameShort}的臀部常规，但那中等尺寸的肛门分明存在，毫不隐藏。</li>
     <li>一副标准的臀部，一处中等的肛门，坦然地呈上。它承认了一种根本的现实，毫无矫饰。</li>
-    <li>{PAWN_nameShort}的 臀部的平淡轮廓。肛门可见度中等，是一处安静却可辨的焦点，坦然地展露着。</li>
+    <li>{PAWN_nameShort}的臀部的平淡轮廓。肛门可见度中等，是一处安静却可辨的焦点，坦然地展露着。</li>
     <li>{PAWN_nameShort}的臀部似乎平平无奇，可那轻易可见、比例中等的肛门，却因那份坦露而带着某种分量。</li>
     <li>我注意到{PAWN_nameShort}的中等尺寸的屁股，那肛门虽寻常，却相当明显、坦然地呈现在外。</li>
     <li>典型的臀部，中等的肛门，毫无矫饰地暴露着。这是熟悉的景象，如今已被公开承认。</li>
@@ -192,7 +182,7 @@
     <li>观察着{PAWN_nameShort}的中等大小的后部，我认出了它的形状，坦然地共享着。肛门虽无特别之处，却依旧留住目光。</li>
     <li>{PAWN_nameShort}的女性屁股很普通，但那尺寸中等的肛门却格外醒目，毫不遮掩。</li>
     <li>一副标准的女性臀部，一处中等的肛门，坦然地呈上。它承认了一种根本的现实，毫无矫饰。</li>
-    <li>{PAWN_nameShort}的 女性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，坦然地展露着。</li>
+    <li>{PAWN_nameShort}的女性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，坦然地展露着。</li>
     <li>{PAWN_nameShort}的女性臀部似乎并不起眼，但那清晰可见、尺寸中等的肛门，仅凭那份敞露就颇有分量。</li>
     <li>我注意到{PAWN_nameShort}的中等尺寸的女性屁股，那肛门虽寻常，却相当明显、坦然地呈现在外。</li>
     <li>典型的女性臀部，中等的肛门，毫无矫饰地暴露着。这是熟悉的景象，如今已被公开承认。</li>
@@ -224,7 +214,7 @@
     <li>观察着{PAWN_nameShort}的中等大小的后部，我认出了它的形状，坦然地共享着。肛门虽无特别之处，却依旧留住目光。</li>
     <li>{PAWN_nameShort}的女性屁股很普通，但那尺寸中等的肛门却格外醒目，毫不遮掩。</li>
     <li>一副标准的女性臀部，一处中等的肛门，坦然地呈上。它承认了一种根本的现实，毫无矫饰。</li>
-    <li>{PAWN_nameShort}的 女性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，坦然地展露着。</li>
+    <li>{PAWN_nameShort}的女性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，坦然地展露着。</li>
     <li>{PAWN_nameShort}的女性臀部似乎并不起眼，但那清晰可见、尺寸中等的肛门，仅凭那份敞露就颇有分量。</li>
     <li>我注意到{PAWN_nameShort}的中等尺寸的女性屁股，那肛门虽寻常，却相当明显、坦然地呈现在外。</li>
     <li>典型的女性臀部，中等的肛门，毫无矫饰地暴露着。这是熟悉的景象，如今已被公开承认。</li>
@@ -256,7 +246,7 @@
     <li>观察着{PAWN_nameShort}的中等大小的后部，我认出了它的形状，并涌起强烈的欲望。肛门虽无特别之处，却依旧引人入胜。</li>
     <li>{PAWN_nameShort}的臀部常规，但那中等尺寸的肛门分明存在，极为诱人。</li>
     <li>一副标准的臀部，一处中等的肛门。它无需卓尔不群，也能激起一种深切而根本的渴求。</li>
-    <li>{PAWN_nameShort}的 臀部的平淡轮廓。肛门可见度中等，是一处安静却可辨的焦点，饱含潜能。</li>
+    <li>{PAWN_nameShort}的臀部的平淡轮廓。肛门可见度中等，是一处安静却可辨的焦点，饱含潜能。</li>
     <li>{PAWN_nameShort}的臀部似乎平平无奇，可那轻易可见、比例中等的肛门，却带着令人无法抗拒的分量。</li>
     <li>我注意到{PAWN_nameShort}的中等尺寸的屁股。那肛门虽寻常，却相当明显，且极度诱人。</li>
     <li>典型的臀部，中等的肛门。这是熟悉的景象，强烈地占据着脑海。</li>
@@ -288,7 +278,7 @@
     <li>观察着{PAWN_nameShort}的中等大小的后部，我认出了它的形状，并涌起强烈的女性欲望。肛门虽无特别之处，却依旧吸引着女性的目光。</li>
     <li>{PAWN_nameShort}的女性屁股很普通，但那尺寸中等的肛门却格外醒目，对女性极具诱惑。</li>
     <li>一副标准的女性臀部，一处中等的肛门。它无需卓尔不群，也能激起一种深切而根本的女性渴求。</li>
-    <li>{PAWN_nameShort}的 女性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，饱含女性的潜能。</li>
+    <li>{PAWN_nameShort}的女性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，饱含女性的潜能。</li>
     <li>{PAWN_nameShort}的女性臀部似乎并不起眼，但那清晰可见、尺寸中等的肛门，仅凭那份敞露对女性而言就有了无法抗拒的分量。</li>
     <li>我注意到{PAWN_nameShort}的中等尺寸的女性屁股。那肛门虽寻常，却相当明显，对女性而言极度诱人。</li>
     <li>典型的女性臀部，中等的肛门。这是熟悉的景象，强烈地占据着女性的脑海。</li>
@@ -320,7 +310,7 @@
     <li>观察着{PAWN_nameShort}的中等大小的后部，我认出了它的形状，并涌起强烈的女性欲望。肛门虽无特别之处，却依旧吸引着女性的目光。</li>
     <li>{PAWN_nameShort}的男性臀部中规中矩，但肛门凭借中等尺寸格外显眼，对女性而言充满了强烈的诱惑。</li>
     <li>一副标准的男性臀部，一处中等的肛门。它无需卓尔不群，也能激起一种深切而根本的女性渴求。</li>
-    <li>{PAWN_nameShort}的 男性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，饱含女性的潜能。</li>
+    <li>{PAWN_nameShort}的男性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，饱含女性的潜能。</li>
     <li>{PAWN_nameShort}的男性臀部似乎不起眼，但那清晰可见、比例中等的肛门，却带着无法抗拒的女性吸引力。</li>
     <li>我注意到{PAWN_nameShort}的中等尺寸的男性屁股。那肛门虽寻常，却相当明显，对女性而言极度诱人。</li>
     <li>典型的男性臀部，中等的肛门。这是熟悉的景象，强烈地占据着女性的脑海。</li>
@@ -352,7 +342,7 @@
     <li>观察着{PAWN_nameShort}的中等大小的后部，我认出了它的形状，并涌起强烈的男性欲望。肛门虽无特别之处，却依旧吸引着男性的目光。</li>
     <li>{PAWN_nameShort}的女性屁股很普通，但那尺寸中等的肛门却格外醒目，对男性极具诱惑。</li>
     <li>一副标准的女性臀部，一处中等的肛门。它无需卓尔不群，也能激起一种深切而根本的男性渴求。</li>
-    <li>{PAWN_nameShort}的 女性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，饱含男性的潜能。</li>
+    <li>{PAWN_nameShort}的女性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，饱含男性的潜能。</li>
     <li>{PAWN_nameShort}的女性臀部似乎并不起眼，但那清晰可见、尺寸中等的肛门，仅凭那份敞露对男性而言就有了无法抗拒的分量。</li>
     <li>我注意到{PAWN_nameShort}的中等尺寸的女性屁股。那肛门虽寻常，却相当明显，对男性而言极度诱人。</li>
     <li>典型的女性臀部，中等的肛门。这是熟悉的景象，强烈地占据着男性的脑海。</li>
@@ -384,7 +374,7 @@
     <li>观察着{PAWN_nameShort}的中等大小的后部，我认出了它的形状，并涌起强烈的男性欲望。肛门虽无特别之处，却依旧吸引着男性的目光。</li>
     <li>{PAWN_nameShort}的男性臀部中规中矩，但肛门凭借中等尺寸格外显眼，对男性而言充满了强烈的诱惑。</li>
     <li>一副标准的男性臀部，一处中等的肛门。它无需卓尔不群，也能激起一种深切而根本的男性渴求。</li>
-    <li>{PAWN_nameShort}的 男性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，饱含男性的潜能。</li>
+    <li>{PAWN_nameShort}的男性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，饱含男性的潜能。</li>
     <li>{PAWN_nameShort}的男性臀部似乎不起眼，但那清晰可见、比例中等的肛门，却带着无法抗拒的男性吸引力。</li>
     <li>我注意到{PAWN_nameShort}的中等尺寸的男性屁股。那肛门虽寻常，却相当明显，对男性而言极度诱人。</li>
     <li>典型的男性臀部，中等的肛门。这是熟悉的景象，强烈地占据着男性的脑海。</li>
@@ -448,7 +438,7 @@
     <li>观察着{PAWN_nameShort}的中等大小的后部，我认出了它的形状。肛门虽无特别之处，却依旧留住目光。</li>
     <li>{PAWN_nameShort}的臀部常规，但那中等尺寸的肛门分明存在。对好奇的目光而言是一场实用的展示。</li>
     <li>一副标准的臀部，一处中等的肛门。它未必令人兴奋，却承认了身体一种根本、或许诱人的现实。</li>
-    <li>{PAWN_nameShort}的 臀部的平淡轮廓。肛门可见度中等，是一处安静却可辨的焦点。</li>
+    <li>{PAWN_nameShort}的臀部的平淡轮廓。肛门可见度中等，是一处安静却可辨的焦点。</li>
     <li>{PAWN_nameShort}的臀部似乎平平无奇，可那轻易可见、比例中等的肛门，却因被注视而带着某种分量。</li>
     <li>我注意到{PAWN_nameShort}的中等尺寸的屁股。那肛门虽寻常，却相当明显，给观察者留下印象。</li>
     <li>典型的臀部，中等的肛门。这是熟悉的景象，静静地占据着观察者的脑海。</li>
@@ -480,7 +470,7 @@
     <li>观察着{PAWN_nameShort}的中等大小的后部，我认出了它的形状。肛门虽无特别之处，却依旧留住女性的目光。</li>
     <li>{PAWN_nameShort}的女性屁股很普通，但那尺寸中等的肛门却格外醒目。对好奇的女性目光来说，这算是一次实用的展示。</li>
     <li>一副标准的女性臀部，一处中等的肛门。它未必令人兴奋，却承认了身体一种根本、或许诱人的现实。</li>
-    <li>{PAWN_nameShort}的 女性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点。</li>
+    <li>{PAWN_nameShort}的女性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点。</li>
     <li>{PAWN_nameShort}的女性臀部似乎并不起眼，但那清晰可见、尺寸中等的肛门，仅凭那份敞露就足以让女性多看上几眼。</li>
     <li>我注意到{PAWN_nameShort}的中等尺寸的女性屁股。那肛门虽寻常，却相当明显，给女性观察者留下印象。</li>
     <li>典型的女性臀部，中等的肛门。这是熟悉的景象，静静地占据着女性的脑海。</li>
@@ -512,7 +502,7 @@
     <li>观察着{PAWN_nameShort}的中等大小的后部，我认出了它的形状，坦然地共享着。肛门虽无特别之处，却依旧留住目光。</li>
     <li>{PAWN_nameShort}的男性臀部中规中矩，但肛门凭借中等尺寸格外显眼，而且毫不遮掩。</li>
     <li>一副标准的男性臀部，一处中等的肛门，坦然地呈上。它承认了一种根本的现实，毫无矫饰。</li>
-    <li>{PAWN_nameShort}的 男性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，坦然地展露着。</li>
+    <li>{PAWN_nameShort}的男性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，坦然地展露着。</li>
     <li>{PAWN_nameShort}的男性臀部似乎不起眼，但那清晰可见、比例中等的肛门，因其敞开而颇具分量。</li>
     <li>我注意到{PAWN_nameShort}的中等尺寸的男性屁股，那肛门虽寻常，却相当明显、坦然地呈现在外。</li>
     <li>典型的男性臀部，中等的肛门，毫无矫饰地暴露着。这是熟悉的景象，如今已被公开承认。</li>
@@ -544,7 +534,7 @@
     <li>观察着{PAWN_nameShort}的中等大小的后部，我认出了它的形状。肛门虽无特别之处，却依旧留住男性的目光。</li>
     <li>{PAWN_nameShort}的女性屁股很普通，但那尺寸中等的肛门却格外醒目。对好奇的男性目光来说，这算是一次实用的展示。</li>
     <li>一副标准的女性臀部，一处中等的肛门。它未必令人兴奋，却承认了身体一种根本、或许诱人的现实。</li>
-    <li>{PAWN_nameShort}的 女性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点。</li>
+    <li>{PAWN_nameShort}的女性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点。</li>
     <li>{PAWN_nameShort}的女性臀部似乎并不起眼，但那清晰可见、尺寸中等的肛门，仅凭那份敞露就足以让男性多看上几眼。</li>
     <li>我注意到{PAWN_nameShort}的中等尺寸的女性屁股。那肛门虽寻常，却相当明显，给男性观察者留下印象。</li>
     <li>典型的女性臀部，中等的肛门。这是熟悉的景象，静静地占据着男性的脑海。</li>
@@ -576,7 +566,7 @@
     <li>观察着{PAWN_nameShort}的中等大小的后部，我认出了它的形状，坦然地共享着。肛门虽无特别之处，却依旧留住目光。</li>
     <li>{PAWN_nameShort}的男性臀部中规中矩，但肛门凭借中等尺寸格外显眼，而且毫不遮掩。</li>
     <li>一副标准的男性臀部，一处中等的肛门，坦然地呈上。它承认了一种根本的现实，毫无矫饰。</li>
-    <li>{PAWN_nameShort}的 男性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，坦然地展露着。</li>
+    <li>{PAWN_nameShort}的男性臀部那平淡的轮廓。肛门可见度中等，是一处安静却可辨的焦点，坦然地展露着。</li>
     <li>{PAWN_nameShort}的男性臀部似乎不起眼，但那清晰可见、比例中等的肛门，因其敞开而颇具分量。</li>
     <li>我注意到{PAWN_nameShort}的中等尺寸的男性屁股，那肛门虽寻常，却相当明显、坦然地呈现在外。</li>
     <li>典型的男性臀部，中等的肛门，毫无矫饰地暴露着。这是熟悉的景象，如今已被公开承认。</li>
@@ -603,7 +593,7 @@
     <li>我注视着{PAWN_nameShort}的那空洞的肛门：一个宽敞幽深的腔体，被柔韧顺从的皮肤环抱，呈现出一个辽阔而热情的孔洞。</li>
     <li>我打量着{PAWN_nameShort}的那空洞的肛门：一片广阔宽绰的火山口，装点着富有弹性、毫无瑕疵的皮肤，展现出一个宽而深的、令人惊叹的开口。</li>
     <li>我细看{PAWN_nameShort}的空洞的肛门：一片开阔的凹陷，裹在柔韧无瑕的皮肤里，昭示着一个包容宽敞的空腔。</li>
-    <li>{PAWN_nameShort}的 空洞的肛门相当醒目，穴口深陷而顺从。</li>
+    <li>{PAWN_nameShort}的空洞的肛门相当醒目，穴口深陷而顺从。</li>
     <li>{PAWN_nameShort}的宽松的肛门呈现出一个宽大而不松软的开口，四周是绷紧光滑的皮肤。</li>
     <li>观察{PAWN_nameShort}的时，发现一个格外深的肛门腔，那幽暗的深度暗示着相当的容量。</li>
     <li>{PAWN_nameShort}的肛门又大又敞，是个惊人的特征，说明内里空间充裕。</li>
@@ -613,7 +603,7 @@
     <li>{PAWN_nameShort}的身上可见一个明显宽大、来者不拒的肛门，触感柔软柔韧。</li>
     <li>{PAWN_nameShort}的肛门的深度显而易见，真是个广阔而欢迎的开口。</li>
     <li>{PAWN_nameShort}的空洞的肛门相当明显，入口既深又显著松弛。</li>
-    <li>观察 {PAWN_nameShort}的 的肛门，我看到一处宽大宽容的开口，周围是柔软顺从的皮肉。</li>
+    <li>观察 {PAWN_nameShort}肛门，我看到一处宽大宽容的开口，周围是柔软顺从的皮肉。</li>
     <li>{PAWN_nameShort}的臀部露出一只空洞的肛门，其深度暗示着此前相当频繁的活动。</li>
     <li>{PAWN_nameShort}的上那个显眼的空洞肛门，呈现出一张幽暗阔大的口，边缘已经软化。</li>
     <li>我注意到{PAWN_nameShort}的空洞的肛门被撑开、几乎胀大的模样，暗示着频繁使用。</li>
@@ -621,14 +611,14 @@
     <li>{PAWN_nameShort}的肛门丰盈的比例十分清楚，那是一个慷慨宽敞、诱人深入的孔洞。</li>
     <li>我看见{PAWN_nameShort}的那空洞的肛门，一个明显硕大、深陷的开口。</li>
     <li>{PAWN_nameShort}的令人赞叹的肛门展现出宽阔大张的深邃，周围是柔软顺从的嫩肉。</li>
-    <li>{PAWN_nameShort}的 肛门的空洞显而易见，一处明显扩张、幽暗的虚空。</li>
+    <li>{PAWN_nameShort}的肛门的空洞显而易见，一处明显扩张、幽暗的虚空。</li>
     <li>{PAWN_nameShort}的身上明显可见一个张开而久经使用的肛门，看起来相当深。</li>
     <li>{PAWN_nameShort}的臀部露出一只硕大空洞的肛门，松弛的状态暗示着柔韧性。</li>
     <li>我观察到{PAWN_nameShort}的肛门，宽而深，皮肤看起来相当柔韧。</li>
     <li>{PAWN_nameShort}的那空洞的肛门深度惊人，是宽大、幽暗而柔软承顺的开口。</li>
     <li>{PAWN_nameShort}的肛门看起来非常宽敞，宽阔的周长暗示着悠久的扩张史。</li>
     <li>望着{PAWN_nameShort}的空洞的肛门，我注意到它那突出、深邃又格外开放的形态。</li>
-    <li>{PAWN_nameShort}的 空洞的肛门似乎异常开阔，几近大张。</li>
+    <li>{PAWN_nameShort}的空洞的肛门似乎异常开阔，几近大张。</li>
     <li>我记下{PAWN_nameShort}的肛门，似乎是一个极深极宽的腔洞。</li>
   </Opinion_Anus_Neutral_Cavernous.opinionTexts>
   <Opinion_Anus_Neutral_Cavernous_DemonAnus.opinionTexts>
@@ -642,10 +632,10 @@
     <li>{PAWN_nameShort}的恶魔臀瓣优雅地框出一个高度外露而深邃的肛门，散发着亵渎神明的气息。</li>
     <li>{PAWN_nameShort}的恶魔肛门那显著的尺寸清清楚楚，一个宽阔而深陷的开口，极度令人不安。</li>
     <li>{PAWN_nameShort}身上有着一个张得很大、深得令人不安的恶魔肛门，看上去格外不自然。</li>
-    <li>{PAWN_nameShort}的 恶魔肛门的深邃空洞显而易见，是 {PAWN_objective} 身上一处扎眼的特征，让我心生不安。</li>
+    <li>{PAWN_nameShort}的恶魔肛门的深邃空洞显而易见，是 {PAWN_objective} 身上一处扎眼的特征，让我心生不安。</li>
     <li>我观察到{PAWN_nameShort}的恶魔肛门，宽而深，皮肤扭曲而不祥。</li>
     <li>{PAWN_nameShort}的身体呈现出一个宽敞深邃的恶魔肛门腔室，看起来相当能适应，却深令人不安。</li>
-    <li>{PAWN_nameShort}的 空洞的恶魔肛门似乎异常开阔，几近大张，散发着诡异的寒意。</li>
+    <li>{PAWN_nameShort}的空洞的恶魔肛门似乎异常开阔，几近大张，散发着诡异的寒意。</li>
     <li>{PAWN_nameShort}的恶魔肛门显得极为宽敞，宽大的轮廓暗示着古老而黑暗的历史，令人不安地着迷。</li>
     <li>望着{PAWN_nameShort}的恶魔那空洞的肛门，我注意到它那突出、深邃又格外开放的形态，实在可怕。</li>
     <li>{PAWN_nameShort}的恶魔肛腔那深邃诱人的黑暗攫住我的目光，让我充满恐惧。</li>
@@ -937,12 +927,12 @@
     <li>我注意到{PAWN_nameShort}的肛门的深度与敞开，一处可观的特色。</li>
     <li>那年轻女性的臀部展现出明显宽大、易于进入的肛腔。</li>
     <li>{PAWN_nameShort}的身体有一个硕大而顺从的肛门，形态相当突出。</li>
-    <li>{PAWN_nameShort}的 肛门的空洞尺寸一目了然，是一处相当深邃的孔洞。</li>
+    <li>{PAWN_nameShort}的肛门的空洞尺寸一目了然，是一处相当深邃的孔洞。</li>
     <li>她的臀部优美地衬托出一个明显深邃、宽阔的肛门。</li>
     <li>我看到{PAWN_nameShort}的肛门，宽松开阔、略有松弛。</li>
     <li>{PAWN_nameShort}的肛门的深度显而易见，真是个容量惊人的开口。</li>
     <li>{PAWN_nameShort}的臀部露出一只巨大、空洞的肛门，松弛的状态一览无余。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 明显宽大的肛门，一个颇为宽广的特征。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的明显宽大的肛门，一个颇为宽广的特征。</li>
     <li>{PAWN_nameShort}的身上明显可见一个张开而轮廓分明的肛门，看起来相当深。</li>
     <li>她的身姿露出一个极深而大敞的肛门，是个相当醒目的解剖特征。</li>
     <li>我注意到{PAWN_nameShort}的硕大、空洞的肛门，其形态暗示着相当丰富的经验。</li>
@@ -950,14 +940,14 @@
     <li>{PAWN_nameShort}的那空洞的肛门深度惊人，是宽大、幽暗而柔软承顺的开口。</li>
     <li>她的部位呈现出一个宽敞深邃的肛腔，似乎相当能适应。</li>
     <li>我观察到{PAWN_nameShort}的肛门，宽而深，皮肤柔韧。</li>
-    <li>{PAWN_nameShort}的 空洞的肛门似乎异常开阔，几近大张。</li>
+    <li>{PAWN_nameShort}的空洞的肛门似乎异常开阔，几近大张。</li>
     <li>{PAWN_nameShort}的肛门看起来非常宽敞，宽阔的周长暗示着悠久的历史。</li>
     <li>望着{PAWN_nameShort}的空洞的肛门，我注意到它那突出、深邃又格外开放的形态。</li>
     <li>她的肛门深度惊人，看来是身经百战了。</li>
     <li>她的屁股呈现出一个大而放松的肛门，看上去相当宽容。</li>
     <li>我注意到{PAWN_nameShort}的肛门，它相当敞开，外观被撑得很开。</li>
     <li>{PAWN_nameShort}的身体露出一个对这么年轻的人来说宽敞得出人意料的肛门开口。</li>
-    <li>{PAWN_nameShort}的 肛门的空洞显而易见，是一处相当宽阔而诱人的孔洞。</li>
+    <li>{PAWN_nameShort}的肛门的空洞显而易见，是一处相当宽阔而诱人的孔洞。</li>
   </Opinion_Anus_Neutral_Cavernous_Elderly_Female_opinion.opinionTexts>
   <Opinion_Anus_Neutral_Cavernous_Elderly_Female_opinion_Male.opinionTexts>
     <li>他的臀部露出一个意外深邃的肛腔，在男性身上颇为显眼。</li>
@@ -969,12 +959,12 @@
     <li>我注意到{PAWN_nameShort}的肛门的深度与敞开，一处可观的特色。</li>
     <li>那男人的臀部显露出一处格外宽阔、易于进出的肛腔。</li>
     <li>{PAWN_nameShort}的身体有一个硕大而顺从的肛门，形态相当突出。</li>
-    <li>{PAWN_nameShort}的 肛门的空洞尺寸一目了然，是一处相当深邃的孔洞。</li>
+    <li>{PAWN_nameShort}的肛门的空洞尺寸一目了然，是一处相当深邃的孔洞。</li>
     <li>他的臀部优雅地衬出一个明显深邃而宽阔的肛门开口。</li>
     <li>我看到{PAWN_nameShort}的肛门，宽松开阔、略有松弛。</li>
     <li>{PAWN_nameShort}的肛门的深度显而易见，真是个容量惊人的开口。</li>
     <li>{PAWN_nameShort}的臀部露出一只巨大、空洞的肛门，松弛的状态一览无余。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 明显宽大的肛门，一个颇为宽广的特征。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的明显宽大的肛门，一个颇为宽广的特征。</li>
     <li>{PAWN_nameShort}的身上明显可见一个张开而轮廓分明的肛门，看起来相当深。</li>
     <li>他的形体露出一个极深邃而敞开的肛门，是相当惹眼的生理特征。</li>
     <li>我注意到{PAWN_nameShort}的硕大、空洞的肛门，其形态暗示着相当丰富的经验。</li>
@@ -982,17 +972,17 @@
     <li>{PAWN_nameShort}的那空洞的肛门深度惊人，是宽大、幽暗而柔软承顺的开口。</li>
     <li>他的生理构造呈现出一个宽敞深邃的肛腔，看来相当能适应。</li>
     <li>我观察到{PAWN_nameShort}的肛门，宽而深，皮肤柔韧。</li>
-    <li>{PAWN_nameShort}的 空洞的肛门似乎异常开阔，几近大张。</li>
+    <li>{PAWN_nameShort}的空洞的肛门似乎异常开阔，几近大张。</li>
     <li>{PAWN_nameShort}的肛门看起来非常宽敞，宽阔的周长暗示着悠久的历史。</li>
     <li>望着{PAWN_nameShort}的空洞的肛门，我注意到它那突出、深邃又格外开放的形态。</li>
     <li>他的肛门深度惊人，看来是身经百战了。</li>
     <li>他的臀部呈现出一个硕大、松弛的肛门，看来相当宽容好客。</li>
     <li>我注意到{PAWN_nameShort}的肛门，它相当敞开，外观被撑得很开。</li>
     <li>{PAWN_nameShort}的身体露出一个对男人来说宽敞得出人意料的肛门开口。</li>
-    <li>{PAWN_nameShort}的 肛门的空洞显而易见，是一处相当宽阔而诱人的孔洞。</li>
+    <li>{PAWN_nameShort}的肛门的空洞显而易见，是一处相当宽阔而诱人的孔洞。</li>
   </Opinion_Anus_Neutral_Cavernous_Elderly_Female_opinion_Male.opinionTexts>
   <Opinion_Anus_Neutral_Cavernous_Elderly_Male_opinion.opinionTexts>
-    <li>人注意到 {PAWN_nameShort}的 相当深的肛门，在如此年轻的女人身上是个出人意料的特征。</li>
+    <li>有人注意到 {PAWN_nameShort}的相当深的肛门，在如此年轻的女人身上是个出人意料的特征。</li>
     <li>她的臀部呈现出一个空洞的肛门，张得很开，明显被撑大了。</li>
     <li>我观察到{PAWN_nameShort}的丰盈的臀部，露出一个深得惊人的肛门开口。</li>
     <li>{PAWN_nameShort}的臀部显出一个明显的空洞肛门，看上去颇为宽敞。</li>
@@ -1001,17 +991,17 @@
     <li>她那丰满的臀部露出一个深邃宽阔的肛腔，相当显眼。</li>
     <li>{PAWN_nameShort}的身体有一个硕大而顺从的肛门，显出几分开放。</li>
     <li>{PAWN_nameShort}的肛门深度惊人，是宽大而接纳的孔口。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 明显宽大的肛门，一处颇为宽广的入口。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的明显宽大的肛门，一处颇为宽广的入口。</li>
     <li>在{PAWN_nameShort}的身上看到一个格外深的肛门开口，映衬着她年轻的身形相当显眼。</li>
     <li>她的臀部勾勒出一个显眼的空洞肛门，看起来被撑得很开、十分柔软。</li>
     <li>那年轻女性的臀部露出一处明显敞开的肛门，透出一种放松的状态。</li>
     <li>{PAWN_nameShort}的臀部上是一个宽而深的肛门，暗示着一段被扩张的历史。</li>
     <li>我看到{PAWN_nameShort}的肛门，宽松开阔、略有外露。</li>
-    <li>{PAWN_nameShort}的 肛门的深邃空洞显而易见，是她身形上一处扎眼的特征。</li>
+    <li>{PAWN_nameShort}的肛门的深邃空洞显而易见，是她身形上一处扎眼的特征。</li>
     <li>她年轻的形体呈现出一个出人意料宽裕的肛门开口，颇深且清晰可见。</li>
     <li>{PAWN_nameShort}的臀瓣呈现一个轮廓分明、空洞的肛门，显得格外顺从。</li>
     <li>{PAWN_nameShort}的肛门那显著的尺寸清清楚楚，一个宽阔而深陷的开口。</li>
-    <li>人无法忽视 {PAWN_nameShort}的 肛门那宽广的本质，一处几乎大张的深度。</li>
+    <li>人无法忽视 {PAWN_nameShort}的肛门那宽广的本质，一处几乎大张的深度。</li>
     <li>她的下身有一处极深而大敞的肛门，是个相当醒目的景象。</li>
     <li>我注意到{PAWN_nameShort}的硕大空洞的肛门，其形态透出十足的柔韧。</li>
     <li>{PAWN_nameShort}的臀部优雅地托着一个格外深邃宽阔的肛门腔穴。</li>
@@ -1021,10 +1011,10 @@
     <li>{PAWN_nameShort}的那空洞的肛门深度惊人，是宽大而明显可及的开口。</li>
     <li>{PAWN_nameShort}的肛门看起来相当宽敞，宽阔的周长正说明了它的性质。</li>
     <li>望着{PAWN_nameShort}的空洞的肛门，我注意到它那突出、深邃又格外开放的形态。</li>
-    <li>{PAWN_nameShort}的 空洞的肛门似乎异常开阔，几乎是在邀人凑近细看。</li>
+    <li>{PAWN_nameShort}的空洞的肛门似乎异常开阔，几乎是在邀人凑近细看。</li>
   </Opinion_Anus_Neutral_Cavernous_Elderly_Male_opinion.opinionTexts>
   <Opinion_Anus_Neutral_Cavernous_Elderly_Male_opinion_Male.opinionTexts>
-    <li>人注意到 {PAWN_nameShort}的 相当深的肛门，在男人身上是个出人意料的特征。</li>
+    <li>有人注意到 {PAWN_nameShort}的相当深的肛门，在男人身上是个出人意料的特征。</li>
     <li>他的臀部呈现出一个空洞的肛门，颇为敞开，明显被撑开。</li>
     <li>我观察到{PAWN_nameShort}的丰盈的臀部，露出一个深得惊人的肛门开口。</li>
     <li>{PAWN_nameShort}的臀部显出一个明显的空洞肛门，看上去颇为宽敞。</li>
@@ -1033,17 +1023,17 @@
     <li>他丰满的臀部露出一个深邃宽阔的肛腔，颇为显眼。</li>
     <li>{PAWN_nameShort}的身体有一个硕大而顺从的肛门，显出几分开放。</li>
     <li>{PAWN_nameShort}的肛门深度惊人，是宽大而接纳的孔口。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 明显宽大的肛门，一处颇为宽广的入口。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的明显宽大的肛门，一处颇为宽广的入口。</li>
     <li>在{PAWN_nameShort}的身上看到一个格外深的肛门开口，映衬着他的身形相当显眼。</li>
     <li>他的臀部勾勒出一个醒目的空洞肛门，看来颇为撑开而柔软。</li>
     <li>那男人的臀部露出一处明显敞开的肛门，说明处于放松的状态。</li>
     <li>{PAWN_nameShort}的臀部上是一个宽而深的肛门，暗示着一段被扩张的历史。</li>
     <li>我看到{PAWN_nameShort}的肛门，宽松开阔、略有外露。</li>
-    <li>{PAWN_nameShort}的 肛门的深邃空洞显而易见，是他身形上一处扎眼的特征。</li>
+    <li>{PAWN_nameShort}的肛门的深邃空洞显而易见，是他身形上一处扎眼的特征。</li>
     <li>他的形体呈现出一个意外宽裕的肛门开口，颇深且清晰可见。</li>
     <li>{PAWN_nameShort}的臀瓣呈现一个轮廓分明、空洞的肛门，显得格外顺从。</li>
     <li>{PAWN_nameShort}的肛门那显著的尺寸清清楚楚，一个宽阔而深陷的开口。</li>
-    <li>人无法忽视 {PAWN_nameShort}的 肛门那宽广的本质，一处几乎大张的深度。</li>
+    <li>人无法忽视 {PAWN_nameShort}的肛门那宽广的本质，一处几乎大张的深度。</li>
     <li>他的下半身有一处极深邃而敞开的肛门，是相当惹眼的景象。</li>
     <li>我注意到{PAWN_nameShort}的硕大空洞的肛门，其形态透出十足的柔韧。</li>
     <li>{PAWN_nameShort}的臀部优雅地托着一个格外深邃宽阔的肛门腔穴。</li>
@@ -1053,7 +1043,7 @@
     <li>{PAWN_nameShort}的那空洞的肛门深度惊人，是宽大而明显可及的开口。</li>
     <li>{PAWN_nameShort}的肛门看起来相当宽敞，宽阔的周长正说明了它的性质。</li>
     <li>望着{PAWN_nameShort}的空洞的肛门，我注意到它那突出、深邃又格外开放的形态。</li>
-    <li>{PAWN_nameShort}的 空洞的肛门似乎异常开阔，几乎是在邀人凑近细看。</li>
+    <li>{PAWN_nameShort}的空洞的肛门似乎异常开阔，几乎是在邀人凑近细看。</li>
   </Opinion_Anus_Neutral_Cavernous_Elderly_Male_opinion_Male.opinionTexts>
   <Opinion_Anus_Neutral_Cavernous_Elderly_Male_voyer_opinion.opinionTexts>
     <li>她那宽阔的肛门又开又深，搅起一种被遗忘的感觉；一股愉悦的暖意在下方绽开。</li>
@@ -1130,10 +1120,10 @@
     <li>{PAWN_nameShort}的甲壳质的臀部优雅地衬着一个高度外露、深不见底的肛门开口，微微动着。</li>
     <li>{PAWN_nameShort}的虫族肛门的尺寸相当显眼，是一处宽大而深陷的开口，令人极为困惑。</li>
     <li>{PAWN_nameShort}身上有着一个张得很大、深得令人不安的虫类肛门，看上去格外不自然。</li>
-    <li>{PAWN_nameShort}的 虫族肛门的深邃空洞显而易见，是 {PAWN_objective} 身上一处扎眼的特征，让我生出一种古怪的着迷。</li>
+    <li>{PAWN_nameShort}的虫族肛门的深邃空洞显而易见，是 {PAWN_objective} 身上一处扎眼的特征，让我生出一种古怪的着迷。</li>
     <li>我观察着{PAWN_nameShort}的昆虫肛门，宽而深，皮肤坚硬如外骨骼。</li>
     <li>{PAWN_nameShort}的身体呈现出一个宽敞深邃的虫类肛门腔室，看起来相当能适应，却异星得令人生畏。</li>
-    <li>{PAWN_nameShort}的 空洞的虫族肛门似乎异常开阔，几近大张，散出一缕淡淡的土腥味。</li>
+    <li>{PAWN_nameShort}的空洞的虫族肛门似乎异常开阔，几近大张，散出一缕淡淡的土腥味。</li>
     <li>{PAWN_nameShort}的虫类肛门显得极为宽大，宽阔的轮廓暗示着复杂的几丁质结构，令人不安又着迷。</li>
     <li>望着{PAWN_nameShort}的虫族那空洞的肛门，我注意到它那突出、深邃又格外开放的形态，实在怪异。</li>
     <li>{PAWN_nameShort}的虫族肛腔那深邃诱人的黑暗攫住我的目光，让我泛起一阵轻微的反感。</li>
@@ -1161,17 +1151,17 @@
     <li>她那丰满的臀部露出一个深邃宽阔的肛腔，相当显眼，也相当诱人。</li>
     <li>{PAWN_nameShort}的身体有一个硕大而顺从的肛门，显出几分随时待命。</li>
     <li>{PAWN_nameShort}的肛门深度惊人，是宽大而接纳的孔口，极其诱人。</li>
-    <li>人不禁被 {PAWN_nameShort}的 那明显宽大的肛门吸引，一处宽广的入口。</li>
+    <li>人不禁被 {PAWN_nameShort}的那明显宽大的肛门吸引，一处宽广的入口。</li>
     <li>在{PAWN_nameShort}的身上看到一个格外深的肛门开口，映衬着她年轻的身形相当显眼，也相当诱人。</li>
     <li>她的臀部勾勒出一个显眼的空洞肛门，看起来被撑得很开、十分柔软，极具诱惑力。</li>
     <li>那年轻女性的臀部露出一处明显敞开的肛门，透出一种放松而迎人的状态。</li>
     <li>{PAWN_nameShort}的臀部上是一个宽而深的肛门，暗示着一段愉悦扩张的历史。</li>
     <li>我看到{PAWN_nameShort}的肛门，宽松开阔、略有外露，真是一幕诱人的景象。</li>
-    <li>{PAWN_nameShort}的 肛门的深邃空洞显而易见，是她身形上一处扎眼的特征，极为刺激。</li>
+    <li>{PAWN_nameShort}的肛门的深邃空洞显而易见，是她身形上一处扎眼的特征，极为刺激。</li>
     <li>她年轻的形体呈现出一个出人意料宽裕的肛门开口，颇深且清晰可见，勾起好奇。</li>
     <li>{PAWN_nameShort}的臀瓣呈现一个轮廓分明、空洞的肛门，显得格外顺从，非常诱人。</li>
     <li>{PAWN_nameShort}的肛门那显著的尺寸清清楚楚，一个宽阔而深陷的开口，相当令人向往。</li>
-    <li>人无法忽视 {PAWN_nameShort}的 肛门那宽广的本质，一处几乎大张的深度，极其诱人。</li>
+    <li>人无法忽视 {PAWN_nameShort}的肛门那宽广的本质，一处几乎大张的深度，极其诱人。</li>
     <li>她的下身有一处极深而大敞的肛门，是个相当醒目、也相当性感的景象。</li>
     <li>我注意到{PAWN_nameShort}的硕大空洞的肛门，其形态透出饱经世故与开放。</li>
     <li>{PAWN_nameShort}的臀部优雅地托着一个格外深邃宽阔的肛门腔穴，极为诱人。</li>
@@ -1181,7 +1171,7 @@
     <li>{PAWN_nameShort}的那空洞的肛门深度惊人，是宽大而明显可及的开口，极其诱人。</li>
     <li>{PAWN_nameShort}的肛门看起来相当宽敞，宽阔的周长正说明了它的性质，暗示着愉悦的可能性。</li>
     <li>望着{PAWN_nameShort}的空洞的肛门，我注意到它那突出、深邃又格外开放的形态，实在迷人。</li>
-    <li>{PAWN_nameShort}的 空洞的肛门似乎异常开阔，几乎是在乞求关注与探索。</li>
+    <li>{PAWN_nameShort}的空洞的肛门似乎异常开阔，几乎是在乞求关注与探索。</li>
   </Opinion_Anus_Neutral_Cavernous_MaleOpinion.opinionTexts>
   <Opinion_Anus_Neutral_Cavernous_MaleOpinion_Male.opinionTexts>
     <li>他深邃宽阔的肛门颇为可观；看起来意外地宽容好客。</li>
@@ -1193,17 +1183,17 @@
     <li>他丰满的臀部露出一个深邃宽阔的肛腔，颇为显眼，引人入胜。</li>
     <li>{PAWN_nameShort}的身体有一个硕大而顺从的肛门，显出几分随时待命。</li>
     <li>{PAWN_nameShort}的肛门深度惊人，是宽大而接纳的孔口，极其诱人。</li>
-    <li>人不禁被 {PAWN_nameShort}的 那明显宽大的肛门吸引，一处宽广的入口。</li>
+    <li>人不禁被 {PAWN_nameShort}的那明显宽大的肛门吸引，一处宽广的入口。</li>
     <li>在{PAWN_nameShort}的身上看到一个格外深的肛门开口，映衬着他的身形相当显眼，也相当值得关注。</li>
     <li>他的臀部勾勒出一个醒目的空洞肛门，看来颇为撑开而柔软，十分显眼。</li>
     <li>那男人的臀部露出一处明显敞开的肛门，说明处于放松而迎人的状态。</li>
     <li>{PAWN_nameShort}的臀部上是一个宽而深的肛门，暗示着一段愉悦扩张的历史。</li>
     <li>我看到{PAWN_nameShort}的肛门，宽松开阔、略有外露，真是一幕值得观察的景象。</li>
-    <li>{PAWN_nameShort}的 肛门的深邃空洞显而易见，是他身形上一处扎眼的特征，极为分明。</li>
+    <li>{PAWN_nameShort}的肛门的深邃空洞显而易见，是他身形上一处扎眼的特征，极为分明。</li>
     <li>他的形体呈现出一个意外宽裕的肛门开口，颇深且清晰可见，勾起好奇。</li>
     <li>{PAWN_nameShort}的臀瓣呈现一个轮廓分明、空洞的肛门，显得格外顺从，非常明显。</li>
     <li>{PAWN_nameShort}的肛门那显著的尺寸清清楚楚，一个宽阔而深陷的开口，相当明显。</li>
-    <li>人无法忽视 {PAWN_nameShort}的 肛门那宽广的本质，一处几乎大张的深度，极其显眼。</li>
+    <li>人无法忽视 {PAWN_nameShort}的肛门那宽广的本质，一处几乎大张的深度，极其显眼。</li>
     <li>他的下半身有一处极深邃而敞开的肛门，是相当惹眼、在解剖上颇有意思的景象。</li>
     <li>我注意到{PAWN_nameShort}的硕大空洞的肛门，其形态透出饱经世故与开放。</li>
     <li>{PAWN_nameShort}的臀部优雅地托着一个格外深邃宽阔的肛门腔穴，一目了然。</li>
@@ -1213,7 +1203,7 @@
     <li>{PAWN_nameShort}的那空洞的肛门深度惊人，是宽大而明显可及的开口，极为独特。</li>
     <li>{PAWN_nameShort}的肛门看起来相当宽敞，宽阔的周长正说明了它的性质，暗示着潜力。</li>
     <li>望着{PAWN_nameShort}的空洞的肛门，我注意到它那突出、深邃又格外开放的形态，实在一览无余。</li>
-    <li>{PAWN_nameShort}的 空洞的肛门似乎异常开阔，几乎是在乞求关注与体谅。</li>
+    <li>{PAWN_nameShort}的空洞的肛门似乎异常开阔，几乎是在乞求关注与体谅。</li>
   </Opinion_Anus_Neutral_Cavernous_MaleOpinion_Male.opinionTexts>
   <Opinion_Anus_Neutral_Cavernous_MatureFemale.opinionTexts>
     <li>那成熟女性的臀部暴露着，显出丰满的臀与一处相当可见、略向内凹的开口。不过是解剖学上的简单事实。</li>
@@ -1490,10 +1480,10 @@
     <li>{PAWN_nameShort}的胶质般的臀肉优美地环托着一只极度暴露而深邃的肛门孔口，诡异地泛着光。</li>
     <li>{PAWN_nameShort}的史莱姆肛门的尺寸相当显眼，是一处宽大而深陷的开口，令人极为困惑。</li>
     <li>{PAWN_nameShort}身上有着一个张得很大、深得令人不安的史莱姆肛门，看上去格外流动。</li>
-    <li>{PAWN_nameShort}的 史莱姆肛门的深邃空洞显而易见，是 {PAWN_objective} 身上一处扎眼的特征，让我生出一种古怪的好奇。</li>
+    <li>{PAWN_nameShort}的史莱姆肛门的深邃空洞显而易见，是 {PAWN_objective} 身上一处扎眼的特征，让我生出一种古怪的好奇。</li>
     <li>我观察着{PAWN_nameShort}的黏液肛门，宽而深，皮肤诡异地搏动着、黏稠不堪。</li>
     <li>{PAWN_nameShort}的身体呈现出一个宽敞深邃的胶质肛门腔室，看起来相当能适应，却异常离奇。</li>
-    <li>{PAWN_nameShort}的 空洞的史莱姆肛门似乎异常开阔，几近大张，散出一缕怪异的淡味。</li>
+    <li>{PAWN_nameShort}的空洞的史莱姆肛门似乎异常开阔，几近大张，散出一缕怪异的淡味。</li>
     <li>{PAWN_nameShort}的史莱姆肛门看上去极为宽敞，那宽大的周径暗示着不断变形的躯体，令人不安又着迷。</li>
     <li>望着{PAWN_nameShort}的史莱姆那空洞的肛门，我注意到它那突出、深邃又格外开放的形态，实在怪异。</li>
     <li>{PAWN_nameShort}的胶质肛腔那深邃诱人的黑暗攫住我的目光，让我泛起一阵轻微的不安。</li>
@@ -1526,9 +1516,9 @@
     <li>她们的臀部露出一处极深而敞开的肛门，一处相当醒目却温和的生理特征。</li>
     <li>我注意到{PAWN_nameShort}的硕大、空洞的肛门，其形态透着一份自然的从容。</li>
     <li>{PAWN_nameShort}的丰盈的臀部有一个大张而深陷的肛门入口，极为自然的一景。</li>
-    <li>{PAWN_nameShort}的 肛门的深邃空洞显而易见，一处扎眼的特征，却又全然不张扬。</li>
+    <li>{PAWN_nameShort}的肛门的深邃空洞显而易见，一处扎眼的特征，却又全然不张扬。</li>
     <li>它们的身体呈现出一处宽敞深邃的肛腔，看来相当随和而不做作。</li>
-    <li>{PAWN_nameShort}的 空洞的肛门似乎异常开阔，几近大张，却不知为何透着纯净。</li>
+    <li>{PAWN_nameShort}的空洞的肛门似乎异常开阔，几近大张，却不知为何透着纯净。</li>
     <li>{PAWN_nameShort}的肛门看起来非常宽敞，宽阔的周长说明是一种自然放松的状态。</li>
     <li>望着{PAWN_nameShort}的空洞的肛门，我注意到它那突出、深邃又格外开放的形态，毫不矫饰。</li>
     <li>{PAWN_nameShort}的肛腔那深邃诱人的黑暗就那样存在着，不带评判。</li>
@@ -1559,7 +1549,7 @@
     <li>观察着{PAWN_nameShort}的深得出奇的肛门，让我想为观众表演一番。</li>
     <li>{PAWN_nameShort}的那大张的肛门激励我也来一场表演。</li>
     <li>{PAWN_nameShort}的那空洞的肛门深度颇有一番气势，让我更想暴露自己。</li>
-    <li>看见 {PAWN_nameShort}的 丰满而柔顺的肛门，让我急切地想被人看见自己。</li>
+    <li>看见 {PAWN_nameShort}的丰满而柔顺的肛门，让我急切地想被人看见自己。</li>
     <li>{PAWN_nameShort}的外露的肛腔如此宽阔，激起一股想要被欣赏的强烈欲望。</li>
     <li>{PAWN_nameShort}的肛门张得那么开，让我觉得自己也有胆子彻底露出来。</li>
     <li>{PAWN_nameShort}的傲人而空洞的肛门，看得我也想让别人注意我自己的身体。</li>
@@ -1640,7 +1630,7 @@
     <li>她的臀部露出一个空洞的肛门，我感觉到一股熟悉的、令人愉快的紧绷感开始滋长，让我渴望暴露自己。</li>
   </Opinion_Anus_Neutral_Cavernous_trait_NMM_Exhibitionist_male.opinionTexts>
   <Opinion_Anus_Neutral_Cavernous_trait_Nymphomaniac.opinionTexts>
-    <li>{PAWN_nameShort}的 身上那空洞的肛门立刻在我体内撩起一股强烈的性渴望。</li>
+    <li>{PAWN_nameShort}的身上那空洞的肛门立刻在我体内撩起一股强烈的性渴望。</li>
     <li>我觉得{PAWN_nameShort}的宽阔的肛门极度诱人，点燃了我对亲密接触的炽烈渴望。</li>
     <li>观察着{PAWN_nameShort}的深得出奇的肛门内腔，我的身体因未得满足的情欲而作痛。</li>
     <li>{PAWN_nameShort}的肛门那宽宏的尺寸极具挑逗性，激起一股强烈的性冲动。</li>
@@ -1650,10 +1640,10 @@
     <li>{PAWN_nameShort}的臀部优雅地衬着一个高度外露、深不见底的肛门开口，令我兴奋到极点。</li>
     <li>{PAWN_nameShort}的肛门那显著的尺寸清清楚楚，一个宽阔而深陷的开口，极度刺激。</li>
     <li>{PAWN_nameShort}身上有着一个张得很大、使用充分的肛门，看上去格外深邃，让我心生渴望。</li>
-    <li>{PAWN_nameShort}的 肛门的深邃空洞显而易见，是 {PAWN_objective} 身上一处扎眼的特征，让我欲火高涨。</li>
+    <li>{PAWN_nameShort}的肛门的深邃空洞显而易见，是 {PAWN_objective} 身上一处扎眼的特征，让我欲火高涨。</li>
     <li>我观察到{PAWN_nameShort}的肛门，宽而深，皮肤柔韧迎人，催动着我的性饥渴。</li>
     <li>{PAWN_nameShort}的身体呈现出一个宽敞深邃的肛门腔室，看起来相当能适应，且极为挑动情欲。</li>
-    <li>{PAWN_nameShort}的 空洞的肛门似乎异常开阔，几近大张，让我欲火焚身、饥渴难耐。</li>
+    <li>{PAWN_nameShort}的空洞的肛门似乎异常开阔，几近大张，让我欲火焚身、饥渴难耐。</li>
     <li>{PAWN_nameShort}的肛门看起来非常宽敞，宽阔的周长暗示着悠久的历史，刺激着我最深的欲望。</li>
     <li>望着{PAWN_nameShort}的空洞的肛门，我注意到它那突出、深邃又格外开放的形态，更助长了我贪得无厌的淫欲。</li>
     <li>{PAWN_nameShort}的肛腔那深邃诱人的黑暗攫住我的目光，点燃一簇急迫的欲火。</li>
@@ -1814,9 +1804,9 @@
     <li>她们的臀部露出一处极深而敞开的肛门，一处相当醒目、说实话，也相当骇人的生理特征。</li>
     <li>我注意到{PAWN_nameShort}的硕大、空洞的肛门，其形态透着一股厚颜无耻的不知羞。</li>
     <li>{PAWN_nameShort}的丰盈的臀部有一个大张而深陷的肛门入口，真是淫秽的一景。</li>
-    <li>{PAWN_nameShort}的 肛门的深邃空洞显而易见，一处扎眼的特征，而且粗俗至极。</li>
+    <li>{PAWN_nameShort}的肛门的深邃空洞显而易见，一处扎眼的特征，而且粗俗至极。</li>
     <li>它们的身体呈现出一处宽敞深邃的肛腔，看来相当随和，彻底堕落。</li>
-    <li>{PAWN_nameShort}的 空洞的肛门似乎异常开阔，几近大张，让我极度不适。</li>
+    <li>{PAWN_nameShort}的空洞的肛门似乎异常开阔，几近大张，让我极度不适。</li>
     <li>{PAWN_nameShort}的肛门看起来非常宽敞，宽阔的周长说明是一段可耻的历史，令人作呕。</li>
     <li>望着{PAWN_nameShort}的空洞的肛门，我注意到它那突出、深邃又格外开放的形态，实在恶心。</li>
     <li>{PAWN_nameShort}的肛腔那深邃诱人的黑暗是对体面的冒犯。</li>
@@ -1832,7 +1822,7 @@
     <li>{PAWN_nameShort}的宽阔而柔顺的肛门简直就是一幅猥亵恶心的景象。</li>
   </Opinion_Anus_Neutral_Cavernous_trait_Prude.opinionTexts>
   <Opinion_Anus_Neutral_Cavernous_trait_Voyeur.opinionTexts>
-    <li>{PAWN_nameShort}的 身上那空洞的肛门相当扎眼，深邃而大敞。</li>
+    <li>{PAWN_nameShort}的身上那空洞的肛门相当扎眼，深邃而大敞。</li>
     <li>我觉得{PAWN_nameShort}的宽阔的肛门很迷人，那敞开的孔洞意味深长。</li>
     <li>观察着{PAWN_nameShort}的深得出奇的肛门内腔，我的注意力被牢牢抓住。</li>
     <li>{PAWN_nameShort}的肛门那宽宏的尺寸相当显眼，真是一场敞开的奇观。</li>
@@ -1842,10 +1832,10 @@
     <li>{PAWN_nameShort}的臀部优雅地衬着一个高度外露、深不见底的肛门开口。</li>
     <li>{PAWN_nameShort}的肛门那显著的尺寸清清楚楚，一个宽阔而深陷的开口，非常引人入胜。</li>
     <li>{PAWN_nameShort}身上有着一个张得很大、使用充分的肛门，看上去格外深邃。</li>
-    <li>{PAWN_nameShort}的 肛门的深邃空洞显而易见，是 {PAWN_objective} 身上一处扎眼的特征。</li>
+    <li>{PAWN_nameShort}的肛门的深邃空洞显而易见，是 {PAWN_objective} 身上一处扎眼的特征。</li>
     <li>我观察到{PAWN_nameShort}的肛门，宽而深，皮肤柔韧迎人。</li>
     <li>{PAWN_nameShort}的身体呈现出一个宽敞深邃的肛门腔室，看起来相当能适应。</li>
-    <li>{PAWN_nameShort}的 空洞的肛门似乎异常开阔，几近大张，牢牢吸住我的目光。</li>
+    <li>{PAWN_nameShort}的空洞的肛门似乎异常开阔，几近大张，牢牢吸住我的目光。</li>
     <li>{PAWN_nameShort}的肛门看起来非常宽敞，宽阔的周长暗示着悠久的历史，引人入胜。</li>
     <li>望着{PAWN_nameShort}的空洞的肛门，我注意到它那突出、深邃又格外开放的形态，实在迷人。</li>
     <li>{PAWN_nameShort}的肛腔那深邃诱人的黑暗攫住我的目光。</li>
@@ -2013,7 +2003,7 @@
     <li>{PAWN_nameShort}的臀部虽然露着，其中几乎察觉不到的极小恶魔肛门，是个奇异的异数。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小恶魔肛门，我带着一丝病态的好奇瞧了瞧。</li>
     <li>{PAWN_nameShort}的那恶魔肛门的娇小显而易见，是非自然躯体上一处不起眼的小特征。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小、隐约透着恶魔气息的开口，相当紧凑而令人不安。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小、隐约透着恶魔气息的开口，相当紧凑而令人不安。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的魔族肛门，作为观察点微不足道，却莫名地吸引人。</li>
     <li>{PAWN_nameShort}的恶魔肛门的小巧，一个几乎无法辨认的结，其暗含的意味出奇地令人不安。</li>
     <li>那是个非常小、恶魔型的肛门，几乎羞怯地藏着，可其本质无疑透着一股邪异的魔力。</li>
@@ -2068,7 +2058,7 @@
     <li>一瞥{PAWN_nameShort}的后臀，显出紧凑的形态；那极小的开口透着含蓄。</li>
     <li>{PAWN_nameShort}的臀部形状朴素，那细小的细节几乎难以辨识。既不吸引人，也不令人反感。</li>
     <li>{PAWN_nameShort}的身体没什么突出之处，并不特别值得一提，只是衰老身体的一部分。</li>
-    <li>观察 {PAWN_nameShort}的 苍老的臀部，那极小的特征就在那儿，却没什么可多想的。</li>
+    <li>观察 {PAWN_nameShort}的苍老的臀部，那极小的特征就在那儿，却没什么可多想的。</li>
     <li>她的身姿虽已年迈，臀部却依然含蓄，那处细节微小得几乎看不见。</li>
     <li>{PAWN_nameShort}的臀部呈现出自然而不起眼的样子。那小巧的部位融于其中。</li>
     <li>{PAWN_nameShort}的臀部含蓄的轮廓通向一处小得几乎不值得再看第二眼的部位。</li>
@@ -2094,7 +2084,7 @@
     <li>{PAWN_nameShort}的臀部苍老适中的形态与小巧的开口相当乏味，让{PAWN_objective}毫无感觉。</li>
     <li>{PAWN_nameShort}身上这一处特征尺寸极小，实在是个毫无特别之处的观察结果。</li>
     <li>几乎察觉不到，{PAWN_nameShort}的那个部位的小巧激不起任何强烈的欲望。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑的样子，加上几乎隐没的细节，毫无诱惑力。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑的样子，加上几乎隐没的细节，毫无诱惑力。</li>
     <li>{PAWN_nameShort}的构造中这一处几乎难以察觉的部分实在难称人意，感觉相当平淡。</li>
     <li>{PAWN_nameShort}的臀部朴素的外观与微小的部位几乎激不起任何性唤起。</li>
   </Opinion_Anus_Neutral_Micro_ElderFemale_observed_by_Nymphomaniac.opinionTexts>
@@ -2128,7 +2118,7 @@
     <li>匆匆一看{PAWN_nameShort}的臀部，确认它形状小巧，几乎没什么可看的细节。没什么特别。</li>
     <li>{PAWN_nameShort}的后躯属于年迈女性，那极小的孔口几乎看不见，因此毫不起眼。</li>
     <li>这臀形有些松垮，那几乎察觉不到的特征太小，实在引不起{OBSERVER_nameShort}的注意。</li>
-    <li>观察 {PAWN_nameShort}的 苍老的臀部，那微小而难以捉摸的细节就在那儿，没什么吸引力。</li>
+    <li>观察 {PAWN_nameShort}的苍老的臀部，那微小而难以捉摸的细节就在那儿，没什么吸引力。</li>
     <li>她那成熟的形体呈现出内敛的臀部；那处极小的细节不值得多作停留。</li>
     <li>{PAWN_nameShort}的身体露出一个小小的、几乎看不见的部分。既谈不上特别吸引，也谈不上令人厌恶。</li>
     <li>{PAWN_nameShort}的臀部朴素的弧度，导向一处极为含蓄、几乎察觉不到的细节。</li>
@@ -2152,7 +2142,7 @@
     <li>一瞥{PAWN_nameShort}的后臀，显出紧凑的形态；那极小的开口透着含蓄。</li>
     <li>{PAWN_nameShort}的臀部形状朴素，那细小的细节几乎难以辨识。既不吸引人，也不令人反感。</li>
     <li>{PAWN_nameShort}的身体没什么突出之处，并不特别值得一提，只是衰老身体的一部分。</li>
-    <li>观察 {PAWN_nameShort}的 苍老的臀部，那极小的特征就在那儿，却没什么可多想的。</li>
+    <li>观察 {PAWN_nameShort}的苍老的臀部，那极小的特征就在那儿，却没什么可多想的。</li>
     <li>她的身姿虽已年迈，臀部却依然含蓄，那处细节微小得几乎看不见。</li>
     <li>{PAWN_nameShort}的臀部呈现出自然而不起眼的样子。那小巧的部位融于其中。</li>
     <li>{PAWN_nameShort}的臀部含蓄的轮廓通向一处小得几乎不值得再看第二眼的部位。</li>
@@ -2162,7 +2152,7 @@
     <li>匆匆一瞥{PAWN_nameShort}的年迈的臀部，那开口极小，几乎细微得满足不了我这个偷窥者。</li>
     <li>{PAWN_nameShort}的老迈臀部上那出乎意料地微小的一处几乎藏了起来；要看清还得费点劲。</li>
     <li>{PAWN_nameShort}的臀部构造不甚显眼，小巧的尺寸让偷窥之眼颇难捕捉。</li>
-    <li>观察 {PAWN_nameShort}的 苍老的后臀，那微小的细节几乎难以察觉，没什么值得流连的。</li>
+    <li>观察 {PAWN_nameShort}的苍老的后臀，那微小的细节几乎难以察觉，没什么值得流连的。</li>
     <li>{PAWN_nameShort}的臀部形状含蓄，那细微、微小的部位几乎令人懊恼地被藏了起来。</li>
     <li>{PAWN_nameShort}的那成熟臀部几乎看不见的样子出人意料；它要求更近的、或许并不受欢迎的一瞥。</li>
     <li>匆匆一看确认了那微小的规模，几乎无法看见，没什么可供视觉吸收或分析。</li>
@@ -2200,7 +2190,7 @@
     <li>一瞥{PAWN_nameShort}的后臀，显出紧凑的形态；那极小的开口透着含蓄。</li>
     <li>{PAWN_nameShort}的臀部形状朴素，那细小的细节几乎难以辨识。既不吸引人，也不令人反感。</li>
     <li>{PAWN_nameShort}的身体没什么突出之处，并不特别值得一提，只是衰老身体的一部分。</li>
-    <li>观察 {PAWN_nameShort}的 苍老的臀部，那极小的特征就在那儿，却没什么可多想的。</li>
+    <li>观察 {PAWN_nameShort}的苍老的臀部，那极小的特征就在那儿，却没什么可多想的。</li>
     <li>他的形体虽已年老，却呈现出一副含蓄的臀部，带着一处几乎看不见的微小细节。</li>
     <li>{PAWN_nameShort}的臀部呈现出自然而不起眼的样子。那小巧的部位融于其中。</li>
     <li>{PAWN_nameShort}的臀部含蓄的轮廓通向一处小得几乎不值得再看第二眼的部位。</li>
@@ -2226,7 +2216,7 @@
     <li>{PAWN_nameShort}的臀部苍老适中的形态与小巧的开口相当乏味，让{PAWN_objective}毫无感觉。</li>
     <li>{PAWN_nameShort}身上这一处特征尺寸极小，实在是个毫无特别之处的观察结果。</li>
     <li>几乎察觉不到，{PAWN_nameShort}的那个部位的小巧激不起任何强烈的欲望。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑的样子，加上几乎隐没的细节，毫无诱惑力。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑的样子，加上几乎隐没的细节，毫无诱惑力。</li>
     <li>{PAWN_nameShort}的构造中这一处几乎难以察觉的部分实在难称人意，感觉相当平淡。</li>
     <li>{PAWN_nameShort}的臀部朴素的外观与微小的部位几乎激不起任何性唤起。</li>
   </Opinion_Anus_Neutral_Micro_ElderMale_observed_by_Nymphomaniac.opinionTexts>
@@ -2260,7 +2250,7 @@
     <li>匆匆一看{PAWN_nameShort}的臀部，确认它形状小巧，几乎没什么可看的细节。没什么特别。</li>
     <li>{PAWN_nameShort}的后躯属于年迈男性，那极小的孔口几乎看不见，因此毫不起眼。</li>
     <li>这臀形有些松垮，那几乎察觉不到的特征太小，实在引不起{OBSERVER_nameShort}的注意。</li>
-    <li>观察 {PAWN_nameShort}的 苍老的臀部，那微小而难以捉摸的细节就在那儿，没什么吸引力。</li>
+    <li>观察 {PAWN_nameShort}的苍老的臀部，那微小而难以捉摸的细节就在那儿，没什么吸引力。</li>
     <li>他成熟的形体呈现出一副内敛的臀部；那微小的特征不值得细究。</li>
     <li>{PAWN_nameShort}的身体露出一个小小的、几乎看不见的部分。既谈不上特别吸引，也谈不上令人厌恶。</li>
     <li>{PAWN_nameShort}的臀部朴素的弧度，导向一处极为含蓄、几乎察觉不到的细节。</li>
@@ -2284,7 +2274,7 @@
     <li>一瞥{PAWN_nameShort}的后臀，显出紧凑的形态；那极小的开口透着含蓄。</li>
     <li>{PAWN_nameShort}的臀部形状朴素，那细小的细节几乎难以辨识。既不吸引人，也不令人反感。</li>
     <li>{PAWN_nameShort}的身体没什么突出之处，并不特别值得一提，只是衰老身体的一部分。</li>
-    <li>观察 {PAWN_nameShort}的 苍老的臀部，那极小的特征就在那儿，却没什么可多想的。</li>
+    <li>观察 {PAWN_nameShort}的苍老的臀部，那极小的特征就在那儿，却没什么可多想的。</li>
     <li>他的形体虽已年老，却呈现出一副含蓄的臀部，带着一处几乎看不见的微小细节。</li>
     <li>{PAWN_nameShort}的臀部呈现出自然而不起眼的样子。那小巧的部位融于其中。</li>
     <li>{PAWN_nameShort}的臀部含蓄的轮廓通向一处小得几乎不值得再看第二眼的部位。</li>
@@ -2294,7 +2284,7 @@
     <li>匆匆一瞥{PAWN_nameShort}的年迈的臀部，那开口极小，几乎细微得满足不了我这个偷窥者。</li>
     <li>{PAWN_nameShort}的老迈臀部上那出乎意料地微小的一处几乎藏了起来；要看清还得费点劲。</li>
     <li>{PAWN_nameShort}的臀部构造不甚显眼，小巧的尺寸让偷窥之眼颇难捕捉。</li>
-    <li>观察 {PAWN_nameShort}的 苍老的后臀，那微小的细节几乎难以察觉，没什么值得流连的。</li>
+    <li>观察 {PAWN_nameShort}的苍老的后臀，那微小的细节几乎难以察觉，没什么值得流连的。</li>
     <li>{PAWN_nameShort}的臀部形状含蓄，那细微、微小的部位几乎令人懊恼地被藏了起来。</li>
     <li>{PAWN_nameShort}的那成熟臀部几乎看不见的样子出人意料；它要求更近的、或许并不受欢迎的一瞥。</li>
     <li>匆匆一看确认了那微小的规模，几乎无法看见，没什么可供视觉吸收或分析。</li>
@@ -2309,7 +2299,7 @@
     <li>{PAWN_nameShort}的年轻的身体展现出紧实的臀部，那小巧的肛门只是次要的细节。</li>
     <li>我注意到{PAWN_nameShort}的小巧紧皱的肛门，在{PAWN_possessive}光滑的肌肤上显得颇为天真。</li>
     <li>{PAWN_nameShort}的臀上的小巧肛门相当含蓄，是{PAWN_possessive}无瑕身躯上一处安静的细节。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我看到一处微小的开口，相当整洁而平凡。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我看到一处微小的开口，相当整洁而平凡。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，一个微不足道的观察点。</li>
     <li>{PAWN_nameShort}的肛门的小巧显而易见，是一个朴素而不张扬的结。</li>
     <li>那是个非常小的肛门，几乎被{PAWN_nameShort}的身体精致的轮廓吞没。</li>
@@ -2341,7 +2331,7 @@
     <li>{PAWN_nameShort}的身形显出紧凑的臀部，那只小肛门只是个次要细节。</li>
     <li>我注意到{PAWN_nameShort}的小巧紧皱的肛门，在{PAWN_possessive}光滑的肌肤上显得颇为天真。</li>
     <li>{PAWN_nameShort}的臀上的小巧肛门相当含蓄，是{PAWN_possessive}无瑕身躯上一处安静的细节。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我看到一处微小的开口，相当整洁而平凡。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我看到一处微小的开口，相当整洁而平凡。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，一个微不足道的观察点。</li>
     <li>{PAWN_nameShort}的肛门的小巧显而易见，是一个朴素而不张扬的结。</li>
     <li>那是个非常小的肛门，几乎被{PAWN_nameShort}的身体精致的轮廓吞没。</li>
@@ -2373,7 +2363,7 @@
     <li>{PAWN_nameShort}的年轻的身体展现出一对紧实的臀部，那小巧的肛门只是一闪而过的细节。</li>
     <li>我注意到{PAWN_nameShort}的那原本无瑕的臀部上有个小小、几乎难以察觉的肛门。它似乎紧紧闭合着。</li>
     <li>{PAWN_nameShort}的肛门的娇小显而易见，是年轻体格上一处不起眼的小特征。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我看到一处小巧紧皱的开口，与 {PAWN_possessive} 纤细的身形十分相称。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我看到一处小巧紧皱的开口，与 {PAWN_possessive} 纤细的身形十分相称。</li>
     <li>{PAWN_nameShort}的翘挺的臀瓣之间是一个极小的肛门，根本不值得多看一眼。</li>
     <li>{PAWN_nameShort}的肛门的小巧相当醒目，像紧实臀部上一枚紧闭的玫瑰花苞。</li>
     <li>那是个非常小的肛门，几乎羞怯地藏在{PAWN_nameShort}的身体精致的线条里。</li>
@@ -2405,7 +2395,7 @@
     <li>{PAWN_nameShort}的身形显出紧凑的臀部，那只小肛门只是个次要、不起眼的细节。</li>
     <li>我注意到{PAWN_nameShort}的小巧紧皱的肛门，在{PAWN_possessive}光滑的肌肤上显得相当平常。</li>
     <li>{PAWN_nameShort}的臀上的小巧肛门相当含蓄，是{PAWN_possessive}无瑕身躯上一处安静的细节。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我看到一处微小的开口，相当整洁而平凡。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我看到一处微小的开口，相当整洁而平凡。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，一个微不足道的观察点。</li>
     <li>{PAWN_nameShort}的肛门的小巧显而易见，是一个朴素而不张扬的结。</li>
     <li>那是个非常小的肛门，几乎被{PAWN_nameShort}的身体精致的轮廓吞没。</li>
@@ -2501,7 +2491,7 @@
     <li>{PAWN_nameShort}的臀部虽然露着，其中几乎察觉不到的极小虫族肛门，是个奇异而几丁质的异数。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小虫类肛门，我带着一丝生物学的好奇瞧了瞧。</li>
     <li>{PAWN_nameShort}的那虫类肛门的娇小显而易见，是一处不起眼却又无可否认属于异星的小特征。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小、隐约泛着虹彩的开口，相当紧凑，异常僵硬。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小、隐约泛着虹彩的开口，相当紧凑，异常僵硬。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的虫族肛门，作为观察点微不足道，却因其异界感而莫名引人入胜。</li>
     <li>{PAWN_nameShort}的虫族肛门的小巧，一个几乎无法辨认的结，因缺少熟悉的柔软而出奇地令人不安。</li>
     <li>那是个非常小、虫型的肛门，几乎羞怯地藏着，可其本质无疑是异类的。</li>
@@ -2565,7 +2555,7 @@
     <li>{PAWN_nameShort}的臀部虽然匀称，其中几乎察觉不到的极小肛门却增添了几分平凡气息。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小肛门，我看了看。没什么特别值得注意或令人惊讶的。</li>
     <li>{PAWN_nameShort}的肛门的娇小显而易见，是男性体格上一处不起眼的小特征。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小的开口，相当紧凑，也相当普通。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小的开口，相当紧凑，也相当普通。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，一个微不足道的观察点，再寻常不过。</li>
     <li>{PAWN_nameShort}的肛门的小巧相当醒目，像{PAWN_possessive}紧实臀部上一枚紧合的花苞。</li>
     <li>那是个非常小的肛门，几乎羞怯地藏在{PAWN_nameShort}的身体柔软圆润的曲线里。</li>
@@ -2646,7 +2636,7 @@
     <li>{PAWN_nameShort}的臀部适中的形态与小巧的开口相当乏味，让{PAWN_objective}毫无感觉。</li>
     <li>{PAWN_nameShort}身上这一处特征尺寸极小，实在是个毫无特别之处的观察结果。</li>
     <li>几乎察觉不到，{PAWN_nameShort}的那个部位的小巧激不起任何强烈的欲望。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑的样子，加上几乎隐没的细节，毫无诱惑力。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑的样子，加上几乎隐没的细节，毫无诱惑力。</li>
     <li>{PAWN_nameShort}的构造中这一处几乎难以察觉的部分实在难称人意，感觉相当平淡。</li>
     <li>{PAWN_nameShort}的臀部朴素的外观与微小的部位几乎激不起任何性唤起。</li>
   </Opinion_Anus_Neutral_Micro_MatureFemale_observed_by_Nymphomaniac.opinionTexts>
@@ -2778,7 +2768,7 @@
     <li>{PAWN_nameShort}的臀部适中的形态与小巧的开口相当乏味，让{PAWN_objective}毫无感觉。</li>
     <li>{PAWN_nameShort}身上这一处特征尺寸极小，实在是个毫无特别之处的观察结果。</li>
     <li>几乎察觉不到，{PAWN_nameShort}的那个部位的小巧激不起任何强烈的欲望。</li>
-    <li>{PAWN_nameShort}的 臀部那紧凑的样子，加上几乎隐没的细节，毫无诱惑力。</li>
+    <li>{PAWN_nameShort}的臀部那紧凑的样子，加上几乎隐没的细节，毫无诱惑力。</li>
     <li>{PAWN_nameShort}的构造中这一处几乎难以察觉的部分实在难称人意，感觉相当平淡。</li>
     <li>{PAWN_nameShort}的臀部朴素的外观与微小的部位几乎激不起任何性唤起。</li>
   </Opinion_Anus_Neutral_Micro_MatureMale_observed_by_Nymphomaniac.opinionTexts>
@@ -2861,7 +2851,7 @@
     <li>{PAWN_nameShort}的臀部虽然露着，其中几乎察觉不到的极小史莱姆肛门，是个奇异而流动的异数。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小史莱姆肛门，我带着一丝生物学的好奇瞧了瞧。</li>
     <li>{PAWN_nameShort}的那史莱姆肛门的娇小显而易见，是一处不起眼却又无可否认黏滑的小特征。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小、隐约闪烁的开口，相当紧凑，异常柔顺。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小、隐约闪烁的开口，相当紧凑，异常柔顺。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的史莱姆肛门，作为观察点微不足道，却因其流动的质感而莫名引人入胜。</li>
     <li>{PAWN_nameShort}的史莱姆肛门的小巧，一个几乎无法辨认的结，因缺少紧实感而出奇地令人不安。</li>
     <li>那是个非常小、黏滑的肛门，几乎羞怯地藏着，可其本质无疑是凝胶状的。</li>
@@ -2893,7 +2883,7 @@
     <li>{PAWN_nameShort}的臀部虽然露着，其中几乎察觉不到的极小肛门却是他们身体上不显眼的一部分。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小肛门，我带着一种恭敬的中立看着。</li>
     <li>{PAWN_nameShort}的肛门的娇小显而易见，是一处不起眼的小特征，不该拿来评判。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小的开口，相当紧凑，似乎毫无瑕疵。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小的开口，相当紧凑，似乎毫无瑕疵。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，一个私密的部位，不值得特别评价。</li>
     <li>{PAWN_nameShort}的肛门的小巧，一个几乎无法辨认的结，不过是一句事实性的观察。</li>
     <li>那是个非常小的肛门，几乎羞怯地藏着，我匆匆一瞥后便出于尊重移开了目光。</li>
@@ -2925,7 +2915,7 @@
     <li>{PAWN_nameShort}的臀部虽然露着，其中几乎察觉不到的极小肛门，少了些看头。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小肛门，我看在眼里。没什么特别值得注意的。</li>
     <li>{PAWN_nameShort}的肛门的娇小显而易见，是一处不起眼的小特征。几乎没什么好展示的。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小的开口，相当紧凑，也相当普通。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小的开口，相当紧凑，也相当普通。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，一个微不足道的展示点。</li>
     <li>{PAWN_nameShort}的肛门的小巧，一个几乎无法辨认的结，并不特别醒目。</li>
     <li>那是个非常小的肛门，几乎羞怯地藏着。非得仔细搜寻才能真的看见。</li>
@@ -2957,7 +2947,7 @@
     <li>{PAWN_nameShort}的臀部虽然露着，其中几乎察觉不到的极小肛门，少了些壮观的意味。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小肛门，我看在眼里。它缺少我欣赏的开放。</li>
     <li>{PAWN_nameShort}的肛门的娇小显而易见，是一处不起眼的小特征。几乎难以察觉，与我自己的截然不同。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小的开口，相当紧凑，也相当普通。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小的开口，相当紧凑，也相当普通。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，作为展示来说微不足道，比不得更醒目的那一种。</li>
     <li>{PAWN_nameShort}的肛门的小巧，一个几乎无法辨认的结，并不特别醒目，也没什么表现力。</li>
     <li>那是个非常小的肛门，几乎羞怯地藏着。非得仔细搜寻才能看见，可暴露可不是为了这个。</li>
@@ -2989,7 +2979,7 @@
     <li>{PAWN_nameShort}的臀部虽然露着，其中几乎察觉不到的极小肛门，对我来说就少了些壮观的意味。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小肛门，我看在眼里。它缺少我偏爱的大胆。</li>
     <li>{PAWN_nameShort}的肛门的娇小显而易见，是一处不起眼的小特征。与我自己的相比，几乎不值一看。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小的开口，相当紧凑，作为公开展示来说倒很普通。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小的开口，相当紧凑，作为公开展示来说倒很普通。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，作为展示微不足道；我自己的部位反而更有看头。</li>
     <li>{PAWN_nameShort}的肛门的小巧，一个几乎无法辨认的结，并不特别醒目，也谈不上撩人。</li>
     <li>那是个非常小的肛门，几乎羞怯地藏着。非得仔细搜寻才能看见，可这就失去了暴露的意义。</li>
@@ -3021,7 +3011,7 @@
     <li>{PAWN_nameShort}的臀部虽然露着，其中几乎察觉不到的极小肛门，让我不禁好奇它的容量。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小肛门，点燃了一个俏皮而带暗示的念头。</li>
     <li>{PAWN_nameShort}的肛门的娇小显而易见；正因其隐秘，才更撩动我的欲望。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小的开口，如此紧凑，却搏动着无言的许诺。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小的开口，如此紧凑，却搏动着无言的许诺。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，一个与我的欲望共鸣的迷人秘密。</li>
     <li>{PAWN_nameShort}的肛门的小巧，一个几乎无法辨认的结，出奇地引人注目，牵动起我肉欲的念头。</li>
     <li>那是个非常小的肛门，几乎羞怯地藏着，可我的欲望已经在想象它终将屈服的样子。</li>
@@ -3053,7 +3043,7 @@
     <li>{PAWN_nameShort}的臀部虽然露着，其中几乎察觉不到的极小肛门，让我不禁想到我们共同的经历。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小肛门，点燃了一个关于亲密的、俏皮而带暗示的念头。</li>
     <li>{PAWN_nameShort}的肛门的娇小显而易见；正因其隐秘，才更撩动我身为女性的欲望。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小的开口，如此紧凑，却搏动着无言而共享的许诺。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小的开口，如此紧凑，却搏动着无言而共享的许诺。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，一个与我最深处的需求共鸣的迷人秘密。</li>
     <li>{PAWN_nameShort}的肛门的小巧，一个几乎无法辨认的结，出奇地引人注目，牵动起我肉欲的念头。</li>
     <li>那是个非常小的肛门，几乎羞怯地藏着，可我的欲望已经在想象它终将与我彼此相融、互相屈服的样子。</li>
@@ -3085,7 +3075,7 @@
     <li>{PAWN_nameShort}的臀部虽然露着，其中几乎察觉不到的极小肛门，让我不禁好奇它的容量。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小肛门，点燃了一个调皮而带暗示的念头。</li>
     <li>{PAWN_nameShort}的肛门的娇小显而易见；正因其隐秘，才更撩动我的欲望。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小的开口，如此紧凑，却搏动着无言的许诺。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小的开口，如此紧凑，却搏动着无言的许诺。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，一个与我的欲望共鸣的迷人秘密。</li>
     <li>{PAWN_nameShort}的肛门的小巧，一个几乎无法辨认的结，出奇地引人注目，牵动起我肉欲的念头。</li>
     <li>那是个非常小的肛门，几乎羞怯地藏着，可我的欲望已经在想象它终将屈服的样子。</li>
@@ -3117,7 +3107,7 @@
     <li>{PAWN_nameShort}的臀部虽然露着，其中几乎察觉不到的极小肛门，让我对其潜力浮想联翩。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小肛门，点燃了一个强劲而淫荡的念头。</li>
     <li>{PAWN_nameShort}的肛门的娇小显而易见；正因其隐秘，才更令我贪得无厌的欲望着迷。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小的开口，如此紧凑，却搏动着无从否认的原始许诺。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小的开口，如此紧凑，却搏动着无从否认的原始许诺。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，一个与我深层原始需求共鸣的迷人秘密。</li>
     <li>{PAWN_nameShort}的肛门的小巧，一个几乎无法辨认的结，出奇地引人注目，牵动起我肆意横生的念头。</li>
     <li>那是个非常小的肛门，几乎羞怯地藏着，可我男性的欲望已经在想象它彻底完全的屈服。</li>
@@ -3149,7 +3139,7 @@
     <li>{PAWN_nameShort}的臀部虽然露着，其中几乎察觉不到的极小肛门，让我对其潜力浮想联翩。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小肛门，点燃了一个强劲而淫荡的念头。</li>
     <li>{PAWN_nameShort}的肛门的娇小显而易见；正因其隐秘，才更令我贪得无厌的欲望着迷。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小的开口，如此紧凑，却搏动着无从否认的原始许诺。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小的开口，如此紧凑，却搏动着无从否认的原始许诺。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，一个与我深层原始需求共鸣的迷人秘密。</li>
     <li>{PAWN_nameShort}的肛门的小巧，一个几乎无法辨认的结，出奇地引人注目，牵动起我肆意横生的念头。</li>
     <li>那是个非常小的肛门，几乎羞怯地藏着，可我男性的欲望已经在想象它彻底完全的屈服。</li>
@@ -3181,7 +3171,7 @@
     <li>{PAWN_nameShort}的臀部虽然露着，其中几乎察觉不到的极小肛门，我仍觉得有几分粗俗。</li>
     <li>匆匆一瞥{PAWN_nameShort}的那收拾得整整齐齐的极小肛门，我明确感到一阵不适。</li>
     <li>{PAWN_nameShort}的肛门的娇小显而易见，这处不起眼的小特征本不该被看见。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小的开口，相当紧凑，却毫不检点。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小的开口，相当紧凑，却毫不检点。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，一个微不足道的观察点，但依然碍眼。</li>
     <li>{PAWN_nameShort}的肛门的小巧，一个几乎无法辨认的结，不过是一句事实性的观察，虽然并不合时宜。</li>
     <li>那是个非常小的肛门，几乎羞怯地藏着，可它的存在本身就令人不适。</li>
@@ -3213,7 +3203,7 @@
     <li>{PAWN_nameShort}的臀部露出一个几乎察觉不到的极小肛门，是个值得发掘的可人细节。</li>
     <li>我的目光流连在{PAWN_nameShort}的极小的肛门上，那整齐收紧的褶皱，引人无声地长久端详。</li>
     <li>{PAWN_nameShort}的肛门的娇小显而易见；正因其隐秘，才更引人入胜。</li>
-    <li>端详着 {PAWN_nameShort}的 的臀部，我注意到一处微小的开口，如此紧凑，却又如此引人好奇。</li>
+    <li>端详着 {PAWN_nameShort}臀部，我注意到一处微小的开口，如此紧凑，却又如此引人好奇。</li>
     <li>{PAWN_nameShort}的紧实的臀肉环抱着一只极微小的肛门，对我这双善于观察的眼睛而言是个迷人的秘密。</li>
     <li>{PAWN_nameShort}的肛门的小巧，一个几乎无法辨认的结，看着却出奇地引人注目。</li>
     <li>那是个非常小的肛门，几乎羞怯地藏着，可我的目光还是被它隐约的形态吸引过去。</li>

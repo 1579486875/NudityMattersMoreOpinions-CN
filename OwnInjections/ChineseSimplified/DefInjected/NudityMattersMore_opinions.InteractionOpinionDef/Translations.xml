@@ -1,14 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
   <Observer_describes_pawn_Covering.texts>
     <li>而{OBSERVED_nameShort}看上去无助又无辜，试图遮掩{OBSERVED_possessive}裸体，那是一次脆弱的、想重拾隐私的尝试。</li>
@@ -535,7 +525,7 @@
     <li>而{OBSERVED_nameShort}的肩膀微微含起，是对这份脆弱再自然不过的反应。</li>
     <li>而这景象交织着临床的需要与人性的亲密。</li>
     <li>而{OBSERVED_nameShort}保持不动，让检查得以顺利进行。</li>
-    <li>而{OBSERVED_nameShort}袒露的乳房是医学评估中关键的一部分，一种赤裸而坦诚的呈现。</li>
+    <li>而{OBSERVED_nameShort}袒露的乳房是医学评估中关键的一部分，一种赤裸而坦诚的姿态。</li>
   </Observer_describes_pawn_who_was_topless_on_medical_treatment.texts>
   <Observer_describes_pawn_who_was_botomless_on_medical_treatment.texts>
     <li>而{OBSERVED_nameShort}接受医生检查，不得不脱掉{OBSERVED_pronoun}的裤子，露出生殖器，是一次直接而必要的暴露。</li>
@@ -557,7 +547,7 @@
     <li>而{OBSERVED_nameShort}袒露的生殖器是这次医疗检查中关键的一环。</li>
     <li>而{OBSERVED_nameShort}像是陷入了被动的接受，任由过程自行展开。</li>
     <li>而空气中绷着一股安静的张力，是医疗所需与个人脆弱交织而成。</li>
-    <li>而{OBSERVED_nameShort}下身赤裸的状态是种裸露而坦诚的呈现，是追求健康所必需的。</li>
+    <li>而{OBSERVED_nameShort}下身赤裸的状态是种裸露而坦诚的姿态，是追求健康所必需的。</li>
   </Observer_describes_pawn_who_was_botomless_on_medical_treatment.texts>
   <Observer_describes_pawn_who_was_naked_on_self_medical_treatment.texts>
     <li>而看着{OBSERVED_nameShort}赤裸的身体，{OBSERVED_pronoun}正细致地把药膏涂在伤口上，每个动作都暴露无遗又有条不紊。</li>
@@ -1417,4 +1407,3 @@
     <li>而寂静中只余相机轻柔的快门声和我急促的心跳，回响着{OBSERVER_nameShort}那些未说出口的渴望。</li>
     <li>而我沉醉于自己裸体带来的原始力量，那感觉在{OBSERVER_nameShort}毫不动摇、充满饥渴的目光下被无限放大。</li>
   </OBSERVED_describes_I_was_seen_who_was_posing_naked_like_art_sculpture.texts></LanguageData>
-

@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 36/39 · 共 2988 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Vagina_Neutral_Average_trait_Nymphomaniac.opinionTexts>
     <li>{PAWN_nameShort}的中等大小的外阴映入我眼帘；熟悉而耐人寻味的一幕。</li>
     <li>一次寻常的女性展示；让我遐想它的用途与可能。</li>
@@ -20,7 +10,7 @@
     <li>我觉得{PAWN_nameShort}的形态那种天然敞开的样子相当刺激，激起我的好奇。</li>
     <li>{PAWN_nameShort}的展露的外阴，虽只算中等，却像是一份含蓄的邀请。</li>
     <li>{PAWN_nameShort}的赤裸的坦荡令人欣喜，激起一阵低沉的欲望之鸣。</li>
-    <li>看见 {PAWN_nameShort}的 中等的阴道骄傲地展示着，它激起我肉欲的念头。</li>
+    <li>看见 {PAWN_nameShort}的中等的阴道骄傲地展示着，它激起我肉欲的念头。</li>
     <li>一具普通女性身体的不错展示，让我生出愉悦的期待。</li>
     <li>{PAWN_nameShort}的阴道口，虽然标准，却为一种激起我的整体吸引力添彩。</li>
     <li>{PAWN_nameShort}的阴唇那自然的外观，一种朴素而坦诚的展露，暗示着更深层的欢愉。</li>
@@ -32,7 +22,7 @@
     <li>{PAWN_nameShort}的不加修饰的存在，唤起对共同裸体及其所呈现的可能性的静静喜悦。</li>
     <li>{PAWN_nameShort}的私密部位中等的比例，因{PAWN_possessive}坦然敞开而更显光彩，极大地引诱着我。</li>
     <li>看到{PAWN_nameShort}的女性形体如此自然地呈现，令人满足，那画面激起了我的饥渴。</li>
-    <li>{PAWN_nameShort}的 随意展露的外阴，是对裸体及其情欲潜力的无声认可。</li>
+    <li>{PAWN_nameShort}的随意展露的外阴，是对裸体及其情欲潜力的无声认可。</li>
     <li>{PAWN_nameShort}的寻常的阴道裸露着，让空气都仿佛带电，充满肉欲的承诺。</li>
     <li>完全中等的一幕，可{PAWN_nameShort}的愿意展示出来，却让人深深地血脉贲张。</li>
     <li>看着{PAWN_nameShort}的赤裸的身体，让我只想纵情肉欲。</li>
@@ -52,7 +42,7 @@
     <li>我觉得{PAWN_nameShort}的形态那种天然敞开的样子相当刺激，激起我的好奇与我自己的准备。</li>
     <li>{PAWN_nameShort}的展露的外阴，虽只算中等，却像是一份含蓄的邀请，一份我的身体悄然渴望去探索的邀请。</li>
     <li>{PAWN_nameShort}的赤裸的坦荡令人欣喜，在我自身的女性气质里激起一阵低沉的欲望之鸣。</li>
-    <li>看见 {PAWN_nameShort}的 中等的阴道骄傲地展示着，它激起我肉欲的念头，让我自己的部位阵阵酥麻。</li>
+    <li>看见 {PAWN_nameShort}的中等的阴道骄傲地展示着，它激起我肉欲的念头，让我自己的部位阵阵酥麻。</li>
     <li>一具普通女性身体的不错展示，让我生出愉悦的期待，体内涌起一阵暖意。</li>
     <li>{PAWN_nameShort}的阴道口，虽然标准，却为一种深深激起我的整体吸引力添彩，我的欲望膨胀。</li>
     <li>{PAWN_nameShort}的阴唇那自然的外观，一种朴素而坦诚的展露，暗示着更深层的欢愉，让我感到一阵美妙的躁动。</li>
@@ -64,7 +54,7 @@
     <li>{PAWN_nameShort}的不加修饰的存在，唤起对共同裸体及其所呈现的可能性的静静喜悦，让我自己的渴求昭然若揭。</li>
     <li>{PAWN_nameShort}的私密部位中等的比例，因{PAWN_possessive}坦然敞开而更显光彩，极大地引诱我去与{PAWN_objective}会合。</li>
     <li>看到{PAWN_nameShort}的女性形体如此自然地呈现，令人满足，那画面从根子上激起了我的饥渴。</li>
-    <li>{PAWN_nameShort}的 随意展露的外阴，是对裸体及其情欲潜力的无声认可，让我自己的部位也湿润起来。</li>
+    <li>{PAWN_nameShort}的随意展露的外阴，是对裸体及其情欲潜力的无声认可，让我自己的部位也湿润起来。</li>
     <li>{PAWN_nameShort}的寻常的阴道裸露着，让空气都仿佛带电，充满我身体迫切渴求的肉欲承诺。</li>
     <li>完全中等的一幕，可{PAWN_nameShort}的愿意展示出来，让人深深血脉贲张，让我自己的小腹温热，蓄势以待。</li>
     <li>看着{PAWN_nameShort}的赤裸的身体，让我只想纵情肉欲，整个身心都系于此。</li>
@@ -84,7 +74,7 @@
     <li>我觉得{PAWN_nameShort}的形态那种天然敞开的样子相当刺激，激起我的好奇与我日益增长的硬度。</li>
     <li>{PAWN_nameShort}的展露的外阴，虽只算中等，却像是一份含蓄的邀请，我的身体渴望着接受。</li>
     <li>{PAWN_nameShort}的赤裸的坦荡令人欣喜，在我全身激起一阵低沉的欲望之鸣。</li>
-    <li>看见 {PAWN_nameShort}的 中等的阴道骄傲地展示着，它激起我肉欲的念头，让我的阴茎准备就绪。</li>
+    <li>看见 {PAWN_nameShort}的中等的阴道骄傲地展示着，它激起我肉欲的念头，让我的阴茎准备就绪。</li>
     <li>一具普通女性身体的不错展示，让我生出愉悦的期待，茎身沉重地搏动。</li>
     <li>{PAWN_nameShort}的阴道口，虽然标准，却为一种深深激起我的整体吸引力添彩，我的欲望燃起。</li>
     <li>{PAWN_nameShort}的阴唇那自然的外观，一种朴素而坦诚的展露，暗示着更深层的欢愉，让我胀痛般地被唤起。</li>
@@ -96,7 +86,7 @@
     <li>{PAWN_nameShort}的不加修饰的存在，唤起对共同裸体及其所呈现的可能性的静静喜悦，让我的阴茎紧绷。</li>
     <li>{PAWN_nameShort}的私密部位中等的比例，因{PAWN_possessive}坦然敞开而更显光彩，极大地引诱我采取行动。</li>
     <li>看到{PAWN_nameShort}的女性形体如此自然地呈现，令人满足，那画面从根子上激起了我的饥渴。</li>
-    <li>{PAWN_nameShort}的 随意展露的外阴，是对裸体及其情欲潜力的无声认可，让我的勃起愈发胀大。</li>
+    <li>{PAWN_nameShort}的随意展露的外阴，是对裸体及其情欲潜力的无声认可，让我的勃起愈发胀大。</li>
     <li>{PAWN_nameShort}的寻常的阴道裸露着，让空气都仿佛带电，充满我身体迫切渴求的肉欲承诺。</li>
     <li>完全中等的一幕，可{PAWN_nameShort}的愿意展示出来，让人深深血脉贲张，让我阴茎硬挺、蓄势待发。</li>
     <li>看着{PAWN_nameShort}的赤裸的身体，让我只想纵情肉欲，整个身心都系于此。</li>
@@ -116,7 +106,7 @@
     <li>我觉得{PAWN_nameShort}的形态那种天然敞开的样子完全无趣，甚至有点乏味。</li>
     <li>{PAWN_nameShort}的展露的外阴，虽只算中等，却只配得上一眼扫过，别无其他。</li>
     <li>{PAWN_nameShort}的赤裸的坦荡……嗯，就是一般水平。</li>
-    <li>看见 {PAWN_nameShort}的 中等的阴道骄傲地展示着，不过是一次中性的观察。</li>
+    <li>看见 {PAWN_nameShort}的中等的阴道骄傲地展示着，不过是一次中性的观察。</li>
     <li>一具普通女性身体的不错展示，却激不起任何特别的感受。</li>
     <li>{PAWN_nameShort}的阴道口，虽然标准，却相当容易被遗忘。</li>
     <li>{PAWN_nameShort}的阴唇那自然的外观，一种朴素而坦诚的展露，仅此而已。</li>
@@ -128,7 +118,7 @@
     <li>{PAWN_nameShort}的不加修饰的存在，只让人耸耸肩。</li>
     <li>{PAWN_nameShort}的私密部位中等的比例，因{PAWN_possessive}坦然敞开而更显光彩，对我毫无影响。</li>
     <li>看到{PAWN_nameShort}的女性形体如此自然地呈现，我想，令人满足。</li>
-    <li>{PAWN_nameShort}的 随意展露的外阴，也就是随意而已。</li>
+    <li>{PAWN_nameShort}的随意展露的外阴，也就是随意而已。</li>
     <li>{PAWN_nameShort}的寻常的阴道裸露着，让我完全无动于衷。</li>
     <li>完全中等的一幕，可{PAWN_nameShort}的愿意展示出来，却相当令人厌烦。</li>
     <li>看着{PAWN_nameShort}的赤裸的身体，让我想别过头去，太平淡了。</li>
@@ -162,13 +152,13 @@
     <li>我的目光流连在{PAWN_nameShort}的那不大不小的阴道口上，感到一股熟悉的、偷窥欲的牵引。</li>
     <li>看到{PAWN_nameShort}的中等的部位，是一种简单的快感，安静地受用着。</li>
     <li>一个完全中等的外阴，可我的感官捕捉到它隐约而不张扬的邀约。</li>
-    <li>看到 {PAWN_nameShort}的 那寻常的私密圣殿，我心中泛起一声低沉而满足的轻叹，只属于我。</li>
+    <li>看到 {PAWN_nameShort}的那寻常的私密圣殿，我心中泛起一声低沉而满足的轻叹，只属于我。</li>
     <li>{PAWN_nameShort}的阴唇柔和的轮廓似乎只在我眼中低语着承诺，即便只是中等。</li>
-    <li>观察着 {PAWN_nameShort}的 典型的女性身体，我的血液微微发热，心底涌起一丝安静的满足。</li>
+    <li>观察着 {PAWN_nameShort}的典型的女性身体，我的血液微微发热，心底涌起一丝安静的满足。</li>
     <li>那一瞥{PAWN_nameShort}的平淡无奇的阴道，仍让我微微一颤。</li>
     <li>{PAWN_nameShort}的私密部位中等的比例，足够我这双偷窥的眼睛欣赏。</li>
     <li>我的目光飘向{PAWN_nameShort}的天然的开口，我的小腹泛起一阵隐约的紧绷。</li>
-    <li>{PAWN_nameShort}的 随意展露的外阴是一份安静的愉悦，悄然刺激着我的感官。</li>
+    <li>{PAWN_nameShort}的随意展露的外阴是一份安静的愉悦，悄然刺激着我的感官。</li>
     <li>寻常的女性景象，却依然牢牢抓住了我全部的、毫不放松的注意力。</li>
   </Opinion_Vagina_Neutral_Average_trait_Voyeur.opinionTexts>
   <Opinion_Vagina_Neutral_Average_trait_Voyeur_F.opinionTexts>
@@ -194,13 +184,13 @@
     <li>我的目光流连在{PAWN_nameShort}的那不大不小的阴道口上，感到一股熟悉的、会意的牵引。</li>
     <li>看到{PAWN_nameShort}的中等的部位，是一种简单的快感，安静地受用着，熟悉而亲切。</li>
     <li>一个完全中等的外阴，可我的感官捕捉到它隐约的邀约，我的小腹也感到一阵温柔的温热。</li>
-    <li>看到 {PAWN_nameShort}的 那寻常的私密圣殿，我心中泛起一声低沉而满足的轻叹，一份形制相通的共鸣。</li>
+    <li>看到 {PAWN_nameShort}的那寻常的私密圣殿，我心中泛起一声低沉而满足的轻叹，一份形制相通的共鸣。</li>
     <li>{PAWN_nameShort}的阴唇柔和的轮廓似乎只在我这懂得欣赏的注视下低语着承诺，即便只是中等。</li>
-    <li>观察着 {PAWN_nameShort}的 典型的女性身体，我的血液发热，自己的私处也泛起熟悉的酥麻。</li>
+    <li>观察着 {PAWN_nameShort}的典型的女性身体，我的血液发热，自己的私处也泛起熟悉的酥麻。</li>
     <li>那一瞥{PAWN_nameShort}的平淡无奇的阴道，仍让我微微一颤，一种认出的感觉。</li>
     <li>{PAWN_nameShort}的私密部位中等的比例，足够我这双偷窥的眼睛欣赏，也足够让我越来越燥热。</li>
     <li>我的目光飘向{PAWN_nameShort}的天然的开口，我自己的小腹泛起一阵隐约却无法否认的紧绷。</li>
-    <li>{PAWN_nameShort}的 随意展露的外阴是一份安静的愉悦，悄然刺激着我的感官和我自身的女性气质。</li>
+    <li>{PAWN_nameShort}的随意展露的外阴是一份安静的愉悦，悄然刺激着我的感官和我自身的女性气质。</li>
     <li>寻常的女性景象，却仍在我心里激起一丝共鸣与隐秘的好奇。</li>
   </Opinion_Vagina_Neutral_Average_trait_Voyeur_F.opinionTexts>
   <Opinion_Vagina_Neutral_Average_trait_Voyeur_M.opinionTexts>
@@ -226,13 +216,13 @@
     <li>我的目光流连在{PAWN_nameShort}的那不大不小的阴道口上，感到一股熟悉的牵引，下腹一阵收紧。</li>
     <li>看到{PAWN_nameShort}的中等的部位，让我的鸡巴微微点头致意。</li>
     <li>一个完全中等的外阴，可我这把年纪的感官仍捕捉到它隐约的邀约，我的欲望也随之加快。</li>
-    <li>看到 {PAWN_nameShort}的 那寻常的私密圣殿，我心中泛起一声低沉而满足的轻叹，还有一份愉悦的沉重。</li>
+    <li>看到 {PAWN_nameShort}的那寻常的私密圣殿，我心中泛起一声低沉而满足的轻叹，还有一份愉悦的沉重。</li>
     <li>{PAWN_nameShort}的阴唇柔和的轮廓似乎在低语着承诺，即便只是中等，我的裤子也紧了起来。</li>
-    <li>观察着 {PAWN_nameShort}的 典型的女性身体，我的血液发热，一股熟悉的酥麻感升起。</li>
+    <li>观察着 {PAWN_nameShort}的典型的女性身体，我的血液发热，一股熟悉的酥麻感升起。</li>
     <li>那一瞥{PAWN_nameShort}的平淡无奇的阴道，仍让我微微一颤，我的阳具躁动起来。</li>
     <li>{PAWN_nameShort}的私密部位中等的比例，足够我这双偷窥的眼睛欣赏，也足够让我越来越兴奋。</li>
     <li>我的目光飘向{PAWN_nameShort}的天然的开口，我的下身泛起一阵隐约却无法否认的紧绷。</li>
-    <li>{PAWN_nameShort}的 随意展露的外阴是一份安静的愉悦，悄然刺激着我的感官和我的鸡巴。</li>
+    <li>{PAWN_nameShort}的随意展露的外阴是一份安静的愉悦，悄然刺激着我的感官和我的鸡巴。</li>
     <li>寻常的女性景象，但我这把老家伙还是为{PAWN_objective}中等的魅力抽动了一下。</li>
   </Opinion_Vagina_Neutral_Average_trait_Voyeur_M.opinionTexts>
   <Opinion_Vagina_Neutral_Cavernous.opinionTexts>
@@ -420,7 +410,7 @@
     <li>它整体的显眼程度适中，松弛的阴唇与加深的开口让它含蓄却清晰地显露出来。</li>
     <li>在可见的褶皱中观察到明显的、近乎松垂的深度，暗示着久经使用的形态。</li>
     <li>阴蒂清晰可辨，嵌在明显分开的阴唇之间，与苍老的身形比例相称。</li>
-    <li>阴唇饱满顺从，暗示着一段漫长的历史，却仍保持着中性而不挑逗的呈现。</li>
+    <li>阴唇饱满顺从，暗示着一段漫长的历史，却仍保持着中性而不挑逗的姿态。</li>
     <li>亲密的一瞥，诉说着积攒一生的经历，这部位确实被使用得相当频繁。</li>
     <li>那不加修饰地呈现出来的女性生殖器，显露出自然衰老与使用留下的明显痕迹。</li>
     <li>{PAWN_nameShort}的私处的外观显示出发育极好且成熟的构造。</li>
@@ -502,7 +492,7 @@
   </Opinion_Vagina_Neutral_Cavernous_ElderFemale_observed_by_Exhibitionist.opinionTexts>
   <Opinion_Vagina_Neutral_Cavernous_ElderFemale_observed_by_Nymphomaniac.opinionTexts>
     <li>那外露的外阴，带着诱人而富有经验的深度，点燃了一股熟悉的强烈欲望。</li>
-    <li>一副年长的形态，透过它放松的呈现可以想见，预示着深深满足的可能。</li>
+    <li>一副年长的形态，透过它放松的姿态可以想见，预示着深深满足的可能。</li>
     <li>{PAWN_nameShort}的私处看似因一生使用而变得宽大，勾起一份深沉而急切的渴望。</li>
     <li>那片若隐若现、暗示着空洞深处的生理构造，助长了一股深沉、贪得无厌的肉欲渴求。</li>
     <li>它的暴露程度足以点燃激情，松弛的阴唇与阴影中的内部极其诱人。</li>
@@ -672,7 +662,7 @@
     <li>{PAWN_nameShort}的阴道那惊人的规模一目了然，几乎堪称生命旅程的见证。</li>
     <li>它异常宽阔，轮廓透出一种天生的轻松与柔顺。</li>
     <li>阴唇发育完整，且相当宽阔，衬托出一片深邃而诱人的内在空间。</li>
-    <li>一种成熟而舒展的呈现；让人得以欣赏女性形体的自然变化。</li>
+    <li>一种成熟而舒展的姿态；让人得以欣赏女性形体的自然变化。</li>
     <li>深度似乎相当可观，在如此显眼的观察中格外突出。</li>
     <li>我注意到那可观的空间；是女性身体中比例匀称的范例。</li>
     <li>它的敞开非比寻常，暗示着一副深切而无拘无束的身体构造。</li>
@@ -704,7 +694,7 @@
     <li>{PAWN_nameShort}的阴道那惊人的规模一目了然，几乎堪称时光流逝的见证。</li>
     <li>它异常宽阔，轮廓透出一种天生的轻松与柔顺。</li>
     <li>阴唇发育完整，且相当宽阔，衬托出一片深邃而诱人的内在空间。</li>
-    <li>一种成熟而舒展的呈现；让人得以欣赏这些自然变化。</li>
+    <li>一种成熟而舒展的姿态；让人得以欣赏这些自然变化。</li>
     <li>深度似乎相当可观，在如此显眼的观察中格外突出。</li>
     <li>我注意到那可观的空间；对其类型而言是个比例匀称的范例。</li>
     <li>它的敞开非比寻常，暗示着一副深切而无拘无束的身体构造。</li>
@@ -854,7 +844,7 @@
     <li>它整体的显眼程度适中，松弛的阴唇与略微加深的开口让它含蓄地显露出来。</li>
     <li>在可见的褶皱中观察到明显的深度，暗示着老练的形态。</li>
     <li>阴蒂清晰可辨，嵌在略微分开的阴唇之间，与成熟的身形比例相称。</li>
-    <li>阴唇饱满，暗示着一段历史，却仍保持着中性而不挑逗的呈现。</li>
+    <li>阴唇饱满，暗示着一段历史，却仍保持着中性而不挑逗的姿态。</li>
     <li>亲密的一瞥，诉说着积攒的经验，这部位确实被使用过。</li>
     <li>那不加修饰地呈现出来的女性生殖器，显露出自然衰老与使用的典型痕迹。</li>
     <li>{PAWN_nameShort}的私处的外观显示出中等且发育良好的构造。</li>
@@ -1164,7 +1154,7 @@
     <li>{PAWN_nameShort}的身体天生就构造得空间充裕。</li>
     <li>可见的部分暗示着一个柔软而柔顺的怀抱。</li>
     <li>它相当敞开，却毫无粗硬之感，只是一种自然的宽阔。</li>
-    <li>一种格外宽阔深邃的呈现，带着柔和而不勉强的样子。</li>
+    <li>一种格外宽阔深邃的姿态，带着柔和而不勉强的样子。</li>
     <li>{PAWN_nameShort}的阴道可观的大小似乎反映出某种内在的安逸。</li>
     <li>{PAWN_possessive}私处看起来异常放松而诱人。</li>
     <li>{PAWN_nameShort}的开口的硕大，就是{PAWN_possessive}天生如此。</li>
@@ -1670,7 +1660,7 @@
     <li>匆匆一瞥露出一个极为紧凑的女性身形，谨慎而略显内敛。</li>
     <li>{PAWN_nameShort}的私处精巧的构造似乎被岁月消磨得相当萎缩。</li>
     <li>被观察的那处，阴唇几乎看不见，与苍老的肌肤平滑地融为一体。</li>
-    <li>人几乎不会注意到 {PAWN_nameShort}的 生殖部位的存在，它显得如此萎缩。</li>
+    <li>人几乎不会注意到 {PAWN_nameShort}的生殖部位的存在，它显得如此萎缩。</li>
     <li>所观察到的女性器官尺寸极小，显出一种极为私密、上了年纪的样子。</li>
     <li>匆匆一看，那对阴唇紧闭，几乎看不见，被年岁侵蚀得干缩。</li>
     <li>{PAWN_nameShort}的私密轮廓很淡，整体可见度相当低。</li>
@@ -1692,7 +1682,7 @@
     <li>匆匆一瞥露出一个极为紧凑而苍老的女性身形，随时光而内敛端庄。</li>
     <li>{PAWN_nameShort}的私处精巧的构造似乎相当萎缩，已被岁月收起了。</li>
     <li>阴唇几乎看不见，与深老的肌肤平滑地融为一体，是高龄的常见标志。</li>
-    <li>人几乎不会注意到 {PAWN_nameShort}的 生殖部位的存在，它显得如此含蓄而年迈。</li>
+    <li>人几乎不会注意到 {PAWN_nameShort}的生殖部位的存在，它显得如此含蓄而年迈。</li>
     <li>所观察到的女性器官尺寸极小，显出一种极为私密、极其年迈的样子。</li>
     <li>匆匆一瞥，可见一对紧闭得几乎看不见的阴唇，显然饱受岁月侵蚀。</li>
     <li>{PAWN_nameShort}的私密轮廓很淡，整体可见度相当低，极为私密。</li>
@@ -1714,7 +1704,7 @@
     <li>匆匆一瞥露出一个极为紧凑的年迈女性身形，含蓄而深深枯萎。</li>
     <li>{PAWN_nameShort}的私处精巧的构造似乎被悠长的岁月消磨得相当萎缩。</li>
     <li>被观察的那处，阴唇几乎看不见，与深老至极的肌肤平滑地融为一体。</li>
-    <li>人几乎不会注意到 {PAWN_nameShort}的 生殖部位的存在，它随岁月显得如此萎缩。</li>
+    <li>人几乎不会注意到 {PAWN_nameShort}的生殖部位的存在，它随岁月显得如此萎缩。</li>
     <li>所观察到的女性器官尺寸极小，显出一种极为私密、极其年迈的样子。</li>
     <li>匆匆一看，那对阴唇紧闭，几乎看不见，彻底被岁月吞噬。</li>
     <li>{PAWN_nameShort}的私密轮廓很淡，整体可见度因年迈而相当低。</li>
@@ -1802,7 +1792,7 @@
     <li>匆匆一看露出一个极为小巧、上了年纪的女性身形，随着岁月流逝而变得谦卑。</li>
     <li>{PAWN_nameShort}的私处精巧的构造似乎相当萎缩而收敛。</li>
     <li>阴唇几乎看不见，与苍老的肌肤平滑地融为一体，是自然的进程。</li>
-    <li>人几乎不会注意到 {PAWN_nameShort}的 生殖部位的存在，它显得如此含蓄。</li>
+    <li>人几乎不会注意到 {PAWN_nameShort}的生殖部位的存在，它显得如此含蓄。</li>
     <li>所观察到的女性器官尺寸极小，显出一种极为私密、上了年纪的样子。</li>
     <li>匆匆一瞥，可见一对紧闭得几乎看不见的阴唇，显然受到岁月的侵蚀。</li>
     <li>{PAWN_nameShort}的私密轮廓很淡，整体可见度相当低，颇为私密。</li>
@@ -1831,7 +1821,7 @@
     <li>阴蒂若存在的话，也深陷其中，并不明显；毫无刺激可言。</li>
     <li>被观察部位的深度看上去很浅，显得非常平坦、苍老而令人提不起兴致。</li>
     <li>私处的整体形态极其娇小，外观上几乎萎缩。</li>
-    <li>由于尺寸微小与年岁，人很难辨认出 {PAWN_nameShort}的 阴唇的清晰特征。</li>
+    <li>由于尺寸微小与年岁，人很难辨认出 {PAWN_nameShort}的阴唇的清晰特征。</li>
     <li>私密部位的可见度低得惊人，几乎完全避开了随意的目光，谢天谢地。</li>
     <li>{PAWN_nameShort}的私处所在的位置只有一道隐约的轮廓，却激不起什么兴致。</li>
     <li>被观察的部位极小，几乎像是缩进身体里，被岁月吞没。</li>
@@ -1845,8 +1835,8 @@
     <li>私处相当小巧，清楚显出极度年迈的影响，却依然是可以辨认的女性形态。</li>
     <li>匆匆一瞥露出紧凑而略显脆弱的女性构造，年岁已深。</li>
     <li>{PAWN_nameShort}的私处精巧的构造似乎被岁月悄然改变、渐渐萎缩。</li>
-    <li>阴唇几乎看不见，平滑地融为一体，是人生这一高龄阶段极为常见的呈现。</li>
-    <li>人几乎不会注意到 {PAWN_nameShort}的 生殖部位的存在，它显得如此不起眼又萎缩。</li>
+    <li>阴唇几乎看不见，平滑地融为一体，是人生这一高龄阶段极为常见的姿态。</li>
+    <li>人几乎不会注意到 {PAWN_nameShort}的生殖部位的存在，它显得如此不起眼又萎缩。</li>
     <li>所观察到的女性器官尺寸极小，形态就她如此高龄而言含蓄而寻常。</li>
     <li>匆匆一看，那对阴唇紧闭，几乎看不见，在极为年迈的人身上很常见。</li>
     <li>{PAWN_nameShort}的私密轮廓很淡，整体可见度相当低，颇为私密。</li>
@@ -1889,7 +1879,7 @@
     <li>即便尺寸微小，{PAWN_nameShort}那苍老的私处仍带着一种奇特的、几乎像是历史般的吸引力。</li>
     <li>只消一瞥，便足以注意到她私处极度紧凑而饱经风霜的模样。</li>
     <li>那几乎看不见的苍老阴唇轮廓，勾起了一阵安静而感伤的好奇。</li>
-    <li>人的目光被 {PAWN_nameShort}的 小巧而饱经岁月的生殖构造那隐秘的细节吸引。</li>
+    <li>人的目光被 {PAWN_nameShort}的小巧而饱经岁月的生殖构造那隐秘的细节吸引。</li>
     <li>那年迈女性构造的小巧外观，让人对往昔浮想联翩。</li>
     <li>这具上了年岁的身体部位，正因极小又被遮掩，反而有种奇特的吸引力。</li>
     <li>{PAWN_nameShort}的私处那含蓄的形态，透出一种安静、不张扬、被遗忘的存在感。</li>
@@ -1905,7 +1895,7 @@
     <li>那紧闭的阴唇透出一处受保护的私密空间，被岁月把守着。</li>
     <li>这副形体那极度的纤细反而更迷人，要辨认它原本的状态是一种挑战。</li>
     <li>那私密部位不加张扬的特性，带着一种安静的偷窥吸引力，像是在旁观时光流逝。</li>
-    <li>观察 {PAWN_nameShort}的 私处那含蓄的存在感，令人安静地沉浸其中，仿佛窥见深沉的老去。</li>
+    <li>观察 {PAWN_nameShort}的私处那含蓄的存在感，令人安静地沉浸其中，仿佛窥见深沉的老去。</li>
   </Opinion_Vagina_Neutral_Micro_ElderFemale_observed_by_voyer.opinionTexts>
   <Opinion_Vagina_Neutral_Micro_Elderly_Female_opinion.opinionTexts>
     <li>{PAWN_nameShort}的私处显得相当小，是青春特有的精致而未成形的模样。</li>
@@ -1982,7 +1972,7 @@
     <li>匆匆一瞥{PAWN_nameShort}的极小的构造，给我下身带来一丝微弱的快感。</li>
     <li>{PAWN_nameShort}的阴道那紧致而年轻的模样，让我不由自主地微微一缩。</li>
     <li>我的目光流连在{PAWN_nameShort}的极小的阴蒂上，只激起一丝几乎察觉不到的悸动。</li>
-    <li>观察着 {PAWN_nameShort}的 极小的私处，让我产生了幻肢般的勃起。</li>
+    <li>观察着 {PAWN_nameShort}的极小的私处，让我产生了幻肢般的勃起。</li>
     <li>{PAWN_nameShort}的紧闭的外阴有种诱人的气息，我自己的胯下随之微微搏动。</li>
     <li>{PAWN_nameShort}的阴道那极小的尺寸，竟出乎意料地勾起了些许反应。</li>
     <li>凝视{PAWN_nameShort}的那精致细小的开口时，我察觉到自己的身体有了细微的反应。</li>
@@ -2104,7 +2094,7 @@
     <li>匆匆一瞥露出极为小巧、几乎隐藏起来的女性构造。</li>
     <li>{PAWN_nameShort}的私处精巧的构造似乎相当紧凑。</li>
     <li>被观察的那处，阴唇几乎看不见，与周围的肌肤平滑地融为一体。</li>
-    <li>人几乎不会注意到 {PAWN_nameShort}的 生殖部位的存在，它实在太小了。</li>
+    <li>人几乎不会注意到 {PAWN_nameShort}的生殖部位的存在，它实在太小了。</li>
     <li>所观察到的女性器官尺寸极小，显得极为含蓄。</li>
     <li>匆匆一看，那对阴唇紧闭，几乎看不见。</li>
     <li>{PAWN_nameShort}的私密轮廓很淡，整体可见度相当低。</li>
@@ -2126,7 +2116,7 @@
     <li>匆匆一瞥露出一个极为紧凑而不起眼的女性身形，以她的年纪而言很自然。</li>
     <li>{PAWN_nameShort}的私处精巧的构造似乎悄然老去，却保养得当。</li>
     <li>阴唇几乎看不见，平滑地融为一体，是成熟女性的常见特征。</li>
-    <li>人几乎不会注意到 {PAWN_nameShort}的 生殖部位的存在，它显得如此平凡。</li>
+    <li>人几乎不会注意到 {PAWN_nameShort}的生殖部位的存在，它显得如此平凡。</li>
     <li>所观察到的女性器官尺寸极小，呈现出就她年纪而言含蓄而寻常的样子。</li>
     <li>匆匆一看，那对阴唇紧闭，几乎看不见，没什么不寻常。</li>
     <li>{PAWN_nameShort}的私密轮廓很淡，整体可见度相当低，颇为私密。</li>
@@ -2148,7 +2138,7 @@
     <li>匆匆一瞥露出一个极为紧凑的女性身形，含蓄而不起眼。</li>
     <li>{PAWN_nameShort}的私处精巧的构造显得含蓄而得体地老去。</li>
     <li>被观察的那处，阴唇几乎看不见，与岁月平滑地融为一体。</li>
-    <li>人几乎不会注意到 {PAWN_nameShort}的 生殖部位的存在，它显得如此收敛。</li>
+    <li>人几乎不会注意到 {PAWN_nameShort}的生殖部位的存在，它显得如此收敛。</li>
     <li>所观察到的女性器官尺寸极小，透着一种安静而端庄的样子。</li>
     <li>匆匆一看，那对阴唇紧闭，几乎看不见，是一种成熟的内敛。</li>
     <li>{PAWN_nameShort}的私密轮廓很淡，整体可见度相当低。</li>
@@ -2236,7 +2226,7 @@
     <li>匆匆一看露出一个极为小巧、不起眼的女性身形，相当低调。</li>
     <li>{PAWN_nameShort}的私处精巧的构造似乎相当整洁而收敛。</li>
     <li>被观察的那处，阴唇几乎看不见，平滑而齐整地融为一体。</li>
-    <li>人几乎不会注意到 {PAWN_nameShort}的 生殖部位的存在，它显得如此紧凑。</li>
+    <li>人几乎不会注意到 {PAWN_nameShort}的生殖部位的存在，它显得如此紧凑。</li>
     <li>所观察到的女性器官尺寸极小，显得十分整洁。</li>
     <li>匆匆一瞥，可见一对紧闭得几乎看不见的阴唇，相当自然。</li>
     <li>{PAWN_nameShort}的私密轮廓很淡，整体可见度相当低，且干净。</li>
@@ -2265,7 +2255,7 @@
     <li>阴蒂若存在的话，也深陷其中，从这个角度并不明显。</li>
     <li>被观察部位的深度看上去很浅，显得非常平坦而毫不起眼。</li>
     <li>私处的整体形态极其娇小，外观上几乎未发育。</li>
-    <li>由于尺寸微小，人很难辨认出 {PAWN_nameShort}的 阴唇的清晰特征。</li>
+    <li>由于尺寸微小，人很难辨认出 {PAWN_nameShort}的阴唇的清晰特征。</li>
     <li>私密部位的可见度低得惊人，几乎完全避开了随意的目光。</li>
     <li>{PAWN_nameShort}的私处所在的位置只有一道隐约的轮廓，看不出什么明确的细节。</li>
     <li>被观察的部位极小，几乎无缝地融入周围的皮肤。</li>
@@ -2280,7 +2270,7 @@
     <li>匆匆一瞥露出紧凑而略显端庄的女性构造。</li>
     <li>{PAWN_nameShort}的私处精巧的构造似乎被岁月悄然改变。</li>
     <li>阴唇几乎看不见，平滑地融为一体，是这一阶段的常见呈现。</li>
-    <li>人几乎不会注意到 {PAWN_nameShort}的 生殖部位的存在，它显得如此不起眼。</li>
+    <li>人几乎不会注意到 {PAWN_nameShort}的生殖部位的存在，它显得如此不起眼。</li>
     <li>所观察到的女性器官尺寸极小，形态就她的年纪而言含蓄而寻常。</li>
     <li>匆匆一看，那对阴唇紧闭，几乎看不见，这种情况很常见。</li>
     <li>{PAWN_nameShort}的私密轮廓很淡，整体可见度相当低。</li>
@@ -2323,7 +2313,7 @@
     <li>尽管尺寸细微，{PAWN_nameShort}的私处微妙的曲线仍旧引人注目。</li>
     <li>只消一瞥，便足以注意到她私处那紧凑的模样。</li>
     <li>那几乎看不见的阴唇轮廓，勾起了一阵安静的好奇。</li>
-    <li>人的目光被 {PAWN_nameShort}的 小巧而含蓄的生殖构造那隐秘的细节吸引。</li>
+    <li>人的目光被 {PAWN_nameShort}的小巧而含蓄的生殖构造那隐秘的细节吸引。</li>
     <li>那女性构造的小巧外观，让人浮想联翩。</li>
     <li>这处私密的身体部位正因为极小又被遮掩，反而有种奇异的吸引力。</li>
     <li>{PAWN_nameShort}的私处那含蓄的形态，透出一种安静而不张扬的存在感。</li>
@@ -2339,7 +2329,7 @@
     <li>那紧闭的阴唇透出一处受保护的私密空间。</li>
     <li>这副形体那极度的纤细反而更迷人，要辨认它是一种挑战。</li>
     <li>那私密部位不加张扬的特性，带着一种安静的偷窥吸引力。</li>
-    <li>观察 {PAWN_nameShort}的 私处那含蓄的存在感，令人安静地沉浸其中。</li>
+    <li>观察 {PAWN_nameShort}的私处那含蓄的存在感，令人安静地沉浸其中。</li>
   </Opinion_Vagina_Neutral_Micro_MatureFemale_observed_by_voyer.opinionTexts>
   <Opinion_Vagina_Neutral_Micro_PigNarrowVagina.opinionTexts>
     <li>{PAWN_nameShort}的私处尽管有猪类的影响，仍小得出人意料，是奇特的混合。</li>
@@ -2451,7 +2441,7 @@
     <li>一个非常含蓄的开口，{PAWN_nameShort}的内阴唇几乎看不见，让我想要把自己全部坦露。</li>
     <li>看来{PAWN_nameShort}的羞怯与我的天性截然相反，反倒撩起我自己想要暴露的欲望。</li>
     <li>{PAWN_nameShort}的阴蒂是几乎察觉不到的小凸起，与我大胆的意图形成对照。</li>
-    <li>{PAWN_nameShort}的外阴的整个区域都很娇小，相当整洁，让我不禁考虑起自己的呈现。</li>
+    <li>{PAWN_nameShort}的外阴的整个区域都很娇小，相当整洁，让我不禁考虑起自己的姿态。</li>
     <li>我注意到{PAWN_nameShort}的阴道口极其狭窄的形态，让我想展示更敞开的部位。</li>
     <li>非常紧致的外观，{PAWN_nameShort}的阴道褶紧紧贴合，让我急切地想要袒露自己。</li>
     <li>{PAWN_nameShort}的外阴那份纯净小巧十分明显，撩动我放浪不羁的渴望。</li>
@@ -2483,7 +2473,7 @@
     <li>一个非常含蓄的开口，{PAWN_nameShort}的内阴唇几乎看不见，让我想要把自己全部坦露，一股甜美的暖意。</li>
     <li>看来{PAWN_nameShort}的羞怯与我的天性截然相反，反倒撩起我自己想要暴露的欲望，我的下体也随之软了下来。</li>
     <li>{PAWN_nameShort}的阴蒂是几乎察觉不到的小凸起，与我大胆的意图形成对照，让我自己的也搏动起来。</li>
-    <li>{PAWN_nameShort}的外阴的整个区域都很娇小，相当整洁，让我不禁考虑起自己的呈现，一份美妙的期待。</li>
+    <li>{PAWN_nameShort}的外阴的整个区域都很娇小，相当整洁，让我不禁考虑起自己的姿态，一份美妙的期待。</li>
     <li>我注意到{PAWN_nameShort}的阴道口极其狭窄的形态，让我想展示更敞开的部位，我自己的待发之势显而易见。</li>
     <li>非常紧致的外观，{PAWN_nameShort}的阴道褶紧紧贴合，让我急切地想要袒露自己，一股甜美的压力在积聚。</li>
     <li>{PAWN_nameShort}的外阴那份纯净小巧十分明显，撩动我放浪不羁的渴望，我的深处也跟着悸动。</li>
@@ -2522,7 +2512,7 @@
     <li>我注意到{PAWN_nameShort}的几乎堪称迷你的阴唇那精妙的细节，每一道褶皱，感到一阵熟悉的紧绷。</li>
     <li>{PAWN_nameShort}的私处那份安静的含蓄，是我眼中难得的享受，我想暴露自己的欲望也随之滋长。</li>
     <li>我在{PAWN_nameShort}的外阴那含蓄的尺寸与纯净的状态中发现一种奇特的美，而我的器官随之骚动。</li>
-    <li>{PAWN_nameShort}的 那小巧构造难以尽情领略，而这正是其诱人之处；我的身体渐渐焦躁难耐。</li>
+    <li>{PAWN_nameShort}的那小巧构造难以尽情领略，而这正是其诱人之处；我的身体渐渐焦躁难耐。</li>
     <li>我的目光被{PAWN_nameShort}的阴道口那隐约的凹陷吸引，一股强烈的冲动升起。</li>
     <li>我以极大的乐趣静静端详{PAWN_nameShort}的那紧致的女性生殖器，感觉自己也硬了起来。</li>
     <li>{PAWN_nameShort}那几乎看不见的阴蒂和紧致的阴唇完全占据了我的注意力，引起深处一阵搏动。</li>
@@ -2554,7 +2544,7 @@
     <li>我注意到{PAWN_nameShort}的几乎堪称迷你的阴唇那精妙的细节，每一道褶皱，感到一股弥漫全身、无法逃避的渴求。</li>
     <li>{PAWN_nameShort}的私处那份安静的含蓄，是我眼中难得的享受，我的饥渴骤起。</li>
     <li>我在{PAWN_nameShort}的外阴那含蓄的尺寸与纯净的状态中发现一种奇特的美，一股不可动摇的欲望在积聚。</li>
-    <li>{PAWN_nameShort}的 那小巧构造难以尽情领略，而这正是其诱人之处；我的身体被渴望吞没。</li>
+    <li>{PAWN_nameShort}的那小巧构造难以尽情领略，而这正是其诱人之处；我的身体被渴望吞没。</li>
     <li>我的目光被{PAWN_nameShort}的阴道口那隐约的凹陷吸引，一股难以抗拒的冲动升起。</li>
     <li>我以极大的乐趣静静端详{PAWN_nameShort}的那紧致的女性生殖器，感到一份不肯停歇、灼热的渴望。</li>
     <li>{PAWN_nameShort}那几乎看不见的阴蒂和紧致的阴唇完全占据了我的注意力，引起一阵深切、酸胀的空虚。</li>
@@ -2586,7 +2576,7 @@
     <li>我注意到{PAWN_nameShort}的几乎堪称迷你的阴唇那精妙的细节，每一道褶皱，感到一股弥漫全身、无法逃避的渴求，我自己的体液在增多。</li>
     <li>{PAWN_nameShort}的私处那份安静的含蓄，是我眼中难得的享受，我的饥渴骤起，整个身心都充满了感觉。</li>
     <li>我在{PAWN_nameShort}的外阴那含蓄的尺寸与纯净的状态中发现一种奇特的美，一股不可动摇的欲望在积聚，我自己的深处在扩张。</li>
-    <li>{PAWN_nameShort}的 那小巧构造难以尽情领略，而这正是其诱人之处；我的身体被渴望吞没，酸胀地渴求着满足。</li>
+    <li>{PAWN_nameShort}的那小巧构造难以尽情领略，而这正是其诱人之处；我的身体被渴望吞没，酸胀地渴求着满足。</li>
     <li>我的目光被{PAWN_nameShort}的阴道口那隐约的凹陷吸引，一股难以抗拒的冲动升起，我的大腿内侧不住颤抖。</li>
     <li>我以极大的乐趣静静端详{PAWN_nameShort}的那紧致的女性生殖器，感到一份不肯停歇、灼热的感官之需。</li>
     <li>{PAWN_nameShort}那几乎看不见的阴蒂和紧致的阴唇完全占据了我的注意力，在我身体深处引起一阵深切、酸胀的空虚。</li>
@@ -2618,7 +2608,7 @@
     <li>我注意到{PAWN_nameShort}的几乎堪称迷你的阴唇那精妙的细节，每一道褶皱，感到一股弥漫全身、无法逃避的渴求，我的勃起在增长。</li>
     <li>{PAWN_nameShort}的私处那份安静的含蓄，是我眼中难得的享受，我的饥渴骤起，我整个胯下都活了起来。</li>
     <li>我在{PAWN_nameShort}的外阴那含蓄的尺寸与纯净的状态中发现一种奇特的美，一股不可动摇的欲望在积聚，我的鸡巴几乎要炸开。</li>
-    <li>{PAWN_nameShort}的 那小巧构造难以尽情领略，而这正是其诱人之处；我的身体被渴望吞没，酸胀地渴求着插入。</li>
+    <li>{PAWN_nameShort}的那小巧构造难以尽情领略，而这正是其诱人之处；我的身体被渴望吞没，酸胀地渴求着插入。</li>
     <li>我的目光被{PAWN_nameShort}的阴道口那隐约的凹陷吸引，一股难以抗拒的冲动升起，我的阴茎此刻完全充血挺立。</li>
     <li>我以极大的乐趣静静端详{PAWN_nameShort}的那紧致的女性生殖器，感到一份不肯停歇、灼热的连接之需。</li>
     <li>{PAWN_nameShort}那几乎看不见的阴蒂和紧致的阴唇完全占据了我的注意力，在我的阴囊里引起一阵深切、酸胀的空虚。</li>
@@ -2682,7 +2672,7 @@
     <li>我注意到{PAWN_nameShort}的几乎堪称迷你的阴唇那精妙的细节，每一道褶皱。</li>
     <li>{PAWN_nameShort}的私处那份安静的含蓄，是我眼中难得的享受。</li>
     <li>我在{PAWN_nameShort}的外阴那含蓄的尺寸与纯净的状态中发现一种奇特的美。</li>
-    <li>{PAWN_nameShort}的 那小巧构造难以尽情领略，而这正是其诱人之处。</li>
+    <li>{PAWN_nameShort}的那小巧构造难以尽情领略，而这正是其诱人之处。</li>
     <li>我的目光被{PAWN_nameShort}的阴道口那隐约的凹陷吸引。</li>
     <li>我以极大的乐趣静静端详{PAWN_nameShort}的那紧致的女性生殖器。</li>
     <li>{PAWN_nameShort}那几乎看不见的阴蒂和紧致的阴唇完全占据了我的注意力。</li>
@@ -2704,7 +2694,7 @@
     <li>匆匆一瞥{PAWN_nameShort}的极小的构造，给我自身带来一丝微弱的快感。</li>
     <li>{PAWN_nameShort}的阴道那紧致而年轻的模样，让我不由自主地微微一缩。</li>
     <li>我的目光流连在{PAWN_nameShort}的极小的阴蒂上，只激起一丝几乎察觉不到的悸动。</li>
-    <li>观察着 {PAWN_nameShort}的 极小的私处，让我产生了幻肢般的感觉。</li>
+    <li>观察着 {PAWN_nameShort}的极小的私处，让我产生了幻肢般的感觉。</li>
     <li>{PAWN_nameShort}的紧闭的外阴有种诱人的气息，我自己的身体里也随之微微搏动。</li>
     <li>{PAWN_nameShort}的阴道那极小的尺寸，竟出乎意料地勾起了些许反应。</li>
     <li>凝视{PAWN_nameShort}的那精致细小的开口时，我察觉到自己的身体有了细微的反应。</li>
@@ -2736,7 +2726,7 @@
     <li>匆匆一瞥{PAWN_nameShort}的极小的构造，给我下身带来一丝微弱的快感。</li>
     <li>{PAWN_nameShort}的阴道那紧致而年轻的模样，让我不由自主地微微一缩。</li>
     <li>我的目光流连在{PAWN_nameShort}的极小的阴蒂上，只激起一丝几乎察觉不到的悸动。</li>
-    <li>观察着 {PAWN_nameShort}的 极小的私处，让我产生了幻肢般的勃起。</li>
+    <li>观察着 {PAWN_nameShort}的极小的私处，让我产生了幻肢般的勃起。</li>
     <li>{PAWN_nameShort}的紧闭的外阴有种诱人的气息，我自己的胯下随之微微搏动。</li>
     <li>{PAWN_nameShort}的阴道那极小的尺寸，竟出乎意料地勾起了些许反应。</li>
     <li>凝视{PAWN_nameShort}的那精致细小的开口时，我察觉到自己的身体有了细微的反应。</li>
@@ -2758,7 +2748,7 @@
     <li>{PAWN_nameShort}的小巧的外阴在我身上引起了一阵明确而微妙的生理反应。</li>
   </Opinion_Vagina_Neutral_Micro_trait_Voyeur_M.opinionTexts>
   <Opinion_Vagina_Neutral_Tight.opinionTexts>
-    <li>注意到 {PAWN_nameShort}的 紧致的阴道，它也算有几分贴合，虽说并不太出众。</li>
+    <li>注意到 {PAWN_nameShort}的紧致的阴道，它也算有几分贴合，虽说并不太出众。</li>
     <li>我观察着{PAWN_nameShort}的尺寸适中的阴道开口，内阴唇小巧，明显地紧窄。</li>
     <li>我细看{PAWN_nameShort}的阴道，紧凑，深度明显比常人浅。</li>
     <li>我瞥了一眼{PAWN_nameShort}的那紧实的阴道，外表光滑无毛，触感坚挺不屈服。</li>
@@ -2776,21 +2766,21 @@
     <li>当我更仔细地端详{PAWN_nameShort}的外阴时，被那平滑紧实的阴唇所吸引——它们紧紧贴合周围的轮廓，勾勒出流线般连绵不断的曲线。</li>
     <li>匆匆一瞥露出{PAWN_nameShort}的异常小巧的阴道口，被绷紧而僵硬的阴唇衬着。</li>
     <li>{PAWN_nameShort}的生殖器的外观显示出极有限的深度，皮褶紧致而不柔顺。</li>
-    <li>观察着 {PAWN_nameShort}的 外阴，内侧阴唇几乎看不见，紧紧贴着一处狭窄的入口。</li>
+    <li>观察着 {PAWN_nameShort}的外阴，内侧阴唇几乎看不见，紧紧贴着一处狭窄的入口。</li>
     <li>{PAWN_nameShort}的阴蒂几乎被周围紧实小巧的褶皱藏了起来。</li>
     <li>{PAWN_nameShort}的阴道给人的整体印象是一种极度的紧致，几乎密封。</li>
     <li>匆匆一看表明{PAWN_nameShort}的阴道开口极为紧窄，几乎毫不松弛。</li>
     <li>{PAWN_nameShort}的阴道构造显得格外狭窄，阴唇深陷而紧凑。</li>
     <li>{PAWN_nameShort}的阴道口的小巧相当醒目，暗示着容量十分有限。</li>
     <li>一注意到{PAWN_nameShort}的阴道，它那紧致得几乎毫不退让的样子便立刻印入脑海。</li>
-    <li>{PAWN_nameShort}的 小巧外阴上的阴蒂纤细娇小，嵌在贴合得很紧的阴唇之间。</li>
+    <li>{PAWN_nameShort}的小巧外阴上的阴蒂纤细娇小，嵌在贴合得很紧的阴唇之间。</li>
     <li>{PAWN_nameShort}的阴道的深度似乎特别浅，内壁的褶皱被拉得紧绷。</li>
-    <li>{PAWN_nameShort}的 阴道口那紧凑的样子给人一种明显收缩的感觉。</li>
+    <li>{PAWN_nameShort}的阴道口那紧凑的样子给人一种明显收缩的感觉。</li>
     <li>匆匆一眼看去，{PAWN_nameShort}的阴道口小得出人意料，几乎只是一道缝。</li>
     <li>{PAWN_nameShort}的外阴由于紧致的构造，呈现出非常整洁、几乎封闭的外观。</li>
     <li>{PAWN_nameShort}的阴道的构造明显狭窄，阴唇几乎没什么外凸。</li>
-    <li>注意到 {PAWN_nameShort}的 的阴道口，看起来明显受限而紧实。</li>
-    <li>{PAWN_nameShort}的 阴道的阴蒂包皮贴得很近，暗示着一种紧凑而僵硬的形态。</li>
+    <li>注意到 {PAWN_nameShort}阴道口，看起来明显受限而紧实。</li>
+    <li>{PAWN_nameShort}的阴道的阴蒂包皮贴得很近，暗示着一种紧凑而僵硬的形态。</li>
     <li>{PAWN_nameShort}的身体部位给整体印象是一处紧紧闭合、几乎牢不可破的空间。</li>
     <li>{PAWN_nameShort}的阴道显得格外小巧，几乎看不出深度或扩张。</li>
     <li>{PAWN_nameShort}的阴道的阴唇格外紧致，外观极为窄小紧凑。</li>
@@ -2801,7 +2791,7 @@
   </Opinion_Vagina_Neutral_Tight.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_CatVagina.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道，带着猫类特征，顺滑紧凑而不寻常。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口明显像猫，看上去相当狭窄。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口明显像猫，看上去相当狭窄。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致，带着猫科特征，是一幅奇特的景象。</li>
     <li>{PAWN_nameShort}的受猫基因影响的紧实不屈的阴道，呈现出一种奇特而优雅的构造。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质带着猫类特征，引人遐想。</li>
@@ -2820,7 +2810,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致，一项猫类特征，公然可见，相当醒目。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，还掺着猫类基因，相当独特。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，带着猫类特征，相当明显而古怪。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，公然展示，带着猫类的优雅。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，公然展示，带着猫类的优雅。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，却完全外露着，且明显带有猫科特征。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造带着猫基因的影响，完全暴露无遗。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态，坦然展露，带有猫科特征。</li>
@@ -2833,7 +2823,7 @@
   </Opinion_Vagina_Neutral_Tight_CatVagina.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_DemonVagina.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道，带着魔性特征，紧凑而异样得令人不安。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口明显像恶魔，看上去相当狭窄而不祥。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口明显像恶魔，看上去相当狭窄而不祥。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致，带着邪恶的质感，是一幅奇异而令人不安的景象。</li>
     <li>{PAWN_nameShort}的受魔族基因影响的紧实不屈的阴道，呈现出一种奇特、近乎非自然的构造。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质带着恶魔特征，引人遐想却令人不适。</li>
@@ -2852,7 +2842,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致，一项魔性特征，公然可见，以黑暗的方式相当醒目。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，还掺着恶魔基因，相当独特，也令人不安。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，带着恶魔类特征，相当明显而古怪，几乎亵渎神明。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，公然展示，带着恶魔的异样。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，公然展示，带着恶魔的异样。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，却完全外露着，且明显带有恶魔特征。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造带着恶魔基因的影响，完全暴露无遗，令人不安。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态，坦然展露，带有恶魔痕迹。</li>
@@ -2865,7 +2855,7 @@
   </Opinion_Vagina_Neutral_Tight_DemonVagina.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_DogVagina.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道，带着犬类特征，紧凑而独特得古怪。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口明显像犬，看上去相当狭窄。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口明显像犬，看上去相当狭窄。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致，带着犬类特征，是一幅奇特的景象。</li>
     <li>{PAWN_nameShort}的受犬类基因影响的紧实不屈的阴道，呈现出一种奇特的构造。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质带着犬类特征，引人遐想。</li>
@@ -2884,7 +2874,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致，一项犬类特征，公然可见。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，还掺着犬类基因，相当独特。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，带着犬类特征，相当明显而古怪。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，公然展示，带着犬类的异样。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，公然展示，带着犬类的异样。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，却完全外露着，且明显带有犬类特征。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造带着犬基因的影响，完全暴露无遗。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态，坦然展露，带有犬类特征。</li>
@@ -2897,7 +2887,7 @@
   </Opinion_Vagina_Neutral_Tight_DogVagina.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_DragonVagina.opinionTexts>
     <li>{PAWN_nameShort}的紧致的阴道，带着龙类特征，紧凑而分明，令人印象深刻。</li>
-    <li>{PAWN_nameShort}的 外阴那紧凑的开口明显像龙，看上去相当狭窄而覆鳞。</li>
+    <li>{PAWN_nameShort}的外阴那紧凑的开口明显像龙，看上去相当狭窄而覆鳞。</li>
     <li>{PAWN_nameShort}的内侧阴唇的紧致，带着爬行类特征，是一幅奇异而壮观的景象。</li>
     <li>{PAWN_nameShort}的受龙类基因影响的紧实不屈的阴道，呈现出一种奇特、近乎原始的构造。</li>
     <li>{PAWN_nameShort}的阴道入口那精致、近乎闭合的特质带着龙族特征，既引人遐想又充满力量。</li>
@@ -2916,7 +2906,7 @@
     <li>{PAWN_nameShort}的外阴格外的紧致，一项龙类特征，公然可见，以原始的方式相当醒目。</li>
     <li>{PAWN_nameShort}的阴道的内部结构显得有限，还掺着龙族基因，相当独特而强大。</li>
     <li>{PAWN_nameShort}的阴道口那醒目的娇小，带着龙类特征，相当明显而古怪，几乎堪称传奇。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，公然展示，带着龙类的异样。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，公然展示，带着龙类的异样。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被保护得很好，却完全外露着，且明显带有龙类特征。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造带着龙基因的影响，完全暴露无遗，气势逼人。</li>
     <li>短暂一看{PAWN_nameShort}的阴道口，确认它诱人的紧凑状态，坦然展露，带有龙族痕迹。</li>
@@ -2995,7 +2985,7 @@
   </Opinion_Vagina_Neutral_Tight_ElderFemale_observed_by_Elder_male.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_ElderFemale_observed_by_Exhibitionist.opinionTexts>
     <li>那私处露了出来，紧凑的形状配上整齐闭合的阴唇，显得含蓄而不张扬。</li>
-    <li>展露的构造很是含蓄，外侧的褶皱轮廓分明却并不张扬，是一种毫不夸张的呈现。</li>
+    <li>展露的构造很是含蓄，外侧的褶皱轮廓分明却并不张扬，是一种毫不夸张的姿态。</li>
     <li>突然一瞥私密部位，呈现出一副相当普通的形状，阴唇紧密相贴，暗示着紧致。</li>
     <li>那形态相当收拢，外侧阴唇并未外翻蔓延，显示出一种天然的紧凑设计，任人观看。</li>
     <li>那微微的张开让人得以匆匆一瞥，露出一个狭窄而紧闭的孔洞，算是一点含蓄的展露。</li>
@@ -3172,17 +3162,17 @@
   <Opinion_Vagina_Neutral_Tight_Elderly_Female_opinion.opinionTexts>
     <li>{PAWN_nameShort}的阴道显得相当小巧整洁，一如青春年少的模样。</li>
     <li>{PAWN_nameShort}的阴道口那份年轻的紧致相当明显。</li>
-    <li>人观察着 {PAWN_nameShort}的 阴唇那紧凑、几乎无瑕的模样。</li>
+    <li>有人观察着 {PAWN_nameShort}的阴唇那紧凑、几乎无瑕的模样。</li>
     <li>{PAWN_nameShort}的阴蒂小巧而含蓄地收着，是更年轻构造的特征。</li>
     <li>{PAWN_nameShort}的阴道给人的整体印象是自然、不肯妥协的青春。</li>
     <li>匆匆一瞥确认{PAWN_nameShort}的内褶的紧致，表明是自然状态。</li>
     <li>{PAWN_nameShort}的娇嫩的阴道口紧得出人意料，是初成年时期的特征。</li>
     <li>{PAWN_nameShort}的外阴紧实，带着尚未发育的印记。</li>
-    <li>人注意到 {PAWN_nameShort}的 阴道部位那紧凑而似乎未被触碰过的质感。</li>
+    <li>有人注意到 {PAWN_nameShort}的阴道部位那紧凑而似乎未被触碰过的质感。</li>
     <li>{PAWN_nameShort}的阴道的狭窄，是它年纪尚小的明显标志。</li>
     <li>{PAWN_nameShort}的阴唇紧紧收拢，呈现出一副小巧、未曾舒展的形态。</li>
     <li>匆匆一看，发现{PAWN_nameShort}的身上有个明显偏小的阴道口。</li>
-    <li>{PAWN_nameShort}的 紧致外阴上的阴蒂纤细娇小，轮廓却十分分明。</li>
+    <li>{PAWN_nameShort}的紧致外阴上的阴蒂纤细娇小，轮廓却十分分明。</li>
     <li>{PAWN_nameShort}的阴道呈现出适度的深度，与其年轻的外观相称。</li>
     <li>{PAWN_nameShort}的私处那份纯净的紧缩感相当清晰可见。</li>
     <li>{PAWN_nameShort}的阴道褶皱那份整洁说明它自然、无牵无挂的状态。</li>
@@ -3202,19 +3192,19 @@
     <li>{PAWN_nameShort}的阴蒂几乎看不见，齐整地收在紧致的开口里。</li>
   </Opinion_Vagina_Neutral_Tight_Elderly_Female_opinion.opinionTexts>
   <Opinion_Vagina_Neutral_Tight_Elderly_Male_opinion.opinionTexts>
-    <li>人注意到 {PAWN_nameShort}的 阴道那保守而略显清纯的模样，令人想起青春。</li>
+    <li>有人注意到 {PAWN_nameShort}的阴道那保守而略显清纯的模样，令人想起青春。</li>
     <li>{PAWN_nameShort}的小巧的阴道开口似乎在诉说着缺乏经验，是一枚紧紧闭合的花蕾。</li>
     <li>看到{PAWN_nameShort}的紧致的外阴，唤起一段遥远的记忆，那是往昔时代的理想。</li>
     <li>{PAWN_nameShort}的阴道看起来格外紧实、未被触碰，与那些历经风霜的形态形成鲜明对比。</li>
     <li>{PAWN_nameShort}的小阴唇紧绷得近乎天真，几乎难以看清。</li>
     <li>{PAWN_nameShort}的阴蒂的小巧与它整齐的包裹，透出一种柔嫩的生理构造。</li>
     <li>{PAWN_nameShort}的娇嫩得几乎紧韧的阴道口，给人一种初绽的感觉。</li>
-    <li>{PAWN_nameShort}的外阴那份年轻的紧实无可否认，是一种自然无瑕的呈现。</li>
+    <li>{PAWN_nameShort}的外阴那份年轻的紧实无可否认，是一种自然无瑕的姿态。</li>
     <li>观察着{PAWN_nameShort}的生殖器，人注意到那穴口紧凑、几乎无忧无虑的模样。</li>
     <li>{PAWN_nameShort}的阴道显得相当局促，印证着它初生的发育状态。</li>
     <li>{PAWN_nameShort}的阴唇紧紧收拢，呈现出一副极为窄小的轮廓。</li>
     <li>一瞥之下显出一个小得令人意外的阴道开口，正是年轻的特征。</li>
-    <li>{PAWN_nameShort}的 紧致外阴上的阴蒂小巧，却形态完美。</li>
+    <li>{PAWN_nameShort}的紧致外阴上的阴蒂小巧，却形态完美。</li>
     <li>{PAWN_nameShort}的阴道有着适度的深度，看起来未被时光侵蚀。</li>
     <li>{PAWN_nameShort}的私处给人的整体印象是自然、青春的紧致。</li>
     <li>{PAWN_nameShort}的阴道褶皱那份整洁，暗示着一种未经触碰的原始状态。</li>
@@ -3222,7 +3212,7 @@
     <li>{PAWN_nameShort}的外阴似乎格外紧，外观上几乎像处女一般。</li>
     <li>{PAWN_nameShort}的阴道的内部结构暗示着一片非常有限、从未被撑开的空间。</li>
     <li>{PAWN_nameShort}的阴道口朴素的尺寸格外显眼，透着未成熟的气息。</li>
-    <li>人不禁注意到 {PAWN_nameShort}的 阴唇那不肯退让的紧实，紧紧闭合。</li>
+    <li>人不禁注意到 {PAWN_nameShort}的阴唇那不肯退让的紧实，紧紧闭合。</li>
     <li>{PAWN_nameShort}的阴蒂小巧，被周围紧致的组织好好保护着。</li>
     <li>{PAWN_nameShort}的阴道那极度狭窄的构造显而易见，是年轻的特征。</li>
     <li>简单一瞥便确认了{PAWN_nameShort}的阴道口那小巧而未发育的状态。</li>

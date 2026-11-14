@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 11/39 · 共 2992 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Breasts_Negative_Large_MatureFemale_observed_by_middle_aged_Female.opinionTexts>
     <li>她的乳房又大又垂，让我对自己的那对生出一股扭曲的得意。</li>
     <li>那对巨大成熟的乳房是一团无形状的乱摊；我可不愿背负这样的负担。</li>
@@ -69,7 +59,7 @@
     <li>那乳头在那对庞大的球体上，露得太过显眼，令人不适。</li>
     <li>她的乳房无比巨大，早已过了鼎盛期，让这场偷窥变得相当难看。</li>
     <li>那对巨大而瘪塌的乳房无法忽视，看着真是……不知该说是好是坏。</li>
-    <li>观察 {PAWN_nameShort}的 乳房的庞大体积，我明显感到毫无兴奋。</li>
+    <li>观察 {PAWN_nameShort}的乳房的庞大体积，我明显感到毫无兴奋。</li>
     <li>她巨大胸部的下垂与摇晃十分明显，泄露了岁月的痕迹。</li>
     <li>一份沉重而累赘的负担，她的乳房让人无法忽视，却给不了任何刺激。</li>
     <li>那对硕大疲惫的乳房似乎带着抗拒地屈服于引力，就那样垂着。</li>
@@ -83,7 +73,7 @@
     <li>这对乳房呈现出令人不适的突出隆起，与其硕大的分类相符，毫无可取之处。</li>
     <li>那丰硕的曲线以怪诞的方式反射光线，形成难看的高光，以及一副累赘而令人不快的模样。</li>
     <li>它们看起来在功能上是负担，尺寸明显是劣势，让动作显得吃力而笨拙。</li>
-    <li>人观察着它们，作为 {PAWN_nameShort}的 胸中一个过分惹眼的部分，令人不适地占据了整个视野。</li>
+    <li>有人观察着它们，作为 {PAWN_nameShort}的胸中一个过分惹眼的部分，令人不适地占据了整个视野。</li>
     <li>它们的规模实在太过，超出理想比例，呈现出夸张而毫无吸引力的景象。</li>
     <li>这质地与史莱姆一致，却沉重迟钝得令人不适，传达不出丝毫轻盈或柔软。</li>
     <li>作为一项身体特征，这对硕大的史莱姆乳房是不幸的赘余，有损吸引力，而且显得笨重。</li>
@@ -101,7 +91,7 @@
   </Opinion_Breasts_Negative_Large_SlimeBreasts.opinionTexts>
   <Opinion_Breasts_Negative_Large_trait_Kind.opinionTexts>
     <li>{PAWN_nameShort}的乳房毫无疑问很大。希望它们不会给{PAWN_objective}带来不适或背痛。</li>
-    <li>哦，{PAWN_nameShort}的 乳房相当丰满。我真心希望 {PAWN_pronoun} 能安然接纳自己的身体，尽管它们尺寸如此惹眼。</li>
+    <li>哦，{PAWN_nameShort}的乳房相当丰满。我真心希望 {PAWN_pronoun} 能安然接纳自己的身体，尽管它们尺寸如此惹眼。</li>
     <li>我注意到{PAWN_nameShort}的硕大的乳房。要找到既合身又能好好支撑的衣服，想必很不容易。</li>
     <li>那可真是一对。希望{PAWN_nameShort}不会因{PAWN_possessive}硕大乳房而自卑；美有各种形态。</li>
     <li>{PAWN_nameShort}的乳房确实相当突出。我只希望{PAWN_pronoun}对{PAWN_possessive}现在的身体感到满意。</li>
@@ -369,7 +359,7 @@
     <li>我对那纯粹的尺寸感到退避，可{PAWN_nameShort}的乳房却有一种令人作呕的诱惑，是我阴暗观察的完美对象。</li>
     <li>{PAWN_nameShort}的乳房是解剖学夸张的见证，一幕毫不动人却仍牢牢攫住我全部注意力的景象。</li>
     <li>我的目光停留在{PAWN_nameShort}的那对巨大的乳房上，觉得那毫无形状的一大团既令人厌恶，又奇异地引人注目。</li>
-    <li>{PAWN_nameShort}的 乳房那笨拙的晃动，配上又大又黑的乳头，实在毫无优雅可言，我却移不开眼。</li>
+    <li>{PAWN_nameShort}的乳房那笨拙的晃动，配上又大又黑的乳头，实在毫无优雅可言，我却移不开眼。</li>
     <li>{PAWN_nameShort}的那对过大的乳房，是场令人作呕的展示，而我是个心甘情愿的可耻看客。</li>
     <li>{PAWN_nameShort}的乳房大得荒唐，真是碍眼，可我的偷窥冲动却逼我细看每一阵尴尬的晃动。</li>
     <li>她丰满的乳房几乎像是对形体的滑稽模仿，可我的目光却病态地着迷，沿着那毫无吸引力的轮廓游走。</li>
@@ -399,7 +389,7 @@
     <li>{PAWN_nameShort}的乳房溢出的样子令人极度不安，可我却感到一股可耻的肉欲向往在自己的血肉里骚动，一阵搏动的暖意。</li>
     <li>它们实在大得过分，可我却发现自己被{PAWN_nameShort}的乳房那纯粹而不体面的体积、以及它们引起的不适的性唤起所俘获。</li>
     <li>{PAWN_nameShort}的乳房如此笨拙、比例失调，却仍对我这衰老而变态的心智有一种扭曲的吸引力，还有一处明显的搏动。</li>
-    <li>令人厌恶，却又令人沉醉。{PAWN_nameShort}的 巨大的乳房是一场粗俗的奇观，激起了我自己沉睡而羞耻的欲望。</li>
+    <li>令人厌恶，却又令人沉醉。{PAWN_nameShort}的巨大的乳房是一场粗俗的奇观，激起了我自己沉睡而羞耻的欲望。</li>
     <li>看着{PAWN_nameShort}的乳房那令人作呕的巨硕，我自己的肉体记起了什么。一股羞耻的热意在体内升起。</li>
     <li>光是看到{PAWN_nameShort}的乳房，就让我充满一种自我厌恶的渴望，一种我以为早已摆脱的卑劣感觉，还有一阵奇异的酥麻。</li>
     <li>它们是{PAWN_objective}的负担，对我而言却是一种变态的欢愉。{PAWN_nameShort}的超大的乳房唤醒了我体内一种卑下可耻的本能。</li>
@@ -488,7 +478,7 @@
     <li>“乏善可陈”一词的定义，就是{PAWN_nameShort}的胸部与那完全不曾凸起的乳头。</li>
     <li>我在墙上见过更显眼的隆起。{PAWN_nameShort}的乳头简直侮辱了乳头这个词。</li>
     <li>就是一片平坦的胸板，那两个乳头也丝毫改善不了这惨淡的景象。</li>
-    <li>人很容易完全忽略 {PAWN_nameShort}的 的乳房；那乳头毫无任何值得一提之处。</li>
+    <li>人很容易完全忽略 {PAWN_nameShort}乳房；那乳头毫无任何值得一提之处。</li>
     <li>这景象令人困惑：{PAWN_nameShort}的平坦的胸部，还有那仿佛想躲起来的乳头。</li>
     <li>我见过比{PAWN_nameShort}的乳头更吸引人的疤痕。这胸就是……平。</li>
     <li>整个胸部平坦无奇，让{PAWN_nameShort}的乳头像是临时加上去的，而且加得很糟。</li>
@@ -753,8 +743,8 @@
     <li>我在孩子身上见过更丰满的形态。{PAWN_nameShort}的胸部是个可悲的例子。</li>
     <li>一副真正毫无记忆点的胸部。那乳头几乎不值一提。</li>
     <li>真是失望。{PAWN_nameShort}的乳房完全平坦，配着一对难看的乳头。</li>
-    <li>我在如此平坦的呈现中找不到优雅或格调。{PAWN_nameShort}的乳头那么小。</li>
-    <li>不过是一片平坦的表面。{PAWN_nameShort}的乳头几乎只是两个小点。</li>
+    <li>我在这么平的一片中找不到优雅或格调。{PAWN_nameShort}的乳头那么小。</li>
+    <li>不过是一片一片平。{PAWN_nameShort}的乳头几乎只是两个小点。</li>
     <li>一副完全乏味的形态。{PAWN_nameShort}的胸部毫无女性魅力。</li>
     <li>{PAWN_nameShort}的发育不足的乳房和那极小的乳头让我大失所望。</li>
     <li>没有什么真正值得看或欣赏的。{PAWN_nameShort}的平坦的胸部是一片虚空。</li>
@@ -771,7 +761,7 @@
     <li>连我这变态的目光，也在{PAWN_nameShort}的平坦的胸部和极小的乳头里找不到任何刺激。令人失望。我自己的虽然有点下垂，可至少还在！</li>
     <li>我想寻求刺激，可{PAWN_nameShort}的那对发育不足的乳房和几乎看不见的乳头完全激不起欲望。</li>
     <li>多么平坦、多么乏味的景象。{PAWN_nameShort}的乳头激不起任何刺激。我自己的乳房感觉更有生气。</li>
-    <li>我这偷窥的冲动依旧沉睡。{PAWN_nameShort}的 胸部太平，乳头太微不足道。</li>
+    <li>我这偷窥的冲动依旧沉睡。{PAWN_nameShort}的胸部太平，乳头太微不足道。</li>
     <li>我以为会看到更动人的展示。{PAWN_nameShort}的乳房对我这双堕落的眼睛毫无可看之处。</li>
     <li>这在我心里点不起半点火。{PAWN_nameShort}的乳头就是一副可怜又平坦的现实。</li>
     <li>彻底的失望。我自己的胸部虽然上了年纪，也比{PAWN_nameShort}的那片荒芜的前胸更有型。</li>
@@ -855,7 +845,7 @@
     <li>真是一幅毫无性致的景象。{PAWN_nameShort}的胸部与它的乳头完全没有任何性感可言。</li>
     <li>我明显什么感觉都没有。{PAWN_nameShort}的乳头太平了，激不起任何反应。</li>
     <li>这景象取悦不了我。{PAWN_nameShort}的乳房平坦，乳头也毫无看点。</li>
-    <li>{PAWN_nameShort}的 那贫瘠的胸部让我这偷窥的欲望完全落空。</li>
+    <li>{PAWN_nameShort}的那贫瘠的胸部让我这偷窥的欲望完全落空。</li>
     <li>我移开目光，被{PAWN_nameShort}的胸部的极度平坦以及那对微小、毫无吸引力的乳头所恶心到。</li>
     <li>令人失望的平坦。看到{PAWN_nameShort}的那毫无灵气的乳头，我的阴茎不禁退缩。</li>
     <li>没有曲线可循，没有形态可赏。{PAWN_nameShort}的胸部是一片平坦而乏味的疆域。</li>
@@ -889,7 +879,7 @@
     <li>这丝毫引不起我的兴趣。{PAWN_nameShort}的平坦的胸部反倒让人退避。</li>
     <li>我惊讶于那里什么都没有……什么都缺。{PAWN_nameShort}的乳头小得要用显微镜看。</li>
     <li>令人气馁的一景。{PAWN_nameShort}的乳房对我来说太扁平了。</li>
-    <li>我的身体反应只是……漠然。{PAWN_nameShort}的 的乳头毫无看点。</li>
+    <li>我的身体反应只是……漠然。{PAWN_nameShort}乳头毫无看点。</li>
     <li>我没有感到一丝吸引力。{PAWN_nameShort}的胸部平坦而不诱人。</li>
     <li>多么乏味、毫无灵气的景象。那对乳头就摆在那儿，毫无作为。</li>
     <li>我宁可去看墙。{PAWN_nameShort}的胸脯太平了，实在没什么看头。</li>
@@ -1163,16 +1153,16 @@
     <li>虽然我不会出声评论，但{PAWN_nameShort}的胸部确实……低调。乳头也相当含蓄。</li>
     <li>我努力保持礼貌，可{PAWN_nameShort}的乳房实在太平。这可真是极简的展示。</li>
     <li>虽不理想，但我还是不作苛评了。{PAWN_nameShort}的乳头非常小。</li>
-    <li>人观察着，只是……记下那明显的曲线缺失。{PAWN_nameShort}的 胸部相当平坦。</li>
-    <li>或许不是最赏心悦目的，但也就这样了。{PAWN_nameShort}的 的乳头很保守。</li>
+    <li>有人观察着，只是……记下那明显的曲线缺失。{PAWN_nameShort}的胸部相当平坦。</li>
+    <li>或许不是最赏心悦目的，但也就这样了。{PAWN_nameShort}乳头很保守。</li>
     <li>我试着看到每个人最好的一面，但{PAWN_nameShort}的乳房明显平坦。</li>
     <li>形态相当平淡，乳头也毫不突出。我还是关注别的吧。</li>
-    <li>人本希望更多，但只能接受眼前所见。{PAWN_nameShort}的 平坦的胸部是既成事实。</li>
+    <li>人本希望更多，但只能接受眼前所见。{PAWN_nameShort}的平坦的胸部是既成事实。</li>
     <li>一个相当缺乏灵感的轮廓，不过我不会多想。{PAWN_nameShort}的乳头相当温顺。</li>
     <li>我相信{PAWN_nameShort}的一定有别的可取之处，毕竟这胸实在太平了。</li>
     <li>它绝对不是焦点。{PAWN_nameShort}的乳头非常、非常小。</li>
     <li>我试着保持积极的心态，但{PAWN_nameShort}的胸部是平坦的鲜明例证。</li>
-    <li>人当然注意到整体的发育不足。{PAWN_nameShort}的 乳房一片平坦。</li>
+    <li>人当然注意到整体的发育不足。{PAWN_nameShort}的乳房一片平坦。</li>
     <li>这是简单、朴素的胸部。乳头几乎不存在，有点遗憾。</li>
     <li>我不想让谁难堪，可{PAWN_nameShort}的胸脯平坦得无可否认。</li>
     <li>一幅略显失望的景象，但这种事也可以忽略。{PAWN_nameShort}的乳头并不显眼。</li>
@@ -1182,12 +1172,12 @@
     <li>一副相当不成熟的样貌，但也该宽容些。{PAWN_nameShort}的乳头几乎还没成形。</li>
     <li>我只消看一眼{PAWN_nameShort}的平坦的胸脯，然后继续往前走就是了。</li>
     <li>这是极简解剖学的明证。{PAWN_nameShort}的乳头小得惊人。</li>
-    <li>人本希望有更明显的特征，但 {PAWN_nameShort}的 乳房相当平坦。</li>
+    <li>人本希望有更明显的特征，但 {PAWN_nameShort}的乳房相当平坦。</li>
     <li>我尽量说得客气些，但{PAWN_nameShort}的平坦胸部的视觉冲击力实在很低。</li>
-    <li>一次相当含蓄的呈现。{PAWN_nameShort}的乳头谈不上突出。</li>
+    <li>一次相当含蓄的姿态。{PAWN_nameShort}的乳头谈不上突出。</li>
     <li>我想找出些正面的地方，但{PAWN_nameShort}的平坦的胸部让这颇为困难。</li>
     <li>这是片格外平坦的旷野，乳头也同样不起眼。</li>
-    <li>人几乎会忽略它们。{PAWN_nameShort}的 乳房相当平坦，乳头也非常小。</li>
+    <li>人几乎会忽略它们。{PAWN_nameShort}的乳房相当平坦，乳头也非常小。</li>
     <li>我选择关注内在美，毕竟{PAWN_nameShort}的胸部在外形上确实相当欠缺。</li>
     <li>温柔地打量之下，显出明显的平坦。{PAWN_nameShort}的乳头实在算不上大胆。</li>
   </Opinion_Breasts_Negative_Nipples_trait_Kind.opinionTexts>
@@ -1207,7 +1197,7 @@
     <li>这激不起我袒露自己的兴致。{PAWN_nameShort}的乳房实在太扁了。</li>
     <li>毫无形态，坦白说对我这暴露癖的感受力是一种冒犯。{PAWN_nameShort}的乳头可怜得很。</li>
     <li>我渴望惊叹，可{PAWN_nameShort}的胸部只让人打哈欠。那乳头什么都不是。</li>
-    <li>多么乏味的呈现。{PAWN_nameShort}的平坦的乳房没有任何理由停留。</li>
+    <li>真是乏味。{PAWN_nameShort}的平坦的乳房没有任何理由停留。</li>
     <li>我内心展示的冲动被{PAWN_nameShort}的那毫无启发性的胸部压了下去。</li>
     <li>这里没有什么真正值得展露的。{PAWN_nameShort}的乳头太小，无关紧要。</li>
     <li>令人失望的平坦。{PAWN_nameShort}的胸部是人类形体的糟糕范例。</li>
@@ -1239,7 +1229,7 @@
     <li>这激不起我袒露自己的兴致。{PAWN_nameShort}的乳房实在太扁了。我自己那副值得骄傲的胸部要强得多。</li>
     <li>毫无形态，坦白说对我这暴露癖的感受力是一种冒犯。{PAWN_nameShort}的乳头可怜得很。我自己那女性化的曲线才是更好的展示。</li>
     <li>我渴望惊叹，可{PAWN_nameShort}的胸部只让人打哈欠。那乳头什么都不是。我的裸体才是一道美景。</li>
-    <li>多么乏味的呈现。{PAWN_nameShort}的平坦的乳房没有任何理由停留。我袒露的自己会更迷人。</li>
+    <li>真是乏味。{PAWN_nameShort}的平坦的乳房没有任何理由停留。我袒露的自己会更迷人。</li>
     <li>我内心展示的冲动被{PAWN_nameShort}的那毫无启发性的胸部压了下去。我自己的盛大袒露要好得多。</li>
     <li>这里没有什么真正值得展露的。{PAWN_nameShort}的乳头太小，无关紧要。我那丰满的胸部把它比了下去。</li>
     <li>令人失望的平坦。{PAWN_nameShort}的胸部是女性形体的糟糕范例。我自己的身体要出色得多。</li>
@@ -1271,7 +1261,7 @@
     <li>这激不起我袒露自己的兴致。{PAWN_nameShort}的乳房实在太扁了。我自己那副有力的形体要强得多。</li>
     <li>毫无形态，坦白说对我这暴露癖的感受力是一种冒犯。{PAWN_nameShort}的乳头可怜得很。我那兴奋起来的阳物才是更好的展示。</li>
     <li>我渴望惊叹，可{PAWN_nameShort}的胸部只让人打哈欠。那乳头什么都不是。我的裸体才是杰作。</li>
-    <li>多么乏味的呈现。{PAWN_nameShort}的平坦的乳房没有任何理由停留。我袒露的自己会更惊艳。</li>
+    <li>真是乏味。{PAWN_nameShort}的平坦的乳房没有任何理由停留。我袒露的自己会更惊艳。</li>
     <li>我内心展示的冲动被{PAWN_nameShort}的那毫无启发性的胸部压了下去。我自己的盛大袒露要好得多。</li>
     <li>这里没有什么真正值得展露的。{PAWN_nameShort}的乳头太小，无关紧要。我那有力的裸体把它比了下去。</li>
     <li>令人失望的平坦。{PAWN_nameShort}的胸部是人类形体的糟糕范例。我的雄性气概要出色得多。</li>
@@ -1302,7 +1292,7 @@
     <li>这挑不起我深处的兴致。{PAWN_nameShort}的乳房实在太扁了。</li>
     <li>毫无形态，坦白说对我这格外敏锐的感官是一种冒犯。{PAWN_nameShort}的乳头可怜得很。</li>
     <li>我渴望极乐，可{PAWN_nameShort}的胸部只让人兴致缺缺。那乳头什么都不是。</li>
-    <li>多么乏味的呈现。{PAWN_nameShort}的平坦的乳房没有任何理由让我的欲望停留。</li>
+    <li>真是乏味。{PAWN_nameShort}的平坦的乳房没有任何理由让我的欲望停留。</li>
     <li>我内心取悦的冲动被{PAWN_nameShort}的那毫无启发性的胸部压了下去。</li>
     <li>这里没有什么真正值得渴望的。{PAWN_nameShort}的乳头太小，无关紧要。</li>
     <li>令人失望的平坦。{PAWN_nameShort}的胸部配不上任何含情的目光。</li>
@@ -1334,7 +1324,7 @@
     <li>这挑不起我深处的兴致。{PAWN_nameShort}的乳房实在太扁了。我的女性部件毫无反应。</li>
     <li>毫无形态，坦白说对我这格外敏锐的感官是一种冒犯。{PAWN_nameShort}的乳头可怜得很。我的性唤起就是不来。</li>
     <li>我渴望极乐，可{PAWN_nameShort}的胸部只让人兴致缺缺。那乳头什么都不是。我的高潮无处可寻。</li>
-    <li>多么乏味的呈现。{PAWN_nameShort}的平坦的乳房没有任何理由让我的欲望停留。我的热情已经消退了。</li>
+    <li>真是乏味。{PAWN_nameShort}的平坦的乳房没有任何理由让我的欲望停留。我的热情已经消退了。</li>
     <li>我内心取悦的冲动被{PAWN_nameShort}的那毫无启发性的胸部压了下去。我的身体是一幅无声的画布。</li>
     <li>这里没有什么真正值得渴望的。{PAWN_nameShort}的乳头太小，无关紧要。我的性欲荡然无存。</li>
     <li>令人失望的平坦。{PAWN_nameShort}的胸部配不上任何含情的目光。我的欲望未被满足。</li>
@@ -1366,7 +1356,7 @@
     <li>这挑不起我深处的兴致。{PAWN_nameShort}的乳房实在太扁了。我的生殖器毫无反应。</li>
     <li>毫无形态，坦白说对我这格外敏锐的感官是一种冒犯。{PAWN_nameShort}的乳头可怜得很。我的性唤起就是不来。</li>
     <li>我渴望极乐，可{PAWN_nameShort}的胸部只让人兴致缺缺。那乳头什么都不是。我的高潮无处可寻。</li>
-    <li>多么乏味的呈现。{PAWN_nameShort}的平坦的乳房没有任何理由让我的欲望停留。我的热情已经消退了。</li>
+    <li>真是乏味。{PAWN_nameShort}的平坦的乳房没有任何理由让我的欲望停留。我的热情已经消退了。</li>
     <li>我内心取悦的冲动被{PAWN_nameShort}的那毫无启发性的胸部压了下去。我的身体是一幅无声的画布。</li>
     <li>这里没有什么真正值得渴望的。{PAWN_nameShort}的乳头太小，无关紧要。我的性欲荡然无存。</li>
     <li>令人失望的平坦。{PAWN_nameShort}的胸部配不上任何含情的目光。我的欲望未被满足。</li>
@@ -1419,7 +1409,7 @@
     <li>即便对偷窥者而言，{PAWN_nameShort}的平坦的胸部和毫不起眼的乳头也带不来任何变态的满足。</li>
     <li>我想找点刺激，可{PAWN_nameShort}的那对发育不足的乳房和细小的乳头让我彻底失望。</li>
     <li>这里没有什么能留住我的目光。{PAWN_nameShort}的平坦的乳房，对偷窥者来说是一片视觉虚空。</li>
-    <li>我这偷窥的欲望依旧完全落空。{PAWN_nameShort}的 乳头实在太微不足道。</li>
+    <li>我这偷窥的欲望依旧完全落空。{PAWN_nameShort}的乳头实在太微不足道。</li>
     <li>真是一场令人失望的景象。{PAWN_nameShort}的胸部一片贫瘠，激不起任何背德的兴趣。</li>
     <li>我以为自己会有感觉，可{PAWN_nameShort}的平坦的胸部与毫无生气的乳头让我全然无感。</li>
     <li>{PAWN_nameShort}的完全走形的身形让我目光厌倦。那对乳头毫无存在感。</li>
@@ -1439,7 +1429,7 @@
     <li>这番观察给不了我兴奋。{PAWN_nameShort}的乳尖太小，索然无味。</li>
     <li>令人失望的平坦。我偷窥的本性完全得不到满足。</li>
     <li>我的目光迅速从{PAWN_nameShort}的毫无看点的胸部移开。就是一片平坦。</li>
-    <li>这里找不到任何扭曲的乐趣。{PAWN_nameShort}的 的乳房既不成形也毫无魅力。</li>
+    <li>这里找不到任何扭曲的乐趣。{PAWN_nameShort}乳房既不成形也毫无魅力。</li>
     <li>这证明了这副身体毫无看点。{PAWN_nameShort}的乳头真是惨不忍睹。</li>
     <li>实在不值一提的景象。{PAWN_nameShort}的胸部平得让任何偷窥者都提不起兴趣。</li>
     <li>我见过更引人入胜的空墙。{PAWN_nameShort}的乳头毫无魅力。</li>
@@ -1451,7 +1441,7 @@
     <li>连我这变态的目光，也在{PAWN_nameShort}的平坦的胸部和极小的乳头里找不到任何刺激。令人失望。我自己的乳房还更丰满些。</li>
     <li>我想寻求刺激，可{PAWN_nameShort}的那对发育不足的乳房和几乎看不见的乳头完全激不起欲望。我自己对触碰的渴望依旧未被唤醒。</li>
     <li>多么平坦、多么乏味的景象。{PAWN_nameShort}的乳头激不起任何刺激。我自己的柔软皮肉感觉更诱人。</li>
-    <li>我这偷窥的冲动依旧沉睡。{PAWN_nameShort}的 胸部太平，乳头太微不足道。我自身的暖意也毫无踪影。</li>
+    <li>我这偷窥的冲动依旧沉睡。{PAWN_nameShort}的胸部太平，乳头太微不足道。我自身的暖意也毫无踪影。</li>
     <li>我以为会看到更动人的展示。{PAWN_nameShort}的乳房对我这双堕落的眼睛毫无可看之处。我体内深处毫无触动。</li>
     <li>这在我心里点不起半点火。{PAWN_nameShort}的乳头就是一副可怜又平坦的现实。我自己的内里热度也凉了。</li>
     <li>彻底的失望。我自己的胸部或许不算完美，也比{PAWN_nameShort}的那片荒芜的前胸更有型。我的自我慰藉也变得索然无味。</li>
@@ -1502,7 +1492,7 @@
     <li>真是一幅毫无性致的景象。{PAWN_nameShort}的胸部与它的乳头完全没有任何性感可言。我的性唤起已经逃走了。</li>
     <li>我明显什么感觉都没有。{PAWN_nameShort}的乳头太平了，激不起任何反应。我的下腹一片沉寂。</li>
     <li>这景象取悦不了我。{PAWN_nameShort}的乳房平坦，乳头也毫无看点。我的欲求归零。</li>
-    <li>{PAWN_nameShort}的 那贫瘠的胸部让我这偷窥的欲望完全落空。我的阳具毫无动静。</li>
+    <li>{PAWN_nameShort}的那贫瘠的胸部让我这偷窥的欲望完全落空。我的阳具毫无动静。</li>
     <li>我移开目光，被{PAWN_nameShort}的胸部的极度平坦以及那对微小、毫无吸引力的乳头所恶心到。我的本质都在抗拒它。</li>
     <li>令人失望的平坦。看到{PAWN_nameShort}的那毫无灵气的乳头，我的阴茎不禁退缩。</li>
     <li>没有曲线可循，没有形态可赏。{PAWN_nameShort}的胸部是一片平坦而乏味的疆域。我的兴致渐渐消退。</li>
@@ -2199,7 +2189,7 @@
     <li>这对乳房呈现出毫无生气的隆起，与其小巧的尺寸相符，没有明显的特色。</li>
     <li>那柔和的弧度只能算凑合，暗淡地反着光，是那种毫不出彩的史莱姆组织的典型样子。</li>
     <li>它们看起来在功能上微乎其微，尺寸既没有特别的好处，更谈不上美感上的裨益。</li>
-    <li>人观察着它们，作为 {PAWN_nameShort}的 胸中一个平庸的部分，既未增添也未减损 {PAWN_possessive} 的外表。</li>
+    <li>有人观察着它们，作为 {PAWN_nameShort}的胸中一个平庸的部分，既未增添也未减损 {PAWN_possessive} 的外表。</li>
     <li>它们的规模符合对小巧乳房的预期，呈现出抓不住真正兴趣的普通景象。</li>
     <li>这质地是典型的史莱姆，光滑而有弹性，却无法弥补它们那毫无灵感、令人失望的形态。</li>
     <li>作为一项身体特征，这对小巧的史莱姆乳房仅仅占着空间，履行着自己的职责，没有任何引人注目或吸引人的特点。</li>
@@ -2226,13 +2216,13 @@
     <li>说实话，我觉得她的乳房有点缺乏魅力。</li>
     <li>显然{PAWN_nameShort}的乳房不是她最出众的特征。</li>
     <li>它们确实在那儿，却激不起任何特别的赞叹。</li>
-    <li>人注意到她乳房那几乎不存在的曲线。就是这样，无可奈何。</li>
+    <li>有人注意到她乳房那几乎不存在的曲线。就是这样，无可奈何。</li>
     <li>那乳头相当小，几乎完全融进浅色的乳晕里。</li>
     <li>谈不上有什么特别的形状，只给人相当平坦的印象。</li>
     <li>我不会说她那对乳房抓人眼球；它们相当含蓄。</li>
     <li>她的胸部似乎……很不起眼，那对乳房也只是存在而已。</li>
     <li>它们垂下的样子——或者说根本不垂——相当含蓄。</li>
-    <li>人观察到 {PAWN_nameShort}的 乳房区域明显缺乏分量。</li>
+    <li>有人观察到 {PAWN_nameShort}的乳房区域明显缺乏分量。</li>
     <li>她的乳房几乎没有存在感，有些人大概会觉得……平淡。</li>
     <li>它们看起来相当年轻，甚至对她这个年纪来说都几乎尚未发育。</li>
     <li>她乳房的形态确实称不上强健；我想，算是相当娇弱吧。</li>
@@ -2245,7 +2235,7 @@
     <li>它们没有丝毫明显的颤动或动作。</li>
     <li>乳晕相当淡，乳头也颇为扁平。</li>
     <li>她的乳房就是小，既不刺眼，也不算特别诱人。</li>
-    <li>人无法否认 {PAWN_nameShort}的 胸部那令人失望的本质。</li>
+    <li>人无法否认 {PAWN_nameShort}的胸部那令人失望的本质。</li>
   </Opinion_Breasts_Negative_Small_trait_Kind.opinionTexts>
   <Opinion_Breasts_Negative_Small_trait_NMM_Exhibitionist.opinionTexts>
     <li>她小巧的乳房如此乏味，让我自己的展示都显得毫无意义。</li>
@@ -2568,7 +2558,7 @@
     <li>这是形态上的失败，对我这偷窥的目光来说都是沉重的失望。</li>
   </Opinion_Breasts_Negative_Small_trait_Voyeur_M.opinionTexts>
   <Opinion_Breasts_Negative_Tiny.opinionTexts>
-    <li>注意到 {PAWN_nameShort}的 极小的乳房，我忍不住翻了个白眼。</li>
+    <li>注意到 {PAWN_nameShort}的极小的乳房，我忍不住翻了个白眼。</li>
     <li>我看到{PAWN_nameShort}的乳房，小得令人失望，微微隆起，几乎看不出来。</li>
     <li>我细看{PAWN_nameShort}的乳房，毫无亮点，那微小的曲线提不起兴致。</li>
     <li>我注视着{PAWN_nameShort}的乳房，它们令人失望，那小小的隆起几乎不值一提。</li>
@@ -2613,7 +2603,7 @@
     <li>观察着{PAWN_nameShort}的胸部，我感到一种病态的好奇。那么少，几乎完全消失了。</li>
     <li>{PAWN_nameShort}的乳房是虚无的见证。没有形体，没有生命，只有空洞。</li>
     <li>{PAWN_nameShort}拖着这么一副可悲的老胸，居然还能站得住，真是奇迹。</li>
-    <li>{PAWN_nameShort}的 乳房上完全不见任何饱满或昔日风光，令人错愕。</li>
+    <li>{PAWN_nameShort}的乳房上完全不见任何饱满或昔日风光，令人错愕。</li>
     <li>几乎看不见，{PAWN_nameShort}的乳房只带来一份对衰败的冷酷提醒。</li>
     <li>我在旧兽皮上见过比{PAWN_nameShort}的胸部更惊人的皱纹。令人失望。</li>
     <li>{PAWN_nameShort}的乳头像干瘪的葡萄干，几乎搅不动{PAWN_possessive}胸前纸一般的皮肤。</li>
@@ -2697,7 +2687,7 @@
     <li>一看到{PAWN_nameShort}的极小、干缩、微不足道的乳房，我的欲望便消退了。毫无吸引力。</li>
     <li>这景象激不起我半点热情。{PAWN_nameShort}的平坦苍老的胸部让我冷淡而全无兴趣。</li>
     <li>我需要更多！{PAWN_nameShort}的贫瘠干瘪的胸部让人彻底失望，一点刺激都给不了。</li>
-    <li>我的身体渴求着，可 {PAWN_nameShort}的 小巧、干瘪的乳房给不了任何满足。彻底令人失望。</li>
+    <li>我的身体渴求着，可 {PAWN_nameShort}的小巧、干瘪的乳房给不了任何满足。彻底令人失望。</li>
     <li>{PAWN_nameShort}的胸部没有曲线，也没有饱满感，实在令人恼火——尤其到了{PAWN_pronoun}这个年纪。</li>
     <li>何必呢？{PAWN_nameShort}的乳房又小又皱，无论是摸还是看都毫无乐趣。</li>
     <li>一阵挫败感涌上心头。{PAWN_nameShort}的胸部根本不足以点燃我炽热的欲望。</li>
@@ -2749,7 +2739,7 @@
     <li>让我更欣赏自己年轻的身材了。{PAWN_nameShort}的乳房完全不值一提，一片平坦的荒原。</li>
     <li>真正上了年纪就会变成这样？失去所有形状和生气？{PAWN_nameShort}的胸部是个可怕的警告。</li>
     <li>我惊讶于{PAWN_nameShort}穿什么居然都能挤出沟。{PAWN_possessive}乳房几乎不存在，还干瘪。</li>
-    <li>{PAWN_nameShort}的 胸部完全没有任何像样的曲线或青春气息，对 {PAWN_pronoun} 这般高龄的人来说相当令人震惊。</li>
+    <li>{PAWN_nameShort}的胸部完全没有任何像样的曲线或青春气息，对 {PAWN_pronoun} 这般高龄的人来说相当令人震惊。</li>
     <li>我迅速移开目光，对{PAWN_nameShort}的平坦、衰败的胸部既深感怜悯又极为不适。</li>
     <li>{PAWN_nameShort}的乳房如此小巧而枯槁，在皱纹里我几乎没注意到它们。真是令人失望。</li>
     <li>我本以为{PAWN_possessive}这个年纪的女人，即便上了岁数，也该更有看头。{PAWN_nameShort}的胸部却出人意料地发育不足，还下垂。</li>
@@ -2793,7 +2783,7 @@
     <li>我的目光从{PAWN_nameShort}的胸部上滑过，{PAWN_possessive}那衰老下垂的身形毫无值得注意或赞叹之处。</li>
     <li>对于我们这一代、甚至更年长的人来说，{PAWN_nameShort}的乳房竟如此发育不良、干瘪，几乎令人震惊。</li>
     <li>要是我的乳房长成{PAWN_nameShort}的那样，我会羞死。那么小，那么毫无看点，只是一层松皮。</li>
-    <li>{PAWN_nameShort}的 胸部完全没有轮廓或曲线，看在眼里相当倒胃口，也相当令人沮丧。</li>
+    <li>{PAWN_nameShort}的胸部完全没有轮廓或曲线，看在眼里相当倒胃口，也相当令人沮丧。</li>
     <li>真是一副不优雅而年迈的身形。{PAWN_nameShort}的微小干枯的乳房既无美也无魅力，只有残酷的现实。</li>
     <li>胸部如此微不足道、干瘪萎缩，{PAWN_nameShort}简直让人难以相信是个女人。这根本不合常理。</li>
     <li>她的胸部几乎凹了进去、空荡荡的。{PAWN_nameShort}的乳房几乎不存在，只剩几层皮。</li>
@@ -2848,7 +2838,7 @@
     <li>有那么一瞬间，我甚至怀疑自己看的到底是不是女人的胸膛。平得难以置信，还透着一把年纪。</li>
   </Opinion_Breasts_Negative_Tiny_ElderFemale_observed_by_voyer.opinionTexts>
   <Opinion_Breasts_Negative_Tiny_Elderly_Female_opinion.opinionTexts>
-    <li>哎呀，{PAWN_nameShort}的 乳房如此发育不良。对一个年轻女子来说真是可惜。</li>
+    <li>哎呀，{PAWN_nameShort}的乳房如此发育不良。对一个年轻女子来说真是可惜。</li>
     <li>{PAWN_nameShort}的胸部几乎不存在。我记得从前乳房是有像样的形状与份量的。</li>
     <li>{PAWN_nameShort}的乳房上那极小的乳头与几乎不存在的乳晕相当令人心惊。</li>
     <li>这景象相当可悲。{PAWN_nameShort}的乳房看起来才刚开始发育。</li>
@@ -2869,7 +2859,7 @@
     <li>如此贫瘠的献礼。{PAWN_nameShort}的乳房毫不值得夸耀。</li>
     <li>{PAWN_nameShort}的胸部像一面平墙一样无聊。</li>
     <li>我很难把那些东西称为‘乳房’。它们不过是轻微的凸起。</li>
-    <li>{PAWN_nameShort}的 乳房完全没有晃动或动态，很说明问题。</li>
+    <li>{PAWN_nameShort}的乳房完全没有晃动或动态，很说明问题。</li>
     <li>{PAWN_nameShort}的乳房全然令人记不住，没留下任何印象。</li>
     <li>我在男人身上见过更大的胸肌。{PAWN_nameShort}的乳房就是可悲。</li>
     <li>{PAWN_nameShort}长着那样极小的乳房，这现实实在残酷。</li>
@@ -2905,7 +2895,7 @@
     <li>{PAWN_nameShort}的乳房无法激起我任何感官反应。</li>
     <li>这景象相当无聊。我的偷窥欲望完全没得到满足。</li>
     <li>我宁可去看一把磨旧的皮椅，也不想看{PAWN_nameShort}的乳房。</li>
-    <li>看到 {PAWN_nameShort}的 毫无吸引力的身形，我的身体毫无反应。</li>
+    <li>看到 {PAWN_nameShort}的毫无吸引力的身形，我的身体毫无反应。</li>
     <li>看这一眼是浪费时间。{PAWN_nameShort}的乳房毫无趣味。</li>
     <li>我明显感到，丝毫没有称得上兴奋的东西。</li>
     <li>{PAWN_nameShort}的乳房就那么……存在着。不多不少。</li>
@@ -2931,7 +2921,7 @@
     <li>我忆起那个女人的乳房尚有分量的年代。{PAWN_nameShort}的只是……本该之物的低语。</li>
     <li>这是相当没有灵感的景象。{PAWN_nameShort}的乳房既无饱满，也看不出形状。</li>
     <li>{PAWN_nameShort}的极小的乳房说明缺乏成熟。幼稚的展示。</li>
-    <li>对一个年轻女子，人本期待更多。{PAWN_nameShort}的 的乳房令人失望。</li>
+    <li>对一个年轻女子，人本期待更多。{PAWN_nameShort}乳房令人失望。</li>
     <li>这样微小的乳房毫无魅力可言。对{PAWN_nameShort}来说，女人的美在别处。</li>
     <li>{PAWN_nameShort}的胸口的平坦颇为令人不安。曲线都去哪儿了？</li>
     <li>{PAWN_nameShort}的乳房毫无视觉趣味，只是一片平淡无奇的表面。</li>
@@ -2956,7 +2946,7 @@
     <li>我见过比{PAWN_nameShort}的那极小、无生气的乳房更诱人的黏土块。</li>
     <li>幸好我是个偷窥者，否则这景象根本激不起我半点兴致。</li>
     <li>{PAWN_nameShort}的乳房根本不值得费神去看。白白浪费了偷窥的好时光。</li>
-    <li>{PAWN_nameShort}的 的胸部没有弹动，没有颤动，毫无可兴奋之处。彻底让人失望。</li>
+    <li>{PAWN_nameShort}胸部没有弹动，没有颤动，毫无可兴奋之处。彻底让人失望。</li>
     <li>看着那对贫瘠而乏味的乳房，我这颗老心只能往下沉。</li>
     <li>我渴望曲线、渴望丰盈，渴望能让眼睛饱餐的东西。{PAWN_nameShort}的乳房一样都给不了。</li>
     <li>这是相当乏味的展示，{PAWN_nameShort}的乳房。我的想象力完全没被触动。</li>
@@ -2996,7 +2986,7 @@
     <li>那对乳房太小了，我的性欲甚至不把它们认作女性的。</li>
     <li>我对{PAWN_nameShort}的胸脯完全没兴趣。没形状，没轮廓，也没欲望。</li>
     <li>这是相当令人难过的景象。我的期待瞬间落空。</li>
-    <li>我的身体对 {PAWN_nameShort}的 乳房的反应是一声响亮的“不”。</li>
+    <li>我的身体对 {PAWN_nameShort}的乳房的反应是一声响亮的“不”。</li>
     <li>我宁愿去看砖墙。至少它还有些有趣的纹理。</li>
     <li>{PAWN_nameShort}的乳房就是“不过如此”的代名词。</li>
     <li>我不知道{PAWN_nameShort}想炫耀什么，那里什么都没有。</li>
@@ -3013,7 +3003,7 @@
     <li>那也算乳房？更像翻过来的纽扣。{PAWN_nameShort}的毫无乳沟，简直近乎侮辱。</li>
     <li>观察着{PAWN_nameShort}的胸部，我不由感到一阵怜悯。那么小，那么微不足道。</li>
     <li>{PAWN_nameShort}的乳房是个笑话，几乎不存在。对{PAWN_pronoun}这个年纪的人来说，真是可惜。</li>
-    <li>没有弹动，没有晃动，只是平坦。{PAWN_nameShort}的 的胸部乏味得像一片荒芜的风景。</li>
+    <li>没有弹动，没有晃动，只是平坦。{PAWN_nameShort}胸部乏味得像一片荒芜的风景。</li>
     <li>{PAWN_nameShort}长着那对可怜的所谓乳房，竟还能站得直，真是奇事。</li>
     <li>看着{PAWN_nameShort}的干瘪的胸脯，赤裸地提醒着本可能拥有的模样。真叫人失望。</li>
     <li>几乎看不见，{PAWN_nameShort}的乳房提供不了任何有趣之处。坦白说，挺叫人沮丧的。</li>
@@ -3099,7 +3089,7 @@
     <li>一看到{PAWN_nameShort}的极小、微不足道的乳房，我的欲望便消退了。毫无吸引力。</li>
     <li>这景象激不起我半点热情。{PAWN_nameShort}的平坦的胸部让我冷淡而毫无兴趣。</li>
     <li>我需要更多！{PAWN_nameShort}的贫瘠的胸部让人彻底失望，一点刺激都给不了。</li>
-    <li>我的身体渴求着，可 {PAWN_nameShort}的 小巧的乳房给不了任何满足。彻底令人失望。</li>
+    <li>我的身体渴求着，可 {PAWN_nameShort}的小巧的乳房给不了任何满足。彻底令人失望。</li>
     <li>{PAWN_nameShort}的胸部没有曲线，也没有饱满感，实在令人恼火。</li>
     <li>何必呢？{PAWN_nameShort}的乳房那么小，无论是摸还是看都毫无乐趣。</li>
     <li>一阵挫败感涌上心头。{PAWN_nameShort}的胸部根本不足以点燃我的欲望。</li>
@@ -3151,7 +3141,7 @@
     <li>让我更欣赏自己的身材了。{PAWN_nameShort}的乳房完全不值一提。</li>
     <li>人上了年纪就会变成这样？失去所有形状？{PAWN_nameShort}的胸部就是一记警钟。</li>
     <li>我惊讶于{PAWN_nameShort}穿什么居然都能挤出沟。{PAWN_possessive}乳房几乎不存在。</li>
-    <li>{PAWN_nameShort}的 胸部完全没有任何像样的曲线，对 {PAWN_pronoun} 这个年纪的人来说相当令人震惊。</li>
+    <li>{PAWN_nameShort}的胸部完全没有任何像样的曲线，对 {PAWN_pronoun} 这个年纪的人来说相当令人震惊。</li>
     <li>我迅速移开目光，对{PAWN_nameShort}的平坦的胸部既怜悯又不适。</li>
     <li>{PAWN_nameShort}的乳房如此小巧，我几乎没注意到它们。真是令人失望。</li>
     <li>我本以为{PAWN_possessive}这个年纪的女人该更有看头。{PAWN_nameShort}的胸部却出人意料地发育不足。</li>

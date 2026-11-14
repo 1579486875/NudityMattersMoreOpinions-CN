@@ -1,18 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-  <!--
-    ⚠ 本文件不是游戏翻译文件（不在 Languages\ 下，游戏不会扫描）。
-    它是本汉化包补丁 DLL（NMMOpinionsChineseUI.dll）在运行时读取的
-    「自有注入清单」。原因：RimWorld 的 DefInjected 只允许对带
-    [TranslationCanChangeCount] 特性的字段做「整列表注入」，而原模组的
-    opinionTexts / texts 字段没有该特性，放在 Languages\ 下会被游戏拒绝
-    并记为翻译错误。改由本包自己反射写入，才能既保住小体积、又让译文生效。
-    ★ 不要把这些文件移回 Languages\ —— 移回去就等于翻译失效。
-  -->
-
 <LanguageData>
-  <!-- 身体部位看法·正文 7/39 · 共 2977 条 · 键名不可改，{...} 占位符须保留 -->
+  
   <Opinion_Anus_Positive_Accommodating.opinionTexts>
-    <li>看见 {PAWN_nameShort}的 那包容的肛门，立刻攫住了我的注意力。</li>
+    <li>看见 {PAWN_nameShort}的那包容的肛门，立刻攫住了我的注意力。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门邀请人深入探索，许诺着愉悦的感受。</li>
     <li>我被{PAWN_nameShort}的那包容的肛门迷住了；感觉像是一个温暖迎人的拥抱。</li>
     <li>{PAWN_nameShort}的那包容的肛门让我欣喜，它迎人的开口看着就是享受。</li>
@@ -99,8 +89,8 @@
     <li>{PAWN_nameShort}的后臀那年迈的轮廓简直精致，而那小心掩藏的开口暗示着一份讨喜的敞开。</li>
     <li>确实是悦目的一幕，{PAWN_nameShort}的圆润的臀肌呈现出一个热情而柔和可见的通道，印证着优雅的老去。</li>
     <li>{PAWN_nameShort}的保养良好的臀部有种含蓄的魅力；那齐整分明的轮廓与不张扬的开口颇为诱人。</li>
-    <li>{PAWN_nameShort}的 臀部那自信的弧线优雅地框出一瞥迎人而备受呵护的通道。</li>
-    <li>观察 {PAWN_nameShort}的 臀部细微的起伏，可见一副柔软浑圆的形状与一处含蓄诱人的开口。</li>
+    <li>{PAWN_nameShort}的臀部那自信的弧线优雅地框出一瞥迎人而备受呵护的通道。</li>
+    <li>观察 {PAWN_nameShort}的臀部细微的起伏，可见一副柔软浑圆的形状与一处含蓄诱人的开口。</li>
     <li>令人慰藉的景象，{PAWN_nameShort}的丰厚的臀部露出一个隐约而包容的门户，应许着温柔的暖意。</li>
     <li>{PAWN_nameShort}的臀部宽宏的曲线，配上那异常干净又诱人的洞口，完美融入{PAWN_possessive}整体形态。</li>
     <li>匆匆观察：{PAWN_nameShort}的苍老的臀部透着一种精致的美感，那缝隙自然可见，颇为欢迎。</li>
@@ -156,11 +146,11 @@
   </Opinion_Anus_Positive_Accommodating_ElderFemale_observed_by_Elder_male.opinionTexts>
   <Opinion_Anus_Positive_Accommodating_ElderFemale_observed_by_Exhibitionist.opinionTexts>
     <li>{PAWN_nameShort}的自信地展示着{PAWN_possessive}那虽已年老却曲线优美的臀部，配上那诱人而若隐若现的开口，真叫人热血沸腾！</li>
-    <li>大胆的呈现！{PAWN_nameShort}的臀部那饱满而诱人的曲线，美丽地突出了那明显包容而魅人的后穴。</li>
+    <li>大胆的姿态！{PAWN_nameShort}的臀部那饱满而诱人的曲线，美丽地突出了那明显包容而魅人的后穴。</li>
     <li>看到{PAWN_nameShort}的丰满的臀部，我一阵兴奋。{PAWN_possessive}那形状完美的臀部展示出{PAWN_possessive}好客的通道，实在壮观。</li>
     <li>好一场美妙的展示！{PAWN_nameShort}的年迈、圆润的臀部，以及那处鲜明诱人的开口，是一道令人愉快的景象。</li>
     <li>{PAWN_nameShort}的愿意炫耀{PAWN_possessive}那迷人的臀部，连同那轮廓优美又包容的开口，让我兴奋不已。</li>
-    <li>那自信的姿态露出 {PAWN_nameShort}的 柔软的臀部，整齐呈现、诱人的内层褶皱，对我相当刺激。</li>
+    <li>那自信的姿态露出 {PAWN_nameShort}的柔软的臀部，整齐呈现、诱人的内层褶皱，对我相当刺激。</li>
     <li>我真心欣赏{PAWN_nameShort}的慷慨的展示。{PAWN_possessive}臀部那悦人的形状，以及{PAWN_possessive}那条可见而包容的通道，都妙不可言。</li>
     <li>看到{PAWN_nameShort}的年迈而丰腴的臀部真是无比畅快。那隐约显露、透着欢迎的内里区域令人赏心悦目。</li>
     <li>{PAWN_nameShort}的展示{PAWN_possessive}臀部，令人感到力量充盈。那饱满圆润的形状与{PAWN_possessive}孔洞迷人的敞开，棒极了。</li>
@@ -183,7 +173,7 @@
     <li>{PAWN_nameShort}的柔软的臀部及其明确热情的开口突然而撩人地一闪而过，让我脊背战栗。我还想要更多。</li>
     <li>{PAWN_nameShort}的曲线优美的臀部，完美的比例，还有那隐隐诱人的{PAWN_possessive}内部通道，在我心中激起强烈的渴望。</li>
     <li>看着{PAWN_nameShort}的令人愉快的臀部，我渴得发疼。{PAWN_possessive}内侧门户那饱满迎纳的景象，预示着巨大的快感。</li>
-    <li>我的身体因期待而嗡鸣。{PAWN_nameShort}的 曲线优美的臀部，以及 {PAWN_possessive} 甬道那明显可见、宽松包容的模样，实在太诱人了。</li>
+    <li>我的身体因期待而嗡鸣。{PAWN_nameShort}的曲线优美的臀部，以及 {PAWN_possessive} 甬道那明显可见、宽松包容的模样，实在太诱人了。</li>
     <li>一股强烈的冲动将我压倒。{PAWN_nameShort}的年迈而热情的臀部，那隐约外露、无比乐于接纳的内里，纯粹是诱惑。</li>
     <li>观察{PAWN_nameShort}的丰满的臀部，我涌起无法满足的饥渴。那丰盈的曲线与{PAWN_possessive}开口明显的敞开，令人陶醉。</li>
     <li>{PAWN_nameShort}的精致的臀部让我的感官被淹没。{PAWN_possessive}那随和柔软、若隐若现的开口，许诺着无尽的狂喜。</li>
@@ -191,9 +181,9 @@
     <li>我对{PAWN_nameShort}的那迷人的臀部欲望难耐。{PAWN_possessive}臀形衬托出诱人内侧的模样，深深令人兴奋。</li>
     <li>意外看见{PAWN_nameShort}的那丰满的老迈臀部，在我心中激起火热的渴求；微微露出的开口暗示着深沉的极乐。</li>
     <li>凝视着{PAWN_nameShort}的曲线玲珑的臀部，一股吞噬一切的欲望在燃烧；那丰厚的臀肌与{PAWN_possessive}内侧通道诱人的可见度，实在妙不可言。</li>
-    <li>我的核心在颤抖。{PAWN_nameShort}的 动人的身段，以及 {PAWN_possessive} 内阴唇天然敞开的模样，就是一份我渴望接受的直接邀请。</li>
+    <li>我的核心在颤抖。{PAWN_nameShort}的动人的身段，以及 {PAWN_possessive} 内阴唇天然敞开的模样，就是一份我渴望接受的直接邀请。</li>
     <li>我强烈渴望{PAWN_nameShort}的那比例匀称的臀部。{PAWN_possessive}那能容纳的臀缝若隐若现，让我满心都是绝望的渴望。</li>
-    <li>哦，若能感受 {PAWN_nameShort}的 年长的臀部！那圆润的诱惑与清晰可见、宽绰包容的开口，是一个令人发狂的极乐承诺。</li>
+    <li>哦，若能感受 {PAWN_nameShort}的年长的臀部！那圆润的诱惑与清晰可见、宽绰包容的开口，是一个令人发狂的极乐承诺。</li>
     <li>这景象几乎让人承受不住；{PAWN_nameShort}的丰满而曲线优美的臀部，优美地展露出一个迎人的、深深诱人的通道。</li>
     <li>一份深切而原始的反应。{PAWN_nameShort}的臀部带来一种愉悦的组合：丰腴的曲线，以及清晰可见、无比热情的内里构造。</li>
     <li>我陷入了欲望的疯狂。{PAWN_nameShort}的那诱人的臀部，那天然呈现的匀称臀肉与包容的开口，占据了我全部思绪。</li>
@@ -206,10 +196,10 @@
     <li>那景象来得突然，但{PAWN_nameShort}的柔软的臀部，配上那意外含蓄而不张扬的内部，让我感觉……平淡。</li>
     <li>尽管我偏好含蓄，{PAWN_nameShort}的那精致的臀部，连同它恰到好得体、几乎隐藏的通道，确实并不伤风败俗。</li>
     <li>我注意到{PAWN_nameShort}的年迈的臀部；整体形态，以及内部几乎不可见的样子，让它不那么……触目惊心。</li>
-    <li>{PAWN_nameShort}的臀部意外映入眼帘。虽说露在外面，但它谦逊的呈现与小巧隐蔽的穴口还算可以接受。</li>
+    <li>{PAWN_nameShort}的臀部意外映入眼帘。虽说露在外面，但它谦逊的姿态与小巧隐蔽的穴口还算可以接受。</li>
     <li>那只是短暂的一瞬，但{PAWN_nameShort}的臀部有着颇为得体的曲线，还有一个格外含蓄的孔洞，倒也不全然让人反感。</li>
     <li>我本不喜欢这种展示，但{PAWN_nameShort}的形态分明的臀部与那出乎意料地不挑逗的内褶皱……还算体面。</li>
-    <li>人偏爱矜持，然而 {PAWN_nameShort}的 匀称的臀部虽已外露，却衬出一处极为含蓄而包容的开口。几乎难以察觉。</li>
+    <li>人偏爱矜持，然而 {PAWN_nameShort}的匀称的臀部虽已外露，却衬出一处极为含蓄而包容的开口。几乎难以察觉。</li>
     <li>我的目光短暂地捕捉到{PAWN_nameShort}的年长的身体。可惜，{PAWN_possessive}臀部的整洁与{PAWN_possessive}通道的深藏不露都看得清清楚楚。</li>
     <li>尽管我对裸体感到不适，{PAWN_nameShort}的丰满的臀部，以及那普普通通地展露、天性包容的内部，倒也不算太惊人。</li>
     <li>{PAWN_nameShort}的臀部呈现得相当平淡。毫不出奇的形状与那含蓄、模糊的开口，让它显得不那么……令人担忧。</li>
@@ -328,7 +318,7 @@
     <li>多么好的一件标本！{PAWN_nameShort}的年长的臀瓣圆润得妙不可言，那清晰可见、宽容的洞口着实令人愉悦。</li>
     <li>那景象完美极了；{PAWN_nameShort}的丰满而曲线优美的臀部，优美地展露出一个迎人而轮廓分明的通道。真是赏心悦目。</li>
     <li>确实是值得的景象。{PAWN_nameShort}的臀部带来一种令人愉悦的组合：丰盈的曲线，加上清晰可见、招人进入的内部构造。</li>
-    <li>我的注意力被{PAWN_nameShort}的诱人的臀部俘获。{PAWN_possessive}形态良好的臀肉与包容的孔洞那自然的呈现，真是令人着迷。</li>
+    <li>我的注意力被{PAWN_nameShort}的诱人的臀部俘获。{PAWN_possessive}形态良好的臀肉与包容的孔洞那自然的姿态，真是令人着迷。</li>
   </Opinion_Anus_Positive_Accommodating_ElderFemale_observed_by_voyer.opinionTexts>
   <Opinion_Anus_Positive_Accommodating_ElderMale.opinionTexts>
     <li>他保养得当的臀部，年老却健壮，含蓄地露出一个诉说着有尊严的力量的开口。真是一幅令人愉快的景象。</li>
@@ -341,8 +331,8 @@
     <li>{PAWN_nameShort}的后臀那年迈的轮廓简直精致，而那小心掩藏的开口暗示着一份讨喜的敞开。</li>
     <li>确实是悦目的一幕，{PAWN_nameShort}的圆润的臀肌呈现出一个热情而柔和可见的通道，印证着持久的活力。</li>
     <li>{PAWN_nameShort}的保养良好的臀部有种含蓄的魅力；那齐整分明的轮廓与不张扬的开口颇为诱人。</li>
-    <li>{PAWN_nameShort}的 臀部那自信的弧线优雅地框出一瞥迎人而备受呵护的通道。</li>
-    <li>观察 {PAWN_nameShort}的 臀部细微的起伏，可见一副柔软浑圆的形状与一处含蓄诱人的开口。</li>
+    <li>{PAWN_nameShort}的臀部那自信的弧线优雅地框出一瞥迎人而备受呵护的通道。</li>
+    <li>观察 {PAWN_nameShort}的臀部细微的起伏，可见一副柔软浑圆的形状与一处含蓄诱人的开口。</li>
     <li>令人慰藉的景象，{PAWN_nameShort}的丰厚的臀部露出一个隐约而包容的门户，应许着稳定的暖意。</li>
     <li>{PAWN_nameShort}的臀部宽宏的曲线，配上那异常干净又诱人的洞口，完美融入{PAWN_possessive}整体形态。</li>
     <li>匆匆观察：{PAWN_nameShort}的苍老的臀部透着一种精致的美感，那缝隙自然可见，颇为欢迎。</li>
@@ -398,11 +388,11 @@
   </Opinion_Anus_Positive_Accommodating_ElderMale_observed_by_Elder_male.opinionTexts>
   <Opinion_Anus_Positive_Accommodating_ElderMale_observed_by_Exhibitionist.opinionTexts>
     <li>{PAWN_nameShort}的自信地展示着{PAWN_possessive}那虽已年老却紧实的臀部，配上那诱人而若隐若现的开口，真叫人热血沸腾！</li>
-    <li>大胆的呈现！{PAWN_nameShort}的臀部那结实而诱人的曲线，美丽地突出了那明显包容而魅人的后穴。</li>
+    <li>大胆的姿态！{PAWN_nameShort}的臀部那结实而诱人的曲线，美丽地突出了那明显包容而魅人的后穴。</li>
     <li>看到{PAWN_nameShort}的丰满的臀部，我一阵兴奋。{PAWN_possessive}那形状完美的臀部展示出{PAWN_possessive}好客的通道，实在壮观。</li>
     <li>好一场美妙的展示！{PAWN_nameShort}的年迈、肌肉结实的臀部，以及那处鲜明诱人的开口，是一道令人愉快的景象。</li>
     <li>{PAWN_nameShort}的愿意炫耀{PAWN_possessive}那迷人的臀部，连同那轮廓优美又包容的开口，让我兴奋不已。</li>
-    <li>那自信的姿态露出 {PAWN_nameShort}的 紧实的臀部，整齐呈现、诱人的内层褶皱，对我相当刺激。</li>
+    <li>那自信的姿态露出 {PAWN_nameShort}的紧实的臀部，整齐呈现、诱人的内层褶皱，对我相当刺激。</li>
     <li>我真心欣赏{PAWN_nameShort}的慷慨的展示。{PAWN_possessive}臀部那悦人的形状，以及{PAWN_possessive}那条可见而包容的通道，都妙不可言。</li>
     <li>看到{PAWN_nameShort}的年迈而结实的臀部真是无比畅快。那隐约显露、透着欢迎的内里区域令人赏心悦目。</li>
     <li>{PAWN_nameShort}的展示{PAWN_possessive}臀部，令人感到力量充盈。那饱满圆润的形状与{PAWN_possessive}孔洞迷人的敞开，棒极了。</li>
@@ -425,7 +415,7 @@
     <li>{PAWN_nameShort}的紧实的臀部及其明确热情的开口突然而撩人地一闪而过，让我脊背战栗。我还想要更多。</li>
     <li>{PAWN_nameShort}的肌肉紧实的后庭，那完美的比例与{PAWN_possessive}内部通道诱人的暗示，在我体内激起强烈的渴求。</li>
     <li>看着{PAWN_nameShort}的令人愉快的臀部，我渴得发疼。{PAWN_possessive}内侧门户那饱满迎纳的景象，预示着巨大的快感。</li>
-    <li>我的身体因期待而嗡鸣。{PAWN_nameShort}的 曲线优美的臀部，以及 {PAWN_possessive} 甬道那明显可见、宽松包容的模样，实在太诱人了。</li>
+    <li>我的身体因期待而嗡鸣。{PAWN_nameShort}的曲线优美的臀部，以及 {PAWN_possessive} 甬道那明显可见、宽松包容的模样，实在太诱人了。</li>
     <li>一股强烈的冲动将我压倒。{PAWN_nameShort}的年迈而热情的臀部，那隐约外露、无比乐于接纳的内里，纯粹是诱惑。</li>
     <li>观察{PAWN_nameShort}的丰满的臀部，我涌起无法满足的饥渴。那丰盈的曲线与{PAWN_possessive}开口明显的敞开，令人陶醉。</li>
     <li>{PAWN_nameShort}的精致的臀部让我的感官被淹没。{PAWN_possessive}那随和柔软、若隐若现的开口，许诺着无尽的狂喜。</li>
@@ -433,9 +423,9 @@
     <li>我对{PAWN_nameShort}的那迷人的臀部欲望难耐。{PAWN_possessive}臀形衬托出诱人内侧的模样，深深令人兴奋。</li>
     <li>意外看见{PAWN_nameShort}的那丰满的老迈臀部，在我心中激起火热的渴求；微微露出的开口暗示着深沉的极乐。</li>
     <li>凝视着{PAWN_nameShort}的肌肉紧实的臀部，一股吞噬一切的欲望在燃烧；那丰厚的臀肌与{PAWN_possessive}内侧通道诱人的可见度，实在妙不可言。</li>
-    <li>我的核心在颤抖。{PAWN_nameShort}的 动人的身段，以及 {PAWN_possessive} 内阴唇天然敞开的模样，就是一份我渴望接受的直接邀请。</li>
+    <li>我的核心在颤抖。{PAWN_nameShort}的动人的身段，以及 {PAWN_possessive} 内阴唇天然敞开的模样，就是一份我渴望接受的直接邀请。</li>
     <li>我强烈渴望{PAWN_nameShort}的那比例匀称的臀部。{PAWN_possessive}那能容纳的臀缝若隐若现，让我满心都是绝望的渴望。</li>
-    <li>哦，若能感受 {PAWN_nameShort}的 年长的臀部！那圆润的诱惑与清晰可见、宽绰包容的开口，是一个令人发狂的极乐承诺。</li>
+    <li>哦，若能感受 {PAWN_nameShort}的年长的臀部！那圆润的诱惑与清晰可见、宽绰包容的开口，是一个令人发狂的极乐承诺。</li>
     <li>这景象几乎让人承受不住；{PAWN_nameShort}的丰满而曲线优美的臀部，优美地展露出一个迎人的、深深诱人的通道。</li>
     <li>一份深切而原始的反应。{PAWN_nameShort}的臀部带来一种愉悦的组合：丰腴的曲线，以及清晰可见、无比热情的内里构造。</li>
     <li>我陷入了欲望的疯狂。{PAWN_nameShort}的那诱人的臀部，那天然呈现的匀称臀肉与包容的开口，占据了我全部思绪。</li>
@@ -448,10 +438,10 @@
     <li>那景象来得突然，但{PAWN_nameShort}的紧实的臀部，配上那意外含蓄而不张扬的内部，让我感觉……平淡。</li>
     <li>尽管我偏好含蓄，{PAWN_nameShort}的那精致的臀部，连同它恰到好得体、几乎隐藏的通道，确实并不伤风败俗。</li>
     <li>我注意到{PAWN_nameShort}的年迈的臀部；整体形态，以及内部几乎不可见的样子，让它不那么……触目惊心。</li>
-    <li>{PAWN_nameShort}的臀部意外映入眼帘。虽说露在外面，但它谦逊的呈现与小巧隐蔽的穴口还算可以接受。</li>
+    <li>{PAWN_nameShort}的臀部意外映入眼帘。虽说露在外面，但它谦逊的姿态与小巧隐蔽的穴口还算可以接受。</li>
     <li>那只是短暂的一瞬，但{PAWN_nameShort}的臀部有着颇为得体的曲线，还有一个格外含蓄的孔洞，倒也不全然让人反感。</li>
     <li>我本不喜欢这种展示，但{PAWN_nameShort}的形态分明的臀部与那出乎意料地不挑逗的内褶皱……还算体面。</li>
-    <li>人偏爱矜持，然而 {PAWN_nameShort}的 结实的臀部虽已外露，却衬出一处极为含蓄而包容的开口。几乎难以察觉。</li>
+    <li>人偏爱矜持，然而 {PAWN_nameShort}的结实的臀部虽已外露，却衬出一处极为含蓄而包容的开口。几乎难以察觉。</li>
     <li>我的目光短暂地捕捉到{PAWN_nameShort}的年长的身体。可惜，{PAWN_possessive}臀部的整洁与{PAWN_possessive}通道的深藏不露都看得清清楚楚。</li>
     <li>尽管我对裸体感到不适，{PAWN_nameShort}的丰满的臀部，以及那普普通通地展露、天性包容的内部，倒也不算太惊人。</li>
     <li>{PAWN_nameShort}的臀部呈现得相当平淡。毫不出奇的形状与那含蓄、模糊的开口，让它显得不那么……令人担忧。</li>
@@ -570,7 +560,7 @@
     <li>多么好的一件标本！{PAWN_nameShort}的年长的臀瓣圆润得妙不可言，那清晰可见、宽容的洞口着实令人愉悦。</li>
     <li>那景象完美极了；{PAWN_nameShort}的丰满而曲线优美的臀部，优美地展露出一个迎人而轮廓分明的通道。真是赏心悦目。</li>
     <li>确实是值得的景象。{PAWN_nameShort}的臀部带来一种令人愉悦的组合：丰盈的曲线，加上清晰可见、招人进入的内部构造。</li>
-    <li>我的注意力被{PAWN_nameShort}的诱人的臀部俘获。{PAWN_possessive}形态良好的臀肉与包容的孔洞那自然的呈现，真是令人着迷。</li>
+    <li>我的注意力被{PAWN_nameShort}的诱人的臀部俘获。{PAWN_possessive}形态良好的臀肉与包容的孔洞那自然的姿态，真是令人着迷。</li>
   </Opinion_Anus_Positive_Accommodating_ElderMale_observed_by_voyer.opinionTexts>
   <Opinion_Anus_Positive_Accommodating_Elderly_Female_opinion.opinionTexts>
     <li>{PAWN_nameShort}的随和宽容的肛门整洁地嵌在年轻的曲线之间，显得赏心悦目、保养得当。</li>
@@ -718,7 +708,7 @@
     <li>{PAWN_nameShort}的那包容肛门松弛敞开的样子，一阵强烈的渴慕穿过我的全身。</li>
     <li>{PAWN_nameShort}的那包容的肛门，它诱人的深度激起了强烈而肉欲的饥渴，我无法把眼睛移开。</li>
     <li>{PAWN_nameShort}的那易于接纳的肛门有着绝对、无可否认的诱惑，让我整个身心因欲望而胀痛。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一股无可否认的淫邪快感，还有一股深沉而搏动的温热。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一股无可否认的淫邪快感，还有一股深沉而搏动的温热。</li>
     <li>{PAWN_nameShort}身上如此柔顺、包容的肛门，确实在我心中点燃一种令人颤栗、近乎不正当的迷恋。</li>
     <li>我的目光停留在{PAWN_nameShort}的那包容的肛门上，它毫不费力地敞开，对我这衰老的身体而言是深深的诱惑。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门，一派令人愉悦的接纳之姿，在我这把老骨头里唤醒了禁忌的渴求。</li>
@@ -750,7 +740,7 @@
     <li>{PAWN_nameShort}的那包容肛门松弛敞开的样子，一阵强烈的渴慕穿过我的全身。</li>
     <li>{PAWN_nameShort}的那包容的肛门，诱人的深度引出一阵美妙的酸胀，我无法把眼睛移开。</li>
     <li>{PAWN_nameShort}的那易于接纳的肛门有着绝对、无可否认的诱惑，让我整个身心因欲火而嗡鸣。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一股无可否认的淫邪快感与灼热翻涌上来。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一股无可否认的淫邪快感与灼热翻涌上来。</li>
     <li>{PAWN_nameShort}身上如此柔顺、包容的肛门，确实在我心中点燃一种令人颤栗、近乎不正当的迷恋。</li>
     <li>我的目光停留在{PAWN_nameShort}的那包容的肛门上，它毫不费力地敞开，对我这衰老的身体而言是深深的诱惑。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门，一派令人愉悦的接纳之姿，在我这把老骨头里唤醒了禁忌的渴求。</li>
@@ -871,8 +861,8 @@
     <li>{PAWN_nameShort}的臀部那成熟的轮廓实在精致，那小心隐藏的开口暗示着一份令人愉悦的敞开。</li>
     <li>确实是悦目的一幕，{PAWN_nameShort}的圆润的臀肌呈现出一个热情而柔和可见的通道，印证着优雅的老去。</li>
     <li>{PAWN_nameShort}的保养良好的臀部有种含蓄的魅力；那齐整分明的轮廓与不张扬的开口颇为诱人。</li>
-    <li>{PAWN_nameShort}的 臀部那自信的弧线优雅地框出一瞥迎人而备受呵护的通道。</li>
-    <li>观察 {PAWN_nameShort}的 臀部细微的起伏，可见一副柔软浑圆的形状与一处含蓄诱人的开口。</li>
+    <li>{PAWN_nameShort}的臀部那自信的弧线优雅地框出一瞥迎人而备受呵护的通道。</li>
+    <li>观察 {PAWN_nameShort}的臀部细微的起伏，可见一副柔软浑圆的形状与一处含蓄诱人的开口。</li>
     <li>令人慰藉的景象，{PAWN_nameShort}的丰厚的臀部露出一个隐约而包容的门户，应许着温柔的暖意。</li>
     <li>{PAWN_nameShort}的臀部宽宏的曲线，配上那异常干净又诱人的洞口，完美融入{PAWN_possessive}整体形态。</li>
     <li>匆匆观察：{PAWN_nameShort}的成熟的臀部透着一种精致的美感，那缝隙自然可见，颇为欢迎。</li>
@@ -928,11 +918,11 @@
   </Opinion_Anus_Positive_Accommodating_MatureFemale_observed_by_Elder_male.opinionTexts>
   <Opinion_Anus_Positive_Accommodating_MatureFemale_observed_by_Exhibitionist.opinionTexts>
     <li>{PAWN_nameShort}的自信地展示着{PAWN_possessive}那虽已成熟却曲线优美的臀部，配上那诱人而若隐若现的开口，真叫人热血沸腾！</li>
-    <li>大胆的呈现！{PAWN_nameShort}的臀部那饱满而诱人的曲线，美丽地突出了那明显包容而魅人的后穴。</li>
+    <li>大胆的姿态！{PAWN_nameShort}的臀部那饱满而诱人的曲线，美丽地突出了那明显包容而魅人的后穴。</li>
     <li>看到{PAWN_nameShort}的丰满的臀部，我一阵兴奋。{PAWN_possessive}那形状完美的臀部展示出{PAWN_possessive}好客的通道，实在壮观。</li>
     <li>好一场美妙的展示！{PAWN_nameShort}的成熟、圆润的臀部，以及那处鲜明诱人的开口，是一道令人愉快的景象。</li>
     <li>{PAWN_nameShort}的愿意炫耀{PAWN_possessive}那迷人的臀部，连同那轮廓优美又包容的开口，让我兴奋不已。</li>
-    <li>那自信的姿态露出 {PAWN_nameShort}的 曲线优美的臀部，整齐呈现、诱人的内层褶皱，对我相当刺激。</li>
+    <li>那自信的姿态露出 {PAWN_nameShort}的曲线优美的臀部，整齐呈现、诱人的内层褶皱，对我相当刺激。</li>
     <li>我真心欣赏{PAWN_nameShort}的慷慨的展示。{PAWN_possessive}臀部那悦人的形状，以及{PAWN_possessive}那条可见而包容的通道，都妙不可言。</li>
     <li>看到{PAWN_nameShort}的成熟而丰腴的臀部真是无比畅快。那隐约显露、透着欢迎的内里区域令人赏心悦目。</li>
     <li>{PAWN_nameShort}的展示{PAWN_possessive}臀部，令人感到力量充盈。那饱满圆润的形状与{PAWN_possessive}孔洞迷人的敞开，棒极了。</li>
@@ -955,7 +945,7 @@
     <li>{PAWN_nameShort}的紧实的臀部及其明确热情的开口突然而撩人地一闪而过，让我脊背战栗。我还想要更多。</li>
     <li>{PAWN_nameShort}的曲线优美的臀部，完美的比例，还有那隐隐诱人的{PAWN_possessive}内部通道，在我心中激起强烈的渴望。</li>
     <li>看着{PAWN_nameShort}的令人愉快的臀部，我渴得发疼。{PAWN_possessive}内侧门户那饱满迎纳的景象，预示着巨大的快感。</li>
-    <li>我的身体因期待而嗡鸣。{PAWN_nameShort}的 曲线优美的臀部，以及 {PAWN_possessive} 甬道那明显可见、宽松包容的模样，实在太诱人了。</li>
+    <li>我的身体因期待而嗡鸣。{PAWN_nameShort}的曲线优美的臀部，以及 {PAWN_possessive} 甬道那明显可见、宽松包容的模样，实在太诱人了。</li>
     <li>一股强烈的冲动将我压倒。{PAWN_nameShort}的成熟而热情的臀部，那隐约外露、无比乐于接纳的内里，纯粹是诱惑。</li>
     <li>观察{PAWN_nameShort}的丰满的臀部，我涌起无法满足的饥渴。那丰盈的曲线与{PAWN_possessive}开口明显的敞开，令人陶醉。</li>
     <li>{PAWN_nameShort}的精致的臀部让我的感官被淹没。{PAWN_possessive}那随和柔软、若隐若现的开口，许诺着无尽的狂喜。</li>
@@ -963,9 +953,9 @@
     <li>我对{PAWN_nameShort}的那迷人的臀部欲望难耐。{PAWN_possessive}臀形衬托出诱人内侧的模样，深深令人兴奋。</li>
     <li>意外看见{PAWN_nameShort}的那丰满的成熟臀部，在我心中激起火热的渴求；微微露出的开口暗示着深沉的极乐。</li>
     <li>凝视着{PAWN_nameShort}的曲线玲珑的臀部，一股吞噬一切的欲望在燃烧；那丰厚的臀肌与{PAWN_possessive}内侧通道诱人的可见度，实在妙不可言。</li>
-    <li>我的核心在颤抖。{PAWN_nameShort}的 动人的身段，以及 {PAWN_possessive} 内阴唇天然敞开的模样，就是一份我渴望接受的直接邀请。</li>
+    <li>我的核心在颤抖。{PAWN_nameShort}的动人的身段，以及 {PAWN_possessive} 内阴唇天然敞开的模样，就是一份我渴望接受的直接邀请。</li>
     <li>我强烈渴望{PAWN_nameShort}的那比例匀称的臀部。{PAWN_possessive}那能容纳的臀缝若隐若现，让我满心都是绝望的渴望。</li>
-    <li>哦，若能感受 {PAWN_nameShort}的 成熟的臀部！那圆润的诱惑与清晰可见、宽绰包容的开口，是一个令人发狂的极乐承诺。</li>
+    <li>哦，若能感受 {PAWN_nameShort}的成熟的臀部！那圆润的诱惑与清晰可见、宽绰包容的开口，是一个令人发狂的极乐承诺。</li>
     <li>这景象几乎让人承受不住；{PAWN_nameShort}的丰满而曲线优美的臀部，优美地展露出一个迎人的、深深诱人的通道。</li>
     <li>一份深切而原始的反应。{PAWN_nameShort}的臀部带来一种愉悦的组合：丰腴的曲线，以及清晰可见、无比热情的内里构造。</li>
     <li>我陷入了欲望的疯狂。{PAWN_nameShort}的那诱人的臀部，那天然呈现的匀称臀肉与包容的开口，占据了我全部思绪。</li>
@@ -978,10 +968,10 @@
     <li>那景象来得突然，但{PAWN_nameShort}的紧实的臀部，配上那意外含蓄而不张扬的内部，让我感觉……平淡。</li>
     <li>尽管我偏好含蓄，{PAWN_nameShort}的那精致的臀部，连同它恰到好得体、几乎隐藏的通道，确实并不伤风败俗。</li>
     <li>我注意到{PAWN_nameShort}的成熟的臀部；整体形态，以及内部几乎不可见的样子，让它不那么……触目惊心。</li>
-    <li>{PAWN_nameShort}的臀部意外映入眼帘。虽说露在外面，但它谦逊的呈现与小巧隐蔽的穴口还算可以接受。</li>
+    <li>{PAWN_nameShort}的臀部意外映入眼帘。虽说露在外面，但它谦逊的姿态与小巧隐蔽的穴口还算可以接受。</li>
     <li>那只是短暂的一瞬，但{PAWN_nameShort}的臀部有着颇为得体的曲线，还有一个格外含蓄的孔洞，倒也不全然让人反感。</li>
     <li>我本不喜欢这种展示，但{PAWN_nameShort}的形态分明的臀部与那出乎意料地不挑逗的内褶皱……还算体面。</li>
-    <li>人偏爱矜持，然而 {PAWN_nameShort}的 匀称的臀部虽已外露，却衬出一处极为含蓄而包容的开口。几乎难以察觉。</li>
+    <li>人偏爱矜持，然而 {PAWN_nameShort}的匀称的臀部虽已外露，却衬出一处极为含蓄而包容的开口。几乎难以察觉。</li>
     <li>我的目光短暂地捕捉到{PAWN_nameShort}的成熟的身体。可惜，{PAWN_possessive}臀部的整洁与{PAWN_possessive}通道的深藏不露都看得清清楚楚。</li>
     <li>尽管我对裸体感到不适，{PAWN_nameShort}的丰满的臀部，以及那普普通通地展露、天性包容的内部，倒也不算太惊人。</li>
     <li>{PAWN_nameShort}的臀部呈现得相当平淡。毫不出奇的形状与那含蓄、模糊的开口，让它显得不那么……令人担忧。</li>
@@ -1059,7 +1049,7 @@
     <li>我觉得她的臀部相当吸引人；那饱满的形态和欢迎人、轮廓分明的开口给人慰藉。</li>
   </Opinion_Anus_Positive_Accommodating_MatureFemale_observed_by_middle_aged_Female.opinionTexts>
   <Opinion_Anus_Positive_Accommodating_MatureFemale_observed_by_middle_aged_male.opinionTexts>
-    <li>她那成熟的臀部相当悦目。饱满有致的曲线，加上内侧通道那份从容而隐约可见的呈现，颇为吸引人。</li>
+    <li>她那成熟的臀部相当悦目。饱满有致的曲线，加上内侧通道那份从容而隐约可见的姿态，颇为吸引人。</li>
     <li>我瞥见了她的臀部；按她的年纪来说保养得不错，那隐秘的开口似乎很诱人。一次愉快的发现。</li>
     <li>她的屁股带着一种久经世故的优雅。那臀部的形状，加上天然宽容的内部区域，给人一种安慰的印象。</li>
     <li>那成熟的臀部有着令人愉悦的饱满。慷慨的曲线与那隐约可见、迎人而入的孔穴，透着一种自在的熟稔。</li>
@@ -1100,7 +1090,7 @@
     <li>多么好的一件标本！{PAWN_nameShort}的成熟的臀瓣圆润得妙不可言，那清晰可见、宽容的洞口着实令人愉悦。</li>
     <li>那景象完美极了；{PAWN_nameShort}的丰满而曲线优美的臀部，优美地展露出一个迎人而轮廓分明的通道。真是赏心悦目。</li>
     <li>确实是值得的景象。{PAWN_nameShort}的臀部带来一种令人愉悦的组合：丰盈的曲线，加上清晰可见、招人进入的内部构造。</li>
-    <li>我的注意力被{PAWN_nameShort}的诱人的臀部俘获。{PAWN_possessive}形态良好的臀肉与包容的孔洞那自然的呈现，真是令人着迷。</li>
+    <li>我的注意力被{PAWN_nameShort}的诱人的臀部俘获。{PAWN_possessive}形态良好的臀肉与包容的孔洞那自然的姿态，真是令人着迷。</li>
   </Opinion_Anus_Positive_Accommodating_MatureFemale_observed_by_voyer.opinionTexts>
   <Opinion_Anus_Positive_Accommodating_MatureMale.opinionTexts>
     <li>他轮廓分明、成熟健壮的臀部，含蓄地露出一个诉说着自信力量的开口。真是一幅令人愉快的景象。</li>
@@ -1113,8 +1103,8 @@
     <li>{PAWN_nameShort}的臀部那成熟的轮廓实在精致，那小心隐藏的开口暗示着一份令人愉悦的敞开。</li>
     <li>确实是悦目的一幕，{PAWN_nameShort}的圆润的臀肌呈现出一个热情而柔和可见的通道，印证着持久的活力。</li>
     <li>{PAWN_nameShort}的保养良好的臀部有种含蓄的魅力；那齐整分明的轮廓与不张扬的开口颇为诱人。</li>
-    <li>{PAWN_nameShort}的 臀部那自信的弧线优雅地框出一瞥迎人而备受呵护的通道。</li>
-    <li>观察 {PAWN_nameShort}的 臀部细微的起伏，可见一副柔软浑圆的形状与一处含蓄诱人的开口。</li>
+    <li>{PAWN_nameShort}的臀部那自信的弧线优雅地框出一瞥迎人而备受呵护的通道。</li>
+    <li>观察 {PAWN_nameShort}的臀部细微的起伏，可见一副柔软浑圆的形状与一处含蓄诱人的开口。</li>
     <li>令人慰藉的景象，{PAWN_nameShort}的丰厚的臀部露出一个隐约而包容的门户，应许着稳定的暖意。</li>
     <li>{PAWN_nameShort}的臀部宽宏的曲线，配上那异常干净又诱人的洞口，完美融入{PAWN_possessive}整体形态。</li>
     <li>匆匆观察：{PAWN_nameShort}的成熟的臀部透着一种精致的美感，那缝隙自然可见，颇为欢迎。</li>
@@ -1170,11 +1160,11 @@
   </Opinion_Anus_Positive_Accommodating_MatureMale_observed_by_Elder_male.opinionTexts>
   <Opinion_Anus_Positive_Accommodating_MatureMale_observed_by_Exhibitionist.opinionTexts>
     <li>{PAWN_nameShort}的自信地展示着{PAWN_possessive}那虽已成熟却紧实的臀部，配上那诱人而若隐若现的开口，真叫人热血沸腾！</li>
-    <li>大胆的呈现！{PAWN_nameShort}的臀部那结实而诱人的曲线，美丽地突出了那明显包容而魅人的后穴。</li>
+    <li>大胆的姿态！{PAWN_nameShort}的臀部那结实而诱人的曲线，美丽地突出了那明显包容而魅人的后穴。</li>
     <li>看到{PAWN_nameShort}的丰满的臀部，我一阵兴奋。{PAWN_possessive}那形状完美的臀部展示出{PAWN_possessive}好客的通道，实在壮观。</li>
     <li>好一场美妙的展示！{PAWN_nameShort}的成熟、肌肉结实的臀部，以及那处鲜明诱人的开口，是一道令人愉快的景象。</li>
     <li>{PAWN_nameShort}的愿意炫耀{PAWN_possessive}那迷人的臀部，连同那轮廓优美又包容的开口，让我兴奋不已。</li>
-    <li>那自信的姿态露出 {PAWN_nameShort}的 紧实的臀部，整齐呈现、诱人的内层褶皱，对我相当刺激。</li>
+    <li>那自信的姿态露出 {PAWN_nameShort}的紧实的臀部，整齐呈现、诱人的内层褶皱，对我相当刺激。</li>
     <li>我真心欣赏{PAWN_nameShort}的慷慨的展示。{PAWN_possessive}臀部那悦人的形状，以及{PAWN_possessive}那条可见而包容的通道，都妙不可言。</li>
     <li>看到{PAWN_nameShort}的成熟而结实的臀部真是无比畅快。那隐约显露、透着欢迎的内里区域令人赏心悦目。</li>
     <li>{PAWN_nameShort}的展示{PAWN_possessive}臀部，令人感到力量充盈。那饱满圆润的形状与{PAWN_possessive}孔洞迷人的敞开，棒极了。</li>
@@ -1197,7 +1187,7 @@
     <li>{PAWN_nameShort}的紧实的臀部及其明确热情的开口突然而撩人地一闪而过，让我脊背战栗。我还想要更多。</li>
     <li>{PAWN_nameShort}的肌肉紧实的后庭，那完美的比例与{PAWN_possessive}内部通道诱人的暗示，在我体内激起强烈的渴求。</li>
     <li>看着{PAWN_nameShort}的令人愉快的臀部，我渴得发疼。{PAWN_possessive}内侧门户那饱满迎纳的景象，预示着巨大的快感。</li>
-    <li>我的身体因期待而嗡鸣。{PAWN_nameShort}的 曲线优美的臀部，以及 {PAWN_possessive} 甬道那明显可见、宽松包容的模样，实在太诱人了。</li>
+    <li>我的身体因期待而嗡鸣。{PAWN_nameShort}的曲线优美的臀部，以及 {PAWN_possessive} 甬道那明显可见、宽松包容的模样，实在太诱人了。</li>
     <li>一股强烈的冲动将我压倒。{PAWN_nameShort}的成熟而热情的臀部，那隐约外露、无比乐于接纳的内里，纯粹是诱惑。</li>
     <li>观察{PAWN_nameShort}的丰满的臀部，我涌起无法满足的饥渴。那丰盈的曲线与{PAWN_possessive}开口明显的敞开，令人陶醉。</li>
     <li>{PAWN_nameShort}的精致的臀部让我的感官被淹没。{PAWN_possessive}那随和柔软、若隐若现的开口，许诺着无尽的狂喜。</li>
@@ -1205,9 +1195,9 @@
     <li>我对{PAWN_nameShort}的那迷人的臀部欲望难耐。{PAWN_possessive}臀形衬托出诱人内侧的模样，深深令人兴奋。</li>
     <li>意外看见{PAWN_nameShort}的那丰满的成熟臀部，在我心中激起火热的渴求；微微露出的开口暗示着深沉的极乐。</li>
     <li>凝视着{PAWN_nameShort}的肌肉紧实的臀部，一股吞噬一切的欲望在燃烧；那丰厚的臀肌与{PAWN_possessive}内侧通道诱人的可见度，实在妙不可言。</li>
-    <li>我的核心在颤抖。{PAWN_nameShort}的 动人的身段，以及 {PAWN_possessive} 内阴唇天然敞开的模样，就是一份我渴望接受的直接邀请。</li>
+    <li>我的核心在颤抖。{PAWN_nameShort}的动人的身段，以及 {PAWN_possessive} 内阴唇天然敞开的模样，就是一份我渴望接受的直接邀请。</li>
     <li>我强烈渴望{PAWN_nameShort}的那比例匀称的臀部。{PAWN_possessive}那能容纳的臀缝若隐若现，让我满心都是绝望的渴望。</li>
-    <li>哦，若能感受 {PAWN_nameShort}的 成熟的臀部！那圆润的诱惑与清晰可见、宽绰包容的开口，是一个令人发狂的极乐承诺。</li>
+    <li>哦，若能感受 {PAWN_nameShort}的成熟的臀部！那圆润的诱惑与清晰可见、宽绰包容的开口，是一个令人发狂的极乐承诺。</li>
     <li>这景象几乎让人承受不住；{PAWN_nameShort}的丰满而曲线优美的臀部，优美地展露出一个迎人的、深深诱人的通道。</li>
     <li>一份深切而原始的反应。{PAWN_nameShort}的臀部带来一种愉悦的组合：丰腴的曲线，以及清晰可见、无比热情的内里构造。</li>
     <li>我陷入了欲望的疯狂。{PAWN_nameShort}的那诱人的臀部，那天然呈现的匀称臀肉与包容的开口，占据了我全部思绪。</li>
@@ -1220,10 +1210,10 @@
     <li>那景象来得突然，但{PAWN_nameShort}的紧实的臀部，配上那意外含蓄而不张扬的内部，让我感觉……平淡。</li>
     <li>尽管我偏好含蓄，{PAWN_nameShort}的那精致的臀部，连同它恰到好得体、几乎隐藏的通道，确实并不伤风败俗。</li>
     <li>我注意到{PAWN_nameShort}的成熟的臀部；整体形态，以及内部几乎不可见的样子，让它不那么……触目惊心。</li>
-    <li>{PAWN_nameShort}的臀部意外映入眼帘。虽说露在外面，但它谦逊的呈现与小巧隐蔽的穴口还算可以接受。</li>
+    <li>{PAWN_nameShort}的臀部意外映入眼帘。虽说露在外面，但它谦逊的姿态与小巧隐蔽的穴口还算可以接受。</li>
     <li>那只是短暂的一瞬，但{PAWN_nameShort}的臀部有着颇为得体的曲线，还有一个格外含蓄的孔洞，倒也不全然让人反感。</li>
     <li>我本不喜欢这种展示，但{PAWN_nameShort}的形态分明的臀部与那出乎意料地不挑逗的内褶皱……还算体面。</li>
-    <li>人偏爱矜持，然而 {PAWN_nameShort}的 结实的臀部虽已外露，却衬出一处极为含蓄而包容的开口。几乎难以察觉。</li>
+    <li>人偏爱矜持，然而 {PAWN_nameShort}的结实的臀部虽已外露，却衬出一处极为含蓄而包容的开口。几乎难以察觉。</li>
     <li>我的目光短暂地捕捉到{PAWN_nameShort}的成熟的身体。可惜，{PAWN_possessive}臀部的整洁与{PAWN_possessive}通道的深藏不露都看得清清楚楚。</li>
     <li>尽管我对裸体感到不适，{PAWN_nameShort}的丰满的臀部，以及那普普通通地展露、天性包容的内部，倒也不算太惊人。</li>
     <li>{PAWN_nameShort}的臀部呈现得相当平淡。毫不出奇的形状与那含蓄、模糊的开口，让它显得不那么……令人担忧。</li>
@@ -1342,7 +1332,7 @@
     <li>多么好的一件标本！{PAWN_nameShort}的成熟的臀瓣圆润得妙不可言，那清晰可见、宽容的洞口着实令人愉悦。</li>
     <li>那景象完美极了；{PAWN_nameShort}的丰满而曲线优美的臀部，优美地展露出一个迎人而轮廓分明的通道。真是赏心悦目。</li>
     <li>确实是值得的景象。{PAWN_nameShort}的臀部带来一种令人愉悦的组合：丰盈的曲线，加上清晰可见、招人进入的内部构造。</li>
-    <li>我的注意力被{PAWN_nameShort}的诱人的臀部俘获。{PAWN_possessive}形态良好的臀肉与包容的孔洞那自然的呈现，真是令人着迷。</li>
+    <li>我的注意力被{PAWN_nameShort}的诱人的臀部俘获。{PAWN_possessive}形态良好的臀肉与包容的孔洞那自然的姿态，真是令人着迷。</li>
   </Opinion_Anus_Positive_Accommodating_MatureMale_observed_by_voyer.opinionTexts>
   <Opinion_Anus_Positive_Accommodating_SlimeAnus.opinionTexts>
     <li>看着{PAWN_nameShort}的包容的史莱姆肛门，它那闪亮流动的特质有种奇异的诱惑力。</li>
@@ -1382,7 +1372,7 @@
     <li>望着{PAWN_nameShort}的包容的肛门，那么柔软诱人，我感到一种暖心的慰藉。</li>
     <li>{PAWN_nameShort}有着多么了不起的宽容肛门，散发着温润的暖意与体谅。</li>
     <li>{PAWN_nameShort}的那顺从的肛门毫不造作的慷慨，充分说明了{PAWN_possessive}体贴的天性。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我在 {PAWN_possessive} 的存在深处感到一份深沉而抚慰的善意。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我在 {PAWN_possessive} 的存在深处感到一份深沉而抚慰的善意。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门被如此优雅地呈现，递出一份含蓄而体贴的邀请。</li>
     <li>{PAWN_nameShort}的肛门那自然而包容的形态温柔地放松着，体现着一个温柔的灵魂。</li>
     <li>我在{PAWN_nameShort}的包容的肛门那柔软、欢迎人的样子中发现了真挚的欣赏。</li>
@@ -1391,12 +1381,12 @@
     <li>{PAWN_nameShort}那可见而随和的肛门，是对脆弱与接纳的甜美肯定。</li>
     <li>目睹{PAWN_nameShort}那毫无羞耻、包容张开的肛门，我生出一份温和的共情。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门被如此用心地展示出来，正是天然温柔之美的证明。</li>
-    <li>看到 {PAWN_nameShort}的 宽松的肛门，我心中涌起一份安静而温柔的赞叹。</li>
+    <li>看到 {PAWN_nameShort}的宽松的肛门，我心中涌起一份安静而温柔的赞叹。</li>
     <li>好一个敞开诱人的包容型肛门，它的存在回响着纯粹而质朴的善意。</li>
     <li>我欣赏{PAWN_nameShort}的那迎纳的肛门完整呈现时的温柔接纳与美。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门被大方地展示出来，充分说明了{PAWN_possessive}平静的性情。</li>
     <li>{PAWN_nameShort}的那包容的肛门坦然显露，透着天然的优雅，实在暖心。</li>
-    <li>我从{PAWN_nameShort}的包容的肛门那毫不保留的呈现中获得深沉的慰藉。</li>
+    <li>我从{PAWN_nameShort}的包容的肛门那毫不保留的姿态中获得深沉的慰藉。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门毫不遮掩、引人亲近，是对温柔存在的一曲壮丽宣言。</li>
     <li>{PAWN_nameShort}的那宽松肛门宽宏敞开的形态，是一场美丽而宁静的奇观。</li>
     <li>{PAWN_nameShort}的那包容的肛门自信的展露让我感动，那映照出真正的善意。</li>
@@ -1414,7 +1404,7 @@
     <li>我对{PAWN_nameShort}的包容的肛门感到强烈的连结，如此坦然地奉上，表达力十足。</li>
     <li>{PAWN_nameShort}袒露出的肛门多么壮丽，鼓励着我自己也大胆起来。真是一幕令人振奋的景象。</li>
     <li>{PAWN_nameShort}的那包容的肛门就这么明晃晃地露着，极大地肯定了我的内心。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一份共鸣，一种在毫无羞耻的展露中共享的喜悦。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一份共鸣，一种在毫无羞耻的展露中共享的喜悦。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门人人可见，是一份关于自信自我接纳的美丽宣言。</li>
     <li>{PAWN_nameShort}的肛门那自然而包容的曲线大方呈现，是一份愉悦灵感的源泉。</li>
     <li>我沉醉于{PAWN_nameShort}的那易于接纳的肛门公然展露的样子，真是令人解放的一幕。</li>
@@ -1423,12 +1413,12 @@
     <li>{PAWN_nameShort}那可见而随和的肛门，是对无拘性感的有力肯定。</li>
     <li>亲眼看到{PAWN_nameShort}那毫无羞耻、任人深入的肛门，我涌起一阵同袍般的兴奋。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门被如此大方地展示出来，正是自然之美的证明。</li>
-    <li>看到 {PAWN_nameShort}的 宽松的肛门，我心中涌起一股雀跃的自由之感。</li>
+    <li>看到 {PAWN_nameShort}的宽松的肛门，我心中涌起一股雀跃的自由之感。</li>
     <li>好一个敞开诱人的包容型肛门，它的存在点燃了共同暴露的火花。</li>
     <li>我欣赏{PAWN_nameShort}的那迎纳的肛门完整呈现时的勇气与美。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门大胆地展露着，与我自身的本性深深共鸣。</li>
     <li>{PAWN_nameShort}的那包容的肛门坦然显露，透着天然的优雅，实在鼓舞人心。</li>
-    <li>我从{PAWN_nameShort}的包容的肛门那毫不保留的呈现中获得深沉的喜悦。</li>
+    <li>我从{PAWN_nameShort}的包容的肛门那毫不保留的姿态中获得深沉的喜悦。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门毫不遮掩、引人亲近，是对自我的一曲壮丽宣言。</li>
     <li>{PAWN_nameShort}的那宽松肛门宽宏敞开的形态，是一场美丽的奇观。</li>
     <li>{PAWN_nameShort}的那迎纳的肛门自信地展露，让我欣喜。</li>
@@ -1446,7 +1436,7 @@
     <li>我对{PAWN_nameShort}的那敞开奉上的包容肛门感到一种强烈的亲切。我的阴蒂因欲望而悸动。</li>
     <li>{PAWN_nameShort}展示出的肛门多么壮丽，壮大了我自己的欲念。真令人振奋。</li>
     <li>{PAWN_nameShort}的那包容的肛门就这么明晃晃地露着，令人极度性欲高涨，一阵暖意蔓延开来。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一股深沉的性冲动，我的外阴随之搏动。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一股深沉的性冲动，我的外阴随之搏动。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门人人可见，是一份关于不知羞耻之肉欲的美丽宣言。我的私处收紧。</li>
     <li>{PAWN_nameShort}的肛门那自然而包容的曲线大方呈现，是一份美妙情欲的源泉。</li>
     <li>我沉醉于{PAWN_nameShort}的那易于接纳的肛门公然展露的样子，真是令人解放又兴奋的景象。</li>
@@ -1455,12 +1445,12 @@
     <li>{PAWN_nameShort}那可见而随和的肛门，是对无拘性感的有力肯定；我感到自己渐渐湿润起来。</li>
     <li>亲眼看到{PAWN_nameShort}那毫无羞耻、任人深入的肛门，我涌起一阵同袍般的兴奋。我的小穴已经准备好了。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门被如此大方地展示出来，正是原始而天然的性魅力的证明。</li>
-    <li>看到 {PAWN_nameShort}的 宽松的肛门，我心中涌起一股雀跃的肉欲自由之感。</li>
+    <li>看到 {PAWN_nameShort}的宽松的肛门，我心中涌起一股雀跃的肉欲自由之感。</li>
     <li>好一个敞开诱人的包容型肛门，它的存在点燃了共同暴露、强烈炽热的火花。</li>
     <li>我欣赏{PAWN_nameShort}的那迎纳的肛门完整呈现时的勇气与美，我的血都热了。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门大胆地展露着，与我自身那淫荡的本性深深共鸣。</li>
     <li>{PAWN_nameShort}的那包容的肛门坦然显露，透着天然的优雅，实在鼓舞人心，让我的肌肉一阵抽动。</li>
-    <li>我从{PAWN_nameShort}的包容的肛门那毫不保留的呈现中获得深沉的喜悦，我的下身随之回应。</li>
+    <li>我从{PAWN_nameShort}的包容的肛门那毫不保留的姿态中获得深沉的喜悦，我的下身随之回应。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门毫不遮掩、引人亲近，是对肆意欲望的一曲壮丽宣言。</li>
     <li>{PAWN_nameShort}的那宽松肛门宽宏敞开的形态，是一场美丽而挑逗的奇观。</li>
     <li>{PAWN_nameShort}的那迎纳的肛门自信地展露，让我欣喜，我的感官被唤醒了。</li>
@@ -1478,7 +1468,7 @@
     <li>我对{PAWN_nameShort}的那敞开奉上的包容肛门感到一种强烈的亲切。我的鸡巴因欲望而悸动。</li>
     <li>{PAWN_nameShort}展示出的肛门多么壮丽，壮大了我自己的欲念。真令人振奋。</li>
     <li>{PAWN_nameShort}的那包容的肛门就这么明晃晃地露着，令人极度性欲高涨，我的茎身硬了起来。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一股深沉的性冲动，我的茎身随之搏动。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一股深沉的性冲动，我的茎身随之搏动。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门人人可见，是一份关于不知羞耻之肉欲的美丽宣言。我的睾丸收紧。</li>
     <li>{PAWN_nameShort}的肛门那自然而包容的曲线大方呈现，是一份美妙情欲的源泉。</li>
     <li>我沉醉于{PAWN_nameShort}的那易于接纳的肛门公然展露的样子，真是令人解放又兴奋的景象。</li>
@@ -1487,12 +1477,12 @@
     <li>{PAWN_nameShort}那可见而随和的肛门，是对无拘性感的有力肯定；我感到自己在渐渐胀起。</li>
     <li>亲眼看到{PAWN_nameShort}那毫无羞耻、任人深入的肛门，我涌起一阵同袍般的兴奋。我的阴茎已经准备好了。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门被如此大方地展示出来，正是原始而天然的性魅力的证明。</li>
-    <li>看到 {PAWN_nameShort}的 宽松的肛门，我心中涌起一股雀跃的肉欲自由之感。</li>
+    <li>看到 {PAWN_nameShort}的宽松的肛门，我心中涌起一股雀跃的肉欲自由之感。</li>
     <li>好一个敞开诱人的包容型肛门，它的存在点燃了共同暴露、强烈炽热的火花。</li>
     <li>我欣赏{PAWN_nameShort}的那迎纳的肛门完整呈现时的勇气与美，我的血都热了。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门大胆地展露着，与我自身那淫荡的本性深深共鸣。</li>
     <li>{PAWN_nameShort}的那包容的肛门坦然显露，透着天然的优雅，实在鼓舞人心，让我的肌肉一阵抽动。</li>
-    <li>我从{PAWN_nameShort}的包容的肛门那毫不保留的呈现中获得深沉的喜悦，我的下身随之回应。</li>
+    <li>我从{PAWN_nameShort}的包容的肛门那毫不保留的姿态中获得深沉的喜悦，我的下身随之回应。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门毫不遮掩、引人亲近，是对肆意欲望的一曲壮丽宣言。</li>
     <li>{PAWN_nameShort}的那宽松肛门宽宏敞开的形态，是一场美丽而挑逗的奇观。</li>
     <li>{PAWN_nameShort}的那迎纳的肛门自信地展露，让我欣喜，我的感官被唤醒了。</li>
@@ -1522,7 +1512,7 @@
     <li>{PAWN_nameShort}的那包容肛门松弛敞开的样子，送来一阵强烈而直抵内脏的快感。</li>
     <li>我一定要得到{PAWN_nameShort}的包容的肛门；那诱人的深度让我欲望发狂。</li>
     <li>{PAWN_nameShort}的那易于接纳的肛门有着绝对、无可否认的诱惑，让我整个身心胀痛。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一股无可否认的、淫邪而灼热的情欲翻涌上来。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一股无可否认的、淫邪而灼热的情欲翻涌上来。</li>
     <li>{PAWN_nameShort}身上如此柔顺、包容的肛门，确实在我心中点燃一种近乎痛楚的迷恋。</li>
     <li>我的目光停留在{PAWN_nameShort}的那包容的肛门上，它毫不费力地敞开，是深深的肉欲诱惑。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门，一派令人愉悦的接纳之姿，唤醒了无法抑制的渴求。</li>
@@ -1554,7 +1544,7 @@
     <li>{PAWN_nameShort}的那包容肛门松弛敞开的样子，把一阵强烈而直抵内脏的快感直直送进我的核心。</li>
     <li>我一定要得到{PAWN_nameShort}的包容的肛门；那诱人的深度让我欲望失控、几近发狂。</li>
     <li>{PAWN_nameShort}的那易于接纳的肛门有着绝对、无可否认的诱惑，让我整个身心因原始的饥渴而胀痛。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一股无可否认的、淫邪而灼热的情欲翻涌上来，让我扭动不安。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一股无可否认的、淫邪而灼热的情欲翻涌上来，让我扭动不安。</li>
     <li>{PAWN_nameShort}身上如此柔顺、包容的肛门，确实在我心中点燃一种近乎痛楚的迷恋，我的阴蒂也胀大起来。</li>
     <li>我的目光停留在{PAWN_nameShort}的那包容的肛门上，它毫不费力地敞开，对我而言是深深肉欲的诱惑。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门，一派令人愉悦的接纳之姿，在我自己的深处唤醒了无法抑制的渴求。</li>
@@ -1586,7 +1576,7 @@
     <li>{PAWN_nameShort}的那包容肛门松弛敞开的样子，把一阵强烈而直抵内脏的快感直直送进我的核心。</li>
     <li>我一定要得到{PAWN_nameShort}的包容的肛门；那诱人的深度让我欲望失控、几近发狂。</li>
     <li>{PAWN_nameShort}的那易于接纳的肛门有着绝对、无可否认的诱惑，让我整个身心因原始的饥渴而胀痛。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一股无可否认的、淫邪而灼热的情欲翻涌上来，让我扭动不安。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一股无可否认的、淫邪而灼热的情欲翻涌上来，让我扭动不安。</li>
     <li>{PAWN_nameShort}身上如此柔顺、包容的肛门，确实在我心中点燃一种近乎痛楚的迷恋，我的阴蒂也胀大起来。</li>
     <li>我的目光停留在{PAWN_nameShort}的那包容的肛门上，它毫不费力地敞开，对我而言是深深肉欲的诱惑。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门，一派令人愉悦的接纳之姿，在我自己的深处唤醒了无法抑制的渴求。</li>
@@ -1618,7 +1608,7 @@
     <li>{PAWN_nameShort}的那包容肛门松弛敞开的样子，把一阵强烈而直抵内脏的快感直直送进我的阴茎。</li>
     <li>我一定要得到{PAWN_nameShort}的包容的肛门；那诱人的深度让我欲望失控、几近发狂。</li>
     <li>{PAWN_nameShort}的那易于接纳的肛门有着绝对、无可否认的诱惑，让我整个身心因原始的饥渴而胀痛。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一股无可否认的、淫邪而灼热的情欲翻涌上来，让我的阴茎绷紧。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一股无可否认的、淫邪而灼热的情欲翻涌上来，让我的阴茎绷紧。</li>
     <li>{PAWN_nameShort}身上如此柔顺、包容的肛门，确实在我心中点燃一种近乎痛楚的迷恋，我的阴茎也硬了起来。</li>
     <li>我的目光停留在{PAWN_nameShort}的那包容的肛门上，它毫不费力地敞开，对我而言是深深肉欲的诱惑。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门，一派令人愉悦的接纳之姿，在我的裤裆里唤醒了无法抑制的渴求。</li>
@@ -1650,7 +1640,7 @@
     <li>{PAWN_nameShort}的那包容肛门松弛敞开的样子，把一阵强烈而直抵内脏的快感直直送进我的阴茎。</li>
     <li>我一定要得到{PAWN_nameShort}的包容的肛门；那诱人的深度让我欲望失控、几近发狂。</li>
     <li>{PAWN_nameShort}的那易于接纳的肛门有着绝对、无可否认的诱惑，让我整个身心因原始的饥渴而胀痛。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一股无可否认的、淫邪而灼热的情欲翻涌上来，让我的阴茎绷紧。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一股无可否认的、淫邪而灼热的情欲翻涌上来，让我的阴茎绷紧。</li>
     <li>{PAWN_nameShort}身上如此柔顺、包容的肛门，确实在我心中点燃一种近乎痛楚的迷恋，我的阴茎也硬了起来。</li>
     <li>我的目光停留在{PAWN_nameShort}的那包容的肛门上，它毫不费力地敞开，对我而言是深深肉欲的诱惑。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门，一派令人愉悦的接纳之姿，在我的裤裆里唤醒了无法抑制的渴求。</li>
@@ -1668,7 +1658,7 @@
     <li>不由自主地，{PAWN_nameShort}的那包容的肛门确实……形态优美。它完美得几乎让人恼火。</li>
     <li>哼。{PAWN_nameShort}的那迎纳的肛门确实很有存在感。没法否认它……就在那儿。</li>
     <li>老实说，{PAWN_nameShort}的那迎纳的肛门相当显眼。不过可别误会，我并没有在看。</li>
-    <li>人无法就这么忽视 {PAWN_nameShort}的 包容的肛门；它相当……明显。</li>
+    <li>人无法就这么忽视 {PAWN_nameShort}的包容的肛门；它相当……明显。</li>
     <li>{PAWN_nameShort}那个宽大的肛门，说白了……张得惊人。惊人到令人烦躁。</li>
     <li>我想{PAWN_nameShort}的那宽裕的肛门比例还算得当。对那些在意这种事的人来说。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门？露着。是啊，相当显眼。而且相当饱满。</li>
@@ -1678,7 +1668,7 @@
     <li>我得承认，{PAWN_nameShort}的包容的肛门，坦白说，实在难以忽视。</li>
     <li>{PAWN_nameShort}身上那个易于接纳的肛门，确实不缺尺寸和显眼度。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门，虽说……确实显眼了些，形状倒是相当不错。</li>
-    <li>可以说 {PAWN_nameShort}的 那包容的肛门……宽广得毫无保留。</li>
+    <li>可以说 {PAWN_nameShort}的那包容的肛门……宽广得毫无保留。</li>
     <li>{PAWN_nameShort}的肛门那十足的迎纳，嗯，相当扎眼。</li>
     <li>那个宽大的肛门如此显眼地展示着，在{PAWN_nameShort}身上确实……很难忽视。</li>
     <li>尽管理智告诉我别这样，{PAWN_nameShort}的那包容的肛门还是有一种……存在感。</li>
@@ -1701,7 +1691,7 @@
     <li>{PAWN_nameShort}的那包容的肛门何等慷慨，让我满心涌起无法否认、令人战栗的欣赏。</li>
     <li>我忍不住赞叹{PAWN_nameShort}的那包容顺从的肛门所展现的壮丽景象，真是一场感官盛宴。</li>
     <li>{PAWN_nameShort}有着多么了不起的宽容肛门，引人久久而着迷地凝视。</li>
-    <li>{PAWN_nameShort}的那包容的肛门自然而奔放的呈现，对我这颗偷窥者的心来说是个愉悦的发现。</li>
+    <li>{PAWN_nameShort}的那包容的肛门自然而奔放的姿态，对我这颗偷窥者的心来说是个愉悦的发现。</li>
     <li>我的目光停留在{PAWN_nameShort}的那包容的肛门上，它松弛敞开的样子是一场私密而刺激的奇观。</li>
     <li>{PAWN_nameShort}的臀部诱人的轮廓，导向那个绝妙易于接纳的肛门，一场完美的视觉享受。</li>
     <li>观察{PAWN_nameShort}的包容的肛门那毫不保留的敞开，我获得巨大的快感。</li>
@@ -1725,7 +1715,7 @@
     <li>{PAWN_nameShort}的那迎合的肛门把我彻底钉住；那是一幕壮丽的景象。</li>
     <li>{PAWN_nameShort}的宽松肛门周围细微的动作，牢牢吸引着我的注意力。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门，一副毫不费力就发出邀请的模样，令人玩味不尽。</li>
-    <li>{PAWN_nameShort}的 那宽容的肛门毫不遮掩地展现出来，让我这偷窥的本能得到了彻底满足。</li>
+    <li>{PAWN_nameShort}的那宽容的肛门毫不遮掩地展现出来，让我这偷窥的本能得到了彻底满足。</li>
     <li>好一个真正迷人的包容型肛门，让人忍不住长久而欣赏地凝视。</li>
   </Opinion_Anus_Positive_Accommodating_trait_Voyeur.opinionTexts>
   <Opinion_Anus_Positive_Accommodating_trait_Voyeur_F.opinionTexts>
@@ -1746,7 +1736,7 @@
     <li>{PAWN_nameShort}的那包容肛门松弛敞开的样子，一阵强烈的渴慕穿过我的全身。</li>
     <li>{PAWN_nameShort}的那包容的肛门，诱人的深度引出一阵美妙的酸胀，我无法把眼睛移开。</li>
     <li>{PAWN_nameShort}的那易于接纳的肛门有着绝对、无可否认的诱惑，让我整个身心因欲火而嗡鸣。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一股无可否认的淫邪快感与灼热翻涌上来。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一股无可否认的淫邪快感与灼热翻涌上来。</li>
     <li>{PAWN_nameShort}身上如此柔顺、包容的肛门，确实在我心中点燃一种令人颤栗、近乎不正当的迷恋。</li>
     <li>我的目光停留在{PAWN_nameShort}的那包容的肛门上，它毫不费力地敞开，是深深的诱惑。我的身体放松下来。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门，一派令人愉悦的接纳之姿，唤醒了禁忌的渴求。</li>
@@ -1778,7 +1768,7 @@
     <li>{PAWN_nameShort}的那包容肛门松弛敞开的样子，一阵强烈的渴慕穿过我的全身。</li>
     <li>{PAWN_nameShort}的那包容的肛门，诱人的深度引出一阵美妙的酸胀，我无法把眼睛移开。</li>
     <li>{PAWN_nameShort}的那易于接纳的肛门有着绝对、无可否认的诱惑，让我整个身心因欲火而嗡鸣。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一股无可否认的淫邪快感与灼热翻涌上来。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一股无可否认的淫邪快感与灼热翻涌上来。</li>
     <li>{PAWN_nameShort}身上如此柔顺、包容的肛门，确实在我心中点燃一种令人颤栗、近乎不正当的迷恋。</li>
     <li>我的目光停留在{PAWN_nameShort}的那包容的肛门上，它毫不费力地敞开，是深深的诱惑。我的身体放松下来。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门，一派令人愉悦的接纳之姿，唤醒了禁忌的渴求。</li>
@@ -1810,7 +1800,7 @@
     <li>{PAWN_nameShort}的那包容肛门松弛敞开的样子，把一阵强烈的渴慕直直送进我的下腹。</li>
     <li>{PAWN_nameShort}的那包容的肛门，诱人的深度引出一阵美妙的酸胀，我无法把眼睛移开。</li>
     <li>{PAWN_nameShort}的那易于接纳的肛门有着绝对、无可否认的诱惑，让我整个身心因欲火而嗡鸣。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一股无可否认的淫邪快感与灼热翻涌上来。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一股无可否认的淫邪快感与灼热翻涌上来。</li>
     <li>{PAWN_nameShort}身上如此柔顺、包容的肛门，确实在我心中点燃一种令人颤栗、近乎不正当的迷恋。</li>
     <li>我的目光停留在{PAWN_nameShort}的那包容的肛门上，它毫不费力地敞开，对我的阴茎而言是深深的诱惑。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门，一派令人愉悦的接纳之姿，在我胯下唤醒了禁忌的渴求。</li>
@@ -1842,7 +1832,7 @@
     <li>{PAWN_nameShort}的那包容肛门松弛敞开的样子，一阵强烈的渴慕穿过我的全身。</li>
     <li>{PAWN_nameShort}的那包容的肛门，诱人的深度引出一阵美妙的酸胀，我无法把眼睛移开。</li>
     <li>{PAWN_nameShort}的那易于接纳的肛门有着绝对、无可否认的诱惑，让我整个身心因欲火而嗡鸣。</li>
-    <li>观察 {PAWN_nameShort}的 那宽容的肛门，我感到一股无可否认的淫邪快感与灼热翻涌上来。</li>
+    <li>观察 {PAWN_nameShort}的那宽容的肛门，我感到一股无可否认的淫邪快感与灼热翻涌上来。</li>
     <li>{PAWN_nameShort}身上如此柔顺、包容的肛门，确实在我心中点燃一种令人颤栗、近乎不正当的迷恋。</li>
     <li>我的目光停留在{PAWN_nameShort}的那包容的肛门上，它毫不费力地敞开，对我的阴茎而言是深深的诱惑。</li>
     <li>{PAWN_nameShort}的随和宽容的肛门，一派令人愉悦的接纳之姿，在我胯下唤醒了禁忌的渴求。</li>
@@ -1857,7 +1847,7 @@
     <li>{PAWN_nameShort}的随和宽容的肛门，一个精致的焦点，在我体内点燃一股强烈而无可否认的燥热，我的胯下紧绷起来。</li>
   </Opinion_Anus_Positive_Accommodating_trait_Voyeur_Male_to_Male.opinionTexts>
   <Opinion_Anus_Positive_Average.opinionTexts>
-    <li>看见 {PAWN_nameShort}的 的肛门，让人感到安心而诱人，达到了完美的平衡。</li>
+    <li>看见 {PAWN_nameShort}肛门，让人感到安心而诱人，达到了完美的平衡。</li>
     <li>我很欣赏{PAWN_nameShort}的肛门，它看起来正适合一场满足的体验。</li>
     <li>{PAWN_nameShort}的肛门带着一种魅力，让我的思绪萦绕不去、充满好奇。</li>
     <li>我很欣赏{PAWN_nameShort}的那中等的肛门，比例匀称、均衡的入口，悦目而对称的形状，还有那撩人的光滑质地，带来满足而可靠的快感。</li>
@@ -2037,7 +2027,7 @@
   <Opinion_Anus_Positive_Average_ElderFemale_observed_by_Prude.opinionTexts>
     <li>她的屁股虽露着，形态却是中等而不起眼。至少还算比较干净，也够得上得体。</li>
     <li>一瞥她的臀部，显出中等而略显圆润的形状。那肛门虽然在那儿，却不算过分显眼。我想，还过得去。</li>
-    <li>人注意到她的臀部；比例似乎中等。所幸肛门不太显眼，还保持着几分体面。</li>
+    <li>有人注意到她的臀部；比例似乎中等。所幸肛门不太显眼，还保持着几分体面。</li>
     <li>她的臀部轮廓中等，只是匆匆一瞥。那肛门虽然可见，却并不特别刺眼。</li>
     <li>她的臀部外观中等，这么露着实在遗憾。不过那肛门本身看着还算整洁，也算聊胜于无。</li>
     <li>我观察着她的臀部；形状中等而不张扬。至少那肛门看起来干净整洁，尽管暴露在外。</li>
@@ -2279,7 +2269,7 @@
   <Opinion_Anus_Positive_Average_ElderMale_observed_by_Prude.opinionTexts>
     <li>他的臀部虽然露着，形态却中等而平凡。至少还算干净，也算得体地含蓄。</li>
     <li>一瞥他的臀部，显出中等而略显圆润的形状。那肛门虽然在那儿，却不算过分显眼。我想，还过得去。</li>
-    <li>人注意到他的臀部；比例似乎中等。所幸肛门不太显眼，还保持着几分体面。</li>
+    <li>有人注意到他的臀部；比例似乎中等。所幸肛门不太显眼，还保持着几分体面。</li>
     <li>他的臀部轮廓中等，只是匆匆一瞥。那肛门虽然可见，却并不特别刺眼。</li>
     <li>他的臀部外表中等，其外露本身令人遗憾。不过肛门本身看来倒还整洁，也算难得。</li>
     <li>我观察着他的臀部；形状中等而不张扬。至少那肛门看起来干净整洁，尽管暴露在外。</li>
@@ -2809,7 +2799,7 @@
   <Opinion_Anus_Positive_Average_MatureFemale_observed_by_Prude.opinionTexts>
     <li>她的屁股虽露着，形态却是中等而不起眼。至少还算比较干净，也够得上得体。</li>
     <li>一瞥她的臀部，显出中等而略显圆润的形状。那肛门虽然在那儿，却不算过分显眼。我想，还过得去。</li>
-    <li>人注意到她的臀部；比例似乎中等。所幸肛门不太显眼，还保持着几分体面。</li>
+    <li>有人注意到她的臀部；比例似乎中等。所幸肛门不太显眼，还保持着几分体面。</li>
     <li>她的臀部轮廓中等，只是匆匆一瞥。那肛门虽然可见，却并不特别刺眼。</li>
     <li>她的臀部外观中等，这么露着实在遗憾。不过那肛门本身看着还算整洁，也算聊胜于无。</li>
     <li>我观察着她的臀部；形状中等而不张扬。至少那肛门看起来干净整洁，尽管暴露在外。</li>
@@ -3051,7 +3041,7 @@
   <Opinion_Anus_Positive_Average_MatureMale_observed_by_Prude.opinionTexts>
     <li>他的臀部虽然露着，形态却中等而平凡。至少还算干净，也算得体地含蓄。</li>
     <li>一瞥他的臀部，显出中等而略显圆润的形状。那肛门虽然在那儿，却不算过分显眼。我想，还过得去。</li>
-    <li>人注意到他的臀部；比例似乎中等。所幸肛门不太显眼，还保持着几分体面。</li>
+    <li>有人注意到他的臀部；比例似乎中等。所幸肛门不太显眼，还保持着几分体面。</li>
     <li>他的臀部轮廓中等，只是匆匆一瞥。那肛门虽然可见，却并不特别刺眼。</li>
     <li>他的臀部外表中等，其外露本身令人遗憾。不过肛门本身看来倒还整洁，也算难得。</li>
     <li>我观察着他的臀部；形状中等而不张扬。至少那肛门看起来干净整洁，尽管暴露在外。</li>
@@ -3237,7 +3227,7 @@
     <li>{PAWN_nameShort}的后臀朴素的曲线，连同那个中等而不张扬的开口，呈现出一种简约含蓄的美，确实值得欣赏。</li>
     <li>我觉得{PAWN_nameShort}的中等的臀部相当令人愉快；它均衡的形态与天然的开口是朴素优雅的明证。</li>
     <li>{PAWN_nameShort}的臀部，那柔和的形状与不事张扬的开口，完全令人愉悦。真是一幕健康而体面的景象。</li>
-    <li>观察 {PAWN_nameShort}的 中等的臀部，那若隐若现的显露唤起一种安静的欣赏。它天生比例匀称。</li>
+    <li>观察 {PAWN_nameShort}的中等的臀部，那若隐若现的显露唤起一种安静的欣赏。它天生比例匀称。</li>
     <li>{PAWN_nameShort}的臀部那极为自然的样子，配上那中等而朴实的开口，颇为令人安心。它确实透着一副温和的形态。</li>
     <li>{PAWN_nameShort}的臀部展现出健康的曲线与一个适中而可见的开口，显得天真烂漫又诱人。真是一幅令人愉悦的景象。</li>
     <li>我承认{PAWN_nameShort}的中等的臀部完全正常；它柔和的形态与可见的开口，不过是解剖学的一个简单事实。</li>
