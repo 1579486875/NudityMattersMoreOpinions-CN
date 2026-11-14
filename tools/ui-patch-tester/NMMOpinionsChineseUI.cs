@@ -189,6 +189,95 @@ namespace NMMOpinionsChineseUI
                 Log.Message("[NMM 汉化] 界面补丁已应用，共处理 " + n + " 处。");
             else
                 Log.Warning("[NMM 汉化] 界面补丁没找到任何目标方法 —— 原模组可能更新了，界面文字会保持英文。");
+
+            // 【临时诊断 v1.4.18-diag】核对正文 Keyed 在游戏内的真实命中率。
+            // 背景：玩家反馈「个别条目明明有译文却显示英文 / 肛门栏空白」，
+            //       而离线核对显示数据完整、无缺失无空值 —— 需要游戏内的真实判定。
+            // 验完即删，不影响任何功能。
+            DiagnoseKeyed();
+        }
+
+        // ── 【临时诊断 v1.4.18-diag】──────────────────────────────────
+        // 用反射遍历全部 OpinionDef_SexPart，逐条向 Translator 查询译文是否存在，
+        // 把「有多少条取不到译文」以及具体样本打出来。
+        // 为什么用反射：本 DLL 编译时不引用原模组 DLL，不能直接写 OpinionDef_SexPart 类型。
+        private static void DiagnoseKeyed()
+        {
+            try
+            {
+                var sexPartType = AccessTools.TypeByName("NudityMattersMore_opinions.OpinionDef_SexPart");
+                if (sexPartType == null)
+                {
+                    Log.Warning("[NMM 汉化][诊断] 找不到 OpinionDef_SexPart，跳过");
+                    return;
+                }
+                var field = sexPartType.GetField("opinionTexts",
+                    BindingFlags.Public | BindingFlags.Instance);
+                if (field == null)
+                {
+                    Log.Warning("[NMM 汉化][诊断] 找不到 opinionTexts 字段，跳过");
+                    return;
+                }
+
+                int defCount = 0, textCount = 0, hit = 0, miss = 0;
+                var missDefs = new List<string>();
+                var missSamples = new List<string>();
+
+                foreach (var def in DefDatabase<Def>.AllDefsListForReading)
+                {
+                    if (def == null || def.GetType() != sexPartType)
+                        continue;
+                    defCount++;
+                    var list = field.GetValue(def) as System.Collections.IList;
+                    if (list == null)
+                        continue;
+                    int defMiss = 0;
+                    for (int i = 0; i < list.Count; i++)
+                    {
+                        textCount++;
+                        string key = "NMM.Opinion." + def.defName + ".opinionTexts." + i;
+                        if (key.CanTranslate())
+                        {
+                            hit++;
+                        }
+                        else
+                        {
+                            miss++;
+                            defMiss++;
+                            if (missSamples.Count < 20)
+                                missSamples.Add(key);
+                        }
+                    }
+                    if (defMiss > 0 && missDefs.Count < 20)
+                        missDefs.Add(def.defName + " 缺 " + defMiss + "/" + list.Count);
+                }
+
+                Log.Message(string.Format(
+                    "[NMM 汉化][诊断] SexPart def={0} 文本={1} 命中={2} 未命中={3}",
+                    defCount, textCount, hit, miss));
+
+                // 玩家报告的三个具体键，单独确认
+                string[] probes =
+                {
+                    "NMM.Opinion.Opinion_Self_Breasts_Nipples_Neutral_Female_Negative.opinionTexts.29",
+                    "NMM.Opinion.Opinion_Self_Anus_Average_Neutral_Male_Neutral.opinionTexts.29",
+                    "NMM.Opinion.Opinion_Self_Breasts_Small_Neutral_Female_Positive.opinionTexts.29",
+                };
+                for (int i = 0; i < probes.Length; i++)
+                {
+                    bool ok = probes[i].CanTranslate();
+                    Log.Message("[NMM 汉化][诊断] 探针 " + (ok ? "命中" : "未命中") + " : " + probes[i]);
+                }
+
+                for (int i = 0; i < missSamples.Count; i++)
+                    Log.Warning("[NMM 汉化][诊断] 未命中样本: " + missSamples[i]);
+                for (int i = 0; i < missDefs.Count; i++)
+                    Log.Warning("[NMM 汉化][诊断] 有缺口的 def: " + missDefs[i]);
+            }
+            catch (Exception e)
+            {
+                Log.Error("[NMM 汉化][诊断] 执行出错: " + e);
+            }
         }
 
         // ── 警告去重 ────────────────────────────────────────────────
