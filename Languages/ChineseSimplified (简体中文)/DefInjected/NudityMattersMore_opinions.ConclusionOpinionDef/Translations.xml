@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <Observer_generator_conclusion_positive.label>观察者 · 生成 · 结论 · 正面</Observer_generator_conclusion_positive.label>
+  <Observer_generator_conclusion_Neutral.label>观察者 · 生成 · 结论 · 中性</Observer_generator_conclusion_Neutral.label>
+  <Observer_generator_conclusion_Negative.label>观察者 · 生成 · 结论 · 负面</Observer_generator_conclusion_Negative.label>
+  <Observed_generator_conclusion_positive.label>被观察者 · 生成 · 结论 · 正面</Observed_generator_conclusion_positive.label>
+  <Observed_generator_conclusion_Neutral.label>被观察者 · 生成 · 结论 · 中性</Observed_generator_conclusion_Neutral.label>
+  <Observed_generator_conclusion_Negative.label>被观察者 · 生成 · 结论 · 负面</Observed_generator_conclusion_Negative.label></LanguageData>

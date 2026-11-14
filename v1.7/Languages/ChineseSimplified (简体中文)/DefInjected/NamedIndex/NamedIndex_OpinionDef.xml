@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 命名索引版本：与数字索引（xxx.0）指向同一字段，
+     两套并存时游戏会记一条 Duplicate key 提示，不影响功能。
+     之所以保留两套：作者以后往列表前面插元素时，数字索引会错位，
+     命名索引不受影响（如 degreeDatas.exhibitionist / stages.jealous）。 -->
+<LanguageData>
+  <BaseSexPartOpinionDef.opinionTexts.0>它就在那儿，还能多说什么呢?</BaseSexPartOpinionDef.opinionTexts.0>
+  <BaseSituationalOpinionDef.label>基础情境看法</BaseSituationalOpinionDef.label>
+  <BaseSituationalOpinionDef.opinionTexts.0>这是我的基础看法</BaseSituationalOpinionDef.opinionTexts.0>
+</LanguageData>

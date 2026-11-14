@@ -3,7 +3,7 @@
 	<name>裸体评价更多看法 简体汉化</name>
 	<author>大赢经直插白皮赢道</author>
 	<packageId>shark510.nuditymattersmoreopinions.zhfix</packageId>
-	<modVersion>1.4.17</modVersion>
+	<modVersion>1.4.18</modVersion>
 	<url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
 	<supportedVersions>
 		<li>1.6</li>
@@ -22,6 +22,11 @@
 		<li>shark510.nuditymattersmoreopinions</li>
 	</loadAfter>
 	<description>
+【v1.4.18 语言目录对齐（关键修复）】
+· 根本问题：本模组的翻译一直放在 Languages\ChineseSimplified\，而游戏实际加载的语言目录名是「ChineseSimplified (简体中文)」（见 Config\Prefs.xml 的 langFolderName）。两者按目录名精确匹配，因此本模组此前所有 XML 翻译（正文 Keyed 十二万余条 + DefInjected）实际上从未被加载，界面部分只靠 DLL 补丁生效。
+· 现已同时提供两个语言目录，无论玩家选择哪一种简体中文都能正确加载。
+· 由此带来的连带修复：正文里残留的英文、以及「名字's」式所有格、his/her 一类代词漏出，都会随本模组译文正式生效而一并解决。
+
 【v1.4.17 代词与所有格修复】
 · 修正 168 处「名字's」——原模组用 {PAWN_nameShortPossessive} 表示所有格，而中文语言包没有 LanguageWorker，该占位符会按英文规则渲染成「冯俊晧's」。现已统一改写为「{PAWN_nameShort}的」。
 · 补全 21 个中文代词键（Prohis/Proher/Proits 等）——这几个键由 Core 提供、中文缺译时会直接漏出 his / her / he / she / him，波及正文里约两万四千处 {PAWN_possessive} 一类占位符。补齐后全部按「他的 / 她的 / 它」显示。

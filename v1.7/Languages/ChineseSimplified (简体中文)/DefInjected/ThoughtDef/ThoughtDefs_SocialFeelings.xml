@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    ═══════════════════════════════════════════════════════════════
+    前置模组「NMM Combined Edition（NMM 整合版）」简体中文
+    社交感受（Social Feelings）板块 —— 想法（ThoughtDef）
+    ═══════════════════════════════════════════════════════════════
+    这些 def 是前置 v1.3 新增的。键名用的是 **handle 式**
+    （<defName>.stages.<规范化 label>.label），与仓库里其它 ThoughtDef
+    翻译文件保持一致；handle 由 stage 的 label 原文按
+    Verse.TranslationHandleUtility.NormalizedHandle 规范化而来，
+    前置一旦改动 stage label，旧 handle 就会失效（玩家看到英文）。
+    2026-11-07 复审时按前置 v1.3 的 ThoughtDefs_SocialFeelings.xml 逐条对齐。
+  -->
+  <NMM_ConfidentFromEnvy.stages.felt_superior.label>自觉高人一等</NMM_ConfidentFromEnvy.stages.felt_superior.label>
+  <NMM_ConfidentFromEnvy.stages.felt_superior.description>别人的嫉妒让我暗自增添了自信。</NMM_ConfidentFromEnvy.stages.felt_superior.description>
+  <NMM_EmbarrassedByCumpilation.stages.seen_covered_in_cum.label>被人看到满身精液</NMM_EmbarrassedByCumpilation.stages.seen_covered_in_cum.label>
+  <NMM_EmbarrassedByCumpilation.stages.seen_covered_in_cum.description>他们看到我身上到处是精液。我觉得又脏又难堪。</NMM_EmbarrassedByCumpilation.stages.seen_covered_in_cum.description>
+  <NMM_EmbarrassedByExposure.stages.exposed_and_embarrassed.label>走光难堪</NMM_EmbarrassedByExposure.stages.exposed_and_embarrassed.label>
+  <NMM_EmbarrassedByExposure.stages.exposed_and_embarrassed.description>我还没来得及遮住，就被人看到了裸体。</NMM_EmbarrassedByExposure.stages.exposed_and_embarrassed.description>
+  <NMM_EnjoyedTheView.stages.enjoyed_the_view.label>大饱眼福</NMM_EnjoyedTheView.stages.enjoyed_the_view.label>
+  <NMM_EnjoyedTheirAttention.stages.enjoyed_their_attention.label>享受他们的关注</NMM_EnjoyedTheirAttention.stages.enjoyed_their_attention.label>
+  <NMM_ExhibitionistCumpilationCoverage.stages.enjoyed_being_noticed.label>被注意到很享受</NMM_ExhibitionistCumpilationCoverage.stages.enjoyed_being_noticed.label>
+  <NMM_ExhibitionistCumpilationCoverage.stages.enjoyed_being_noticed.description>被人看到我身上沾满体液，让我暗自兴奋。</NMM_ExhibitionistCumpilationCoverage.stages.enjoyed_being_noticed.description>
+  <NMM_ExhibitionistPleased_Variant1.stages.enjoyed_the_attention.label>享受被围观</NMM_ExhibitionistPleased_Variant1.stages.enjoyed_the_attention.label>
+  <NMM_ExhibitionistPleased_Variant1.stages.enjoyed_the_attention.description>赤裸着被人盯着的感觉太棒了。我想要更多目光落在我身上。</NMM_ExhibitionistPleased_Variant1.stages.enjoyed_the_attention.description>
+  <NMM_FlauntedThemselves.stages.flaunted_themselves.label>故意炫耀身材</NMM_FlauntedThemselves.stages.flaunted_themselves.label>
+  <NMM_JealousyConsumed_Variant1.stages.consumed_by_jealousy.label>被嫉妒吞噬</NMM_JealousyConsumed_Variant1.stages.consumed_by_jealousy.label>
+  <NMM_JealousyConsumed_Variant1.stages.consumed_by_jealousy.description>别人盯着我伴侣裸体看的画面挥之不去。我满脑子都是这件事。</NMM_JealousyConsumed_Variant1.stages.consumed_by_jealousy.description>
+  <NMM_LookedDownOnEnvious.stages.caught_them_being_envious.label>抓到他们在嫉妒</NMM_LookedDownOnEnvious.stages.caught_them_being_envious.label>
+  <NMM_OglingMyPartner.stages.looked_at_my_partner.label>盯着我的伴侣看</NMM_OglingMyPartner.stages.looked_at_my_partner.label>
+  <NMM_PrudeSawCumpilationCoverage.stages.uncomfortable_messy_sight.label>脏乱景象让人不适</NMM_PrudeSawCumpilationCoverage.stages.uncomfortable_messy_sight.label>
+  <NMM_PrudeSawCumpilationCoverage.stages.uncomfortable_messy_sight.description>看到有人身上明显沾满体液，令人作呕。</NMM_PrudeSawCumpilationCoverage.stages.uncomfortable_messy_sight.description>
+  <NMM_ResentsComparison.stages.made_me_feel_inferior.label>让我自愧不如</NMM_ResentsComparison.stages.made_me_feel_inferior.label>
+  <NMM_SawMeExposed.stages.saw_me_exposed.label>看到我走光</NMM_SawMeExposed.stages.saw_me_exposed.label>
+  <NMM_SawMeExposedPrude.stages.saw_me_exposed.label>看到我走光</NMM_SawMeExposedPrude.stages.saw_me_exposed.label>
+  <NMM_VoyeurNoticedSlip.stages.caught_a_glimpse.label>瞥见了一眼</NMM_VoyeurNoticedSlip.stages.caught_a_glimpse.label>
+  <NMM_VoyeurNoticedSlip.stages.caught_a_glimpse.description>在对方遮住之前，我匆匆看了一眼。那画面一直留在我心里。</NMM_VoyeurNoticedSlip.stages.caught_a_glimpse.description>
+  <NMM_VoyeurSawCumpilationCoverage.stages.interested_in_a_messy_sight.label>对脏乱景象很感兴趣</NMM_VoyeurSawCumpilationCoverage.stages.interested_in_a_messy_sight.label>
+  <NMM_VoyeurSawCumpilationCoverage.stages.interested_in_a_messy_sight.description>一个身上明显沾满体液的家伙留下了难忘的印象。</NMM_VoyeurSawCumpilationCoverage.stages.interested_in_a_messy_sight.description>
+</LanguageData>

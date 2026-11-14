@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    Vanilla Traits Expanded 的 VTE_Prude 特质只有 1 个 degree，
+    VTE_Prude_Patch.xml 在装了 VTE 时把它的 label 从 "prude" 改成 "chaste"。
+    该 patch 用 PatchOperationFindMod 包着，没装 VTE 时整段不生效，
+    此时这条译文只是躺着不用，不会报错。
+  -->
+  <VTE_Prude.degreeDatas.0.label>贞洁</VTE_Prude.degreeDatas.0.label>
+</LanguageData>

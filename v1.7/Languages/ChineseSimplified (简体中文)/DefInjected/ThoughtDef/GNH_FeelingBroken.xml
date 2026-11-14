@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    原版 ThoughtDef.FeelingBroken（因遭受性侵/折磨造成的精神崩溃记忆）
+    被 RJW_Broken_Text_Patch.xml 改写了 stages 的 label 与 description。
+    patch 只替换了英文，中文侧必须自己提供，否则显示 "violated" 等原文。
+    注意 stage 2 的 label 没被 patch 改，所以这里也不写（沿用原版中文）。
+  -->
+  <FeelingBroken.stages.0.label>被侵犯</FeelingBroken.stages.0.label>
+  <FeelingBroken.stages.0.description>有什么东西从我身上被夺走了。</FeelingBroken.stages.0.description>
+  <FeelingBroken.stages.1.label>我的身体坏了</FeelingBroken.stages.1.label>
+  <FeelingBroken.stages.1.description>我再也回不去了。</FeelingBroken.stages.1.description>
+  <FeelingBroken.stages.2.description>我的身体现在属于他们了。</FeelingBroken.stages.2.description>
+</LanguageData>

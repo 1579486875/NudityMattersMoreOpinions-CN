@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <Observer_reacts_to_see_pawn_Positive.label>观察者 · 反应 · 看到 · 角色 · 正面</Observer_reacts_to_see_pawn_Positive.label>
+  <Observer_reacts_to_see_pawn_Neutral.label>观察者 · 反应 · 看到 · 角色 · 中性</Observer_reacts_to_see_pawn_Neutral.label>
+  <Observer_reacts_to_see_pawn_Negative.label>观察者 · 反应 · 看到 · 角色 · 负面</Observer_reacts_to_see_pawn_Negative.label>
+  <Observed_reacts_to_was_seen_by_anotehr_pawn_Positive.label>被观察者 · 反应 · 被看到 · 被 · 另一个 · 角色 · 正面</Observed_reacts_to_was_seen_by_anotehr_pawn_Positive.label>
+  <Observed_reacts_to_was_seen_by_anotehr_pawn_Neutral.label>被观察者 · 反应 · 被看到 · 被 · 另一个 · 角色 · 中性</Observed_reacts_to_was_seen_by_anotehr_pawn_Neutral.label>
+  <Observed_reacts_to_was_seen_by_anotehr_pawn_Negative.label>被观察者 · 反应 · 被看到 · 被 · 另一个 · 角色 · 负面</Observed_reacts_to_was_seen_by_anotehr_pawn_Negative.label></LanguageData>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    补 English/Keyed 里中文侧缺失的键（2026-11-14 全源对齐查出）。
+  -->
+  <NMM_Nudity>裸体</NMM_Nudity>
+</LanguageData>
