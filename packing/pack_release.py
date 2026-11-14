@@ -61,7 +61,6 @@ INCLUDE = [
     "About",            # 模组元数据，游戏靠它识别模组
     "Assemblies",       # 界面汉化补丁 DLL（少了它界面文字还是英文）
     "Languages",        # 游戏自己扫描的翻译文件
-    "OwnInjections",    # ★ 正文注入清单 —— DLL 在启动时读它
     "LoadFolders.xml",  # 版本分流（v1.6 / v1.7 都加载根目录）—— 缺了它两版本共存无声明
     # ⚠️ 2026-11-13 订正：v1.7\ 必须打进去。
     #    v1.4.3 起把「只在 1.7 合并版里才有的定义」的译文搬到了 v1.7\ 子目录，
@@ -75,7 +74,11 @@ INCLUDE = [
     "LICENSE",
 ]
 
-# ⚠️ 为什么 OwnInjections 必须打进去（2026-10-12 复审补）
+# ⚠️ v1.4.14 起正文改走官方 Keyed（原模组自带 OpinionTextTranslator.Pick），
+#    OwnInjections/ 目录已移除，正文在 v1.7/Languages/ChineseSimplified/Keyed/Opinions/。
+#    以下是旧架构的历史记录，留作参考：
+#
+# 为什么 OwnInjections 曾经必须打进去（2026-10-12 复审补）
 #
 #   2026-10 改成「整列表注入」架构后，12.5 万条**看法正文**不再放在
 #   Languages\ 下（游戏不认没有 [TranslationCanChangeCount] 特性的整列表字段），
@@ -166,9 +169,8 @@ def main():
         "Assemblies/GNH_NMM_Enhanced_ZH.dll",   # 合并版增强界面（硬编码文字）的替换补丁
         "LoadFolders.xml",
         "Languages/ChineseSimplified/DefInjected/InteractionDef/Interactions.xml",
-        # 正文清单的代表性文件：它不在就说明整个 OwnInjections 目录丢了
-        "OwnInjections/ChineseSimplified/DefInjected/"
-        "NudityMattersMore_opinions.OpinionDef_SexPart/OpinionTexts_Part001.xml",
+        # 正文 Keyed 的代表性文件：它不在就说明整个 Keyed/Opinions 目录丢了
+        "v1.7/Languages/ChineseSimplified/Keyed/Opinions/PrivateParts.01.xml",
     ]
     missing = [m for m in must if not os.path.isfile(os.path.join(REPO, m.replace("/", os.sep)))]
     if missing:
@@ -204,11 +206,14 @@ def main():
 
     # 正文清单必须真的进包 —— 少了它是「静默残废」而不是「报错」，
     # 所以这里单独断言一次，别只依赖 INCLUDE 写对。
-    own = [n for n in names if "/OwnInjections/" in n]
-    if own:
-        print("  注入清单 ：[OK] 已打进包（%d 个文件）" % len(own))
+    # v1.4.14 起正文改走官方 Keyed 通道（OpinionTextTranslator.Pick），
+    # OwnInjections/ 已移除。这里断言 Keyed/Opinions 真的进包 ——
+    # 少了它是「静默残废」（正文全退回英文），不会报错。
+    op = [n for n in names if "/Keyed/Opinions/" in n]
+    if len(op) >= 27:
+        print("  正文 Keyed：[OK] 已打进包（%d 个文件）" % len(op))
     else:
-        print("  注入清单 ：[NG] 不在包里！社交界面 12.5 万条正文会全部退回英文")
+        print("  正文 Keyed：[NG] 只有 %d 个文件（应 27），12.6 万条正文会退回英文" % len(op))
         bad += 1
 
     junk = [n for n in names if "__pycache__" in n or n.endswith(".pyc")]
