@@ -106,6 +106,14 @@ namespace GNH.NMM.Combined.ZH
                 { "Relationships", "关系" },
                 { "History", "历史" },
 
+                // ── 部位表（DrawOpinionDirection 的列头与行标题）──
+                // 2026-11-14 反编译发现：这四个列头 + Testicles 行标题都是硬编码
+                { "Body part", "部位" },
+                { "Opinion", "看法" },
+                { "Size", "尺寸" },
+                { "Seen / aware", "看过 / 知情" },
+                { "Testicles", "睾丸" },
+
                 // ── 概览页 ──
                 { "CURRENT STATE", "当前状态" },
                 { "Force not covering", "强制不遮挡" },

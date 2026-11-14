@@ -107,6 +107,9 @@ namespace NMMOpinionsChineseUI
                           transpiler: nameof(Patches.PrudeBar_Transpiler));
             n += TryPatch(harmony, "NudityMattersMore_opinions.SituationalOpinionHelper", "ProcessOpinionText",
                           transpiler: nameof(Patches.ProcessOpinion_Transpiler));
+            // ③c GetOpinionDataForPart —— 睾丸/部位栏那条 `testicles (巨大)` 的来源
+            n += TryPatch(harmony, "NudityMattersMore_opinions.OpinionHelper", "GetOpinionDataForPart",
+                          transpiler: nameof(Patches.PartData_Transpiler));
 
             // ④ 原模组作者留下的**俄语**弹窗消息（「XX 看到 YY 遮住身体」）
             n += TryPatch(harmony, "NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches", "ApplyFirstTimeThought_Prefix",
@@ -266,6 +269,13 @@ namespace NMMOpinionsChineseUI
         {
             if (!Zh.GameIsChinese()) return codes;
             return Zh.Rewrite(codes, Zh.PrudeBarText);
+        }
+
+        /// <summary>部位数据里的硬编码名（GetOpinionDataForPart）。</summary>
+        public static IEnumerable<CodeInstruction> PartData_Transpiler(IEnumerable<CodeInstruction> codes)
+        {
+            if (!Zh.GameIsChinese()) return codes;
+            return Zh.Rewrite(codes, Zh.PartDataText);
         }
 
         /// <summary>看法文本里的状态碎片（ProcessOpinionText）。</summary>
@@ -547,6 +557,19 @@ namespace NMMOpinionsChineseUI
             { "My modesty has been taken from me.", "我的体面已经被夺走了。" },
             { "My modesty is compromised.",         "我的体面受损了。" },
             { "My modesty is intact.",              "我的体面还完好。" },
+        };
+
+        /// <summary>
+        /// OpinionHelper.GetOpinionDataForPart 里硬编码的部位名与兜底文本。
+        /// 2026-11-14 游戏实测：睾丸栏显示 `testicles (巨大)` 就是这条造成的
+        /// —— text2 = "testicles" 后被 NMM.OpinionTab.PartAndSize("{0} ({1})") 拼出来。
+        /// ⚠ 同方法里 "Gonads"/"Genitals"/"Anus"/"Breasts"/"Chest" 是 defName 比对，不能收。
+        /// </summary>
+        public static readonly Dictionary<string, string> PartDataText =
+            new Dictionary<string, string>(StringComparer.Ordinal)
+        {
+            { "testicles",              "睾丸" },
+            { "N/A (RJW not active)",   "不适用（RJW 未启用）" },
         };
 
         /// <summary>
