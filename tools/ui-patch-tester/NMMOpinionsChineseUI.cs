@@ -267,11 +267,26 @@ namespace NMMOpinionsChineseUI
             try
             {
                 Type sexPartType = AccessTools.TypeByName("NudityMattersMore_opinions.OpinionDef_SexPart");
-                if (sexPartType == null) return;        // 1.6 侧 / 原模组未启用：静默跳过
+                if (sexPartType == null)
+                {
+                    // ⚠ 2026-11-15 订正：原先是静默 return —— 自检的价值就是
+                    //   「你说没事我才信没事」，静默等于自检失效，
+                    //   而且让「这环境下正文到底有没有中文」永远无法从日志回答。
+                    Log.Message("[NMM 汉化] 正文覆盖自检跳过：找不到类型 "
+                        + "NudityMattersMore_opinions.OpinionDef_SexPart"
+                        + " —— 原模组可能未启用或已改版，正文语言请以游戏内为准。");
+                    return;
+                }
 
                 FieldInfo textsField = sexPartType.GetField("opinionTexts",
                     BindingFlags.Instance | BindingFlags.Public);
-                if (textsField == null) return;
+                if (textsField == null)
+                {
+                    Log.Message("[NMM 汉化] 正文覆盖自检跳过：类型 " + sexPartType.Name
+                        + " 上没有 public 实例字段 opinionTexts"
+                        + " —— 原模组可能改了他的字段名。");
+                    return;
+                }
 
                 int defCount = 0, total = 0, hit = 0;
                 var samples = new List<string>();
@@ -293,7 +308,13 @@ namespace NMMOpinionsChineseUI
                     }
                 }
 
-                if (total == 0) return;                 // def 还没加载完 / 环境里没有这类 def
+                if (total == 0)
+                {
+                    Log.Message("[NMM 汉化] 正文覆盖自检：SexPart " + defCount
+                        + " 个、条目 0 条 —— 没扫到任何 opinionTexts 条目，"
+                        + "可能原模组把正文换成了别的字段，或 def 尚未加载完。");
+                    return;
+                }
 
                 string summary = "[NMM 汉化] 正文覆盖自检：SexPart " + defCount
                                + " 个、条目 " + total + " 条、命中 " + hit
