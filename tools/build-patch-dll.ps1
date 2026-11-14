@@ -32,16 +32,24 @@ $srcDir   = Join-Path $here 'ui-patch-tester'
 # 本 DLL 由两个源文件组成，两个都必须出现在编译命令行里 —— 漏一个会「编译通过但功能缺失」：
 #   NMMOpinionsChineseUI.cs —— 入口 Bootstrap + 界面硬编码字符串的 Harmony 替换
 #   OwnListInjector.cs      —— 「方案 C」自有清单运行时注入（读 OwnInjections\ 下的 XML）
+# 产物一：NMMOpinionsChineseUI.dll（界面替换 + 1.6 自有清单注入）
 $srcs     = @((Join-Path $srcDir 'NMMOpinionsChineseUI.cs'),
               (Join-Path $srcDir 'OwnListInjector.cs'))
 $outDll   = Join-Path $repoRoot 'Assemblies\NMMOpinionsChineseUI.dll'
+
+# 产物二：GNH_NMM_Enhanced_ZH.dll（1.7 合并版「增强界面」硬编码文字替换）
+# ⚠ 2026-11-15 审计发现：本脚本此前【只编第一个】，第二个 DLL 没有任何构建脚本，
+#   只有 final-check.py 会检查它存不存在 —— 等于「一键重建」这句话只对一半成立。
+#   任何人 clone 下来重建，都会得到一个缺了增强界面汉化的包，而且不会报错。
+$srcs2    = @((Join-Path $srcDir 'GNH_NMM_Enhanced_ZH.cs'))
+$outDll2  = Join-Path $repoRoot 'Assemblies\GNH_NMM_Enhanced_ZH.dll'
 
 Write-Host "仓库根目录 : $repoRoot"
 Write-Host "源码       : $($srcs -join '  +  ')"
 Write-Host "输出       : $outDll"
 Write-Host ""
 
-foreach ($s in $srcs) {
+foreach ($s in ($srcs + $srcs2)) {
     if (-not (Test-Path $s)) { Write-Host "找不到源码：$s" -ForegroundColor Red; exit 1 }
 }
 
@@ -139,21 +147,46 @@ if (Test-Path $outDll) {
     Write-Host "构建前的 DLL : $before" -ForegroundColor DarkGray
 }
 
-Write-Host '编译中…' -ForegroundColor Cyan
-& $csc /target:library /out:"$outDll" /codepage:65001 /nologo /optimize+ /deterministic `
-    /reference:"$managed\Assembly-CSharp.dll" `
-    /reference:"$managed\UnityEngine.CoreModule.dll" `
-    /reference:"$managed\System.Xml.dll" `
-    /reference:"$harmony" `
-    $srcs
-if ($LASTEXITCODE -ne 0) { Write-Host '编译失败' -ForegroundColor Red; exit 1 }
-if (-not (Test-Path $outDll)) { Write-Host '编译成功但产物不存在' -ForegroundColor Red; exit 1 }
+# ⚠ netstandard.dll 必须引用（2026-11-15 实测补）：
+#   NMMOpinionsChineseUI.cs 的 UpdateSize_Postfix 里有 `(UnityEngine.Vector2)f.GetValue(...)`，
+#   Vector2 是 struct（ValueType），而 ValueType 在 .NET Framework 4.7.2 下由 netstandard 转发。
+#   缺这条引用会报：
+#     error CS0012: 类型"ValueType"在未引用的程序集中定义。
+#             必须添加对程序集"netstandard, Version=2.1.0.0, ..."的引用。
+#   之前一直没暴露，是因为每次都是用 dotnet 的 csc.dll 手敲命令行（那边默认带 netstandard）；
+#   而本脚本用的 Roslyn csc.exe 不会自动带 —— 也就是说「按文档一键重建」这条路此前是坏的。
+$netstandard = Join-Path $managed 'netstandard.dll'
+if (-not (Test-Path $netstandard)) {
+    Write-Host "缺少 netstandard.dll：$netstandard" -ForegroundColor Red
+    Write-Host '它就在 1.6 的 RimWorldWin64_Data\Managed 下，随游戏一起安装。' -ForegroundColor Yellow
+    exit 1
+}
 
-$after = (Get-FileHash $outDll -Algorithm SHA256).Hash
+$targets = @(
+    @{ Out = $outDll;  Srcs = $srcs  },
+    @{ Out = $outDll2; Srcs = $srcs2 }
+)
+foreach ($tg in $targets) {
+    Write-Host ('编译中… ' + (Split-Path $tg.Out -Leaf)) -ForegroundColor Cyan
+    & $csc /target:library /out:"$($tg.Out)" /codepage:65001 /nologo /optimize+ /deterministic `
+        /reference:"$managed\Assembly-CSharp.dll" `
+        /reference:"$managed\UnityEngine.CoreModule.dll" `
+        /reference:"$managed\System.Xml.dll" `
+        /reference:"$netstandard" `
+        /reference:"$harmony" `
+        $tg.Srcs
+    if ($LASTEXITCODE -ne 0) { Write-Host ('编译失败：' + (Split-Path $tg.Out -Leaf)) -ForegroundColor Red; exit 1 }
+    if (-not (Test-Path $tg.Out)) { Write-Host ('编译成功但产物不存在：' + (Split-Path $tg.Out -Leaf)) -ForegroundColor Red; exit 1 }
+}
+
 Write-Host ""
-Write-Host "构建完成 : $outDll" -ForegroundColor Green
-Write-Host ("大小     : {0:N0} 字节" -f (Get-Item $outDll).Length)
-Write-Host "SHA256   : $after"
+foreach ($tg in $targets) {
+    $a = (Get-FileHash $tg.Out -Algorithm SHA256).Hash
+    Write-Host ("构建完成 : " + $tg.Out) -ForegroundColor Green
+    Write-Host ("大小     : {0:N0} 字节" -f (Get-Item $tg.Out).Length)
+    Write-Host "SHA256   : $a"
+    Write-Host ""
+}
 Write-Host ""
 Write-Host "说明：本脚本已加 /deterministic（确定性编译）。" -ForegroundColor DarkGray
 Write-Host "      同一份源码重复编译应当得到完全相同的 SHA256 ——" -ForegroundColor DarkGray

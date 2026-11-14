@@ -214,4 +214,10 @@
 	<NMM.Log.Name.RelationNamed>我的{0}{1}</NMM.Log.Name.RelationNamed>
 	<NMM.Log.Clothing.Arm>手臂</NMM.Log.Clothing.Arm>
 	<NMM.Log.Clothing.Clothes>衣服</NMM.Log.Clothing.Clothes>
+  <NMM.Log.Rape.Alone.Unaware>我在不知情的时候，{NAME}撞见了我正在对别人施暴。</NMM.Log.Rape.Alone.Unaware>
+  <NMM.Log.Rape.WithMe.Unaware>{NAME}对我施暴的时候，我甚至还没反应过来。</NMM.Log.Rape.WithMe.Unaware>
+  <NMM.Log.Rape.WithPartner.Unaware>我还没弄明白发生了什么，{NAME}就撞见了我被{PARTNER}施暴。</NMM.Log.Rape.WithPartner.Unaware>
+  <NMM.Log.Raped.Alone.Unaware>我在不知情的时候，{NAME}撞见了我被人施暴。</NMM.Log.Raped.Alone.Unaware>
+  <NMM.Log.Raped.WithMe.Unaware>{NAME}对我施暴的时候，我甚至还没反应过来。</NMM.Log.Raped.WithMe.Unaware>
+  <NMM.Log.Raped.WithPartner.Unaware>我还没弄明白发生了什么，{NAME}就撞见了我被{PARTNER}施暴。</NMM.Log.Raped.WithPartner.Unaware>
 </LanguageData>
