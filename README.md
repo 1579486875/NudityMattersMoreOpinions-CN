@@ -7,7 +7,7 @@
 
 | 项目 | 说明 |
 |---|---|
-| **适用游戏版本** | RimWorld **1.6 / 1.7** |
+| **适用游戏版本** | RimWorld **1.5 / 1.6 / 1.7** |
 | **硬依赖** | 只有 **Harmony**（补丁 DLL 要用） |
 | **排序提示** | Nudity Matters More（含 1.7 合并版）、NMM opinions —— 只是 loadAfter，不装也不报错 |
 | **支持的语言** | **简体中文**（这是汉化包本身的语言） |
@@ -65,6 +65,11 @@ return Translator.Translate(text);
 探测逻辑在 `OwnListInjector.HasKeyedPath()`：能不能找到
 `NudityMattersMore_opinions.OpinionTextTranslator` 这个类型。
 找到就让位给 Keyed（省 12.5 万次反射），找不到就自己注入（1.6 环境）。
+
+**1.5 与本包的关系**：原模组 `NudityMattersMore_opinions` 的`supportedVersions` 是 **1.5 + 1.6**，且它的 Defs 全在 `Common\` 下（两个版本共用同一份 426 个 xml，只有 `Assemblies` 里的 dll 不同）。
+本包实测比对过 1.5 与 1.6 的 dll：注入器依赖的 9 个符号（`OpinionDef_SexPart` / `opinionTexts` / `OpinionDef_Situational` / …）全部一致，
+`LoadFolders.xml` 已显式声明 `<v1.5><li>/</li></v1.5>`，所以 **1.5 走的是与 1.6 完全相同的注入通道**。
+⚠ 本机没有 1.5 环境，未做实机验证；若个别 def 在 1.5 里不存在，注入器会跳过并计数，**不会报错、不会崩**。
 探测本身失败时按「没有」处理 —— 宁可多做，不能让玩家看到英文。
 
 ## 补丁规模
@@ -334,7 +339,7 @@ Mods\
 
 | 项目 | 情况 |
 |---|---|
-| **RimWorld 版本** | **1.6**（完整支持）／ **1.7 测试版**（可运行） |
+| **RimWorld 版本** | **1.6**（完整支持）／ **1.7 测试版**（可运行）／ **1.5**（结构兼容，见下方说明） |
 | **硬依赖** | **Harmony** —— 补丁 DLL 要用；原模组本身也依赖它 |
 | **排序提示（可选装）** | Nudity Matters More（含 1.7 合并版）／ NMM opinions —— 只是 loadAfter，不装也不报错 |
 | **支持语言** | 简体中文 |
@@ -399,7 +404,7 @@ zip 内已经包含正确的目录结构，**不要**再额外套文件夹。
 
 | | |
 |---|---|
-| 适用游戏版本 | RimWorld **1.6 / 1.7** |
+| 适用游戏版本 | RimWorld **1.5 / 1.6 / 1.7** |
 | 汉化版本 | **1.4.20** |
 | packageId | `shark510.nuditymattersmoreopinions.zhfix` |
 | 硬依赖 | `brrainz.harmony`（Harmony） |

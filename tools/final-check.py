@@ -7,6 +7,7 @@
 """
 
 import hashlib
+import struct
 import os
 import sys
 import xml.etree.ElementTree as ET
@@ -26,6 +27,33 @@ def ok(msg):
 def bad(msg):
     red.append(msg)
     print("  [!!] " + msg)
+
+
+def read_assembly_version(path):
+    """读程序集版本（Major.Minor.Build.Revision）。
+
+    ⚠ 2026-11-15 订正两次：
+      ① 原判据是 open(p,"rb").read().decode("utf-16-le") 后取第一个 1.x.y 子串
+         —— DLL 里字符串常量很多，那个判据与真正的程序集版本没有必然关系
+         （实测源码与 DLL 都已升到 1.4.20.0，旧判据仍报 1.4.19）。
+      ② 手写 PE/CLI 元数据解析也算错过一次（表行大小表有误，
+         读出来是 29811.28257.25955.20224 这类垃圾）。
+    改成调用 .NET 官方 API，零风险。PowerShell 不可用时返回 None，不瞎猜。
+    """
+    try:
+        import subprocess
+        env = dict(os.environ)
+        env["DSH_ASSEMBLY_PATH"] = path
+        out = subprocess.check_output(
+            ["powershell", "-NoProfile", "-NonInteractive", "-Command",
+             "[System.Reflection.AssemblyName]::GetAssemblyName($env:DSH_ASSEMBLY_PATH).Version.ToString()"],
+            env=env, stderr=subprocess.DEVNULL, timeout=30)
+        s = out.decode("utf-8", "ignore").strip()
+        m = re.match(r"^(\d+)\.(\d+)\.(\d+)\.(\d+)$", s)
+        return s if m else None
+    except Exception:
+        return None
+
 
 
 def sha(p):
@@ -49,9 +77,12 @@ for name in ("NMMOpinionsChineseUI", "GNH_NMM_Enhanced_ZH"):
     if not os.path.exists(p):
         bad("缺 DLL: %s" % name)
         continue
-    t = open(p, "rb").read().decode("utf-16-le", errors="ignore")
-    found = re.findall(r"1\.\d+\.\d+", t)[:1]
-    if found and found[0] == ver:
+    # ⚠ 2026-11-15 订正：原先用 utf-16-le 粗解 DLL 再取第一个 1.x.y 子串。
+    #   DLL 里字符串常量很多，那个判据与真正的程序集版本没有必然关系
+    #   （实测源码与 DLL 都已升到 1.4.20.0，旧判据仍报 1.4.19）。
+    #   改成按 CLI 规范的 Assembly 表解析。
+    found = [read_assembly_version(p)]
+    if found and found[0] and ".".join(found[0].split(".")[:3]) == ver:
         ok("%s.dll 程序集版本 = %s" % (name, found[0]))
     else:
         bad("%s.dll 程序集版本 = %s（About 是 %s）" % (name, found or "未找到", ver))

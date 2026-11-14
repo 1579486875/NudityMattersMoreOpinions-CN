@@ -6,6 +6,7 @@
 	<modVersion>1.4.20</modVersion>
 	<url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
 	<supportedVersions>
+		<li>1.5</li>
 		<li>1.6</li>
 		<li>1.7</li>
 	</supportedVersions>
@@ -22,6 +23,8 @@
 		<li>shark510.nuditymattersmoreopinions</li>
 	</loadAfter>
 	<description>
+【适用版本】RimWorld 1.5 / 1.6 / 1.7（1.5 与 1.6 共用同一套注入通道，1.7 走原生 Keyed）
+
 【v1.4.19 修复「看法」标签页最后一段正文被裁】
 · 症状：标签页里乳房 / 阴茎 / 睾丸都有正文，唯独最后一段「肛门」只剩标题与尺寸行，正文整段消失。
 · 根因：原模组把这一页的高度写死了 —— Tab 高 510、左右两栏各 510、内容区只剩 456 像素，而且外面还套了一层裁剪区。四段内容依次往下排，中文译文行数比英文多，排到第四段时空间用完，绘制库在超出可用区后直接跳过不画。强化渲染器因为按内容算行高，所以它不受影响。
