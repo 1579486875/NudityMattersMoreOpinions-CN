@@ -49,12 +49,14 @@
 //   ③ 本文件只在 Bootstrap 的静态构造函数里装一次补丁 —— CLR 保证静态构造函数只跑一次，
 //      所以不会像 Mod 子类构造函数那样被重复安装（重复安装会让补丁层层叠加）。
 
+using System.Collections;
 using System.Collections.Generic;
 using System;
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 using HarmonyLib;
+using UnityEngine;
 using Verse;
 
 // ── 程序集版本信息（2026-10-11 审计补上）─────────────────────────
@@ -70,9 +72,9 @@ using Verse;
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.4.16.0")]
-[assembly: AssemblyFileVersion("1.4.16.0")]
-[assembly: AssemblyInformationalVersion("1.4.16")]
+[assembly: AssemblyVersion("1.4.19.0")]
+[assembly: AssemblyFileVersion("1.4.19.0")]
+[assembly: AssemblyInformationalVersion("1.4.19")]
 
 namespace NMMOpinionsChineseUI
 {
@@ -106,6 +108,49 @@ namespace NMMOpinionsChineseUI
             // ① 看法标签页的主绘制方法（玩家看到的那一页）
             n += TryPatch(harmony, "NudityMattersMore_opinions.ITab_Pawn_NMMOpinions", "FillTab",
                           transpiler: nameof(Patches.Text_Transpiler));
+
+            // ①b 看法标签页的高度 —— 中文比英文长，四段内容排不下来（2026-11-14 用户实测）
+            //
+            // 症状：标签页拉到最下面，「肛门」那一段只剩标题和尺寸行，**正文整块空白**。
+            // 根因：NudityMattersMore_opinions.ITab_Pawn_NMMOpinions.FillTab 把高度全写死了 ——
+            //       Rect(0,0,770,510) / Rect(x,0,562,510)，外层 BeginGroup 再裁一次，
+            //       内容区实际只剩 510-54 = 456px。四段（乳房/阴茎/睾丸/肛门）顺序往下排，
+            //       中文行数多于英文，排到第四段时 456px 用完，
+            //       Listing_Standard 一旦超出可用区就整体不绘制 -> 标题在、正文消失。
+            //       证据：反编译 FillTab 可见三处 ldc.r4 510；ITab_Pawn_Character.UpdateSize
+            //       返回 CharacterCardUtility.PawnCardSize + (17,17)*2，高度同样锁在 510。
+            // 修法：**两处同值放大，只改一处没用**（外面不放高，里面画了也会被裁）。
+            //       ① Postfix 调高 Tab 的 size.y（+260）
+            //       ② Transpiler 把 FillTab 里三处 510f 同步改成 770f
+            // 为什么不用「强制走 EnhancedNmmTabRenderer」：那是另一套自绘界面，
+            //       风格与玩家熟悉的原版页不同，属于改变功能意图（模板 §0.2 的禁止项），只做兜底不首选。
+            // 自动让路：两个方法都用 AccessTools 探测，任一找不到就记一条日志跳过 ——
+            //       原模组自己修好高度、或方法签名变化时自然失效，不会刷红字。
+            try
+            {
+                var updateSize = AccessTools.Method("RimWorld.ITab_Pawn_Character:UpdateSize", null, null);
+                if (updateSize != null)
+                {
+                    harmony.Patch(updateSize, null,
+                                  new HarmonyMethod(typeof(Patches), nameof(Patches.UpdateSize_Postfix)));
+                    n++;
+                }
+                else
+                {
+                    Log.Warning("[NMM 汉化] 找不到 ITab_Pawn_Character.UpdateSize —— 标签页高度不会放大");
+                }
+
+                var fillTab = AccessTools.Method("NudityMattersMore_opinions.ITab_Pawn_NMMOpinions:FillTab", null, null);
+                if (fillTab != null)
+                {
+                    harmony.Patch(fillTab, null, null,
+                                  new HarmonyMethod(typeof(Patches), nameof(Patches.FillTabHeight_Transpiler)));
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Warning("[NMM 汉化] 标签页高度补丁失败（肛门正文可能仍被裁）：" + ex.Message);
+            }
 
             // ② 标签页下方的「情境看法日志」
             n += TryPatch(harmony, "NudityMattersMore_opinions.ITab_Pawn_NMMOpinions", "DrawOpinionLog",
@@ -189,6 +234,81 @@ namespace NMMOpinionsChineseUI
                 Log.Message("[NMM 汉化] 界面补丁已应用，共处理 " + n + " 处。");
             else
                 Log.Warning("[NMM 汉化] 界面补丁没找到任何目标方法 —— 原模组可能更新了，界面文字会保持英文。");
+
+            // 最后跑一次「正文覆盖自检」：正文走 Keyed 通道，漏键不会报错、只会静默显示英文，
+            // 光靠界面肉眼翻页很难发现（1.7 有 11 万条）。这一行就是给它的保险。
+            CheckKeyedCoverage();
+        }
+
+        // ── 正文覆盖自检（2026-11-14 新增，替代旧的 DiagnoseKeyed）──────
+        //
+        // 干什么：启动时数一遍「1.7 的 SexPart def 里有多少条 opinionTexts 能在当前
+        //         语言包里查到译文」，正常情况下应当是「全命中」。
+        // 为什么要它：正文走的是 Keyed 通道（NMM.Opinion.<defName>.opinionTexts.<i>），
+        //         这条通道**不报错** —— 键写错或漏写只会静默显示英文，
+        //         玩家只能靠肉眼一页页翻（1.7 有 115,353 条），发现不了才是常态。
+        // 判据出处：反编译 NudityMattersMore_opinions.OpinionTextTranslator.Pick，
+        //         它拼的键就是 $"NMM.Opinion.{def.defName}.{fieldName}.{num}"，
+        //         查得到就返回译文、查不到就返回英文原文；fieldName 恒为 "opinionTexts"。
+        //
+        // 订正记录（旧版 DiagnoseKeyed 的三个错，别改回去）：
+        //   ① 旧版用 `def.GetType() != sexPartType` 做**精确类型比较**，
+        //      实际类型是子类时恒不相等 -> 统计出来 def=0，等于什么都没查。
+        //      改成 IsAssignableFrom 才对。
+        //   ② 旧版对每一条未命中都打一条 Warning（上限 20 条），一旦有缺口就刷屏。
+        //      改成：全命中只打一条 Message；有缺口才 Warning，并只附前 5 个样本键。
+        //   ③ 旧版对「找不到类型」也打 Warning —— 但 1.6 的两个独立模组里根本没有这个类，
+        //      属于预期情况，不该报警。改为静默返回。
+        //
+        // 自动让路：整个方法包在 try 里，任何一步拿不到就安静退出，
+        //           不影响界面补丁本身（它在 ApplyAll 的最末尾调用）。
+        private static void CheckKeyedCoverage()
+        {
+            try
+            {
+                Type sexPartType = AccessTools.TypeByName("NudityMattersMore_opinions.OpinionDef_SexPart");
+                if (sexPartType == null) return;        // 1.6 侧 / 原模组未启用：静默跳过
+
+                FieldInfo textsField = sexPartType.GetField("opinionTexts",
+                    BindingFlags.Instance | BindingFlags.Public);
+                if (textsField == null) return;
+
+                int defCount = 0, total = 0, hit = 0;
+                var samples = new List<string>();
+
+                foreach (Def def in DefDatabase<Def>.AllDefsListForReading)
+                {
+                    if (def == null || !sexPartType.IsAssignableFrom(def.GetType())) continue;
+                    defCount++;
+
+                    var texts = textsField.GetValue(def) as IList;
+                    if (texts == null) continue;
+
+                    for (int i = 0; i < texts.Count; i++)
+                    {
+                        total++;
+                        string key = "NMM.Opinion." + def.defName + ".opinionTexts." + i;
+                        if (key.CanTranslate()) { hit++; continue; }
+                        if (samples.Count < 5) samples.Add(key);
+                    }
+                }
+
+                if (total == 0) return;                 // def 还没加载完 / 环境里没有这类 def
+
+                string summary = "[NMM 汉化] 正文覆盖自检：SexPart " + defCount
+                               + " 个、条目 " + total + " 条、命中 " + hit
+                               + " 条（" + (hit * 100 / total) + "%）";
+                if (hit == total)
+                    Log.Message(summary + " —— 全部命中，正文应全为中文。");
+                else
+                    Log.Warning(summary + " —— 有 " + (total - hit)
+                                + " 条未命中（会显示英文）。样本：" + string.Join("；", samples.ToArray()));
+            }
+            catch (Exception ex)
+            {
+                // 自检本身出错不该影响游戏，但也不能完全无声 —— 留一条 Message 便于排查。
+                Log.Message("[NMM 汉化] 正文覆盖自检跳过：" + ex.Message);
+            }
         }
 
         // ── 警告去重 ────────────────────────────────────────────────
@@ -296,6 +416,67 @@ namespace NMMOpinionsChineseUI
     /// <summary>实际干活的补丁方法。</summary>
     public static class Patches
     {
+        // ══════════════════════════════════════════════════════════
+        // 看法标签页高度（①b 的配套实现）
+        // ══════════════════════════════════════════════════════════
+        //
+        // 判据出处：反编译 RimWorld.ITab_Pawn_Character.UpdateSize：
+        //     size = CharacterCardUtility.PawnCardSize(pawn) + new Vector2(17f,17f) * 2f;
+        //   即高度恒为 510，与内容多少无关 —— 这就是「中文多几行就画不出来」的直接原因。
+        //
+        // 为什么 __instance 用 object 而不是强类型：ITab_Pawn_Character 在 1.6 与 1.7
+        //   是两个不同程序集里的类型，本 DLL 要同时给两边用，写强类型会让一边编不过。
+        //   用 object + 反射拿字段最稳，代价是每次打开标签页多一次反射（可忽略）。
+        //
+        // 只对 NMM 看法页生效：type.FullName 必须含 "NMMOpinions"。
+        //   不加这个判断的话，「人物 - 角色」那张原版卡片也会被一起拉高 260px，
+        //   那属于改了原版界面，不许可。
+        private const float TabHeightBonus = 260f;   // 内容区 456px + 260 约 716，四段中文实测够用
+        private const float NmmTabBaseHeight = 510f; // FillTab 里写死的那三处；原模组改了这个数要跟着改
+
+        public static void UpdateSize_Postfix(object __instance)
+        {
+            if (__instance == null) return;
+            try
+            {
+                Type t = __instance.GetType();
+                if (t.FullName == null || !t.FullName.Contains("NMMOpinions")) return;
+
+                // size 是 Verse.ITab 的 public 字段；子类可能遮蔽，所以先查子类再回落到基类。
+                FieldInfo f = AccessTools.Field(t, "size") ?? AccessTools.Field(typeof(RimWorld.ITab), "size");
+                if (f == null) return;
+
+                var v = (UnityEngine.Vector2)f.GetValue(__instance);
+                v.y += TabHeightBonus;
+                f.SetValue(__instance, v);
+            }
+            catch (Exception ex)
+            {
+                // 不吞异常（旧版这里是空 catch{} - 模板 §3 明确禁止）：
+                // 高度没加上去就等于肛门正文继续被裁，必须留痕才知道为什么。
+                // 用 Message 而非 Warning：这是界面美化项，不影响游戏运行，不该吓到玩家。
+                Log.Message("[NMM 汉化] 标签页高度调整跳过：" + ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// 把 FillTab 里三处写死的 510f 同步放大到 770f。
+        /// 为什么必须与 TabHeightBonus 同值：外层 BeginGroup 用的就是 510，
+        /// 只放大 Tab 高度而内部仍按 510 排版，内容照样在 456px 处被截断。
+        /// 只替换 ldc.r4 且值等于 510f 这一个常量 —— 坐标、宽度等其它浮点常量一律不动。
+        /// 值比较用 0.01 容差：IL 里的 510f 是精确值，留容差可防将来作者写成 510.0001。
+        /// </summary>
+        public static IEnumerable<CodeInstruction> FillTabHeight_Transpiler(IEnumerable<CodeInstruction> codes)
+        {
+            float target = NmmTabBaseHeight + TabHeightBonus;
+            foreach (CodeInstruction c in codes)
+            {
+                if (c.opcode == OpCodes.Ldc_R4 && c.operand is float f && Math.Abs(f - NmmTabBaseHeight) < 0.01f)
+                    c.operand = target;
+                yield return c;
+            }
+        }
+
         /// <summary>把 IL 里的英文界面文字换成中文。</summary>
         public static IEnumerable<CodeInstruction> Text_Transpiler(IEnumerable<CodeInstruction> codes)
         {
