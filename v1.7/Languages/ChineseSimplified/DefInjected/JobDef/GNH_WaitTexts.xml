@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--
+    原版 Wait / Wait_Combat / Wait_MaintainPosture 的 reportString 被
+    Drafted_Pawn_Text_Patch.xml 统一改成 "looking around."，
+    覆盖了游戏自带的中文（等待中。/ 观察目标。/ 站立中。）。
+    这里把它译回来 —— 三个 Def 改的是同一句话，所以译文一致。
+  -->
+  <Wait.reportString>四处张望。</Wait.reportString>
+  <Wait_Combat.reportString>四处张望。</Wait_Combat.reportString>
+  <Wait_MaintainPosture.reportString>四处张望。</Wait_MaintainPosture.reportString>
+</LanguageData>

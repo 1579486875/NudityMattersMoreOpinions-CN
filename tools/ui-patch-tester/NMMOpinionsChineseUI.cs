@@ -70,9 +70,9 @@ using Verse;
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.4.5.0")]
-[assembly: AssemblyFileVersion("1.4.5.0")]
-[assembly: AssemblyInformationalVersion("1.4.5")]
+[assembly: AssemblyVersion("1.4.6.0")]
+[assembly: AssemblyFileVersion("1.4.6.0")]
+[assembly: AssemblyInformationalVersion("1.4.6")]
 
 namespace NMMOpinionsChineseUI
 {
@@ -96,6 +96,17 @@ namespace NMMOpinionsChineseUI
             // ③ 「A 对 B 的身体的看法：」这句表头（用 Prefix 直接给出中文，不走原方法）
             n += TryPatch(harmony, "NudityMattersMore_opinions.OpinionHelper", "GetHeaderLabel",
                           prefix: nameof(Patches.GetHeaderLabel_Prefix));
+
+            // ③b 4 个「直接 return 硬编码英文」的方法（2026-11-14 全源审计发现）
+            //     它们不改就永远是英文，且会被塞进占位符污染整段译文。
+            n += TryPatch(harmony, "NudityMattersMore_opinions.SituationalOpinionHelper", "GetGenitalSpecificLabel",
+                          transpiler: nameof(Patches.PartLabel_Transpiler));
+            n += TryPatch(harmony, "NudityMattersMore_opinions.OpinionHelper", "GetNudityStatus",
+                          transpiler: nameof(Patches.NudityStatus_Transpiler));
+            n += TryPatch(harmony, "NudityMattersMore.ITabUitility", "PrudeBarString",
+                          transpiler: nameof(Patches.PrudeBar_Transpiler));
+            n += TryPatch(harmony, "NudityMattersMore_opinions.SituationalOpinionHelper", "ProcessOpinionText",
+                          transpiler: nameof(Patches.ProcessOpinion_Transpiler));
 
             // ④ 原模组作者留下的**俄语**弹窗消息（「XX 看到 YY 遮住身体」）
             n += TryPatch(harmony, "NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches", "ApplyFirstTimeThought_Prefix",
@@ -234,6 +245,34 @@ namespace NMMOpinionsChineseUI
         {
             if (!Zh.GameIsChinese()) return codes;      // 不是中文环境就原样放行
             return Zh.Rewrite(codes, Zh.UiText);
+        }
+
+        /// <summary>部位名（GetGenitalSpecificLabel 的返回值）。</summary>
+        public static IEnumerable<CodeInstruction> PartLabel_Transpiler(IEnumerable<CodeInstruction> codes)
+        {
+            if (!Zh.GameIsChinese()) return codes;
+            return Zh.Rewrite(codes, Zh.PartLabelText);
+        }
+
+        /// <summary>裸体状态（GetNudityStatus 的返回值）。</summary>
+        public static IEnumerable<CodeInstruction> NudityStatus_Transpiler(IEnumerable<CodeInstruction> codes)
+        {
+            if (!Zh.GameIsChinese()) return codes;
+            return Zh.Rewrite(codes, Zh.NudityStatusText);
+        }
+
+        /// <summary>拘谨度状态条（PrudeBarString 的返回值）。</summary>
+        public static IEnumerable<CodeInstruction> PrudeBar_Transpiler(IEnumerable<CodeInstruction> codes)
+        {
+            if (!Zh.GameIsChinese()) return codes;
+            return Zh.Rewrite(codes, Zh.PrudeBarText);
+        }
+
+        /// <summary>看法文本里的状态碎片（ProcessOpinionText）。</summary>
+        public static IEnumerable<CodeInstruction> ProcessOpinion_Transpiler(IEnumerable<CodeInstruction> codes)
+        {
+            if (!Zh.GameIsChinese()) return codes;
+            return Zh.Rewrite(codes, Zh.ProcessOpinionText);
         }
 
         /// <summary>把 IL 里的俄语弹窗消息换成中文。</summary>
@@ -459,6 +498,71 @@ namespace NMMOpinionsChineseUI
             // 2026-11-03 审计：1.7 的 FillTab 里多了一个大标题
             // Widgets.Label(titleRect, "Opinion Inspector")，此前完全没被翻译。
             { "Opinion Inspector",                            "看法检查器" },
+        };
+
+        // ══════════════════════════════════════════════════════════════
+        //  下面 4 个字典对应 4 个「直接 return 硬编码英文」的方法。
+        //  它们不查 Keyed，也不走 DefInjected，只能用 Transpiler 改 IL 常量。
+        //  2026-11-14 全源审计发现：这些值会被塞进 {OBSERVED_partSpecificLabel} 等
+        //  占位符，而我的译文里那个占位符出现了 1131 次 —— 不译就整段中英混杂。
+        // ══════════════════════════════════════════════════════════════
+
+        /// <summary>
+        /// SituationalOpinionHelper.GetGenitalSpecificLabel 的返回值。
+        /// ⚠ 这个方法里还有 "Gonads" / "Genitals" / "Anus" / "Breasts" / "Chest"
+        ///   —— 那几个是**比对 defName 用的**，绝不能出现在本字典里。
+        /// </summary>
+        public static readonly Dictionary<string, string> PartLabelText =
+            new Dictionary<string, string>(StringComparer.Ordinal)
+        {
+            { "testicles",          "睾丸" },
+            { "vagina",             "阴道" },
+            { "penis",              "阴茎" },
+            { "breasts",            "乳房" },
+            { "anus",               "肛门" },
+            { "female ovipositor",  "雌性产卵管" },
+            { "male ovipositor",    "雄性产卵管" },
+            { "unknown part",       "未知部位" },
+        };
+
+        /// <summary>OpinionHelper.GetNudityStatus 的返回值（显示在状态行）。</summary>
+        public static readonly Dictionary<string, string> NudityStatusText =
+            new Dictionary<string, string>(StringComparer.Ordinal)
+        {
+            { "Fully nude (covering)", "全裸（有遮掩）" },
+            { "Fully nude",            "全裸" },
+            { "Breasts exposed",       "胸部裸露" },
+            { "Genitals exposed",      "生殖器裸露" },
+            { "Breast slip",           "乳房走光" },
+            { "Nip slip",              "乳头走光" },
+            { "Clothed — ",            "穿着衣物 — " },
+            { "Clothed",               "穿着衣物" },
+            { "Unknown",               "未知" },
+        };
+
+        /// <summary>ITabUitility.PrudeBarString 的返回值（拘谨度状态条）。</summary>
+        public static readonly Dictionary<string, string> PrudeBarText =
+            new Dictionary<string, string>(StringComparer.Ordinal)
+        {
+            { "My modesty has been taken from me.", "我的体面已经被夺走了。" },
+            { "My modesty is compromised.",         "我的体面受损了。" },
+            { "My modesty is intact.",              "我的体面还完好。" },
+        };
+
+        /// <summary>
+        /// SituationalOpinionHelper.ProcessOpinionText 里的状态碎片。
+        /// 它们被塞进 {OBSERVED_nudityAndCoveringStatus} / {OBSERVED_coveringStatus}。
+        /// </summary>
+        public static readonly Dictionary<string, string> ProcessOpinionText =
+            new Dictionary<string, string>(StringComparer.Ordinal)
+        {
+            { "fully nude, but covering",    "全裸，但有遮掩" },
+            { "topless, but covering",       "上身赤裸，但有遮掩" },
+            { "bottomless, but covering",    "下身赤裸，但有遮掩" },
+            { " and covering",               "，并且有遮掩" },
+            { "not covering",                "没有遮掩" },
+            { "covering",                    "有遮掩" },
+            { "unknown kind",                "未知种族" },
         };
 
         /// <summary>
