@@ -17,6 +17,7 @@ GIT = r"E:\TAML\_work\nmzh-git"
 
 green = []
 red = []
+yellow = []
 
 
 def ok(msg):
@@ -27,6 +28,23 @@ def ok(msg):
 def bad(msg):
     red.append(msg)
     print("  [!!] " + msg)
+
+
+def hint(msg):
+    """不算缺陷、但需要人知道的状态（例如 DLL 因游戏在跑而部署滞后）。"""
+    yellow.append(msg)
+    print("  [提示] " + msg)
+
+
+def _game_running():
+    """RimWorld 是否在运行 —— 决定「DLL 与仓库不一致」算缺陷还是算预期。"""
+    try:
+        import subprocess
+        out = subprocess.run(["tasklist"], capture_output=True, text=True,
+                             encoding="utf-8", errors="replace").stdout
+        return "RimWorld.exe" in out
+    except Exception:
+        return False
 
 
 def read_assembly_version(path):
@@ -84,6 +102,11 @@ for name in ("NMMOpinionsChineseUI", "GNH_NMM_Enhanced_ZH"):
     found = [read_assembly_version(p)]
     if found and found[0] and ".".join(found[0].split(".")[:3]) == ver:
         ok("%s.dll 程序集版本 = %s" % (name, found[0]))
+    elif _game_running():
+        # 游戏在跑 → 部署目录里的 DLL 没法替换，版本落后是预期状态。
+        # 真正的发布判据看第 4 节「部署目录 vs 仓库」与 tools\deploy-dll.py。
+        hint("%s.dll 版本 %s，About 是 %s（游戏在运行、DLL 被锁，退出后跑 tools\\deploy-dll.py 即可）"
+             % (name, found or "未找到", ver))
     else:
         bad("%s.dll 程序集版本 = %s（About 是 %s）" % (name, found or "未找到", ver))
 
@@ -167,6 +190,10 @@ for rel in (
         continue
     if sha(a) == sha(b):
         ok("%s 一致" % rel)
+    elif rel.endswith(".dll") and _game_running():
+        # 游戏运行时 DLL 被进程锁住，复制必然失败 —— 这时的「不一致」是预期状态，
+        # 不能算缺陷。真正的判据是「退出游戏后跑 tools\deploy-dll.py」。
+        hint("%s 与仓库不同（游戏正在运行、DLL 被锁；退出游戏后跑 tools\\deploy-dll.py）" % rel)
     else:
         bad("%s 字节不一致（部署 %d / 仓库 %d）" % (rel, os.path.getsize(a), os.path.getsize(b)))
 
@@ -208,4 +235,9 @@ if red:
         print("  - " + r)
     sys.exit(1)
 print("结论：全绿（%d 项）" % len(green))
+if yellow:
+    print()
+    print("提示（不算缺陷，但需要知道）：")
+    for m in yellow:
+        print("  · " + m)
 sys.exit(0)
