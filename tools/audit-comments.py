@@ -21,6 +21,12 @@ METHOD_RE = re.compile(
     r'[\w<>\[\],\.\?]+\s+(?P<name>[A-Za-z_]\w*)\s*\([^;]*$')
 CLASS_RE = re.compile(r'^\s*(?:public|private|protected|internal|static|sealed|abstract|partial|\s)*class\s+(?P<name>\w+)')
 
+# 这些不是方法声明 —— 不排除的话 `else if (diff != 0)` 会被 METHOD_RE 匹配上，
+# 于是「245 个真方法里 238 个有注释」（97.1%）会被算成「有 8 个缺注释」，
+# 补完注释还是 97%，白跑一轮。（模板 §3.2.5 记的就是这一条。）
+SKIP_NAMES = ('if', 'else', 'for', 'foreach', 'while', 'switch',
+              'catch', 'using', 'lock', 'return', 'new', 'throw', 'yield')
+
 
 def scan(path):
     try:
@@ -40,7 +46,8 @@ def scan(path):
                 cdocs += 1
             continue
         # 方法：以 ( 结尾且下一行以 { 开头或含 =>
-        if METHOD_RE.match(ln) and i + 1 < len(lines):
+        m = METHOD_RE.match(ln)
+        if m and m.group("name") not in SKIP_NAMES and i + 1 < len(lines):
             nxt = lines[i + 1].strip()
             if not (nxt.startswith("{") or "=>" in nxt or nxt.startswith(")")):
                 continue
