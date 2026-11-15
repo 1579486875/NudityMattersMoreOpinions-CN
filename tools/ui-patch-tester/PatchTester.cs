@@ -59,6 +59,9 @@ internal static class PatchTester
 
     private static int pass = 0, fail = 0;
 
+    // 离线自测工具的入口。
+    // 它不是游戏的一部分，只在开发时用 run.ps1 跑一次，
+    // 用来确认两个补丁 DLL 能不能被加载、关键方法在不在。
     private static void Main()
     {
         Console.OutputEncoding = Encoding.UTF8;
@@ -66,6 +69,9 @@ internal static class PatchTester
         Run();
     }
 
+    // 程序集解析回调：当 CLR 找不到引用时，从游戏目录与 refs 里补。
+    // 因为本工具不在游戏进程里跑，默认探测路径找不到 Verse / UnityEngine，
+    // 只能手动接上。返回 null 表示「我也不知道」，让 CLR 按默认方式失败。
     private static Assembly Resolve(object sender, ResolveEventArgs args)
     {
         string simple = new AssemblyName(args.Name).Name + ".dll";
@@ -80,10 +86,15 @@ internal static class PatchTester
         return null;
     }
 
+    // 记一条通过。计数 + 打印，供最后的汇总行使用。
     private static void Ok(string m) { pass++; Console.WriteLine("  [OK] " + m); }
+    // 记一条失败。与 Ok 对称；任何一条失败都会让进程退出码非 0。
     private static void Ng(string m) { fail++; Console.WriteLine("  [!!] " + m); }
 
     [MethodImpl(MethodImplOptions.NoInlining)]
+    // 逐个检查：DLL 能否加载、关键类型与方法是否存在、
+    // 字典条目是否与源码一致。
+    // 任何一项不通过都算失败 —— 这个工具的定位就是「宁可误报也不要漏报」。
     private static void Run()
     {
         Console.WriteLine("================================================================");
@@ -242,6 +253,9 @@ internal static class PatchTester
         return false;
     }
 
+    // 判断一个字符串是不是「看起来该翻译但没翻译」的英文。
+    // 判据：含拉丁字母、且不含任何 CJK 字符。
+    // 用它来找出「字典漏收」的界面文字。
     private static bool LooksForeign(string s)
     {
         if (string.IsNullOrWhiteSpace(s)) return false;

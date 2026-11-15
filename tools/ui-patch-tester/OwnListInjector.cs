@@ -191,6 +191,13 @@ namespace NMMOpinionsChineseUI
             }
         }
 
+        // 注入主流程：遍历 OwnInjections 下的清单，按「Def 类型 → def → 字段」逐层写回。
+        //
+        // 关键判断都记在这里，因为它们是「为什么不会写坏存档」的依据：
+        //   · def 找不到 → 记 skipDef，跳过（不是报错）
+        //   · 字段找不到 → 记 skipField，跳过
+        //   · 条数与原 def 不符 → 记 skipCount，整条跳过（长度不对外直接覆盖会错位）
+        // 最后把四类计数汇总成一条日志，便于核对覆盖情况。
         private static void Run()
         {
             // 非中文环境直接退出：英文原版玩家不该看到任何中文残留，也不该白花时间读清单。

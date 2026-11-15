@@ -240,6 +240,15 @@ namespace GNH.NMM.Combined.ZH
                 { "Day ", "第 " },
             };
 
+        // Transpiler：在 IL 层面把 EnhancedNmmTabRenderer 里那些 ldstr（硬编码英文常量）
+        // 换成字典里的中文。
+        //
+        // 为什么必须用 Transpiler 而不是 Keyed/DefInjected：
+        //   合并版把界面文字直接写在 C# 里（不走 Translator.Translate），
+        //   翻译表根本覆盖不到。只能在 IL 里改。
+        //
+        // 匹配策略是「整串精确相等」而不是「包含」——
+        //   包含匹配会把 "Style" 这种短词误替换到别的句子里。
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> codes)
         {
             foreach (var c in codes)
