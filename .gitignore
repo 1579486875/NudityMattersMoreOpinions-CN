@@ -33,3 +33,8 @@ _backup_before_*/
 
 # 审查/修复期的带时间戳备份（不入库）
 _backup/
+
+# 审计过程中的一次性备份与临时诊断脚本（2026-11-15 起）
+docs/_bak_*/
+docs/_*.txt
+tools/_diag_*.py

@@ -133,9 +133,18 @@ def collect_defs(mod_dirs):
                     r = ET.parse(os.path.join(root, fn)).getroot()
                 except Exception:
                     continue     # 原模组自带的教程文件不是合法 XML，跳过
-                if r.tag != "Defs":
+                if r.tag == "Defs":
+                    elems = list(r)
+                elif r.tag == "Patch":
+                    # Patches\ 也会注入 Def（实测 Gonadz_Opinions_Patch.xml 在
+                    # RJW-功能-裸体评价\1.7\Patches 里注入 18 个 NMM_Testicles_*）。
+                    # 旧实现只看 root.tag == "Defs"，于是这 18 个 Def 的译文被误报成
+                    # 「找不到对应的 Def」。Patch 里的 Def 嵌在 <Operation> 下，要递归找。
+                    elems = [e for e in r.iter()
+                             if isinstance(e.tag, str) and e.find("defName") is not None]
+                else:
                     continue
-                for el in list(r):
+                for el in elems:
                     if not isinstance(el.tag, str):
                         continue
                     cls = el.get("Class")
@@ -186,7 +195,10 @@ def collect_patch_keys(patch):
     nfile = nkey = 0
     bad = []
     dups = []
-    for top in ("Languages", "OwnInjections"):
+    # v1.7\Languages 必须一起扫：1.7 的原模组是合并版（RJW-功能-裸体评价\1.7），
+    # 它的 Def 比 1.6 的 NudityMattersMore_opinions\Common 多 239 个（5583 vs 5344），
+    # 那批正文/字段译文只存在 v1.7\ 下。只扫根目录会把这批全误判成"没翻译"。
+    for top in ("Languages", "OwnInjections", os.path.join("v1.7", "Languages")):
         base = os.path.join(patch, top)
         if not os.path.isdir(base):
             continue
@@ -273,12 +285,26 @@ def main():
 
     print()
     print("【4】检查键名是否指向真实存在的 Def（悬空引用会让翻译无效）")
+    # 分两级判：
+    #  · 指向 opinionTexts / texts 的键 —— 这两个字段只有本模组的两个原模组才有，
+    #    找不到 Def 就一定是真问题（拼错名字、原模组改名）。
+    #  · 其余键 —— 可能指向**原版或其它模组**的 Def（实测 5 个：Wait / Wait_Combat /
+    #    Wait_MaintainPosture 是 Core 的 JobDef，VTE_Prude 来自 Vanilla Traits Expanded，
+    #    FeelingBroken 来自 RJW 本体）。本工具只认识我们这两个原模组，认不出它们属正常，
+    #    降级成提示，不判失败。
     dangling = [tag for (sub, tag) in entries
                 if is_definjected(sub) and tag.split(".")[0] not in real]
-    if dangling:
-        fail("有 %d 个键找不到对应的 Def，例如：%s" % (len(dangling), dangling[:3]))
+    strict = [t for t in dangling
+              if re.search(r"\.(opinionTexts|texts)(\.|$)", t)]
+    soft = [t for t in dangling if t not in strict]
+    if strict:
+        fail("有 %d 个正文键找不到对应的 Def（正文只有本模组有，这是真问题）：%s"
+             % (len(strict), strict[:5]))
     else:
-        ok("全部键名有效，没有悬空引用")
+        ok("全部正文键名有效，没有悬空引用")
+    if soft:
+        hint("另有 %d 个键指向本模组之外的 Def（原版或其它模组提供，装了目标模组就正常）：%s"
+             % (len(soft), sorted({t.split('.')[0] for t in soft})))
 
     print()
     print("【5】检查正文条数（索引式下标越界 / 整列表条数不符）")

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  三个性向特质的「档位」译文（TraitDef.degreeDatas）。
+
+  为什么用命名索引（degreeDatas.exhibitionist）而不是数字索引（degreeDatas.0）：
+    RimWorld 的 TraitDegreeData.untranslatedLabel 带 [TranslationHandle] 特性，
+    而 DefInjectionPackage.SetDefFieldAtPath 在遇到「既不是数字、也不是字段名」的
+    路径段时会走 DefInjectionPathPartKind.ListHandle 分支，用
+    TranslationHandleUtility.GetElementIndexByHandle 按「原始英文 label」定位元素。
+    所以 degreeDatas.exhibitionist 精确指向 label="exhibitionist" 的那个 li ——
+    作者以后往 degreeDatas 前面插新档位也不会错位。
+
+  为什么必须放在 TraitDef/ 目录下：
+    LoadedLanguage.LoadData 会把 DefInjected/ 每个子目录的名字当作 Def 类型名去
+    GenTypes.GetTypeInAnyAssembly 解析；解析不到就
+        loadErrors.Add("... dir X doesn't correspond to any def type. Skipping...")
+    并把整个目录跳过。这三个键原先躺在 DefInjected/NamedIndex/ 下，而 NamedIndex
+    不是任何 Def 类型 —— 于是它们从来没生效过（还每次启动刷一条红字）。
+
+  句柄已逐个核对（1.7 原模组 Defs/TraitDefs/Traits_Singular.xml）：
+    NMM_Exhibitionist → <label>exhibitionist</label>
+    NMM_Prude         → <label>prudish</label>
+    NMM_Voyeur        → <label>voyeur</label>
+-->
+<LanguageData>
+  <NMM_Exhibitionist.degreeDatas.exhibitionist.label>&lt;color=#cc0099&gt;暴露狂&lt;/color&gt;</NMM_Exhibitionist.degreeDatas.exhibitionist.label>
+  <NMM_Exhibitionist.degreeDatas.exhibitionist.description>{PAWN_nameDef}几乎是强迫性地想让人们看到{PAWN_objective}的裸体，经常为了刺激而不择手段。</NMM_Exhibitionist.degreeDatas.exhibitionist.description>
+  <NMM_Prude.degreeDatas.prudish.label>&lt;color=#FFFFFF&gt;拘谨&lt;/color&gt;</NMM_Prude.degreeDatas.prudish.label>
+  <NMM_Prude.degreeDatas.prudish.description>{PAWN_nameDef}的颜面是{PAWN_possessive}最重要的财产。{PAWN_pronoun}有时宁愿死也不愿失去它。</NMM_Prude.degreeDatas.prudish.description>
+  <NMM_Voyeur.degreeDatas.voyeur.label>&lt;color=#FF9900&gt;视奸狂&lt;/color&gt;</NMM_Voyeur.degreeDatas.voyeur.label>
+  <NMM_Voyeur.degreeDatas.voyeur.description>{PAWN_nameDef}痴迷于看别人裸体。如果{PAWN_pronoun}在看着你，{PAWN_pronoun}很可能是在想你衣服下面是什么。</NMM_Voyeur.degreeDatas.voyeur.description>
+</LanguageData>
