@@ -72,7 +72,7 @@ using Verse;
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.4.22.0")]
+[assembly: AssemblyVersion("1.4.23.0")]
 [assembly: AssemblyFileVersion("1.4.19.0")]
 [assembly: AssemblyInformationalVersion("1.4.19")]
 
@@ -306,20 +306,6 @@ namespace NMMOpinionsChineseUI
 
                     var texts = textsField.GetValue(def) as IList;
                     if (texts == null) continue;
-                    // ── 临时诊断（2026-11-15，确认继承来的那 1 条排在哪）──
-                    //   怀疑：BaseSexPartOpinionDef 自己带 1 条 opinionTexts，
-                    //   而 XmlInheritance 会把它拼进每个子 def。
-                    //   看 texts[0] 是 "Its just there..." 还是子 def 自己的第一句，
-                    //   就能判定我们按 0-9 写的键有没有整体错位。
-                    //   只对前 3 个 def 打印；确认完可以删掉这段。
-                    if (defCount <= 3)
-                    {
-                    string t0 = texts.Count > 0 ? (texts[0] as string) : null;
-                    if (t0 == null) t0 = "(null)";
-                    if (t0.Length > 45) t0 = t0.Substring(0, 45) + "…";
-                    Log.Message("[NMM 汉化] 诊断#" + defCount + " " + def.defName
-                    + " | 共 " + texts.Count + " 条 | texts[0]=\"" + t0 + "\"");
-                    }
 
                     for (int i = 0; i < texts.Count; i++)
                     {
