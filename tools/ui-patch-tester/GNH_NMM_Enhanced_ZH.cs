@@ -41,9 +41,9 @@ using HarmonyLib;
 using Verse;
 
 // 版本号与 About\About.xml 的 <modVersion> 保持一致（模组纪律，游戏不校验它）。
-[assembly: System.Reflection.AssemblyVersion("1.4.23.0")]
-[assembly: System.Reflection.AssemblyFileVersion("1.4.19.0")]
-[assembly: System.Reflection.AssemblyInformationalVersion("1.4.19")]
+[assembly: System.Reflection.AssemblyVersion("1.5.1.0")]
+[assembly: System.Reflection.AssemblyFileVersion("1.5.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersion("1.5.1")]
 
 namespace GNH.NMM.Combined.ZH
 {
@@ -53,6 +53,12 @@ namespace GNH.NMM.Combined.ZH
         private const string HarmonyId = "gnh.cn.cys.nmm.combined.zh";
         private static bool installed;
 
+        /// <summary>
+        /// 模组入口：由 CLR 在 `[StaticConstructorOnStartup]` 类首次被访问时执行一次。
+        /// 这一半装的是「增强界面文字替换」—— 合并版把大量文案写死在 C# 里，
+        /// 只能反射找到那些界面方法、把它们返回的字符串换成中文。
+        /// 目标方法找不到就跳过并记一行日志，不会抛异常。
+        /// </summary>
         static Bootstrap()
         {
             if (installed) return;
