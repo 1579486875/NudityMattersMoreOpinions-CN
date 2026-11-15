@@ -72,7 +72,7 @@ using Verse;
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.4.21.0")]
+[assembly: AssemblyVersion("1.4.22.0")]
 [assembly: AssemblyFileVersion("1.4.19.0")]
 [assembly: AssemblyInformationalVersion("1.4.19")]
 
@@ -291,9 +291,17 @@ namespace NMMOpinionsChineseUI
                 int defCount = 0, total = 0, hit = 0;
                 var samples = new List<string>();
 
-                foreach (Def def in DefDatabase<Def>.AllDefsListForReading)
+                // ⚠ 2026-11-15 修：原来用的是 `DefDatabase<Def>` 的 AllDefsListForReading。
+                //   反编译 Verse.GenDefDatabase.AllDefTypesWithDatabases 可见：
+                //       if (item.IsAbstract || item == typeof(Def)) continue;   // ← Def 被排除
+                //   游戏只对这个列表里的类型调 AddAllInMods，
+                //   所以 `DefDatabase<Def>` 那个泛型实例**永远是空表**，
+                //   循环一次都进不去 → 自检永远报「SexPart 0 个」。
+                //   改用官方 API GetAllDefsInDatabaseForDef(类型)，
+                //   它拿的是 DefDatabase<那个类型>.AllDefs —— 那个实例是会被填充的。
+                foreach (Def def in GenDefDatabase.GetAllDefsInDatabaseForDef(sexPartType))
                 {
-                    if (def == null || !sexPartType.IsAssignableFrom(def.GetType())) continue;
+                    if (def == null) continue;   // 数据库已按类型过滤，不再需要 IsAssignableFrom
                     defCount++;
 
                     var texts = textsField.GetValue(def) as IList;
