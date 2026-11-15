@@ -306,6 +306,20 @@ namespace NMMOpinionsChineseUI
 
                     var texts = textsField.GetValue(def) as IList;
                     if (texts == null) continue;
+                    // ── 临时诊断（2026-11-15，确认继承来的那 1 条排在哪）──
+                    //   怀疑：BaseSexPartOpinionDef 自己带 1 条 opinionTexts，
+                    //   而 XmlInheritance 会把它拼进每个子 def。
+                    //   看 texts[0] 是 "Its just there..." 还是子 def 自己的第一句，
+                    //   就能判定我们按 0-9 写的键有没有整体错位。
+                    //   只对前 3 个 def 打印；确认完可以删掉这段。
+                    if (defCount <= 3)
+                    {
+                    string t0 = texts.Count > 0 ? (texts[0] as string) : null;
+                    if (t0 == null) t0 = "(null)";
+                    if (t0.Length > 45) t0 = t0.Substring(0, 45) + "…";
+                    Log.Message("[NMM 汉化] 诊断#" + defCount + " " + def.defName
+                    + " | 共 " + texts.Count + " 条 | texts[0]=\"" + t0 + "\"");
+                    }
 
                     for (int i = 0; i < texts.Count; i++)
                     {
