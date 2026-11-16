@@ -13,7 +13,11 @@ import sys
 import xml.etree.ElementTree as ET
 
 MOD = r"D:\steam\steamapps\common\RimWorld\Mods\裸体评价更多看法-汉化修复"
-GIT = r"E:\TAML\_work\nmzh-git"
+# ⚠ 2026-11-16 订正：原先硬编码 `E:\TAML\_work\nmzh-git` —— 那是**另一个 clone**，
+#   本机有两个指向同一 GitHub 仓库的副本，那个还是旧状态，于是第 4 节一直在拿部署目录
+#   跟过时文件比，报出三条假阳性（About 10195 / DLL 44032 / 13824 —— 全是 1.5.1 时代的）。
+#   改成从脚本自身位置推导：tools\final-check.py 的上一级就是仓库根，任何 clone 都正确。
+GIT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 green = []
 red = []
@@ -169,16 +173,18 @@ print()
 print("=" * 68)
 print("4. 部署目录 vs git 仓库（关键文件字节一致）")
 print("=" * 68)
+# ⚠ 2026-11-16 收窄：原先这里还列了 README.md / 汉化说明.md / tools\*.cs 三个源码文件 ——
+#   但它们**不参与游戏加载**（LoadFolders 的 <li>/</li> 只让游戏读 About/ Assemblies/ Defs/
+#   Languages/ Textures/ Patches/ Sounds/，根目录的 .md 与 tools\ 都不会被读），
+#   部署目录本来就不该带源码与文档。列在这里只会制造假阳性。
+#   源码正确性由第 1~3 节与 tools\ 下的专项脚本覆盖。
 for rel in (
     r"About\About.xml",
+    r"About\ModIcon.png",
+    r"About\Preview.png",
     r"LoadFolders.xml",
-    r"README.md",
-    r"汉化说明.md",
     r"Assemblies\NMMOpinionsChineseUI.dll",
     r"Assemblies\GNH_NMM_Enhanced_ZH.dll",
-    r"tools\ui-patch-tester\NMMOpinionsChineseUI.cs",
-    r"tools\ui-patch-tester\GNH_NMM_Enhanced_ZH.cs",
-    r"tools\ui-patch-tester\OwnListInjector.cs",
 ):
     a = os.path.join(MOD, rel)
     b = os.path.join(GIT, rel)

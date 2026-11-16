@@ -38,3 +38,9 @@ _backup/
 docs/_bak_*/
 docs/_*.txt
 tools/_diag_*.py
+
+# 发布包：这些是 pack_release.py / pack-mods 的**产物**，随时可重建，
+# 且加密包每次内容变动就多一个 4 MB blob 进历史（2026-11-16 审计发现 .7z 被跟踪了）。
+# .zip 早就忽略了，.7z 漏了 —— 这里补齐。文件本身留在磁盘上，只是不进版本控制。
+packing/*.7z
+packing/*.zip
