@@ -38,14 +38,13 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
 using System;
-using System.Collections.Generic;
 using HarmonyLib;
 using Verse;
 
 // 版本号与 About\About.xml 的 <modVersion> 保持一致（模组纪律，游戏不校验它）。
-[assembly: System.Reflection.AssemblyVersion("1.5.7.0")]
-[assembly: System.Reflection.AssemblyFileVersion("1.5.7.0")]
-[assembly: System.Reflection.AssemblyInformationalVersion("1.5.7")]
+[assembly: System.Reflection.AssemblyVersion("1.5.8.0")]
+[assembly: System.Reflection.AssemblyFileVersion("1.5.8.0")]
+[assembly: System.Reflection.AssemblyInformationalVersion("1.5.8")]
 
 namespace GNH.NMM.Combined.ZH
 {
@@ -314,8 +313,22 @@ namespace GNH.NMM.Combined.ZH
                     || fn.IndexOf("繁體", StringComparison.Ordinal) >= 0
                     || fn.IndexOf("繁体", StringComparison.Ordinal) >= 0)
                     v = false;
+                // 【2026-11-16 加，审查 D-03】正向中文判据 —— 与主补丁 NMMOpinionsChineseUI
+                // 的 `Zh.IsChineseLanguage` 保持同一口径。
+                //
+                // 旧版这里是 `else v = true;`（注释写「兜底：宁可替换，与主补丁一致」）。
+                // 那个兜底的代价是：**俄语 / 日语 / 德语玩家装了本包之后，
+                // 「增强界面」那几百条标签会被换成中文**，而正文是原语言 —— 错乱组合。
+                // 主补丁的同类兜底本轮一并改了（见 NMMOpinionsChineseUI.cs 第 ⑥⑦ 段），
+                // 这里必须跟着改，否则两个 DLL 的口径会分叉：
+                // 主补丁放行原文、增强界面却替换，玩家看到的就是「中文标签 + 外文内容」。
+                else if (fn.IndexOf("Chinese", StringComparison.OrdinalIgnoreCase) >= 0
+                    || fn.IndexOf("中文", StringComparison.Ordinal) >= 0
+                    || fn.IndexOf("漢", StringComparison.Ordinal) >= 0
+                    || fn.IndexOf("汉", StringComparison.Ordinal) >= 0)
+                    v = true;
                 else
-                    v = true;                            // 兜底：宁可替换（与主补丁一致）
+                    v = false;                           // 明确不是中文 → 不替换
                 langKey = fn;
                 langIsChinese = v;
                 return v;

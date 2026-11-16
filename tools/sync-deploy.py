@@ -20,14 +20,24 @@ About\\About.xml 字节不一致（部署 7270 / 仓库 7120）
 3. 顺手把「部署 vs 仓库该一致的文件」清单收在同一个脚本里，
    与 `final-check.py` 第 4 节共用同一份定义（避免两处漂移）。
 
-⚠ 同步范围**只限** `About/` 与 `Assemblies/` ——
-部署副本的语言目录是**另一套结构**（`LoadFolders.xml` + `v1.7\` 分层 / 13 万键），
-整目录同步会互相覆盖。
+⚠ 同步范围**只限** `About/`、`Assemblies/` 与 `LoadFolders.xml` ——
+语言目录归 `tools/sync-deploy-all.py` 管（它要按三棵树逐文件比对）。
+
+## 2026-11-16 订正（审查 D-01）
+
+旧版 `MOD` 是**单个路径**，只指向 1.7 主安装。于是「1.6 引擎副本」从来没被
+任何同步 / 校验环节覆盖过 —— 实测它的 About 停在 v1.4.23、语言树缺 105 个文件。
+现在改成 `TARGETS` 列表，两个环境一起同步、一起复核。
 """
 import os, shutil, hashlib, sys
 
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # 2026-11-16 改：原硬编码本机路径
-MOD = r"D:\steam\steamapps\common\RimWorld\Mods\裸体评价更多看法-汉化修复"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# (显示名, 部署路径) —— 加环境就往这里加一行
+TARGETS = [
+    ("1.7 主安装", r"D:\steam\steamapps\common\RimWorld\Mods\裸体评价更多看法-汉化修复"),
+    ("1.6 引擎副本", r"D:\RimWorld-1.6\Mods\裸体评价更多看法-汉化修复"),
+]
 
 # 两边应当一致的文件（与 final-check.py 第 4 节同一份清单）
 ITEMS = [
@@ -46,40 +56,60 @@ def sha(p):
     return hashlib.sha256(open(p, 'rb').read()).hexdigest()
 
 
-print(f"{'文件':<40} {'状态':<28} 处理")
-print('-' * 90)
-diff = 0
-for rel in ITEMS:
-    a = os.path.join(MOD, rel)
-    b = os.path.join(BASE, rel)
-    if not os.path.exists(b):
-        print(f"{rel:<40} {'仓库缺':<28} 跳过")
-        continue
-    if not os.path.exists(a):
-        print(f"{rel:<40} {'部署缺':<28} {'复制' if write else '（dry-run）'}")
-        if write:
-            os.makedirs(os.path.dirname(a), exist_ok=True)
-            shutil.copy2(b, a)
-        diff += 1
-        continue
-    if sha(a) == sha(b):
-        print(f"{rel:<40} {'一致':<28} —")
-        continue
-    diff += 1
-    print(f"{rel:<40} {'**不一致**':<28} {'同步' if write else '（dry-run）'}")
-    if write:
-        shutil.copy2(a, a + '.bak-sync')
-        shutil.copy2(b, a)
-        ok = sha(a) == sha(b)
-        print(f"{'':<40} {'→ 同步后一致 ✅' if ok else '→ 仍不一致 ❌':<28}")
+def sync_target(label, mod):
+    print("=" * 90)
+    print("目标：%s" % label)
+    print("    %s" % mod)
+    print("=" * 90)
+    print(f"{'文件':<40} {'状态':<28} 处理")
+    print('-' * 90)
+    diff = 0
+    if not os.path.isdir(mod):
+        print("  ❌ 部署目录不存在，整目标跳过")
+        return 1
 
-print('-' * 90)
-print(f"差异 {diff} 项{'，已同步' if write and diff else ''}")
-if not write and diff:
-    print("\n要真正写入请加 --write")
+    for rel in ITEMS:
+        a = os.path.join(mod, rel)     # 部署侧
+        b = os.path.join(BASE, rel)    # 仓库侧
+        if not os.path.exists(b):
+            print(f"{rel:<40} {'仓库缺':<28} 跳过")
+            continue
+        if not os.path.exists(a):
+            print(f"{rel:<40} {'部署缺':<28} {'复制' if write else '（dry-run）'}")
+            if write:
+                os.makedirs(os.path.dirname(a), exist_ok=True)
+                shutil.copy2(b, a)
+            diff += 1
+            continue
+        if sha(a) == sha(b):
+            print(f"{rel:<40} {'一致':<28} —")
+            continue
+        diff += 1
+        print(f"{rel:<40} {'**不一致**':<28} {'同步' if write else '（dry-run）'}")
+        if write:
+            # 备份只留一份，且不参与发布（check-deploy-parity.py 会排除 .bak*）
+            shutil.copy2(a, a + '.bak-sync')
+            shutil.copy2(b, a)
+            ok = sha(a) == sha(b)
+            print(f"{'':<40} {'→ 同步后一致 ✅' if ok else '→ 仍不一致 ❌':<28}")
+
+    print('-' * 90)
+    print(f"差异 {diff} 项{'，已同步' if write and diff else ''}")
+    print()
+    return diff
+
+
+total = 0
+for _label, _mod in TARGETS:
+    total += sync_target(_label, _mod)
+
+print("=" * 90)
+print(f"两个目标合计差异 {total} 项")
+if not write and total:
+    print("要真正写入请加 --write")
 
 
 # 2026-11-16 加：有差异就让调用方知道（原先只 print、永远 exit 0）
 #   · dry-run 有差异 → exit 1（提醒「该同步了」）
 #   · --write 后仍有差异 → exit 1（同步失败）
-sys.exit(1 if diff else 0)
+sys.exit(1 if total else 0)

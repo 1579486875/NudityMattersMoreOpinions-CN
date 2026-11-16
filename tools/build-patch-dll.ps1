@@ -58,7 +58,24 @@ foreach ($s in ($srcs + $srcs2)) {
 # PowerShell 会把结果拆成标量，后面 $x[0] 就变成「字符串的第一个字符」。
 # 所以这里用 foreach 显式累加，取用时再套一层 @()。
 $rimWorldList = @()
-foreach ($c in @('D:\steam\steamapps\common\RimWorld',
+# ⚠ 2026-11-16 订正（审查 D-04）：候选里**第一位放 1.6 引擎副本**。
+#
+#   原因是 1.7（Waylith 引擎，2026-10-27 换装）换了布局：
+#     · 旧版（1.6 及以前，Unity/Mono）—— 托管 dll 在 <root>\RimWorldWin64_Data\Managed\
+#       含 Assembly-CSharp.dll / UnityEngine.CoreModule.dll / System.Xml.dll / netstandard.dll
+#     · 1.7 —— **没有 RimWorldWin64_Data 这个文件夹**，dll 平铺在 <root>\ 根目录，
+#       而且 UnityEngine 只剩一个 UnityStubs.dll（与下面的 /reference 列表对不上）
+#
+#   本脚本的 /reference 列表是按 1.6 布局写的 —— 这是**故意的**：编出来的 net472 产物
+#   在 1.7 上靠 Waylith 的 LaxAssemblyBinding 也能跑（见 GNH.LocalFixes.csproj 的同段说明）。
+#   所以**编译环境应该固定用 1.6 引擎副本**。
+#
+#   实测（2026-11-16）：把 1.7 主安装放第一位时，本脚本会报「找不到 RimWorld」——
+#   因为 RimWorldWin64_Data\Managed\Assembly-CSharp.dll 在 1.7 下不存在，
+#   于是「一键重建」在 1.7 机器上直接失效，且报错信息指向「你装没装游戏」，
+#   与实际原因（布局变了）完全无关。
+foreach ($c in @('D:\RimWorld-1.6',
+                 'D:\steam\steamapps\common\RimWorld',
                  'C:\Program Files (x86)\Steam\steamapps\common\RimWorld',
                  'C:\Program Files\Steam\steamapps\common\RimWorld',
                  $env:RIMWORLD_DIR)) {
@@ -67,7 +84,11 @@ foreach ($c in @('D:\steam\steamapps\common\RimWorld',
     }
 }
 if ($rimWorldList.Count -eq 0) {
-    Write-Host '找不到 RimWorld。请设环境变量 RIMWORLD_DIR 指向安装目录。' -ForegroundColor Red
+    Write-Host '找不到可用于编译的 RimWorld 安装。' -ForegroundColor Red
+    Write-Host '本脚本需要 1.6 风格布局（<root>\RimWorldWin64_Data\Managed\Assembly-CSharp.dll）。' -ForegroundColor Yellow
+    Write-Host '  1.7（Waylith）主安装已没有这个目录 —— 请改用 1.6 引擎副本，' -ForegroundColor Yellow
+    Write-Host '  或设环境变量 RIMWORLD_DIR 指向它，例如：' -ForegroundColor Yellow
+    Write-Host '    $env:RIMWORLD_DIR = "D:\RimWorld-1.6"' -ForegroundColor Yellow
     exit 1
 }
 $rimWorld = @($rimWorldList)[0]

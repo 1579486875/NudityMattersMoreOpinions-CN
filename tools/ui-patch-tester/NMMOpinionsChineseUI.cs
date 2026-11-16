@@ -72,9 +72,9 @@ using Verse;
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.5.7.0")]
-[assembly: AssemblyFileVersion("1.5.7.0")]
-[assembly: AssemblyInformationalVersion("1.5.7")]
+[assembly: AssemblyVersion("1.5.8.0")]
+[assembly: AssemblyFileVersion("1.5.8.0")]
+[assembly: AssemblyInformationalVersion("1.5.8")]
 
 namespace NMMOpinionsChineseUI
 {
@@ -766,10 +766,50 @@ namespace NMMOpinionsChineseUI
                 && englishName.IndexOf("Traditional", StringComparison.OrdinalIgnoreCase) >= 0)
                 return false;
 
-            // ⑥ 全都判不出来 → 兜底选择「替换」。
-            //    宁可误替换也不能漏：这本来就是中文汉化包，装它的都是中文玩家。
-            //    万一判断失败而放行原文，玩家看到的就是满屏英文（正是上面那个 bug）。
-            return true;
+            // ⑥ 【2026-11-16 加，审查 D-03】正向中文判据 —— 名字里带「中文 / Chinese」就算中文。
+            //
+            //    为什么必须加：下面的 ⑦ 兜底从原来的「true」改成「false」，
+            //    改的前提是**中文识别率不能降低**。②③④ 只认
+            //    `ChineseSimplified` / 简体 / 简中 / `Simplified Chinese` 这四种写法，
+            //    万一有中文包用了别的写法（`ChineseSimplified (中文)`、
+            //    `Chinese (Simplified)`、nativeName 写成「漢語」……），
+            //    ②③④ 全不命中就会掉进 ⑦ 被判成「不是中文」→ 满屏英文。
+            //    这一条把「所有名字里带中文特征的语言」都捞回来，比原来更宽。
+            if (!string.IsNullOrEmpty(folderName) &&
+                folderName.IndexOf("Chinese", StringComparison.OrdinalIgnoreCase) >= 0)
+                return true;
+            if (!string.IsNullOrEmpty(englishName) &&
+                englishName.IndexOf("Chinese", StringComparison.OrdinalIgnoreCase) >= 0)
+                return true;
+            if (!string.IsNullOrEmpty(nativeName) &&
+                (nativeName.Contains("中文")
+                 || nativeName.Contains("漢") || nativeName.Contains("汉")))
+                return true;
+
+            // ⑦ 【2026-11-16 改】全都判不出来 → **不替换**。
+            //
+            //    ⚠ 这是对上一版（1.5.7）的订正。上一版这里返回 true，理由是
+            //    「宁可误替换也不能漏：这本来就是中文汉化包，装它的都是中文玩家」。
+            //    那个理由在**只考虑中文玩家**时成立，但它漏掉了一个真实场景：
+            //
+            //      玩家装了本包，然后切到俄语 / 日语 / 德语 / 法语玩
+            //      （多人共用一台机器、或中文玩家开英文档测试模组都会这样）。
+            //      `IsChineseLanguage("Russian (Русский)", "Русский", "Russian")`
+            //      在 ①②③④⑤⑥ 全部不命中 → 落到这里 → 返回 true
+            //      → 12 个 Transpiler 与 OwnListInjector 一起把界面和正文换成中文。
+            //      玩家得到的是一份「俄语界面 + 中文正文」的错乱组合。
+            //
+            //    改判据的依据：**「中文」是一个可以正向识别的东西**（⑥ 已经做了），
+            //    识别不出来就不该按中文处理。原来怕的「漏判导致满屏英文」，
+            //    在 ⑥ 加进来之后已经不成立了 —— 中文包的识别面比改之前更宽。
+            //
+            //    实测对照（判据表见 docs/语言判定-8场景.md）：
+            //      ChineseSimplified (简体中文) → true   （②）
+            //      ChineseTraditional (繁體中文) → false  （⑤）
+            //      English                        → false  （①）
+            //      Russian (Русский)              → false  （改前是 true ← 这就是修的 bug）
+            //      日语 / 德语 / 法语              → false  （改前是 true）
+            return false;
         }
 
         // ── 语言判定缓存 ────────────────────────────────────────────────

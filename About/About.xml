@@ -3,7 +3,7 @@
 	<name>裸体评价更多看法 简体汉化</name>
 	<author>大赢经直插白皮赢道</author>
 	<packageId>shark510.nuditymattersmoreopinions.zhfix</packageId>
-	<modVersion>1.5.7</modVersion>
+	<modVersion>1.5.8</modVersion>
 	<url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
 	<supportedVersions>
 		<li>1.5</li>
@@ -82,10 +82,10 @@
 为什么原先绑死：1.6 的原版和 1.7 的合并版共用同一个 packageId（dord.nuditymattersmore），游戏只认 id 不认版本。既然两个版本都得认，不如干脆不写死。
 
 ■ 更新记录
-【v1.5.7 修「基类那条英文仍在列表尾部」】`OwnListInjector` 只在「继承基类那条在**头部**」时把它换成中文，**漏了尾部**（含「判不准按尾部处理」）—— 那两种情况下 `target[last]` 仍是英文 `Its just there, what to say more?`，而读取端是无序 `RandomElement`，会按 `1/(N+1)` 抽中它。实测 4509 个容器的 N 在 5..90，抽中概率 1.10%~16.67%、平均约 4.3%（玩家平均每 ~23 次正文生成遇到一次英文）。已补 `else if (diff == 1)` 分支，并在汇总日志里分开记「在头已补 / 在尾已补」。仅影响 1.6 通道（1.7 走 Keyed，不走这里）。
+【v1.5.8 修「非中文语言的玩家被强制换成中文」】两个补丁 DLL 判断「现在是不是中文环境」时，原先用的都是「全都判不出来就按中文处理」的兜底。于是俄语 / 日语 / 德语 / 法语玩家装了本包之后，12 个 Transpiler 加上自有清单注入会一起把界面标签和正文换成中文，得到「外文框架 + 中文内容」的错乱组合。现在改成**必须识别出中文特征才替换**：language 文件夹名、原生语言名、英文语言名三者任一含Chinese / 中文 / 漢 / 汉 就判中文，都不含就原样放行。简体照旧替换，繁体与英文照旧跳过，其余语言不再被误伤。判据表 25 格（15 主补丁 + 10 增强界面）见仓库 tools/audit-lang-detect.py。
 
 
-（这里只留最近一次更新；更早的 v1.5.2 / v1.5.1 / v1.4.19 / v1.4.18 / v1.4.17 见仓库 README 的「📜 完整更新记录」一节。）
+（这里只留最近一次更新；更早的 v1.5.7 / v1.5.2 / v1.5.1 / v1.4.19 / v1.4.18 / v1.4.17 见仓库 README 的「📜 完整更新记录」一节。）
 
 ■ 模组信息
 适用版本　RimWorld 1.5 / 1.6 / 1.7
