@@ -41,7 +41,7 @@ import shutil
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-REPO = r"E:\TAML\_work\nmzh-git"
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # 2026-11-16 改：原先硬编码 E:\TAML\_work\nmzh-git（旧 clone）
 LANGS = [
     os.path.join(REPO, "v1.7", "Languages", "ChineseSimplified", "DefInjected"),
     os.path.join(REPO, "v1.7", "Languages", "ChineseSimplified (简体中文)", "DefInjected"),

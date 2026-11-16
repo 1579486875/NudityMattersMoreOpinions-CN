@@ -10,7 +10,7 @@ import sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-REPO = r"E:\TAML\_work\nmzh-git"
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # 2026-11-16 改：原先硬编码 E:\TAML\_work\nmzh-git（旧 clone）
 MOD = r"E:\TAML\modfix\GNH-LocalFixes"
 
 JOBS = [

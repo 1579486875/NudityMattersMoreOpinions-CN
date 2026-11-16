@@ -7,7 +7,7 @@ import hashlib
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-SRC = r"E:\TAML\_work\nmzh-git\v1.7\Languages"
+SRC = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "v1.7/Languages")   # 2026-11-16 改：原硬编码旧 clone
 DST = r"D:\steam\steamapps\common\RimWorld\Mods\裸体评价更多看法-汉化修复\v1.7\Languages"
 LANGS = ["ChineseSimplified", "ChineseSimplified (简体中文)"]
 

@@ -33,7 +33,7 @@ import argparse
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-REPO = r"E:\TAML\_work\nmzh-git"
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # 2026-11-16 改：原先硬编码 E:\TAML\_work\nmzh-git（旧 clone）
 MOVED = ["ThoughtDef", "TraitDef", "HediffDef"]
 LANGS = ["ChineseSimplified", "ChineseSimplified (简体中文)"]
 

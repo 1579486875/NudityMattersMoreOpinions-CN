@@ -18,7 +18,7 @@ import hashlib
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-REPO = r"E:\TAML\_work\nmzh-git"
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # 2026-11-16 改：原先硬编码 E:\TAML\_work\nmzh-git（旧 clone）
 DEPLOY = r"D:\steam\steamapps\common\RimWorld\Mods\裸体评价更多看法-汉化修复"
 DLLS = ["NMMOpinionsChineseUI.dll", "GNH_NMM_Enhanced_ZH.dll"]
 EXTRA = [
