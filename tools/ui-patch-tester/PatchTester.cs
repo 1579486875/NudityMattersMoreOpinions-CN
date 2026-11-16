@@ -48,15 +48,36 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using HarmonyLib;
 
+/// <summary>
+/// 离线自检工具：**不启动游戏**，直接用反射加载原模组 + 补丁 DLL，
+/// 把补丁里每一处替换跑一遍并比对结果。
+///
+/// 为什么要它：改完补丁若只靠「开一次游戏 + 盯 20~40 分钟日志」，
+/// 一个替换写错就要等一整轮加载才能发现；这里几秒就能定位到具体哪一条没替换上。
+///
+/// ⚠ 下面的路径常量是**本机硬编码**，换机器/换目录要改（详见常量上方注释）。
+/// </summary>
 internal static class PatchTester
 {
+    // ⚠ 以下 6 个路径全部是**本机硬编码绝对路径**（2026-11-16 实测）：
+    //   · `PatchDll` 指向的 `D:\nmm_ui\` **并不存在** —— 本工具当前跑不起来，需要先改这个值；
+    //   · 其余路径写的是 `D:\Steam\...`，实际目录是 `D:\steam\...`（Windows 不敏感，能过，但别当规范抄）；
+    //   · 想让它跟仓库同步，最省事的做法是把 `PatchDll` 改成相对 exe 的 `..\..\Assemblies\NMMOpinionsChineseUI.dll`。
+    // 本轮**没有改**这些值：它是离线工具、不进游戏，改路径要重编 exe，也可能破坏作者现有用法。
+    /// <summary>1.7 游戏本体的托管程序集目录（反射加载 Assembly-CSharp 等）。</summary>
     private const string Managed = @"D:\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed";
+    /// <summary>1.6 版 NMM opinions 的程序集目录（老版本目标，留着做兼容性对照）。</summary>
     private const string ModOpinions = @"D:\Steam\steamapps\common\RimWorld\Mods\NudityMattersMore_opinions\1.6\Assemblies";
+    /// <summary>1.7 合并版（`dord.nuditymattersmore`）的程序集目录 —— 主要被测对象。</summary>
     private const string ModCore = @"D:\Steam\steamapps\common\RimWorld\Mods\RJW-功能-裸体评价\Assemblies";
+    /// <summary>RJW 核心本体的程序集目录（提供 NMM 依赖的类型）。</summary>
     private const string ModRjw = @"D:\Steam\steamapps\common\RimWorld\Mods\RJW_核心_本体\1.6\Assemblies";
+    /// <summary>0Harmony.dll 的路径（工坊 2009463077）—— 反射加载补丁 DLL 时需要它先就位。</summary>
     private const string HarmonyDll = @"D:\Steam\steamapps\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll";
+    /// <summary>被测的补丁 DLL。**当前值指向一个不存在的目录**，用之前必须先改成真实路径。</summary>
     private const string PatchDll = @"D:\nmm_ui\NMMOpinionsChineseUI.dll";
 
+    /// <summary>累计通过 / 失败条数，跑完在控制台汇总。</summary>
     private static int pass = 0, fail = 0;
 
     // 离线自测工具的入口。
@@ -268,6 +289,9 @@ internal static class PatchTester
         return true;
     }
 
+    /// <summary>
+    /// 把字符串截短到日志里好读的长度（空值返回 `(空)`）。只用于本工具的输出，不碰被测内容。
+    /// </summary>
     private static string Show(string s)
     {
         if (s == null) return "(null)";
