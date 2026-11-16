@@ -278,6 +278,24 @@ namespace NMMOpinionsChineseUI
                     return;
                 }
 
+                // ── 【2026-11-16 修】先判断当前走哪条正文通道 ──
+                // 反编译 OwnListInjector 可见：原模组**有** OpinionTextTranslator 时（1.7 合并版），
+                // 正文走 Keyed（`NMM.Opinion.<defName>.opinionTexts.<i>`），OwnInjections 会主动让路；
+                // **没有**时（1.6 两个独立模组），正文由 OwnListInjector 直接改 List<string>，
+                // 根本不经过 Translator。
+                // 而本方法只查 1.6 才有的那个类型 —— 也就是说它**只在 1.6 下执行**，
+                // 却拿 1.7 的键格式去查，于是 1.6 每次启动都会误报「命中 0 条（0%）」。
+                // 1.6 的覆盖情况由 OwnListInjector 那条「自有清单注入：容器 X、生效 Y 条」负责报告。
+                bool keyedChannel = AccessTools.TypeByName(
+                    "NudityMattersMore_opinions.OpinionTextTranslator") != null;
+                if (!keyedChannel)
+                {
+                    Log.Message("[NMM 汉化] 正文覆盖自检：当前环境没有 OpinionTextTranslator（1.6 的两个独立模组），"
+                        + "正文由 OwnInjections 直改通道提供，不走 Keyed —— 本项不适用；"
+                        + "覆盖条数以「自有清单注入：容器 X、生效 Y 条」那行为准。");
+                    return;
+                }
+
                 FieldInfo textsField = sexPartType.GetField("opinionTexts",
                     BindingFlags.Instance | BindingFlags.Public);
                 if (textsField == null)

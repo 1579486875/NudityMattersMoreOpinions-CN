@@ -3,7 +3,7 @@
 	<name>裸体评价更多看法 简体汉化</name>
 	<author>大赢经直插白皮赢道</author>
 	<packageId>shark510.nuditymattersmoreopinions.zhfix</packageId>
-	<modVersion>1.5.2</modVersion>
+	<modVersion>1.5.3</modVersion>
 	<url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
 	<supportedVersions>
 		<li>1.5</li>
@@ -82,16 +82,10 @@
 为什么原先绑死：1.6 的原版和 1.7 的合并版共用同一个 packageId（dord.nuditymattersmore），游戏只认 id 不认版本。既然两个版本都得认，不如干脆不写死。
 
 ■ 更新记录
-【v1.5.2 把 About 描述压回工坊上限内】原先 description 是 9,367 字节，超过 Steam 工坊简介字段的 **8000 UTF-8 字节**上限 —— 表现为保存工坊条目时直接报「保存标题和描述时出现错误」。本次把「更新记录」里较早的三条（v1.4.19 / v1.4.18 / v1.4.17）**原样搬到 README** 的「完整更新记录」一节，About 里只留最近一次；改完 7,120 字节，留 880 字节余量。译文、语言键、加载结构一个字节都没动。
+【v1.5.3 修 1.6 下的一条误导性自检】界面补丁 dll 里的「正文覆盖自检」原先拿 1.7 的键格式（NMM.Opinion.&lt;defName&gt;.opinionTexts.&lt;i&gt;）去查，而这段自检只会在 1.6 环境下执行（它查的那个类型 1.7 合并版没有）——于是 1.6 每次启动都打一条「命中 0 条（0%）—— 有 N 条未命中（会显示英文）」，而实际正文是中文的（1.6 的正文由 OwnInjections 直改 List&lt;string&gt; 提供，根本不经过 Translator）。现在先判断通道：没有 OpinionTextTranslator 就打一句「本项不适用」并返回，1.6 的覆盖条数以「自有清单注入：容器 X、生效 Y 条」那行为准。**注入逻辑一字未改。**
 
 
-（这里只留最近一次；更早的 v1.4.19 / v1.4.18 / v1.4.17 见仓库 README 的「完整更新记录」一节。）
-
-【v1.5.1 修好「正文整体错位一位」与两处静默失效】
-· 627 个「情境看法」的正文全部错位一位。原模组抽正文的逻辑是`Rand.Range(0, texts.Count)` 取下标、再拼 `NMM.Opinion.&lt;defName&gt;.opinionTexts.&lt;num&gt;` 查译文，所以键的下标必须与字段列表一一对应。而这批 Def 并没有父模板，却被当成有继承、统一在前面插了一条占位并整体后移 —— 结果第 0 条永远显示一句跟场景无关的话，其余每条都显示成隔壁那条，每个 Def 的最后一条译文永远抽不到。现已逐个前移复位（16,200 条键重排，两份语言目录同步）。
-· 1.6 下 526 条译文从未加载过。它们指向的 Def 只存在于 1.7 合并版，却放在两个版本共用的根目录里，于是 1.6 每次启动都要逐条报「Found no ThoughtDef named …」；现已移进 v1.7\ 目录，1.6 不再报错、1.7 照常生效。
-· 一处「目录名不是 Def 类型」的翻译目录被游戏整目录丢弃（`LoadedLanguage.LoadData` 解析不到类型就 `continue`）；这种失效**不会出现在 Player.log 里** —— 翻译错误只汇总进「Translation data for language … has N errors」那一行，明细要到游戏内「生成翻译报告」才看得到，所以它一直在悄悄失效。其中 6 条有效译文（拘谨 / 暴露狂 / 视奸狂三个特质的档位名与描述）已按列表句柄写法并入 TraitDef\，这三个特质首次显示中文。
-· 数字全部按 2026-11-15 实测重算，并附了复算脚本 `tools/count-numbers.py`。
+（这里只留最近一次更新；更早的 v1.5.2 / v1.5.1 / v1.4.19 / v1.4.18 / v1.4.17 见仓库 README 的「📜 完整更新记录」一节。）
 
 ■ 模组信息
 适用版本　RimWorld 1.5 / 1.6 / 1.7
