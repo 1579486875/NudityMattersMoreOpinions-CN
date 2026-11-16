@@ -3,7 +3,7 @@
 	<name>裸体评价更多看法 简体汉化</name>
 	<author>大赢经直插白皮赢道</author>
 	<packageId>shark510.nuditymattersmoreopinions.zhfix</packageId>
-	<modVersion>1.5.4</modVersion>
+	<modVersion>1.5.5</modVersion>
 	<url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
 	<supportedVersions>
 		<li>1.5</li>
@@ -82,7 +82,7 @@
 为什么原先绑死：1.6 的原版和 1.7 的合并版共用同一个 packageId（dord.nuditymattersmore），游戏只认 id 不认版本。既然两个版本都得认，不如干脆不写死。
 
 ■ 更新记录
-【v1.5.4 把两条预期内的 WARN 降成 Message】实机日志（2026-11-16 10:03）里每次启动都会打这两条：「找不到类型：NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches」与「找不到方法：…NudityMattersMore_opinions_Mod.SettingsCategory」。它们在 1.7 合并版下**本来就是预期的** —— 前者的那个「俄语弹窗」补丁类合并版重写时没有，后者的设置分类在合并版里挂在 NudityMattersMore.NudityMattersMore 上（那一行已成功装上）。现在命中一张「合并版里已知不存在」的名单时改用 Message 留痕，不再标成警告；**安装行为一字未改**，1.6 下这些目标存在、根本走不到这条分支。
+【v1.5.5 修「繁体/英文玩家看到简体界面」与版本号对不上】① `IsChineseLanguage` 的兜底是「宁可误替换」，于是繁体玩家（folderName=ChineseTraditional、nativeName=繁體中文）①②③④ 全不命中、落到兜底被判成「该汉化」—— 而本包没有繁体语言目录，结果是「界面简体 + 正文英文」。现在兜底前加了一条「明确是繁体/非中文 → 不替换」，**兜底方向没动**（装这包的一定是中文玩家）。② `GNH_NMM_Enhanced_ZH.dll` 的 Transpiler 原先**完全没有语言判断**，英文/繁体玩家只有「增强界面」这段会变中文；现在与主补丁同口径。③ 两个 DLL 的 `AssemblyVersion` 一直停在 1.5.1（About 已到 1.5.4），资源管理器里看到的版本与工坊页面不符；本次一并同步到 1.5.5。
 
 （这里只留最近一次更新；更早的 v1.5.2 / v1.5.1 / v1.4.19 / v1.4.18 / v1.4.17 见仓库 README 的「📜 完整更新记录」一节。）
 

@@ -1,4 +1,4 @@
-// ==========================================================================
+﻿// ==========================================================================
 // 【翻译补丁】1.7 合并版「增强界面」的硬编码文字汉化
 // ==========================================================================
 //
@@ -37,13 +37,15 @@
 using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
+using System;
+using System.Collections.Generic;
 using HarmonyLib;
 using Verse;
 
 // 版本号与 About\About.xml 的 <modVersion> 保持一致（模组纪律，游戏不校验它）。
-[assembly: System.Reflection.AssemblyVersion("1.5.1.0")]
-[assembly: System.Reflection.AssemblyFileVersion("1.5.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersion("1.5.1")]
+[assembly: System.Reflection.AssemblyVersion("1.5.5.0")]
+[assembly: System.Reflection.AssemblyFileVersion("1.5.5.0")]
+[assembly: System.Reflection.AssemblyInformationalVersion("1.5.5")]
 
 namespace GNH.NMM.Combined.ZH
 {
@@ -281,8 +283,47 @@ namespace GNH.NMM.Combined.ZH
         //
         // 匹配策略是「整串精确相等」而不是「包含」——
         //   包含匹配会把 "Style" 这种短词误替换到别的句子里。
+        // ── 【2026-11-16 加】语言判断 ──
+        // 主补丁里每处 Transpiler 开头都有 `if (!Zh.GameIsChinese()) return codes;`，
+        // 而本 DLL 原先**没有** —— 英文/繁体玩家装了本包时，只有「增强界面」这段会变中文，
+        // 与其它地方的中英混杂。这里补上同样口径的判断（独立 DLL 不能引用主补丁的 Zh，故自带一份）。
+        private static bool? langIsChinese;
+        private static string langKey;
+
+        private static bool IsChinese()
+        {
+            try
+            {
+                var lang = LanguageDatabase.activeLanguage;
+                if (lang == null) return true;          // 语言库还没建好 → 与主补丁同口径，照常汉化
+                string fn = lang.folderName ?? string.Empty;
+                if (langKey == fn && langIsChinese.HasValue) return langIsChinese.Value;
+                bool v;
+                if (fn.Equals("English", StringComparison.OrdinalIgnoreCase)
+                    || fn.IndexOf("Traditional", StringComparison.OrdinalIgnoreCase) >= 0
+                    || fn.IndexOf("繁體", StringComparison.Ordinal) >= 0
+                    || fn.IndexOf("繁体", StringComparison.Ordinal) >= 0)
+                    v = false;
+                else
+                    v = true;                            // 兜底：宁可替换（与主补丁一致）
+                langKey = fn;
+                langIsChinese = v;
+                return v;
+            }
+            catch
+            {
+                return true;
+            }
+        }
+
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> codes)
         {
+            // 不是中文环境 → 原样放行（yield 方法里不能直接 return codes）
+            if (!IsChinese())
+            {
+                foreach (var c0 in codes) yield return c0;
+                yield break;
+            }
             foreach (var c in codes)
             {
                 if (c.opcode == OpCodes.Ldstr)

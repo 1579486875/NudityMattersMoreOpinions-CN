@@ -72,9 +72,9 @@ using Verse;
 //   AssemblyVersion         —— CLR 用它判断「能不能兼容加载」，只取前两段比较
 //   AssemblyFileVersion     —— 资源管理器里显示的「文件版本」
 //   AssemblyInformationalVersion —— 显示为「产品版本」，给人看的完整版本
-[assembly: AssemblyVersion("1.5.1.0")]
-[assembly: AssemblyFileVersion("1.5.1.0")]
-[assembly: AssemblyInformationalVersion("1.5.1")]
+[assembly: AssemblyVersion("1.5.5.0")]
+[assembly: AssemblyFileVersion("1.5.5.0")]
+[assembly: AssemblyInformationalVersion("1.5.5")]
 
 namespace NMMOpinionsChineseUI
 {
@@ -747,7 +747,26 @@ namespace NMMOpinionsChineseUI
                 englishName.IndexOf("Simplified Chinese", StringComparison.OrdinalIgnoreCase) >= 0)
                 return true;
 
-            // ⑤ 全都判不出来 → 兜底选择「替换」。
+            // ⑤ 【2026-11-16 加】明确是**其它**中文变体（繁体）或明确不是中文 → 不替换。
+            //    为什么必须加：下面的 ⑥ 兜底是「宁可误替换也不能漏」，于是繁体玩家
+            //    （folderName = ChineseTraditional、nativeName = 繁體中文、englishName = Traditional Chinese）
+            //    ①②③④ 全都不命中，最后落到兜底 → 被判成「该汉化」。
+            //    而本包没有繁体语言目录，于是繁体玩家会得到「界面简体 + 正文英文」，比全英文更困惑。
+            if (!string.IsNullOrEmpty(folderName))
+            {
+                if (folderName.IndexOf("Traditional", StringComparison.OrdinalIgnoreCase) >= 0
+                    || folderName.IndexOf("繁體", StringComparison.Ordinal) >= 0
+                    || folderName.IndexOf("繁体", StringComparison.Ordinal) >= 0)
+                    return false;
+            }
+            if (!string.IsNullOrEmpty(nativeName)
+                && (nativeName.Contains("繁體") || nativeName.Contains("繁体")))
+                return false;
+            if (!string.IsNullOrEmpty(englishName)
+                && englishName.IndexOf("Traditional", StringComparison.OrdinalIgnoreCase) >= 0)
+                return false;
+
+            // ⑥ 全都判不出来 → 兜底选择「替换」。
             //    宁可误替换也不能漏：这本来就是中文汉化包，装它的都是中文玩家。
             //    万一判断失败而放行原文，玩家看到的就是满屏英文（正是上面那个 bug）。
             return true;

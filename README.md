@@ -867,6 +867,10 @@ MIT License —— 见 [LICENSE](LICENSE)。
 · 一处「目录名不是 Def 类型」的翻译目录被游戏整目录丢弃（`LoadedLanguage.LoadData` 解析不到类型就 `continue`）；这种失效**不会出现在 Player.log 里** —— 翻译错误只汇总进「Translation data for language … has N errors」那一行，明细要到游戏内「生成翻译报告」才看得到，所以它一直在悄悄失效。其中 6 条有效译文（拘谨 / 暴露狂 / 视奸狂三个特质的档位名与描述）已按列表句柄写法并入 TraitDef\，这三个特质首次显示中文。
 · 数字全部按 2026-11-15 实测重算，并附了复算脚本 `tools/count-numbers.py`。
 
+### v1.5.4 —— 把两条「预期内」的 WARN 降成 Message
+
+【v1.5.4 把两条预期内的 WARN 降成 Message】实机日志（2026-11-16 10:03）里每次启动都会打这两条：「找不到类型：NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches」与「找不到方法：…NudityMattersMore_opinions_Mod.SettingsCategory」。它们在 1.7 合并版下**本来就是预期的** —— 前者的那个「俄语弹窗」补丁类合并版重写时没有，后者的设置分类在合并版里挂在 NudityMattersMore.NudityMattersMore 上（那一行已成功装上）。现在命中一张「合并版里已知不存在」的名单时改用 Message 留痕，不再标成警告；**安装行为一字未改**，1.6 下这些目标存在、根本走不到这条分支。
+
 ### v1.5.3 —— 修 1.6 下一条会把日志读歪的自检
 
 【v1.5.3 修 1.6 下的一条误导性自检】界面补丁 dll 里的「正文覆盖自检」原先拿 1.7 的键格式（NMM.Opinion.&lt;defName&gt;.opinionTexts.&lt;i&gt;）去查，而这段自检只会在 1.6 环境下执行（它查的那个类型 1.7 合并版没有）——于是 1.6 每次启动都打一条「命中 0 条（0%）—— 有 N 条未命中（会显示英文）」，而实际正文是中文的（1.6 的正文由 OwnInjections 直改 List&lt;string&gt; 提供，根本不经过 Translator）。现在先判断通道：没有 OpinionTextTranslator 就打一句「本项不适用」并返回，1.6 的覆盖条数以「自有清单注入：容器 X、生效 Y 条」那行为准。**注入逻辑一字未改。**
