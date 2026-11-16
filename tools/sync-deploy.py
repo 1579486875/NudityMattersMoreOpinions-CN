@@ -26,7 +26,7 @@ About\\About.xml 字节不一致（部署 7270 / 仓库 7120）
 """
 import os, shutil, hashlib, sys
 
-BASE = r"E:\TAML\NudityMattersMoreOpinions-CN"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # 2026-11-16 改：原硬编码本机路径
 MOD = r"D:\steam\steamapps\common\RimWorld\Mods\裸体评价更多看法-汉化修复"
 
 # 两边应当一致的文件（与 final-check.py 第 4 节同一份清单）
@@ -77,3 +77,9 @@ print('-' * 90)
 print(f"差异 {diff} 项{'，已同步' if write and diff else ''}")
 if not write and diff:
     print("\n要真正写入请加 --write")
+
+
+# 2026-11-16 加：有差异就让调用方知道（原先只 print、永远 exit 0）
+#   · dry-run 有差异 → exit 1（提醒「该同步了」）
+#   · --write 后仍有差异 → exit 1（同步失败）
+sys.exit(1 if diff else 0)
