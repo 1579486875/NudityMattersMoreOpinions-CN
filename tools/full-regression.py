@@ -29,6 +29,7 @@ GATES = {
         ('汉化补丁完好性', 'tools/verify_patch.py', [], True),
         ('数字权威统计', 'tools/count-numbers.py', [], False),
         ('部署目录同步（dry-run）', 'tools/sync-deploy.py', [], True),
+        ('三份文档一致性', 'tools/doc-consistency.py', [], True),
     ],
     # ── LocalFixes ──
     'GNH-LocalFixes': [
