@@ -369,6 +369,16 @@ namespace NMMOpinionsChineseUI
         private static readonly HashSet<string> warnedMethods = new HashSet<string>();
 
         /// <summary>找到目标方法就装补丁，找不到只记一条警告，绝不让游戏崩。</summary>
+        // ── 【2026-11-16 加】1.7 合并版里本来就**不存在**的目标 ──
+        // 实测（2026-11-16 10:03 日志）：这两个目标在 1.7 下必然缺失，而每次启动都打一条 WARN，
+        // 看起来像坏掉了。实际是「这条翻译通道只对 1.6 的两个独立模组有意义」。
+        // 命中这里时降成 Message（仍然留痕，只是不标成警告）；**不改变任何安装行为**。
+        private static readonly HashSet<string> KnownMissingInCombined = new HashSet<string>
+        {
+            "NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches",
+            "NudityMattersMore_opinions.NudityMattersMore_opinions_Mod.SettingsCategory",
+        };
+
         private static int TryPatch(Harmony harmony, string typeName, string methodName,
                                     string transpiler = null, string prefix = null)
         {
@@ -378,7 +388,12 @@ namespace NMMOpinionsChineseUI
                 if (t == null)
                 {
                     if (warnedTypes.Add(typeName))          // 同一类型只报一次
+                    {
+                        if (KnownMissingInCombined.Contains(typeName))
+                            Log.Message("[NMM 汉化] 本条通道在 1.7 合并版里不适用（该类型不存在），已跳过：" + typeName);
+                        else
                         Log.Warning("[NMM 汉化] 找不到类型：" + typeName);
+                    }
                     return 0;
                 }
 
@@ -387,7 +402,12 @@ namespace NMMOpinionsChineseUI
                 {
                     string full = typeName + "." + methodName;
                     if (warnedMethods.Add(full))            // 同一方法只报一次
+                    {
+                        if (KnownMissingInCombined.Contains(full))
+                            Log.Message("[NMM 汉化] 本条通道在 1.7 合并版里不适用（该方法不存在），已跳过：" + full);
+                        else
                         Log.Warning("[NMM 汉化] 找不到方法：" + full);
+                    }
                     return 0;
                 }
 
