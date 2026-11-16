@@ -34,6 +34,14 @@ GATES = {
         # 2026-11-16 加：两个 DLL 的「是不是中文环境」判据镜像成 Python，跑 25 格场景表。
         # 旧版兜底 `return true` 会把俄语/日语/德语玩家也判成中文（判决见 docs/语言判定-8场景.md）。
         ('语言判定判据表', 'tools/audit-lang-detect.py', [], True),
+        # 2026-11-17 加（本轮独立复审）：模板 §B.12 明说「loadErrors 从不写进 Player.log」，
+        # 所以「键的 defName 找不到 / 同一文件里重复」这类问题**只能静态对账**。
+        # ⚠ 第一版漏扫了原版与 DLC 的 `Data\`，把三个原版 JobDef 误报成悬空键 —— 已修。
+        ('DefInjected 键悬空/重复', 'tools/check-definjected-keys.py', [], True),
+        # 2026-11-17 加：占位符对账（英文原文 ↔ 中文译文）。判据分三档：
+        # 中文多出 → ❌；英文有中文没有 → ⚠（可能是刻意改写）；相等 → ✅。
+        # 合并版没装时安静跳过（1.6 环境下本来就没有英文原文可对）。
+        ('占位符对账', 'tools/check-placeholders.py', [], True),
         ('数字权威统计', 'tools/count-numbers.py', [], False),
         ('部署目录同步（dry-run）', 'tools/sync-deploy.py', [], True),
         # 2026-11-16 加（审查 D-01）：上面那条只查 1.7 的 6 个文件。
