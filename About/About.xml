@@ -3,7 +3,7 @@
 	<name>裸体评价更多看法 简体汉化</name>
 	<author>大赢经直插白皮赢道</author>
 	<packageId>shark510.nuditymattersmoreopinions.zhfix</packageId>
-	<modVersion>1.5.6</modVersion>
+	<modVersion>1.5.7</modVersion>
 	<url>https://github.com/1579486875/NudityMattersMoreOpinions-CN</url>
 	<supportedVersions>
 		<li>1.5</li>
@@ -82,7 +82,7 @@
 为什么原先绑死：1.6 的原版和 1.7 的合并版共用同一个 packageId（dord.nuditymattersmore），游戏只认 id 不认版本。既然两个版本都得认，不如干脆不写死。
 
 ■ 更新记录
-【v1.5.6 按「是不是 1.7 环境」区分一条日志级别】把 1.6 与 1.7 的模组 DLL 池**严格分开**查了 DLL 里 12 个 `AccessTools.TypeByName` 目标：10 个两版都能找到，2 个只在 1.7 —— `EnhancedNmmTabRenderer`（合并版新增的「增强界面」）与 `OpinionTextTranslator`（1.6 的正文走 OwnInjections，本来就没有 Keyed 通道）。两者都是设计意图，但 `EnhancedNmmTabRenderer` 缺失时原先打的是 **Warning**，1.6 玩家每次启动都会看到「找不到 …… 原模组可能更新了」，误导性很强。现在按 `OpinionTextTranslator` 在不在区分：在（1.7）才 Warning，不在（1.6）降成 Message 说明清楚。
+【v1.5.7 修「基类那条英文仍在列表尾部」】`OwnListInjector` 只在「继承基类那条在**头部**」时把它换成中文，**漏了尾部**（含「判不准按尾部处理」）—— 那两种情况下 `target[last]` 仍是英文 `Its just there, what to say more?`，而读取端是无序 `RandomElement`，会按 `1/(N+1)` 抽中它。实测 4509 个容器的 N 在 5..90，抽中概率 1.10%~16.67%、平均约 4.3%（玩家平均每 ~23 次正文生成遇到一次英文）。已补 `else if (diff == 1)` 分支，并在汇总日志里分开记「在头已补 / 在尾已补」。仅影响 1.6 通道（1.7 走 Keyed，不走这里）。
 
 
 （这里只留最近一次更新；更早的 v1.5.2 / v1.5.1 / v1.4.19 / v1.4.18 / v1.4.17 见仓库 README 的「📜 完整更新记录」一节。）

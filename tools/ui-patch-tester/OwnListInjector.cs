@@ -123,6 +123,7 @@ namespace NMMOpinionsChineseUI
         private static int inheritedTail;      // 基类那条在列表尾部 → 偏移 0
         private static int inheritedUnknown;   // 判不准 → 按尾部处理
         private static int inheritedHeadFilled; // 基类在头时，顺手把 target[0] 换成中文的次数
+        private static int inheritedTailFilled; // 基类在尾（或判不准）时，把 target[last] 换成中文的次数
 
         /// <summary>
         /// 把字符串截到 40 字符并加省略号，**只用于日志**（避免把整段译文打进日志）。
@@ -269,9 +270,9 @@ namespace NMMOpinionsChineseUI
             int skipped = skipDef + skipField + skipCount;
             Log.Message(string.Format(
                 "[NMM 汉化] 自有清单注入：容器 {0}、生效 {1} 条、跳过 {2}（Def 未找到 {3} / 字段不符 {4} / 条数不符 {5} / 文件失败 {6}）"
-                + " ｜ 继承补偿：基类在头 {7}（其中已补中文 {10}）/ 在尾 {8} / 判不准 {9}",
+                + " ｜ 继承补偿：基类在头 {7}（已补中文 {10}）/ 在尾 {8}（已补中文 {11}）/ 判不准 {9}（按尾部处理）",
                 containers, applied, skipped, skipDef, skipField, skipCount, failedFiles,
-                inheritedHead, inheritedTail, inheritedUnknown, inheritedHeadFilled));
+                inheritedHead, inheritedTail, inheritedUnknown, inheritedHeadFilled, inheritedTailFilled));
         }
 
         /// <summary>注入一个清单文件里的全部容器。</summary>
@@ -414,6 +415,17 @@ namespace NMMOpinionsChineseUI
                 {
                     target[0] = InheritedBaseTextZh;
                     inheritedHeadFilled++;
+                }
+                else if (diff == 1)
+                {
+                    // 【2026-11-16 补】原先只处理了「基类在头部」的情况，漏了尾部：
+                    //   diff == 1 且 offset == 0 时，target[target.Count - 1] 仍是英文
+                    //   "Its just there, what to say more?"，而读取端是无序 RandomElement，
+                    //   会按 1/(N+1) 抽中它 —— 与本方法上方注释写的理由完全一样，只是那一半没落实。
+                    //   实测 4509 个容器的 N 在 5..90，抽中概率 1.10% ~ 16.67%，平均约 4.3%。
+                    // 只换这一条、不改列表长度（RemoveAt 会改变 diff 判据）。
+                    target[target.Count - 1] = InheritedBaseTextZh;
+                    inheritedTailFilled++;
                 }
                 applied += texts.Count;
             }
