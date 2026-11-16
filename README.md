@@ -867,6 +867,10 @@ MIT License —— 见 [LICENSE](LICENSE)。
 · 一处「目录名不是 Def 类型」的翻译目录被游戏整目录丢弃（`LoadedLanguage.LoadData` 解析不到类型就 `continue`）；这种失效**不会出现在 Player.log 里** —— 翻译错误只汇总进「Translation data for language … has N errors」那一行，明细要到游戏内「生成翻译报告」才看得到，所以它一直在悄悄失效。其中 6 条有效译文（拘谨 / 暴露狂 / 视奸狂三个特质的档位名与描述）已按列表句柄写法并入 TraitDef\，这三个特质首次显示中文。
 · 数字全部按 2026-11-15 实测重算，并附了复算脚本 `tools/count-numbers.py`。
 
+### v1.5.5 —— 修「繁体/英文玩家看到简体界面」与版本号对不上
+
+【v1.5.5 修「繁体/英文玩家看到简体界面」与版本号对不上】① `IsChineseLanguage` 的兜底是「宁可误替换」，于是繁体玩家（folderName=ChineseTraditional、nativeName=繁體中文）①②③④ 全不命中、落到兜底被判成「该汉化」—— 而本包没有繁体语言目录，结果是「界面简体 + 正文英文」。现在兜底前加了一条「明确是繁体/非中文 → 不替换」，**兜底方向没动**（装这包的一定是中文玩家）。② `GNH_NMM_Enhanced_ZH.dll` 的 Transpiler 原先**完全没有语言判断**，英文/繁体玩家只有「增强界面」这段会变中文；现在与主补丁同口径。③ 两个 DLL 的 `AssemblyVersion` 一直停在 1.5.1（About 已到 1.5.4），资源管理器里看到的版本与工坊页面不符；本次一并同步到 1.5.5。
+
 ### v1.5.4 —— 把两条「预期内」的 WARN 降成 Message
 
 【v1.5.4 把两条预期内的 WARN 降成 Message】实机日志（2026-11-16 10:03）里每次启动都会打这两条：「找不到类型：NudityMattersMore_opinions_patches.NMMOpinionsHarmonyPatches」与「找不到方法：…NudityMattersMore_opinions_Mod.SettingsCategory」。它们在 1.7 合并版下**本来就是预期的** —— 前者的那个「俄语弹窗」补丁类合并版重写时没有，后者的设置分类在合并版里挂在 NudityMattersMore.NudityMattersMore 上（那一行已成功装上）。现在命中一张「合并版里已知不存在」的名单时改用 Message 留痕，不再标成警告；**安装行为一字未改**，1.6 下这些目标存在、根本走不到这条分支。

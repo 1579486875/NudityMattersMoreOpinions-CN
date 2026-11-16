@@ -43,9 +43,9 @@ using HarmonyLib;
 using Verse;
 
 // 版本号与 About\About.xml 的 <modVersion> 保持一致（模组纪律，游戏不校验它）。
-[assembly: System.Reflection.AssemblyVersion("1.5.5.0")]
-[assembly: System.Reflection.AssemblyFileVersion("1.5.5.0")]
-[assembly: System.Reflection.AssemblyInformationalVersion("1.5.5")]
+[assembly: System.Reflection.AssemblyVersion("1.5.6.0")]
+[assembly: System.Reflection.AssemblyFileVersion("1.5.6.0")]
+[assembly: System.Reflection.AssemblyInformationalVersion("1.5.6")]
 
 namespace GNH.NMM.Combined.ZH
 {
@@ -82,7 +82,17 @@ namespace GNH.NMM.Combined.ZH
                 var t = AccessTools.TypeByName("NudityMattersMore.EnhancedNmmTabRenderer");
                 if (t == null)
                 {
-                    Log.Warning("[NMM 汉化] 找不到 EnhancedNmmTabRenderer —— 原模组可能更新了，增强界面保持英文。");
+                    // 【2026-11-16 改】分池实测：EnhancedNmmTabRenderer 只在 1.7 的合并版里存在，
+                    // 1.6 的两个独立模组本来就没有「增强界面」这个概念。
+                    // 所以 1.6 下这条缺失**是预期内的**，不该打 Warning（那会让 1.6 玩家每次启动都以为坏了）。
+                    // 判据：OpinionTextTranslator 在不在 —— 那是主补丁里已经用来区分两条正文通道的同一个信号。
+                    bool isCombined17 = AccessTools.TypeByName(
+                        "NudityMattersMore_opinions.OpinionTextTranslator") != null;
+                    if (isCombined17)
+                        Log.Warning("[NMM 汉化] 找不到 EnhancedNmmTabRenderer —— 原模组可能更新了，增强界面保持英文。");
+                    else
+                        Log.Message("[NMM 汉化] 1.6 的两个独立模组没有「增强界面」（EnhancedNmmTabRenderer），"
+                                    + "本补丁不适用；正文由 OwnInjections 通道提供。");
                     return;
                 }
                 var harmony = new Harmony(HarmonyId);
