@@ -29,6 +29,9 @@
 
 `*.bak` / `*.bak-sync` / `*.bak-r*` —— 同步脚本自己留的备份，不是发布内容；
 `About/PublishedFileId.txt` —— 本地副本按惯例不该有（模板 B.8），有也不报。
+
+⚠ 部署侧的 `tools/` 目录已于 2026-11-16 删除（开发工具 + `PatchTester.exe`，
+不参与加载），所以这里也不列它。
 """
 import os
 import sys
@@ -53,7 +56,9 @@ DIRS = [
     "OwnInjections",
     os.path.join("v1.7", "Languages"),
 ]
-FILES = ["LoadFolders.xml"]
+# 2026-11-16 加（审查 D-09）：这三份文档也是发布内容，玩家在模组目录里能看到。
+# 此前它们不被任何检查覆盖，实测两张部署副本与仓库三份各不相同。
+FILES = ["LoadFolders.xml", "README.md", "汉化说明.md", "LICENSE"]
 
 SKIP_SUFFIX = (".bak",)
 SKIP_MARK = (".bak-",)          # .bak-sync / .bak-r364

@@ -20,7 +20,8 @@ About\\About.xml 字节不一致（部署 7270 / 仓库 7120）
 3. 顺手把「部署 vs 仓库该一致的文件」清单收在同一个脚本里，
    与 `final-check.py` 第 4 节共用同一份定义（避免两处漂移）。
 
-⚠ 同步范围**只限** `About/`、`Assemblies/` 与 `LoadFolders.xml` ——
+⚠ 同步范围**只限** `About/`、`Assemblies/`、`LoadFolders.xml`、三份发布文档
+（`README.md` / `汉化说明.md` / `LICENSE`）与 `Languages/` ——
 语言目录归 `tools/sync-deploy-all.py` 管（它要按三棵树逐文件比对）。
 
 ## 2026-11-16 订正（审查 D-01）
@@ -47,6 +48,12 @@ ITEMS = [
     r"LoadFolders.xml",
     r"Assemblies\NMMOpinionsChineseUI.dll",
     r"Assemblies\GNH_NMM_Enhanced_ZH.dll",
+    # 2026-11-16 加（审查 D-09）：这三份是发布内容 —— 玩家从工坊订阅后
+    # 能在模组目录里直接读到。此前它们不受任何检查，实测仓库 / 1.7 / 1.6
+    # 三份各不相同（README 三个 hash：88c78b08 / 9ce855bc / d51fe66d）。
+    r"README.md",
+    r"汉化说明.md",
+    r"LICENSE",
 ]
 
 write = '--write' in sys.argv

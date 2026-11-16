@@ -207,7 +207,11 @@ print()
 print("=" * 68)
 print("5. 源码是否含高度补丁（防再次丢失）")
 print("=" * 68)
-src = os.path.join(MOD, "tools", "ui-patch-tester", "NMMOpinionsChineseUI.cs")
+# ⚠ 2026-11-16 订正（审查 D-09）：这里原先读的是 **MOD（部署副本）** 下的源码。
+#   但源码不属于发布内容 —— 部署侧本来就不该带 `tools/`（本轮已把它删掉，
+#   因为里面还有 PatchTester.exe 这类开发工具）。删完本行立刻 FileNotFoundError。
+#   源码正确性要拿**仓库**里的那份来验，与「部署产物是否存在」是两件事。
+src = os.path.join(GIT, "tools", "ui-patch-tester", "NMMOpinionsChineseUI.cs")
 txt = open(src, "rb").read().decode("utf-8-sig")
 for need, label in (
     ("UpdateSize_Postfix", "UpdateSize Postfix 定义/引用"),
