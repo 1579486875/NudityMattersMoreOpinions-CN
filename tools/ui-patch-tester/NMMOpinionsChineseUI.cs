@@ -1,4 +1,4 @@
-// ==========================================================================
+﻿// ==========================================================================
 // 【翻译补丁】把原模组硬编码在 C# 里的界面文字换成简体中文
 // ==========================================================================
 //
@@ -82,6 +82,16 @@ namespace NMMOpinionsChineseUI
     [StaticConstructorOnStartup]
     public static class Bootstrap
     {
+        /// <summary>
+        /// 模组入口：`ApplyAll()` 的唯一调用点，CLR 保证只执行一次。
+        ///
+        /// 为什么要整体包 try/catch：静态构造函数一旦抛异常，CLR 会把该类型永久标记为不可用，
+        /// 之后任何访问都抛 `TypeInitializationException` —— 表现是「模组装了但完全没效果」，
+        /// 而日志里只有一条难懂的异常，玩家看不出是汉化包的问题。包住之后最坏只是「界面没汉化」。
+        ///
+        /// ⚠ 不要另加一个 `[StaticConstructorOnStartup]` 类来「接第二段安装」—— 两个静态构造的
+        /// 执行顺序由 CLR 决定、不可控，而 Harmony 补丁是叠加的。
+        /// </summary>
         static Bootstrap()
         {
             // 最外层兜底：静态构造函数一旦抛异常，CLR 会把该类型标记为不可用，
@@ -379,6 +389,15 @@ namespace NMMOpinionsChineseUI
             "NudityMattersMore_opinions.NudityMattersMore_opinions_Mod.SettingsCategory",
         };
 
+        /// <summary>
+        /// 给**一个**目标方法装补丁；找不到类型或方法就记一条（去重后的）日志并返回 0，**绝不抛**。
+        ///
+        /// 日志为什么要去重（`warnedTypes` / `warnedMethods`）：同一目标会被多条规则引用
+        /// （例如 `NMMOpinionsHarmonyPatches` 的四个俄语弹窗方法共用同一个类型），
+        /// 不去重就会一个缺失刷四条，把真正的告警淹掉。
+        ///
+        /// 「合并版里已知不存在」的目标走 `KnownMissingInCombined` 名单降成 Message —— 见名单上方说明。
+        /// </summary>
         private static int TryPatch(Harmony harmony, string typeName, string methodName,
                                     string transpiler = null, string prefix = null)
         {
@@ -501,6 +520,15 @@ namespace NMMOpinionsChineseUI
         private const float TabHeightBonus = 260f;   // 内容区 456px + 260 约 716，四段中文实测够用
         private const float NmmTabBaseHeight = 510f; // FillTab 里写死的那三处；原模组改了这个数要跟着改
 
+        /// <summary>
+        /// 把「人物 - 角色」原版标签页的高度拉高，给 NMM 看法页腾出正文区。
+        ///
+        /// 为什么用 Postfix 改 `size` 而不是改原版常量：那个尺寸是 `ITab_Pawn_Character` 里算出来的，
+        /// 没有可写的静态字段；Postfix 改返回值既不动原版 IL，也不影响别的标签页。
+        ///
+        /// ⚠ 只对 `type.FullName` 含 `NMMOpinions` 的标签页生效 —— 不加这个判断，
+        /// 原版「人物 - 角色」卡片也会被一起拉高 260px，那属于改了原版界面。
+        /// </summary>
         public static void UpdateSize_Postfix(object __instance)
         {
             if (__instance == null) return;
@@ -1216,6 +1244,17 @@ namespace NMMOpinionsChineseUI
                 new Regex(@"^(.+?)'s genitals were seen for the first time\.$"),
                 "$1 的生殖器第一次被人看到。"),
         };
+
+        // ── ⚠ 本表与 GNH_NMM_Enhanced_ZH.EnhancedText.Map **重复**（2026-11-16 实测）──
+        // 两个 DLL 都 working、都给 NudityMattersMore.EnhancedNmmTabRenderer 挂 Transpiler：
+        //   · GNH_NMM_Enhanced_ZH.dll：遍历该类型全部方法，**103 条**词条，安装时间 10:03:37.464；
+        //   · 本文件：只挑 11 个方法，**33 条**词条，安装时间 10:03:38.156。
+        // 本表 33 条**全部被对方覆盖**（本表独有 0 条）。Harmony 的多个 Transpiler 按安装顺序作用于 IL，
+        // 对方先装、已把英文换成中文，本表后装时扫不到英文原文 → 实际不生效。
+        // 所以：**改这里的译文在游戏里看不到效果**，要改请改 GNH_NMM_Enhanced_ZH.cs 那张表；
+        // 本表保留的意义只有一条 —— 万一对方那个 DLL 失效（类型改名/未部署），这里还能兜住 33 条。
+        // 两边有 11 条译文不同（例 People 人员/人物、Prison 囚犯/监狱、Rival 对手/敌对），
+        // 那 11 条以对方为准；将来若真要合并成一份，先看界面上下文再定，别只按字面挑。
 
         /// <summary>
         /// 增强风格（EnhancedNmmTabRenderer）里的硬编码界面文字。

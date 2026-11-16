@@ -48,9 +48,21 @@ using Verse;
 namespace GNH.NMM.Combined.ZH
 {
     [StaticConstructorOnStartup]
+    /// <summary>
+    /// 独立 DLL 的入口：给 `NudityMattersMore.EnhancedNmmTabRenderer` 的**全部**方法挂同一个 Transpiler，
+    /// 把 IL 里的 `ldstr` 常量按 `EnhancedText.Map` 换成中文。
+    ///
+    /// 为什么单独做成一个 DLL：合并版的「增强界面」文案改动频繁，单独一个程序集
+    /// 可以只重编它（13 KB）而不动 45 KB 的主补丁，发布时也便于说清「哪个文件管哪块」。
+    ///
+    /// ⚠ 它与 `NMMOpinionsChineseUI.dll` 里那份 `Zh.EnhancedText`（33 条）**功能重叠**，
+    /// 本 DLL 的 103 条是超集且安装更早，所以实际生效的是本 DLL —— 详见主补丁里那张表上方的注释。
+    /// </summary>
     public static class Bootstrap
     {
+        /// <summary>Harmony 实例 id。**改了等于换了一个补丁集合**：旧 id 装的补丁不会被卸载，会叠加。</summary>
         private const string HarmonyId = "gnh.cn.cys.nmm.combined.zh";
+        /// <summary>安装守卫：静态构造理论上只跑一次，这里再兜一层，防止将来被改成非静态构造后重复 Patch。</summary>
         private static bool installed;
 
         /// <summary>
@@ -99,8 +111,22 @@ namespace GNH.NMM.Combined.ZH
         }
     }
 
+    /// <summary>
+    /// 增强界面的英文 → 中文对照表 + Transpiler。
+    ///
+    /// `Map` 是**超集**（103 条），主补丁里那份 `Zh.EnhancedText`（33 条）全部被它覆盖。
+    /// 要改增强界面的译文请改这里；改另一份不会在游戏里生效。
+    ///
+    /// 禁改清单（Def 名 / Keyed 键名，替换了会让运行时查不到表）：
+    /// `Chest` / `Genitals` / `Gonads` / `Anus` / `Testicles` / `NMM_PrudeScore` / `NMM_VoyScore`
+    /// / `NMM_ExhibScore` / `MessageCantSelectOffMapPawn` —— 这些字符串既当界面文字又当键，必须原样透传。
+    /// </summary>
     public static class EnhancedText
     {
+        /// <summary>
+        /// 英文 → 中文对照表（103 条）。键是 IL 里的 `ldstr` 原文，值是中文。
+        /// **表里没有的字符串会原样透传** —— 所以宁可少收几条，也不要把 Def 名/键名误收进来。
+        /// </summary>
         public static readonly Dictionary<string, string> Map =
             new Dictionary<string, string>
             {

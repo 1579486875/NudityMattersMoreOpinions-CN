@@ -124,6 +124,10 @@ namespace NMMOpinionsChineseUI
         private static int inheritedUnknown;   // 判不准 → 按尾部处理
         private static int inheritedHeadFilled; // 基类在头时，顺手把 target[0] 换成中文的次数
 
+        /// <summary>
+        /// 把字符串截到 40 字符并加省略号，**只用于日志**（避免把整段译文打进日志）。
+        /// 空值返回 `(空)` 而不是空串 —— 日志里「空了一截」比「写着 (空)」难读得多。
+        /// </summary>
         private static string Clip(string s)
         {
             if (string.IsNullOrEmpty(s))
@@ -168,8 +172,18 @@ namespace NMMOpinionsChineseUI
             }
         }
 
+        /// <summary>第二重保险：静态构造已由 CLR 保证只跑一次，这里再兜一层，防止将来被改成非静态构造。</summary>
         private static bool ran;
 
+        /// <summary>
+        /// 注入入口：`Run()` 的唯一调用点，CLR 保证只执行一次。
+        ///
+        /// 前置判断 `HasKeyedPath()`：原模组若自带 `OpinionTextTranslator`（1.7 合并版就是），
+        /// 正文走 Keyed 通道，本注入器**必须让路** —— 否则会用 OwnInjections 的旧译文
+        /// 把 Keyed 已翻好的正文覆盖一遍，两份译文打架。
+        ///
+        /// `ran` 是第二重保险：万一将来被改成非静态构造，也不会重复注入。
+        /// </summary>
         static OwnListInjector()
         {
             if (ran) return;
