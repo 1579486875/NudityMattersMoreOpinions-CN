@@ -68,6 +68,12 @@ GATES = {
         # Def 集合里存在。它是 legacy 通道，只在装了 1.5/1.6 独立版 NMM 时才启用，
         # 键找不到会走 skipDef++ 静默跳过 —— 不进 loadErrors、日志里一个字都没有。
         ('OwnInjections 目标可达性', 'tools/check-owninjections-targets.py', [], True),
+        # 2026-11-17 本轮加：根目录 DefInjected 的 11,283 条键，在 **1.6 环境**下是否可达。
+        # check-definjected-keys.py 用的是单一全库索引（1.7 的 Data+Mods+工坊），
+        # 对 1.6 过宽：某个 def 只在「1.7 才有的模组」里时，全库会认为找到了，
+        # 而 1.6 那边那个模组根本不在场 —— 键悬空、只进 loadErrors、日志里一个字都没有。
+        # LoadFolders 的 <v1.6><li>/</li></v1.6> 让根目录对 1.6 负全责（模板 §B.18.4）。
+        ('1.6 根目录 DefInjected', 'tools/check-definjected-1.6.py', [], True),
         ('译文引号风格（全角）', 'tools/check-quote-style.py', [], True),
         ('三份文档一致性', 'tools/doc-consistency.py', [], True),
     ],
