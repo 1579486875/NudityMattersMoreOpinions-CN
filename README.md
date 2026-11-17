@@ -398,6 +398,7 @@ Mods\
 | **需重开存档** | ❌ 不需要 |
 | **缺前置时** | 本包**不会报缺依赖**（硬依赖只剩 Harmony），但游戏里也没有内容可显示。⚠ 注入路径带 `errorOnDefNotFound: true`：`Languages\` 指向原模组 Def 的键会逐条记 `Found no … named …`，最后聚合成**一条** `Log.Warning`（`Translation data for language … has N errors`）。**不会崩**，只是日志多一条 Warning |
 | **缺可选模组时** | **不会崩、不影响运行，也不影响已存在内容的翻译**；但 `Player.log` 会出现一条 `Translation data for language Simplified Chinese has N errors`。原因：前置模组里有一批 Def 带 `MayRequire` 条件（`Vegapnk.rjw.genes` / `Dubwise.DubsBadHygiene` / `rjw.milk.humanoid`，共 505 个 Def），没装对应可选模组时这些 Def 不加载，而 `Languages\` 里指向它们的键就会逐条记 `Found no … named …`。**这是平台限制、本包无法消除**：反编译 `Verse.DefInjectionPackage.AddDataFromFile` 可见它从头到尾**不读 `XElement` 的任何属性** ⇒ 翻译文件里的 `MayRequire` 根本不生效。实测（38 项隔离环境）该警告共 **1,113** 条，其中本包贡献 **508 条（45.6%）**，其余来自同环境其它模组 —— 该警告**按语言聚合**，不是本包专属 |
+| **与 AI 翻译包的关系** | **潜在覆盖（2026-11-17 实测）**：`AITranslation.Pack`（AutoTranslation 的 AI 翻译包，模组目录名以 `!` 开头）也翻了一批 `NMM_DynamicBubble_*` 键 —— **265 个与本包完全重合**，其中 **211 个措辞不同**（它偏直译，本包保留「泡澡时」「乳晕露着时」这类语境）。`DefInjected` 的规则是**同键后加载覆盖先加载**，所以两个都装时**本包必须排在它之后**才生效。`About.xml` 已声明 `loadAfter=AITranslation.Pack` 让游戏自动排；若你手动调过顺序，请确认本包在它下面。只在装了那个包时才需要考虑这一条 |
 
 ---
 
