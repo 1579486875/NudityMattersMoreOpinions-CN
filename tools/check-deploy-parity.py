@@ -17,7 +17,8 @@
 所以本脚本的口径是「**全部**、**双向**、**每个目标**」：
 
   · 全部 —— About / Assemblies / Languages / OwnInjections / v1.7\\Languages / LoadFolders.xml
-  · 双向 —— 仓库有而部署缺 = 缺；部署有而仓库没有 = 多余（.bak* 除外）
+  · 双向 —— 仓库有而部署缺 = 缺；部署有而仓库没有 = 多余
+  · 垃圾 —— `.bak*` / `.orig` / `.tmp` / `.old` / `.rej` **计入失败**（2026-11-17 加）
   · 每个目标 —— TARGETS 里每一行都查
 
 ## 它不做的事
@@ -27,7 +28,11 @@
 
 ## 排除规则
 
-`*.bak` / `*.bak-sync` / `*.bak-r*` —— 同步脚本自己留的备份，不是发布内容；
+~~`*.bak` / `*.bak-sync` / `*.bak-r*` —— 同步脚本自己留的备份，不是发布内容；~~
+**2026-11-17 订正**：不再豁免。实测部署目录里躺着 8 个 `.bak-*`（1.7 六个、1.6 两个），
+就是因为这条豁免 + 「多余不算失败」两条叠在一起，才几个月没人发现。
+同步脚本已改成把备份写到仓库 `_backup/deploy-sync/`；部署目录里再出现就报失败。
+其余豁免：
 `About/PublishedFileId.txt` —— 本地副本按惯例不该有（模板 B.8），有也不报。
 
 ⚠ 部署侧的 `tools/` 目录已于 2026-11-16 删除（开发工具 + `PatchTester.exe`，
@@ -94,6 +99,47 @@ def collect(root):
     return out
 
 
+JUNK_SUFFIX = ('.bak', '.bak-sync', '.orig', '.tmp', '.old', '.rej')
+
+
+def collect_junk(root):
+    """扫部署目录里的「开发过程垃圾」——`.bak-sync` / `.bak-r*` / `.orig` / `.tmp` 等。
+
+    2026-11-17 本轮加。起因：1.7 环境里躺着 6 个、1.6 环境 2 个 `.bak-*`（共约 250 KB）。
+    它们不会被游戏加载（RimWorld 只认 `*.dll`），所以从来没报过错；
+    但它们是**同步脚本自己写进部署目录**的备份，属于交付内容里不该有的东西 ——
+    玩家打开 Assemblies 目录会以为那是模组文件，而且本脚本此前明确把 .bak*
+    从「多余文件」里豁免掉了，于是可以在里面躺几个月没人发现。
+
+    现在：① 同步脚本改成把备份落到仓库 `_backup/deploy-sync/`；
+          ② 这一项把残留的垃圾**计入失败**（不是警告 —— 它本来就是不该出现的）。
+    """
+    out = {}
+    for d in DIRS:
+        base = os.path.join(root, d)
+        if not os.path.isdir(base):
+            continue
+        for dp, _dn, fns in os.walk(base):
+            for fn in fns:
+                if fn.lower().endswith(JUNK_SUFFIX):
+                    p = os.path.join(dp, fn)
+                    out[os.path.relpath(p, root)] = p
+    # 2026-11-17 补：根目录下的同名文件也要扫 ——
+    # 第一次实现只走了 DIRS，于是 `README.md.bak-sync` / `汉化说明.md.bak-sync`
+    # / `About.xml.bak-r364` 这 6 个全被漏掉了（它们分别在根目录和 About/ 下，
+    # 前者不在 DIRS 里，后者那次是手工扫描才发现的）。闸门自己漏检是最难发现的缺陷。
+    for f in FILES:
+        for cand in (root, ):
+            base = os.path.join(cand, f)
+            d = os.path.dirname(base)
+            if os.path.isdir(d):
+                for fn in os.listdir(d):
+                    if fn.startswith(os.path.basename(f)) and fn.lower().endswith(JUNK_SUFFIX):
+                        p = os.path.join(d, fn)
+                        out[os.path.relpath(p, root)] = p
+    return out
+
+
 def main():
     repo_files = collect(REPO)
     print("仓库应发布文件：%d 个" % len(repo_files))
@@ -130,6 +176,14 @@ def main():
                 print("       %s" % k)
             if len(diff) > 20:
                 print("       …另有 %d 个" % (len(diff) - 20))
+        junk = collect_junk(deploy)
+        if junk:
+            print("  ❌ 开发过程垃圾 %d 个（同步脚本的备份，不该出现在部署目录）：" % len(junk))
+            for k in sorted(junk)[:10]:
+                print("       %s  (%d B)" % (k, os.path.getsize(junk[k])))
+            if len(junk) > 10:
+                print("       …另有 %d 个" % (len(junk) - 10))
+            total_bad += len(junk)
         if extra:
             print("  ⚠ 多余 %d 个（仓库里没有）：" % len(extra))
             for k in extra[:20]:

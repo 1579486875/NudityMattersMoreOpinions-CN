@@ -35,6 +35,9 @@ import os, shutil, hashlib, sys
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # (显示名, 部署路径) —— 加环境就往这里加一行
+# 2026-11-17 加：备份目录要落在仓库里，不能落在部署目录里（见下面 sync 里那段注释）。
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 TARGETS = [
     ("1.7 主安装", r"D:\steam\steamapps\common\RimWorld\Mods\裸体评价更多看法-汉化修复"),
     ("1.6 引擎副本", r"D:\RimWorld-1.6\Mods\裸体评价更多看法-汉化修复"),
@@ -94,8 +97,18 @@ def sync_target(label, mod):
         diff += 1
         print(f"{rel:<40} {'**不一致**':<28} {'同步' if write else '（dry-run）'}")
         if write:
-            # 备份只留一份，且不参与发布（check-deploy-parity.py 会排除 .bak*）
-            shutil.copy2(a, a + '.bak-sync')
+            # 2026-11-17 改：备份**不再写进部署目录**。
+            # 旧写法 `shutil.copy2(a, a + '.bak-sync')` 会在
+            # `Mods\<模组>\Assemblies\` 里堆一串 `.bak-sync` / `.bak-r*`。
+            # 2026-11-17 实测：1.7 环境 6 个、1.6 环境 2 个，共 8 个文件约 250 KB。
+            # 它们不会被游戏加载（RimWorld 只认 `*.dll`），但属于**交付目录里的开发过程垃圾**：
+            # 玩家打开目录会以为那是模组文件，而且 `check-deploy-parity.py` 明确把 `.bak*`
+            # 从「多余文件」里豁免掉了，于是它们可以在里面躺几个月没人发现。
+            # 现在统一落到仓库 `_backup/deploy-sync/<环境>/`，回滚照样能用。
+            _bdir = os.path.join(REPO, '_backup', 'deploy-sync',
+                                 _label.replace(' ', '_').replace('/', '_'))
+            os.makedirs(_bdir, exist_ok=True)
+            shutil.copy2(a, os.path.join(_bdir, rel.replace('\\', '_').replace('/', '_')))
             shutil.copy2(b, a)
             ok = sha(a) == sha(b)
             print(f"{'':<40} {'→ 同步后一致 ✅' if ok else '→ 仍不一致 ❌':<28}")
