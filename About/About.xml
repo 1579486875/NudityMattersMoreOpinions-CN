@@ -21,6 +21,10 @@
 		<li>brrainz.harmony</li>
 		<li>dord.nuditymattersmore</li>
 		<li>shark510.nuditymattersmoreopinions</li>
+		<!-- 2026-11-17 加：AutoTranslation 的 AI 翻译包也翻了一批 NMM_DynamicBubble_* 键
+		     （实测 265 个与本包完全重合、其中 211 个措辞不同）。DefInjected 是同键
+		     后加载覆盖先加载，所以本包必须排在它之后才生效。未安装该包时这条自动忽略。 -->
+		<li>AITranslation.Pack</li>
 	</loadAfter>
 	<description>「裸体评价更多看法」的完整简体中文。
 
@@ -80,6 +84,8 @@
 以前这份汉化被绑在「裸体影响增强」上，没装它就连带启不了。现在改了：硬依赖只剩 Harmony，原模组一律降为排序提示（loadAfter）。所以装了哪个版本都能用，一个都不装也不会报错。
 
 为什么原先绑死：1.6 的原版和 1.7 的合并版共用同一个 packageId（dord.nuditymattersmore），游戏只认 id 不认版本。既然两个版本都得认，不如干脆不写死。
+
+【与 AI 翻译包的关系】AutoTranslation 的 AI 翻译包（packageId AITranslation.Pack，模组目录名以 ! 开头）也翻了一批 NMM 的 NMM_DynamicBubble_* 键 —— 实测 265 个与本包**完全重合**，其中 211 个措辞不同（它偏直译、本包保留了「乳晕露着时」「泡澡时」这类语境）。DefInjected 的规则是**同键后加载覆盖先加载**，所以两个都装时，**本包必须排在它之后**才生效。About.xml 已声明 loadAfter=AITranslation.Pack 让游戏自动排；若你手动调过顺序，请确认本包在它下面。只在装了那个包时才需要考虑这一条。
 
 ■ 更新记录
 【v1.5.8 修「非中文语言的玩家被强制换成中文」】两个补丁 DLL 判断「现在是不是中文环境」时，原先用的都是「全都判不出来就按中文处理」的兜底。于是俄语 / 日语 / 德语 / 法语玩家装了本包之后，12 个 Transpiler 加上自有清单注入会一起把界面标签和正文换成中文，得到「外文框架 + 中文内容」的错乱组合。现在改成**必须识别出中文特征才替换**：language 文件夹名、原生语言名、英文语言名三者任一含Chinese / 中文 / 漢 / 汉 就判中文，都不含就原样放行。简体照旧替换，繁体与英文照旧跳过，其余语言不再被误伤。判据表 25 格（15 主补丁 + 10 增强界面）见仓库 tools/audit-lang-detect.py。
