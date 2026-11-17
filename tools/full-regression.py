@@ -64,6 +64,10 @@ GATES = {
         # 译文里的英文半角双引号必须换成全角 “ ”。424k 个文本节点里漏一个肉眼查不出来，
         # 它不报错、不影响加载，只有玩家读到那句时才看得出别扭。
         # 只扫中文目录；值里含代码 / XML 属性片段的按白名单放行（半角在那里是语法的一部分）。
+        # 2026-11-17 本轮加：OwnInjections 的 5,214 条键，defName 必须在**独立版**的
+        # Def 集合里存在。它是 legacy 通道，只在装了 1.5/1.6 独立版 NMM 时才启用，
+        # 键找不到会走 skipDef++ 静默跳过 —— 不进 loadErrors、日志里一个字都没有。
+        ('OwnInjections 目标可达性', 'tools/check-owninjections-targets.py', [], True),
         ('译文引号风格（全角）', 'tools/check-quote-style.py', [], True),
         ('三份文档一致性', 'tools/doc-consistency.py', [], True),
     ],
