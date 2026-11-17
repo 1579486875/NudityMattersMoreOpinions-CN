@@ -38,6 +38,13 @@ GATES = {
         # 所以「键的 defName 找不到 / 同一文件里重复」这类问题**只能静态对账**。
         # ⚠ 第一版漏扫了原版与 DLC 的 `Data\`，把三个原版 JobDef 误报成悬空键 —— 已修。
         ('DefInjected 键悬空/重复', 'tools/check-definjected-keys.py', [], True),
+        # 2026-11-17 本轮加：模板 §B.17.4「两份同名语言目录只同步了一半」。
+        # 反编译 1.7.5011.24 的 Verse.LoadedLanguage 实证：
+        #   AllDirectories 先试 folderName（= Prefs.langFolderName = "ChineseSimplified (简体中文)"），
+        #   目录存在就 `continue`，**永不回退** legacyFolderName；不存在才试 legacy。
+        # 所以本机只加载带括号那套，不带括号那套是死副本 —— 只改一份 = 改了没效果，
+        # 而且「逐文件 hash 核对」对比的也是那份没改的，照样过。
+        ('语言目录对一致性（B.17.4）', 'tools/check-dup-langdirs.py', [], True),
         # 2026-11-17 加：占位符对账（英文原文 ↔ 中文译文）。判据分三档：
         # 中文多出 → ❌；英文有中文没有 → ⚠（可能是刻意改写）；相等 → ✅。
         # 合并版没装时安静跳过（1.6 环境下本来就没有英文原文可对）。
@@ -48,6 +55,16 @@ GATES = {
         # 本条查**每个**部署目标的**全部**发布文件，双向比对 —— 1.6 引擎副本
         # 长期落在 v1.4.23（缺 105 / 旧 9 / 多余 49）就是这条抓出来的。
         ('双环境部署一致性', 'tools/check-deploy-parity.py', [], True),
+        # 2026-11-17 本轮加：全仓库 .py 的语法与编译告警。
+        # 起因：`verify-patches.py` / `audit-toggle-wiring.py` / `update-template-1818.py`
+        # 三个脚本的 docstring 里写了单个反斜杠 + 非法转义字符（Windows 路径、Markdown 反引号），
+        # 每次运行先打一条 SyntaxWarning。不影响功能，但污染闸门输出，且 Python 3.12+ 逐步收紧。
+        ('Python 语法（全仓库）', 'tools/check-py-syntax.py', [], True),
+        # 2026-11-17 本轮加：《边缘世界本地化翻译提示词》第七步 ——
+        # 译文里的英文半角双引号必须换成全角 “ ”。424k 个文本节点里漏一个肉眼查不出来，
+        # 它不报错、不影响加载，只有玩家读到那句时才看得出别扭。
+        # 只扫中文目录；值里含代码 / XML 属性片段的按白名单放行（半角在那里是语法的一部分）。
+        ('译文引号风格（全角）', 'tools/check-quote-style.py', [], True),
         ('三份文档一致性', 'tools/doc-consistency.py', [], True),
     ],
     # ── LocalFixes ──

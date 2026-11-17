@@ -110,6 +110,23 @@ def main():
         if checker and not ok:
             problems.append(f'检查类脚本但没有 exit 判据（{how}）')
 
+        # 2026-11-17 本轮加：编译告警检查。
+        # 起因：`verify-patches.py` 的 docstring 里写了 `Patches\ ` / `bin\<配置>\ `（单个反斜杠
+        # 后跟非法转义字符），于是每次运行都会先打一条
+        #   SyntaxWarning: "\ " is an invalid escape sequence.
+        # 它不影响功能，但会污染闸门输出；而且 Python 3.12 起这类写法逐步收紧，
+        # 拖到将来就是 SyntaxError —— 属于「现在不改、以后难查」的一类。
+        try:
+            import warnings as _w
+            with _w.catch_warnings(record=True) as _wl:
+                _w.simplefilter('always')
+                compile(t, p, 'exec')
+            _sw = [str(x.message) for x in _wl if issubclass(x.category, SyntaxWarning)]
+            if _sw:
+                problems.append('编译告警 x%d：%s' % (len(_sw), _sw[0][:70]))
+        except SyntaxError as _e:
+            problems.append('语法错误：%s' % _e)
+
         if BARE.search(t):
             problems.append(f'**裸 except** ×{len(BARE.findall(t))}（会吞 KeyboardInterrupt/SystemExit）')
         if SWALLOW.search(t):

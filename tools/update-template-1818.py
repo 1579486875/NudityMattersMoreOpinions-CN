@@ -107,7 +107,7 @@ else if (obj.GetType().GetProperty("Count") != null)  defInjectionPathPartKind =
 
 写错会直接抛 `None of the list elements have a handle named X`，被外层 catch 记进 `loadErrors`。
 
-#### B.18.3 `DefInjected\` 子目录名必须是 Def 类型名
+#### B.18.3 `DefInjected\\` 子目录名必须是 Def 类型名
 
 ```csharp
 // Verse.LoadedLanguage.LoadData
@@ -122,7 +122,7 @@ if (typeInAnyAssembly == null)
 }
 ```
 
-「末尾多一个字符」是游戏自己给的容错（所以 `ThoughtDefs\` 能当 `ThoughtDef\` 用）。
+「末尾多一个字符」是游戏自己给的容错（所以 `ThoughtDefs\\` 能当 `ThoughtDef\\` 用）。
 
 #### B.18.4 两版共用的根目录：每个键都要对**低版本**的 Def 集合查一次存在性
 
@@ -155,5 +155,18 @@ else:
     print("B.18 已存在，跳过")
 
 out = txt.replace("\n", "\r\n") if CRLF_IN else txt
-open(P, "wb").write((b"\xef\xbb\xbf" if bom else b"") + out.encode("utf-8"))
+new = (b"\xef\xbb\xbf" if bom else b"") + out.encode("utf-8")
+# 2026-11-17 本轮加：默认 dry-run。
+# 这个脚本会**直接改写 E:\TAML\提示词库 下面的用户模板**，而且不认 --help ——
+# 本轮就是这样误触了一次（`--help` 被忽略、直接跑到了写盘那一步，
+# 之所以没造成损失，是因为插入内容是幂等的、写回的字节与原文件完全一致）。
+# 它已完成使命，保留只为留档；以后若真要再动模板，必须在 dry-run 里 diff 过再加 --write。
+if "--write" not in sys.argv:
+    same = (new == raw)
+    print("[dry-run] 将写入 %d 字节（原 %d）%s"
+          % (len(new), len(raw),
+             "，与原文件逐字节相同 → 实际无改动" if same
+             else "，★与原文件不同★ → 先 diff 再决定"))
+    sys.exit(0)
+open(P, "wb").write(new)
 print("已写入 %d 字节" % os.path.getsize(P))

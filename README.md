@@ -85,6 +85,58 @@ return Translator.Translate(text);
 
 
 
+## ⚠ 收工必跑：一键全量回归
+
+```bash
+python tools/full-regression.py      # 必须「失败 0」才能发版
+```
+
+一次跑完全部闸门。判据只有一条：**任何一个闸门 exit 非 0 → 整体 exit 1**。
+
+| 类别 | 查什么 | 失败意味着 |
+|---|---|---|
+| **版本/结构** | `About` / 两个 DLL / 两处源码的版本号，两个部署环境 | 工坊显示 1.5.8、实际跑的是别的 |
+| **部署一致** | 仓库 ↔ 两个部署目录逐文件比对 | 改了仓库没同步过去（这是最容易漏的一步） |
+| **翻译正确** | `DefInjected` 键的 defName 是否悬空/重复、占位符是否对得上、引号是否全角 | 译文静默不生效 —— **`loadErrors` 从不写进 `Player.log`**，日志里一个字都没有 |
+| **加载层** | 语言判定判据表（25 格场景）+ 两份同名语言目录逐文件一致 | 只改了不被加载的那一份（见下） |
+| **卫生** | 工具自身健康度、全仓库 Python 语法、三份文档一致性 | 输出脏、未来升级后崩 |
+
+### 三条必须知道的判据（2026-11-17 这轮补的）
+
+**① 两份同名语言目录，只有一份会被加载**
+
+反编译 1.7.5011.24 的 `Verse.LoadedLanguage` 可见：
+
+```csharp
+// AllDirectories
+dir = <loadFolder>/Languages/<folderName>          // = Prefs.langFolderName
+if (dir.Exists) { yield return dir; continue; }    // 命中就跳过 legacy，永不回退
+dir = <loadFolder>/Languages/<legacyFolderName>    // 去括号后的名字
+if (dir.Exists) yield return dir;
+```
+
+本机 `Prefs.langFolderName = ChineseSimplified (简体中文)` —— 所以**只读带括号那份**，
+`Languages/ChineseSimplified` 在本机永远不会被读到。只改一份 = 改了没效果，
+而且「逐文件 hash 核对」对比的恰好也是那份没改的，照样过。
+闸门：`tools/check-dup-langdirs.py`（主目录 18 个文件 + `v1.7` 66 个文件逐文件 SHA256）。
+
+**② 根目录的键要对**最低版本**负责**
+
+`LoadFolders.xml` 的 `<v1.7><li>/</li><li>v1.7</li></v1.7>` 意味着**根目录同时被三版加载**。
+根目录 `DefInjected` 的 11,283 个键，每一个都要在 **1.5 / 1.6 的 Def 集合**里存在 ——
+否则低版本会逐条报 `Found no … named …`（同样只进 `loadErrors`，日志里看不到）。
+本轮实测：0 悬空。
+
+**③ `DefInjected` 子目录名必须是 Def 类型名**
+
+`GenTypes.GetTypeInAnyAssembly(dirName)` 返回 null 就**整目录丢弃**。
+本轮用 DecompilerServer 对两个 DLL 逐个核过：`OpinionDef_SexPart` / `OpinionDef_Situational` /
+`BodyPartOpinionDef` / `ConclusionOpinionDef` / `InteractionOpinionDef` / `OpinionStartDef` /
+`PersonalReactionDef` —— **1.6 独立版与 1.7 合并版都齐全**（7/7）。
+
+**失败怎么处理**：先看它报的那一行，再**怀疑脚本自己**。本轮闸门有 5 次「报不通过」
+最后查明是判据口径错了（`docs/口径教训-第三轮.md`），照着第一版结论去改会把对的改坏。
+
 > ⚠️ **重要**：它**只是语言包**，本身不含任何游戏内容。
 > 装了原模组（1.7 合并版或 1.6 的原版任选其一）才有文字可显示 —— 单独装它不会报错，但游戏里看不到东西。
 
