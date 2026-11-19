@@ -68,6 +68,14 @@ GATES = {
         # Def 集合里存在。它是 legacy 通道，只在装了 1.5/1.6 独立版 NMM 时才启用，
         # 键找不到会走 skipDef++ 静默跳过 —— 不进 loadErrors、日志里一个字都没有。
         ('OwnInjections 目标可达性', 'tools/check-owninjections-targets.py', [], True),
+        # 2026-11-19 本轮加：模板 §B.13「整列表注入：条数写少一条，就静默丢一条」。
+        # 反编译 Verse.DefInjectionPackage：TryAddFullListInjection → CheckErrors
+        # 只查「key 含点 / 不重复 / 不同时替换整表与单项」，**完全不检查列表长度**
+        # ⇒ 译文少一条 = 直接丢掉末尾几条，日志里没有任何提示。
+        # 原来的 check-owninjections-targets.py 只查「键指向的 defName 存不存在」，
+        # 不查条数 —— 这条静默丢失路径一直没人守。
+        # 实测（2026-11-19）：5,214 个容器全部与原文等长，译少于原 0 条。
+        ('OwnInjections 整列表条数', 'tools/check-list-injection-length.py', [], True),
         # 2026-11-17 本轮加：根目录 DefInjected 的 11,283 条键，在 **1.6 环境**下是否可达。
         # check-definjected-keys.py 用的是单一全库索引（1.7 的 Data+Mods+工坊），
         # 对 1.6 过宽：某个 def 只在「1.7 才有的模组」里时，全库会认为找到了，
