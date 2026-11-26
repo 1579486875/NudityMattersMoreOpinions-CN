@@ -36,7 +36,7 @@
 | 增强界面（硬编码） | **103** 条 | 合并版把文字写在 C# 里，由补丁 DLL 运行时替换 |
 | 残留英文 | **0 条** | — |
 
-> **两个方向的对账**（都能拿脚本复算，见 `docs/审查报告-裸体评价更多看法-第4轮-20161114.md`）：
+> **两个方向的对账**（都能拿脚本复算，见 `文档/审查报告-裸体评价更多看法-第4轮-20161114.md`）：
 > · **正着数**：本包写出了多少条译文 —— 1.7 通道 130,766 ＋ 498 ＋ 1,190；1.6 通道 5,214 个容器 / 125,750 条 ＋ 11,283 条
 > · **倒着数**：原模组需要多少条 —— 5,082 个 `OpinionDef_SexPart` 共 **123,021** 条正文，
 >   与包内键做集合双向差集后 **缺失 0 条、空值 0 条**；注入容器 5,214 个全部与原 def 的列表条数一致
@@ -110,7 +110,7 @@ gh pr    list --repo 1579486875/GNH-LocalFixes --state all
 **别留一堆「已回复但开着」的 issue** —— 后来的人会以为问题还没处理。
 
 回复要**耐心、客气、像人写的**：先谢再答、用他给的数字说话、承认自己那边的错。
-「什么算 AI 味」的对照表和三段示例在 [`docs/维护-对外沟通规范.md`](docs/维护-对外沟通规范.md)。
+「什么算 AI 味」的对照表和三段示例在 [`文档/维护-对外沟通规范.md`](文档/维护-对外沟通规范.md)。
 
 ⚠ 这条不是建议：2026-11-19 有一条 issue 因为「回复了但没关」被用户点名，
 还发现它被提交人点过「重新打开」（`stateReason: REOPENED`），open 状态下很容易让人误解。
@@ -118,7 +118,7 @@ gh pr    list --repo 1579486875/GNH-LocalFixes --state all
 ## ⚠ 收工必跑：一键全量回归
 
 ```bash
-python tools/full-regression.py      # 必须「失败 0」才能发版
+python 工具/full-regression.py      # 必须「失败 0」才能发版
 ```
 
 一次跑完全部闸门。判据只有一条：**任何一个闸门 exit 非 0 → 整体 exit 1**。
@@ -149,7 +149,7 @@ if (dir.Exists) yield return dir;
 本机 `Prefs.langFolderName = ChineseSimplified (简体中文)` —— 所以**只读带括号那份**，
 `Languages/ChineseSimplified` 在本机永远不会被读到。只改一份 = 改了没效果，
 而且「逐文件 hash 核对」对比的恰好也是那份没改的，照样过。
-闸门：`tools/check-dup-langdirs.py`（主目录 18 个文件 + `v1.7` 66 个文件逐文件 SHA256）。
+闸门：`工具/check-dup-langdirs.py`（主目录 18 个文件 + `v1.7` 66 个文件逐文件 SHA256）。
 
 **② 根目录的键要对**最低版本**负责**
 
@@ -166,7 +166,7 @@ if (dir.Exists) yield return dir;
 `PersonalReactionDef` —— **1.6 独立版与 1.7 合并版都齐全**（7/7）。
 
 **失败怎么处理**：先看它报的那一行，再**怀疑脚本自己**。本轮闸门有 5 次「报不通过」
-最后查明是判据口径错了（`docs/口径教训-第三轮.md`），照着第一版结论去改会把对的改坏。
+最后查明是判据口径错了（`文档/口径教训-第三轮.md`），照着第一版结论去改会把对的改坏。
 
 > ⚠️ **重要**：它**只是语言包**，本身不含任何游戏内容。
 > 装了原模组（1.7 合并版或 1.6 的原版任选其一）才有文字可显示 —— 单独装它不会报错，但游戏里看不到东西。
@@ -811,7 +811,7 @@ else if (!isPlaceholder) { fieldNamed.SetValue(obj, value); result2 = true; }   
 仓库自带一个自检工具：
 
 ```powershell
-python tools\verify_patch.py
+python 工具\verify_patch.py
 ```
 
 **不需要准备任何额外文件** —— 它会自己去读游戏目录里的原模组做比对。
@@ -883,7 +883,7 @@ python tools\verify_patch.py
 │   └── NudityMattersMore_opinions.{BodyPart,Conclusion,Interaction}OpinionDef\
 │       NudityMattersMore_opinions.OpinionStartDef\ / PersonalReactionDef\
 │       └── Translations.xml                                生成器模板（2,729 条）
-├── tools\
+├── 工具\
 │   ├── build-patch-dll.ps1                    补丁 DLL 构建脚本
 │   ├── ui-patch-tester\                        DLL 源码 + 离线行为验证器
 │   └── verify_patch.py                        自检工具
@@ -893,7 +893,7 @@ python tools\verify_patch.py
 ```
 
 git 仓库里另有两样**不随 zip 分发**的开发用文件：
-`packing\pack_release.py`（打包脚本）与 `.gitattributes`（字节保真声明）。
+`打包\pack_release.py`（打包脚本）与 `.gitattributes`（字节保真声明）。
 
 ---
 
@@ -952,7 +952,7 @@ MIT License —— 见 [LICENSE](LICENSE)。
 · 627 个「情境看法」的正文全部错位一位。原模组抽正文的逻辑是`Rand.Range(0, texts.Count)` 取下标、再拼 `NMM.Opinion.&lt;defName&gt;.opinionTexts.&lt;num&gt;` 查译文，所以键的下标必须与字段列表一一对应。而这批 Def 并没有父模板，却被当成有继承、统一在前面插了一条占位并整体后移 —— 结果第 0 条永远显示一句跟场景无关的话，其余每条都显示成隔壁那条，每个 Def 的最后一条译文永远抽不到。现已逐个前移复位（16,200 条键重排，两份语言目录同步）。
 · 1.6 下 526 条译文从未加载过。它们指向的 Def 只存在于 1.7 合并版，却放在两个版本共用的根目录里，于是 1.6 每次启动都要逐条报「Found no ThoughtDef named …」；现已移进 v1.7\ 目录，1.6 不再报错、1.7 照常生效。
 · 一处「目录名不是 Def 类型」的翻译目录被游戏整目录丢弃（`LoadedLanguage.LoadData` 解析不到类型就 `continue`）；这种失效**不会出现在 Player.log 里** —— 翻译错误只汇总进「Translation data for language … has N errors」那一行，明细要到游戏内「生成翻译报告」才看得到，所以它一直在悄悄失效。其中 6 条有效译文（拘谨 / 暴露狂 / 视奸狂三个特质的档位名与描述）已按列表句柄写法并入 TraitDef\，这三个特质首次显示中文。
-· 数字全部按 2026-11-15 实测重算，并附了复算脚本 `tools/count-numbers.py`。
+· 数字全部按 2026-11-15 实测重算，并附了复算脚本 `工具/count-numbers.py`。
 
 ### v1.5.6 —— 按「是不是 1.7 环境」区分一条日志级别
 

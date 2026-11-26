@@ -4,9 +4,9 @@ __pycache__/
 *.pyo
 
 # 自检工具运行时可能生成的输出
-tools/backup/
-tools/notes/
-tools/*.log
+工具/backup/
+工具/notes/
+工具/*.log
 
 # 临时文件与系统垃圾
 *.tmp
@@ -20,27 +20,27 @@ desktop.ini
 # （2026-10-11 审计发现：之前没写这几条，跑一次验证器就会把 exe 变成未跟踪文件。）
 bin/
 obj/
-tools/ui-patch-tester/*.exe
-tools/ui-patch-tester/*.pdb
-tools/ui-patch-tester/*.mdb
+工具/ui-patch-tester/*.exe
+工具/ui-patch-tester/*.pdb
+工具/ui-patch-tester/*.mdb
 
 # 打包产物（zip 不入库，通过 GitHub Release 分发）
-packing/*.zip
+打包/*.zip
 
 # 审计/修复过程中产生的临时备份目录，一律不进版本控制
-_backup_*/
-_backup_before_*/
+备份_*/
+备份_before_*/
 
 # 审查/修复期的带时间戳备份（不入库）
-_backup/
+备份/
 
 # 审计过程中的一次性备份与临时诊断脚本（2026-11-15 起）
-docs/_bak_*/
-docs/_*.txt
-tools/_diag_*.py
+文档/_bak_*/
+文档/_*.txt
+工具/_diag_*.py
 
 # 发布包：这些是 pack_release.py / pack-mods 的**产物**，随时可重建，
 # 且加密包每次内容变动就多一个 4 MB blob 进历史（2026-11-16 审计发现 .7z 被跟踪了）。
 # .zip 早就忽略了，.7z 漏了 —— 这里补齐。文件本身留在磁盘上，只是不进版本控制。
-packing/*.7z
-packing/*.zip
+打包/*.7z
+打包/*.zip

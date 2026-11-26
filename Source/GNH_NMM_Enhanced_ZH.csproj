@@ -8,7 +8,7 @@
       两个 DLL 职责不同 —— 一个管 1.6 界面 + 正文注入，一个管 1.7 合并版的增强页。
       分开编，任何一个出问题都不连累另一个。
 
-    ⚠ 源码只有一份：tools\ui-patch-tester\GNH_NMM_Enhanced_ZH.cs，不要放副本。
+    ⚠ 源码只有一份：工具\ui-patch-tester\GNH_NMM_Enhanced_ZH.cs，不要放副本。
   -->
 
   <PropertyGroup>
@@ -40,7 +40,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\tools\ui-patch-tester\GNH_NMM_Enhanced_ZH.cs" Link="GNH_NMM_Enhanced_ZH.cs" />
+    <Compile Include="..\工具\ui-patch-tester\GNH_NMM_Enhanced_ZH.cs" Link="GNH_NMM_Enhanced_ZH.cs" />
   </ItemGroup>
 
   <ItemGroup>

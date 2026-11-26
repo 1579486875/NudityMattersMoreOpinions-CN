@@ -3,10 +3,10 @@
   <!--
     这是「用 .NET SDK 构建补丁 DLL」的替代方式。
 
-    权威构建方式仍是 tools\build-patch-dll.ps1（直接调 VS 的 Roslyn csc.exe），
+    权威构建方式仍是 工具\build-patch-dll.ps1（直接调 VS 的 Roslyn csc.exe），
     本 csproj 只是让没装 Visual Studio 的机器也能编。
 
-    源码只有一份：tools\ui-patch-tester\NMMOpinionsChineseUI.cs + OwnListInjector.cs。
+    源码只有一份：工具\ui-patch-tester\NMMOpinionsChineseUI.cs + OwnListInjector.cs。
     ⚠ 不要在本目录放副本 —— 两份源码会各自漂移。
 
     用法：
@@ -38,8 +38,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\tools\ui-patch-tester\NMMOpinionsChineseUI.cs" Link="NMMOpinionsChineseUI.cs" />
-    <Compile Include="..\tools\ui-patch-tester\OwnListInjector.cs" Link="OwnListInjector.cs" />
+    <Compile Include="..\工具\ui-patch-tester\NMMOpinionsChineseUI.cs" Link="NMMOpinionsChineseUI.cs" />
+    <Compile Include="..\工具\ui-patch-tester\OwnListInjector.cs" Link="OwnListInjector.cs" />
   </ItemGroup>
 
   <ItemGroup>
