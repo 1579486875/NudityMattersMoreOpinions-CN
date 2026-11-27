@@ -17,7 +17,7 @@
          ⚠ 不要改成 net8.0 / net10.0 —— 那样编出来的 dll 引 System.Runtime 10.0.0.0，
             1.6 的 .NET 4.8 里没有这个版本，加载会失败。 -->
     <TargetFramework>net472</TargetFramework>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
     <OutputType>Library</OutputType>
     <AssemblyName>GNH_NMM_Enhanced_ZH</AssemblyName>
     <RootNamespace>GNH.NMM.Combined.ZH</RootNamespace>

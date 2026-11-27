@@ -18,7 +18,7 @@
     <!-- net472：与 1.6（Mono / .NET Framework 4.8）原生兼容，
          1.7（Waylith CLR / .NET 10）也能加载，一份 dll 双版本可用。 -->
     <TargetFramework>net472</TargetFramework>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
     <OutputType>Library</OutputType>
     <AssemblyName>NMMOpinionsChineseUI</AssemblyName>
     <RootNamespace>NMMOpinionsChineseUI</RootNamespace>
